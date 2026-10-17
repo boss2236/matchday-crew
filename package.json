@@ -5,8 +5,11 @@
   "type": "module",
   "license": "MIT",
   "scripts": {
-    "test": "node --test test/",
-    "generate": "node scripts/generate.js"
+    "test": "node --test test/*.test.js",
+    "generate": "node scripts/generate.js",
+    "crew": "node scripts/run-crew.js"
   },
-  "engines": { "node": ">=20" }
+  "engines": {
+    "node": ">=20"
+  }
 }

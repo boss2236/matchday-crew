@@ -15,6 +15,10 @@ A multi-agent AI broadcast crew for synthetic football matches, built for the Mi
 
 Simulator output over many seeds averages about 3 goals, 25 shots and 83% pass accuracy per match. Tests check this.
 
+| Agent crew | `src/agents/crew.js` | Analyst (picks moments), Tactician (explains why, on Microsoft Foundry), Narrator (rewrites per audience: persona, language, favourite club or player), Producer (timed overlay JSON), Recap (full-time story). |
+| Grounding check | `src/agents/evidence.js` | Every number, player name and cited event in AI output must come from the moment's evidence pack. Failures get one retry with feedback, then a deterministic template. |
+| Foundry client | `src/ai/llm.js` | Plain `fetch` client for a Foundry model deployment. |
+
 ## Run
 
 ```bash
@@ -22,8 +26,17 @@ npm test                    # 12 tests, no dependencies
 node scripts/generate.js 4  # write 4 matches to data/
 ```
 
-Needs Node 20 or newer.
+### With Microsoft Foundry
+
+```bash
+cp .env.example .env        # then fill in endpoint, deployment name and key
+npm run crew                # replay a match through the agent crew
+```
+
+Without a `.env` the crew runs on templates, so everything works offline.
+
+Needs Node 20.12 or newer.
 
 ## Coming next
 
-AI agents on Microsoft Foundry (Analyst, Tactician, Narrator, Producer, Recap), a live second-screen web app with persona, club, player and language modes, and deployment on Azure.
+A live second-screen web app with persona, club, player and language modes, and deployment on Azure.
