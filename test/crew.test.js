@@ -2,7 +2,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { simulateMatch } from '../src/engine/simulate.js';
 import { Crew } from '../src/agents/crew.js';
-import { chatUrl } from '../src/ai/llm.js';
+import { ChatClient, chatUrl, llmConfigFromEnv, retryDelayMs } from '../src/ai/llm.js';
 
 async function run(llm, seed = 7) {
   const match = simulateMatch({ seed });
@@ -62,4 +62,39 @@ test('chat URL works for resource, OpenAI and project endpoints', () => {
     chatUrl({ endpoint: 'https://x-resource.openai.azure.com/openai/v1', deployment: 'gpt-4o-mini' }),
     'https://x-resource.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-10-21',
   );
+});
+
+test('provider config picks Foundry first, then any OpenAI-compatible server', () => {
+  const foundry = { FOUNDRY_ENDPOINT: 'https://x-resource.services.ai.azure.com', FOUNDRY_DEPLOYMENT: 'gpt-4o-mini', FOUNDRY_API_KEY: 'k' };
+  assert.equal(llmConfigFromEnv({}), null);
+  assert.equal(llmConfigFromEnv({ ...foundry, LLM_MODEL: 'phi4-mini' }).provider, 'foundry');
+  assert.deepEqual(llmConfigFromEnv(foundry).headers, { 'api-key': 'k' });
+
+  const local = llmConfigFromEnv({ LLM_MODEL: 'phi4-mini' });
+  assert.equal(local.url, 'http://localhost:11434/v1/chat/completions');
+  assert.deepEqual(local.body, { model: 'phi4-mini' });
+  assert.deepEqual(local.headers, {});
+
+  const hosted = llmConfigFromEnv({ ...foundry, LLM_PROVIDER: 'openai', LLM_MODEL: 'm', LLM_BASE_URL: 'https://api.example.com/v1/', LLM_API_KEY: 's' });
+  assert.equal(hosted.url, 'https://api.example.com/v1/chat/completions');
+  assert.deepEqual(hosted.headers, { authorization: 'Bearer s' });
+});
+
+test('rate limits are retried after the delay the server asks for', async () => {
+  const replies = [
+    { ok: false, status: 429, headers: new Headers(), text: async () => 'Please try again in 877.5ms.' },
+    { ok: true, status: 200, json: async () => ({ choices: [{ message: { content: '{"ok":true}' } }] }) },
+  ];
+  const waits = [];
+  const config = llmConfigFromEnv({ LLM_MODEL: 'm', LLM_REASONING_EFFORT: 'low', LLM_MAX_TOKENS: '1500' });
+  let sent;
+  const client = new ChatClient(config, {
+    fetchImpl: async (_url, init) => ((sent = JSON.parse(init.body)), replies.shift()),
+    sleep: async (ms) => waits.push(ms),
+  });
+  assert.deepEqual(await client.json({ system: 's', user: 'u' }), { ok: true });
+  assert.deepEqual(waits, [1128]);
+  assert.equal(sent.reasoning_effort, 'low');
+  assert.equal(sent.max_tokens, 1500);
+  assert.equal(retryDelayMs({ headers: new Headers({ 'retry-after': '3' }) }), 3250);
 });

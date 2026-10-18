@@ -3,12 +3,13 @@
 //   node scripts/run-crew.js [seed] [home] [away]
 //
 // Put FOUNDRY_ENDPOINT, FOUNDRY_DEPLOYMENT and FOUNDRY_API_KEY in a .env file
-// (see .env.example) to use your Microsoft Foundry model. Without them the
-// crew runs on deterministic templates.
+// (see .env.example) to use your Microsoft Foundry model, or LLM_MODEL for any
+// OpenAI-compatible server such as a local Ollama. Without either the crew
+// runs on deterministic templates.
 import { existsSync, writeFileSync, mkdirSync } from 'node:fs';
 import { simulateMatch } from '../src/engine/simulate.js';
 import { Crew } from '../src/agents/crew.js';
-import { FoundryChat, foundryConfigFromEnv } from '../src/ai/llm.js';
+import { ChatClient, llmConfigFromEnv } from '../src/ai/llm.js';
 
 if (existsSync('.env')) process.loadEnvFile('.env');
 
@@ -17,9 +18,9 @@ const home = process.argv[3] ?? 'harbour';
 const away = process.argv[4] ?? 'ironvale';
 const languages = (process.env.CREW_LANGUAGES ?? 'English').split(',').map((s) => s.trim());
 
-const config = foundryConfigFromEnv();
-const llm = config ? new FoundryChat(config) : null;
-console.log(llm ? `Using Microsoft Foundry deployment "${config.deployment}"` : 'No Foundry config found, using templates');
+const config = llmConfigFromEnv();
+const llm = config ? new ChatClient(config) : null;
+console.log(llm ? `Using ${config.label}` : 'No model configured, using templates');
 
 const audiences = [
   { id: 'analyst', persona: 'analyst', language: languages[0] },
