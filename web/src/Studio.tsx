@@ -1,6 +1,8 @@
 // Studio mode: the crew's overlays on a transparent 16:9 page, for a browser
 // source in streaming or production software (OBS, vMix) laid over a live match
 // feed. Same options as the main app's deep links, plus:
+//   bg=pitch              draw the synthetic match itself behind the overlays,
+//                         so every line matches what is on screen (self-contained)
 //   bg=green|transparent  chroma green for tools without transparency
 //   voice=1               read lines aloud
 // Example: /studio?match=0&language=Arabic&persona=casual&speed=20
@@ -9,6 +11,7 @@ import { Badge, Button, Text } from '@fluentui/react-components';
 import type { AppConfig, Persona } from '../../src/types.ts';
 import { useLiveMatch } from './useLiveMatch.ts';
 import { OverlayLayer, useOverlays } from './components/Overlays.tsx';
+import { PitchSvg } from './components/Pitch.tsx';
 import { useVoice } from './useVoice.ts';
 
 export default function Studio() {
@@ -17,11 +20,12 @@ export default function Studio() {
   const language = q.get('language') ?? 'English';
   const live = useLiveMatch();
   const items = useMemo(() => live.items.filter((i) => i.audience === persona), [live.items, persona]);
-  const { active } = useOverlays(items);
+  const { active, highlight } = useOverlays(items);
+  const bg = q.get('bg');
   const [azureVoice, setAzureVoice] = useState(false);
 
   useEffect(() => {
-    document.documentElement.dataset.view = q.get('bg') === 'green' ? 'studio-green' : 'studio';
+    document.documentElement.dataset.view = bg === 'green' ? 'studio-green' : bg === 'pitch' ? 'studio-pitch' : 'studio';
     fetch('api/config')
       .then((r) => r.json())
       .then((config: AppConfig) => {
@@ -43,19 +47,26 @@ export default function Studio() {
   // OBS's browser source exposes window.obsstudio. Anywhere else, show how to
   // use the page and a checkerboard so the transparent background is obvious.
   const inObs = 'obsstudio' in window;
-  const preview = !inObs && q.get('bg') !== 'green';
+  const preview = !inObs && bg !== 'green' && bg !== 'pitch';
 
   const m = live.snap?.momentum ?? 0;
   return (
     <div className={`studio${preview ? ' studio-preview' : ''}`}>
+      {bg === 'pitch' && (
+        <div className="studio-stage">
+          <PitchSvg meta={live.meta} trail={live.trail} events={live.events} highlight={highlight} />
+          <span className="studio-label">Synthetic match · live data feed</span>
+        </div>
+      )}
       {preview && (
         <div className="studio-help" role="note">
           <Text weight="semibold" block>
             Studio mode: transparent overlay for broadcast software
           </Text>
           <Text size={200} block>
-            In OBS: Sources → + → Browser → paste this page's URL, width 1920, height 1080. The checkerboard is transparent there and this note is hidden. Add
-            &amp;bg=green for a green screen, &amp;voice=1 for commentary.
+            In OBS: Sources → + → Browser → paste this page's URL, width 1920, height 1080. The checkerboard is transparent there and this note is hidden. The lines
+            describe this page's synthetic match, so they will not match other footage: add &amp;bg=pitch to draw the match itself, &amp;bg=green for a green screen,
+            &amp;voice=1 for commentary.
           </Text>
         </div>
       )}

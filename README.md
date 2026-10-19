@@ -40,7 +40,7 @@ How reliable is it? [docs/QUALITY.md](docs/QUALITY.md) measures it: share of lin
 
 - **Analyst / casual fan** switch on the same live match, **16 languages**, favourite club, **player focus** and **follow-a-metric** modes.
 - **Voice commentary**: every line read aloud with Azure AI Speech neural voices (browser voice when no key is set).
-- **Studio mode** (`/studio`): the overlays and a scorebug on a transparent 16:9 page, for a browser source in OBS or vMix over a live match feed. `?bg=green` for chroma key, `&voice=1` to read lines aloud.
+- **Studio mode** (`/studio`): a full-screen broadcast view, with the scorebug and the crew's overlays. `bg=pitch` (the default from the app) draws the synthetic match itself behind the graphics, so every line matches the picture. Without it the page is transparent, for a browser source in OBS or vMix over a video feed whose events come from the same data feed; `bg=green` gives a chroma-key background and `voice=1` reads lines aloud. The lines describe the synthetic match: they do not watch video.
 - **First-visit tour**: new visitors are offered an interactive Fluent teaching-popover tour (or skip it); replay it any time from the header.
 - **Evidence** under every line, and a live agent trace.
 
