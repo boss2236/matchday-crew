@@ -49,9 +49,11 @@ export function useBrowserVoices(): number {
 
 export type VoiceSupport = { ok: true; engine: 'azure' | 'browser'; voice?: string } | { ok: false; reason: string };
 
+// Azure AI Speech when the server has a key; the browser voice (if any) is the
+// fallback when Azure cannot be reached.
 export function voiceSupport(language: string, azure: boolean): VoiceSupport {
-  if (azure) return { ok: true, engine: 'azure' };
   const voice = browserVoiceFor(language);
+  if (azure) return { ok: true, engine: 'azure', ...(voice && { voice: voice.name }) };
   if (voice) return { ok: true, engine: 'browser', voice: voice.name };
   return {
     ok: false,
@@ -64,7 +66,7 @@ export function voiceSupport(language: string, azure: boolean): VoiceSupport {
 // every line a deadline based on its length.
 const live = new Set<SpeechSynthesisUtterance>();
 
-function speakInBrowser(text: string, language: string): Promise<'ok' | 'blocked'> {
+function speakInBrowser(text: string, language: string): Promise<Spoken> {
   return new Promise((resolve) => {
     const u = new SpeechSynthesisUtterance(text);
     u.lang = BCP47[language] ?? 'en-GB';
@@ -72,7 +74,7 @@ function speakInBrowser(text: string, language: string): Promise<'ok' | 'blocked
     if (voice) u.voice = voice;
     u.rate = 1.05;
     live.add(u);
-    const done = (result: 'ok' | 'blocked') => {
+    const done = (result: Spoken) => {
       clearTimeout(deadline);
       live.delete(u);
       resolve(result);
@@ -87,17 +89,31 @@ function speakInBrowser(text: string, language: string): Promise<'ok' | 'blocked
   });
 }
 
-function speakWithAzure(text: string, language: string, audio: HTMLAudioElement): Promise<'ok' | 'blocked'> {
+type Spoken = 'ok' | 'blocked' | 'failed';
+
+// 'failed' means Azure could not deliver audio (network, server error, quota):
+// the caller reads the line with the browser voice instead.
+function speakWithAzure(text: string, language: string, audio: HTMLAudioElement): Promise<Spoken> {
   return new Promise((resolve) => {
-    const deadline = window.setTimeout(() => resolve('ok'), 8000 + text.length * 90);
-    const done = (r: 'ok' | 'blocked') => {
+    let started = false;
+    // No audio within 6 s counts as a failure; once playing, allow the line's length.
+    let deadline = window.setTimeout(() => done('failed'), 6000);
+    function done(r: Spoken) {
       clearTimeout(deadline);
+      audio.onended = audio.onerror = audio.onplaying = null;
+      if (r === 'failed') audio.pause();
       resolve(r);
+    }
+    audio.onplaying = () => {
+      if (started) return;
+      started = true;
+      clearTimeout(deadline);
+      deadline = window.setTimeout(() => done('ok'), 4000 + text.length * 90);
     };
-    audio.src = `api/speak?${new URLSearchParams({ text, language })}`;
     audio.onended = () => done('ok');
-    audio.onerror = () => done('ok');
-    audio.play().catch((err: unknown) => done(err instanceof DOMException && err.name === 'NotAllowedError' ? 'blocked' : 'ok'));
+    audio.onerror = () => done(started ? 'ok' : 'failed');
+    audio.src = `api/speak?${new URLSearchParams({ text, language })}`;
+    audio.play().catch((err: unknown) => done(err instanceof DOMException && err.name === 'NotAllowedError' ? 'blocked' : 'failed'));
   });
 }
 
@@ -111,6 +127,8 @@ export function useVoice({ enabled, items, language, azure }: { enabled: boolean
   const settings = useRef({ enabled, language, azure });
   settings.current = { enabled, language, azure };
   const [blocked, setBlocked] = useState(false);
+  const [usingFallback, setUsingFallback] = useState(false);
+  const azureDownUntil = useRef(0);
   const pump = useRef<() => void>(() => {});
 
   pump.current = async () => {
@@ -119,13 +137,21 @@ export function useVoice({ enabled, items, language, azure }: { enabled: boolean
     if (!text || !settings.current.enabled) return;
     busy.current = true;
     const { language: lang, azure: useAzure } = settings.current;
-    let result: 'ok' | 'blocked' = 'ok';
-    if (useAzure) {
+    let result: Spoken = 'ok';
+    const tryAzure = useAzure && Date.now() >= azureDownUntil.current;
+    if (tryAzure) {
       audio.current ??= new Audio();
       result = await speakWithAzure(text, lang, audio.current);
-    } else if (browserVoiceFor(lang)) {
+      if (result === 'failed') {
+        // Azure unreachable: use the browser voice for a minute, then try again.
+        azureDownUntil.current = Date.now() + 60_000;
+        setUsingFallback(true);
+      } else if (result === 'ok') setUsingFallback(false);
+    }
+    if ((!tryAzure || result === 'failed') && browserVoiceFor(lang)) {
       result = await speakInBrowser(text, lang);
     }
+    if (result === 'failed') result = 'ok'; // no voice could read it: move on
     busy.current = false;
     if (result === 'blocked') {
       setBlocked(true); // keep the line queued until the visitor allows sound
@@ -169,5 +195,5 @@ export function useVoice({ enabled, items, language, azure }: { enabled: boolean
     setBlocked(false);
     void pump.current();
   };
-  return { blocked, unblock };
+  return { blocked, unblock, usingFallback };
 }

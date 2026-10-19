@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
-import { Badge, Button, Caption1, MessageBar, MessageBarBody, Spinner, Switch, Tab, TabList, Text, Title3, Tooltip } from '@fluentui/react-components';
+import { Badge, Button, MessageBar, MessageBarBody, Spinner, Switch, Tab, TabList, Text, Title3, Tooltip } from '@fluentui/react-components';
 import { Info16Regular, SportSoccer24Filled, Video20Regular, WeatherMoon20Regular, WeatherSunny20Regular, QuestionCircle20Regular } from '@fluentui/react-icons';
 import type { AppConfig, Persona } from '../../src/types.ts';
 import type { ThemeName } from './main.tsx';
@@ -35,7 +35,7 @@ export default function App({ theme, onToggleTheme }: { theme: ThemeName; onTogg
   const voiceLanguage = settings?.language ?? 'English';
   useBrowserVoices();
   const support = voiceSupport(voiceLanguage, Boolean(config?.speech));
-  const { blocked: soundBlocked, unblock } = useVoice({ enabled: voice && support.ok, items: visible, language: voiceLanguage, azure: Boolean(config?.speech) });
+  const { blocked: soundBlocked, unblock, usingFallback } = useVoice({ enabled: voice && support.ok, items: visible, language: voiceLanguage, azure: Boolean(config?.speech) });
 
   const studioUrl = () => {
     const p = new URLSearchParams({ persona, speed: settings?.speed && settings.speed !== '0' ? settings.speed : '20', language: settings?.language ?? 'English' });
@@ -122,8 +122,10 @@ export default function App({ theme, onToggleTheme }: { theme: ThemeName; onTogg
                 content={
                   support.ok
                     ? support.engine === 'azure'
-                      ? `Reads each line aloud in ${voiceLanguage} with an Azure AI Speech neural voice`
-                      : `Reads each line aloud in ${voiceLanguage} with your browser voice (${support.voice})`
+                      ? `Reads each line aloud in ${voiceLanguage} with an Azure AI Speech neural voice.${
+                          support.voice ? ` If Azure cannot be reached, your browser voice (${support.voice}) takes over.` : ''
+                        }${usingFallback ? ' Azure is unreachable right now, so the browser voice is reading.' : ''}`
+                      : `Reads each line aloud in ${voiceLanguage} with your browser voice (${support.voice}). Add an Azure AI Speech key on the server for neural voices.`
                     : support.reason
                 }
                 relationship="description"
@@ -139,9 +141,6 @@ export default function App({ theme, onToggleTheme }: { theme: ThemeName; onTogg
                   onChange={(_, d) => setVoice(d.checked)}
                 />
               </Tooltip>
-              <Caption1 className="muted voice-note">
-                {!support.ok ? `No ${voiceLanguage} voice in this browser` : support.engine === 'azure' ? 'Azure AI Speech' : `Browser voice · ${support.voice}`}
-              </Caption1>
               {voice && soundBlocked && (
                 <Button size="small" appearance="primary" onClick={unblock}>
                   Allow sound
