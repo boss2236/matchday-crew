@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
-import { Badge, Button, MessageBar, MessageBarBody, Spinner, Switch, Tab, TabList, Text, Title3, Tooltip } from '@fluentui/react-components';
+import { Badge, Button, Caption1, MessageBar, MessageBarBody, Spinner, Switch, Tab, TabList, Text, Title3, Tooltip } from '@fluentui/react-components';
 import { Info16Regular, SportSoccer24Filled, Video20Regular, WeatherMoon20Regular, WeatherSunny20Regular, QuestionCircle20Regular } from '@fluentui/react-icons';
 import type { AppConfig, Persona } from '../../src/types.ts';
 import type { ThemeName } from './main.tsx';
@@ -13,7 +13,7 @@ import Feed from './components/Feed.tsx';
 import CrewTrace from './components/CrewTrace.tsx';
 import { FocusCard, MetricCard } from './components/FocusCards.tsx';
 import { TourOffer, TourSteps, useTour } from './components/Tour.tsx';
-import { browserVoiceAvailable, useVoice } from './useVoice.ts';
+import { useBrowserVoices, useVoice, voiceSupport } from './useVoice.ts';
 
 export default function App({ theme, onToggleTheme }: { theme: ThemeName; onToggleTheme: () => void }) {
   const [config, setConfig] = useState<AppConfig | null>(null);
@@ -32,7 +32,10 @@ export default function App({ theme, onToggleTheme }: { theme: ThemeName; onTogg
   }, []);
 
   const visible = useMemo(() => live.items.filter((i) => i.audience === persona), [live.items, persona]);
-  useVoice({ enabled: voice, items: visible, language: settings?.language ?? 'English', azure: Boolean(config?.speech) });
+  const voiceLanguage = settings?.language ?? 'English';
+  useBrowserVoices();
+  const support = voiceSupport(voiceLanguage, Boolean(config?.speech));
+  const { blocked: soundBlocked, unblock } = useVoice({ enabled: voice && support.ok, items: visible, language: voiceLanguage, azure: Boolean(config?.speech) });
 
   const studioUrl = () => {
     const p = new URLSearchParams({ persona, speed: settings?.speed && settings.speed !== '0' ? settings.speed : '20', language: settings?.language ?? 'English' });
@@ -91,6 +94,14 @@ export default function App({ theme, onToggleTheme }: { theme: ThemeName; onTogg
       )}
       {!config && !configError && <Spinner className="gutter" label="Loading" />}
       {config && <Controls config={config} running={live.status === 'live'} hasRun={live.runId > 0} onKickOff={kickOff} />}
+      {config && config.build !== __SERVER_BUILD__ && (
+        <MessageBar intent="warning" className="gutter">
+          <MessageBarBody>
+            The running server is from different code than this page, so some features may not work. Restart the server (stop it, then <code>npm start</code>), or rebuild
+            the page with <code>npm run build</code>.
+          </MessageBarBody>
+        </MessageBar>
+      )}
       {live.status === 'error' && (
         <MessageBar intent="warning" className="gutter">
           <MessageBarBody>{live.error}</MessageBarBody>
@@ -106,23 +117,37 @@ export default function App({ theme, onToggleTheme }: { theme: ThemeName; onTogg
               <Tab value="analyst">Analyst</Tab>
               <Tab value="casual">Casual fan</Tab>
             </TabList>
-            <Tooltip
-              content={config?.speech ? 'Read each line aloud with Azure AI Speech neural voices' : 'Read each line aloud with your browser voice'}
-              relationship="description"
-            >
-              <span data-tour="voice">
-              <Switch
-                label={
-                  <span className="voice-label">
-                    Voice commentary <Info16Regular />
-                  </span>
+            <div className="voice-box" data-tour="voice">
+              <Tooltip
+                content={
+                  support.ok
+                    ? support.engine === 'azure'
+                      ? `Reads each line aloud in ${voiceLanguage} with an Azure AI Speech neural voice`
+                      : `Reads each line aloud in ${voiceLanguage} with your browser voice (${support.voice})`
+                    : support.reason
                 }
-                checked={voice}
-                disabled={!config?.speech && !browserVoiceAvailable}
-                onChange={(_, d) => setVoice(d.checked)}
-              />
-              </span>
-            </Tooltip>
+                relationship="description"
+              >
+                <Switch
+                  label={
+                    <span className="voice-label">
+                      Voice commentary <Info16Regular />
+                    </span>
+                  }
+                  checked={voice && support.ok}
+                  disabled={!support.ok}
+                  onChange={(_, d) => setVoice(d.checked)}
+                />
+              </Tooltip>
+              <Caption1 className="muted voice-note">
+                {!support.ok ? `No ${voiceLanguage} voice in this browser` : support.engine === 'azure' ? 'Azure AI Speech' : `Browser voice · ${support.voice}`}
+              </Caption1>
+              {voice && soundBlocked && (
+                <Button size="small" appearance="primary" onClick={unblock}>
+                  Allow sound
+                </Button>
+              )}
+            </div>
           </div>
           <Pitch
             key={`${live.runId}-${persona}`}

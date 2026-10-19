@@ -24,6 +24,9 @@ import type { AppConfig, JsonModel, MetricId, TextTranslator } from '../types.ts
 import type { Speech } from '../ai/speech.ts';
 import { MAX_SPEECH_CHARS } from '../ai/speech.ts';
 import { agentCard, handleA2A } from '../a2a/agent.ts';
+import { sourceFingerprint } from '../version.ts';
+
+const BUILD = sourceFingerprint();
 import type { A2ARequest } from '../a2a/agent.ts';
 
 // The Fluent UI app, built by `npm run build` into web/dist.
@@ -261,6 +264,7 @@ export function createApp({
           model: modelLabel,
           translator: Boolean(translator),
           speech: Boolean(speech),
+          build: BUILD,
           synthetic: true,
         };
         return json(res, 200, config);

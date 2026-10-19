@@ -5,7 +5,7 @@
 //   voice=1               read lines aloud
 // Example: /studio?match=0&language=Arabic&persona=casual&speed=20
 import { useEffect, useMemo, useState } from 'react';
-import { Badge, Text } from '@fluentui/react-components';
+import { Badge, Button, Text } from '@fluentui/react-components';
 import type { AppConfig, Persona } from '../../src/types.ts';
 import { useLiveMatch } from './useLiveMatch.ts';
 import { OverlayLayer, useOverlays } from './components/Overlays.tsx';
@@ -39,11 +39,31 @@ export default function Studio() {
     // Start once on load.
   }, []);
 
-  useVoice({ enabled: q.get('voice') === '1', items, language, azure: azureVoice });
+  const { blocked, unblock } = useVoice({ enabled: q.get('voice') === '1', items, language, azure: azureVoice });
+  // OBS's browser source exposes window.obsstudio. Anywhere else, show how to
+  // use the page and a checkerboard so the transparent background is obvious.
+  const inObs = 'obsstudio' in window;
+  const preview = !inObs && q.get('bg') !== 'green';
 
   const m = live.snap?.momentum ?? 0;
   return (
-    <div className="studio">
+    <div className={`studio${preview ? ' studio-preview' : ''}`}>
+      {preview && (
+        <div className="studio-help" role="note">
+          <Text weight="semibold" block>
+            Studio mode: transparent overlay for broadcast software
+          </Text>
+          <Text size={200} block>
+            In OBS: Sources → + → Browser → paste this page's URL, width 1920, height 1080. The checkerboard is transparent there and this note is hidden. Add
+            &amp;bg=green for a green screen, &amp;voice=1 for commentary.
+          </Text>
+        </div>
+      )}
+      {blocked && (
+        <Button className="studio-sound" appearance="primary" onClick={unblock}>
+          Click to allow sound
+        </Button>
+      )}
       {live.meta && (
         <div className="scorebug" aria-live="polite">
           <span className="sb-team" style={{ borderColor: live.meta.home.colors.primary }}>
