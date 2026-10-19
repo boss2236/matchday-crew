@@ -33,7 +33,7 @@ interface Props {
 export default function Feed({ items, status, summary }: Props) {
   const newestFirst = [...items].reverse();
   return (
-    <Card className="feed-panel">
+    <Card className="feed-panel" data-tour="feed">
       <CardHeader
         image={<PeopleTeam20Regular />}
         header={

@@ -17,7 +17,7 @@ const COLOR: Record<TraceStatus, BadgeProps['color']> = {
 
 export default function CrewTrace({ trace, counts }: { trace: TraceRow[]; counts: Partial<Record<TraceStatus, number>> }) {
   return (
-    <Card className="crew-panel">
+    <Card className="crew-panel" data-tour="crew">
       <CardHeader
         image={<Bot20Regular />}
         header={<Text weight="semibold">Behind the broadcast</Text>}

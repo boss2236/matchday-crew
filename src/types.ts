@@ -334,6 +334,7 @@ export interface AppConfig {
   metrics: { id: MetricId; label: string }[];
   model: string | null;
   translator: boolean;
+  speech: boolean;
   synthetic: true;
 }
 

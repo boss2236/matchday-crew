@@ -92,6 +92,8 @@ Best category fit: **Best Multi-Agent System** (distinct agents, shared state, h
 |---|---|---|
 | TypeScript | Whole codebase in strict mode; Node runs it directly, tsc checks it in CI | Done |
 | Fluent UI React v9 | Second-screen app built on Microsoft's design system, light and dark | Done |
+| Azure AI Speech | Voice commentary, neural voice per language | Built and contract-tested; needs a free F0 key (browser voice until then) |
+| Agent2Agent (A2A) | Agent card and JSON-RPC endpoint for other agents | Built and tested |
 | Azure AI Translator | Translator agent localises fallback lines into the viewer's language | Live: free F0 resource in Qatar Central, tested end to end (38 of 40 lines translated in a Spanish match, about 2,000 characters) |
 | Azure Container Apps | Hosting with scale to zero, keys as secrets, health probes | Deploy script and workflow ready; needs a subscription |
 | Microsoft Foundry | Model provider, used first when configured | Built and contract-tested against a mock Azure OpenAI API; account has no pay-per-token model |
@@ -103,6 +105,8 @@ Best category fit: **Best Multi-Agent System** (distinct agents, shared state, h
 ## Risks and open work, by priority
 
 1. **Deploy to Azure Container Apps** for the judges' link (docs/AZURE.md, step 2). The Translator is already live.
-2. **Pitch and video** (under 2 minutes). Suggested flow: kick off a match, switch Analyst/Casual on the same goal, switch to Arabic, open Behind the broadcast to show a rejected line, show player focus, end on the recap.
-3. **Rotate the test API keys** after testing. Keys live only in `.env`, which git ignores.
-4. Optional: a Foundry chat model if any account allows one.
+2. **Optional: Azure Speech key** (docs/AZURE.md, step 1b) for neural voices in the video.
+3. **Finish pre-generation** with `npm run prewarm` over the next day or two: Groq's free tier allows about 200,000 tokens a day per model, and a full match and language uses about 110,000. Then `npm run quality` and commit `data/llm-cache` and `docs/QUALITY.md`.
+4. **Pitch and video** (under 2 minutes). Suggested flow: first-visit tour prompt, kick off, switch Analyst/Casual on the same goal, switch to Arabic with voice on, open Behind the broadcast to show a rejected line, show Studio mode over a pitch video, end on the recap.
+5. **Rotate the test API keys** after testing. Keys live only in `.env`, which git ignores.
+6. Optional: a Foundry chat model if any account allows one.

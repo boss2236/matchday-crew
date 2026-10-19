@@ -21,6 +21,10 @@ import { LiveSession, audiencesFor } from '../live/session.ts';
 import type { Emit } from '../live/session.ts';
 import { METRICS, isMetricId, metricIds } from '../stats/metrics.ts';
 import type { AppConfig, JsonModel, MetricId, TextTranslator } from '../types.ts';
+import type { Speech } from '../ai/speech.ts';
+import { MAX_SPEECH_CHARS } from '../ai/speech.ts';
+import { agentCard, handleA2A } from '../a2a/agent.ts';
+import type { A2ARequest } from '../a2a/agent.ts';
 
 // The Fluent UI app, built by `npm run build` into web/dist.
 export const DEFAULT_PUBLIC_DIR = new URL('../../web/dist/', import.meta.url).pathname;
@@ -69,9 +73,68 @@ export function parseLiveQuery(searchParams: URLSearchParams): LiveQuery {
   return { seed, home, away, speed: num('speed', 20, 0, 600), language, favouriteClub, favouritePlayer, focusMetric };
 }
 
+// Fixed-window rate limit per client and route. Small and in-memory: one
+// replica, scale-to-zero hosting.
+export class RateLimiter {
+  limits: Record<string, number>;
+  windowMs: number;
+  hits: Map<string, { count: number; resetAt: number }>;
+  constructor(limits: Record<string, number>, windowMs = 60_000) {
+    this.limits = limits;
+    this.windowMs = windowMs;
+    this.hits = new Map();
+  }
+
+  // Seconds to wait, or 0 when the request may go ahead.
+  check(route: string, client: string, now = Date.now()): number {
+    const limit = this.limits[route];
+    if (!limit) return 0;
+    const key = `${route} ${client}`;
+    let entry = this.hits.get(key);
+    if (!entry || now >= entry.resetAt) {
+      entry = { count: 0, resetAt: now + this.windowMs };
+      this.hits.set(key, entry);
+      if (this.hits.size > 10_000) for (const [k, v] of this.hits) if (now >= v.resetAt) this.hits.delete(k);
+    }
+    entry.count += 1;
+    return entry.count > limit ? Math.ceil((entry.resetAt - now) / 1000) : 0;
+  }
+}
+
+export const DEFAULT_LIMITS = { '/api/live': 12, '/api/speak': 90, '/a2a': 30 };
+
+const SECURITY_HEADERS = {
+  'content-security-policy':
+    "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; media-src 'self' blob:; font-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'",
+  'x-content-type-options': 'nosniff',
+  'referrer-policy': 'no-referrer',
+  'permissions-policy': 'camera=(), microphone=(), geolocation=()',
+  'cross-origin-opener-policy': 'same-origin',
+};
+
+// Behind Azure Container Apps the client address is the first X-Forwarded-For hop.
+function clientOf(req: IncomingMessage): string {
+  const forwarded = req.headers['x-forwarded-for'];
+  const first = (Array.isArray(forwarded) ? forwarded[0] : forwarded)?.split(',')[0]?.trim();
+  return first || req.socket.remoteAddress || 'unknown';
+}
+
+async function readBody(req: IncomingMessage, max = 64 * 1024): Promise<string> {
+  let size = 0;
+  const chunks: Buffer[] = [];
+  for await (const chunk of req) {
+    size += (chunk as Buffer).length;
+    if (size > max) throw Object.assign(new Error('request body too large'), { status: 413 });
+    chunks.push(chunk as Buffer);
+  }
+  return Buffer.concat(chunks).toString('utf8');
+}
+
 export interface AppOptions {
   llm?: (JsonModel & { stats?: unknown }) | null;
   translator?: TextTranslator | null;
+  speech?: Speech | null;
+  limits?: Record<string, number>;
   modelLabel?: string | null;
   maxSessions?: number;
   publicDir?: string;
@@ -85,8 +148,11 @@ export function createApp({
   modelLabel = null,
   maxSessions = Number(process.env.MAX_LIVE_SESSIONS) || 4,
   publicDir = DEFAULT_PUBLIC_DIR,
+  speech = null,
+  limits = DEFAULT_LIMITS,
 }: AppOptions = {}): App {
   const sessions = new Set<LiveSession>();
+  const limiter = new RateLimiter(limits);
 
   const json = (res: ServerResponse, status: number, body: unknown) => {
     res.writeHead(status, { 'content-type': 'application/json', 'cache-control': 'no-store' });
@@ -94,7 +160,9 @@ export function createApp({
   };
 
   async function serveStatic(res: ServerResponse, pathname: string) {
-    const rel = normalize(pathname === '/' ? '/index.html' : pathname).replace(/^(\.\.[/\\])+/, '');
+    // App routes that the single-page app handles itself.
+    const page = pathname === '/' || pathname === '/studio';
+    const rel = normalize(page ? '/index.html' : pathname).replace(/^(\.\.[/\\])+/, '');
     const root = publicDir.endsWith('/') ? publicDir : `${publicDir}/`;
     const file = join(root, rel);
     if (!file.startsWith(root)) return json(res, 404, { error: 'not found' });
@@ -141,12 +209,48 @@ export function createApp({
       });
   }
 
+  async function speak(res: ServerResponse, url: URL) {
+    if (!speech) return json(res, 404, { error: 'speech not configured' });
+    const text = (url.searchParams.get('text') ?? '').trim();
+    if (!text || text.length > MAX_SPEECH_CHARS) return json(res, 400, { error: `text is required, at most ${MAX_SPEECH_CHARS} characters` });
+    const language = url.searchParams.get('language') ?? 'English';
+    const audio = await speech.synthesize(text, languageCode(language) ? language : 'English');
+    res.writeHead(200, { 'content-type': 'audio/mpeg', 'cache-control': 'private, max-age=3600', 'content-length': audio.length });
+    res.end(audio);
+  }
+
+  async function a2a(req: IncomingMessage, res: ServerResponse) {
+    let body: A2ARequest;
+    try {
+      body = JSON.parse(await readBody(req)) as A2ARequest;
+    } catch (err) {
+      const status = (err as { status?: number }).status ?? 400;
+      return json(res, status, { jsonrpc: '2.0', id: null, error: { code: -32700, message: status === 413 ? 'request too large' : 'parse error' } });
+    }
+    return json(res, 200, await handleA2A(body, { llm, translator }));
+  }
+
   const server = createServer(async (req, res) => {
     const url = new URL(req.url ?? '/', 'http://localhost');
+    for (const [k, v] of Object.entries(SECURITY_HEADERS)) res.setHeader(k, v);
     try {
+      const wait = limiter.check(url.pathname, clientOf(req));
+      if (wait) {
+        res.setHeader('retry-after', String(wait));
+        return json(res, 429, { error: 'too many requests, slow down', retryAfterSeconds: wait });
+      }
+      if (url.pathname === '/a2a') {
+        if (req.method !== 'POST') return json(res, 405, { error: 'POST JSON-RPC here' });
+        return await a2a(req, res);
+      }
       if (req.method !== 'GET' && req.method !== 'HEAD') return json(res, 405, { error: 'method not allowed' });
+      if (url.pathname === '/.well-known/agent-card.json' || url.pathname === '/.well-known/agent.json') {
+        const proto = (req.headers['x-forwarded-proto'] as string | undefined)?.split(',')[0] ?? 'http';
+        return json(res, 200, agentCard(`${proto}://${req.headers.host ?? 'localhost'}`));
+      }
+      if (url.pathname === '/api/speak') return await speak(res, url);
       if (url.pathname === '/healthz') {
-        return json(res, 200, { ok: true, model: modelLabel, translator: Boolean(translator), cache: llm?.stats ?? null, liveSessions: sessions.size });
+        return json(res, 200, { ok: true, model: modelLabel, translator: Boolean(translator), speech: Boolean(speech), cache: llm?.stats ?? null, liveSessions: sessions.size });
       }
       if (url.pathname === '/api/config') {
         const config: AppConfig = {
@@ -156,6 +260,7 @@ export function createApp({
           metrics: metricIds.map((id) => ({ id, label: METRICS[id].label })),
           model: modelLabel,
           translator: Boolean(translator),
+          speech: Boolean(speech),
           synthetic: true,
         };
         return json(res, 200, config);

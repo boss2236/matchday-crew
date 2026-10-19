@@ -15,7 +15,9 @@
     "generate": "node scripts/generate.ts",
     "crew": "node scripts/run-crew.ts",
     "mcp": "node scripts/mcp.ts",
-    "ui-check": "node scripts/ui-check.ts"
+    "ui-check": "node scripts/ui-check.ts",
+    "prewarm": "node scripts/prewarm.ts",
+    "quality": "node scripts/quality.ts"
   },
   "engines": {
     "node": ">=22.18"

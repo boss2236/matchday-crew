@@ -74,7 +74,7 @@ export default function Controls({ config, running, hasRun, onKickOff }: Control
   });
 
   return (
-    <Card className="controls gutter" appearance="filled-alternative">
+    <Card className="controls gutter" appearance="filled-alternative" data-tour="controls">
       <form onSubmit={submit} className="controls-grid" aria-label="Match setup">
         <Field label="Match">
           <Select
@@ -143,7 +143,7 @@ export default function Controls({ config, running, hasRun, onKickOff }: Control
             ))}
           </Select>
         </Field>
-        <Button id="start" type="submit" appearance="primary" size="large" icon={hasRun ? <ArrowClockwise24Regular /> : <Play24Filled />} className="kickoff">
+        <Button id="start" data-tour="kickoff" type="submit" appearance="primary" size="large" icon={hasRun ? <ArrowClockwise24Regular /> : <Play24Filled />} className="kickoff">
           {hasRun ? (running ? 'Restart' : 'Watch again') : 'Kick off'}
         </Button>
       </form>

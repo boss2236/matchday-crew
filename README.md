@@ -34,6 +34,16 @@ The hackathon asks for one pipeline with five stages. Here is where each one liv
 
 They share one match state, hand work along a queue that never blocks the match clock, and recover from failures (rate limits, dropped connections, bad answers, outages) without the broadcast stopping. The app's *Behind the broadcast* panel shows every agent decision live.
 
+How reliable is it? [docs/QUALITY.md](docs/QUALITY.md) measures it: share of lines written by the model, first-try and retry acceptance, rejection reasons, latency, and a tamper test that corrupts real model lines (shifted numbers, km for metres, invented players, fake citations) to see how many the fact checker catches.
+
+### In the app
+
+- **Analyst / casual fan** switch on the same live match, **16 languages**, favourite club, **player focus** and **follow-a-metric** modes.
+- **Voice commentary**: every line read aloud with Azure AI Speech neural voices (browser voice when no key is set).
+- **Studio mode** (`/studio`): the overlays and a scorebug on a transparent 16:9 page, for a browser source in OBS or vMix over a live match feed. `?bg=green` for chroma key, `&voice=1` to read lines aloud.
+- **First-visit tour**: new visitors are offered an interactive Fluent teaching-popover tour (or skip it); replay it any time from the header.
+- **Evidence** under every line, and a live agent trace.
+
 ```mermaid
 flowchart LR
   S[Simulator] -->|events| M[MatchState<br/>stats, moments]
@@ -55,11 +65,13 @@ flowchart LR
 | **TypeScript** | Whole codebase, strict mode. The server runs `.ts` directly on Node 22.18+ (type stripping), `tsc` type-checks everything in CI |
 | **Fluent UI React v9** | Second-screen app: Microsoft's design system, light and dark themes |
 | **Azure AI Translator** | Translator agent for any line that falls back to English |
+| **Azure AI Speech** | Voice commentary with a neural voice per language |
 | **Azure Container Apps** | Hosting: scale to zero, keys as secrets, health probes (`infra/deploy.sh`) |
 | **Microsoft Foundry** | Compatible model provider: set three values and it is used first. Request format covered by contract tests |
 | **GitHub Actions** | Type-check, tests on Node 22 and 24, web build, container build and smoke test, headless UI check, image publish |
 | **GitHub Container Registry** | Free image hosting for the Azure deploy |
 | **Model Context Protocol** | MCP server so GitHub Copilot agent mode can query matches and ask the crew to explain moments |
+| **Agent2Agent (A2A)** | Agent card at `/.well-known/agent-card.json` and a JSON-RPC endpoint (`/a2a`) so other agents can call the crew's skills |
 
 ## Run it
 
@@ -69,7 +81,7 @@ Needs Node 22.18 or newer.
 npm install          # TypeScript compiler (dev only; the server has no runtime dependencies)
 npm run build        # build the Fluent UI app into web/dist
 npm start            # http://localhost:3000
-npm run check        # strict type-check of server and web app, then 45 tests
+npm run check        # strict type-check of server and web app, then 52 tests
 ```
 
 Pick a match, language, favourite club, player and a metric to follow, press **Kick off**, and switch between **Analyst** and **Casual fan** at any time. Deep links work for demos, e.g. `/?match=0&speed=60&language=Arabic&club=harbour&player=harbour-9&metric=xg&persona=casual&autostart=1`.
@@ -100,8 +112,14 @@ npm run crew                      # replay a match in the terminal
 CREW_LANGUAGES=English,Arabic npm run crew
 npm run generate 4                # write synthetic matches to data/
 npm run mcp                       # MCP server (stdio)
+npm run prewarm                   # pre-generate model lines for the published matches (resumable)
+npm run quality                   # write docs/QUALITY.md
 npm run ui-check -- "http://localhost:3000/?autostart=1&speed=60" out/ui 20   # headless UI check
 ```
+
+**Production basics.** Per-client rate limits on the live stream, speech and A2A endpoints, a strict Content-Security-Policy and other security headers, health probes, request size limits, and keys only in environment variables or Container Apps secrets.
+
+**A2A.** Other agents discover the crew at `/.well-known/agent-card.json` and call `message/send` on `/a2a` with a data part such as `{"skill": "explain_moment", "arguments": {"seed": 7, "momentId": "m004", "persona": "casual", "language": "Arabic"}}`, or plain text.
 
 **MCP server.** `scripts/mcp.ts` exposes the match intelligence to any MCP client: `list_fixtures`, `match_summary`, `key_moments`, `player_stats` and `explain_moment` (the crew explains a moment for a persona and language, fact-checked). Arguments are validated. `.vscode/mcp.json` registers it for GitHub Copilot agent mode in VS Code.
 
@@ -118,12 +136,13 @@ src/types.ts    shared domain types (server, tests and web app)
 src/engine/     simulator and fictional clubs
 src/stats/      live match state, stats, key moments, followed metrics
 src/agents/     the crew, evidence packs and verifier, templates
-src/ai/         model client (Foundry or OpenAI-compatible), response cache, Azure Translator
+src/ai/         model client (Foundry or OpenAI-compatible), response cache, Azure Translator, Azure Speech
 src/live/       live session: paced events, crew queue, fixtures
 src/server/     HTTP server and SSE stream
 src/mcp/        MCP tools and stdio server
+src/a2a/        Agent2Agent card and JSON-RPC endpoint
 web/            Fluent UI React app (Vite, TypeScript)
-scripts/        start, crew runner, dataset generator, MCP, UI check
+scripts/        start, crew runner, dataset generator, MCP, pre-generation, quality report, UI check
 infra/          Azure Container Apps deploy script
 data/           published synthetic matches and the response cache
 test/           unit, contract (mock Foundry, OpenAI and Translator) and server tests

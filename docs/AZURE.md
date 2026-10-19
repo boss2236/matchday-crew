@@ -31,6 +31,21 @@ Leave the endpoint alone; the app uses the global one by default.
 
 Check it works: `npm start`, open <http://localhost:3000>, the footer should say *Translator: Azure AI Translator*. Pick **Arabic**, kick off, and look for lines tagged **Translated** in the feed.
 
+## 1b. Azure AI Speech (free tier F0, optional)
+
+Voice commentary with a neural voice per language. Without it the app uses the browser's built-in voice, so this is optional but sounds much better in the demo video. Free tier: 500,000 characters a month.
+
+1. Portal top bar: search **Speech services** → **Create**.
+2. Resource group: the same one as the Translator (e.g. `test_group`). Region: the same as the Translator (e.g. `Qatar Central`). Name: anything unique. Pricing tier: **Free F0**.
+3. **Review + create** → **Create** → **Go to resource** → **Keys and Endpoint**. Copy:
+
+| Portal field | Put it in `.env` as |
+|---|---|
+| KEY 1 | `AZURE_SPEECH_KEY=` |
+| Location/Region | `AZURE_SPEECH_REGION=` |
+
+Check it works: restart `npm start`; the startup line says *Voice: Azure AI Speech*. Turn on **Voice commentary** in the app.
+
 ## 2. Host the app on Azure Container Apps (free monthly grant)
 
 This gives the judges a public link. Container Apps on the consumption plan has a monthly free grant (vCPU-seconds, memory and requests) that a demo stays well inside, and the app scales to zero when nobody is watching.
@@ -49,6 +64,8 @@ git clone https://github.com/boss2236/matchday-crew && cd matchday-crew
 export LLM_API_KEY=gsk_...              # Groq key (or skip and use Foundry below)
 export AZURE_TRANSLATOR_KEY=...         # from step 1
 export AZURE_TRANSLATOR_REGION=westeurope
+export AZURE_SPEECH_KEY=...             # optional, from step 1b
+export AZURE_SPEECH_REGION=westeurope
 export LOCATION=westeurope              # a region your subscription allows
 bash infra/deploy.sh
 ```
@@ -87,5 +104,6 @@ Foundry takes priority over `LLM_*` when all three are set. The request format i
 |---|---|---|
 | Translator KEY 1 | Translator resource → Keys and Endpoint | `AZURE_TRANSLATOR_KEY` |
 | Translator region | same page | `AZURE_TRANSLATOR_REGION` |
+| Speech KEY 1 and region (optional) | Speech resource → Keys and Endpoint | `AZURE_SPEECH_KEY`, `AZURE_SPEECH_REGION` |
 | Container app URL | output of `infra/deploy.sh` | Submission testing link |
 | Foundry endpoint, deployment, key (optional) | ai.azure.com → Models + endpoints | `FOUNDRY_*` |

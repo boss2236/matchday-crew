@@ -40,7 +40,8 @@ plain() { local var=$1; if [[ -n "${!var:-}" ]]; then envs+=("$var=${!var}"); fi
 secret llm-api-key LLM_API_KEY
 secret foundry-api-key FOUNDRY_API_KEY
 secret translator-key AZURE_TRANSLATOR_KEY
-for v in LLM_BASE_URL LLM_MODEL LLM_REASONING_EFFORT LLM_MAX_TOKENS LLM_RETRIES FOUNDRY_ENDPOINT FOUNDRY_DEPLOYMENT AZURE_TRANSLATOR_REGION; do plain "$v"; done
+secret speech-key AZURE_SPEECH_KEY
+for v in LLM_BASE_URL LLM_MODEL LLM_REASONING_EFFORT LLM_MAX_TOKENS LLM_RETRIES FOUNDRY_ENDPOINT FOUNDRY_DEPLOYMENT AZURE_TRANSLATOR_REGION AZURE_SPEECH_REGION; do plain "$v"; done
 if [[ -n "${LLM_API_KEY:-}" && -z "${LLM_MODEL:-}" ]]; then
   envs+=("LLM_BASE_URL=https://api.groq.com/openai/v1" "LLM_MODEL=openai/gpt-oss-120b" "LLM_REASONING_EFFORT=low" "LLM_MAX_TOKENS=1500" "LLM_RETRIES=10")
 fi

@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
-import { Badge, Button, MessageBar, MessageBarBody, Spinner, Tab, TabList, Text, Title3, Tooltip } from '@fluentui/react-components';
-import { SportSoccer24Filled, WeatherMoon20Regular, WeatherSunny20Regular } from '@fluentui/react-icons';
+import { Badge, Button, MessageBar, MessageBarBody, Spinner, Switch, Tab, TabList, Text, Title3, Tooltip } from '@fluentui/react-components';
+import { Info16Regular, SportSoccer24Filled, Video20Regular, WeatherMoon20Regular, WeatherSunny20Regular, QuestionCircle20Regular } from '@fluentui/react-icons';
 import type { AppConfig, Persona } from '../../src/types.ts';
 import type { ThemeName } from './main.tsx';
 import { useLiveMatch } from './useLiveMatch.ts';
@@ -12,6 +12,8 @@ import Stats from './components/Stats.tsx';
 import Feed from './components/Feed.tsx';
 import CrewTrace from './components/CrewTrace.tsx';
 import { FocusCard, MetricCard } from './components/FocusCards.tsx';
+import { TourOffer, TourSteps, useTour } from './components/Tour.tsx';
+import { browserVoiceAvailable, useVoice } from './useVoice.ts';
 
 export default function App({ theme, onToggleTheme }: { theme: ThemeName; onToggleTheme: () => void }) {
   const [config, setConfig] = useState<AppConfig | null>(null);
@@ -19,6 +21,8 @@ export default function App({ theme, onToggleTheme }: { theme: ThemeName; onTogg
   const [persona, setPersona] = useState<Persona>(() => (new URLSearchParams(location.search).get('persona') === 'casual' ? 'casual' : 'analyst'));
   const [settings, setSettings] = useState<Settings | null>(null);
   const live = useLiveMatch();
+  const [voice, setVoice] = useState(false);
+  const tour = useTour(new URLSearchParams(location.search).get('autostart') === '1');
 
   useEffect(() => {
     fetch('api/config')
@@ -28,6 +32,18 @@ export default function App({ theme, onToggleTheme }: { theme: ThemeName; onTogg
   }, []);
 
   const visible = useMemo(() => live.items.filter((i) => i.audience === persona), [live.items, persona]);
+  useVoice({ enabled: voice, items: visible, language: settings?.language ?? 'English', azure: Boolean(config?.speech) });
+
+  const studioUrl = () => {
+    const p = new URLSearchParams({ persona, speed: settings?.speed && settings.speed !== '0' ? settings.speed : '20', language: settings?.language ?? 'English' });
+    const index = config && settings ? config.fixtures.findIndex((f) => f.seed === settings.fixture.seed) : 0;
+    p.set('match', String(Math.max(0, index)));
+    if (settings?.club) p.set('club', settings.club);
+    if (settings?.player) p.set('player', settings.player);
+    if (settings?.metric) p.set('metric', settings.metric);
+    if (voice) p.set('voice', '1');
+    return `studio?${p}`;
+  };
 
   const kickOff = (s: Settings) => {
     setSettings(s);
@@ -54,6 +70,14 @@ export default function App({ theme, onToggleTheme }: { theme: ThemeName; onTogg
           <Tooltip content="Every club, player and match here is made up" relationship="description">
             <Badge appearance="tint" color="warning">Synthetic data</Badge>
           </Tooltip>
+          <Tooltip content="Overlays on a transparent page for streaming software" relationship="description">
+            <Button as="a" href={studioUrl()} target="_blank" rel="noopener" appearance="subtle" icon={<Video20Regular />} data-tour="studio">
+              Studio mode
+            </Button>
+          </Tooltip>
+          <Tooltip content="Take the tour" relationship="label">
+            <Button appearance="subtle" icon={<QuestionCircle20Regular />} onClick={tour.start} />
+          </Tooltip>
           <Tooltip content={theme === 'dark' ? 'Light theme' : 'Dark theme'} relationship="label">
             <Button appearance="subtle" icon={theme === 'dark' ? <WeatherSunny20Regular /> : <WeatherMoon20Regular />} onClick={onToggleTheme} />
           </Tooltip>
@@ -77,10 +101,29 @@ export default function App({ theme, onToggleTheme }: { theme: ThemeName; onTogg
 
       <main className="layout">
         <section className="stage" aria-label="Match view">
-          <TabList selectedValue={persona} onTabSelect={(_, d) => setPersona(d.value as Persona)} aria-label="Who is watching" className="persona">
-            <Tab value="analyst">Analyst</Tab>
-            <Tab value="casual">Casual fan</Tab>
-          </TabList>
+          <div className="stage-bar">
+            <TabList selectedValue={persona} onTabSelect={(_, d) => setPersona(d.value as Persona)} aria-label="Who is watching" className="persona" data-tour="persona">
+              <Tab value="analyst">Analyst</Tab>
+              <Tab value="casual">Casual fan</Tab>
+            </TabList>
+            <Tooltip
+              content={config?.speech ? 'Read each line aloud with Azure AI Speech neural voices' : 'Read each line aloud with your browser voice'}
+              relationship="description"
+            >
+              <span data-tour="voice">
+              <Switch
+                label={
+                  <span className="voice-label">
+                    Voice commentary <Info16Regular />
+                  </span>
+                }
+                checked={voice}
+                disabled={!config?.speech && !browserVoiceAvailable}
+                onChange={(_, d) => setVoice(d.checked)}
+              />
+              </span>
+            </Tooltip>
+          </div>
           <Pitch
             key={`${live.runId}-${persona}`}
             meta={live.meta}
@@ -106,6 +149,9 @@ export default function App({ theme, onToggleTheme }: { theme: ThemeName; onTogg
           <CrewTrace trace={live.trace} counts={live.counts} />
         </aside>
       </main>
+
+      <TourOffer open={tour.offer} onStart={tour.start} onSkip={tour.skip} />
+      {tour.step >= 0 && <TourSteps step={tour.step} setStep={tour.setStep} onFinish={tour.finish} />}
 
       <footer className="foot">
         <Text size={200}>

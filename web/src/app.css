@@ -656,3 +656,135 @@ html[data-theme='light'] body {
   white-space: nowrap;
   flex: none;
 }
+
+/* Stage bar: persona tabs and voice switch */
+.stage-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.voice-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* Tour: the part being explained is outlined */
+.tour-target {
+  outline: 3px solid var(--colorBrandStroke1);
+  outline-offset: 4px;
+  border-radius: var(--borderRadiusLarge);
+  transition: outline-color 0.2s ease;
+}
+.tour-surface {
+  max-width: 340px;
+}
+
+/* Studio mode: transparent 16:9 page for a browser source over a match feed */
+html[data-view='studio'],
+html[data-view='studio'] body {
+  background: transparent !important;
+}
+html[data-view='studio-green'],
+html[data-view='studio-green'] body {
+  background: #00b140 !important;
+}
+.studio {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  font-family: var(--fontFamilyBase);
+  color: var(--colorNeutralForeground1);
+}
+.studio .overlay-layer {
+  position: absolute;
+  inset: 0;
+  display: block;
+  padding: 0;
+  background: transparent;
+}
+.studio .ov {
+  font-size: 1.15em;
+}
+.studio .ov.lower_third {
+  left: 4%;
+  bottom: 7%;
+  max-width: 44%;
+}
+.studio .ov.side_panel {
+  right: 3%;
+  top: 14%;
+}
+.studio .ov.pitch {
+  right: 3%;
+  bottom: 7%;
+  max-width: 34%;
+}
+.studio .ov.full_screen {
+  inset: 14% 18%;
+}
+.scorebug {
+  position: absolute;
+  top: 3.5%;
+  left: 3%;
+  display: flex;
+  align-items: stretch;
+  gap: 0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: var(--shadow28);
+  background: color-mix(in srgb, #0b0d12 88%, transparent);
+  color: #fff;
+  font-weight: 700;
+  font-size: 22px;
+  font-variant-numeric: tabular-nums;
+  position: absolute;
+}
+.scorebug > span {
+  padding: 6px 12px;
+  display: flex;
+  align-items: center;
+}
+.sb-team {
+  border-bottom: 4px solid;
+  letter-spacing: 0.04em;
+}
+.sb-score {
+  background: #fff;
+  color: #0b0d12;
+  gap: 4px;
+}
+.sb-clock {
+  color: #38e08c;
+  font-size: 18px;
+}
+.sb-momentum {
+  position: absolute !important;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 3px;
+  padding: 0 !important;
+  background: rgba(255, 255, 255, 0.15);
+}
+.sb-momentum span {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+.studio-end {
+  position: absolute;
+  top: 4%;
+  right: 3%;
+}
+@media (max-width: 960px) {
+  .studio .overlay-layer {
+    position: absolute;
+    display: block;
+  }
+  .studio .ov {
+    position: absolute;
+  }
+}

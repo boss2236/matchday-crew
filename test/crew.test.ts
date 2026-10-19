@@ -182,3 +182,26 @@ test('numbers are read in other scripts and decimal styles', async () => {
   assert.deepEqual(extractNumbers('٣ تمريرات و ۴ تسديدات'), [3, 4]);
   assert.deepEqual(extractNumbers('Score 2-1, xG 1.15'), [2, 1, 1.15]);
 });
+
+test('units: distances are metres, so a bare km is rejected but km/h is fine', async () => {
+  const { unitProblems } = await import('../src/agents/evidence.ts');
+  assert.deepEqual(unitProblems('After an 8.7 km carry'), ['distance 8.7 km should be metres']);
+  assert.deepEqual(unitProblems('بعد اندفاع لمسافة 8.7 كم'), ['distance 8.7 km should be metres']);
+  assert.deepEqual(unitProblems('a 96.1 km/h shot'), []);
+  assert.deepEqual(unitProblems('بسرعة 96.1 كم/س'), []);
+  assert.deepEqual(unitProblems('32 km per hour, 45.1 m pass'), []);
+  assert.deepEqual(unitProblems('١٢ كم'), ['distance 12 km should be metres']);
+});
+
+test('decimals must match the evidence at the precision written', async () => {
+  const { verify } = await import('../src/agents/evidence.ts');
+  const { MatchState } = await import('../src/stats/matchState.ts');
+  const state = new MatchState(simulateMatch({ seed: 7 }).meta);
+  const pack = { moment: { id: 'm1', type: 'goal', data: { xg: 0.188, minute: 37 } }, events: [{ id: 'e0001' }], match: {} } as unknown as EvidencePack;
+  const ok = (text: string) => verify({ text, cites: ['e0001'] }, pack, state).ok;
+  assert.ok(ok('xG 0.188 in minute 37.'));
+  assert.ok(ok('xG 0.19, about 19%, rounded 0.2.'), 'rounded forms of an evidence value pass');
+  assert.ok(!ok('Minute 37.3.'), 'a decimal does not pass on the strength of a whole number');
+  assert.ok(!ok('xG 0.45.'), 'an invented small decimal no longer rounds to 0 and passes');
+  assert.ok(!ok('Minute 40.'));
+});

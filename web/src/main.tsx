@@ -2,6 +2,7 @@ import { StrictMode, useEffect, useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import { FluentProvider, webDarkTheme, webLightTheme } from '@fluentui/react-components';
 import App from './App.tsx';
+import Studio from './Studio.tsx';
 import './app.css';
 
 export type ThemeName = 'dark' | 'light';
@@ -13,6 +14,8 @@ function readTheme(): ThemeName {
     return 'dark';
   }
 }
+
+const isStudio = location.pathname.replace(/\/+$/, '').endsWith('/studio');
 
 function Root() {
   const [theme, setTheme] = useState(readTheme);
@@ -28,9 +31,13 @@ function Root() {
     // Style an inner wrapper, not the provider: Fluent copies the provider's
     // className onto its portal mount nodes (tooltips), which would then cover the page.
     <FluentProvider theme={theme === 'dark' ? webDarkTheme : webLightTheme}>
-      <div className="app-root">
-        <App theme={theme} onToggleTheme={() => setTheme((t) => (t === 'dark' ? 'light' : 'dark'))} />
-      </div>
+      {isStudio ? (
+        <Studio />
+      ) : (
+        <div className="app-root">
+          <App theme={theme} onToggleTheme={() => setTheme((t) => (t === 'dark' ? 'light' : 'dark'))} />
+        </div>
+      )}
     </FluentProvider>
   );
 }

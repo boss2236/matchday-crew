@@ -153,6 +153,7 @@ function addNumber(set: Set<string>, n: number): void {
   set.add(String(n));
   set.add(String(Math.round(n)));
   set.add(String(Math.round(n * 10) / 10));
+  set.add(String(Math.round(n * 100) / 100));
   // xG 0.31 is commonly written as 31%.
   if (n > 0 && n < 1) {
     set.add(String(Math.round(n * 100)));
@@ -172,6 +173,17 @@ export function normalizeNumerals(text: unknown): string {
 
 export function extractNumbers(text: unknown): number[] {
   return (normalizeNumerals(text).match(/\d+(?:\.\d+)?/g) || []).map(Number);
+}
+
+// Distances in the data are metres and speeds are km/h. A bare "km" (or the
+// Arabic "كم" without "/س") turns a 8.7 m carry into 8.7 km, so it is rejected.
+// Reads the same numeral styles as extractNumbers.
+const KM_NOT_SPEED = /(\d+(?:\.\d+)?)\s*(?:km|kilomet(?:re|er)s?|كم|كيلومترات?|كيلومتر)(?!\s*(?:\/|per\b|an hour|ph\b|\/h|\/س|في الساعة))/gi;
+
+export function unitProblems(text: unknown): string[] {
+  const problems: string[] = [];
+  for (const m of normalizeNumerals(text).matchAll(KM_NOT_SPEED)) problems.push(`distance ${m[1]} km should be metres`);
+  return problems;
 }
 
 // Numbers that are always fine: small counts and the standard match length.
@@ -202,9 +214,13 @@ export function verify(
       problems.push(`missing ${field}`);
       continue;
     }
+    problems.push(...unitProblems(text));
     for (const n of extractNumbers(text)) {
+      // Whole numbers may be a rounded evidence value (pack values are added
+      // rounded); a decimal must match an evidence value at the precision written,
+      // so 37.3 cannot pass on the strength of a 37, nor 0.45 on a 0.
       const s = String(n);
-      if (!ALWAYS_OK.has(s) && !nums.has(s) && !nums.has(String(Math.round(n)))) problems.push(`number ${s} is not in the evidence`);
+      if (!ALWAYS_OK.has(s) && !nums.has(s)) problems.push(`number ${s} is not in the evidence`);
     }
     for (const name of knownNames) {
       if (text.includes(name) && !packText.includes(name)) problems.push(`player ${name} is not in the evidence`);

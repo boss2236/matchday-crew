@@ -14,7 +14,7 @@ export default function Scoreboard({ meta, snap, clock }: Props) {
   const homeColor = meta?.home.colors.primary ?? 'var(--colorBrandBackground)';
   const awayColor = meta?.away.colors.primary ?? 'var(--colorPaletteDarkOrangeBackground3)';
   return (
-    <Card className="scoreboard gutter" aria-live="polite">
+    <Card className="scoreboard gutter" aria-live="polite" data-tour="scoreboard">
       <div className="score-row">
         <div className="team">
           <span className="swatch" style={{ background: homeColor }} />
