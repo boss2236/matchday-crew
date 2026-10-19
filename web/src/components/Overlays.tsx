@@ -1,5 +1,5 @@
 // Broadcast overlays: each aired item shows for its duration in the screen
-// position the Producer agent chose. Shared by the main app and Studio mode.
+// position the Producer agent chose. Shared by the main app and the broadcast view.
 import { useEffect, useRef, useState } from 'react';
 import { Badge, Caption1, Text } from '@fluentui/react-components';
 import type { FeedItem } from '../../../src/types.ts';

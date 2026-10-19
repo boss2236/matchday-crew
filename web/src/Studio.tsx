@@ -1,9 +1,9 @@
-// Studio mode: the crew's overlays on a transparent 16:9 page, for a browser
-// source in streaming or production software (OBS, vMix) laid over a live match
-// feed. Same options as the main app's deep links, plus:
-//   bg=pitch              draw the synthetic match itself behind the overlays,
-//                         so every line matches what is on screen (self-contained)
-//   bg=green|transparent  chroma green for tools without transparency
+// Broadcast view: what a viewer at home sees. The live (synthetic) match drawn
+// full-screen with a scorebug and the crew's graphics, no controls. Same
+// options as the main app's deep links, plus:
+//   bg=transparent        only the graphics, for layering in broadcast software
+//                         (OBS, vMix) over a video whose events come from the same feed
+//   bg=green              the graphics on chroma green, for tools without transparency
 //   voice=1               read lines aloud
 // Example: /studio?match=0&language=Arabic&persona=casual&speed=20
 import { useEffect, useMemo, useState } from 'react';
@@ -21,7 +21,8 @@ export default function Studio() {
   const live = useLiveMatch();
   const items = useMemo(() => live.items.filter((i) => i.audience === persona), [live.items, persona]);
   const { active, highlight } = useOverlays(items);
-  const bg = q.get('bg');
+  // The match picture is the default; transparent and green are opt-in.
+  const bg = q.get('bg') === 'transparent' || q.get('bg') === 'green' ? q.get('bg') : 'pitch';
   const [azureVoice, setAzureVoice] = useState(false);
 
   useEffect(() => {
@@ -61,11 +62,11 @@ export default function Studio() {
       {preview && (
         <div className="studio-help" role="note">
           <Text weight="semibold" block>
-            Studio mode: transparent overlay for broadcast software
+            Transparent graphics for broadcast software
           </Text>
           <Text size={200} block>
             In OBS: Sources → + → Browser → paste this page's URL, width 1920, height 1080. The checkerboard is transparent there and this note is hidden. The lines
-            describe this page's synthetic match, so they will not match other footage: add &amp;bg=pitch to draw the match itself, &amp;bg=green for a green screen,
+            describe this page's synthetic match, so they will not match other footage: remove bg=transparent to see the match itself, &amp;bg=green for a green screen,
             &amp;voice=1 for commentary.
           </Text>
         </div>

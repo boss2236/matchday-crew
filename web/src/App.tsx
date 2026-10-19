@@ -38,7 +38,7 @@ export default function App({ theme, onToggleTheme }: { theme: ThemeName; onTogg
   const { blocked: soundBlocked, unblock, usingFallback } = useVoice({ enabled: voice && support.ok, items: visible, language: voiceLanguage, azure: Boolean(config?.speech) });
 
   const studioUrl = () => {
-    const p = new URLSearchParams({ bg: 'pitch', persona, speed: settings?.speed && settings.speed !== '0' ? settings.speed : '20', language: settings?.language ?? 'English' });
+    const p = new URLSearchParams({ persona, speed: settings?.speed && settings.speed !== '0' ? settings.speed : '20', language: settings?.language ?? 'English' });
     const index = config && settings ? config.fixtures.findIndex((f) => f.seed === settings.fixture.seed) : 0;
     p.set('match', String(Math.max(0, index)));
     if (settings?.club) p.set('club', settings.club);
@@ -73,9 +73,9 @@ export default function App({ theme, onToggleTheme }: { theme: ThemeName; onTogg
           <Tooltip content="Every club, player and match here is made up" relationship="description">
             <Badge appearance="tint" color="warning">Synthetic data</Badge>
           </Tooltip>
-          <Tooltip content="Full-screen broadcast view: the live match with the crew's overlays and a scorebug. Remove bg=pitch from the address for a transparent overlay to use in OBS." relationship="description">
+          <Tooltip content="What a viewer at home sees: the live match full-screen with the crew's graphics and a scorebug, no controls. Opens in a new tab." relationship="description">
             <Button as="a" href={studioUrl()} target="_blank" rel="noopener" appearance="subtle" icon={<Video20Regular />} data-tour="studio">
-              Studio mode
+              Broadcast view
             </Button>
           </Tooltip>
           <Tooltip content="Take the tour" relationship="label">

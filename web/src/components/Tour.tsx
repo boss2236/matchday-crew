@@ -35,7 +35,7 @@ export const STEPS: TourStep[] = [
   { target: 'voice', title: 'Voice commentary', body: 'Turn this on to hear every line read aloud in your language.' },
   { target: 'feed', title: 'The story so far', body: 'Every line the AI writes. Open Evidence to see the exact match events it is based on. Badges show whether the AI wrote it.' },
   { target: 'crew', title: 'Behind the broadcast', body: 'Each AI agent at work. Lines that state anything not in the match data are rejected before they air.' },
-  { target: 'studio', title: 'Studio mode', body: 'Opens the overlays on a transparent page, ready to put over a live match feed in streaming software.' },
+  { target: 'studio', title: 'Broadcast view', body: 'What a viewer at home would see: the match full-screen with the crew’s graphics and a scorebug, and no controls.' },
 ];
 
 const STORAGE_KEY = 'mc-tour';
@@ -56,7 +56,7 @@ function remember(value: 'done' | 'skipped') {
   }
 }
 
-// suppress: do not offer the tour (deep links that autostart a match, Studio mode).
+// suppress: do not offer the tour (deep links that autostart a match, broadcast view).
 export function useTour(suppress: boolean) {
   const [offer, setOffer] = useState(false);
   const [step, setStep] = useState(-1);

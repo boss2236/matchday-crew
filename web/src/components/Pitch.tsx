@@ -11,7 +11,7 @@ interface Props {
 }
 
 // The animated pitch: ball, recent passes and shots, and the events the current
-// overlay cites. Used by the main app and by Studio mode's pitch background.
+// overlay cites. Used by the main app and by the broadcast view.
 export function PitchSvg({ meta, trail, events, highlight }: { meta: LiveMeta | null; trail: LiveEvent[]; events: Map<string, LiveEvent>; highlight: FeedItem | null }) {
   const side = (team: string | null) => (team === meta?.home.id ? 'home' : 'away');
   const last = trail[trail.length - 1];
