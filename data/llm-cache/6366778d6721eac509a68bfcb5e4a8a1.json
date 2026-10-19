@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Northgate’s Momentum Plunges",
+  "text": "Gabe Moreno’s intercepted 63.1‑m pass (e1229) drops Northgate’s momentum to –27, spikes chaos to 46, while Ironvale’s possession edge widens to 53%.",
+  "cites": [
+   "e1229"
+  ]
+ }
+}

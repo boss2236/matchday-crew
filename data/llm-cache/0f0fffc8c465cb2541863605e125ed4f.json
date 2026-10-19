@@ -1,0 +1,11 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour City pierde el ritmo",
+  "text": "A los 38 minutos el impulso está bajo, con pases fallidos de Demir y Pike que dejan el balón fuera, mostrando la presión sin resultados.",
+  "cites": [
+   "e0695",
+   "e0734"
+  ]
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Ironvale’s 3‑shot pressing burst",
+  "text": "Three interceptions in 120 seconds by Zeke Mbeki shift control to Ironvale, boosting momentum to 33 while Northgate’s chaos rises to 47. The rapid regain of possession underpins Ironvale’s deep‑block counter strategy.",
+  "tags": [
+   "pressing",
+   "momentum",
+   "control"
+  ],
+  "cites": [
+   "e0900",
+   "e0928",
+   "e0935"
+  ]
+ }
+}

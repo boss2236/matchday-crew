@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Northgate’s 26‑point swing",
+  "text": "At 42:22 Northgate’s patient passes flip the game, turning Ironvale’s block into a wild counter‑attack. 26‑point swing, chaos 54, all from a slick Northgate run.",
+  "cites": [
+   "e0782",
+   "e0789",
+   "e0790",
+   "e0791",
+   "e0792",
+   "e0793"
+  ]
+ }
+}

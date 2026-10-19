@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Ivo Petrov domina presión Ironvale",
+  "text": "Con 1.68 xG y PPDA 9.9, Petrov recupera el balón 3 veces en 120s, cambiando el momentum a 16 pese a 53 caos. Intercepciones de e1263, e1276, e1297.",
+  "cites": [
+   "e1263",
+   "e1276",
+   "e1297"
+  ]
+ }
+}

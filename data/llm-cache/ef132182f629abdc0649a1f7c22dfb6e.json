@@ -1,0 +1,19 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Northgate’s Momentum Collapse",
+  "text": "After a series of high‑speed passes and an intercepted long ball, Northgate’s momentum plunged to –78, with chaos rising to 48, forcing a shift from patient possession to frantic pressing and disrupting their control.",
+  "tags": [
+   "momentum",
+   "chaos",
+   "pressing"
+  ],
+  "cites": [
+   "e0539",
+   "e0546",
+   "e0548",
+   "e0551",
+   "e0560"
+  ]
+ }
+}

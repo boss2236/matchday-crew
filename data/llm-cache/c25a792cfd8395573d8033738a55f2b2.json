@@ -1,0 +1,13 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Momentum Plunges to –78",
+  "text": "Northgate’s high‑speed passes (18.8, 18.3, 30.1 km/h) and a 51‑difficulty intercepted long ball collapse momentum to –78, chaos rises to 48, disrupting possession.",
+  "cites": [
+   "e0539",
+   "e0546",
+   "e0560",
+   "e0551"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Reid’s 3‑Regain Sparks Momentum",
+  "text": "Callum Reid’s quick 3‑regain burst at 32:48 pulls Ironvale back, tightening control after that 1‑0 lead. The team’s 46% possession and 14 interceptions keep the pressure on.",
+  "cites": [
+   "e0564",
+   "e0581",
+   "e0603"
+  ]
+ }
+}

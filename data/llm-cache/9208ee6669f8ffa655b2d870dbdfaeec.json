@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Último minuto, gol de Dani",
+  "text": "Con una racha de 60 y bajo caos, Mateo Ruiz entrega a Dani Kowalski, quien dispara a 2.5 m y anota el gol decisivo. ¡Harbour City se lleva la victoria!",
+  "cites": [
+   "e1724"
+  ]
+ }
+}

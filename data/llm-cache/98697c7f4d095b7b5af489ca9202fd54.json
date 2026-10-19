@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Momento decisivo en minuto final",
+  "text": "Con momentum 60 y caos 57, el pase de 26.9 m de Mateo Ruiz a Dani Kowalski culmina en un gol de 2.5 m con xG 0.79, cerrando la victoria.",
+  "cites": [
+   "e1724"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Ironvale’s 120‑Sec Pressing Surge",
+  "text": "Hiro Tanaka’s 3‑goal regain, 1.15 xG, 8.7 PPDA, 48% possession, shifts momentum 5, forces chaos 67.",
+  "cites": [
+   "e1341",
+   "e1356",
+   "e1363"
+  ]
+ }
+}

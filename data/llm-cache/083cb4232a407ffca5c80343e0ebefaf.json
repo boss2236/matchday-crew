@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Ironvale's late counter clinches win",
+  "text": "Ironvale’s 1-0 victory at 90+2' was secured by a decisive counter‑attack, turning a 7‑point momentum into a win despite 46 chaos, while possession remained 47% to 53%.",
+  "tags": [
+   "counter",
+   "momentum",
+   "control"
+  ],
+  "cites": [
+   "e1700"
+  ]
+ }
+}

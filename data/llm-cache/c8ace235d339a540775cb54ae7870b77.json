@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Ironvale Misses, Northgate Gains Momentum",
+  "text": "Zeke Mbeki’s 70.3 km/h blast from 5 m missed, exposing Ironvale’s deep block and giving Northgate a possession edge as the visitors push forward.",
+  "cites": [
+   "e0855"
+  ]
+ }
+}

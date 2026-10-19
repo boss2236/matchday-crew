@@ -1,0 +1,13 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Ironvale’s 60‑minute surge",
+  "text": "Callum Reid’s 13.8‑meter dash and 28.9‑meter pass to Marco Silvan spark a 30‑point swing, turning a 1‑0 lead into a smooth counter‑attack.",
+  "cites": [
+   "e1110",
+   "e1111",
+   "e1112",
+   "e1113"
+  ]
+ }
+}

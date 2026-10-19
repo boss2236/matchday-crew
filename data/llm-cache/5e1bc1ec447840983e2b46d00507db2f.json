@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Contra de Silvan rompe momentum",
+  "text": "Intercepción de Silvan (e0587) desencadena 7 pases (e0591‑e0597) y disparo de Mbeki (xG 0.188, 96.1 km/h, e0599) que rompe el momentum -50.",
+  "cites": [
+   "e0587",
+   "e0591",
+   "e0593",
+   "e0594",
+   "e0597",
+   "e0599"
+  ]
+ }
+}

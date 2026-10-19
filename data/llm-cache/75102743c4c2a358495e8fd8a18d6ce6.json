@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Moreno’s Interception Shakes Northgate",
+  "text": "Gabe Moreno’s 63‑meter pass got snatched at 66:22, sending Northgate’s momentum down and giving Ironvale a fresh burst of control. What a moment!",
+  "cites": [
+   "e1229"
+  ]
+ }
+}

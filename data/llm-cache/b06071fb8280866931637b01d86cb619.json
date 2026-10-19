@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Presión que cambia juego",
+  "text": "Con tres recuperaciones en 120 segundos, Harbour City gana impulso y controla el juego. ¡Qué presión!",
+  "cites": [
+   "e1562",
+   "e1579",
+   "e1587"
+  ]
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Ironvale’s 60‑minute Surge",
+  "text": "Callum Reid’s 13.8m carry and 28.9m pass to Marco Silvan created a 30‑point momentum swing, shifting a 1‑0 lead into a controlled counter‑attack, keeping chaos at 36.",
+  "cites": [
+   "e1110",
+   "e1111"
+  ]
+ }
+}

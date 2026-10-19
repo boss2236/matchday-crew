@@ -1,0 +1,11 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Ironvale pierde impulso",
+  "text": "Callum Reid lleva 15.8 metros, luego Zeke dispara sin gol; la presión cae y la confusión sube.",
+  "cites": [
+   "e1631",
+   "e1650"
+  ]
+ }
+}

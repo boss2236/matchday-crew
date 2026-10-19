@@ -1,0 +1,13 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Ironvale’s swift counter",
+  "text": "Ironvale turned a deep block into a rapid passing run and a close shot, showing how quickly they can threaten from defense.",
+  "cites": [
+   "e0575",
+   "e0576",
+   "e0577",
+   "e0578"
+  ]
+ }
+}

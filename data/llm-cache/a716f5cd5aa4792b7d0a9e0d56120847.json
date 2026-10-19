@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Harbour City regresa con fuerza",
+  "text": "Sami Okafor inicia una cadena de pases rápidos que dispara la energía, pero un pase de Rui Barros es interceptado, lo que aumenta el caos. Dani Kowalski vuelve al control con un pase sólido.",
+  "cites": [
+   "e1448",
+   "e1453",
+   "e1465"
+  ]
+ }
+}

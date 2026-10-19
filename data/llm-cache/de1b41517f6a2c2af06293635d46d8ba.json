@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Northgate swings 26‑point momentum",
+  "text": "At 42:22 Northgate’s 26‑point swing (xG 0.68) saw 27.1‑m pass by Cohen, 37.1‑m Vega pass, 14.2‑m carry, 15.9‑m Cohen‑Nakamura pass, 9.5‑m Blum shot.",
+  "cites": [
+   "e0782",
+   "e0789",
+   "e0790",
+   "e0791",
+   "e0792",
+   "e0793"
+  ]
+ }
+}

@@ -1,0 +1,20 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Ironvale’s late surge",
+  "text": "A rapid 22.6‑yard pass from Mbeki to Reid, followed by a 27.8‑yard drive to Tanaka and a 19.5‑yard link to Romero, lifts Ironvale’s momentum to 25 while chaos climbs to 41, threatening Northgate’s control.",
+  "tags": [
+   "momentum",
+   "control",
+   "chaos"
+  ],
+  "cites": [
+   "e1558",
+   "e1559",
+   "e1570",
+   "e1571",
+   "e1572",
+   "e1573"
+  ]
+ }
+}

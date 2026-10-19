@@ -1,0 +1,13 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Ironvale’s 27‑momentum surge",
+  "text": "At 10:54, Ade Bamidele’s 20.9‑km/h pass to Tanaka, following Hollis’ 27.2‑km/h link, flips momentum to 27, PPDA 8.1, chaos 57.",
+  "cites": [
+   "e0184",
+   "e0185",
+   "e0187",
+   "e0195"
+  ]
+ }
+}

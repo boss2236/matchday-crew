@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Surge de Harbour City en 77’",
+  "text": "El pase de 20,7 m de Okafor a Mehta (e1448) impulsó el momentum a 32, pero la interceptación de Barros (e1453) subió el chaos a 52; Kowalski equilibró con 16,6 m (e1465).",
+  "cites": [
+   "e1448",
+   "e1453",
+   "e1465"
+  ]
+ }
+}

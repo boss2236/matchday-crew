@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Northgate’s Blocked Blast!",
+  "text": "Oscar Blum’s 77.5 km/h shot, blocked at 4 m, swings the momentum, keeping the score 0-0 in this tight game.",
+  "cites": [
+   "e0461"
+  ]
+ }
+}

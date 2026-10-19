@@ -1,0 +1,20 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Northgate’s 26‑point swing",
+  "text": "A 26‑point momentum swing at 42:22, with chaos at 54, shows Northgate’s patient possession overturning Ironvale’s deep block, turning control into a chaotic counter‑attack.",
+  "tags": [
+   "momentum",
+   "control",
+   "chaos"
+  ],
+  "cites": [
+   "e0782",
+   "e0789",
+   "e0790",
+   "e0791",
+   "e0792",
+   "e0793"
+  ]
+ }
+}

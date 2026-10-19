@@ -1,0 +1,17 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Ironvale’s 3‑Regain Pressing Spell",
+  "text": "Callum Reid’s 3‑regain interception burst at 32:48 shifted momentum, tightening control after a 46% possession advantage and 14 interceptions, turning a 1‑0 lead into a more secure stance.",
+  "tags": [
+   "pressing",
+   "momentum",
+   "control"
+  ],
+  "cites": [
+   "e0564",
+   "e0581",
+   "e0603"
+  ]
+ }
+}

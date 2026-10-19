@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Shot Block Alters Momentum",
+  "text": "Oscar Blum’s 77.5 km/h strike, blocked 4 m, shifts Northgate’s build‑up, reducing Ironvale’s deep‑block PPDA 9.5 to a balanced 7.6, shifting momentum from –23 to neutral.",
+  "cites": [
+   "e0461"
+  ]
+ }
+}

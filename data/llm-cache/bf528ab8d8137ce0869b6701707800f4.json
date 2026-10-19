@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour City necesita cambiar",
+  "text": "En el descanso, van perdiendo 0‑1 y deben dejar el presión alta para controlar el juego contra Ironvale.",
+  "cites": [
+   "e0897"
+  ]
+ }
+}

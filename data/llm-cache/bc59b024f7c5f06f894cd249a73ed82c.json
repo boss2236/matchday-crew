@@ -1,0 +1,13 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Momentum collapse after risky passes",
+  "text": "Callum Reid’s 15.8 m carry (e1631) followed by a 43‑difficulty pass (e1632) and a 51‑difficulty failed pass (e1635) culminated in Mbeki’s off‑target shot (e1650), dropping momentum to –28.",
+  "cites": [
+   "e1631",
+   "e1632",
+   "e1635",
+   "e1650"
+  ]
+ }
+}

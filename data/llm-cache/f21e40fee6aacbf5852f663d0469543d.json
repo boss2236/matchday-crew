@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Gol de última hora",
+  "text": "Dani Kowalski intercepta, pasa a Arjun, luego a Mateo, vuelve a Dani y dispara con velocidad, ¡gol! 4‑1 para Harbour City.",
+  "cites": [
+   "e1715",
+   "e1716",
+   "e1717",
+   "e1718",
+   "e1722",
+   "e1724"
+  ]
+ }
+}

@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Ironvale pierde el ritmo",
+  "text": "Una serie de pases rápidos creó caos 57, pero la energía bajó a –52, así que el ataque se desinfló justo antes del minuto 7.",
+  "cites": [
+   "e0138",
+   "e0139",
+   "e0140",
+   "e0141",
+   "e0142",
+   "e0143"
+  ]
+ }
+}

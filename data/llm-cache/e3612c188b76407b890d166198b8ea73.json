@@ -1,0 +1,14 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Ironvale Edge Past Northgate 1-0",
+  "text": "Ironvale Athletic’s deep‑block, direct counter strategy paid off as Zeke Mbeki scored from a 2‑metre finish (e0484). The goal came after a 27‑minute run that saw Mbeki carry and finish (e0483). Northgate’s patient possession yielded more possession (53%) but only 0.86 xG (e0099, e0461). Ironvale’s 1.42 xG (e0484) and 8.8 PPDA (match stats) forced the decisive moment. Momentum swung to Ironvale after the goal, with the final 30 minutes dominated by pressing spells (m070, m073). The result reflected Ironvale’s efficient attack and Northgate’s missed chances.",
+  "cites": [
+   "e0484",
+   "e0483",
+   "e0099",
+   "e0461",
+   "e0484"
+  ]
+ }
+}

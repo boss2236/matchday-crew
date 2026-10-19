@@ -1,0 +1,20 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour City caps press with 81st minute goal",
+  "text": "After a throw‑in (e1545) Harbour City executed three quick, unpressured passes (e1547,e1548,e1550) and a fast 71.6 km/h finish (e1551) to extend a 3‑1 lead, shifting momentum to 44 while chaos sits at 46.",
+  "tags": [
+   "possession",
+   "control",
+   "finishing"
+  ],
+  "cites": [
+   "e1545",
+   "e1547",
+   "e1548",
+   "e1550",
+   "e1551",
+   "e1552"
+  ]
+ }
+}

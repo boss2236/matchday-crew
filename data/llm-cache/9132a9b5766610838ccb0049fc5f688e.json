@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Construcción rápida culmina en gol",
+  "text": "Tras la intercepción e0991, Harbour City encadenó pases sin presión (e0994‑e0996) y un carry (e0997), creando una oportunidad de xG 0.024 con disparo a 83 km/h (e0998).",
+  "cites": [
+   "e0991",
+   "e0994",
+   "e0995",
+   "e0996",
+   "e0997",
+   "e0998"
+  ]
+ }
+}

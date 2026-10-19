@@ -1,0 +1,11 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Ironvale’s 26‑minute goal",
+  "text": "Ivo’s 38‑m pass to Zeke sparks a quick 26‑kph dribble and a 79.8‑kph finish, giving Ironvale a 1‑0 lead and a sudden swing in momentum.",
+  "cites": [
+   "e0481",
+   "e0484"
+  ]
+ }
+}

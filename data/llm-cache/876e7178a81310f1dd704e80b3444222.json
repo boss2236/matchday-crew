@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Ironvale Edge Past Northgate 1-0",
+  "text": "Ironvale Athletic’s direct counter paid off when Zeke Mbeki finished a 2‑m shot at 26:09 (xg 0.829) after a 1‑pass build‑up. Northgate’s patient possession was broken early (momentum swing –65 at 05:59) but Ironvale’s 47% possession and 8.8 PPDA kept the pressure. The goal shifted momentum to 27 and 30 in the 61st and 67th minutes, while Northgate’s 53% possession and 7.9 PPDA failed to convert. Mbeki’s 1‑goal, 1.39 xg and 57 passes completed sealed the win.",
+  "cites": [
+   "e0484",
+   "e0485",
+   "m018",
+   "m021",
+   "m052",
+   "m061"
+  ]
+ }
+}

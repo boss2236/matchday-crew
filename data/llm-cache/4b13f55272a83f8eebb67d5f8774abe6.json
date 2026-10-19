@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Momentum swing after interception",
+  "text": "The intercepted pass by Gabe Moreno at 66:22 tipped Northgate into chaos, dropping momentum to -27 and inflating chaos to 46, while Ironvale’s possession edge widened to 53%.",
+  "tags": [
+   "momentum",
+   "chaos",
+   "control"
+  ],
+  "cites": [
+   "e1229"
+  ]
+ }
+}

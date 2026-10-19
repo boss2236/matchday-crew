@@ -1,0 +1,20 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Chaos Drives Momentum Swing",
+  "text": "Northgate’s rapid passes and high‑speed carries overwhelm Ironvale, turning a 70% possession advantage into a -65 momentum swing, as chaos spikes to 43.",
+  "tags": [
+   "momentum",
+   "chaos",
+   "pressing"
+  ],
+  "cites": [
+   "e0091",
+   "e0092",
+   "e0096",
+   "e0097",
+   "e0098",
+   "e0099"
+  ]
+ }
+}

@@ -1,0 +1,16 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Ironvale Counter Yields 0.188 xG Goal",
+  "text": "After Silvan’s interception (e0587), a 7‑pass sequence with passes of 33.1 m (difficulty 47) and 49.8 m (difficulty 62) culminated in Mbeki’s 96.1 km/h shot (e0599, xG 0.188), shifting momentum to –50.",
+  "cites": [
+   "e0587",
+   "e0591",
+   "e0593",
+   "e0594",
+   "e0597",
+   "e0599",
+   "e0600"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Northgate’s Chaos Spurs Momentum",
+  "text": "Oscar Blum’s 31.4‑m pass, Sven’s 16.2‑m carry, and 19.2‑m pass (difficulty 43) fuel a -65 momentum swing, 43 chaos, 70% possession, PPDA 4.8.",
+  "cites": [
+   "e0091",
+   "e0092",
+   "e0097"
+  ]
+ }
+}

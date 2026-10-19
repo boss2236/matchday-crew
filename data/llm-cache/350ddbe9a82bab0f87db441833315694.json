@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "¡Mbeki casi rompe la defensa!",
+  "text": "Zeke Mbeki lanzó un potente disparo de 0.876 xG a 2.5 m, pero la barrera de Ironvale lo bloqueó justo al inicio del partido.",
+  "cites": [
+   "e0041"
+  ]
+ }
+}

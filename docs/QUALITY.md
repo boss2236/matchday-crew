@@ -10,57 +10,58 @@ Each published match replayed from the response cache, for analyst and casual fa
 |---|---|---|---|
 | HBC v IVA (seed 7) | English | 54 | 54 (100%) |
 | HBC v IVA (seed 7) | Arabic | 54 | 54 (100%) |
-| HBC v IVA (seed 7) | Spanish | 54 | 52 (96.3%) |
-| IVA v NGR (seed 8) | English | 40 | 0 (0%) |
-| IVA v NGR (seed 8) | Arabic | 40 | 0 (0%) |
-| IVA v NGR (seed 8) | Spanish | 40 | 0 (0%) |
+| HBC v IVA (seed 7) | Spanish | 54 | 54 (100%) |
+| IVA v NGR (seed 8) | English | 40 | 40 (100%) |
+| IVA v NGR (seed 8) | Arabic | 40 | 38 (95%) |
+| IVA v NGR (seed 8) | Spanish | 40 | 38 (95%) |
 | NGR v SMU (seed 9) | English | 44 | 0 (0%) |
 | NGR v SMU (seed 9) | Arabic | 44 | 0 (0%) |
 | NGR v SMU (seed 9) | Spanish | 44 | 0 (0%) |
 | SMU v HBC (seed 10) | English | 50 | 0 (0%) |
 | SMU v HBC (seed 10) | Arabic | 50 | 0 (0%) |
 | SMU v HBC (seed 10) | Spanish | 50 | 0 (0%) |
-| **All** | | **564** | **160 (28.4%)** |
+| **All** | | **564** | **278 (49.3%)** |
 
 Matches and languages not yet pre-generated are filled live when a model key is configured (`npm run prewarm`).
 
 ## 2. Live model behaviour
 
-From 2 pre-generation run(s) on model "openai/gpt-oss-120b" at https://api.groq.com/openai/v1, 12 live model calls.
+From 4 pre-generation run(s) on model "openai/gpt-oss-120b" at https://api.groq.com/openai/v1, model "openai/gpt-oss-20b" at https://api.groq.com/openai/v1, 101 live model calls.
 
 | Measure | Value |
 |---|---|
-| Accepted on the first attempt | 7 |
-| Accepted after one retry with the checker's feedback | 4 |
-| Rejected by the fact checker | 1 |
+| Accepted on the first attempt | 92 |
+| Accepted after one retry with the checker's feedback | 6 |
+| Rejected by the fact checker | 3 |
 | Transport errors (retried or fell back) | 0 |
 
 Why lines were rejected:
 
 | Reason | Count |
 |---|---|
+| cited an event not in the evidence | 5 |
 | number not in the evidence | 1 |
 
 Latency of accepted model calls:
 
 | Agent | Calls | p50 | p95 |
 |---|---|---|---|
-| Tactician | 2 | 1.2 s | 1.2 s |
-| Narrator | 9 | 2.6 s | 17.7 s |
-| Recap | 0 | 0.0 s | 0.0 s |
+| Tactician | 21 | 6.9 s | 9.4 s |
+| Narrator | 73 | 6.9 s | 16.5 s |
+| Recap | 4 | 30.3 s | 31.2 s |
 
 ## 3. Fact checker tamper test
 
-Every accepted model line (222) was corrupted in each way below and run back through the verifier. A caught line would never air.
+Every accepted model line (333) was corrupted in each way below and run back through the verifier. A caught line would never air.
 
 | Corruption | Lines tried | Caught |
 |---|---|---|
-| shifted number | 199 | 195 (98%) |
-| shifted whole number | 181 | 134 (74%) |
-| invented number | 222 | 222 (100%) |
-| metres written as km | 22 | 21 (95.5%) |
-| player not in the evidence | 222 | 222 (100%) |
-| fake cited event | 222 | 222 (100%) |
-| no citations | 222 | 222 (100%) |
+| shifted number | 308 | 301 (97.7%) |
+| shifted whole number | 282 | 208 (73.8%) |
+| invented number | 333 | 333 (100%) |
+| metres written as km | 27 | 25 (92.6%) |
+| player not in the evidence | 333 | 236 (70.9%) |
+| fake cited event | 333 | 333 (100%) |
+| no citations | 333 | 333 (100%) |
 
 Known limit: the checker verifies numbers, units of distance, player names and cited events. It does not judge tone or whether a claim about cause is fair.

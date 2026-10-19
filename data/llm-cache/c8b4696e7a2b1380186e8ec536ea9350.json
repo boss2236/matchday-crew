@@ -1,0 +1,11 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Harbour City impulsa control 80'",
+  "text": "Pasos de 39.1 y 18.7 km/h, 68 y 39 dificultad, impulsaron momentum 25, caos 45. xG 0.41 frente a 1.75. PPDA 8.6 vs 10.8.",
+  "cites": [
+   "e1527",
+   "e1530"
+  ]
+ }
+}
