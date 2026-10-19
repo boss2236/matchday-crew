@@ -56,7 +56,7 @@ export default function Studio() {
       {bg === 'pitch' && (
         <div className="studio-stage">
           <PitchSvg meta={live.meta} trail={live.trail} events={live.events} highlight={highlight} />
-          <span className="studio-label">Synthetic match · live data feed</span>
+          <span className="studio-label">Synthetic match · simulated feed</span>
         </div>
       )}
       {preview && (
