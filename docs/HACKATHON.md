@@ -66,7 +66,7 @@ Known limitation: the fact checker verifies numbers, names and cited events, not
 | Render on screen alongside the match | Done: second-screen web app draws each timed overlay over a live pitch |
 | Personalize: analyst vs casual, language, favourite club, favourite player, a single metric the viewer cares about | Done: persona toggle, 16 languages, favourite club, player-focus card and coverage, follow-a-metric mode with live tracker |
 | Narratives and recaps | Done |
-| Create or extend a synthetic dataset | Done: `data/`, `scripts/generate.js` |
+| Create or extend a synthetic dataset | Done: `data/`, `scripts/generate.ts` |
 | Multi-language output | Done |
 | Auto-eventing from video | Not planned (optional) |
 
@@ -90,17 +90,19 @@ Best category fit: **Best Multi-Agent System** (distinct agents, shared state, h
 
 | Technology | How | Status |
 |---|---|---|
-| Azure AI Translator | Translator agent localises template lines into the viewer's language | Built and contract-tested; needs a free F0 key |
+| TypeScript | Whole codebase in strict mode; Node runs it directly, tsc checks it in CI | Done |
+| Fluent UI React v9 | Second-screen app built on Microsoft's design system, light and dark | Done |
+| Azure AI Translator | Translator agent localises fallback lines into the viewer's language | Live: free F0 resource in Qatar Central, tested end to end (38 of 40 lines translated in a Spanish match, about 2,000 characters) |
 | Azure Container Apps | Hosting with scale to zero, keys as secrets, health probes | Deploy script and workflow ready; needs a subscription |
 | Microsoft Foundry | Model provider, used first when configured | Built and contract-tested against a mock Azure OpenAI API; account has no pay-per-token model |
-| GitHub Actions | Tests on Node 20 and 22, container build and smoke test, headless UI check, image publish | Runs on every push |
+| GitHub Actions | Strict type-check, tests on Node 22 and 24, web build, container build and smoke test, headless UI check, image publish | Runs on every push |
 | GitHub Container Registry | Free image hosting for the deploy | Runs on push to main |
 | MCP | Match tools for GitHub Copilot agent mode and other MCP clients | Built and tested |
 | GitHub Copilot | Mention in the pitch if used while building | Up to you |
 
 ## Risks and open work, by priority
 
-1. **Get the Azure pieces live** (docs/AZURE.md): Translator F0 key, then deploy to Container Apps for the judges' link.
+1. **Deploy to Azure Container Apps** for the judges' link (docs/AZURE.md, step 2). The Translator is already live.
 2. **Pitch and video** (under 2 minutes). Suggested flow: kick off a match, switch Analyst/Casual on the same goal, switch to Arabic, open Behind the broadcast to show a rejected line, show player focus, end on the recap.
 3. **Rotate the test API keys** after testing. Keys live only in `.env`, which git ignores.
 4. Optional: a Foundry chat model if any account allows one.

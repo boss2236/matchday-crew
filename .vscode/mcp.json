@@ -3,7 +3,7 @@
     "matchday-crew": {
       "type": "stdio",
       "command": "node",
-      "args": ["${workspaceFolder}/scripts/mcp.js"]
+      "args": ["${workspaceFolder}/scripts/mcp.ts"]
     }
   }
 }

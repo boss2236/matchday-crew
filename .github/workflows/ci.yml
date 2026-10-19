@@ -14,13 +14,20 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node: [20, 22]
+        node: [22, 24]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node }}
-      - run: npm test
+      - name: Install (TypeScript compiler and web app dependencies)
+        run: npm ci --no-audit --no-fund && npm --prefix web ci --no-audit --no-fund
+      - name: Type-check server and web app (strict)
+        run: npm run typecheck
+      - name: Tests (Node runs the TypeScript directly)
+        run: npm test
+      - name: Build the Fluent UI web app
+        run: npm run build:web
 
   container:
     needs: test
@@ -37,10 +44,13 @@ jobs:
           curl -sN "localhost:8080/api/live?seed=7&speed=0&language=Arabic" > live.txt
           grep -q '^event: end' live.txt
           echo "items aired: $(grep -c '^event: item' live.txt)"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
       - name: UI check (headless Chrome)
         run: |
           node --version
-          CHROME=google-chrome node scripts/ui-check.mjs "http://localhost:8080/?speed=60&autostart=1" ui 15
+          CHROME=google-chrome node scripts/ui-check.ts "http://localhost:8080/?speed=60&autostart=1" ui 15
       - uses: actions/upload-artifact@v4
         if: always()
         with:
