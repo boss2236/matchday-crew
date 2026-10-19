@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour City clinches with high‑speed finish",
+  "text": "After Kowalski's interception (e1715) and three unpressured passes (e1716‑e1718, e1722), his 71.9 km/h shot (e1724) yielded a 0.79 xG goal, sealing 4‑1.",
+  "cites": [
+   "e1715",
+   "e1716",
+   "e1717",
+   "e1718",
+   "e1722",
+   "e1724"
+  ]
+ }
+}

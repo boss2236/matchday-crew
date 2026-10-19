@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour City’s press loses steam",
+  "text": "Around the 38' mark their high‑press fizzles as risky passes go out, showing they’re struggling to keep control despite the effort.",
+  "cites": [
+   "e0695",
+   "e0722",
+   "e0724"
+  ]
+ }
+}

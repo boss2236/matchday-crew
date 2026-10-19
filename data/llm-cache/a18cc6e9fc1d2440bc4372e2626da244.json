@@ -1,0 +1,14 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Ironvale’s swift strike surprises all",
+  "text": "Marco intercepted, then a flurry of passes ended with Zeke’s thunderous shot, giving Ironvale the lead in the 30th minute.",
+  "cites": [
+   "e0587",
+   "e0591",
+   "e0594",
+   "e0597",
+   "e0599"
+  ]
+ }
+}

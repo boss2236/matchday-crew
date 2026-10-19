@@ -1,0 +1,14 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour City’s passing surge fuels momentum",
+  "text": "Five consecutive completions—22.1m, 42.9m (pressured), 16.9m, 12.7m, 25.7m—raised momentum to 28, with PPDA 9.3 and xG 0.41.",
+  "cites": [
+   "e1324",
+   "e1326",
+   "e1327",
+   "e1328",
+   "e1331"
+  ]
+ }
+}

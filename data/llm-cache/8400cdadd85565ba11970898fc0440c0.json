@@ -1,0 +1,22 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Ironvale’s Counter Sparks Lead",
+  "text": "After Marco Silvan’s interception (e0587) and rapid carries, a swift 7‑pass build‑up culminated in Zeke Mbeki’s 96.1 km/h shot (e0599) that broke the game’s -50 momentum, shifting control to Ironvale.",
+  "tags": [
+   "counter",
+   "momentum",
+   "control"
+  ],
+  "cites": [
+   "e0587",
+   "e0588",
+   "e0591",
+   "e0593",
+   "e0594",
+   "e0597",
+   "e0599",
+   "e0600"
+  ]
+ }
+}

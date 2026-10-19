@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Mbeki's high‑xG shot stalls press",
+  "text": "Zeke Mbeki’s 4.4 m, xG 0.459 shot at 33 min (speed 76.4 km/h) saved, dropping Harbour City’s momentum to –90 despite 8.5 PPDA press.",
+  "cites": [
+   "e0651"
+  ]
+ }
+}

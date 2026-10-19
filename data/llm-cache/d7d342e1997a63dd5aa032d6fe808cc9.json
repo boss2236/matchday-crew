@@ -1,0 +1,20 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour City’s Press Falters at 58’",
+  "text": "At 57:27 the momentum dropped to 35 while chaos rose to 55 as Harbour City’s high‑press passes (e1110‑e1128) were repeatedly intercepted, ceding control to Ironvale’s deep block.",
+  "tags": [
+   "pressing",
+   "chaos",
+   "momentum"
+  ],
+  "cites": [
+   "e1110",
+   "e1111",
+   "e1118",
+   "e1126",
+   "e1127",
+   "e1128"
+  ]
+ }
+}

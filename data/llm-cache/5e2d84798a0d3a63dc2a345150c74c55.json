@@ -1,0 +1,11 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Ironvale's risky passes spark chaos",
+  "text": "A 44.5m intercepted pass (difficulty 95) and a pressured 41.2m pass (difficulty 89) triggered a -53 momentum swing and 64 chaos at minute 54‑55.",
+  "cites": [
+   "e1059",
+   "e1067"
+  ]
+ }
+}

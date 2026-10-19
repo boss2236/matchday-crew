@@ -12,6 +12,8 @@
 //                       evidence; failures get one retry with feedback, then a
 //                       deterministic template takes over
 //   Recap      (model)  writes the full-time story for each audience
+//   Translator (Azure)  localises any line that fell back to an English template,
+//                       so every audience gets its own language either way
 //
 // With no model configured, every model step falls back to templates, so the
 // app still works offline and in tests.
@@ -19,6 +21,8 @@
 import { MatchState } from '../stats/matchState.js';
 import { buildEvidence, verify, teamName } from './evidence.js';
 import { templateInsight, templateRecap } from './templates.js';
+import { languageCode } from '../ai/translator.js';
+import { METRICS, readMetric } from '../stats/metrics.js';
 
 export const DEFAULT_AUDIENCES = [
   { id: 'analyst-en', persona: 'analyst', language: 'English' },
@@ -32,6 +36,8 @@ const PERSONAS = {
     'a casual fan. Use plain, warm, exciting language, no jargon, at most one number, and explain things like you would to a friend on the sofa.',
 };
 
+const CITE_RULE = 'Cite only event ids from the evidence "events" list (they look like e0123). Moment ids (m012) are not events.';
+
 const OVERLAY_BY_TYPE = {
   goal: { type: 'goal_card', durationMs: 9000, position: 'lower_third' },
   big_chance: { type: 'chance_card', durationMs: 7000, position: 'lower_third' },
@@ -44,9 +50,11 @@ const OVERLAY_BY_TYPE = {
 };
 
 export class Crew {
-  constructor({ meta, llm = null, audiences = DEFAULT_AUDIENCES, minGapSeconds = 90 } = {}) {
+  constructor({ meta, llm = null, translator = null, audiences = DEFAULT_AUDIENCES, minGapSeconds = 90, onLog = null } = {}) {
     this.state = new MatchState(meta);
     this.llm = llm;
+    this.translator = translator;
+    this.onLog = onLog;
     this.audiences = audiences;
     this.minGapSeconds = minGapSeconds;
     this.eventsById = new Map();
@@ -74,6 +82,7 @@ export class Crew {
   analystSelects(moment) {
     const always = ['goal', 'half_time', 'full_time'];
     const playerFocus = this.audiences.some((a) => a.favouritePlayer && moment.player && this.playerMatches(a.favouritePlayer, moment.player));
+    const metricFocus = this.audiences.some((a) => METRICS[a.focusMetric]?.momentTypes.includes(moment.type));
     let selected = false;
     let reason = 'below threshold';
     if (always.includes(moment.type)) {
@@ -82,6 +91,9 @@ export class Crew {
     } else if (playerFocus && ['great_pass', 'sprint', 'big_chance'].includes(moment.type)) {
       selected = true;
       reason = 'favourite player involved';
+    } else if (metricFocus && moment.t - this.lastFeatureT >= 30) {
+      selected = true;
+      reason = 'followed metric';
     } else if (moment.importance >= 3 && moment.t - this.lastFeatureT >= this.minGapSeconds) {
       selected = true;
       reason = `importance ${moment.importance}`;
@@ -116,6 +128,7 @@ export class Crew {
       'Explain WHY the moment in the evidence pack matters: the tactical pattern, the momentum, control vs chaos, the pressure, the game state.',
       'Rules: use ONLY facts and numbers present in the evidence pack. Never invent players, numbers or events.',
       'Every number you write must appear in the evidence pack exactly. Name only players who appear in the pack.',
+      CITE_RULE,
       'Reply as JSON: {"headline": string (max 8 words), "text": string (1-2 sentences, max 45 words), "tags": string[] (1-3 of: pressing, counter, possession, momentum, chaos, control, finishing, chance, pass, speed, set-back), "cites": string[] (event ids from the pack that support your claim)}.',
     ].join('\n');
     return this.callVerified('Tactician', pack, { system, user: { evidence: pack } }, () => templateInsight(pack));
@@ -123,19 +136,30 @@ export class Crew {
 
   // Narrator: the same insight, shaped for one audience.
   async narrator(pack, insight, audience) {
+    // Only metric-following audiences get a different prompt, so cached answers
+    // for everyone else stay valid.
     const fav = [];
     if (audience.favouriteClub) fav.push(`Their favourite club is ${audience.favouriteClub}; speak from that fan's point of view.`);
     if (audience.favouritePlayer) fav.push(`Their favourite player is ${audience.favouritePlayer}; mention them if they are in the evidence pack.`);
+    const followed = this.followedMetric(audience);
+    if (followed) {
+      fav.push(`They follow one metric above all: ${followed.label}. Lead with it, using the live values in "followedMetric" or the matching numbers in the pack.`);
+      pack = { ...pack, followedMetric: followed };
+    }
     const system = [
       'You are the Narrator in a football broadcast crew covering a synthetic match between fictional clubs.',
       `Write one on-screen commentary line for ${PERSONAS[audience.persona] ?? PERSONAS.casual}`,
       `Write in ${audience.language}. Keep player and club names exactly as given.`,
       ...fav,
       'Base it on the Tactician insight and the evidence pack. Use ONLY facts and numbers from them; write numbers with digits exactly as they appear.',
+      CITE_RULE,
       'Reply as JSON: {"headline": string (max 8 words), "text": string (max 35 words), "cites": string[] (event ids from the pack)}.',
     ].join('\n');
-    const fallback = () => ({ headline: insight.headline, text: insight.text, cites: insight.cites, language: 'English' });
-    return this.callVerified(`Narrator/${audience.id}`, pack, { system, user: { insight, evidence: pack } }, fallback);
+    // Falling back to the Tactician's line: it already passed the same check.
+    // If a model wrote it, it is labelled "insight" (model-written, not tailored).
+    const fallback = () => ({ headline: insight.headline, text: insight.text, cites: insight.cites, source: insight.source === 'model' ? 'insight' : 'template' });
+    const line = await this.callVerified(`Narrator/${audience.id}`, pack, { system, user: { insight, evidence: pack } }, fallback);
+    return this.localize(line, audience, pack);
   }
 
   // Producer: timed, machine-readable overlay for the rendering layer.
@@ -152,7 +176,7 @@ export class Crew {
       teamName: moment.team ? teamName(this.state, moment.team) : null,
       player: moment.player,
       headline: line.headline,
-      text: line.text,
+      text: tidy(line.text),
       tags: insight.tags ?? [],
       cites: line.cites,
       source: line.source,
@@ -166,11 +190,13 @@ export class Crew {
     const fullTime = this.covered.find((p) => p.moment.type === 'full_time');
     const match = fullTime?.match ?? buildEvidence({ id: 'ft', type: 'full_time', evidence: [], data: {} }, this.state, this.eventsById).match;
     const packs = this.covered.filter((p) => ['goal', 'big_chance', 'pressing_spell', 'momentum_swing'].includes(p.moment.type));
+    // Keep the recap prompt small: free tiers cap request size. Goals keep their
+    // last few events, other moments only the one that decided them.
     const recapPack = {
       moment: { id: 'recap', type: 'recap', data: {} },
-      events: [...packs.flatMap((p) => p.events), ...(fullTime?.events ?? [])],
+      events: [...packs.flatMap((p) => p.events.slice(p.moment.type === 'goal' ? -3 : -1)), ...(fullTime?.events ?? []).slice(-1)],
       match,
-      keyMoments: packs.map((p) => p.moment),
+      keyMoments: packs.map(({ moment: { id, type, clock, minute, team, player, data } }) => ({ id, type, clock, minute, team, player, data })),
       topPlayers: this.state.topPlayers(3).map((p) => ({ name: p.name, team: teamName(this.state, p.team), goals: p.goals, xg: p.xg, passesComplete: p.passesComplete })),
     };
     const items = [];
@@ -181,11 +207,16 @@ export class Crew {
         `Write in ${audience.language}. Keep player and club names exactly as given.`,
         audience.favouriteClub ? `Their favourite club is ${audience.favouriteClub}.` : '',
         audience.favouritePlayer ? `Their favourite player is ${audience.favouritePlayer}.` : '',
+        this.followedMetric(audience) ? `They follow one metric above all: ${this.followedMetric(audience).label}. Give it a sentence, using "followedMetric".` : '',
         'Tell the story of the match in order: how it started, the turning points, how it ended, and the standout player. Explain why the result happened.',
         'Use ONLY facts and numbers from the evidence; write numbers with digits exactly as they appear.',
+        CITE_RULE,
         'Reply as JSON: {"headline": string (max 10 words), "text": string (80-130 words), "cites": string[] (event ids)}.',
       ].filter(Boolean).join('\n');
-      const out = await this.callVerified(`Recap/${audience.id}`, recapPack, { system, user: { evidence: recapPack }, maxTokens: 700 }, () => templateRecap(packs, match));
+      const followed = this.followedMetric(audience);
+      const pack = followed ? { ...recapPack, followedMetric: followed } : recapPack;
+      const raw = await this.callVerified(`Recap/${audience.id}`, pack, { system, user: { evidence: pack }, maxTokens: 700 }, () => templateRecap(packs, match));
+      const out = await this.localize(raw, audience, pack);
       items.push({
         id: `recap-${audience.id}`,
         momentId: 'recap',
@@ -194,7 +225,7 @@ export class Crew {
         clock: 'FT',
         type: 'recap',
         headline: out.headline,
-        text: out.text,
+        text: tidy(out.text),
         cites: out.cites,
         source: out.source,
         overlay: { type: 'recap_panel', position: 'full_screen', durationMs: 20000, showAt: this.state.t, data: { score: match.score } },
@@ -203,10 +234,42 @@ export class Crew {
     return items;
   }
 
+  // Live values of the metric this audience follows, named by team, or null.
+  followedMetric(audience) {
+    const m = audience.focusMetric && readMetric(audience.focusMetric, this.state.snapshot(), this.state);
+    if (!m) return null;
+    const out = { label: m.label, unit: m.unit, [this.state.meta.home.name]: m.home, [this.state.meta.away.name]: m.away };
+    if (m.leaders) out.leaders = m.leaders.map(({ name, value }) => ({ name, value }));
+    if (m.chaos !== undefined) out.chaos = m.chaos;
+    return out;
+  }
+
+  // Translator: a template line is English. Localise it for audiences that asked
+  // for another language, and keep it only if the translation still verifies.
+  async localize(line, audience, pack) {
+    const code = languageCode(audience.language);
+    if (!['template', 'insight'].includes(line.source) || !this.translator || !code || code === 'en') return line;
+    const started = Date.now();
+    try {
+      const [headline, text] = await this.translator.translate([line.headline, line.text], audience.language);
+      const translated = { ...line, headline, text, source: `${line.source}+translator` };
+      const check = verify(translated, pack, this.state);
+      if (!check.ok) {
+        this.log('Translator', pack.moment.id, 'rejected', check.problems.join('; '), Date.now() - started);
+        return line;
+      }
+      this.log('Translator', pack.moment.id, 'ok', `to ${audience.language}`, Date.now() - started);
+      return translated;
+    } catch (err) {
+      this.log('Translator', pack.moment.id, 'error', err.message, Date.now() - started);
+      return line;
+    }
+  }
+
   // Call the model, verify, retry once with the problems, else fall back.
   async callVerified(agent, pack, request, fallback) {
     if (!this.llm) {
-      const out = { ...fallback(), source: 'template' };
+      const out = { source: 'template', ...fallback() };
       this.log(agent, pack.moment.id, 'template', 'no model configured');
       return out;
     }
@@ -224,17 +287,34 @@ export class Crew {
         feedback = check.problems;
         this.log(agent, pack.moment.id, 'rejected', check.problems.join('; '), Date.now() - started);
       } catch (err) {
+        if (err.code === 'CACHE_MISS') {
+          this.log(agent, pack.moment.id, 'template', 'no cached answer');
+          return { source: 'template', ...fallback() };
+        }
         feedback = [`error: ${err.message}`];
         this.log(agent, pack.moment.id, 'error', err.message, Date.now() - started);
       }
     }
     this.log(agent, pack.moment.id, 'template', 'fell back after 2 attempts');
-    return { ...fallback(), source: 'template' };
+    return { source: 'template', ...fallback() };
   }
 
   log(agent, momentId, status, detail, ms = 0) {
-    this.trace.push({ t: this.state.t, agent, momentId, status, detail, ms });
+    const entry = { t: this.state.t, agent, momentId, status, detail, ms };
+    this.trace.push(entry);
+    this.onLog?.(entry);
   }
+}
+
+// Models sometimes put the event ids they cite into the prose. The ids stay in
+// "cites"; the on-screen text should not show them.
+export function tidy(text) {
+  return String(text)
+    .replace(/\s*[([][^()[\]]*\be\d{4}\b[^()[\]]*[)\]]/g, '')
+    .replace(/\s*\be\d{4}\b(?:\s*(?:,|and|&|-|–)\s*\be\d{4}\b)*/g, '')
+    .replace(/\s{2,}/g, ' ')
+    .replace(/\s+([.,;:!?،؛])/g, '$1')
+    .trim();
 }
 
 function overlayData(moment, pack) {

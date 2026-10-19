@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour City’s late surge",
+  "text": "Sami’s quick pass set up a run and a perfect strike by Leo, giving Harbour City the lead as the game turns on its head.",
+  "cites": [
+   "e0996",
+   "e0997",
+   "e0998"
+  ]
+ }
+}

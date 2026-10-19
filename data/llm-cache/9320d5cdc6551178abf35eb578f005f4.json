@@ -1,0 +1,25 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour City’s precise surge",
+  "text": "After e1201 interception, Harbour City completed 14 passes (avg difficulty 38, max 64) culminating in a 0.06 xG, 97.9 km/h strike (e1222); team PPDA 9, momentum 33.",
+  "cites": [
+   "e1201",
+   "e1205",
+   "e1206",
+   "e1207",
+   "e1208",
+   "e1209",
+   "e1211",
+   "e1212",
+   "e1213",
+   "e1215",
+   "e1216",
+   "e1217",
+   "e1218",
+   "e1220",
+   "e1221",
+   "e1222"
+  ]
+ }
+}

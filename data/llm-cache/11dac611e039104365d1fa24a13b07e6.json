@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "فرصة Mbeki عالية xG تغير الزخم",
+  "text": "تسديدة Mbeki من 4.4 م (xG 0.459) في الدقيقة 33 خفضت زخم Harbour City إلى –90، مع ضغط PPDA 8.5 للمنزل و11.2 للضيف.",
+  "cites": [
+   "e0651"
+  ]
+ }
+}

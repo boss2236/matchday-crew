@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour City’s chaotic surge",
+  "text": "Harbour City’s 20.7m pass chain boosted momentum to 32, but Barros’s 45‑difficulty intercepted ball spiked chaos to 52, prompting Kowalski’s 16.6m stabilising pass (difficulty 32).",
+  "cites": [
+   "e1448",
+   "e1453",
+   "e1465"
+  ]
+ }
+}

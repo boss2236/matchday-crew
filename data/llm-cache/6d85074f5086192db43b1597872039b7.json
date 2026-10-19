@@ -1,0 +1,17 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour City’s Press Falters Amid Chaos",
+  "text": "At 38’, Harbour City’s momentum sits at 27 while chaos spikes to 46, as a series of risky passes (e0695, e0722, e0724) fail to break the deadlock, highlighting loss of control despite high‑press intent.",
+  "tags": [
+   "pressing",
+   "momentum",
+   "control"
+  ],
+  "cites": [
+   "e0695",
+   "e0722",
+   "e0724"
+  ]
+ }
+}

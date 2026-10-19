@@ -1,0 +1,20 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour City’s swift combo caps chaos",
+  "text": "Despite a chaos rating of 63, Harbour City executed a rapid 5‑pass/2‑carry sequence at 45‑57 km/h, culminating in a goal that shifted momentum from 26 to a lead.",
+  "tags": [
+   "pressing",
+   "counter",
+   "control"
+  ],
+  "cites": [
+   "e0993",
+   "e0994",
+   "e0995",
+   "e0996",
+   "e0997",
+   "e0998"
+  ]
+ }
+}

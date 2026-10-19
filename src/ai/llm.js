@@ -93,8 +93,10 @@ export class ChatClient {
       try {
         return await this.#once(request);
       } catch (err) {
-        if (!err.retryAfterMs || attempt >= this.retries) throw err;
-        await this.sleep(err.retryAfterMs);
+        // Dropped connections and timeouts get a short backoff, like rate limits.
+        const delay = err.retryAfterMs ?? (isNetworkError(err) ? Math.min(1000 * 2 ** attempt, 8000) : 0);
+        if (!delay || attempt >= this.retries) throw err;
+        await this.sleep(delay);
       }
     }
   }
@@ -135,6 +137,12 @@ export class ChatClient {
       clearTimeout(timer);
     }
   }
+}
+
+// fetch rejects with a TypeError when the connection fails or drops, and with
+// an AbortError when our own timeout fires.
+export function isNetworkError(err) {
+  return err?.name === 'AbortError' || (err?.name === 'TypeError' && /fetch failed|network|socket|terminated/i.test(err.message));
 }
 
 // How long the server asked us to wait, from the Retry-After header or a

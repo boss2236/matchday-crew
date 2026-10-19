@@ -1,0 +1,17 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Reid fuels Ironvale’s pressing surge",
+  "text": "Callum Reid’s three regain actions by minute 11 intensify Ironvale’s pressing, shifting momentum to -8 while chaos stays high at 37, reflecting a pivotal control surge in a tightly contested match.",
+  "tags": [
+   "pressing",
+   "control",
+   "momentum"
+  ],
+  "cites": [
+   "e0201",
+   "e0220",
+   "e0243"
+  ]
+ }
+}

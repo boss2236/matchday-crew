@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Ironvale’s swift counter yields 0‑1",
+  "text": "Silvan’s 11.8 km carry, three high‑difficulty passes (47‑62‑45) led to Mbeki’s 96.1 km/h shot (xG 0.188), turning momentum to –50 and securing Ironvale’s lead.",
+  "cites": [
+   "e0587",
+   "e0588",
+   "e0591",
+   "e0593",
+   "e0594",
+   "e0599"
+  ]
+ }
+}

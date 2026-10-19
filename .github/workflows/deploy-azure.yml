@@ -1,0 +1,46 @@
+# Deploy to Azure Container Apps. Manual: Actions tab > Deploy to Azure > Run workflow.
+#
+# One-time setup (see docs/AZURE.md):
+#   Secrets:   AZURE_CLIENT_ID, AZURE_TENANT_ID, AZURE_SUBSCRIPTION_ID  (OIDC federated credential)
+#              LLM_API_KEY, FOUNDRY_API_KEY, AZURE_TRANSLATOR_KEY        (whichever you use)
+#   Variables: LLM_BASE_URL, LLM_MODEL, FOUNDRY_ENDPOINT, FOUNDRY_DEPLOYMENT, AZURE_TRANSLATOR_REGION
+name: Deploy to Azure
+
+on:
+  workflow_dispatch:
+    inputs:
+      resource_group:
+        description: Resource group
+        default: matchday-crew-rg
+      location:
+        description: Azure region
+        default: westeurope
+
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: azure/login@v2
+        with:
+          client-id: ${{ secrets.AZURE_CLIENT_ID }}
+          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+      - name: Deploy
+        env:
+          RG: ${{ inputs.resource_group }}
+          LOCATION: ${{ inputs.location }}
+          IMAGE: ghcr.io/${{ github.repository }}:latest
+          LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
+          LLM_MODEL: ${{ vars.LLM_MODEL }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          FOUNDRY_ENDPOINT: ${{ vars.FOUNDRY_ENDPOINT }}
+          FOUNDRY_DEPLOYMENT: ${{ vars.FOUNDRY_DEPLOYMENT }}
+          FOUNDRY_API_KEY: ${{ secrets.FOUNDRY_API_KEY }}
+          AZURE_TRANSLATOR_KEY: ${{ secrets.AZURE_TRANSLATOR_KEY }}
+          AZURE_TRANSLATOR_REGION: ${{ vars.AZURE_TRANSLATOR_REGION }}
+        run: bash infra/deploy.sh

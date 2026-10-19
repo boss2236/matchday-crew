@@ -1,0 +1,13 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour City’s surge fizzles",
+  "text": "They built a quick spell with three sharp passes, but the shot got blocked and the flow slipped away, leaving the game still tight.",
+  "cites": [
+   "e0887",
+   "e0889",
+   "e0890",
+   "e0893"
+  ]
+ }
+}

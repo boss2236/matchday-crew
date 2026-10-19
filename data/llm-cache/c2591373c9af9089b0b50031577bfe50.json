@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour City’s swift strike",
+  "text": "After Sami intercepted the ball, three calm passes moved it to Leo, who finished with a blistering 83 km/h shot to level the game.",
+  "cites": [
+   "e0991",
+   "e0994",
+   "e0995",
+   "e0996",
+   "e0997",
+   "e0998"
+  ]
+ }
+}

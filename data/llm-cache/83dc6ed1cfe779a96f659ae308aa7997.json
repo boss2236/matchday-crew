@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour City’s swift press finish",
+  "text": "After a throw‑in, Pike’s 6.5 km carry and two precise passes (21.3 m, 23.5 m) fed Ruiz, whose 15.8 m pass set up Kowalski’s 71.6 km/h, 0.057 xG goal.",
+  "cites": [
+   "e1545",
+   "e1546",
+   "e1547",
+   "e1548",
+   "e1550",
+   "e1551"
+  ]
+ }
+}

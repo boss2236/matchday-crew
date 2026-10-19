@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Mbeki’s chance denied",
+  "text": "Zeke Mbeki fired a powerful shot that was blocked, showing Ironvale’s deep‑block can still be tested early on.",
+  "cites": [
+   "e0041"
+  ]
+ }
+}

@@ -81,6 +81,8 @@ export function allowedNumbers(pack) {
 }
 
 function addNumber(set, n) {
+  // Signed values (momentum -27 = away side on top) are written as "27".
+  if (n < 0) addNumber(set, -n);
   set.add(String(n));
   set.add(String(Math.round(n)));
   set.add(String(Math.round(n * 10) / 10));

@@ -1,0 +1,11 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour City’s dramatic finish",
+  "text": "In the final minute a quick pass set Dani Kowalski up for a low 2.5m strike that sealed the win, riding the team’s high momentum.",
+  "cites": [
+   "e1718",
+   "e1724"
+  ]
+ }
+}

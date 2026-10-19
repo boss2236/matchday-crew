@@ -1,0 +1,14 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour City takes charge",
+  "text": "A quick string of passes at the 80th minute lifted Harbour City’s flow and shook Ironvale Athletic",
+  "cites": [
+   "e1527",
+   "e1528",
+   "e1530",
+   "e1531",
+   "e1532"
+  ]
+ }
+}

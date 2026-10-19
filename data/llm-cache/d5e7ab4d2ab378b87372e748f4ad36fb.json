@@ -1,0 +1,11 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Momentum fuels decisive finish",
+  "text": "At 90+1', Harbour City’s momentum 60 and PPDA 8.5 enabled a 26.9m pass (difficulty 46) to Dani Kowalski, whose 2.5m shot (xG 0.79) sealed the win.",
+  "cites": [
+   "e1718",
+   "e1724"
+  ]
+ }
+}

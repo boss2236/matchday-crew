@@ -1,0 +1,20 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Rapid Build‑Up Leads to Equaliser",
+  "text": "After an interception (e0991), Harbour City executed three swift, unpressured passes (e0994‑e0996) and a short carry (e0997), culminating in a high‑speed 83 km/h shot (e0998) that restored parity, highlighting controlled possession over chaos.",
+  "tags": [
+   "possession",
+   "control",
+   "chance"
+  ],
+  "cites": [
+   "e0991",
+   "e0994",
+   "e0995",
+   "e0996",
+   "e0997",
+   "e0998"
+  ]
+ }
+}

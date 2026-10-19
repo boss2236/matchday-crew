@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Ironvale’s Counter Falters",
+  "text": "After an 8.7 km carry (e0567) and a 45.1 m high‑difficulty pass intercepted (e0568), rapid 49.5 m, 34.1 m and 36 m completions (e0575‑e0577) led to a blocked 0.071 xG shot (e0578).",
+  "cites": [
+   "e0567",
+   "e0568",
+   "e0575",
+   "e0576",
+   "e0577",
+   "e0578"
+  ]
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour City’s half‑time surge falters",
+  "text": "At 45:02 the team’s momentum rose to 25 but chaos spiked to 55 as rapid passes (e0887, e0889, e0890) led to a blocked shot (e0893), highlighting a fleeting control burst that dissolved into disorder.",
+  "tags": [
+   "momentum",
+   "chaos",
+   "control"
+  ],
+  "cites": [
+   "e0887",
+   "e0889",
+   "e0890",
+   "e0893"
+  ]
+ }
+}

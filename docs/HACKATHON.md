@@ -2,7 +2,7 @@
 
 Microsoft x Premier League **Inside the Game** developer hackathon. Source: [official rules](https://github.com/microsoft/insidethegamehackathon/blob/main/OFFICIAL%20RULES.md).
 
-Last updated 2026-10-19.
+Last updated 2026-10-19 (second pass: web app, Azure Translator, Container Apps deploy, MCP server, CI).
 
 ## Key dates
 
@@ -41,6 +41,21 @@ Sample output for the same goal (29:03):
 - Analyst: "Silvan's interception sparked a 7-pass build-up (pass difficulties 47, 45, 53) ending with Mbeki's 96.1 km/h shot (xG 0.188) for Ironvale's 0-1 lead at 30'."
 - Casual (Arabic): "ماركو سيلفان قطع الكرة ثم مررها لزيك مبيكي، الذي سدد تسديدة 96.1 كم/س وسجل هدف 0‑1 في الدقيقة 30. يا له من هجمة خاطفة!"
 
+### Final demo cache (after the fixes)
+
+The demo match (seed 7) was generated on Groq for English and Arabic and stored in `data/llm-cache/`. Replayed with **no API key**:
+
+| Language | Lines written by the model |
+|---|---|
+| English | 54 of 54 (53 Narrator, 1 Tactician fallback) |
+| Arabic | 54 of 54 |
+
+Fixes from this pass: recap prompt cut by about 70% (no more 413), dropped connections retried with backoff, fact checker accepts signed numbers written by size (momentum -27 as 27), event ids tidied out of on-screen text.
+
+Other settings (favourite club, player, metric, other languages, other matches) are generated live when a model key is set and cached from then on; without a key they fall back to the Tactician's AI line or a template.
+
+Known limitation: the fact checker verifies numbers, names and cited events, not units. One cached line says "8.7 km carry" where the evidence is 8.7 m.
+
 ## Challenge requirements (rules 4.1)
 
 | Requirement | Status |
@@ -48,8 +63,8 @@ Sample output for the same goal (29:03):
 | Ingest synthetic events as they happen | Done: simulator and event-by-event crew |
 | Interpret into stats and patterns (xG, pass difficulty, ball and shot speed, PPDA, momentum, chaos) | Done |
 | Explain why a moment matters | Done: Tactician agent |
-| Render on screen alongside the match | **Partial: timed overlay JSON exists, no visual front end yet** |
-| Personalize: analyst vs casual, language, favourite club | Done. Favourite player / player-focus mode not built |
+| Render on screen alongside the match | Done: second-screen web app draws each timed overlay over a live pitch |
+| Personalize: analyst vs casual, language, favourite club, favourite player, a single metric the viewer cares about | Done: persona toggle, 16 languages, favourite club, player-focus card and coverage, follow-a-metric mode with live tracker |
 | Narratives and recaps | Done |
 | Create or extend a synthetic dataset | Done: `data/`, `scripts/generate.js` |
 | Multi-language output | Done |
@@ -62,7 +77,7 @@ Sample output for the same goal (29:03):
 | Public GitHub repo, created after the hackathon started | Done |
 | Short pitch: what it is, which Microsoft and Azure tech, what problem it solves | **To do** |
 | Demo video under 2 minutes, public on YouTube or Vimeo, no third-party music or trademarks | **To do** |
-| Link for judges to test the project, free and unrestricted until Nov 10 | **To do** |
+| Link for judges to test the project, free and unrestricted until Nov 10 | **Ready to deploy**: `infra/deploy.sh` to Azure Container Apps, see docs/AZURE.md |
 | All materials in English | Done |
 
 ## Judging
@@ -71,23 +86,21 @@ Stage one is pass/fail: does the project fit the theme and reasonably apply the 
 
 Best category fit: **Best Multi-Agent System** (distinct agents, shared state, handoffs, recovery from failures, which the crew already has). Grand Prize once the front end and Azure parts are in. **Best Use of Microsoft Foundry** only with a working Foundry model.
 
+## Microsoft technology used
+
+| Technology | How | Status |
+|---|---|---|
+| Azure AI Translator | Translator agent localises template lines into the viewer's language | Built and contract-tested; needs a free F0 key |
+| Azure Container Apps | Hosting with scale to zero, keys as secrets, health probes | Deploy script and workflow ready; needs a subscription |
+| Microsoft Foundry | Model provider, used first when configured | Built and contract-tested against a mock Azure OpenAI API; account has no pay-per-token model |
+| GitHub Actions | Tests on Node 20 and 22, container build and smoke test, headless UI check, image publish | Runs on every push |
+| GitHub Container Registry | Free image hosting for the deploy | Runs on push to main |
+| MCP | Match tools for GitHub Copilot agent mode and other MCP clients | Built and tested |
+| GitHub Copilot | Mention in the pitch if used while building | Up to you |
+
 ## Risks and open work, by priority
 
-1. **No Microsoft service is used at runtime yet.** Stage one could fail on this. Low-cost options:
-   - Azure AI Translator (free tier) for multi-language output.
-   - Azure Static Web Apps or Container Apps (free tiers) to host the demo, which also gives judges a test link.
-   - GitHub Actions to run the tests on every push; mention GitHub Copilot if used.
-   - A Foundry pay-per-token chat model such as gpt-4o-mini if any account allows it (cents per match, unlike GPU deployments).
-2. **No visual front end.** UX is 20% of the score and Render is one of the five required stages. Needed: match view with overlays, analyst/casual toggle, language picker, favourite club and player.
-3. **Recap size** on free tiers (see above).
-4. **Pitch and video**, once the front end exists.
-5. **Rotate the test API keys** after testing. Keys live only in `.env`, which git ignores.
-
-## Suggested schedule
-
-| Days | Work |
-|---|---|
-| 1-2 | Front end, recap size fix |
-| 3-4 | Azure hosting, Translator, Foundry model if possible, GitHub Actions |
-| 5 | README, pitch, record video |
-| 6-8 | Buffer, submit early |
+1. **Get the Azure pieces live** (docs/AZURE.md): Translator F0 key, then deploy to Container Apps for the judges' link.
+2. **Pitch and video** (under 2 minutes). Suggested flow: kick off a match, switch Analyst/Casual on the same goal, switch to Arabic, open Behind the broadcast to show a rejected line, show player focus, end on the recap.
+3. **Rotate the test API keys** after testing. Keys live only in `.env`, which git ignores.
+4. Optional: a Foundry chat model if any account allows one.

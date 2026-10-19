@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Reid sparks Ironvale’s push",
+  "text": "Callum Reid’s three quick wins by minute 11 have turned the game on its head, giving Ironvale the edge and shaking up the match.",
+  "cites": [
+   "e0201",
+   "e0220",
+   "e0243"
+  ]
+ }
+}

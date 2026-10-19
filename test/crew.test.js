@@ -98,3 +98,66 @@ test('rate limits are retried after the delay the server asks for', async () => 
   assert.equal(sent.max_tokens, 1500);
   assert.equal(retryDelayMs({ headers: new Headers({ 'retry-after': '3' }) }), 3250);
 });
+
+test('signed numbers are checked by size: away momentum -27 may be written as 27', async () => {
+  const { verify } = await import('../src/agents/evidence.js');
+  const { MatchState } = await import('../src/stats/matchState.js');
+  const match = simulateMatch({ seed: 7 });
+  const state = new MatchState(match.meta);
+  const pack = { moment: { id: 'm1', data: { momentum: -27 } }, events: [{ id: 'e0001' }], match: {} };
+  assert.ok(verify({ text: 'Momentum meter at 27.', cites: ['e0001'] }, pack, state).ok);
+  assert.ok(!verify({ text: 'Momentum meter at 28.', cites: ['e0001'] }, pack, state).ok);
+});
+
+test('event ids are kept in cites but tidied out of on-screen text', async () => {
+  const { tidy } = await import('../src/agents/crew.js');
+  assert.equal(tidy('A run of risky passes (e0695, e0722, e0724) fail to break the deadlock.'), 'A run of risky passes fail to break the deadlock.');
+  assert.equal(tidy('Mbeki scores (e0578) at 96.1 km/h.'), 'Mbeki scores at 96.1 km/h.');
+  assert.equal(tidy('Pressure [e0101, e0102] pays off'), 'Pressure pays off');
+  assert.equal(tidy('No ids here, 2-1.'), 'No ids here, 2-1.');
+  assert.equal(tidy('the ensuing quick passes (e0575-e0577) produced a blocked shot.'), 'the ensuing quick passes produced a blocked shot.');
+  assert.equal(tidy('A rapid passing sequence (e0348–e0352) raised the tempo.'), 'A rapid passing sequence raised the tempo.');
+  assert.equal(tidy('Xhaka (the anchor) held firm.'), 'Xhaka (the anchor) held firm.');
+  assert.equal(tidy('After e0991 interception, three passes followed.'), 'After interception, three passes followed.');
+  assert.equal(tidy('بعد اعتراض e0991، قام'), 'بعد اعتراض، قام');
+});
+
+test('when the Narrator fails, a model-written Tactician line airs labelled as insight', async () => {
+  const llm = {
+    name: 'half',
+    json: async ({ system, user }) => {
+      if (!system.includes('You are the Tactician')) throw new Error('narrator down');
+      const ev = user.evidence.events[user.evidence.events.length - 1];
+      return { headline: 'Key moment', text: `${user.evidence.match.home} v ${user.evidence.match.away}.`, tags: [], cites: [ev.id] };
+    },
+  };
+  const { crew } = await run(llm);
+  assert.ok(crew.feed.filter((f) => f.type !== 'recap').every((f) => f.source === 'insight'));
+});
+
+test('cache-only mode falls back quietly without error noise', async () => {
+  const { CachedChat } = await import('../src/ai/cache.js');
+  const { mkdtempSync } = await import('node:fs');
+  const { tmpdir } = await import('node:os');
+  const { join } = await import('node:path');
+  const { crew } = await run(new CachedChat(null, { dir: mkdtempSync(join(tmpdir(), 'mc-')) }));
+  assert.ok(!crew.trace.some((r) => r.status === 'error'));
+  assert.ok(crew.trace.some((r) => r.detail === 'no cached answer'));
+});
+
+test('dropped connections are retried with backoff; other errors are not', async () => {
+  const replies = [
+    () => { throw new TypeError('fetch failed'); },
+    () => { throw Object.assign(new Error('timeout'), { name: 'AbortError' }); },
+    () => ({ ok: true, status: 200, json: async () => ({ choices: [{ message: { content: '{"ok":true}' } }] }) }),
+  ];
+  const waits = [];
+  const client = new ChatClient(llmConfigFromEnv({ LLM_MODEL: 'm' }), { fetchImpl: async () => replies.shift()(), sleep: async (ms) => waits.push(ms) });
+  assert.deepEqual(await client.json({ system: 's', user: 'u' }), { ok: true });
+  assert.deepEqual(waits, [1000, 2000]);
+
+  let calls = 0;
+  const strict = new ChatClient(llmConfigFromEnv({ LLM_MODEL: 'm' }), { fetchImpl: async () => { calls++; return { ok: false, status: 400, headers: new Headers(), text: async () => 'bad request' }; }, sleep: async () => {} });
+  await assert.rejects(strict.json({ system: 's', user: 'u' }), /400/);
+  assert.equal(calls, 1);
+});

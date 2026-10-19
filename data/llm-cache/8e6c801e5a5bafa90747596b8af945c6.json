@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour City’s Press Fuels Momentum",
+  "text": "Five swift passes (distances 43.3‑37.3 m, avg difficulty 44) lifted momentum to 33; Mehta’s 25.2 m shot (xG 0.015) tested Ironvale’s deep block.",
+  "cites": [
+   "e0348",
+   "e0349",
+   "e0350",
+   "e0351",
+   "e0352",
+   "e0353"
+  ]
+ }
+}

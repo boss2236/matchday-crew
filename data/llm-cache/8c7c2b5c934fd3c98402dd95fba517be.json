@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour City dominate with high‑press",
+  "text": "Harbour City’s 4‑1 win featured 1.26 xG, 8.5 PPDA and 75 momentum, out‑pressing Ironvale’s 10.3 PPDA and 49 chaos in the final minutes.",
+  "cites": [
+   "e1727"
+  ]
+ }
+}

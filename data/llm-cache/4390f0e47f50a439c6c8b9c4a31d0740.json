@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour City’s swift build‑up yields equaliser",
+  "text": "After e0991 interception, three unpressured passes (difficulty 30‑43) covering 67.5 m set up Marchetti’s 83 km/h shot (xG 0.024) for level score.",
+  "cites": [
+   "e0991",
+   "e0994",
+   "e0995",
+   "e0996",
+   "e0997",
+   "e0998"
+  ]
+ }
+}

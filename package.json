@@ -5,11 +5,13 @@
   "type": "module",
   "license": "MIT",
   "scripts": {
+    "start": "node scripts/serve.js",
     "test": "node --test test/*.test.js",
     "generate": "node scripts/generate.js",
-    "crew": "node scripts/run-crew.js"
+    "crew": "node scripts/run-crew.js",
+    "mcp": "node scripts/mcp.js"
   },
   "engines": {
-    "node": ">=20"
+    "node": ">=20.12"
   }
 }
