@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { Button, Card, Field, Select } from '@fluentui/react-components';
-import { ArrowClockwise24Regular, Play24Filled } from '@fluentui/react-icons';
+import { Button, Card, Caption1, Field, Select, Text } from '@fluentui/react-components';
+import { ArrowClockwise24Regular, Options20Regular, Play24Filled } from '@fluentui/react-icons';
 import type { FormEvent } from 'react';
 import type { AppConfig } from '../../../src/types.ts';
 
@@ -47,6 +47,10 @@ export default function Controls({ config, running, hasRun, onKickOff }: Control
   const [player, setPlayer] = useState(q.get('player') ?? '');
   const [metric, setMetric] = useState(() => pick(q.get('metric'), (v) => config.metrics.some((m) => m.id === v)) ?? '');
 
+  // On phones the setup folds into a one-line summary once a match is on
+  // (CSS only applies it below 960px; desktop always shows the full form).
+  const [folded, setFolded] = useState(false);
+
   const clubName = (id: string) => config.clubs.find((c) => c.id === id)?.name ?? id;
   const fixture: Fixture = fixtureKey === 'random' ? random : (config.fixtures[Number(fixtureKey)] ?? (config.fixtures[0] as Fixture));
   const inMatch = [fixture.home, fixture.away];
@@ -62,6 +66,7 @@ export default function Controls({ config, running, hasRun, onKickOff }: Control
 
   const submit = (e?: FormEvent) => {
     e?.preventDefault();
+    setFolded(true);
     onKickOff({ fixture, speed, language, club: clubOk ? club : '', player: playerOk ? player : '', metric });
   };
 
@@ -74,7 +79,21 @@ export default function Controls({ config, running, hasRun, onKickOff }: Control
   });
 
   return (
-    <Card className="controls gutter" appearance="filled-alternative" data-tour="controls">
+    <Card className={`controls gutter${folded && hasRun ? ' folded' : ''}`} appearance="filled-alternative" data-tour="controls">
+      <div className="controls-summary">
+        <div className="controls-summary-text">
+          <Text weight="semibold" truncate wrap={false} block>
+            {clubName(fixture.home)} vs {clubName(fixture.away)}
+          </Text>
+          <Caption1 className="muted" truncate wrap={false} block>
+            {SPEEDS.find(([v]) => v === speed)?.[1]} · {language}
+          </Caption1>
+        </div>
+        <Button appearance="subtle" icon={<Options20Regular />} onClick={() => setFolded(false)} aria-label="Change match settings">
+          Change
+        </Button>
+        <Button appearance="primary" icon={<ArrowClockwise24Regular />} onClick={() => submit()} aria-label={running ? 'Restart' : 'Watch again'} />
+      </div>
       <form onSubmit={submit} className="controls-grid" aria-label="Match setup">
         <Field label="Match">
           <Select

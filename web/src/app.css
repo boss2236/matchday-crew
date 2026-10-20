@@ -899,3 +899,254 @@ html[data-view='studio-pitch'] body {
 .ball {
   transition: transform 0.18s linear;
 }
+
+/* Match charts */
+.chart-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.chart-controls .fui-Select {
+  min-width: 0;
+  max-width: 220px;
+}
+.chart-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 16px;
+}
+.chart-legend .swatch,
+.share-legend .swatch {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 3px;
+  vertical-align: -1px;
+}
+.chart-box {
+  position: relative;
+  min-height: 190px;
+}
+.chart-box svg {
+  display: block;
+  overflow: visible;
+}
+.chart-box .grid line {
+  stroke: var(--colorNeutralStroke2);
+  stroke-width: 1;
+}
+.chart-box .grid line.zero {
+  stroke: var(--colorNeutralStroke1);
+}
+.chart-box text {
+  fill: var(--colorNeutralForeground3);
+  font-size: 11px;
+  font-variant-numeric: tabular-nums;
+}
+.chart-box .axis .ht {
+  stroke: var(--colorNeutralStroke2);
+  stroke-dasharray: 3 3;
+}
+.chart-box .series {
+  fill: none;
+  stroke-width: 2;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+.chart-box .series.neutral {
+  stroke: var(--colorNeutralForeground2);
+}
+.chart-box .end,
+.chart-box .crosshair circle {
+  stroke: var(--colorNeutralBackground1);
+  stroke-width: 2;
+}
+.chart-box .end-label {
+  fill: var(--colorNeutralForeground1);
+  font-weight: 600;
+  font-size: 12px;
+}
+.chart-box .side-label {
+  fill: var(--colorNeutralForeground2);
+}
+.chart-box .momentum-area {
+  opacity: 0.22;
+}
+.chart-box .crosshair line {
+  stroke: var(--colorNeutralForeground3);
+  stroke-width: 1;
+}
+.chart-box .hit {
+  fill: transparent;
+  cursor: crosshair;
+  touch-action: pan-y;
+}
+.chart-tip {
+  position: absolute;
+  top: 0;
+  transform: translateX(-50%);
+  pointer-events: none;
+  padding: 6px 10px;
+  border-radius: var(--borderRadiusMedium);
+  background: var(--colorNeutralBackground1);
+  border: 1px solid var(--colorNeutralStroke1);
+  box-shadow: var(--shadow8);
+  white-space: nowrap;
+}
+.chart-empty {
+  display: grid;
+  place-items: center;
+  height: 190px;
+  border: 1px dashed var(--colorNeutralStroke2);
+  border-radius: var(--borderRadiusLarge);
+}
+.share {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px 20px;
+  min-height: 190px;
+}
+.share .donut,
+.share .donut-track {
+  fill: none;
+  stroke-width: 22;
+}
+.share .donut-track {
+  stroke: var(--colorNeutralBackground3);
+}
+.share .donut-big {
+  fill: var(--colorNeutralForeground1);
+  font-size: 22px;
+  font-weight: 700;
+}
+.share .donut-small {
+  fill: var(--colorNeutralForeground3);
+  font-size: 12px;
+}
+.share-legend {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+  min-width: 150px;
+}
+.share-legend li {
+  display: grid;
+  grid-template-columns: 12px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 8px;
+}
+.share-legend .share-note {
+  display: block;
+}
+.share-value {
+  font-variant-numeric: tabular-nums;
+}
+.chart-table {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Setup summary: shown instead of the full form on phones once a match is on */
+.controls-summary {
+  display: none;
+  align-items: center;
+  gap: 8px;
+}
+.controls-summary-text {
+  flex: 1;
+  min-width: 0;
+}
+.team-name .short {
+  display: none;
+}
+
+@media (max-width: 960px) {
+  .controls.folded .controls-grid {
+    display: none;
+  }
+  .controls.folded .controls-summary {
+    display: flex;
+  }
+  /* One column, ordered for watching: pitch, the crew's lines, then the numbers. */
+  .layout {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .stage,
+  .side {
+    display: contents;
+  }
+  .stage-bar {
+    order: 1;
+  }
+  .pitch-wrap {
+    order: 2;
+  }
+  .ticker {
+    order: 3;
+    width: 100%;
+    max-width: 100%;
+  }
+  .layout > *,
+  .stage > *,
+  .side > * {
+    min-width: 0;
+    max-width: 100%;
+  }
+  .focus,
+  .metric-panel {
+    order: 4;
+  }
+  .feed-panel {
+    order: 5;
+    max-height: 70vh;
+  }
+  .charts {
+    order: 6;
+  }
+  .stats {
+    order: 7;
+  }
+  .crew-panel {
+    order: 8;
+  }
+}
+
+@media (max-width: 560px) {
+  .topbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    gap: 8px;
+  }
+  .topbar h1 {
+    white-space: nowrap;
+  }
+  .brand {
+    gap: 10px;
+    min-width: 0;
+  }
+  .topbar .tagline,
+  .topbar .btn-text,
+  .topbar-actions .fui-Badge {
+    display: none;
+  }
+  .topbar-actions {
+    gap: 2px;
+  }
+  .team-name .long {
+    display: none;
+  }
+  .team-name .short {
+    display: inline;
+  }
+  .score-row {
+    gap: 8px;
+  }
+}

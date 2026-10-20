@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { Card, CardHeader, Caption1, Text } from '@fluentui/react-components';
 import { DataTrending20Regular, PersonStar20Regular } from '@fluentui/react-icons';
 import type { LiveMeta, MetricReading, PlayerView } from '../../../src/types.ts';
+import { useTeamColors } from '../teamColors.ts';
 
 const PLAYER_CELLS: [key: keyof PlayerView, label: string][] = [
   ['goals', 'Goals'],
@@ -52,6 +53,7 @@ interface Point {
 }
 
 export function MetricCard({ metric, meta, runId }: { metric: MetricReading | null | undefined; meta: LiveMeta | null; runId: number }) {
+  const colors = useTeamColors(meta);
   const [history, setHistory] = useState<Point[]>([]);
   useEffect(() => setHistory([]), [runId]);
   useEffect(() => {
@@ -82,7 +84,7 @@ export function MetricCard({ metric, meta, runId }: { metric: MetricReading | nu
       <div className="metric-values">
         {(['home', 'away'] as const).map((side) => (
           <div key={side}>
-            <span className="dot" style={{ background: meta?.[side].colors.primary }} />
+            <span className="dot" style={{ background: colors[side] }} />
             <Text size={600} weight="bold">
               {metric?.[side] ?? '–'}
             </Text>
@@ -93,8 +95,8 @@ export function MetricCard({ metric, meta, runId }: { metric: MetricReading | nu
       <svg className="spark" viewBox="0 0 300 70" preserveAspectRatio="none" role="img" aria-label="Metric over the match">
         {history.length > 1 && (
           <>
-            <polyline points={points('home')} style={{ stroke: meta?.home.colors.primary }} />
-            <polyline points={points('away')} style={{ stroke: meta?.away.colors.primary }} />
+            <polyline points={points('home')} style={{ stroke: colors.home }} />
+            <polyline points={points('away')} style={{ stroke: colors.away }} />
           </>
         )}
       </svg>

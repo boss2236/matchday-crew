@@ -3,9 +3,9 @@ import { createRoot } from 'react-dom/client';
 import { FluentProvider, webDarkTheme, webLightTheme } from '@fluentui/react-components';
 import App from './App.tsx';
 import Studio from './Studio.tsx';
+import { ThemeContext } from './teamColors.ts';
+import type { ThemeName } from './teamColors.ts';
 import './app.css';
-
-export type ThemeName = 'dark' | 'light';
 
 function readTheme(): ThemeName {
   try {
@@ -34,9 +34,11 @@ function Root() {
       {isStudio ? (
         <Studio />
       ) : (
-        <div className="app-root">
-          <App theme={theme} onToggleTheme={() => setTheme((t) => (t === 'dark' ? 'light' : 'dark'))} />
-        </div>
+        <ThemeContext.Provider value={theme}>
+          <div className="app-root">
+            <App theme={theme} onToggleTheme={() => setTheme((t) => (t === 'dark' ? 'light' : 'dark'))} />
+          </div>
+        </ThemeContext.Provider>
       )}
     </FluentProvider>
   );

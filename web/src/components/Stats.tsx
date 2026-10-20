@@ -1,6 +1,7 @@
 import { Card, CardHeader, Caption1, Text } from '@fluentui/react-components';
 import { ChartMultiple20Regular } from '@fluentui/react-icons';
 import type { LiveMeta, LiveSnapshot, TeamSnapshot } from '../../../src/types.ts';
+import { useTeamColors } from '../teamColors.ts';
 
 const STATS: [key: keyof TeamSnapshot, label: string, lowerIsBetter?: boolean][] = [
   ['possessionPct', 'Possession %'],
@@ -17,6 +18,7 @@ const STATS: [key: keyof TeamSnapshot, label: string, lowerIsBetter?: boolean][]
 ];
 
 export default function Stats({ snap, meta }: { snap: LiveSnapshot | null; meta: LiveMeta | null }) {
+  const colors = useTeamColors(meta);
   return (
     <Card className="stats" aria-label="Team stats">
       <CardHeader
@@ -38,8 +40,8 @@ export default function Stats({ snap, meta }: { snap: LiveSnapshot | null; meta:
               <div className="stat-mid">
                 <Caption1 className="label">{label}</Caption1>
                 <div className="stat-bar">
-                  <div className="h" style={{ width: `${(hv / total) * 100}%`, background: meta?.home.colors.primary }} />
-                  <div className="a" style={{ width: `${(av / total) * 100}%`, background: meta?.away.colors.primary }} />
+                  <div className="h" style={{ width: `${(hv / total) * 100}%`, background: colors.home }} />
+                  <div className="a" style={{ width: `${(av / total) * 100}%`, background: colors.away }} />
                 </div>
               </div>
               <Text weight="bold" className="v r">{snap ? a : '–'}</Text>

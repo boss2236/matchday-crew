@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Ironvale’s passing falters",
+  "text": "From 05:45 to 06:02 Ironvale completed six passes averaging 31.6m, difficulty 43, speed 57 km/h, then momentum slid to -52 and chaos rose to 57.",
+  "cites": [
+   "e0138",
+   "e0139",
+   "e0140",
+   "e0141",
+   "e0142",
+   "e0143"
+  ]
+ }
+}

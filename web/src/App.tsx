@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from 'react';
 import { Badge, Button, MessageBar, MessageBarBody, Spinner, Switch, Tab, TabList, Text, Title3, Tooltip } from '@fluentui/react-components';
 import { Info16Regular, SportSoccer24Filled, Video20Regular, WeatherMoon20Regular, WeatherSunny20Regular, QuestionCircle20Regular } from '@fluentui/react-icons';
 import type { AppConfig, Persona } from '../../src/types.ts';
-import type { ThemeName } from './main.tsx';
+import type { ThemeName } from './teamColors.ts';
 import { useLiveMatch } from './useLiveMatch.ts';
 import Controls from './components/Controls.tsx';
 import type { Settings } from './components/Controls.tsx';
@@ -11,6 +11,7 @@ import Pitch from './components/Pitch.tsx';
 import Stats from './components/Stats.tsx';
 import Feed from './components/Feed.tsx';
 import CrewTrace from './components/CrewTrace.tsx';
+import MatchCharts from './components/MatchCharts.tsx';
 import { FocusCard, MetricCard } from './components/FocusCards.tsx';
 import { TourOffer, TourSteps, useTour } from './components/Tour.tsx';
 import { useBrowserVoices, useVoice, voiceSupport } from './useVoice.ts';
@@ -66,7 +67,7 @@ export default function App({ theme, onToggleTheme }: { theme: ThemeName; onTogg
           </span>
           <div>
             <Title3 as="h1" block>Nutmeg Desk</Title3>
-            <Text size={200} block className="muted">AI broadcast crew · explainable match intelligence</Text>
+            <Text size={200} block className="muted tagline">AI broadcast crew · explainable match intelligence</Text>
           </div>
         </div>
         <div className="topbar-actions">
@@ -74,8 +75,8 @@ export default function App({ theme, onToggleTheme }: { theme: ThemeName; onTogg
             <Badge appearance="tint" color="warning">Synthetic data</Badge>
           </Tooltip>
           <Tooltip content="What a viewer at home sees: the live match full-screen with the crew's graphics and a scorebug, no controls. Opens in a new tab." relationship="description">
-            <Button as="a" href={studioUrl()} target="_blank" rel="noopener" appearance="subtle" icon={<Video20Regular />} data-tour="studio">
-              Broadcast view
+            <Button as="a" href={studioUrl()} target="_blank" rel="noopener" appearance="subtle" icon={<Video20Regular />} data-tour="studio" aria-label="Broadcast view">
+              <span className="btn-text">Broadcast view</span>
             </Button>
           </Tooltip>
           <Tooltip content="Take the tour" relationship="label">
@@ -167,6 +168,7 @@ export default function App({ theme, onToggleTheme }: { theme: ThemeName; onTogg
             ))}
           </div>
           <Stats snap={live.snap} meta={live.meta} />
+          <MatchCharts history={live.history} meta={live.meta} />
         </section>
 
         <aside className="side">

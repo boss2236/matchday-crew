@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Mbeki’s near miss rattles Ironvale",
+  "text": "Wow, Zeke Mbeki unleashed a huge chance at 01:22, a powerful shot that got blocked—still a real scare for the deep‑block defense!",
+  "cites": [
+   "e0041"
+  ]
+ }
+}

@@ -15,7 +15,8 @@
    "name": "Harbour City",
    "short": "HBC",
    "colors": {
-    "primary": "#1f6feb",
+    "primary": "#2a78d6",
+    "dark": "#3987e5",
     "secondary": "#ffffff"
    },
    "style": {
@@ -100,7 +101,8 @@
    "name": "Ironvale Athletic",
    "short": "IVA",
    "colors": {
-    "primary": "#c2410c",
+    "primary": "#eb6834",
+    "dark": "#d95926",
     "secondary": "#111827"
    },
    "style": {
