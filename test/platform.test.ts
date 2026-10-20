@@ -10,7 +10,7 @@ import type { App } from '../src/server/app.ts';
 import { Speech, ssml, speechConfigFromEnv, VOICES } from '../src/ai/speech.ts';
 import { agentCard, handleA2A } from '../src/a2a/agent.ts';
 import { LANGUAGES } from '../src/ai/translator.ts';
-import { must } from './helpers.ts';
+import { model, must } from './helpers.ts';
 
 async function listen(app: App) {
   await new Promise<void>((r) => app.listen(0, '127.0.0.1', r));
@@ -110,6 +110,115 @@ test('server: security headers, studio route, A2A over HTTP, speech off, rate li
     const second = await fetch(`${base}/api/live?speed=0&seed=8`);
     assert.equal(second.status, 429);
     assert.ok(Number(second.headers.get('retry-after')) > 0);
+  } finally {
+    await close();
+  }
+});
+
+test('content safety: request shape, severity threshold and memo', async () => {
+  const { ContentSafety, safetyConfigFromEnv } = await import('../src/ai/safety.ts');
+  const calls: { url: string; body: any; key: string }[] = [];
+  const scores: Record<string, number> = { calm: 0, rough: 2, nasty: 4 };
+  const cs = new ContentSafety(must(safetyConfigFromEnv({ AZURE_CONTENT_SAFETY_ENDPOINT: 'https://cs.example/', AZURE_CONTENT_SAFETY_KEY: 'ck' })), {
+    fetchImpl: async (url, init) => {
+      const body = JSON.parse(String(init.body));
+      calls.push({ url, body, key: (init.headers as Record<string, string>)['Ocp-Apim-Subscription-Key'] as string });
+      const sev = scores[body.text as string] ?? 0;
+      return new Response(JSON.stringify({ categoriesAnalysis: [{ category: 'Hate', severity: 0 }, { category: 'Violence', severity: sev }] }));
+    },
+  });
+  assert.deepEqual(await cs.screen('calm'), { ok: true, flagged: [] });
+  assert.deepEqual(await cs.screen('rough'), { ok: true, flagged: [] }, 'severity 2 (football "attacks") airs by default');
+  assert.deepEqual(await cs.screen('nasty'), { ok: false, flagged: ['Violence 4'] });
+  await cs.screen('nasty');
+  assert.equal(calls.length, 3, 'repeats are screened once');
+  const first = must(calls[0]);
+  assert.equal(first.url, 'https://cs.example/contentsafety/text:analyze?api-version=2024-09-01');
+  assert.equal(first.key, 'ck');
+  assert.deepEqual(first.body.categories, ['Hate', 'SelfHarm', 'Sexual', 'Violence']);
+  assert.equal(safetyConfigFromEnv({ AZURE_CONTENT_SAFETY_ENDPOINT: 'x', AZURE_CONTENT_SAFETY_KEY: 'k', CONTENT_SAFETY_MAX_SEVERITY: '0' })?.maxSeverity, 0);
+  assert.equal(safetyConfigFromEnv({}), null);
+});
+
+test('Safety agent: flagged model lines become templates; outages let lines air; templates are not screened', async () => {
+  const { runCrew, evidenceOf } = await import('./helpers.ts');
+  const grounded = model((request) => {
+    const pack = evidenceOf(request);
+    const ev = must(pack.events[pack.events.length - 1]);
+    return { headline: 'Key moment', text: `${pack.match.home} v ${pack.match.away}, ${pack.match.score}.`, tags: [], cites: [ev.id] };
+  });
+  const screened: string[] = [];
+  const flagAll = { screen: async (t: string) => (screened.push(t), { ok: false, flagged: ['Violence 6'] }) };
+  const { crew } = await runCrew(grounded, { safety: flagAll });
+  assert.ok(screened.length > 0);
+  assert.ok(crew.feed.every((f) => f.source === 'template'), 'every flagged line was replaced');
+  assert.ok(crew.trace.some((r) => r.agent === 'Safety' && r.status === 'rejected' && /Violence 6/.test(r.detail)));
+
+  const down = { screen: async () => { throw new Error('content safety 503'); } };
+  const { crew: crew2 } = await runCrew(grounded, { safety: down });
+  assert.ok(crew2.feed.some((f) => f.source === 'model'), 'lines still air when the service is down');
+  assert.ok(crew2.trace.some((r) => r.agent === 'Safety' && r.status === 'error'));
+
+  const seen: string[] = [];
+  await runCrew(null, { safety: { screen: async (t: string) => (seen.push(t), { ok: true, flagged: [] }) } });
+  assert.equal(seen.length, 0, 'templates are built from match data and skip the check');
+});
+
+test('telemetry: connection string, durations, envelopes and never throwing', async () => {
+  const { AppInsights, parseConnectionString, formatDuration, track, noTelemetry } = await import('../src/telemetry.ts');
+  assert.deepEqual(parseConnectionString('InstrumentationKey=abc;IngestionEndpoint=https://qatarcentral-0.in.applicationinsights.azure.com/;LiveEndpoint=x'), {
+    iKey: 'abc',
+    endpoint: 'https://qatarcentral-0.in.applicationinsights.azure.com/',
+  });
+  assert.equal(parseConnectionString('IngestionEndpoint=https://x/'), null);
+  assert.equal(formatDuration(1234), '00:00:01.234');
+  assert.equal(formatDuration(90_061_005), '1.01:01:01.005');
+
+  const posts: { url: string; batch: any[] }[] = [];
+  let fail = false;
+  const ai = new AppInsights('InstrumentationKey=k1;IngestionEndpoint=https://ing.example/', {
+    intervalMs: 60_000,
+    fetchImpl: async (url, init) => {
+      posts.push({ url, batch: JSON.parse(String(init.body)) });
+      return new Response('{}', { status: fail ? 500 : 200 });
+    },
+  });
+  ai.request('GET /api/config', '/api/config', 200, 12);
+  await track(ai, 'Azure AI Translator', 'translate', 'api', async () => 'ok', { language: 'Arabic' });
+  await assert.rejects(track(ai, 'AI model', 'chat completion', 'groq', async () => { throw new Error('429'); }));
+  ai.event('MatchSession', { seed: 7 }, { items: 54 });
+  ai.exception(new Error('boom'));
+  await ai.flush();
+  clearInterval(ai.timer);
+  const post = must(posts[0]);
+  assert.equal(post.url, 'https://ing.example/v2/track');
+  assert.deepEqual(post.batch.map((e) => e.data.baseType), ['RequestData', 'RemoteDependencyData', 'RemoteDependencyData', 'EventData', 'ExceptionData']);
+  assert.ok(post.batch.every((e) => e.iKey === 'k1' && e.tags['ai.cloud.role'] === 'nutmeg-desk'));
+  assert.equal(post.batch[2].data.baseData.success, false);
+  assert.equal(post.batch[3].data.baseData.measurements.items, 54);
+  fail = true;
+  ai.event('x');
+  await ai.flush(); // a failing ingestion endpoint must not throw
+  assert.equal(noTelemetry.enabled, false);
+});
+
+test('server: request telemetry and a session event per match', async () => {
+  const seen: string[] = [];
+  const telemetry = {
+    enabled: true,
+    request: (name: string) => seen.push(`request ${name}`),
+    dependency: () => {},
+    event: (name: string, _p?: unknown, m?: Record<string, number>) => seen.push(`event ${name} items=${m?.items}`),
+    exception: () => {},
+    flush: async () => {},
+  };
+  const { base, close } = await listen(createApp({ telemetry, publicDir: mkdtempSync(join(tmpdir(), 'mc-web-')) }));
+  try {
+    await (await fetch(`${base}/api/config`)).json();
+    await (await fetch(`${base}/api/live?seed=8&speed=0`)).text();
+    await new Promise((r) => setTimeout(r, 50));
+    assert.ok(seen.includes('request GET /api/config'));
+    assert.ok(seen.some((s) => /^event MatchSession items=\d+$/.test(s)));
   } finally {
     await close();
   }

@@ -25,6 +25,16 @@ export interface TraceRow extends TraceEntry {
   key: number;
 }
 
+// Where each player was last involved in play (match seconds), for the pitch.
+export interface PlayerSpot {
+  id: string;
+  name: string;
+  team: string | null;
+  x: number;
+  y: number;
+  t: number;
+}
+
 export interface LiveState {
   status: 'idle' | 'live' | 'ended' | 'error';
   meta: LiveMeta | null;
@@ -32,6 +42,8 @@ export interface LiveState {
   clock: string;
   items: FeedItem[];
   trail: LiveEvent[];
+  players: Record<string, PlayerSpot>;
+  onBall: string | null;
   ticker: TickerEntry[];
   trace: TraceRow[];
   counts: Partial<Record<TraceStatus, number>>;
@@ -48,6 +60,8 @@ const initial: LiveState = {
   clock: '00:00',
   items: [],
   trail: [],
+  players: {},
+  onBall: null,
   ticker: [],
   trace: [],
   counts: {},
@@ -60,6 +74,7 @@ const initial: LiveState = {
 type Action = { type: 'reset' } | { type: 'error'; message: string } | { type: 'batch'; messages: Message[] };
 
 const PLAYS = new Set(['pass', 'carry', 'shot']);
+const HAS_BALL = new Set(['kickoff', 'pass', 'carry', 'shot', 'possession_change', 'interception', 'save']);
 
 function describe(ev: LiveEvent): string | null {
   const p = ev.player?.name;
@@ -91,7 +106,7 @@ function reducer(state: LiveState, action: Action): LiveState {
   if (action.type === 'reset') return { ...initial, status: 'live', runId: state.runId + 1 };
   if (action.type === 'error') return { ...state, status: 'error', error: action.message };
   const next = { ...state };
-  let { items, trail, ticker, trace, counts, seq } = next;
+  let { items, trail, ticker, trace, counts, seq, players } = next;
   const copied = new Set<string>();
   const own = <T>(name: string, value: T[]): T[] => {
     if (copied.has(name)) return value;
@@ -109,6 +124,22 @@ function reducer(state: LiveState, action: Action): LiveState {
       case 'event': {
         const ev = msg.data;
         next.clock = ev.type === 'full_time' ? 'FT' : ev.type === 'half_time' ? 'HT' : ev.clock;
+        if (ev.player && ev.x !== undefined && ev.y !== undefined) {
+          if (!copied.has('players')) {
+            copied.add('players');
+            players = { ...players };
+          }
+          // A carry ends where the dribble ends; everything else at the event spot.
+          const atEnd = ev.type === 'carry' && ev.endX !== undefined && ev.endY !== undefined;
+          players[ev.player.id] = { id: ev.player.id, name: ev.player.name, team: ev.team, x: atEnd ? (ev.endX as number) : ev.x, y: atEnd ? (ev.endY as number) : ev.y, t: ev.t };
+          // Only these actions mean the player has the ball (a presser or tackler does not, yet).
+          if (HAS_BALL.has(ev.type)) next.onBall = ev.player.id;
+          // A completed pass: the receiver now has the ball where it arrived.
+          if (ev.type === 'pass' && ev.outcome === 'complete' && ev.recipient && ev.endX !== undefined && ev.endY !== undefined) {
+            players[ev.recipient.id] = { id: ev.recipient.id, name: ev.recipient.name, team: ev.team, x: ev.endX, y: ev.endY, t: ev.t };
+            next.onBall = ev.recipient.id;
+          }
+        }
         if (ev.x !== undefined && PLAYS.has(ev.type)) {
           trail = own('trail', trail);
           trail.push(ev);
@@ -149,7 +180,7 @@ function reducer(state: LiveState, action: Action): LiveState {
         break;
     }
   }
-  return { ...next, items, trail, ticker, trace, counts, seq };
+  return { ...next, items, trail, ticker, trace, counts, seq, players };
 }
 
 export function useLiveMatch() {

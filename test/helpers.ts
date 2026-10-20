@@ -5,6 +5,7 @@ import type { AddressInfo } from 'node:net';
 import { simulateMatch } from '../src/engine/simulate.ts';
 import { Crew } from '../src/agents/crew.ts';
 import type { RpcResponse } from '../src/mcp/server.ts';
+import type { ContentScreen } from '../src/ai/safety.ts';
 import type { Audience, ChatRequest, JsonModel, TextTranslator } from '../src/types.ts';
 
 // Narrow away null and undefined, failing the test if the value is missing.
@@ -22,9 +23,12 @@ export function translator(translate: (texts: string[], language: string) => str
   return { translate: async (texts, language) => translate(texts, language) };
 }
 
-export async function runCrew(llm: JsonModel | null, { seed = 7, translator = null, audiences }: { seed?: number; translator?: TextTranslator | null; audiences?: Audience[] } = {}) {
+export async function runCrew(
+  llm: JsonModel | null,
+  { seed = 7, translator = null, safety = null, audiences }: { seed?: number; translator?: TextTranslator | null; safety?: ContentScreen | null; audiences?: Audience[] } = {},
+) {
   const match = simulateMatch({ seed });
-  const crew = new Crew({ meta: match.meta, llm, translator, ...(audiences && { audiences }) });
+  const crew = new Crew({ meta: match.meta, llm, translator, safety, ...(audiences && { audiences }) });
   for (const ev of match.events) await crew.onEvent(ev);
   return { match, crew };
 }

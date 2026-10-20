@@ -92,8 +92,10 @@ Best category fit: **Best Multi-Agent System** (distinct agents, shared state, h
 |---|---|---|
 | TypeScript | Whole codebase in strict mode; Node runs it directly, tsc checks it in CI | Done |
 | Fluent UI React v9 | Second-screen app built on Microsoft's design system, light and dark | Done |
-| Azure AI Speech | Voice commentary, neural voice per language | Built and contract-tested; needs a free F0 key (browser voice until then) |
+| Azure AI Speech | Voice commentary, neural voice per language, browser voice as fallback | Live: free F0 resource in Qatar Central, tested in English and Arabic |
 | Agent2Agent (A2A) | Agent card and JSON-RPC endpoint for other agents | Built and tested |
+| Azure AI Content Safety | Safety agent screens every model-written line before it airs | Built and contract-tested; needs a free F0 resource |
+| Azure Application Insights | Requests, model and Azure AI calls, match sessions, errors | Built and tested; needs a free resource |
 | Azure AI Translator | Translator agent localises fallback lines into the viewer's language | Live: free F0 resource in Qatar Central, tested end to end (38 of 40 lines translated in a Spanish match, about 2,000 characters) |
 | Azure Container Apps | Hosting with scale to zero, keys as secrets, health probes | Deploy script and workflow ready; needs a subscription |
 | Microsoft Foundry | Model provider, used first when configured | Built and contract-tested against a mock Azure OpenAI API; account has no pay-per-token model |

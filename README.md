@@ -27,8 +27,9 @@ The hackathon asks for one pipeline with five stages. Here is where each one liv
 | Analyst | code | Watches every event, picks which moments are worth airing, builds an evidence pack |
 | Tactician | model | Explains why the moment matters, citing event IDs |
 | Narrator | model | Rewrites it per audience: persona, language, favourite club, favourite player, followed metric |
-| Verifier | code | Rejects any line with a number, player or cited event not in the evidence (reads Arabic-Indic digits and decimal commas too); one retry with feedback, then a fallback |
+| Verifier | code | Rejects any line with a number, player or cited event not in the evidence; numbers with a unit (km/h, m, xG, %) must match a value of that kind; any player in the league counts; reads Arabic-Indic digits and decimal commas. One retry with feedback, then a fallback |
 | Translator | Azure AI Translator | Localises any fallback line so a non-English viewer never gets English, and keeps it only if it still passes the fact check |
+| Safety | Azure AI Content Safety | Screens every model-written line (hate, self-harm, sexual, violence) before it airs; flagged lines become templates |
 | Producer | code | Builds the timed overlay for the rendering layer |
 | Recap | model | Writes the full-time story for each audience |
 
@@ -38,6 +39,7 @@ How reliable is it? [docs/QUALITY.md](docs/QUALITY.md) measures it: share of lin
 
 ### In the app
 
+- **Players on the pitch**: everyone involved in recent play with shirt numbers in club colours, the ball at its carrier's feet with a name tag, the followed player ringed.
 - **Analyst / casual fan** switch on the same live match, **16 languages**, favourite club, **player focus** and **follow-a-metric** modes.
 - **Voice commentary**: every line read aloud with Azure AI Speech neural voices (browser voice when no key is set).
 - **Broadcast view** (`/studio`): what a viewer at home sees: the live match full-screen with a scorebug and the crew's graphics, no controls. `voice=1` reads lines aloud. For broadcast software, `bg=transparent` keeps only the graphics (to layer in OBS or vMix over a video whose events come from the same data feed) and `bg=green` puts them on chroma green. The lines describe the synthetic match: the crew reads an event feed, it does not watch video.
@@ -66,6 +68,8 @@ flowchart LR
 | **Fluent UI React v9** | Second-screen app: Microsoft's design system, light and dark themes |
 | **Azure AI Translator** | Translator agent for any line that falls back to English |
 | **Azure AI Speech** | Voice commentary with a neural voice per language |
+| **Azure AI Content Safety** | Safety agent: every model-written line is screened before it airs |
+| **Azure Application Insights** | Requests, every model and Azure AI call, a summary per match session, and errors (`src/telemetry.ts`, no SDK) |
 | **Azure Container Apps** | Hosting: scale to zero, keys as secrets, health probes (`infra/deploy.sh`) |
 | **Microsoft Foundry** | Compatible model provider: set three values and it is used first. Request format covered by contract tests |
 | **GitHub Actions** | Type-check, tests on Node 22 and 24, web build, container build and smoke test, headless UI check, image publish |
@@ -81,7 +85,7 @@ Needs Node 22.18 or newer.
 npm install          # TypeScript compiler (dev only; the server has no runtime dependencies)
 npm run build        # build the Fluent UI app into web/dist
 npm start            # http://localhost:3000
-npm run check        # strict type-check of server and web app, then 52 tests
+npm run check        # strict type-check of server and web app, then 57 tests
 ```
 
 Pick a match, language, favourite club, player and a metric to follow, press **Kick off**, and switch between **Analyst** and **Casual fan** at any time. Deep links work for demos, e.g. `/?match=0&speed=60&language=Arabic&club=harbour&player=harbour-9&metric=xg&persona=casual&autostart=1`.
@@ -117,7 +121,7 @@ npm run quality                   # write docs/QUALITY.md
 npm run ui-check -- "http://localhost:3000/?autostart=1&speed=60" out/ui 20   # headless UI check
 ```
 
-**Production basics.** Per-client rate limits on the live stream, speech and A2A endpoints, a strict Content-Security-Policy and other security headers, health probes, request size limits, and keys only in environment variables or Container Apps secrets.
+**Production basics.** Application Insights telemetry, per-client rate limits on the live stream, speech and A2A endpoints, a strict Content-Security-Policy and other security headers, health probes, request size limits, and keys only in environment variables or Container Apps secrets.
 
 **A2A.** Other agents discover the crew at `/.well-known/agent-card.json` and call `message/send` on `/a2a` with a data part such as `{"skill": "explain_moment", "arguments": {"seed": 7, "momentId": "m004", "persona": "casual", "language": "Arabic"}}`, or plain text.
 

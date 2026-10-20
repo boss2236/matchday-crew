@@ -8,6 +8,11 @@
 
 import type { MatchEvent, MomentData, MomentType, Moment, Score, TeamSnapshot } from '../types.ts';
 import type { MatchState } from '../stats/matchState.ts';
+import { CLUBS } from '../engine/teams.ts';
+
+// Every player in the league: naming a player from another club is as wrong as
+// naming one who was not involved.
+const LEAGUE_NAMES = Object.values(CLUBS).flatMap((c) => c.players.map((p) => p.name));
 
 const NAME_FIELDS = ['player', 'recipient', 'target'] as const;
 const DETAIL_FIELDS = ['outcome', 'xg', 'distance', 'progress', 'difficulty', 'speedKmh', 'pressured', 'cause', 'score'] as const;
@@ -186,6 +191,66 @@ export function unitProblems(text: unknown): string[] {
   return problems;
 }
 
+// Numbers with a unit must match a value of that kind in the evidence: a speed in
+// km/h a speed, a distance in metres a distance, xG an xG, a percentage a
+// percentage (or an xG written as a percentage). This stops a wrong number from
+// passing because the same digits happen to appear elsewhere in the pack.
+type Kind = 'speed' | 'distance' | 'xg' | 'percent';
+
+const KIND_OF_KEY: [RegExp, Kind][] = [
+  [/speedkmh$/i, 'speed'],
+  [/^(distance|progress|carrydistance)$/i, 'distance'],
+  [/^xg$/i, 'xg'],
+  [/pct$/i, 'percent'],
+];
+
+const kindOfUnit = (unit: string): Kind | null =>
+  /km\/h/.test(unit) ? 'speed' : /xg/i.test(unit) ? 'xg' : /%/.test(unit) ? 'percent' : /^m\b|metre|meter/i.test(unit) ? 'distance' : null;
+
+export function valuesByKind(pack: unknown): Record<Kind, Set<string>> {
+  const out: Record<Kind, Set<string>> = { speed: new Set(), distance: new Set(), xg: new Set(), percent: new Set() };
+  const visit = (v: unknown, forced: Kind | null) => {
+    if (Array.isArray(v)) return v.forEach((x) => visit(x, forced));
+    if (!v || typeof v !== 'object') return;
+    const obj = v as Record<string, unknown>;
+    // A followed-metric block says its unit once for all of its numbers.
+    const unitKind = typeof obj.unit === 'string' ? kindOfUnit(obj.unit) : null;
+    for (const [k, x] of Object.entries(obj)) {
+      const kind = forced ?? unitKind ?? KIND_OF_KEY.find(([re]) => re.test(k))?.[1] ?? null;
+      if (typeof x === 'number' && kind) {
+        addNumber(out[kind], x);
+        if (kind === 'xg') addNumber(out.percent, x * 100);
+      } else if (x && typeof x === 'object') visit(x, forced ?? unitKind);
+    }
+  };
+  visit(pack, null);
+  return out;
+}
+
+const UNIT_PATTERNS: [Kind, RegExp][] = [
+  ['speed', /(\d+(?:\.\d+)?)\s*(?:km\/h|kph|km per hour|كم\/س|كم\/ساعة|كم في الساعة)/gi],
+  ['distance', /(\d+(?:\.\d+)?)\s*(?:m|metres|meters|metros|mètres|متر|أمتار)(?![a-z\/])/gi],
+  ['percent', /(\d+(?:\.\d+)?)\s*%/g],
+  ['xg', /(?:\bxG\s*(?:of\s*|de\s*|=\s*)?(\d+(?:\.\d+)?))|(?:(\d+(?:\.\d+)?)\s*xG\b)/gi],
+];
+
+export function unitNumberProblems(text: unknown, pack: unknown): string[] {
+  const kinds = valuesByKind(pack);
+  const normalized = normalizeNumerals(text);
+  const problems: string[] = [];
+  for (const [kind, re] of UNIT_PATTERNS) {
+    // No value of this kind in the evidence: leave it to the general check.
+    if (!kinds[kind].size) continue;
+    for (const m of normalized.matchAll(re)) {
+      const value = m[1] ?? m[2];
+      if (value === undefined) continue;
+      const s = String(Number(value));
+      if (!kinds[kind].has(s) && !ALWAYS_OK.has(s)) problems.push(`${kind} ${s} does not match any ${kind} in the evidence`);
+    }
+  }
+  return problems;
+}
+
 // Numbers that are always fine: small counts and the standard match length.
 const ALWAYS_OK = new Set(['0', '1', '2', '3', '45', '90']);
 
@@ -204,7 +269,7 @@ export function verify(
   const answer = (output && typeof output === 'object' ? output : {}) as Record<string, unknown>;
   const nums = allowedNumbers(pack);
   const evidenceIds = new Set(pack.events.map((e) => e.id));
-  const knownNames = new Set<string>();
+  const knownNames = new Set<string>(LEAGUE_NAMES);
   for (const p of state.players.values()) knownNames.add(p.name);
   const packText = JSON.stringify(pack);
 
@@ -215,6 +280,7 @@ export function verify(
       continue;
     }
     problems.push(...unitProblems(text));
+    problems.push(...unitNumberProblems(text, pack));
     for (const n of extractNumbers(text)) {
       // Whole numbers may be a rounded evidence value (pack values are added
       // rounded); a decimal must match an evidence value at the precision written,

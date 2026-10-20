@@ -222,8 +222,8 @@ html[data-theme='light'] body {
 .ball {
   fill: #fff;
   stroke: #000;
-  stroke-width: 0.25;
-  transition: cx 0.35s ease, cy 0.35s ease;
+  stroke-width: 0.35;
+  filter: drop-shadow(0 0 0.8px rgba(255, 255, 255, 0.9));
 }
 .trail-line {
   stroke: rgba(255, 255, 255, 0.6);
@@ -238,7 +238,7 @@ html[data-theme='light'] body {
   stroke: color-mix(in srgb, var(--away, #c2410c) 75%, white);
 }
 .trail-dot {
-  fill: rgba(255, 255, 255, 0.85);
+  fill: rgba(255, 255, 255, 0.45);
 }
 .shot-line {
   stroke: #f5b942;
@@ -851,4 +851,51 @@ html[data-view='studio-pitch'] body {
   background: rgba(7, 11, 20, 0.6);
   padding: 4px 10px;
   border-radius: 6px;
+}
+
+/* Players: last place each was involved in play, with shirt numbers */
+.player circle {
+  stroke-width: 0.45;
+  fill: #0b0d12;
+}
+.player.home circle {
+  stroke: color-mix(in srgb, var(--home, #1f6feb) 85%, white);
+}
+.player.away circle {
+  stroke: color-mix(in srgb, var(--away, #c2410c) 85%, white);
+}
+.player text {
+  fill: #fff;
+  font-size: 1.9px;
+  font-weight: 700;
+  text-anchor: middle;
+  font-family: var(--fontFamilyBase), sans-serif;
+}
+.player.on-ball circle {
+  fill: color-mix(in srgb, var(--home, #1f6feb) 35%, #0b0d12);
+  stroke: #fff;
+  stroke-width: 0.6;
+}
+.player.away.on-ball circle {
+  fill: color-mix(in srgb, var(--away, #c2410c) 35%, #0b0d12);
+}
+.player.focus circle {
+  stroke: #f5b942;
+  stroke-width: 0.8;
+}
+.player-label {
+  fill: #fff;
+  font-size: 2.2px;
+  font-weight: 700;
+  text-anchor: middle;
+  paint-order: stroke;
+  stroke: rgba(0, 0, 0, 0.75);
+  stroke-width: 0.5px;
+  font-family: var(--fontFamilyBase), sans-serif;
+}
+/* Players, their label and the ball glide together, quickly enough to keep up at 60x. */
+.player,
+.player-label,
+.ball {
+  transition: transform 0.18s linear;
 }

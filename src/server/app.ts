@@ -18,13 +18,16 @@ import type { ClubId } from '../engine/teams.ts';
 import { LANGUAGES, languageCode } from '../ai/translator.ts';
 import { FIXTURES, clubSummary } from '../live/fixtures.ts';
 import { LiveSession, audiencesFor } from '../live/session.ts';
-import type { Emit } from '../live/session.ts';
+import type { Emit, LiveMessages } from '../live/session.ts';
 import { METRICS, isMetricId, metricIds } from '../stats/metrics.ts';
 import type { AppConfig, JsonModel, MetricId, TextTranslator } from '../types.ts';
 import type { Speech } from '../ai/speech.ts';
+import type { ContentScreen } from '../ai/safety.ts';
 import { MAX_SPEECH_CHARS } from '../ai/speech.ts';
 import { agentCard, handleA2A } from '../a2a/agent.ts';
 import { sourceFingerprint } from '../version.ts';
+import { noTelemetry } from '../telemetry.ts';
+import type { Telemetry } from '../telemetry.ts';
 
 const BUILD = sourceFingerprint();
 import type { A2ARequest } from '../a2a/agent.ts';
@@ -137,6 +140,8 @@ export interface AppOptions {
   llm?: (JsonModel & { stats?: unknown }) | null;
   translator?: TextTranslator | null;
   speech?: Speech | null;
+  safety?: ContentScreen | null;
+  telemetry?: Telemetry;
   limits?: Record<string, number>;
   modelLabel?: string | null;
   maxSessions?: number;
@@ -152,6 +157,8 @@ export function createApp({
   maxSessions = Number(process.env.MAX_LIVE_SESSIONS) || 4,
   publicDir = DEFAULT_PUBLIC_DIR,
   speech = null,
+  safety = null,
+  telemetry = noTelemetry,
   limits = DEFAULT_LIMITS,
 }: AppOptions = {}): App {
   const sessions = new Set<LiveSession>();
@@ -185,14 +192,24 @@ export function createApp({
     const q = parseLiveQuery(url.searchParams);
     res.writeHead(200, { 'content-type': 'text/event-stream', 'cache-control': 'no-cache, no-transform', connection: 'keep-alive', 'x-accel-buffering': 'no' });
     res.write(': nutmeg desk\n\n');
+    const sessionStarted = Date.now();
     const emit: Emit = (type, data) => {
       res.write(`event: ${type}\ndata: ${JSON.stringify(data)}\n\n`);
+      if (type === 'end') {
+        const end = data as LiveMessages['end'];
+        telemetry.event(
+          'MatchSession',
+          { seed: q.seed, home: q.home, away: q.away, language: q.language, club: q.favouriteClub ?? undefined, metric: q.focusMetric ?? undefined },
+          { items: end.items, seconds: (Date.now() - sessionStarted) / 1000, ...(end.statuses as Record<string, number>) },
+        );
+      }
     };
     const session = new LiveSession({
       ...q,
       audiences: audiencesFor(q),
       llm,
       translator,
+      safety,
       emit,
     });
     sessions.add(session);
@@ -233,8 +250,13 @@ export function createApp({
     return json(res, 200, await handleA2A(body, { llm, translator }));
   }
 
+  // Group request telemetry by route, not by fingerprinted asset name.
+  const routeOf = (path: string) => (path.startsWith('/assets/') ? '/assets/*' : path);
+
   const server = createServer(async (req, res) => {
     const url = new URL(req.url ?? '/', 'http://localhost');
+    const started = Date.now();
+    res.on('finish', () => telemetry.request(`${req.method} ${routeOf(url.pathname)}`, url.pathname, res.statusCode, Date.now() - started));
     for (const [k, v] of Object.entries(SECURITY_HEADERS)) res.setHeader(k, v);
     try {
       const wait = limiter.check(url.pathname, clientOf(req));
@@ -253,7 +275,7 @@ export function createApp({
       }
       if (url.pathname === '/api/speak') return await speak(res, url);
       if (url.pathname === '/healthz') {
-        return json(res, 200, { ok: true, model: modelLabel, translator: Boolean(translator), speech: Boolean(speech), cache: llm?.stats ?? null, liveSessions: sessions.size });
+        return json(res, 200, { ok: true, model: modelLabel, translator: Boolean(translator), speech: Boolean(speech), safety: Boolean(safety), cache: llm?.stats ?? null, liveSessions: sessions.size });
       }
       if (url.pathname === '/api/config') {
         const config: AppConfig = {
@@ -264,6 +286,7 @@ export function createApp({
           model: modelLabel,
           translator: Boolean(translator),
           speech: Boolean(speech),
+          safety: Boolean(safety),
           build: BUILD,
           synthetic: true,
         };
@@ -272,6 +295,7 @@ export function createApp({
       if (url.pathname === '/api/live') return live(req, res, url);
       return serveStatic(res, url.pathname);
     } catch (err) {
+      telemetry.exception(err, { route: url.pathname });
       if (!res.headersSent) json(res, 500, { error: err instanceof Error ? err.message : String(err) });
       else res.end();
     }

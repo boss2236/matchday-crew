@@ -15,6 +15,7 @@ import { simulateMatch } from '../engine/simulate.ts';
 import { MatchState } from '../stats/matchState.ts';
 import { Crew } from '../agents/crew.ts';
 import { readMetric } from '../stats/metrics.ts';
+import type { ContentScreen } from '../ai/safety.ts';
 import type { Audience, FeedItem, JsonModel, LiveEnd, LiveEvent, LiveMeta, LiveSnapshot, Match, MatchEvent, MetricId, TextTranslator, TraceEntry } from '../types.ts';
 
 // Every message a session sends, by SSE event name.
@@ -72,6 +73,7 @@ export interface LiveSessionOptions {
   audiences?: Audience[];
   llm?: JsonModel | null;
   translator?: TextTranslator | null;
+  safety?: ContentScreen | null;
   emit?: Emit;
   now?: () => number;
   sleep?: (ms: number) => Promise<unknown>;
@@ -92,7 +94,7 @@ export class LiveSession {
   queue: Promise<void>;
   lastStateAt: number;
 
-  constructor({ seed = 7, home = 'harbour', away = 'ironvale', speed = 20, audiences = audiencesFor(), llm = null, translator = null, emit = () => {}, now = () => Date.now(), sleep }: LiveSessionOptions = {}) {
+  constructor({ seed = 7, home = 'harbour', away = 'ironvale', speed = 20, audiences = audiencesFor(), llm = null, translator = null, safety = null, emit = () => {}, now = () => Date.now(), sleep }: LiveSessionOptions = {}) {
     this.match = simulateMatch({ seed, home, away });
     this.speed = speed;
     this.emit = emit;
@@ -102,7 +104,7 @@ export class LiveSession {
     this.audiences = audiences;
     this.favouritePlayer = audiences.find((a) => a.favouritePlayer)?.favouritePlayer ?? null;
     this.focusMetric = audiences.find((a) => a.focusMetric)?.focusMetric ?? null;
-    this.crew = new Crew({ meta: this.match.meta, llm, translator, audiences, onLog: (entry) => this.send('trace', entry) });
+    this.crew = new Crew({ meta: this.match.meta, llm, translator, safety, audiences, onLog: (entry) => this.send('trace', entry) });
     this.stopped = false;
     this.queue = Promise.resolve();
     this.lastStateAt = -Infinity;
