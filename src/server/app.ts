@@ -184,7 +184,7 @@ export function createApp({
     if (sessions.size >= maxSessions) return json(res, 503, { error: 'too many live sessions, try again shortly' });
     const q = parseLiveQuery(url.searchParams);
     res.writeHead(200, { 'content-type': 'text/event-stream', 'cache-control': 'no-cache, no-transform', connection: 'keep-alive', 'x-accel-buffering': 'no' });
-    res.write(': matchday crew\n\n');
+    res.write(': nutmeg desk\n\n');
     const emit: Emit = (type, data) => {
       res.write(`event: ${type}\ndata: ${JSON.stringify(data)}\n\n`);
     };

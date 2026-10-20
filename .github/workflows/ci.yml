@@ -35,10 +35,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Build image
-        run: docker build -t matchday-crew:ci .
+        run: docker build -t nutmeg-desk:ci .
       - name: Smoke test the container
         run: |
-          docker run -d --name app -p 8080:8080 -e LLM_CACHE=read matchday-crew:ci
+          docker run -d --name app -p 8080:8080 -e LLM_CACHE=read nutmeg-desk:ci
           for i in $(seq 1 30); do curl -sf localhost:8080/healthz && break; sleep 1; done
           curl -sf localhost:8080/api/config | head -c 200; echo
           curl -sN "localhost:8080/api/live?seed=7&speed=0&language=Arabic" > live.txt
@@ -61,7 +61,7 @@ jobs:
         run: |
           IMAGE=ghcr.io/${GITHUB_REPOSITORY,,}
           echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u "${{ github.actor }}" --password-stdin
-          docker tag matchday-crew:ci $IMAGE:latest
-          docker tag matchday-crew:ci $IMAGE:${GITHUB_SHA::7}
+          docker tag nutmeg-desk:ci $IMAGE:latest
+          docker tag nutmeg-desk:ci $IMAGE:${GITHUB_SHA::7}
           docker push $IMAGE:latest
           docker push $IMAGE:${GITHUB_SHA::7}

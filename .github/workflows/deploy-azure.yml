@@ -11,7 +11,7 @@ on:
     inputs:
       resource_group:
         description: Resource group
-        default: matchday-crew-rg
+        default: nutmeg-desk-rg
       location:
         description: Azure region
         default: westeurope

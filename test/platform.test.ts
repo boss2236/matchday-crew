@@ -82,13 +82,13 @@ test('A2A: agent card lists the crew skills; message/send runs them', async () =
 
 test('server: security headers, studio route, A2A over HTTP, speech off, rate limit', async () => {
   const publicDir = mkdtempSync(join(tmpdir(), 'mc-web-'));
-  writeFileSync(join(publicDir, 'index.html'), '<!doctype html><title>Matchday Crew</title>');
+  writeFileSync(join(publicDir, 'index.html'), '<!doctype html><title>Nutmeg Desk</title>');
   const { base, close } = await listen(createApp({ publicDir, limits: { '/api/live': 1 } }));
   try {
     const home = await fetch(`${base}/`);
     assert.match(home.headers.get('content-security-policy') ?? '', /default-src 'self'/);
     assert.equal(home.headers.get('x-content-type-options'), 'nosniff');
-    assert.match(await (await fetch(`${base}/studio`)).text(), /Matchday Crew/);
+    assert.match(await (await fetch(`${base}/studio`)).text(), /Nutmeg Desk/);
 
     const card = await (await fetch(`${base}/.well-known/agent-card.json`)).json();
     assert.equal(card.url, `${base}/a2a`);

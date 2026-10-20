@@ -65,7 +65,7 @@ export default function App({ theme, onToggleTheme }: { theme: ThemeName; onTogg
             <SportSoccer24Filled />
           </span>
           <div>
-            <Title3 as="h1" block>Matchday Crew</Title3>
+            <Title3 as="h1" block>Nutmeg Desk</Title3>
             <Text size={200} block className="muted">AI broadcast crew · explainable match intelligence</Text>
           </div>
         </div>

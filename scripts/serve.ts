@@ -28,6 +28,6 @@ const modelLabel = config ? config.label : useCache ? 'response cache only' : nu
 
 const port = Number(process.env.PORT) || 3000;
 createApp({ llm, translator, speech, modelLabel }).listen(port, () => {
-  console.log(`Matchday Crew on http://localhost:${port}`);
+  console.log(`Nutmeg Desk on http://localhost:${port}`);
   console.log(`Model: ${modelLabel ?? 'none, templates only'}. Translator: ${translator ? 'Azure AI Translator' : 'off'}. Voice: ${speech ? 'Azure AI Speech' : 'browser'}.`);
 });

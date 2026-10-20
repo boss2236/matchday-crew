@@ -15,9 +15,9 @@ Used by the Translator agent: any line that falls back to an English template is
 
 1. Portal top bar: search **Translator** and open **Translators**. Click **Create**.
 2. Fill in:
-   - Resource group: **Create new** → `matchday-crew-rg`
+   - Resource group: **Create new** → `nutmeg-desk-rg`
    - Region: one near you that the form accepts, e.g. `West Europe`, `Sweden Central` or `UAE North`
-   - Name: anything unique, e.g. `matchday-translator-<yourname>`
+   - Name: anything unique, e.g. `nutmeg-translator-<yourname>`
    - Pricing tier: **Free F0**
 3. **Review + create** → **Create**. Wait for "Deployment complete" → **Go to resource**.
 4. Left menu: **Keys and Endpoint**. Copy:
@@ -70,13 +70,13 @@ export LOCATION=westeurope              # a region your subscription allows
 bash infra/deploy.sh
 ```
 
-3. It prints `Live at https://matchday-crew.<something>.azurecontainerapps.io`. That is the **testing link** for the submission. Check `/healthz` on it.
+3. It prints `Live at https://nutmeg-desk.<something>.azurecontainerapps.io`. That is the **testing link** for the submission. Check `/healthz` on it.
 
 Keys are stored as Container Apps **secrets**, never in the image or the repo.
 
 To update after new commits: wait for CI on `main` to finish, then in the portal open the container app → **Revisions and replicas** → **Create new revision** (same image tag `latest`), or rerun `bash infra/deploy.sh`.
 
-To stop all cost later: delete the resource group `matchday-crew-rg` (portal → Resource groups → Delete).
+To stop all cost later: delete the resource group `nutmeg-desk-rg` (portal → Resource groups → Delete).
 
 ## 3. Optional: Microsoft Foundry model
 

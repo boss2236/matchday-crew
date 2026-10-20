@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Deploy Matchday Crew to Azure Container Apps (consumption plan, scales to zero).
+# Deploy Nutmeg Desk to Azure Container Apps (consumption plan, scales to zero).
 #
 # Easiest: open Azure Cloud Shell (the >_ icon in portal.azure.com), then
 #   git clone https://github.com/boss2236/matchday-crew && cd matchday-crew
@@ -11,10 +11,10 @@
 # Azure Container Registry, about 5 USD a month).
 set -euo pipefail
 
-RG=${RG:-matchday-crew-rg}
+RG=${RG:-nutmeg-desk-rg}
 LOCATION=${LOCATION:-westeurope}
-APP=${APP:-matchday-crew}
-ENV_NAME=${ENV_NAME:-matchday-crew-env}
+APP=${APP:-nutmeg-desk}
+ENV_NAME=${ENV_NAME:-nutmeg-desk-env}
 IMAGE=${IMAGE:-ghcr.io/boss2236/matchday-crew:latest}
 
 echo "==> Preparing subscription"

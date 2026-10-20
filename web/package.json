@@ -1,9 +1,9 @@
 {
-  "name": "matchday-crew-web",
+  "name": "nutmeg-desk-web",
   "private": true,
   "version": "0.3.0",
   "type": "module",
-  "description": "Second-screen app for Matchday Crew, built with Fluent UI React v9",
+  "description": "Second-screen app for Nutmeg Desk, built with Fluent UI React v9",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

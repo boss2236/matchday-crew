@@ -139,7 +139,7 @@ test('query parsing clamps and validates viewer input', () => {
 test('server: health, config, static files and a full live stream', async () => {
   const publicDir = mkdtempSync(join(tmpdir(), 'mc-web-'));
   mkdirSync(join(publicDir, 'assets'));
-  writeFileSync(join(publicDir, 'index.html'), '<!doctype html><title>Matchday Crew</title>');
+  writeFileSync(join(publicDir, 'index.html'), '<!doctype html><title>Nutmeg Desk</title>');
   writeFileSync(join(publicDir, 'assets', 'app-abc123.js'), 'console.log(1)');
   const { base, close } = await listen(createApp({ modelLabel: 'test', publicDir }));
   try {
@@ -152,7 +152,7 @@ test('server: health, config, static files and a full live stream', async () => 
     assert.equal(config.clubs.find((c: { id: string }) => c.id === 'harbour').players.length, 11);
     const page = await fetch(`${base}/`);
     assert.match(page.headers.get('content-type') ?? '', /text\/html/);
-    assert.match(await page.text(), /Matchday Crew/);
+    assert.match(await page.text(), /Nutmeg Desk/);
     const asset = await fetch(`${base}/assets/app-abc123.js`);
     assert.equal(asset.status, 200);
     assert.match(asset.headers.get('cache-control') ?? '', /immutable/);
@@ -192,7 +192,7 @@ test('server: refuses live sessions beyond the limit', async () => {
 
 test('MCP: initialize, list tools and call them', async () => {
   const init = rpcResult(await handle({ jsonrpc: '2.0', id: 1, method: 'initialize', params: { protocolVersion: '2025-06-18' } }));
-  assert.equal(init.serverInfo.name, 'matchday-crew');
+  assert.equal(init.serverInfo.name, 'nutmeg-desk');
   assert.ok(init.capabilities.tools);
   assert.equal(await handle({ jsonrpc: '2.0', method: 'notifications/initialized' }), null);
 

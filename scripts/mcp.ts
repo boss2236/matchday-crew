@@ -1,7 +1,7 @@
 // MCP server for match intelligence (stdio). Add it to an MCP client, e.g. VS Code
 // (.vscode/mcp.json in this repo) for GitHub Copilot agent mode:
 //
-//   { "servers": { "matchday-crew": { "command": "node", "args": ["scripts/mcp.ts"] } } }
+//   { "servers": { "nutmeg-desk": { "command": "node", "args": ["scripts/mcp.ts"] } } }
 //
 // Uses the same .env as the app; explain_moment goes through the response cache.
 import { existsSync } from 'node:fs';

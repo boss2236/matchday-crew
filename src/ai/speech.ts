@@ -73,7 +73,7 @@ export class Speech {
         'Ocp-Apim-Subscription-Key': this.config.key,
         'Content-Type': 'application/ssml+xml',
         'X-Microsoft-OutputFormat': 'audio-24khz-48kbitrate-mono-mp3',
-        'User-Agent': 'matchday-crew',
+        'User-Agent': 'nutmeg-desk',
       },
       body: ssml(text, language),
     });

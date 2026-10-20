@@ -87,7 +87,7 @@ export function TourOffer({ open, onStart, onSkip }: { open: boolean; onStart: (
     <Dialog open={open} onOpenChange={(_, d) => !d.open && onSkip()}>
       <DialogSurface aria-describedby="tour-offer-text">
         <DialogBody>
-          <DialogTitle>Welcome to Matchday Crew</DialogTitle>
+          <DialogTitle>Welcome to Nutmeg Desk</DialogTitle>
           <DialogContent>
             <Text id="tour-offer-text" block>
               An AI broadcast crew covers a synthetic football match live, explains why moments matter, and tells the story your way. Want a one-minute tour?

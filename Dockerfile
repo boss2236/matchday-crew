@@ -1,4 +1,4 @@
-# Matchday Crew: TypeScript server (run natively by Node, no build step) and
+# Nutmeg Desk: TypeScript server (run natively by Node, no build step) and
 # the Fluent UI web app (built by Vite in the first stage).
 
 FROM node:22-alpine AS web

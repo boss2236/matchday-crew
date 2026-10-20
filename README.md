@@ -1,4 +1,4 @@
-# Matchday Crew
+# Nutmeg Desk
 
 A multi-agent AI broadcast crew that turns a live stream of synthetic football events into explainable, personalised match intelligence: on-screen overlays, a running story, player and metric focus and a full-time recap, for an analyst or a casual fan, in their own language. Every line the AI writes is fact-checked against the match data before it airs.
 
@@ -148,4 +148,4 @@ data/           published synthetic matches and the response cache
 test/           unit, contract (mock Foundry, OpenAI and Translator) and server tests
 ```
 
-Hackathon requirements, test results and open work: [docs/HACKATHON.md](docs/HACKATHON.md).
+Hackathon requirements and test results: [docs/HACKATHON.md](docs/HACKATHON.md). Plan to submission: [docs/ROADMAP.md](docs/ROADMAP.md).

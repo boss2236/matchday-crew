@@ -29,7 +29,7 @@ export async function handle(msg: RpcRequest, ctx: ToolContext = {}): Promise<Rp
       return reply({
         protocolVersion: msg.params?.protocolVersion ?? PROTOCOL_VERSION,
         capabilities: { tools: {} },
-        serverInfo: { name: 'matchday-crew', version: '0.2.0' },
+        serverInfo: { name: 'nutmeg-desk', version: '0.2.0' },
         instructions: 'Synthetic football match intelligence. Start with list_fixtures, then match_summary or key_moments, then explain_moment.',
       });
     case 'ping':

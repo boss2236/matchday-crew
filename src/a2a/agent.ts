@@ -13,13 +13,13 @@ export const A2A_PROTOCOL_VERSION = '0.3.0';
 export function agentCard(baseUrl: string) {
   return {
     protocolVersion: A2A_PROTOCOL_VERSION,
-    name: 'Matchday Crew',
+    name: 'Nutmeg Desk',
     description:
       'Multi-agent broadcast crew for synthetic football matches: stats, key moments with evidence, player stats, and fact-checked explanations of why a moment matters, for an analyst or a casual fan, in many languages.',
     url: `${baseUrl}/a2a`,
     preferredTransport: 'JSONRPC',
     version: '0.4.0',
-    provider: { organization: 'Matchday Crew', url: baseUrl },
+    provider: { organization: 'Nutmeg Desk', url: baseUrl },
     capabilities: { streaming: false, pushNotifications: false },
     defaultInputModes: ['application/json', 'text/plain'],
     defaultOutputModes: ['application/json'],

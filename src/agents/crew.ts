@@ -1,4 +1,4 @@
-// The Matchday Crew: a small team of agents that cover a live match the way
+// The Nutmeg Desk crew: a small team of agents that cover a live match the way
 // a broadcast crew does. They share one match state (the blackboard) and hand
 // work to each other:
 //
