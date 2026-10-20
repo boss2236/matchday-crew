@@ -191,6 +191,8 @@ test('units: distances are metres, so a bare km is rejected but km/h is fine', a
   assert.deepEqual(unitProblems('بسرعة 96.1 كم/س'), []);
   assert.deepEqual(unitProblems('32 km per hour, 45.1 m pass'), []);
   assert.deepEqual(unitProblems('١٢ كم'), ['distance 12 km should be metres']);
+  assert.deepEqual(unitProblems('Marchetti’s 10.3-km run'), ['distance 10.3 km should be metres']);
+  assert.deepEqual(unitProblems('a 32.2-km/h sprint'), []);
 });
 
 test('decimals must match the evidence at the precision written', async () => {
