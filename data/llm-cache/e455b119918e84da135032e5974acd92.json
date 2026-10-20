@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Ironvale’s rhythm falters",
+  "text": "Around the seven‑minute mark Ironvale’s flow slid to -52, their passes losing bite and the game feeling unsettled.",
+  "cites": [
+   "e0138",
+   "e0139",
+   "e0140",
+   "e0141",
+   "e0142",
+   "e0143"
+  ]
+ }
+}

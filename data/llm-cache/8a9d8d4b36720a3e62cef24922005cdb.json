@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Ironvale’s passing falters",
+  "text": "From 05:45 to 06:02 Ironvale’s sequence dropped momentum to -52, with passes averaging 33m, difficulty 45, and declining progress, exposing a tactical collapse.",
+  "cites": [
+   "e0138",
+   "e0139",
+   "e0140",
+   "e0141",
+   "e0142",
+   "e0143"
+  ]
+ }
+}

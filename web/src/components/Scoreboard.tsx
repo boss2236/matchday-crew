@@ -1,6 +1,7 @@
 import { Badge, Card, Caption1, Text, Tooltip } from '@fluentui/react-components';
 import { Timer20Regular } from '@fluentui/react-icons';
 import type { LiveMeta, LiveSnapshot } from '../../../src/types.ts';
+import { useTeamColors } from '../teamColors.ts';
 
 interface Props {
   meta: LiveMeta | null;
@@ -11,15 +12,15 @@ interface Props {
 export default function Scoreboard({ meta, snap, clock }: Props) {
   const m = snap?.momentum ?? 0;
   const chaos = snap?.chaos ?? 0;
-  const homeColor = meta?.home.colors.primary ?? 'var(--colorBrandBackground)';
-  const awayColor = meta?.away.colors.primary ?? 'var(--colorPaletteDarkOrangeBackground3)';
+  const { home: homeColor, away: awayColor } = useTeamColors(meta);
   return (
     <Card className="scoreboard gutter" aria-live="polite" data-tour="scoreboard">
       <div className="score-row">
         <div className="team">
           <span className="swatch" style={{ background: homeColor }} />
           <Text weight="semibold" size={500} truncate wrap={false} className="team-name">
-            {meta?.home.name ?? 'Home'}
+            <span className="long">{meta?.home.name ?? 'Home'}</span>
+            <span className="short">{meta?.home.short ?? 'Home'}</span>
           </Text>
         </div>
         <div className="score">
@@ -32,7 +33,8 @@ export default function Scoreboard({ meta, snap, clock }: Props) {
         </div>
         <div className="team away">
           <Text weight="semibold" size={500} truncate wrap={false} className="team-name">
-            {meta?.away.name ?? 'Away'}
+            <span className="long">{meta?.away.name ?? 'Away'}</span>
+            <span className="short">{meta?.away.short ?? 'Away'}</span>
           </Text>
           <span className="swatch" style={{ background: awayColor }} />
         </div>

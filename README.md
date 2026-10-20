@@ -16,6 +16,10 @@ Built for the Microsoft x Premier League **Inside the Game** developer hackathon
 |---|---|
 | ![Welcome prompt offering a tour](docs/images/welcome-tour.png) | ![Mobile layout](docs/images/mobile.png) |
 
+| Match charts: momentum | Match charts: share, light theme |
+|---|---|
+| ![Momentum swing chart](docs/images/chart-momentum.png) | ![Share donut in the light theme](docs/images/chart-share.png) |
+
 ## What it does
 
 The hackathon asks for one pipeline with five stages. Here is where each one lives:
@@ -49,6 +53,8 @@ How reliable is it? [docs/QUALITY.md](docs/QUALITY.md) measures it: share of lin
 
 - **Players on the pitch**: everyone involved in recent play with shirt numbers in club colours, the ball at its carrier's feet with a name tag, the followed player ringed.
 - **Analyst / casual fan** switch on the same live match, **16 languages**, favourite club, **player focus** and **follow-a-metric** modes.
+- **Match charts** you can shape: a trend line for any stat (xG, shots, passes, possession, pass accuracy, tackles...), a momentum swing chart, a share donut and a minute-by-minute table, with hover read-outs. Club colours are checked to stay distinguishable with colour-blindness, in light and dark themes.
+- **Built for phones too**: on a small screen the setup folds into a one-line summary once the match starts, and the crew's lines come straight after the pitch.
 - **Voice commentary**: every line read aloud with Azure AI Speech neural voices (browser voice when no key is set).
 - **Broadcast view** (`/studio`): what a viewer at home sees: the live match full-screen with a scorebug and the crew's graphics, no controls. `voice=1` reads lines aloud. For broadcast software, `bg=transparent` keeps only the graphics (to layer in OBS or vMix over a video whose events come from the same data feed) and `bg=green` puts them on chroma green. The lines describe the synthetic match: the crew reads an event feed, it does not watch video.
 - **First-visit tour**: new visitors are offered an interactive Fluent teaching-popover tour (or skip it); replay it any time from the header.

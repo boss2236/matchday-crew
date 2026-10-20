@@ -2,6 +2,7 @@ import { Text } from '@fluentui/react-components';
 import { OverlayLayer, useOverlays } from './Overlays.tsx';
 import type { FeedItem, LiveEvent, LiveMeta } from '../../../src/types.ts';
 import type { PlayerSpot } from '../useLiveMatch.ts';
+import { useTeamColors } from '../teamColors.ts';
 
 interface Props {
   meta: LiveMeta | null;
@@ -30,6 +31,7 @@ interface PitchSvgProps {
 const FADE_AFTER = 240;
 
 export function PitchSvg({ meta, trail, events, highlight, players = {}, onBall = null, focus = null }: PitchSvgProps) {
+  const colors = useTeamColors(meta);
   const shirts = new Map([...(meta?.home.players ?? []), ...(meta?.away.players ?? [])].map((p) => [p.id, p.shirt]));
   const now = trail[trail.length - 1]?.t ?? 0;
   const spots = Object.values(players).filter((p) => now - p.t < FADE_AFTER * 2);
@@ -47,7 +49,7 @@ export function PitchSvg({ meta, trail, events, highlight, players = {}, onBall 
       viewBox="-2 -2 109 72"
       role="img"
       aria-label="Pitch with the latest ball movement"
-      style={{ ['--home' as string]: meta?.home.colors.primary, ['--away' as string]: meta?.away.colors.primary }}
+      style={{ ['--home' as string]: colors.home, ['--away' as string]: colors.away }}
     >
       <rect x="0" y="0" width="105" height="68" className="grass" />
       {Array.from({ length: 7 }, (_, i) => (

@@ -64,7 +64,7 @@ export const CLUBS: Record<ClubId, Club> = {
     id: 'harbour',
     name: 'Harbour City',
     short: 'HBC',
-    colors: { primary: '#1f6feb', secondary: '#ffffff' },
+    colors: { primary: '#2a78d6', dark: '#3987e5', secondary: '#ffffff' },
     style: { press: 0.8, directness: 0.35, tempo: 0.75, width: 0.6, shootiness: 0.45 },
     styleLabel: 'High press, quick combinations',
     players: squad('harbour', [
@@ -76,7 +76,7 @@ export const CLUBS: Record<ClubId, Club> = {
     id: 'ironvale',
     name: 'Ironvale Athletic',
     short: 'IVA',
-    colors: { primary: '#c2410c', secondary: '#111827' },
+    colors: { primary: '#eb6834', dark: '#d95926', secondary: '#111827' },
     style: { press: 0.35, directness: 0.75, tempo: 0.55, width: 0.45, shootiness: 0.6 },
     styleLabel: 'Deep block, direct counters',
     players: squad('ironvale', [
@@ -88,7 +88,7 @@ export const CLUBS: Record<ClubId, Club> = {
     id: 'northgate',
     name: 'Northgate Rovers',
     short: 'NGR',
-    colors: { primary: '#15803d', secondary: '#fef08a' },
+    colors: { primary: '#1baf7a', dark: '#199e70', secondary: '#fef08a' },
     style: { press: 0.55, directness: 0.25, tempo: 0.45, width: 0.4, shootiness: 0.3 },
     styleLabel: 'Patient possession',
     players: squad('northgate', [
@@ -100,7 +100,7 @@ export const CLUBS: Record<ClubId, Club> = {
     id: 'southmere',
     name: 'Southmere United',
     short: 'SMU',
-    colors: { primary: '#7c3aed', secondary: '#f5f5f4' },
+    colors: { primary: '#a33ea1', dark: '#b84fb0', secondary: '#f5f5f4' },
     style: { press: 0.6, directness: 0.55, tempo: 0.65, width: 0.8, shootiness: 0.5 },
     styleLabel: 'Wing play and crosses',
     players: squad('southmere', [

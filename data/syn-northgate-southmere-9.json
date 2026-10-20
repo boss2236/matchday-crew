@@ -15,7 +15,8 @@
    "name": "Northgate Rovers",
    "short": "NGR",
    "colors": {
-    "primary": "#15803d",
+    "primary": "#1baf7a",
+    "dark": "#199e70",
     "secondary": "#fef08a"
    },
    "style": {
@@ -100,7 +101,8 @@
    "name": "Southmere United",
    "short": "SMU",
    "colors": {
-    "primary": "#7c3aed",
+    "primary": "#a33ea1",
+    "dark": "#b84fb0",
     "secondary": "#f5f5f4"
    },
    "style": {

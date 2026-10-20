@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Marchetti’s Sprint Triggers Pressing Surge",
+  "text": "Marchetti’s 10.3‑km run at 32.2 km/h (12:13) boosts Harbour City’s press (PPDA 10.8), lifts xG to 0.04 while countering a -6 momentum swing.",
+  "cites": [
+   "e0266"
+  ]
+ }
+}

@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Marchetti’s Sprint Sparks Pressing Burst",
+  "text": "Leo Marchetti’s 10.3‑km run at 32.2 km/h (12:13) illustrates Harbour City’s high‑press, quick‑combination style trying to reverse a -6 momentum swing amid a chaos level of 41.",
+  "tags": [
+   "pressing",
+   "speed",
+   "momentum"
+  ],
+  "cites": [
+   "e0266"
+  ]
+ }
+}

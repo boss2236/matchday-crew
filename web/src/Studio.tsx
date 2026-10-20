@@ -13,6 +13,7 @@ import { useLiveMatch } from './useLiveMatch.ts';
 import { OverlayLayer, useOverlays } from './components/Overlays.tsx';
 import { PitchSvg } from './components/Pitch.tsx';
 import { useVoice } from './useVoice.ts';
+import { useTeamColors } from './teamColors.ts';
 
 export default function Studio() {
   const q = useMemo(() => new URLSearchParams(location.search), []);
@@ -51,6 +52,8 @@ export default function Studio() {
   const preview = !inObs && bg !== 'green' && bg !== 'pitch';
 
   const m = live.snap?.momentum ?? 0;
+  // The broadcast view always sits on the dark pitch: the dark-surface club colours.
+  const colors = useTeamColors(live.meta);
   return (
     <div className={`studio${preview ? ' studio-preview' : ''}`}>
       {bg === 'pitch' && (
@@ -78,20 +81,20 @@ export default function Studio() {
       )}
       {live.meta && (
         <div className="scorebug" aria-live="polite">
-          <span className="sb-team" style={{ borderColor: live.meta.home.colors.primary }}>
+          <span className="sb-team" style={{ borderColor: colors.home }}>
             {live.meta.home.short}
           </span>
           <span className="sb-score">
             <span id="homeScore">{live.snap?.score.home ?? 0}</span>–<span id="awayScore">{live.snap?.score.away ?? 0}</span>
           </span>
-          <span className="sb-team" style={{ borderColor: live.meta.away.colors.primary }}>
+          <span className="sb-team" style={{ borderColor: colors.away }}>
             {live.meta.away.short}
           </span>
           <span className="sb-clock" id="clock">
             {live.clock}
           </span>
           <span className="sb-momentum" title="Momentum">
-            <span style={{ left: `${m >= 0 ? 50 : 50 + m / 2}%`, width: `${Math.abs(m) / 2}%`, background: m >= 0 ? live.meta.home.colors.primary : live.meta.away.colors.primary }} />
+            <span style={{ left: `${m >= 0 ? 50 : 50 + m / 2}%`, width: `${Math.abs(m) / 2}%`, background: m >= 0 ? colors.home : colors.away }} />
           </span>
         </div>
       )}

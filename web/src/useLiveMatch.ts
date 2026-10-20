@@ -1,7 +1,7 @@
 // Live match data: one EventSource per kick-off, buffered and applied once per
 // animation frame so a fast replay never floods React with renders.
 import { useCallback, useEffect, useReducer, useRef } from 'react';
-import type { FeedItem, LiveEnd, LiveEvent, LiveMeta, LiveSnapshot, TraceEntry, TraceStatus } from '../../src/types.ts';
+import type { FeedItem, LiveEnd, LiveEvent, LiveMeta, LiveSnapshot, TeamSnapshot, TraceEntry, TraceStatus } from '../../src/types.ts';
 
 type Messages = {
   meta: LiveMeta;
@@ -35,6 +35,17 @@ export interface PlayerSpot {
   t: number;
 }
 
+// The match so far for the charts: a point at least every HISTORY_STEP match
+// seconds, plus one that tracks the latest snapshot.
+export interface HistoryPoint {
+  t: number;
+  momentum: number;
+  home: TeamSnapshot;
+  away: TeamSnapshot;
+}
+
+const HISTORY_STEP = 30;
+
 export interface LiveState {
   status: 'idle' | 'live' | 'ended' | 'error';
   meta: LiveMeta | null;
@@ -44,6 +55,7 @@ export interface LiveState {
   trail: LiveEvent[];
   players: Record<string, PlayerSpot>;
   onBall: string | null;
+  history: HistoryPoint[];
   ticker: TickerEntry[];
   trace: TraceRow[];
   counts: Partial<Record<TraceStatus, number>>;
@@ -62,6 +74,7 @@ const initial: LiveState = {
   trail: [],
   players: {},
   onBall: null,
+  history: [],
   ticker: [],
   trace: [],
   counts: {},
@@ -106,7 +119,7 @@ function reducer(state: LiveState, action: Action): LiveState {
   if (action.type === 'reset') return { ...initial, status: 'live', runId: state.runId + 1 };
   if (action.type === 'error') return { ...state, status: 'error', error: action.message };
   const next = { ...state };
-  let { items, trail, ticker, trace, counts, seq, players } = next;
+  let { items, trail, ticker, trace, counts, seq, players, history } = next;
   const copied = new Set<string>();
   const own = <T>(name: string, value: T[]): T[] => {
     if (copied.has(name)) return value;
@@ -118,9 +131,18 @@ function reducer(state: LiveState, action: Action): LiveState {
       case 'meta':
         next.meta = msg.data;
         break;
-      case 'state':
-        next.snap = msg.data;
+      case 'state': {
+        const snap = msg.data;
+        next.snap = snap;
+        const last = history[history.length - 1];
+        if (last && snap.t < last.t) break;
+        history = own('history', history);
+        const point = { t: snap.t, momentum: snap.momentum, home: snap.home, away: snap.away };
+        const prev = history[history.length - 2];
+        if (last && prev && snap.t - prev.t < HISTORY_STEP) history[history.length - 1] = point;
+        else history.push(point);
         break;
+      }
       case 'event': {
         const ev = msg.data;
         next.clock = ev.type === 'full_time' ? 'FT' : ev.type === 'half_time' ? 'HT' : ev.clock;
@@ -180,7 +202,7 @@ function reducer(state: LiveState, action: Action): LiveState {
         break;
     }
   }
-  return { ...next, items, trail, ticker, trace, counts, seq, players };
+  return { ...next, items, trail, ticker, trace, counts, seq, players, history };
 }
 
 export function useLiveMatch() {

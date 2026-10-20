@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Mbeki’s high‑xG shot rattles Ironvale",
+  "text": "At 01:22 Zeke Mbeki unleashed a 0.876 xG, 2.5 m effort at 80.1 km/h, blocked; Ironvale’s deep‑block, direct‑counter faces –84 momentum, 51 chaos.",
+  "cites": [
+   "e0041"
+  ]
+ }
+}

@@ -15,7 +15,8 @@
    "name": "Ironvale Athletic",
    "short": "IVA",
    "colors": {
-    "primary": "#c2410c",
+    "primary": "#eb6834",
+    "dark": "#d95926",
     "secondary": "#111827"
    },
    "style": {
@@ -100,7 +101,8 @@
    "name": "Northgate Rovers",
    "short": "NGR",
    "colors": {
-    "primary": "#15803d",
+    "primary": "#1baf7a",
+    "dark": "#199e70",
     "secondary": "#fef08a"
    },
    "style": {

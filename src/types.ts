@@ -80,7 +80,11 @@ export interface ClubStyle {
 }
 
 export interface ClubColors {
+  // Light-theme club colour; `dark` is the same identity stepped for dark
+  // surfaces. The four clubs are checked as a chart palette (any pairing stays
+  // distinguishable with colour-blindness, in both themes).
   primary: string;
+  dark: string;
   secondary: string;
 }
 
