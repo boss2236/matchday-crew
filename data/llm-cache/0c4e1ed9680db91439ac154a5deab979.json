@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Rovers lead at half‑time",
+  "text": "Northgate Rovers are up 1‑0 after a calm first half, holding the ball while Southmere kept pushing wide, so we’re in for an exciting second half.",
+  "cites": [
+   "e0860"
+  ]
+ }
+}

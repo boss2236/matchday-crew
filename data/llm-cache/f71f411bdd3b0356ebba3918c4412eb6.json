@@ -1,0 +1,14 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Southmere’s Four‑Pass Momentum Shift",
+  "text": "Southmere’s four‑pass sequence (29.6m, 16.5m, 16.5m, 55.9m) shifted momentum –30, chaos 72, with xG 0.38 and PPDA 7.7, pressuring high‑difficulty 86‑m pass.",
+  "cites": [
+   "e1293",
+   "e1294",
+   "e1295",
+   "e1296",
+   "e1298"
+  ]
+ }
+}

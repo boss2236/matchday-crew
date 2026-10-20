@@ -1,0 +1,17 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "First‑Half Surge Ends in Goal",
+  "text": "A 19‑pass build‑up from a throw‑in at 45+2 saw Tariq Aziz finish with a 69.6 km/h strike, giving Southmere United a 1‑0 lead as momentum climbed to 52 and possession hovered near 50%.",
+  "tags": [
+   "possession",
+   "momentum",
+   "finishing"
+  ],
+  "cites": [
+   "e0985",
+   "e1013",
+   "e1014"
+  ]
+ }
+}

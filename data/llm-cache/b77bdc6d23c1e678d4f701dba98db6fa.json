@@ -1,0 +1,20 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Harbour City’s Momentum Collapse",
+  "text": "Harbour City’s high‑press attack fizzles, losing 35 momentum while chaos spikes to 59, leaving the game 2‑0 in favour of Southmere United.",
+  "tags": [
+   "momentum",
+   "chaos",
+   "control"
+  ],
+  "cites": [
+   "e1578",
+   "e1579",
+   "e1580",
+   "e1581",
+   "e1582",
+   "e1583"
+  ]
+ }
+}

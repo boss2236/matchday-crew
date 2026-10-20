@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Southmere’s Late Surge Stalls",
+  "text": "At 90+1', momentum -33, chaos 55; Ortega’s 14.7 m carry (28.5 km/h) feeds a pressured 12.3 m pass (diff 50) to Costa, who delivers 15.8 m (diff 33) and 20.3 m passes (diff 32) before 13.9 m and 1.1 m carries.",
+  "cites": [
+   "e1690",
+   "e1692",
+   "e1693",
+   "e1694",
+   "e1695",
+   "e1697"
+  ]
+ }
+}

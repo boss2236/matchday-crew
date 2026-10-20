@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Blum's high‑xG chance under pressure",
+  "text": "At 64:16 Blum fired a 5‑metre, 91.4 km/h shot (xG 0.284) while pressured; Northgate’s momentum 40 and PPDA 9 indicate aggressive pressing.",
+  "cites": [
+   "e1205"
+  ]
+ }
+}

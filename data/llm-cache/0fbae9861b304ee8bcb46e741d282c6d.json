@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Yusuf’s Pass Shakes Harbour City",
+  "text": "Yusuf Demir’s high‑pressure pass at 11:42 sent Harbour City into chaos, flipping momentum and forcing a defensive reset. It’s a big moment for Southmere United!",
+  "cites": [
+   "e0258"
+  ]
+ }
+}

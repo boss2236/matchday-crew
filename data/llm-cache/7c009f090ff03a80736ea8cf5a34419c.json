@@ -1,0 +1,11 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Southmere’s Big Surge",
+  "text": "Alfie Grant’s 12.7‑yard run and a 48.9‑yard pass to Rafa Ortega swung momentum to 36, giving Southmere a 1‑0 lead at 53:00.",
+  "cites": [
+   "e1172",
+   "e1175"
+  ]
+ }
+}

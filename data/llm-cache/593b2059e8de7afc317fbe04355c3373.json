@@ -1,0 +1,16 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Southmere's 7‑minute possession surge",
+  "text": "Southmere United's 61% possession and 5 final‑third entries, powered by a 55‑meter pass from Tariq Aziz, swing momentum to 40 while chaos climbs to 66, shifting control toward the home side.",
+  "tags": [
+   "possession",
+   "momentum",
+   "chaos"
+  ],
+  "cites": [
+   "e0138",
+   "e0144"
+  ]
+ }
+}

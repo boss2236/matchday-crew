@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Southmere's Pressing Turns the Tide",
+  "text": "Rafa Ortega’s pressing won the ball three times in two minutes, after Doyle and Aziz each snatched it, giving Southmere the upper hand.",
+  "cites": [
+   "e0306",
+   "e0328",
+   "e0341"
+  ]
+ }
+}

@@ -1,0 +1,13 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Tariq’s 59th‑minute strike seals control",
+  "text": "Southmere United’s possession change at 58:35 (e1282) triggers a 36.4‑meter pass (e1283) and a 34.1‑meter finish (e1285), yielding a 0.16 xG goal (e1286) and extending the lead.",
+  "cites": [
+   "e1282",
+   "e1283",
+   "e1285",
+   "e1286"
+  ]
+ }
+}

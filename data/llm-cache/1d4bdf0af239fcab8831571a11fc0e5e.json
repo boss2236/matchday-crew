@@ -1,0 +1,11 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Southmere wing chaos spikes",
+  "text": "At 13 min momentum –27, chaos 52; intercepted pass (e0199) and pressured carry (e0219) expose disrupted wing play, with Southmere holding 36% possession and PPDA 15.",
+  "cites": [
+   "e0199",
+   "e0219"
+  ]
+ }
+}

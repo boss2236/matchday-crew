@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Southmere’s Chaos Surge Dominates",
+  "text": "Southmere’s 26‑momentum surge, 56 chaos, is powered by Tariq Aziz’s 19.2‑m pass, Bruno’s 33.3‑m intercept, and Rafa’s 31.7‑m drive, unsettling Harbour’s 7.1 PPDA.",
+  "cites": [
+   "e0572",
+   "e0574",
+   "e0582"
+  ]
+ }
+}

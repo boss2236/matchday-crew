@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Rovers take charge",
+  "text": "Rovers built a smooth run with three brave passes, turning chaos into calm and grabbing the flow of the game.",
+  "cites": [
+   "e0981",
+   "e0985",
+   "e0989"
+  ]
+ }
+}

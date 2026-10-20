@@ -1,0 +1,19 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Southmere’s Momentum Shift at 70’",
+  "text": "A rapid four‑pass chain ending with a backward pass to Haddad shows Southmere battling a -30 momentum dip while chaos spikes to 72, highlighting their effort to regain control under pressure.",
+  "tags": [
+   "momentum",
+   "control",
+   "pressing"
+  ],
+  "cites": [
+   "e1293",
+   "e1294",
+   "e1295",
+   "e1296",
+   "e1298"
+  ]
+ }
+}

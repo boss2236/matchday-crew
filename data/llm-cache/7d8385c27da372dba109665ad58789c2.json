@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Ironvale’s rhythm breaks",
+  "text": "After a string of short passes, Hiro’s ball to Luca couldn’t keep the flow, and Ironvale’s control slipped, letting chaos rise fast.",
+  "cites": [
+   "e0138",
+   "e0139",
+   "e0140",
+   "e0141",
+   "e0142",
+   "e0143"
+  ]
+ }
+}

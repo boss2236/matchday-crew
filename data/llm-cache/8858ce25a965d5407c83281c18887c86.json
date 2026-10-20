@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Rovers’ possession dominance at half‑time",
+  "text": "At 45+2' Northgate Rovers lead 1‑0, xG 0.68 vs 0.31, PPDA 8.6, momentum –46, chaos 46, confirming patient possession edge.",
+  "cites": [
+   "e0860"
+  ]
+ }
+}

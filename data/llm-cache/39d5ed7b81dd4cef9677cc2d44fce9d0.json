@@ -1,0 +1,17 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Southmere Pressing Surge Shifts Control",
+  "text": "Tariq Aziz’s three interceptions in 120 seconds (e1251,e1261,e1272) sparked a pressing spell that flipped possession, raising Southmere’s control as momentum stays low (31) amid high chaos (68).",
+  "tags": [
+   "pressing",
+   "control",
+   "momentum"
+  ],
+  "cites": [
+   "e1251",
+   "e1261",
+   "e1272"
+  ]
+ }
+}

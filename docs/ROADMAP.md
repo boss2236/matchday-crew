@@ -37,7 +37,7 @@ Hackathon: Microsoft x Premier League **Inside the Game**. Category to enter: **
 ### Should
 
 7. **Create the Content Safety and Application Insights resources** (docs/AZURE.md, steps 1c and 1d) and put their keys in `.env`. The code is done and tested; without keys both stay off.
-8. **Finish pre-generation**: `npm run prewarm 9,10 Arabic,Spanish` on a day with Groq quota, then `npm run quality` and commit `data/llm-cache` and `docs/QUALITY.md`. All four matches have English lines.
+8. **Finish pre-generation** of tailored Arabic and Spanish lines for matches 2-4 (seeds 8, 9, 10): about 110,000 Groq tokens per match and language, 200,000 a day per model, so roughly one day per two runs using both models (`npm run prewarm 8 Arabic`, `LLM_MODEL=openai/gpt-oss-20b npm run prewarm 8 Spanish`, and so on). Then `npm run quality` and commit `data/llm-cache` and `docs/QUALITY.md`. Today: all four matches are model-written in English, and match 1 also in Arabic and Spanish; elsewhere the Tactician's English line airs and Azure Translator localises it.
 
 ### Could
 

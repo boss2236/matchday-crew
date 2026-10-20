@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "19‑pass build‑up goal",
+  "text": "Tariq Aziz finishes a 19‑pass sequence, 0.931 xG, 69.6 km/h shot, 1‑2 m finish, driving momentum to 52% for Southmere United.",
+  "cites": [
+   "e1012",
+   "e1013",
+   "e1014"
+  ]
+ }
+}

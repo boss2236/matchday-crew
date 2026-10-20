@@ -1,0 +1,14 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Southmere’s comeback spark",
+  "text": "A slick four‑pass chain ends with a smart backward pass to Haddad, showing Southmere fighting hard to regain control under pressure.",
+  "cites": [
+   "e1293",
+   "e1294",
+   "e1295",
+   "e1296",
+   "e1298"
+  ]
+ }
+}

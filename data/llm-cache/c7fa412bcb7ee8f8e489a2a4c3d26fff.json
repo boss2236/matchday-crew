@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Southmere's precise build‑up fuels swing",
+  "text": "Southmere United completed five passes and a 6.7 m carry at 31.2 km/h, 85% accuracy, before an intercepted 22.8 m pass under pressure, driving the -25 momentum swing.",
+  "cites": [
+   "e1155",
+   "e1156",
+   "e1157",
+   "e1158",
+   "e1159",
+   "e1161"
+  ]
+ }
+}

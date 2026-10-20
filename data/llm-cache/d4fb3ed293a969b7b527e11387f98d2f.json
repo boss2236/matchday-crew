@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Momentum swing at 70:04",
+  "text": "Bruno Costa’s 33.9‑meter shot, 0.006 xG, saved, triggers a 35‑point momentum shift amid 54 chaos, re‑establishing Southmere United’s dominance.",
+  "cites": [
+   "e1484"
+  ]
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Northgate’s momentum spikes, chaos rises",
+  "text": "At 28:26 the game’s momentum jumps to 26 while chaos hits 44 as Northgate’s forward pass (e0508) gains 35.3 m, but earlier interceptions (e0499) and an out‑of‑bounds pass (e0510) show the swing between control and disorder.",
+  "tags": [
+   "momentum",
+   "control",
+   "chaos"
+  ],
+  "cites": [
+   "e0499",
+   "e0508",
+   "e0510"
+  ]
+ }
+}

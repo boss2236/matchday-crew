@@ -1,0 +1,20 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Late Chaos Undermines Southmere’s Push",
+  "text": "At 90+1', Southmere’s momentum drops to -33 and chaos spikes to 55, yet a series of rapid passes and carries (e1690‑e1697) shows they’re still trying to control the game despite the unfavorable swing.",
+  "tags": [
+   "momentum",
+   "chaos",
+   "control"
+  ],
+  "cites": [
+   "e1690",
+   "e1692",
+   "e1693",
+   "e1694",
+   "e1695",
+   "e1697"
+  ]
+ }
+}

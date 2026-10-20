@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Southmere fights back in stoppage",
+  "text": "Even with momentum down and chaos high, Rafa Ortega’s run and quick passes to Bruno Costa and Tariq keep Southmere pressing in the dying minutes.",
+  "cites": [
+   "e1690",
+   "e1692",
+   "e1693",
+   "e1694",
+   "e1695",
+   "e1697"
+  ]
+ }
+}

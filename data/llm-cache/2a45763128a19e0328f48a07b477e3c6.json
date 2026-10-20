@@ -1,0 +1,14 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Southmere's quick pass chain shines",
+  "text": "Southmere United linked five passes and a carry, keeping 85% accuracy and swinging momentum back just before the half hour mark.",
+  "cites": [
+   "e1155",
+   "e1156",
+   "e1157",
+   "e1158",
+   "e1159"
+  ]
+ }
+}

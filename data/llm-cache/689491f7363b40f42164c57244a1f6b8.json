@@ -1,0 +1,20 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Southmere's late collapse",
+  "text": "At 90+4', Southmere United’s momentum fell to -27 and chaos rose to 57 as a series of backward passes and low‑speed carries (e1763‑e1769) halted any threat, ceding control to Northgate.",
+  "tags": [
+   "momentum",
+   "chaos",
+   "control"
+  ],
+  "cites": [
+   "e1763",
+   "e1764",
+   "e1765",
+   "e1767",
+   "e1768",
+   "e1769"
+  ]
+ }
+}

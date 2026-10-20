@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Aziz’s 74 km/h strike stuns",
+  "text": "Southmere United’s 74.1 km/h shot, 2m away, xG 0.622, saved, while possession 67% and PPDA 5 keep momentum 77%.",
+  "cites": [
+   "e0077"
+  ]
+ }
+}

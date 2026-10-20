@@ -1,0 +1,13 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Southmere’s 45+3 Surge",
+  "text": "Bruno’s quick runs and a 32‑m pass set Tariq up for a 0.931‑xg goal, flipping the game at 45+3'—momentum 52, chaos 40.",
+  "cites": [
+   "e1008",
+   "e1009",
+   "e1010",
+   "e1013"
+  ]
+ }
+}

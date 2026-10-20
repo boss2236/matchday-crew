@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Harbour City’s Chaos Surge",
+  "text": "At 31:31, a 55.6‑yard interception (e0672) sparked a -27 momentum swing, while Harbour City’s PPDA of 6.5 and 0.27 xG highlight their high‑press vulnerability.",
+  "cites": [
+   "e0672"
+  ]
+ }
+}

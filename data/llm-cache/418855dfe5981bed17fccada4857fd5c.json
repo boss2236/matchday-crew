@@ -1,0 +1,17 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Rovers seize control in chaotic surge",
+  "text": "At minute 53 the Rovers' high‑difficulty, pressured passes (e0981, e0985, e0989) built progressive momentum, turning a chaotic 54‑chaos state into a controlled 26‑momentum swing, shifting the match’s flow toward possession dominance.",
+  "tags": [
+   "momentum",
+   "control",
+   "pass"
+  ],
+  "cites": [
+   "e0981",
+   "e0985",
+   "e0989"
+  ]
+ }
+}

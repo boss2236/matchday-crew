@@ -1,0 +1,14 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Marchetti’s 90+3' chain swings momentum",
+  "text": "At 90+3', Leo Marchetti’s 35‑yd pass to Elias Brandt initiates a 5‑pass sequence, each with difficulty 35–41, reversing Harbour City’s momentum by –25 and amplifying chaos 46.",
+  "cites": [
+   "e1926",
+   "e1927",
+   "e1928",
+   "e1929",
+   "e1930"
+  ]
+ }
+}

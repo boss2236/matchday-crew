@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Blum’s big chance rattles the net",
+  "text": "Oscar Blum let loose a powerful shot under pressure, almost catching the keeper, keeping Northgate’s momentum humming as they lead the game.",
+  "cites": [
+   "e1205"
+  ]
+ }
+}

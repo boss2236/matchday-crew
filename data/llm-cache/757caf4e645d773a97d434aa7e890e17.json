@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Pressing Spurs Turnover Surge",
+  "text": "Cohen’s three interceptions (e1462) in 120 s, plus Blum (e1425) and Vega (e1441) interceptions, lifted Northgate’s PPDA 8.7, xG to 1.18, shifting momentum from –39 to controlled.",
+  "cites": [
+   "e1425",
+   "e1441",
+   "e1462"
+  ]
+ }
+}

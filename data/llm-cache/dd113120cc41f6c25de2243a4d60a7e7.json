@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour City’s swift build‑up equalises",
+  "text": "After e0991 interception, three unpressured passes (e0994‑e0996) and a 14.3 m carry (e0997) produced an 83 km/h shot (e0998) with xG 0.024.",
+  "cites": [
+   "e0991",
+   "e0994",
+   "e0995",
+   "e0996",
+   "e0997",
+   "e0998"
+  ]
+ }
+}

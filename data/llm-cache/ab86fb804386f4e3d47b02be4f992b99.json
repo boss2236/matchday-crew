@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Southmere’s Sudden Surge",
+  "text": "Tariq Aziz’s 59.2 km/h burst at 16:24 swung momentum to 35, shaking the game for Southmere United.",
+  "cites": [
+   "e0351"
+  ]
+ }
+}

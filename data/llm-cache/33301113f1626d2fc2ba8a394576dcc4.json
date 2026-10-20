@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Harbour City’s Momentum Collapse",
+  "text": "At 80:25 a rapid 5‑pass run by Leo, Mateo, Yusuf, Arjun and Dani ends with a saved shot, showing a 30‑point swing and 53 chaos score drop.",
+  "cites": [
+   "e1710",
+   "e1711",
+   "e1712",
+   "e1713",
+   "e1714",
+   "e1715"
+  ]
+ }
+}

@@ -1,0 +1,20 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Northgate's Controlled Build‑Up Shifts Momentum",
+  "text": "A series of short, high‑pressured passes (e0110, e0111, e0112, e0115) and quick carries (e0113, e0116) under patient possession kept 69% control, raising momentum to 37 while chaos rose to 42, signalling a decisive swing.",
+  "tags": [
+   "possession",
+   "pressing",
+   "momentum"
+  ],
+  "cites": [
+   "e0110",
+   "e0111",
+   "e0112",
+   "e0113",
+   "e0115",
+   "e0116"
+  ]
+ }
+}

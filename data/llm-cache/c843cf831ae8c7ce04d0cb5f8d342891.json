@@ -1,0 +1,17 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Southmere’s Momentum Drops Sharply",
+  "text": "At 38:29 Southmere’s momentum fell to -29 with chaos 33 as a pressured 41‑metre pass (e0713) followed a series of low‑progress, high‑speed passes (e0699,e0702), signalling loss of control and rising pressure.",
+  "tags": [
+   "momentum",
+   "chaos",
+   "pressing"
+  ],
+  "cites": [
+   "e0699",
+   "e0702",
+   "e0713"
+  ]
+ }
+}

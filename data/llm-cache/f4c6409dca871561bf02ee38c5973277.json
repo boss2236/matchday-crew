@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Rovers Turn the Tide",
+  "text": "Ilan Cohen’s three interceptions in just two minutes sparked a comeback, with Oscar and Andres also stealing the ball, shifting the game’s flow dramatically.",
+  "cites": [
+   "e1425",
+   "e1441",
+   "e1462"
+  ]
+ }
+}

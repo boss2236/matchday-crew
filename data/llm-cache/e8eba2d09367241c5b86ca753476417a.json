@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Aziz's high‑xG chance shifts momentum",
+  "text": "At 4 minutes, Tariq Aziz’s 2‑metre, 74.1 km/h shot (xG 0.622) under pressure created a big chance, highlighting Southmere’s 67% possession and 77 momentum, underscoring their early control despite Harbour’s high press.",
+  "tags": [
+   "chance",
+   "pressure",
+   "control"
+  ],
+  "cites": [
+   "e0077"
+  ]
+ }
+}

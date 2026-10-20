@@ -1,0 +1,13 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Southmere seal 3-0 with late strike",
+  "text": "Joel Martin's quick pass to Tariq Aziz at 86:45 sends Southmere United into a 3-0 lead, sealing the win after a swift possession change.",
+  "cites": [
+   "e1847",
+   "e1849",
+   "e1850",
+   "e1851"
+  ]
+ }
+}

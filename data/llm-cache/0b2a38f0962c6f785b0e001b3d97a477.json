@@ -1,0 +1,40 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Breakthrough Build‑up Secures First Goal",
+  "text": "Southmere’s 19‑pass, 1.2‑m shot by Tariq Aziz, after a 45+2 possession change, flips momentum from 52 to 53, ending the chaotic 45+3 minute.",
+  "tags": [
+   "pass",
+   "momentum",
+   "control"
+  ],
+  "cites": [
+   "e0985",
+   "e0986",
+   "e0987",
+   "e0988",
+   "e0989",
+   "e0990",
+   "e0991",
+   "e0992",
+   "e0993",
+   "e0995",
+   "e0996",
+   "e0997",
+   "e0999",
+   "e1000",
+   "e1002",
+   "e1003",
+   "e1004",
+   "e1005",
+   "e1006",
+   "e1008",
+   "e1009",
+   "e1010",
+   "e1011",
+   "e1012",
+   "e1013",
+   "e1014"
+  ]
+ }
+}

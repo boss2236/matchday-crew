@@ -1,0 +1,20 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Ironvale’s control crumbles",
+  "text": "At 06:02 the momentum drops to -52 and chaos rises to 57, signalling a shift from structured possession to disorder as Ironvale’s passing sequence stalls, losing tactical control.",
+  "tags": [
+   "control",
+   "chaos",
+   "momentum"
+  ],
+  "cites": [
+   "e0138",
+   "e0139",
+   "e0140",
+   "e0141",
+   "e0142",
+   "e0143"
+  ]
+ }
+}

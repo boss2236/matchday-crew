@@ -1,0 +1,13 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Southmere’s Late Dominance",
+  "text": "At 86:45, Tariq Aziz’s 0.106 xG finish, 10‑m shot off a 15.1‑m pass (difficulty 35), capped a 7.3‑m carry, with PPDA 8 and momentum 23 for Southmere United.",
+  "cites": [
+   "e1847",
+   "e1848",
+   "e1849",
+   "e1850"
+  ]
+ }
+}

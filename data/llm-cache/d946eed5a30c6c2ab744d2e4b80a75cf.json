@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Southmere leads at half",
+  "text": "Southmere United are up 1-0 at half‑time, showing great control in the final third with 34 entries versus Harbour City’s 28. It’s a solid start for the home side.",
+  "cites": [
+   "e1016"
+  ]
+ }
+}

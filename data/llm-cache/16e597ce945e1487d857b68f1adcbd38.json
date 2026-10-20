@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Rovers Take Charge",
+  "text": "Kai Nakamura’s three quick regains turned the game around, stealing the ball and giving Northgate Rovers the edge they needed.",
+  "cites": [
+   "e0738",
+   "e0757",
+   "e0765"
+  ]
+ }
+}

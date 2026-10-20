@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Southmere United clinches 3‑0 victory",
+  "text": "Southmere United wrapped up a comfortable win, showing they controlled the game from start to finish, while Harbour City never got a foothold.",
+  "cites": [
+   "e1950"
+  ]
+ }
+}

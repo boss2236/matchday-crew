@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Rovers lose grip at 81'",
+  "text": "Momentum 25, chaos 63; three pressured passes (1 m, 22.4 m, 36.4 m) with difficulty 20, 54, 76 show shift to chaotic play.",
+  "cites": [
+   "e1531",
+   "e1534",
+   "e1536"
+  ]
+ }
+}

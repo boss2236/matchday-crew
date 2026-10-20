@@ -1,0 +1,19 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Momentum swing sparks chaos",
+  "text": "Southmere United’s 35‑point momentum surge at 63:33, despite a 52‑point chaos rise, shows a high‑pressure pass (e1357) and rapid successive carries and passes (e1363‑e1367) destabilising Harbour City’s structure.",
+  "tags": [
+   "momentum",
+   "chaos",
+   "pressing"
+  ],
+  "cites": [
+   "e1357",
+   "e1363",
+   "e1364",
+   "e1365",
+   "e1367"
+  ]
+ }
+}

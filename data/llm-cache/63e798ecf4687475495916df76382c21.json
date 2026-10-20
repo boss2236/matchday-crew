@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Northgate's high‑press passes boost momentum",
+  "text": "Short pressured passes (25.4m, difficulty 43) and carries kept 69% possession, raising momentum to 37 while chaos hit 42.",
+  "cites": [
+   "e0110",
+   "e0111",
+   "e0112",
+   "e0113",
+   "e0115",
+   "e0116"
+  ]
+ }
+}

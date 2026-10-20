@@ -1,0 +1,14 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Construcción rápida eleva momentum",
+  "text": "Okafor avanza 13.9 m, luego pases de 15.1 m (dif 30), 23.2 m (dif 43) y 29.2 m (dif 41) culminan en disparo de Marchetti 15.2 m (xG 0.024), elevando momentum a 26.",
+  "cites": [
+   "e0993",
+   "e0994",
+   "e0995",
+   "e0996",
+   "e0998"
+  ]
+ }
+}

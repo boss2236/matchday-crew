@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Aziz's xG chance drives early momentum",
+  "text": "At 4 min Aziz’s 2‑metre, 74.1 km/h shot (xG 0.622) under pressure gave Southmere 67% possession, PPDA 5 and 77 momentum.",
+  "cites": [
+   "e0077"
+  ]
+ }
+}

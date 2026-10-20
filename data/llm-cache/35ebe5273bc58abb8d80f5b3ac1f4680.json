@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Harbour City’s Momentum Collapse",
+  "text": "Southmere United’s 2‑0 lead widens as Harbour City’s high‑press fizzles, losing 35 momentum and chaos spikes to 59, all in the 75th minute.",
+  "cites": [
+   "e1578",
+   "e1579",
+   "e1580",
+   "e1581",
+   "e1582",
+   "e1583"
+  ]
+ }
+}

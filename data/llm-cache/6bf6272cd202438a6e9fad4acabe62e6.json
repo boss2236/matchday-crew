@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Harbour City’s chaotic passing spree",
+  "text": "Jonah Pike’s quick 28‑yard pass to Elias Brandt starts a frantic chain, but Leo Marchetti’s 55‑yard delivery gets intercepted at 31:31, sending the game into a wild 64‑point chaos surge.",
+  "cites": [
+   "e0660",
+   "e0662",
+   "e0669",
+   "e0671",
+   "e0672",
+   "e0679"
+  ]
+ }
+}

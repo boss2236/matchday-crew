@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Full‑time seals dominant home control",
+  "text": "The final whistle at 90+4' confirms Southmere United’s 3‑0 win, cementing a -30 momentum swing and a 48 chaos level that reflect their tactical dominance over Harbour City’s high press.",
+  "tags": [
+   "control",
+   "momentum",
+   "chaos"
+  ],
+  "cites": [
+   "e1950"
+  ]
+ }
+}

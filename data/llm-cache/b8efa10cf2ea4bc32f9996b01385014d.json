@@ -1,0 +1,20 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Southmere's chaotic build‑up shifts momentum",
+  "text": "Despite a chaos rating of 61, Southmere United stringed together five successive passes and a carry, maintaining 85% accuracy and pressuring the opponent, which explains the -25 momentum swing at minute 62.",
+  "tags": [
+   "momentum",
+   "control",
+   "pass"
+  ],
+  "cites": [
+   "e1155",
+   "e1156",
+   "e1157",
+   "e1158",
+   "e1159",
+   "e1161"
+  ]
+ }
+}

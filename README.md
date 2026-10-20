@@ -6,7 +6,15 @@ Built for the Microsoft x Premier League **Inside the Game** developer hackathon
 
 > All data is synthetic. The clubs, players and matches are made up. No real league data, footage or branding is used.
 
-![Second-screen app](docs/screenshot.png)
+![Nutmeg Desk: analyst view with player focus and a followed metric](docs/images/analyst.png)
+
+| Casual fan, in Arabic | Broadcast view |
+|---|---|
+| ![Casual fan view in Arabic](docs/images/arabic-casual.png) | ![Broadcast view: the match full-screen with a scorebug and the crew's graphics](docs/images/broadcast-view.png) |
+
+| First-visit tour | On a phone |
+|---|---|
+| ![Welcome prompt offering a tour](docs/images/welcome-tour.png) | ![Mobile layout](docs/images/mobile.png) |
 
 ## What it does
 

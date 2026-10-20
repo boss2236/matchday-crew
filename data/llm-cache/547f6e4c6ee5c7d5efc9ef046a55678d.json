@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Volkov’s risky pass sparks surge",
+  "text": "Volkov’s 32.3‑meter out pass (e1234) lifts Southmere’s momentum by 27, amid 48 chaos, while xG climbs to 1.65 versus Harbour’s 0.44.",
+  "cites": [
+   "e1234"
+  ]
+ }
+}

@@ -1,0 +1,20 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Momentum Decline Amid Chaos",
+  "text": "Harbour City’s drive faltered as a 25‑point momentum swing and 62‑point chaos index hit at 39:12, ending with a 0.113 xG shot that was saved.",
+  "tags": [
+   "momentum",
+   "chaos",
+   "finishing"
+  ],
+  "cites": [
+   "e0838",
+   "e0839",
+   "e0840",
+   "e0841",
+   "e0842",
+   "e0843"
+  ]
+ }
+}

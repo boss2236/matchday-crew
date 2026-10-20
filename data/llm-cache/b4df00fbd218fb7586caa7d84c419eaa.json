@@ -1,0 +1,19 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Late Finish Extends Dominance",
+  "text": "Southmere’s 3-0 lead is sealed by Tariq Aziz’s 86:45 goal, a quick build‑up from Joel Martin that capitalised on a possession change and a short pass, maintaining control in the final third.",
+  "tags": [
+   "control",
+   "momentum",
+   "finishing"
+  ],
+  "cites": [
+   "e1847",
+   "e1848",
+   "e1849",
+   "e1850",
+   "e1851"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Southmere Pressing Surge Shifts Control",
+  "text": "Three interceptions (e1251,e1261,e1272) in 120 s lifted Southmere to 46% possession; PPDA 8, xG 0.33, momentum 31 as chaos peaks 68.",
+  "cites": [
+   "e1251",
+   "e1261",
+   "e1272"
+  ]
+ }
+}

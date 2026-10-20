@@ -1,0 +1,11 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Southmere’s chaos spikes",
+  "text": "Around the 13‑minute mark Southmere looked rattled – their momentum fell to -27 and chaos rose to 52, with an intercepted pass and a pressured carry showing their wing play wobbling.",
+  "cites": [
+   "e0199",
+   "e0219"
+  ]
+ }
+}

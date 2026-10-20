@@ -1,0 +1,11 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Momentum Surge at 53:00",
+  "text": "Alfie Grant’s 12.7‑yard carry (e1172) and Joel Martin’s 48.9‑yard pass to Rafa Ortega (e1175) lift Southmere United’s momentum to 36, building a 1‑0 lead.",
+  "cites": [
+   "e1172",
+   "e1175"
+  ]
+ }
+}

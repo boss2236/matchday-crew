@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Momentum swing fuels Southmere surge",
+  "text": "Southmere United’s 35‑point momentum rise amid 61 chaos marks a decisive shift, as rapid passes and a 59.2 km/h burst from Tariq Aziz set the tone for control and pressure.",
+  "tags": [
+   "momentum",
+   "control",
+   "pressing"
+  ],
+  "cites": [
+   "e0351"
+  ]
+ }
+}

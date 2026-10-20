@@ -1,0 +1,13 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Southmere’s Wild Turnaround",
+  "text": "At 20:18 Southmere United’s 25‑point swing turns the game into a frantic back‑and‑forth, with Tariq, Joel and Rafa trading long, high‑speed passes that keep the fans on the edge of their seats.",
+  "cites": [
+   "e0408",
+   "e0409",
+   "e0410",
+   "e0411"
+  ]
+ }
+}

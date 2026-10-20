@@ -1,0 +1,17 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Rovers' Press Sparks Turnover Surge",
+  "text": "Ilan Cohen’s three interceptions in a 120‑second spell (e1462) capped a sequence of back‑to‑back gains (e1425, e1441), shifting momentum from –39 to a more controlled phase as Northgate’s pressing forced turnovers.",
+  "tags": [
+   "pressing",
+   "momentum",
+   "control"
+  ],
+  "cites": [
+   "e1425",
+   "e1441",
+   "e1462"
+  ]
+ }
+}

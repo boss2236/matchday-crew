@@ -1,0 +1,17 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Northgate Rovers lose control in 81st minute",
+  "text": "At minute 81 the momentum dropped to 25 while chaos rose to 63, and three consecutive passes (e1531, e1534, e1536) were made under pressure, signalling a shift from controlled possession to chaotic play.",
+  "tags": [
+   "chaos",
+   "control",
+   "pass"
+  ],
+  "cites": [
+   "e1531",
+   "e1534",
+   "e1536"
+  ]
+ }
+}

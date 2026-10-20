@@ -1,0 +1,19 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Harbour City’s last‑minute collapse",
+  "text": "A 90+3' passing chain, starting with Leo Marchetti, saw Harbour City swing momentum by –25, turning a tight 3-0 lead into chaos and losing control as they failed to finish.",
+  "tags": [
+   "momentum",
+   "chaos",
+   "control"
+  ],
+  "cites": [
+   "e1926",
+   "e1927",
+   "e1928",
+   "e1929",
+   "e1930"
+  ]
+ }
+}

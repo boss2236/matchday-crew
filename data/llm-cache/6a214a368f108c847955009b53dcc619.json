@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Rovers' high‑difficulty passes spark momentum",
+  "text": "At minute 53, Rovers completed three pressured passes (difficulty 51, 39, 83) gaining 58.1 progress and driving a 26‑momentum swing from a 54‑chaos state.",
+  "cites": [
+   "e0985",
+   "e0987",
+   "e0989"
+  ]
+ }
+}

@@ -1,0 +1,20 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Southmere's 45+3' Momentum Surge",
+  "text": "At 45+3', Bruno Costa’s rapid carries and a 32‑m pass to Tariq Aziz culminated in a 0.931‑xg goal, tipping momentum to 52 and reducing chaos to 40.",
+  "tags": [
+   "momentum",
+   "control",
+   "finishing"
+  ],
+  "cites": [
+   "e1008",
+   "e1009",
+   "e1010",
+   "e1011",
+   "e1012",
+   "e1013"
+  ]
+ }
+}

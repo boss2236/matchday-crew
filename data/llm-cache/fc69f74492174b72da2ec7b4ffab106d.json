@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Martin’s 3‑interception clampdown",
+  "text": "In 120 seconds, Martin’s 3 interceptions halted a 90‑minute surge, preserving a 3‑0 lead amid 46 chaos points. Southmere’s PPDA 7.8 vs Harbour’s 7.5 shows defensive dominance.",
+  "cites": [
+   "e1858",
+   "e1889",
+   "e1897"
+  ]
+ }
+}

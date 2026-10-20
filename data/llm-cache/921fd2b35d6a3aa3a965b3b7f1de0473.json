@@ -1,0 +1,19 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Late‑half breakthrough shifts momentum",
+  "text": "Southmere United’s 19‑pass build‑up after a throw‑in culminated in Aziz’s 69.6 km/h strike, raising momentum to 52 and securing control at halftime.",
+  "tags": [
+   "momentum",
+   "control",
+   "finishing"
+  ],
+  "cites": [
+   "e0985",
+   "e0986",
+   "e1010",
+   "e1013",
+   "e1014"
+  ]
+ }
+}

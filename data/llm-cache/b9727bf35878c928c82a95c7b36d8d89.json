@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Aziz’s 74 km/h strike stuns",
+  "text": "Tariq Aziz’s 74.1 km/h shot from 2 metres was saved, but Southmere United still dominates with 67% possession and 77% momentum at 4 minutes.",
+  "cites": [
+   "e0077"
+  ]
+ }
+}

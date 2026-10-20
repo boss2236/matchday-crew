@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Northgate’s Passing Sparks Joy",
+  "text": "Five crisp passes kept the ball moving and lifted the mood, ending with a neat finish to Ilan Cohen.",
+  "cites": [
+   "e0543",
+   "e0544",
+   "e0545",
+   "e0552",
+   "e0553",
+   "e0556"
+  ]
+ }
+}

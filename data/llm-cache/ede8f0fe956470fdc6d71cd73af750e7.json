@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Aziz sparks Southmere comeback",
+  "text": "Tariq Aziz’s quick interceptions turned the game, giving Southmere United the ball and fresh hope as they push forward",
+  "cites": [
+   "e1251",
+   "e1261",
+   "e1272"
+  ]
+ }
+}

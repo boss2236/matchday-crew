@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Momentum Collapse at 11:42",
+  "text": "Yusuf Demir’s 27.9‑m pass (e0258) swung momentum by 25, raising chaos to 58 and forcing Harbour City’s defensive reset.",
+  "cites": [
+   "e0258"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Southmere’s 3‑Regain Press",
+  "text": "Southmere’s 1.85 xG, 8 PPDA and 5‑point momentum surge after three regains in 120s, stifling Harbour City’s high‑press.",
+  "cites": [
+   "e1818",
+   "e1838",
+   "e1847"
+  ]
+ }
+}

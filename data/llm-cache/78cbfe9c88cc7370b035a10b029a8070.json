@@ -1,0 +1,17 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Southmere’s Pressing Surge Shifts Control",
+  "text": "Rafa Ortega’s three regains in a 120‑second window (e0887, e0897, e0907) illustrate a decisive pressing spell that curbs Northgate’s momentum (-42) and raises chaos (61), turning the match’s control in Southmere’s favor.",
+  "tags": [
+   "pressing",
+   "control",
+   "momentum"
+  ],
+  "cites": [
+   "e0887",
+   "e0897",
+   "e0907"
+  ]
+ }
+}

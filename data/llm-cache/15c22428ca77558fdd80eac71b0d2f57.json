@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Rovers clinch 1‑0 with possession edge",
+  "text": "Northgate Rovers win 1‑0 (xG 1.18 vs 0.9), PPDA 8.3, possession 55%, pass accuracy 83%, momentum –63, chaos 56, confirming tactical control.",
+  "cites": [
+   "e1784"
+  ]
+ }
+}

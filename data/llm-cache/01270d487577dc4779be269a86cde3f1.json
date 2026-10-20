@@ -1,0 +1,14 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Momentum swing at 70:04",
+  "text": "Southmere United’s 70:04 shot, saved, marks a 35‑point momentum swing amid 54 chaos, tipping control back to Harbour City.",
+  "tags": [
+   "momentum",
+   "chaos"
+  ],
+  "cites": [
+   "e1484"
+  ]
+ }
+}
