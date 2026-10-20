@@ -1,0 +1,11 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Northgate surge fuels Blum goal",
+  "text": "At minute 24, momentum 38 and chaos 56 accompany Kaya’s 30.1 m pass (difficulty 48) to Blum, whose 4.3 m, 101.4 km/h shot (xG 0.472) clinches the lead.",
+  "cites": [
+   "e0426",
+   "e0427"
+  ]
+ }
+}

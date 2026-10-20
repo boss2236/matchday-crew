@@ -1,0 +1,17 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Southmere’s Momentum Surge",
+  "text": "At 56:07, Southmere United’s 27‑point momentum swing, amid 48 chaos, followed a high‑pressure pass from Joel Martin (e1219) and a key interception (e1221), shifting control to the home side.",
+  "tags": [
+   "momentum",
+   "control",
+   "pressing"
+  ],
+  "cites": [
+   "e1219",
+   "e1221",
+   "m065"
+  ]
+ }
+}

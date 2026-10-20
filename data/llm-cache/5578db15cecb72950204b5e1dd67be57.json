@@ -1,0 +1,14 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour City’s quick strike!",
+  "text": "Okafor’s 13.9 m run sparked three swift passes and Marchetti’s 15.2 m blast into the net, turning a calm spell into a goal.",
+  "cites": [
+   "e0993",
+   "e0994",
+   "e0995",
+   "e0996",
+   "e0998"
+  ]
+ }
+}

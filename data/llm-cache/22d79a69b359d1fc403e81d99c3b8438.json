@@ -1,0 +1,13 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Southmere’s 35‑point surge rocks Harbour",
+  "text": "At 63:33 Southmere United’s momentum hits 35 as Bruno Costa’s carry and quick passes keep Harbour City off balance, turning the game around for the home side.",
+  "cites": [
+   "e1363",
+   "e1364",
+   "e1365",
+   "e1367"
+  ]
+ }
+}

@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Southmere's tactical dominance quantified",
+  "text": "Southmere United posted 1.95 xG vs 0.62, PPDA 7.9 vs 7.6, and a -30 momentum swing, while chaos peaked at 48, confirming their control.",
+  "cites": [
+   "e1950"
+  ]
+ }
+}

@@ -55,7 +55,7 @@ export default function Studio() {
     <div className={`studio${preview ? ' studio-preview' : ''}`}>
       {bg === 'pitch' && (
         <div className="studio-stage">
-          <PitchSvg meta={live.meta} trail={live.trail} events={live.events} highlight={highlight} />
+          <PitchSvg meta={live.meta} trail={live.trail} events={live.events} highlight={highlight} players={live.players} onBall={live.onBall} focus={q.get('player')} />
           <span className="studio-label">Synthetic match · simulated feed</span>
         </div>
       )}

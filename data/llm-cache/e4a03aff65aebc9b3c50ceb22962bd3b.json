@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Harbour City Momentum Collapse",
+  "text": "At 39:12, Harbour City’s drive stalled after a 25‑point momentum swing, 62‑point chaos, culminating in a 0.113 xG shot by Dani Kowalski that was saved.",
+  "cites": [
+   "e0838",
+   "e0839",
+   "e0840",
+   "e0841",
+   "e0842",
+   "e0843"
+  ]
+ }
+}

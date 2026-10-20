@@ -1,0 +1,17 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Rovers' Pressing Surge Shifts Control",
+  "text": "Kai Nakamura’s three regains in a two‑minute window, highlighted by successive interceptions and a tackle (e0738, e0757, e0765), intensifies Northgate’s pressing, turning momentum negative (-27) into defensive dominance.",
+  "tags": [
+   "pressing",
+   "control",
+   "momentum"
+  ],
+  "cites": [
+   "e0738",
+   "e0757",
+   "e0765"
+  ]
+ }
+}

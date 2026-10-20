@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Southmere Dominate with 3-0 Finish",
+  "text": "Southmere’s wing play and crosses yielded 10 shots, 7 on target, and 1.95 xG, while Harbour City’s high press produced only 5 shots on target and 0.62 xG, sealing control and momentum.",
+  "tags": [
+   "control",
+   "momentum",
+   "finishing"
+  ],
+  "cites": [
+   "e1950"
+  ]
+ }
+}

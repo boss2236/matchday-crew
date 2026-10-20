@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Early chance lights up the game",
+  "text": "Tariq Aziz’s quick strike put Southmere United in front, showing their control and giving us a taste of the excitement ahead.",
+  "cites": [
+   "e0077"
+  ]
+ }
+}

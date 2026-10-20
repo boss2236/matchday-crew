@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Tariq Aziz lights up Southmere United",
+  "text": "Southmere United kicked off with a big chance that was saved, but the game turned in their favour when Tariq Aziz netted the opener in the 45+3 minute half‑time break. He then added two more goals, one in the 58:49 minute and another in the 86:45 minute, turning a tight match into a comfortable 3‑0 win. The midfield ran the ball well, and the forwards kept pressing, while Harbour City struggled to create chances. Tariq’s three goals and sharp passing made the difference, and his performance was the highlight of the night.",
+  "cites": [
+   "e1014",
+   "e1287",
+   "e1851"
+  ]
+ }
+}

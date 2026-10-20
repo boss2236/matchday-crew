@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Joel Martin’s late press rocks Southmere",
+  "text": "From 86:38, Joel Martin snags possession three times in two minutes, shutting down Harbour City’s high‑press. It’s a great finish for Southmere!",
+  "cites": [
+   "e1818",
+   "e1838",
+   "e1847"
+  ]
+ }
+}

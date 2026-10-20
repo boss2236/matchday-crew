@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Southmere’s end‑game slip",
+  "text": "Southmere United’s last pushes turned into hesitant passes and slow carries, letting Northgate take control as the game faded away",
+  "cites": [
+   "e1763",
+   "e1764",
+   "e1765",
+   "e1767",
+   "e1768",
+   "e1769"
+  ]
+ }
+}

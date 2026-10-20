@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Southmere Dominates First Half",
+  "text": "With 1.64 xG, 34 final‑third entries, 9.2 PPDA versus Harbour City's 0.39 xG, 28 entries, 6.8 PPDA, momentum sits at 71.0. Control evident at 45+4’.",
+  "cites": [
+   "e1016"
+  ]
+ }
+}

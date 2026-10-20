@@ -46,13 +46,38 @@ Voice commentary with a neural voice per language. Without it the app uses the b
 
 Check it works: restart `npm start`; the startup line says *Voice: Azure AI Speech*. Turn on **Voice commentary** in the app.
 
+## 1c. Azure AI Content Safety (free tier F0, optional)
+
+The Safety agent screens every line the model writes before it airs. Free tier: 5,000 text records a month; replays are screened once per server run.
+
+1. Portal top bar: search **Content Safety** → **Create**.
+2. Same resource group and region as the Translator. Pricing tier: **Free F0**.
+3. **Go to resource** → **Keys and Endpoint**. Copy:
+
+| Portal field | `.env` |
+|---|---|
+| Endpoint (e.g. `https://my-safety.cognitiveservices.azure.com/`) | `AZURE_CONTENT_SAFETY_ENDPOINT=` |
+| KEY 1 | `AZURE_CONTENT_SAFETY_KEY=` |
+
+Restart `npm start`; the startup line says *Safety: Azure AI Content Safety*, and *Behind the broadcast* shows a **Safety** agent passing each line.
+
+## 1d. Azure Application Insights (free tier, optional)
+
+Monitoring for the hosted app: requests, every model, Translator, Speech and Content Safety call with its duration, a summary event per match, and errors. Free tier: 5 GB of data a month.
+
+1. Portal top bar: search **Application Insights** → **Create**.
+2. Same resource group and region. Leave *Workspace-based* and the suggested Log Analytics workspace.
+3. **Go to resource** → **Overview** → copy **Connection String** (top right) into `.env` as `APPLICATIONINSIGHTS_CONNECTION_STRING=` (the whole string, it contains semicolons; no quotes needed).
+
+Restart `npm start`; the startup line says *Telemetry: Application Insights*. Data shows up under **Live metrics**, **Transaction search** and **Application map** within a couple of minutes.
+
 ## 2. Host the app on Azure Container Apps (free monthly grant)
 
 This gives the judges a public link. Container Apps on the consumption plan has a monthly free grant (vCPU-seconds, memory and requests) that a demo stays well inside, and the app scales to zero when nobody is watching.
 
 The image is built for free by GitHub Actions and stored in GitHub Container Registry, so no Azure Container Registry (about 5 USD a month) is needed.
 
-**One-time on GitHub:** after CI has run once on `main`, open your GitHub profile → **Packages** → `matchday-crew` → **Package settings** → **Change visibility** → **Public**.
+**One-time on GitHub:** after CI has run once on `main`, open your GitHub profile → **Packages** → `nutmeg-desk` → **Package settings** → **Change visibility** → **Public**.
 
 **Deploy from Azure Cloud Shell** (nothing to install):
 
@@ -60,12 +85,15 @@ The image is built for free by GitHub Actions and stored in GitHub Container Reg
 2. Run, with your own values:
 
 ```bash
-git clone https://github.com/boss2236/matchday-crew && cd matchday-crew
+git clone https://github.com/boss2236/nutmeg-desk && cd nutmeg-desk
 export LLM_API_KEY=gsk_...              # Groq key (or skip and use Foundry below)
 export AZURE_TRANSLATOR_KEY=...         # from step 1
 export AZURE_TRANSLATOR_REGION=westeurope
 export AZURE_SPEECH_KEY=...             # optional, from step 1b
 export AZURE_SPEECH_REGION=westeurope
+export AZURE_CONTENT_SAFETY_ENDPOINT=https://...   # optional, step 1c
+export AZURE_CONTENT_SAFETY_KEY=...
+export APPLICATIONINSIGHTS_CONNECTION_STRING='InstrumentationKey=...'   # optional, step 1d (keep the quotes)
 export LOCATION=westeurope              # a region your subscription allows
 bash infra/deploy.sh
 ```
@@ -105,5 +133,7 @@ Foundry takes priority over `LLM_*` when all three are set. The request format i
 | Translator KEY 1 | Translator resource → Keys and Endpoint | `AZURE_TRANSLATOR_KEY` |
 | Translator region | same page | `AZURE_TRANSLATOR_REGION` |
 | Speech KEY 1 and region (optional) | Speech resource → Keys and Endpoint | `AZURE_SPEECH_KEY`, `AZURE_SPEECH_REGION` |
+| Content Safety endpoint and KEY 1 (optional) | Content Safety resource → Keys and Endpoint | `AZURE_CONTENT_SAFETY_ENDPOINT`, `AZURE_CONTENT_SAFETY_KEY` |
+| Application Insights connection string (optional) | Application Insights → Overview | `APPLICATIONINSIGHTS_CONNECTION_STRING` |
 | Container app URL | output of `infra/deploy.sh` | Submission testing link |
 | Foundry endpoint, deployment, key (optional) | ai.azure.com → Models + endpoints | `FOUNDRY_*` |

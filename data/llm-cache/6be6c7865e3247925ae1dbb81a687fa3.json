@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Northgate surge fuels chaos",
+  "text": "Momentum 26, chaos 44 as Moreno’s 38.6 m pass gains 35.3 m (e0508); earlier Cohen’s intercepted 15.1 m pass (e0499) and Blum’s out‑of‑bounds 23.3 m pass (e0510) illustrate swing.",
+  "cites": [
+   "e0499",
+   "e0508",
+   "e0510"
+  ]
+ }
+}

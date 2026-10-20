@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Northgate’s surge sparks chaos",
+  "text": "Northgate’s forward pass lifted the ball 35.3 m, but a busted earlier try and an out‑of‑bounds flick show the match swinging wildly.",
+  "cites": [
+   "e0508",
+   "e0499",
+   "e0510"
+  ]
+ }
+}

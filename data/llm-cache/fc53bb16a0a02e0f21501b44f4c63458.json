@@ -1,0 +1,11 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Rovers' high‑difficulty passes spark momentum",
+  "text": "Rovers' 83‑difficulty pass (e0989) and 51‑difficulty pass (e0985) generated 36.1 m and 20.3 m progress, fueling a 26‑momentum swing.",
+  "cites": [
+   "e0985",
+   "e0989"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Southmere Surge, Harbour Disrupted",
+  "text": "Southmere’s 35‑point momentum at 63:33, with a 53‑difficulty pass and 46.6‑meter carry‑pass chain, pushes Harbour’s PPDA from 7.3 to 8.1, destabilising their structure.",
+  "cites": [
+   "e1357",
+   "e1364",
+   "e1365"
+  ]
+ }
+}

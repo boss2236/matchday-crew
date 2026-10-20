@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Southmere Dominate 3-0",
+  "text": "Southmere’s 10 shots, 7 on target, 1.95 xG outpaced Harbour’s 5 shots on target, 0.62 xG, securing control, 50% possession, 7.9 PPDA, momentum -30.",
+  "cites": [
+   "e1950"
+  ]
+ }
+}

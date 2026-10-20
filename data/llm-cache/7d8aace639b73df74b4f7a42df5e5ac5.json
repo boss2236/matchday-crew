@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Half‑time: Southmere leads",
+  "text": "Southmere United's 1‑0 advantage at 45+4’ shows control in the final third, with 34 entries versus Harbour City's 28, despite equal possession.",
+  "tags": [
+   "control",
+   "momentum",
+   "possession"
+  ],
+  "cites": [
+   "e1016"
+  ]
+ }
+}

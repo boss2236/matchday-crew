@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Rovers clinch dramatic win",
+  "text": "At 90+5' Northgate Rovers snatch a 1‑0 victory, showing calm control as the game ends.",
+  "cites": [
+   "e1784"
+  ]
+ }
+}

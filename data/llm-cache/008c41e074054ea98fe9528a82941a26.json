@@ -1,0 +1,30 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Northgate Rovers Edge Southmere United 1‑0",
+  "text": "Northgate opened strongly, a 10.9‑metre carry by Andres Vega (e0116) spurring early pressure. Southmere answered with Rafa Ortega’s 10‑metre burst (e0221) and an interception at 19’ (e0341). The decisive moment came at 23’: Emre Kaya’s 30.1‑metre pass (difficulty 48) found Oscar Blum, who struck a 4.3‑metre, 101.4 km/h effort (xG 0.472) for the only goal (e0426‑e0428). Southmere’s wing play generated a 41‑metre, high‑difficulty pass (e0713) but failed to break the deadlock. Late chances included Blum’s off‑target shot (e1205) and a final‑minute carry by Bruno Costa (e1697). Northgate’s patient possession (55% possession, xG 1.18, PPDA 8.3) and superior interception count (42) secured the win (e1784).",
+  "cites": [
+   "e0116",
+   "e0221",
+   "e0341",
+   "e0426",
+   "e0427",
+   "e0428",
+   "e0436",
+   "e0510",
+   "e0556",
+   "e0713",
+   "e0765",
+   "e0907",
+   "e0990",
+   "e1205",
+   "e1272",
+   "e1298",
+   "e1462",
+   "e1536",
+   "e1697",
+   "e1769",
+   "e1784"
+  ]
+ }
+}

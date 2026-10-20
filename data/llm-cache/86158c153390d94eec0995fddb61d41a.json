@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Chaos at the 31‑minute mark",
+  "text": "Harbour City’s frantic 31‑minute passing spree ends with an interception, sparking a 64‑point chaos surge and a -27 momentum swing. The ball’s back on the field!",
+  "cites": [
+   "e0660",
+   "e0662",
+   "e0669",
+   "e0671",
+   "e0672",
+   "e0679"
+  ]
+ }
+}

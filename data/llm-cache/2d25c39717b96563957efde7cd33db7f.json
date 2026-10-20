@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Aziz’s late strike thrills fans",
+  "text": "After a throw‑in, Southmere weaved 19 passes and Tariq Aziz blasted a 69.6 km/h shot into the net, giving them the lead at halftime.",
+  "cites": [
+   "e0985",
+   "e1013",
+   "e1014"
+  ]
+ }
+}

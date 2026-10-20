@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Aziz’s hat‑trick seals 3‑0 win",
+  "text": "Southmere United opened the scoring with a 1.95‑xG finish from Tariq Aziz after a 19‑pass build‑up (e1013). A second goal followed at 58:49 when Aziz capitalised on a 0.16‑xG chance from Bruno Costa (e1286, e1287). The third came in the 86th minute, a 0.106‑xG finish aided by a 1‑pass assist from Joel Martin (e1850, e1851). Southmere’s 82 % passing accuracy, 50 % possession and 7.9 PPDA outmatched Harbour’s 85 % accuracy and 7.6 PPDA. The result hinged on Aziz’s clinical finishing and the team’s disciplined pressing (m099).",
+  "cites": [
+   "e1013",
+   "e1014",
+   "e1286",
+   "e1287",
+   "e1850",
+   "e1851"
+  ]
+ }
+}

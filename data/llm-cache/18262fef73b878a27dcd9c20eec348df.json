@@ -1,0 +1,30 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Northgate Rovers Edge Southmere United 1‑0",
+  "text": "The game opened with a fast run from Andres Vega, then Rafa Ortega tried the same for Southmere United. Early on Southmere won the ball with an interception by Ortega, but Northgate answered with a tidy pass from Emre Kaya to Oscar Blum, who smashed a powerful strike into the net at 23 minutes. After the goal Northgate kept most of the ball, though Southmere kept pressing, stealing the ball a few times and creating chances, including a long‑range miss from Blum later on. In the dying minutes Southmere pushed forward, but the defence held and the match finished 1‑0. Oscar Blum was the clear star, scoring and helping the build‑up.",
+  "cites": [
+   "e0116",
+   "e0221",
+   "e0341",
+   "e0426",
+   "e0427",
+   "e0428",
+   "e0436",
+   "e0510",
+   "e0556",
+   "e0713",
+   "e0765",
+   "e0907",
+   "e0990",
+   "e1205",
+   "e1272",
+   "e1298",
+   "e1462",
+   "e1536",
+   "e1697",
+   "e1769",
+   "e1784"
+  ]
+ }
+}

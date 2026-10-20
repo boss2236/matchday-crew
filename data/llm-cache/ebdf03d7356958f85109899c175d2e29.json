@@ -1,0 +1,17 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Joel Martin's 3‑regain spell",
+  "text": "In the dying minute, Martin’s 3 interceptions in 120 seconds halted a 90‑minute surge, preserving a 3‑0 lead amid 46 chaos points.",
+  "tags": [
+   "pressing",
+   "control",
+   "momentum"
+  ],
+  "cites": [
+   "e1858",
+   "e1889",
+   "e1897"
+  ]
+ }
+}

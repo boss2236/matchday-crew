@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Southmere United Secures Decisive Victory",
+  "text": "With a 3-0 win, Southmere’s wing play dominated, countering Harbour City’s high press and securing 50% possession, 10 shots, and 7.95 xG to maintain control and momentum.",
+  "tags": [
+   "control",
+   "momentum",
+   "finishing"
+  ],
+  "cites": [
+   "e1950"
+  ]
+ }
+}

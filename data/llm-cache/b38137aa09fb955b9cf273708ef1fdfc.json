@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Rovers seal win at death",
+  "text": "At 90+5', Northgate Rovers clinch 1‑0, confirming their patient possession dominance (55% possession, 83% pass accuracy) while momentum sits at –63 and chaos peaks at 56, highlighting control over a chaotic finale.",
+  "tags": [
+   "control",
+   "momentum",
+   "chaos"
+  ],
+  "cites": [
+   "e1784"
+  ]
+ }
+}

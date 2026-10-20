@@ -1,0 +1,14 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Bruno Costa’s 45+3 Surge",
+  "text": "At 45+3, Bruno Costa’s 4.2 m and 9.5 m carries, a 32 m pass (difficulty 59) to Tariq Aziz, then a 29.1 m pass, culminating in a 0.931 xg goal, shifting momentum to 52.",
+  "cites": [
+   "e1008",
+   "e1009",
+   "e1010",
+   "e1011",
+   "e1013"
+  ]
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Aziz’s 69.6 km/h strike caps 19‑pass build‑up",
+  "text": "From a throw‑in (e0985) through a 51.8 m pass (e0986) to a 32 m pass (e1010), Aziz fires a 69.6 km/h goal (e1013, e1014) with 0.931 xG, lifting momentum to 52.",
+  "cites": [
+   "e0985",
+   "e0986",
+   "e1010",
+   "e1013",
+   "e1014"
+  ]
+ }
+}

@@ -1,0 +1,16 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Southmere’s chaotic swing",
+  "text": "At 13 minutes the -27 momentum and 52 chaos show Southmere losing control; intercepted pass (e0199) and pressured carry (e0219) highlight disrupted wing play amid 36% possession.",
+  "tags": [
+   "chaos",
+   "control",
+   "momentum"
+  ],
+  "cites": [
+   "e0199",
+   "e0219"
+  ]
+ }
+}

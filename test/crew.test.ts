@@ -205,3 +205,25 @@ test('decimals must match the evidence at the precision written', async () => {
   assert.ok(!ok('xG 0.45.'), 'an invented small decimal no longer rounds to 0 and passes');
   assert.ok(!ok('Minute 40.'));
 });
+
+test('numbers with units must match a value of that kind; any league player counts as a name', async () => {
+  const { verify, unitNumberProblems } = await import('../src/agents/evidence.ts');
+  const { MatchState } = await import('../src/stats/matchState.ts');
+  const state = new MatchState(simulateMatch({ seed: 7 }).meta);
+  const pack = {
+    moment: { id: 'm1', type: 'goal', data: { xg: 0.188, shotSpeedKmh: 96.1 } },
+    events: [{ id: 'e0001', distance: 12.3, speedKmh: 33.5 }],
+    match: { momentum: 52, stats: { A: { possessionPct: 61, xg: 1.2 } } },
+  } as unknown as EvidencePack;
+  const ok = (text: string) => verify({ text, cites: ['e0001'] }, pack, state).ok;
+  assert.ok(ok('A 96.1 km/h shot after a 12.3 m pass, xG 0.188 (19%), 61% possession.'));
+  assert.ok(!ok('A 12.3 km/h shot.'), 'a distance written as a speed');
+  assert.ok(!ok('A 33.5 m pass.'), 'a speed written as a distance');
+  assert.ok(!ok('Momentum to 52%.'), 'momentum is an index, not a percentage');
+  assert.ok(!ok('Worth 1.2 xG, then 0.188 xG.') === false, 'xG values from stats and the moment both count');
+  assert.deepEqual(unitNumberProblems('passes covering 125 m', pack), ['distance 125 does not match any distance in the evidence']);
+  assert.deepEqual(unitNumberProblems('a metric block', { followedMetric: { unit: 'km/h top', A: 32.9 } }), []);
+  assert.deepEqual(unitNumberProblems('top speed 32.9 km/h', { followedMetric: { unit: 'km/h top', A: 32.9 } }), []);
+  // A player from another club in the league is still a player not in the evidence.
+  assert.ok(!ok('Kwame Mensah was everywhere.'), 'Kwame Mensah plays for Southmere, not in this match');
+});

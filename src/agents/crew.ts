@@ -14,6 +14,8 @@
 //   Recap      (model)  writes the full-time story for each audience
 //   Translator (Azure)  localises any line that fell back to an English template,
 //                       so every audience gets its own language either way
+//   Safety     (Azure)  screens every model-written line with Azure AI Content
+//                       Safety before it airs; flagged lines become templates
 //
 // With no model configured, every model step falls back to templates, so the
 // app still works offline and in tests.
@@ -26,6 +28,7 @@ import type { Line } from './templates.ts';
 import type { Audience, ChatRequest, FeedItem, JsonModel, LineSource, MatchEvent, MatchMeta, Moment, MomentType, OverlaySpec, Persona, TextTranslator, TraceEntry, TraceStatus } from '../types.ts';
 import { languageCode } from '../ai/translator.ts';
 import { CacheMissError } from '../ai/cache.ts';
+import type { ContentScreen } from '../ai/safety.ts';
 import { METRICS, readMetric } from '../stats/metrics.ts';
 
 // A line plus where it came from.
@@ -60,6 +63,7 @@ export interface CrewOptions {
   meta: MatchMeta;
   llm?: JsonModel | null;
   translator?: TextTranslator | null;
+  safety?: ContentScreen | null;
   audiences?: Audience[];
   minGapSeconds?: number;
   onLog?: ((entry: TraceEntry) => void) | null;
@@ -69,6 +73,7 @@ export class Crew {
   state: MatchState;
   llm: JsonModel | null;
   translator: TextTranslator | null;
+  safety: ContentScreen | null;
   onLog: ((entry: TraceEntry) => void) | null;
   audiences: Audience[];
   minGapSeconds: number;
@@ -78,10 +83,11 @@ export class Crew {
   covered: EvidencePack[];
   lastFeatureT: number;
 
-  constructor({ meta, llm = null, translator = null, audiences = DEFAULT_AUDIENCES, minGapSeconds = 90, onLog = null }: CrewOptions) {
+  constructor({ meta, llm = null, translator = null, safety = null, audiences = DEFAULT_AUDIENCES, minGapSeconds = 90, onLog = null }: CrewOptions) {
     this.state = new MatchState(meta);
     this.llm = llm;
     this.translator = translator;
+    this.safety = safety;
     this.onLog = onLog;
     this.audiences = audiences;
     this.minGapSeconds = minGapSeconds;
@@ -143,7 +149,8 @@ export class Crew {
     const insight = await this.tactician(pack);
     const items: FeedItem[] = [];
     for (const audience of this.audiences) {
-      const line = await this.narrator(pack, insight, audience);
+      const written = await this.narrator(pack, insight, audience);
+      const line = await this.screen(written, pack, () => this.localize({ ...templateInsight(pack), source: 'template' }, audience, pack));
       items.push(this.producer(moment, pack, insight, line, audience));
     }
     return items;
@@ -246,7 +253,8 @@ export class Crew {
       ].filter(Boolean).join('\n');
       const pack: EvidencePack = followed ? { ...recapPack, followedMetric: followed } : recapPack;
       const raw = await this.callVerified(`Recap/${audience.id}`, pack, { system, user: { evidence: pack }, maxTokens: 700 }, () => templateRecap(packs, match));
-      const out = await this.localize(raw, audience, pack);
+      const localized = await this.localize(raw, audience, pack);
+      const out = await this.screen(localized, pack, () => this.localize({ ...templateRecap(packs, match), source: 'template' }, audience, pack));
       items.push({
         id: `recap-${audience.id}`,
         momentId: 'recap',
@@ -272,6 +280,26 @@ export class Crew {
     if (m.leaders) out.leaders = m.leaders.map(({ name, value }) => ({ name, value }));
     if (m.chaos !== undefined) out.chaos = m.chaos;
     return out;
+  }
+
+  // Safety: screen anything a model wrote (templates are built from match data
+  // alone). A flagged line is replaced by the template; if the service cannot
+  // be reached the line airs, because it already passed the fact check.
+  async screen(line: SourcedLine, pack: EvidencePack, fallback: () => Promise<SourcedLine>): Promise<SourcedLine> {
+    if (!this.safety || !['model', 'insight', 'insight+translator'].includes(line.source)) return line;
+    const started = Date.now();
+    try {
+      const verdict = await this.safety.screen(`${line.headline}. ${line.text}`);
+      if (verdict.ok) {
+        this.log('Safety', pack.moment.id, 'ok', 'passed Azure AI Content Safety', Date.now() - started);
+        return line;
+      }
+      this.log('Safety', pack.moment.id, 'rejected', `flagged: ${verdict.flagged.join(', ')}`, Date.now() - started);
+      return fallback();
+    } catch (err) {
+      this.log('Safety', pack.moment.id, 'error', errorMessage(err), Date.now() - started);
+      return line;
+    }
   }
 
   // Translator: a template line is English. Localise it for audiences that asked

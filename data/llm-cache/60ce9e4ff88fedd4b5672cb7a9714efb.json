@@ -1,0 +1,14 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Harbour City Momentum Collapse",
+  "text": "A high‑pressure pass by Yusuf Demir at 11:42 (e0258) triggered a 25‑point momentum swing, leaving Harbour City in chaos (58) and forcing a defensive reset.",
+  "tags": [
+   "momentum",
+   "chaos"
+  ],
+  "cites": [
+   "e0258"
+  ]
+ }
+}

@@ -1,0 +1,20 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Chaos Reigns Amid Momentum Swing",
+  "text": "Harbour City’s frantic passing sequence, culminating in an interception at 31:31, fuels the 64‑point chaos surge and a -27 momentum swing, leaving the game in disarray at 32 minutes.",
+  "tags": [
+   "momentum",
+   "chaos",
+   "pressing"
+  ],
+  "cites": [
+   "e0660",
+   "e0662",
+   "e0669",
+   "e0671",
+   "e0672",
+   "e0679"
+  ]
+ }
+}

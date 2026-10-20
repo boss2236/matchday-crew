@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Harbour City’s Momentum Shuts Down",
+  "text": "At 39:12, Harbour City’s drive stalls—25‑point swing, 62‑chaos, and a 0.113 xG shot saved by the keeper. The crowd holds its breath as the play fizzles out.",
+  "cites": [
+   "e0838",
+   "e0839",
+   "e0840",
+   "e0841",
+   "e0842",
+   "e0843"
+  ]
+ }
+}

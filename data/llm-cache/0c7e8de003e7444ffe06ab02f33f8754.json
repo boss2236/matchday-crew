@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Momentum swing fuels Southmere surge",
+  "text": "Southmere’s 27‑point momentum rise at 56:07, amid 48 chaos, follows a risky pass from Volkov to Martin that left Harbour City unsettled. The shift highlights control over a chaotic 50‑50 possession split.",
+  "tags": [
+   "momentum",
+   "control",
+   "chaos"
+  ],
+  "cites": [
+   "e1234"
+  ]
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour City’s swift build‑up fuels goal",
+  "text": "Okafor’s 13.9 m carry, then passes of 15.1 m, 23.2 m and 29.2 m, set up Marchetti’s 15.2 m shot (xG 0.024) as momentum rose to 26.",
+  "cites": [
+   "e0993",
+   "e0994",
+   "e0995",
+   "e0996",
+   "e0998"
+  ]
+ }
+}

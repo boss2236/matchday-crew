@@ -1,0 +1,11 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Northgate’s surge pays off",
+  "text": "At 24 minutes Northgate’s momentum hit 38 as Emre Kaya’s long pass set up Oscar Blum’s blistering 101.4 km/h strike for the lead.",
+  "cites": [
+   "e0426",
+   "e0427"
+  ]
+ }
+}

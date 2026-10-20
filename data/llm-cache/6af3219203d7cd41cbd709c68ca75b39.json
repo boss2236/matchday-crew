@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Aziz’s 74 km/h strike stuns",
+  "text": "Southmere’s 74.1 km/h shot from 2 metres, saved, highlights the team’s possession dominance (67%) and high pressure, keeping momentum 77% despite Harbour’s high press.",
+  "tags": [
+   "pressing",
+   "control",
+   "momentum"
+  ],
+  "cites": [
+   "e0077"
+  ]
+ }
+}

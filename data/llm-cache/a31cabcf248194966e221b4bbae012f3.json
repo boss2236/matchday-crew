@@ -1,0 +1,11 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Southmere’s 7‑minute surge",
+  "text": "61% possession, 5 final‑third entries, 55‑meter pass from Tariq Aziz swings momentum to 40 while chaos climbs to 66.",
+  "cites": [
+   "e0138",
+   "e0144"
+  ]
+ }
+}

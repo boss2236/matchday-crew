@@ -1,10 +1,14 @@
 import { Text } from '@fluentui/react-components';
 import { OverlayLayer, useOverlays } from './Overlays.tsx';
 import type { FeedItem, LiveEvent, LiveMeta } from '../../../src/types.ts';
+import type { PlayerSpot } from '../useLiveMatch.ts';
 
 interface Props {
   meta: LiveMeta | null;
   trail: LiveEvent[];
+  players: Record<string, PlayerSpot>;
+  onBall: string | null;
+  focus: string | null;
   items: FeedItem[];
   events: Map<string, LiveEvent>;
   idle: boolean;
@@ -12,9 +16,28 @@ interface Props {
 
 // The animated pitch: ball, recent passes and shots, and the events the current
 // overlay cites. Used by the main app and by the broadcast view.
-export function PitchSvg({ meta, trail, events, highlight }: { meta: LiveMeta | null; trail: LiveEvent[]; events: Map<string, LiveEvent>; highlight: FeedItem | null }) {
+interface PitchSvgProps {
+  meta: LiveMeta | null;
+  trail: LiveEvent[];
+  events: Map<string, LiveEvent>;
+  highlight: FeedItem | null;
+  players?: Record<string, PlayerSpot>;
+  onBall?: string | null;
+  focus?: string | null;
+}
+
+// Players fade once they have not touched the ball for a while (match seconds).
+const FADE_AFTER = 240;
+
+export function PitchSvg({ meta, trail, events, highlight, players = {}, onBall = null, focus = null }: PitchSvgProps) {
+  const shirts = new Map([...(meta?.home.players ?? []), ...(meta?.away.players ?? [])].map((p) => [p.id, p.shirt]));
+  const now = trail[trail.length - 1]?.t ?? 0;
+  const spots = Object.values(players).filter((p) => now - p.t < FADE_AFTER * 2);
+  const label = (onBall && players[onBall]) || null;
   const side = (team: string | null) => (team === meta?.home.id ? 'home' : 'away');
   const last = trail[trail.length - 1];
+  // The ball sits with whoever has it; before anyone does, at the end of the last play.
+  const ball = label ? { x: label.x + 1.4, y: label.y + 1.4 } : last ? { x: last.endX ?? last.x ?? 52.5, y: last.endY ?? last.y ?? 34 } : { x: 52.5, y: 34 };
   const cited = highlight ? highlight.cites.map((id) => events.get(id)).filter((e): e is LiveEvent => Boolean(e)) : [];
   const ring = highlight?.overlay.type === 'pressing_heatmap';
   const lines = highlight && (highlight.overlay.type === 'pass_trail' || highlight.overlay.type === 'goal_card');
@@ -58,21 +81,43 @@ export function PitchSvg({ meta, trail, events, highlight }: { meta: LiveMeta | 
               ) : ev.endX !== undefined ? (
                 <line x1={ev.x} y1={ev.y} x2={ev.endX} y2={ev.endY} className={`trail-line ${side(ev.team)}`} />
               ) : null}
-              <circle cx={ev.x} cy={ev.y} r={0.55} className="trail-dot" />
+              <circle cx={ev.x} cy={ev.y} r={0.4} className="trail-dot" />
             </g>
           );
         })}
       </g>
-      <circle className="ball" r={1.1} cx={last ? (last.endX ?? last.x) : 52.5} cy={last ? (last.endY ?? last.y) : 34} />
+      <g className="players">
+        {spots.map((p) => {
+          const age = now - p.t;
+          return (
+            // Dot and number move together, so they never drift apart mid-animation.
+            <g
+              key={p.id}
+              className={`player ${side(p.team)}${p.id === onBall ? ' on-ball' : ''}${p.id === focus ? ' focus' : ''}`}
+              opacity={Math.max(0.25, 1 - age / FADE_AFTER)}
+              style={{ transform: `translate(${p.x}px, ${p.y}px)` }}
+            >
+              <circle r={1.9} />
+              <text y={0.75}>{shirts.get(p.id) ?? ''}</text>
+            </g>
+          );
+        })}
+        {label && (
+          <text className="player-label" style={{ transform: `translate(${label.x}px, ${label.y - 3}px)` }}>
+            {shirts.get(label.id) ?? ''} {label.name}
+          </text>
+        )}
+      </g>
+      <circle className="ball" r={1.35} style={{ transform: `translate(${ball.x}px, ${ball.y}px)` }} />
     </svg>
   );
 }
 
-export default function Pitch({ meta, trail, items, events, idle }: Props) {
+export default function Pitch({ meta, trail, items, events, idle, players, onBall, focus }: Props) {
   const { active, highlight } = useOverlays(items);
   return (
     <div className="pitch-wrap" data-tour="pitch">
-      <PitchSvg meta={meta} trail={trail} events={events} highlight={highlight} />
+      <PitchSvg meta={meta} trail={trail} events={events} highlight={highlight} players={players} onBall={onBall} focus={focus} />
 
       <OverlayLayer active={active} />
 

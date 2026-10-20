@@ -1,0 +1,19 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour City’s rapid build‑up spikes momentum",
+  "text": "A swift 13.9 m carry followed by three high‑speed passes (15.1 m, 23.2 m, 29.2 m) culminated in Marchetti’s 15.2 m shot, turning a low‑momentum, high‑chaos phase into a goal.",
+  "tags": [
+   "momentum",
+   "control",
+   "chance"
+  ],
+  "cites": [
+   "e0993",
+   "e0994",
+   "e0995",
+   "e0996",
+   "e0998"
+  ]
+ }
+}

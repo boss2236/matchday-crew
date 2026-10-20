@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Control de Ironvale se desvanece",
+  "text": "De 05:45 a 06:02, pases de 21 m a 22.2 m con dificultad 39‑87‑31‑16‑33‑35, progreso negativo hasta -10.5, momentum -52 y caos 57 indican colapso táctico.",
+  "cites": [
+   "e0138",
+   "e0139",
+   "e0140",
+   "e0141",
+   "e0142",
+   "e0143"
+  ]
+ }
+}

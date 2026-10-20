@@ -1,0 +1,17 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Rovers strike from patient build‑up",
+  "text": "After a throw‑in, the Rovers kept the ball, passed and carried forward, then Oscar blasted a 101.4 km/h shot to give them the lead.",
+  "cites": [
+   "e0420",
+   "e0421",
+   "e0422",
+   "e0423",
+   "e0424",
+   "e0425",
+   "e0426",
+   "e0427"
+  ]
+ }
+}

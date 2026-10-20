@@ -1,0 +1,11 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Southmere’s 7‑minute surge",
+  "text": "Alfie Grant’s quick pass to Liam Doyle sparked a chain, and Tariq Aziz’s 55‑meter bomb to Dmitri Volkov swung the game for Southmere. It’s a real feel‑good moment!",
+  "cites": [
+   "e0138",
+   "e0144"
+  ]
+ }
+}

@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Southmere's Late Push Falters",
+  "text": "At 90+1', momentum -33, chaos 55, Ortega’s 14.7 m carry and 12.3 m pass (diff 50) followed by Costa’s 15.8 m, 20.3 m passes (diff 33/32) and two carries (13.9 m, 1.1 m) show United’s attempt despite xG 0.38.",
+  "cites": [
+   "e1690",
+   "e1692",
+   "e1693",
+   "e1694",
+   "e1695",
+   "e1697"
+  ]
+ }
+}

@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Doyle’s 3‑point press shifts momentum",
+  "text": "Liam Doyle’s 3‑point pressing spell at 68:31 yields 30 interceptions, 18 tackles, tightening control in a high‑chaos 75 game, boosting Southmere’s 1.81 xG advantage.",
+  "cites": [
+   "e1445"
+  ]
+ }
+}

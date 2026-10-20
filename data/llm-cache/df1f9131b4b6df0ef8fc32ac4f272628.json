@@ -1,0 +1,19 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Southmere’s Chaos‑Driven Momentum Surge",
+  "text": "At 27:48 the 26‑point swing shows Southmere’s chaotic passing and high‑speed carries, turning a balanced 53/47 possession into a 56‑chaos surge that threatens Harbour’s structure.",
+  "tags": [
+   "momentum",
+   "chaos"
+  ],
+  "cites": [
+   "e0572",
+   "e0573",
+   "e0574",
+   "e0582",
+   "e0583",
+   "e0584"
+  ]
+ }
+}

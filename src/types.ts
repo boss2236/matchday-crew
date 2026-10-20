@@ -335,6 +335,7 @@ export interface AppConfig {
   model: string | null;
   translator: boolean;
   speech: boolean;
+  safety: boolean;
   build: string;
   synthetic: true;
 }

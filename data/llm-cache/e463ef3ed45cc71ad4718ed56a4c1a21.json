@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Ortega’s Pressing Shifts Momentum",
+  "text": "Ortega’s three regains in 120 s (e0887, e0897, e0907) cut Northgate’s momentum to -42, boost Southmere PPDA to 8.6 and chaos to 61.",
+  "cites": [
+   "e0887",
+   "e0897",
+   "e0907"
+  ]
+ }
+}

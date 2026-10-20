@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Ironvale’s control crumbles",
+  "text": "From e0138 to e0143 Ironvale’s passes lose forward progress (‑3.7, 51.4, ‑10.5, ‑1.9, 4.6, 20.5), difficulty stays low, and momentum slides to ‑52 with chaos 57.",
+  "cites": [
+   "e0138",
+   "e0139",
+   "e0140",
+   "e0141",
+   "e0142",
+   "e0143"
+  ]
+ }
+}

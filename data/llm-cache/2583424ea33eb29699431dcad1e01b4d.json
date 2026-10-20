@@ -1,0 +1,14 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Northgate’s Momentum Plummets",
+  "text": "Rapid 18.8‑30.1m passes (diff 18‑51) and an intercepted 36.6m ball drove momentum to –78, chaos 48, forcing a shift from possession to frantic pressing.",
+  "cites": [
+   "e0539",
+   "e0546",
+   "e0548",
+   "e0551",
+   "e0560"
+  ]
+ }
+}

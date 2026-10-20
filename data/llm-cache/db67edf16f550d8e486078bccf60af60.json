@@ -1,0 +1,14 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Marchetti sparks 90+3' chaos",
+  "text": "At 90+3', Leo Marchetti starts a rapid pass chain, turning the game’s momentum and leaving Harbour City scrambling to finish. It’s a wild finish for Southmere United fans.",
+  "cites": [
+   "e1926",
+   "e1927",
+   "e1928",
+   "e1929",
+   "e1930"
+  ]
+ }
+}

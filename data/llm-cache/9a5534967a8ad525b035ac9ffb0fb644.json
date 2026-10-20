@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Southmere finish it off",
+  "text": "Southmere’s wings kept the ball moving, 10 shots and 7 on target, and they finished 3-0, leaving Harbour City with only 0.62 xG. What a night!",
+  "cites": [
+   "e1950"
+  ]
+ }
+}

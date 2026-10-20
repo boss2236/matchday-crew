@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Southmere’s Pressing Turns the Tide",
+  "text": "Rafa Ortega snatched the ball three times in under two minutes, stopping Northgate’s flow and giving Southmere the edge.",
+  "cites": [
+   "e0887",
+   "e0897",
+   "e0907"
+  ]
+ }
+}

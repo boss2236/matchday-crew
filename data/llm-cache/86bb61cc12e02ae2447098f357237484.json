@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Rovers lose grip at 81",
+  "text": "At 81 minutes the game got messy – momentum fell to 25, chaos rose to 63, and three quick passes under pressure (by Kai and Malik) showed the shift.",
+  "cites": [
+   "e1531",
+   "e1534",
+   "e1536"
+  ]
+ }
+}

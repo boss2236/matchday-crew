@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Martin’s 3‑interception clutch",
+  "text": "Joel Martin snatches three balls in 120 seconds, stopping a late surge and keeping Southmere United 3‑0 up. Pure drama in the final minute!",
+  "cites": [
+   "e1858",
+   "e1889",
+   "e1897"
+  ]
+ }
+}

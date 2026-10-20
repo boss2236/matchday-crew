@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Southmere’s shot swings momentum",
+  "text": "Bruno Costa’s 70:04 effort, saved, flips the tide back to Southmere United, giving them a 35‑point lift amid the chaos.",
+  "cites": [
+   "e1484"
+  ]
+ }
+}

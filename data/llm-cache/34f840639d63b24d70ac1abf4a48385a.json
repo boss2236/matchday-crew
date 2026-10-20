@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Half‑time seals Rovers’ tactical edge",
+  "text": "At 45+2' the score 1‑0 reflects Northgate Rovers’ patient possession, with momentum –46 and chaos 46 showing their control versus Southmere’s disruptive wing play, setting the tone for the second half.",
+  "tags": [
+   "control",
+   "momentum",
+   "chaos"
+  ],
+  "cites": [
+   "e0860"
+  ]
+ }
+}

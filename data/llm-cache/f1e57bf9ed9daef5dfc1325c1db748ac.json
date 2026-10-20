@@ -1,0 +1,14 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Tariq’s 59th‑minute goal dominates",
+  "text": "Southmere’s 58:35 possession win, a 36‑meter pass, then a 34‑meter finish seals a 2‑0 lead. Pure control, no chaos now.",
+  "cites": [
+   "e1282",
+   "e1283",
+   "e1285",
+   "e1286",
+   "e1287"
+  ]
+ }
+}

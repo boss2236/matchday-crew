@@ -1,0 +1,20 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Harbour City’s Momentum Collapse",
+  "text": "At 80:25 Harbour City’s 30‑point swing and 53 chaos score after a rapid 5‑pass sequence culminated in a saved shot, underscoring the shift from control to chaos and a momentum loss of 30.",
+  "tags": [
+   "momentum",
+   "chaos",
+   "control"
+  ],
+  "cites": [
+   "e1710",
+   "e1711",
+   "e1712",
+   "e1713",
+   "e1714",
+   "e1715"
+  ]
+ }
+}

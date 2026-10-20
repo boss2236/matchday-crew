@@ -152,6 +152,9 @@ export default function App({ theme, onToggleTheme }: { theme: ThemeName; onTogg
             key={`${live.runId}-${persona}`}
             meta={live.meta}
             trail={live.trail}
+            players={live.players}
+            onBall={live.onBall}
+            focus={settings?.player || null}
             items={visible}
             events={live.events}
             idle={live.status === 'idle'}
@@ -179,7 +182,8 @@ export default function App({ theme, onToggleTheme }: { theme: ThemeName; onTogg
 
       <footer className="foot">
         <Text size={200}>
-          Model: {config?.model ?? 'none (templates)'} · Translator: {config?.translator ? 'Azure AI Translator' : 'off'}
+          Model: {config?.model ?? 'none (templates)'} · Translator: {config?.translator ? 'Azure AI Translator' : 'off'} · Voice:{' '}
+          {config?.speech ? 'Azure AI Speech' : 'browser'} · Safety: {config?.safety ? 'Azure AI Content Safety' : 'off'}
         </Text>
         <Text size={200}>All clubs, players and matches are synthetic. Not affiliated with any real league.</Text>
       </footer>

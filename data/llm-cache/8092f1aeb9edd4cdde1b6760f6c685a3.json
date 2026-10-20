@@ -1,0 +1,19 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Tariq's 59th‑minute strike seals control",
+  "text": "Southmere’s possession change at 58:35, followed by a 36‑meter pass and a 34‑meter finish, shifts momentum, reducing chaos and extending their 2‑0 lead.",
+  "tags": [
+   "control",
+   "momentum",
+   "passing"
+  ],
+  "cites": [
+   "e1282",
+   "e1283",
+   "e1285",
+   "e1286",
+   "e1287"
+  ]
+ }
+}

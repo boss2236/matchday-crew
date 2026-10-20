@@ -1,0 +1,17 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Southmere’s 3‑Regain Press",
+  "text": "Joel Martin’s pressing spell, beginning at 86:38, reclaimed possession thrice in 120 seconds, tightening control as the game neared its end and stifling Harbour City’s high‑press approach.",
+  "tags": [
+   "pressing",
+   "control",
+   "momentum"
+  ],
+  "cites": [
+   "e1818",
+   "e1838",
+   "e1847"
+  ]
+ }
+}

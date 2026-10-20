@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Blum's high‑xG chance under pressure",
+  "text": "At 64:16, Oscar Blum unleashed a 5‑metre, 91.4 km/h shot (xG 0.284) while pressured, a key chance as Northgate’s momentum sits at 40 amid a chaos level of 59.",
+  "tags": [
+   "chance",
+   "pressing",
+   "momentum"
+  ],
+  "cites": [
+   "e1205"
+  ]
+ }
+}

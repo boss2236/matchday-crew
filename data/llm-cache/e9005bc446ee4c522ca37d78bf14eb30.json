@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Momentum Surge Sparks Tactical Chaos",
+  "text": "Southmere United’s 25‑point swing at 20:18 flips from controlled wing passes to frantic 18.8‑, 33.2‑, 16.8‑m strikes, 0.69 xG, PPDA 8.2, 46 chaos.",
+  "cites": [
+   "e0408",
+   "e0409",
+   "e0411"
+  ]
+ }
+}

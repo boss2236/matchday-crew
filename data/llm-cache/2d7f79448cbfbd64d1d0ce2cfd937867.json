@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Southmere’s momentum collapses after pressured pass",
+  "text": "At 38:29 momentum hit –29, chaos 33 as Alfie Grant’s pressured 41‑metre pass (difficulty 84) followed rapid low‑progress 38.3 m and 34.5 m passes, indicating loss of control.",
+  "cites": [
+   "e0699",
+   "e0702",
+   "e0713"
+  ]
+ }
+}

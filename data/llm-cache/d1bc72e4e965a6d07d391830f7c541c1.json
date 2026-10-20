@@ -1,0 +1,18 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Momentum Shift Sparks Chaos",
+  "text": "Southmere United’s 25‑point momentum swing at 20:18, amid 46 chaos, turns play from controlled wing passes to frantic attempts, as Tariq Aziz, Joel Martin and Rafa Ortega trade long, high‑speed passes (e0408‑e0411).",
+  "tags": [
+   "momentum",
+   "chaos",
+   "control"
+  ],
+  "cites": [
+   "e0408",
+   "e0409",
+   "e0410",
+   "e0411"
+  ]
+ }
+}

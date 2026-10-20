@@ -1,0 +1,11 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Southmere’s Chaos Surge Ignites",
+  "text": "At 27:48 Southmere’s 26‑point swing, thanks to Tariq’s 50‑km/h pass and Bruno’s 30‑km/h carry, sends the game into a 56‑chaos frenzy, rattling Harbour’s structure.",
+  "cites": [
+   "e0572",
+   "e0573"
+  ]
+ }
+}

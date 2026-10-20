@@ -1,0 +1,11 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Northgate’s five‑pass surge",
+  "text": "Northgate’s five‑pass sequence (42.4m, 27.5m) lifted possession to 59% while chaos sat at 48, PPDA 8.3, xG 0.67.",
+  "cites": [
+   "e0545",
+   "e0556"
+  ]
+ }
+}

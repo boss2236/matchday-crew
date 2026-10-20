@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Harbour City’s Momentum Collapse",
+  "text": "At 75:08, Harbour City’s high‑press falters: 35‑point momentum drop, chaos spikes to 59. Passes from Dani Kowalski and Rui Barros (51.1 m, 19.7 m) yield only 0.57 xG, PPDA 7.3.",
+  "cites": [
+   "e1578",
+   "e1579",
+   "e1580",
+   "e1581",
+   "e1582",
+   "e1583"
+  ]
+ }
+}

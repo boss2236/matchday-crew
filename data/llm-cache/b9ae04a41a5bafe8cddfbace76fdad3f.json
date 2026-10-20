@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Southmere’s rhythm falters",
+  "text": "That 41‑metre pass under pressure showed Southmere losing their flow, with a string of hurried passes letting the pressure build up.",
+  "cites": [
+   "e0699",
+   "e0702",
+   "e0713"
+  ]
+ }
+}

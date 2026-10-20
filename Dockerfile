@@ -6,7 +6,8 @@ WORKDIR /build
 COPY web/package.json web/package-lock.json ./web/
 RUN npm --prefix web ci --no-audit --no-fund
 COPY web ./web
-COPY src/types.ts ./src/types.ts
+# The web build imports shared types and fingerprints the server code (src/version.ts).
+COPY src ./src
 RUN npm --prefix web run build
 
 FROM node:22-alpine

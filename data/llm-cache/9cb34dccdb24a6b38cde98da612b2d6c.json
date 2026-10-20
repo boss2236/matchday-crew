@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Tariq Aziz seals first half",
+  "text": "A 19‑pass build‑up ends with Tariq Aziz’s 0.931‑xG finish, giving Southmere United a 1‑0 lead at the whistle.",
+  "cites": [
+   "e1012",
+   "e1013",
+   "e1014"
+  ]
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour City’s rapid pass surge",
+  "text": "Passes of 39.1m (diff 68), 15.7m (diff 16), 18.7m (diff 39), 30.6m (diff 31) and 21.1m (diff 21) lifted momentum to 25, chaos to 45 at minute 80.",
+  "cites": [
+   "e1527",
+   "e1528",
+   "e1530",
+   "e1531",
+   "e1532"
+  ]
+ }
+}
