@@ -182,8 +182,8 @@ export function extractNumbers(text: unknown): number[] {
 
 // Distances in the data are metres and speeds are km/h. A bare "km" (or the
 // Arabic "كم" without "/س") turns a 8.7 m carry into 8.7 km, so it is rejected.
-// Reads the same numeral styles as extractNumbers.
-const KM_NOT_SPEED = /(\d+(?:\.\d+)?)\s*(?:km|kilomet(?:re|er)s?|كم|كيلومترات?|كيلومتر)(?!\s*(?:\/|per\b|an hour|ph\b|\/h|\/س|في الساعة))/gi;
+// Reads the same numeral styles as extractNumbers, and hyphenated forms ("a 10.3-km run").
+const KM_NOT_SPEED = /(\d+(?:\.\d+)?)[\s\-‐‑]*(?:km|kilomet(?:re|er)s?|كم|كيلومترات?|كيلومتر)(?!\s*(?:\/|per\b|an hour|ph\b|\/h|\/س|في الساعة))/gi;
 
 export function unitProblems(text: unknown): string[] {
   const problems: string[] = [];
