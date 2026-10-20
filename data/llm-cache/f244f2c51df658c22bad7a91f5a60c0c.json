@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Ironvale's Surge Starts",
+  "text": "Callum's 41.8‑yd pass sparks a flurry, then a pick‑off, and Hiro’s quick 8.5‑yd burst puts home fans on edge.",
+  "cites": [
+   "e0979",
+   "e0980",
+   "e0991"
+  ]
+ }
+}

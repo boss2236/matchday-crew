@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Ironvale’s 26‑point surge",
+  "text": "Nico’s quick carry to Callum, then Callum to Marco, Marco to Callum, Callum to Luca, Luca’s pass to Hiro—chaos spikes to 45, control in the zone.",
+  "cites": [
+   "e0322",
+   "e0323",
+   "e0324",
+   "e0325",
+   "e0326",
+   "e0327"
+  ]
+ }
+}

@@ -1,0 +1,20 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Ironvale’s chaotic buildup stalls momentum",
+  "text": "A rapid Ironvale passing sequence (e0138‑e0143) generated high chaos (57) while momentum slid to –52, showing control slipping despite possession, limiting threat before the 7th minute swing.",
+  "tags": [
+   "pressing",
+   "chaos",
+   "momentum"
+  ],
+  "cites": [
+   "e0138",
+   "e0139",
+   "e0140",
+   "e0141",
+   "e0142",
+   "e0143"
+  ]
+ }
+}

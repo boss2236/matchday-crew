@@ -1,0 +1,11 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Ironvale's Passes Turn Chaos",
+  "text": "A wild 44.5m intercepted pass and a pressured 41.2m ball gave Ironvale a big momentum drop, spilling the ball at 54‑55 minutes.",
+  "cites": [
+   "e1059",
+   "e1067"
+  ]
+ }
+}

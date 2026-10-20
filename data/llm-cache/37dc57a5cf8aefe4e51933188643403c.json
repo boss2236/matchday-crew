@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Half‑time blues for Harbour City",
+  "text": "Harbour City are down 0‑1 at the break, needing to calm the chaos and regain control against Ironvale’s deep block.",
+  "cites": [
+   "e0897"
+  ]
+ }
+}

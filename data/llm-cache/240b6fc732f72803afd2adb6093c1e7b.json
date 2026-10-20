@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Ironvale’s 3‑Goal Surge",
+  "text": "Hiro Tanaka’s 120‑second pressing grab, starting with 3 quick recoveries, flips Northgate’s 1‑0 edge into chaos, tightening control for Ironvale.",
+  "cites": [
+   "e1341",
+   "e1356",
+   "e1363"
+  ]
+ }
+}

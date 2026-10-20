@@ -1,0 +1,13 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour City’s wild surge",
+  "text": "A quick string of passes lit up the game, then an intercepted ball caused a scramble before Dani steadied things with a calm pass.",
+  "cites": [
+   "e1448",
+   "e1451",
+   "e1453",
+   "e1465"
+  ]
+ }
+}

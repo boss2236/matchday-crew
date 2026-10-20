@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Harbour City pierde presión",
+  "text": "A los 58 minutos la presión de Harbour City se desmoronó, con 35 de impulso y 55 de caos, mientras varios pases (e1111, e1118, e1128) fueron interceptados.",
+  "cites": [
+   "e1111",
+   "e1118",
+   "e1128"
+  ]
+ }
+}

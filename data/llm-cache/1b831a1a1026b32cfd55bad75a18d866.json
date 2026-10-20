@@ -1,0 +1,16 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Kowalski’s thunderous finish",
+  "text": "After a throw‑in, Jonah Pike’s run and quick passes set up Dani Kowalski’s blistering 71.6 km/h strike, sealing the lead.",
+  "cites": [
+   "e1545",
+   "e1546",
+   "e1547",
+   "e1548",
+   "e1549",
+   "e1550",
+   "e1551"
+  ]
+ }
+}

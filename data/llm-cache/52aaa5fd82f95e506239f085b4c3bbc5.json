@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Press de Harbour eleva momentum",
+  "text": "Secuencia de pases de 43.3m a 45.5m con dificultades 43‑64 eleva el momentum a 33; Mehta dispara desde 25.2m (xG 0.015) bajo presión nula.",
+  "cites": [
+   "e0348",
+   "e0349",
+   "e0350",
+   "e0351",
+   "e0352",
+   "e0353"
+  ]
+ }
+}

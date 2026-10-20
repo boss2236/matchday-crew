@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Ironvale toma el control",
+  "text": "Una cadena de cinco pases y un balón largo de Ivo Petrov elevó la posesión al 51% y el xG a 1.63, cambiando el impulso del partido.",
+  "cites": [
+   "e0772",
+   "e0773",
+   "e0774",
+   "e0775",
+   "e0776",
+   "e0782"
+  ]
+ }
+}

@@ -1,0 +1,20 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Ironvale's Control Crumbles",
+  "text": "A series of risky passes, including a 44.5m intercepted ball (e1059) and a pressured 41.2m pass (e1067), triggered a -53 momentum swing and 64 chaos, turning possession into chaos at 54‑55 minutes.",
+  "tags": [
+   "pressing",
+   "chaos",
+   "control"
+  ],
+  "cites": [
+   "e1055",
+   "e1056",
+   "e1057",
+   "e1059",
+   "e1067",
+   "e1068"
+  ]
+ }
+}

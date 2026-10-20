@@ -1,0 +1,11 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "¡Gol de velocidad en 62!",
+  "text": "Jonah Pike lanza un pase de 44.7 m y Dani Kowalski dispara a 97.9 km/h, sellando la ventaja con su gol en 61:43. ¡Qué jugada, amigos!",
+  "cites": [
+   "e1217",
+   "e1222"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Ironvale’s Late Surge",
+  "text": "Mbeki’s 22.6‑yard pass to Reid, then Reid’s 27.8‑yard to Tanaka and Tanaka’s 19.5‑yard to Romero, lifts Ironvale’s momentum to 25 while chaos climbs to 41.",
+  "cites": [
+   "e1558",
+   "e1570",
+   "e1571"
+  ]
+ }
+}

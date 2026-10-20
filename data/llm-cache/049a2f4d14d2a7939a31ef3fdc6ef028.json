@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Mbeki's 0.459 xG disparo cambia impulso",
+  "text": "El disparo de 4.4 m de Zeke Mbeki (xG 0.459) a los 33 min reduce el PPDA de Harbour a 8.5 y lleva la presión a –90.",
+  "cites": [
+   "e0651"
+  ]
+ }
+}

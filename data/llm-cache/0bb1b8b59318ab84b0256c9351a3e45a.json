@@ -1,0 +1,11 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Ironvale’s Counter‑Rush Dominates",
+  "text": "Nico’s 13.3‑km/h pass to Callum sparks a 29‑point swing, and Luca’s 46.2‑km/h burst into the final third turns chaos into control.",
+  "cites": [
+   "e1463",
+   "e1464"
+  ]
+ }
+}

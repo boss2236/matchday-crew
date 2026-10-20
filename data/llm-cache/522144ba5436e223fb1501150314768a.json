@@ -1,0 +1,21 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Late Goal Locks Victory",
+  "text": "Harbour City's final‑minute possession chain, starting with Dani Kowalski's interception (e1715) and a series of quick, unpressured passes (e1716‑e1718, e1722), culminated in a high‑speed finish (e1724) that sealed a 4‑1 win, cementing their control and momentum.",
+  "tags": [
+   "control",
+   "momentum",
+   "finishing"
+  ],
+  "cites": [
+   "e1715",
+   "e1716",
+   "e1717",
+   "e1718",
+   "e1722",
+   "e1724",
+   "e1725"
+  ]
+ }
+}

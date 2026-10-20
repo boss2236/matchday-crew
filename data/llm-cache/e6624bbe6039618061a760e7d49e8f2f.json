@@ -1,0 +1,14 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour City’s swift build‑up yields 81st‑minute goal",
+  "text": "From a throw‑in (e1545) three unpressured passes (e1547 d45, e1548 d29, e1550 d31) led to a 71.6 km/h shot (e1551) with xG 0.057, shifting momentum to 44.",
+  "cites": [
+   "e1545",
+   "e1547",
+   "e1548",
+   "e1550",
+   "e1551"
+  ]
+ }
+}

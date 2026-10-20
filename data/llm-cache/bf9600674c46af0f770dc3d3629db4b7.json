@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Mbeki dispara cerca del gol",
+  "text": "A los 33 minutos Zeke Mbeki lanzó un disparo de 4.4 m con xG 0.459 que el portero atajó, cambiando la energía del partido.",
+  "cites": [
+   "e0651"
+  ]
+ }
+}

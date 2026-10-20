@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour City’s quick strike!",
+  "text": "After a slick pass from Dani to Leo, he ran and smashed a fast shot into the net, putting Harbour City ahead just before the half‑time whistle.",
+  "cites": [
+   "e0996",
+   "e0997",
+   "e0998"
+  ]
+ }
+}

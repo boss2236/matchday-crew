@@ -1,0 +1,27 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour City’s controlled surge caps press",
+  "text": "After a high‑press interception, Harbour City executed 10 precise passes—including a 44.7 m link—maintaining possession under pressure before a 97.9 km/h finish sealed the lead.",
+  "tags": [
+   "control",
+   "momentum",
+   "chance"
+  ],
+  "cites": [
+   "e1201",
+   "e1205",
+   "e1206",
+   "e1207",
+   "e1208",
+   "e1209",
+   "e1211",
+   "e1215",
+   "e1216",
+   "e1217",
+   "e1220",
+   "e1221",
+   "e1222"
+  ]
+ }
+}

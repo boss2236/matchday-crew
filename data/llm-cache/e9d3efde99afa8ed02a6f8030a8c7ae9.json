@@ -1,0 +1,17 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Dani Kowalski domina con tres goles",
+  "text": "El partido empezó con un intento bloqueado de Zeke Mbeki, pero la presión de Harbour City dio su primera ventaja cuando Leo Marchetti anotó tras un pase de Dani Kowalski. La remontada de Ironvale fue breve, con un gol de Zeke tras un pase de Luca Romero, pero Harbour City volvió a tomar la delantera gracias a un disparo de Dani. El resto del tiempo fue una serie de goles de Dani, que cerró con un cuarto en los últimos minutos. La combinación de presión y velocidad de Harbour City hizo imposible que Ironvale mantuviera la ventaja.",
+  "cites": [
+   "e0041",
+   "e0998",
+   "e025",
+   "e0599",
+   "e0599",
+   "e1222",
+   "e1551",
+   "e1724"
+  ]
+ }
+}

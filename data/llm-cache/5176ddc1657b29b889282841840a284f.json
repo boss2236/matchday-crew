@@ -1,0 +1,11 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Presión de Harbour City falla",
+  "text": "A los 38’, momentum 27 y caos 46; pases de 65.1m (Demir) y 32.7m (Ruiz) con dificultad 83 y 55 fallan, PPDA 9.1 vs 11.8, xG 0.16‑1.63.",
+  "cites": [
+   "e0695",
+   "e0724"
+  ]
+ }
+}

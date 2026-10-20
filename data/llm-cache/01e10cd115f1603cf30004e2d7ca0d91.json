@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Ironvale Press Triggers Momentum Shift",
+  "text": "Three interceptions (e1263, e1276, e1297) in 120 s raised Ironvale’s xG to 1.68, lowered PPDA to 9.9 and lifted momentum to 16 despite chaos 53.",
+  "cites": [
+   "e1263",
+   "e1276",
+   "e1297"
+  ]
+ }
+}

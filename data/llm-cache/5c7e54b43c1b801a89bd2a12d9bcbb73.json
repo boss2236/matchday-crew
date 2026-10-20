@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Press Falters, Momentum Crashes",
+  "text": "Harbour City’s high‑press passes (e1110, e1126, e1127) showed moderate difficulty, yet three interceptions (e1111, e1118, e1128) cut progress, dropping momentum to 35.",
+  "cites": [
+   "e1110",
+   "e1111",
+   "e1118",
+   "e1126",
+   "e1127",
+   "e1128"
+  ]
+ }
+}

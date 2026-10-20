@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour City’s press crumbles",
+  "text": "Around the 58th minute their high‑press passes kept getting intercepted, letting Ironvale settle back and take control, so the momentum dropped sharply.",
+  "cites": [
+   "e1110",
+   "e1111",
+   "e1118",
+   "e1126",
+   "e1127",
+   "e1128"
+  ]
+ }
+}

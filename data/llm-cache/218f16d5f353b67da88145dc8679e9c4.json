@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Momentum‑Driven Counter Surge",
+  "text": "Ironvale’s 29‑point swing, powered by a 13.3‑km/h pass to Callum Reid (e1463) and a 46.2‑km/h drive by Luca Romero (e1464), culminated in a 62.6‑km/h finish to Marco Silvan (e1465).",
+  "cites": [
+   "e1463",
+   "e1464",
+   "e1465"
+  ]
+ }
+}

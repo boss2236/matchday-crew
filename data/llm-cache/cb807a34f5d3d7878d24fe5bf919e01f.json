@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Ironvale’s build‑up spikes xG",
+  "text": "A 5‑pass sequence (31.6 m, 22 m, 30.1 m, 47.3 m) plus Petrov’s 38.9 m long ball lifted possession to 51% and xG to 1.63, dropping momentum ‑27.",
+  "cites": [
+   "e0772",
+   "e0773",
+   "e0774",
+   "e0775",
+   "e0776",
+   "e0782"
+  ]
+ }
+}

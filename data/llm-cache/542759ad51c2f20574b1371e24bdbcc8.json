@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Reid impulsa presión de Ironvale",
+  "text": "Reid recupera balón 3 veces antes del minuto 11, eleva PPDA a 13 y xG de Ironvale a 0.89, mientras el momentum cae a -8 y el caos a 37.",
+  "cites": [
+   "e0201",
+   "e0220",
+   "e0243"
+  ]
+ }
+}

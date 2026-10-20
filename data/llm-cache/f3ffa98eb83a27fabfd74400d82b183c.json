@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Presión Alta Impulsa Momentum",
+  "text": "Con 3 recuperaciones en 120 s, Harbour City eleva su PPDA a 8.5 y su xG a 0.47, impulsando el momentum a 71.",
+  "cites": [
+   "e1562",
+   "e1579",
+   "e1587"
+  ]
+ }
+}

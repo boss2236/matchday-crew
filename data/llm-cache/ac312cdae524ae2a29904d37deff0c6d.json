@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "تحليل البيانات في الشوط الأول",
+  "text": "xG لـ Harbour City 0.27 مقابل 1.63 لـ Ironvale، PPDA 9.8 ضد 10.8، والزخم 24 يشير إلى ضرورة خفض الضغط وتعزيز الاستحواذ",
+  "cites": [
+   "e0897"
+  ]
+ }
+}

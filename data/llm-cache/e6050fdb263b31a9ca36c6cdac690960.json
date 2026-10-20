@@ -1,0 +1,14 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour City Takes Control",
+  "text": "A flurry of five quick passes, including a brave one under pressure, lifted Harbour City’s momentum to 28 and set them up for a chance on goal.",
+  "cites": [
+   "e1324",
+   "e1326",
+   "e1327",
+   "e1328",
+   "e1331"
+  ]
+ }
+}

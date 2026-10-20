@@ -1,0 +1,11 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Control se desmorona",
+  "text": "¡Ivo Petrov lanza a 44.5 metros y se le roba la pelota! Hiro Tanaka sigue con un pase de 41.2 bajo presión, y la posesión se vuelve caos. ¡Qué momento!",
+  "cites": [
+   "e1059",
+   "e1067"
+  ]
+ }
+}

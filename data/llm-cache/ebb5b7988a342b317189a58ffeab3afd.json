@@ -1,0 +1,13 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Contraataque de Ironvale: precisión y velocidad",
+  "text": "Tras un swing de momentum -25, Ironvale ejecutó pases de 49.5 m (dificultad 84) y 34.1 m (dificultad 49) culminando en disparo de 11.6 m con xG 0.071",
+  "cites": [
+   "e0575",
+   "e0576",
+   "e0577",
+   "e0578"
+  ]
+ }
+}

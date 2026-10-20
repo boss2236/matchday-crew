@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Ironvale’s Turnaround",
+  "text": "Three quick interceptions gave Ironvale the ball back, turning pressure into chances and lifting the game’s flow for the fans.",
+  "cites": [
+   "e1263",
+   "e1276",
+   "e1297"
+  ]
+ }
+}

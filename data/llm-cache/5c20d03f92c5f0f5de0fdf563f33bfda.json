@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Harbour City controla el impulso con pases",
+  "text": "Tras la interceptación e1201, Harbour City completó 10 pases, incluido el 44,7 m de e1217, manteniendo posesión y PPDA de 9 antes de la golazo a 97,9 km/h e1222.",
+  "cites": [
+   "e1201",
+   "e1217",
+   "e1222"
+  ]
+ }
+}

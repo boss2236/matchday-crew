@@ -1,0 +1,13 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "¡Qué arranque de Harbour City!",
+  "text": "A los 45+1', la pelota voló con Ruiz y Marchetti, pero el disparo de Kowalski se bloqueó, la emoción se volvió caos.",
+  "cites": [
+   "e0887",
+   "e0889",
+   "e0890",
+   "e0893"
+  ]
+ }
+}

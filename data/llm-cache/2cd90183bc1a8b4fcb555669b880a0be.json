@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Ironvale’s surge ignites the game",
+  "text": "A slick five‑pass run and Ivo’s long ball pushed Ironvale up to 51% possession, lifting their chances and turning the match on its head.",
+  "cites": [
+   "e0772",
+   "e0773",
+   "e0774",
+   "e0775",
+   "e0776",
+   "e0782"
+  ]
+ }
+}

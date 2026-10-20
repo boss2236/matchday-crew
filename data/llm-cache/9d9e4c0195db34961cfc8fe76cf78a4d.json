@@ -1,0 +1,13 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Harbour City press surge",
+  "text": "Con 3 pases rápidos (e1547,e1548,e1550) y un disparo de 71.6 km/h (e1551), xG 0.057, la presión de 8.7 PPDA (m093) impulsa el momentum a 44.",
+  "cites": [
+   "e1547",
+   "e1548",
+   "e1550",
+   "e1551"
+  ]
+ }
+}

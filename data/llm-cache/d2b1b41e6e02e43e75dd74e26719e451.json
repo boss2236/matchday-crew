@@ -1,0 +1,17 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Dani Kowalski domina el encuentro",
+  "text": "El partido empezó con un intento de Zeke Mbeki bloqueado a los 2 minutos, pero la presión de Harbour City dio el primer impulso. A los 30 minutos, Zeke anotó con una carrera de 96 km/h, pero la remontada de Dani fue instantánea: a los 49 minutos, Leo Marchetti puso el empate. El gol de Dani a los 62 minutos, con un disparo de 98 km/h, volvió a cambiar la balanza. Luego, en el tiempo extra, Dani marcó dos goles más, cerrando 4‑1. El resultado se debió a la constancia de Dani y la defensa de Ironvale que no pudo contener su velocidad.",
+  "cites": [
+   "e0041",
+   "e0599",
+   "e0600",
+   "e0998",
+   "e1222",
+   "e1223",
+   "e1724",
+   "e1725"
+  ]
+ }
+}

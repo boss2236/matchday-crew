@@ -1,15 +1,29 @@
 {
-  "name": "matchday-crew",
+  "name": "nutmeg-desk",
   "version": "0.1.0",
   "description": "Multi-agent AI match intelligence on synthetic football data (Inside the Game hackathon)",
   "type": "module",
   "license": "MIT",
   "scripts": {
-    "test": "node --test test/*.test.js",
-    "generate": "node scripts/generate.js",
-    "crew": "node scripts/run-crew.js"
+    "start": "node scripts/serve.ts",
+    "build": "npm --prefix web ci --no-audit --no-fund && npm --prefix web run build",
+    "build:web": "npm --prefix web run build",
+    "dev": "npm --prefix web run dev",
+    "test": "node --test test/*.test.ts",
+    "typecheck": "tsc -p . && tsc -p web",
+    "check": "npm run typecheck && npm test",
+    "generate": "node scripts/generate.ts",
+    "crew": "node scripts/run-crew.ts",
+    "mcp": "node scripts/mcp.ts",
+    "ui-check": "node scripts/ui-check.ts",
+    "prewarm": "node scripts/prewarm.ts",
+    "quality": "node scripts/quality.ts"
   },
   "engines": {
-    "node": ">=20"
+    "node": ">=22.18"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "typescript": "^7.0.2"
   }
 }

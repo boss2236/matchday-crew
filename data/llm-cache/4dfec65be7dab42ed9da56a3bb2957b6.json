@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Ironvale’s quick regain",
+  "text": "Three quick interceptions by Zeke Mbeki swing possession to Ironvale, lifting their momentum while Northgate stumbles. It’s a textbook deep‑block counter in action.",
+  "cites": [
+   "e0900",
+   "e0928",
+   "e0935"
+  ]
+ }
+}

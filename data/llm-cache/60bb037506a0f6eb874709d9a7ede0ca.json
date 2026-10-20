@@ -1,0 +1,13 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Ironvale’s 26‑minute strike",
+  "text": "Ivo Petrov’s 38‑m pass, 53‑difficulty, 61.5 kph, leads to Zeke Mbeki’s 79.8 kph goal, xG 0.829, shifting momentum to 13 and cutting chaos to 51.",
+  "cites": [
+   "e0480",
+   "e0481",
+   "e0484",
+   "e0485"
+  ]
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour City’s Press Sparks Momentum Shift",
+  "text": "After three successive possession gains—tackles by Dani Kowalski (e1562) and Arjun Mehta (e1579) and an interception by Yusuf Demir (e1587)—Harbour City’s high‑press reclaimed the ball three times in 120 seconds, boosting momentum to 71 and tightening control.",
+  "tags": [
+   "pressing",
+   "momentum",
+   "control"
+  ],
+  "cites": [
+   "e1562",
+   "e1579",
+   "e1587"
+  ]
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "¡Rápido avance de Harbour City!",
+  "text": "Mateo y Leo lanzan cinco pases rápidos, incluso bajo presión, cambiando el juego y empujando la ventaja a 28 mientras el caos sigue alto en 55.",
+  "cites": [
+   "e1324",
+   "e1326",
+   "e1327",
+   "e1328",
+   "e1331"
+  ]
+ }
+}

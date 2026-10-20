@@ -1,0 +1,17 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour City’s chaotic surge at 77’",
+  "text": "A rapid passing string (e1448‑e1451) raised Harbour City’s momentum but the intercepted pass (e1453) spiked chaos to 52, prompting a stabilising pass (e1465) that kept control amid the swing.",
+  "tags": [
+   "momentum",
+   "chaos",
+   "control"
+  ],
+  "cites": [
+   "e1448",
+   "e1453",
+   "e1465"
+  ]
+ }
+}

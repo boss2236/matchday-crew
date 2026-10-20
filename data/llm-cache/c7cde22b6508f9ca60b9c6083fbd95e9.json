@@ -1,0 +1,14 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Northgate’s Momentum Collapse",
+  "text": "Kai’s quick pass to Ilan sparks a chain, but Ilan’s long ball gets snatched, leaving Northgate scrambling and losing control. It’s a sharp shift from calm to frantic pressing.",
+  "cites": [
+   "e0539",
+   "e0546",
+   "e0548",
+   "e0551",
+   "e0560"
+  ]
+ }
+}

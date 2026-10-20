@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Momentum Surge at 52:00",
+  "text": "Callum’s 41.8‑yd pass, Zeke’s intercepted 32.7‑yd, and Hiro’s 8.5‑yd carry lift Ironvale’s momentum 25 amid chaos 54, shifting control home.",
+  "cites": [
+   "e0979",
+   "e0980",
+   "e0991"
+  ]
+ }
+}

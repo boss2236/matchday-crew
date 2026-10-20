@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour City clinches with late surge",
+  "text": "At 90+1', Harbour City’s momentum (60) and low chaos (57) enabled a swift passing sequence ending in Dani Kowalski’s 2.5m goal, cementing control in the final minute.",
+  "tags": [
+   "momentum",
+   "control",
+   "finishing"
+  ],
+  "cites": [
+   "e1724"
+  ]
+ }
+}

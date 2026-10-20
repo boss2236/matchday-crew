@@ -1,0 +1,18 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Ironvale's Counter Surge",
+  "text": "Despite a -25 momentum swing and high chaos (67), Ironvale executed a rapid passing sequence (e0575‑e0577) culminating in a blocked shot (e0578), showing a sudden shift from deep block to direct threat.",
+  "tags": [
+   "momentum",
+   "counter",
+   "chance"
+  ],
+  "cites": [
+   "e0575",
+   "e0576",
+   "e0577",
+   "e0578"
+  ]
+ }
+}

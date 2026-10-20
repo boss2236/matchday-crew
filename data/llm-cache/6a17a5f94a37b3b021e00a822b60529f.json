@@ -1,0 +1,18 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Momentum swing sparks Ironvale surge",
+  "text": "Ironvale’s 27‑point momentum, amid 57 chaos, follows a rapid 27.2‑km/h pass by Hollis and a 51.9‑km/h intercept‑free link to Tanaka, shifting control to the home side.",
+  "tags": [
+   "momentum",
+   "control",
+   "passing"
+  ],
+  "cites": [
+   "e0184",
+   "e0185",
+   "e0187",
+   "e0195"
+  ]
+ }
+}

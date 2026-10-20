@@ -1,0 +1,11 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Ironvale’s drive fizzles",
+  "text": "Callum Reid’s long run and Zeke’s miss left Ironvale scrambling as their momentum sank to –28 and chaos rose to 69.",
+  "cites": [
+   "e1631",
+   "e1650"
+  ]
+ }
+}

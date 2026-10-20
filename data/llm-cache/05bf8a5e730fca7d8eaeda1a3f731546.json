@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Ironvale's chaotic build stalls momentum",
+  "text": "Rapid Ironvale sequence (e0138‑e0143) yielded high chaos 57, momentum –52, despite 0.89 xG, showing control slipping.",
+  "cites": [
+   "e0138",
+   "e0139",
+   "e0140",
+   "e0141",
+   "e0142",
+   "e0143"
+  ]
+ }
+}

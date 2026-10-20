@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Half-time sees tactical reset",
+  "text": "At the 45+2' half‑time break, Harbour City trails 0‑1 as momentum sits at 24 and chaos peaks at 50, highlighting the need to shift from their high‑press to regain control against Ironvale’s deep block.",
+  "tags": [
+   "control",
+   "chaos",
+   "momentum"
+  ],
+  "cites": [
+   "e0897"
+  ]
+ }
+}

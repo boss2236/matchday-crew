@@ -1,0 +1,19 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour City’s Passing Surge Shifts Momentum",
+  "text": "A rapid series of five completions, including two under pressure, moved Harbour City from defensive to attacking control, boosting momentum to 28 while chaos stayed high at 55, setting up a potential finish.",
+  "tags": [
+   "control",
+   "momentum",
+   "passing"
+  ],
+  "cites": [
+   "e1324",
+   "e1326",
+   "e1327",
+   "e1328",
+   "e1331"
+  ]
+ }
+}

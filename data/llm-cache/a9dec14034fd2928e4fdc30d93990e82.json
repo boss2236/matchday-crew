@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Mbeki's big chance sparks hope",
+  "text": "Zeke Mbeki fired a powerful shot that just missed, giving Ironvale a real lift as Harbour City's rhythm slipped.",
+  "cites": [
+   "e0651"
+  ]
+ }
+}

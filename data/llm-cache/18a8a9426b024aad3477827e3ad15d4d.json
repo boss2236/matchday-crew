@@ -1,0 +1,17 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Ironvale’s Counter‑Rush Dominates",
+  "text": "A 29‑point momentum swing sees Ironvale’s rapid 13.3‑km/h pass to Callum Reid ignite a direct counter, with Luca Romero’s 46.2‑km/h drive into the final third turning chaos into control.",
+  "tags": [
+   "counter",
+   "momentum",
+   "control"
+  ],
+  "cites": [
+   "e1463",
+   "e1464",
+   "e1465"
+  ]
+ }
+}

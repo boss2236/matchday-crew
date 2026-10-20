@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Press Powers Harbour City",
+  "text": "Harbour City’s press grabbed the ball three times, lifting momentum to 71 and tightening control.",
+  "cites": [
+   "e1562",
+   "e1579",
+   "e1587"
+  ]
+ }
+}

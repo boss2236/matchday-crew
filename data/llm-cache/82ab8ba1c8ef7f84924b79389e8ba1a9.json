@@ -1,0 +1,11 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Control Perdido en 54'",
+  "text": "Ivo Petrov (e1059) entrega 44.5 m interceptado; Hiro Tanaka (e1067) 41.2 m bajo presión, provocan -53 momentum y 64 caos, alterando PPDA a 10 y xG a 1.68.",
+  "cites": [
+   "e1059",
+   "e1067"
+  ]
+ }
+}

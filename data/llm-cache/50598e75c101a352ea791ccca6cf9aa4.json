@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Blocked Chance Shifts Momentum",
+  "text": "Oscar Blum’s 77.5 km/h shot, blocked at 4 m, highlights Northgate’s patient build‑up and Ironvale’s deep‑block, altering the 26‑minute momentum from –23 to a more balanced state.",
+  "tags": [
+   "momentum",
+   "control",
+   "pressing"
+  ],
+  "cites": [
+   "e0461"
+  ]
+ }
+}

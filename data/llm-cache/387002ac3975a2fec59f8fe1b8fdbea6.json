@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Ironvale’s 3‑shot pressing burst",
+  "text": "Zeke Mbeki’s 3 interceptions in 120s shift momentum to 33, xG rises to 1.14, PPDA 9.5, deep‑block counter underpins possession surge.",
+  "cites": [
+   "e0900",
+   "e0928",
+   "e0935"
+  ]
+ }
+}

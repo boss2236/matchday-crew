@@ -1,0 +1,13 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Press Falters at 58′",
+  "text": "Harbour City’s press lost steam: momentum 35, chaos 55, passes avg difficulty 44, three interceptions.",
+  "cites": [
+   "e1110",
+   "e1111",
+   "e1118",
+   "e1128"
+  ]
+ }
+}

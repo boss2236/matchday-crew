@@ -1,0 +1,20 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Ironvale’s Momentum Surge",
+  "text": "At 18:39, a 26‑point momentum swing shows Ironvale’s rapid build‑up, with successive passes from Nico to Callum, Marco, Luca, and a failed attempt to Hiro, driving control into a chaotic 45‑point zone.",
+  "tags": [
+   "momentum",
+   "control",
+   "chaos"
+  ],
+  "cites": [
+   "e0322",
+   "e0323",
+   "e0324",
+   "e0325",
+   "e0326",
+   "e0327"
+  ]
+ }
+}

@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour City clinches thrilling win",
+  "text": "Harbour City’s high‑press sealed a big victory, showing they controlled the game right to the end.",
+  "cites": [
+   "e1727"
+  ]
+ }
+}

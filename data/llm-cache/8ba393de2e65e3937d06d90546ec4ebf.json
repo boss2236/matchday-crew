@@ -1,0 +1,13 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Contraataque de Ironvale sorprende",
+  "text": "Después de una serie de pases rápidos, Ironvale llegó al arco y Zeke disparó, pero el tiro fue bloqueado.",
+  "cites": [
+   "e0575",
+   "e0576",
+   "e0577",
+   "e0578"
+  ]
+ }
+}

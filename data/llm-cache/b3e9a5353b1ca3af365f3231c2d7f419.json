@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour City’s decisive surge",
+  "text": "Marchetti’s 15.2‑m shot (xG 0.024) capped a 29.2‑m pass (difficulty 41) and a 14.3‑m carry, driving momentum to 26 as PPDA stays low at 9.2.",
+  "cites": [
+   "e0996",
+   "e0997",
+   "e0998"
+  ]
+ }
+}

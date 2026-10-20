@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour City Press Fuels Momentum",
+  "text": "Three regains in 120 s via tackles by Dani Kowalski, Arjun Mehta and interception by Yusuf Demir lifted Harbour City’s momentum to 71, tightening press control.",
+  "cites": [
+   "e1562",
+   "e1579",
+   "e1587"
+  ]
+ }
+}

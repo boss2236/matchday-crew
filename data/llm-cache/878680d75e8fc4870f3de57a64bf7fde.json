@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Marchetti impulsa a Harbour City",
+  "text": "Marchetti completó un pase de 29.2 m (dificultad 41) y, tras un arrastre de 14.3 m, disparó a 15.2 m con xG 0.024, sellando el impulso (momentum 26).",
+  "cites": [
+   "e0996",
+   "e0997",
+   "e0998"
+  ]
+ }
+}

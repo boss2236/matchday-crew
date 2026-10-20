@@ -1,0 +1,20 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Ironvale’s Counter Crumbles Amid Chaos",
+  "text": "At 27:48 the momentum swing to –25 and chaos 67 marks Ironvale’s lost control; after an 8.7 km carry (e0567) a risky 45.1 m pass was intercepted (e0568), the ensuing quick passes (e0575‑e0577) produced a blocked shot (e0578).",
+  "tags": [
+   "counter",
+   "chaos",
+   "momentum"
+  ],
+  "cites": [
+   "e0567",
+   "e0568",
+   "e0575",
+   "e0576",
+   "e0577",
+   "e0578"
+  ]
+ }
+}

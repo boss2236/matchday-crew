@@ -1,0 +1,19 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour City’s surge reshapes control",
+  "text": "A flurry of rapid passes—e1527, e1528, e1530, e1531, e1532—boosted Harbour City’s momentum to 25 while chaos rose to 45, shifting the game’s control in the 80th minute.",
+  "tags": [
+   "momentum",
+   "control",
+   "chaos"
+  ],
+  "cites": [
+   "e1527",
+   "e1528",
+   "e1530",
+   "e1531",
+   "e1532"
+  ]
+ }
+}

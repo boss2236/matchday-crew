@@ -1,0 +1,67 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  packages: write
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node: [22, 24]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+      - name: Install (TypeScript compiler and web app dependencies)
+        run: npm ci --no-audit --no-fund && npm --prefix web ci --no-audit --no-fund
+      - name: Type-check server and web app (strict)
+        run: npm run typecheck
+      - name: Tests (Node runs the TypeScript directly)
+        run: npm test
+      - name: Build the Fluent UI web app
+        run: npm run build:web
+
+  container:
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build image
+        run: docker build -t nutmeg-desk:ci .
+      - name: Smoke test the container
+        run: |
+          docker run -d --name app -p 8080:8080 -e LLM_CACHE=read nutmeg-desk:ci
+          for i in $(seq 1 30); do curl -sf localhost:8080/healthz && break; sleep 1; done
+          curl -sf localhost:8080/api/config | head -c 200; echo
+          curl -sN "localhost:8080/api/live?seed=7&speed=0&language=Arabic" > live.txt
+          grep -q '^event: end' live.txt
+          echo "items aired: $(grep -c '^event: item' live.txt)"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: UI check (headless Chrome)
+        run: |
+          node --version
+          CHROME=google-chrome node scripts/ui-check.ts "http://localhost:8080/?speed=60&autostart=1" ui 15
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: ui-screenshots
+          path: ui-*.png
+      - name: Publish image to GitHub Container Registry
+        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+        run: |
+          IMAGE=ghcr.io/${GITHUB_REPOSITORY,,}
+          echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u "${{ github.actor }}" --password-stdin
+          docker tag nutmeg-desk:ci $IMAGE:latest
+          docker tag nutmeg-desk:ci $IMAGE:${GITHUB_SHA::7}
+          docker push $IMAGE:latest
+          docker push $IMAGE:${GITHUB_SHA::7}

@@ -1,0 +1,20 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour City’s Press Sparks Momentum Shift",
+  "text": "A rapid passing sequence (e0348‑e0352) raised Harbour City’s momentum to 33 while chaos hit 47, culminating in Mehta’s shot (e0353) that threatened Ironvale’s deep block.",
+  "tags": [
+   "pressing",
+   "momentum",
+   "control"
+  ],
+  "cites": [
+   "e0348",
+   "e0349",
+   "e0350",
+   "e0351",
+   "e0352",
+   "e0353"
+  ]
+ }
+}

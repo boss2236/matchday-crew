@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Gol de Dani en 81 minutos",
+  "text": "Con un pase de Mateo a Dani, quien dispara a 71.6 km/h, Harbour City sube a 3-1 y gana el control del juego.",
+  "cites": [
+   "e1545",
+   "e1547",
+   "e1548",
+   "e1550",
+   "e1551",
+   "e1552"
+  ]
+ }
+}

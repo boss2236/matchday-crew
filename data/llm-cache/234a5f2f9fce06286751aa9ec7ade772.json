@@ -1,0 +1,18 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Ironvale’s momentum collapses",
+  "text": "After a 15.8m carry (e1631) and a series of risky passes ending with an off‑target shot (e1650), Ironvale’s momentum fell to –28 and chaos rose to 69, signalling loss of control as they chase the game.",
+  "tags": [
+   "momentum",
+   "chaos",
+   "control"
+  ],
+  "cites": [
+   "e1631",
+   "e1632",
+   "e1635",
+   "e1650"
+  ]
+ }
+}

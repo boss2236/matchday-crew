@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Momento Decisivo de Control",
+  "text": "Con un xG de 0.79, la interceptación de e1715 y pases de 13.2, 26.9, 26.9 y 22.8 (e1716‑e1718, e1722) culminó en gol de 71.9 km/h (e1724).",
+  "cites": [
+   "e1715",
+   "e1716",
+   "e1717",
+   "e1718",
+   "e1722",
+   "e1724"
+  ]
+ }
+}

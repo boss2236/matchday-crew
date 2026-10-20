@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "¡Victoria de Harbour City!",
+  "text": "En el último minuto, Harbour City cerró con un 4-1, dominando con presión alta y control total. ¡Qué finalazo!",
+  "cites": [
+   "e1727"
+  ]
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "¡Harbour City al frente!",
+  "text": "Con pases rápidos de Kofi, Leo y Mateo, Harbour City gana el control: 25 de impulso y 45 de caos en el minuto 80. ¡Qué emoción!",
+  "cites": [
+   "e1527",
+   "e1528",
+   "e1530",
+   "e1531",
+   "e1532"
+  ]
+ }
+}

@@ -1,0 +1,9 @@
+{
+  "servers": {
+    "nutmeg-desk": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["${workspaceFolder}/scripts/mcp.ts"]
+    }
+  }
+}

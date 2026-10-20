@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Reid’s 3‑tackle burst steals control",
+  "text": "Callum Reid’s quick 3 tackles in 120 seconds at 76:38 cut Northgate’s build‑up and swing the momentum for Ironvale’s 1‑0 lead.  e1414 e1420 e1437",
+  "cites": [
+   "e1414",
+   "e1420",
+   "e1437"
+  ]
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Press falters as chaos spikes",
+  "text": "Harbour City’s momentum 27, chaos 46 as Demir’s 65.1m pass (difficulty 83) and Ruiz’s 32.7m (difficulty 55) fail, exposing press collapse despite high‑press intent.",
+  "cites": [
+   "e0695",
+   "e0724"
+  ]
+ }
+}

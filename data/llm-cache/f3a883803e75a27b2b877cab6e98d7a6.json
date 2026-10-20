@@ -1,0 +1,11 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Northgate’s Rapid Surge",
+  "text": "Oscar Blum’s quick pass to Sven Dahl, followed by a fast carry, sparks a 65‑point momentum swing, turning the game’s chaos into a 43‑point spike. It’s a real feel‑good rush!",
+  "cites": [
+   "e0091",
+   "e0092"
+  ]
+ }
+}

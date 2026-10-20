@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Descenso de presión en medio tiempo",
+  "text": "Harbour City 0‑1, xG 0.27 vs 1.63, PPDA 9.8, posesión 48 %, momentum 24; necesita reducir PPDA y aumentar entradas al tercio final (28).",
+  "cites": [
+   "e0897"
+  ]
+ }
+}

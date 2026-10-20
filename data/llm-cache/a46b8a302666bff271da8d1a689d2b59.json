@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Ironvale’s wild run stalls",
+  "text": "Ironvale tried a fast passing chain, but the chaos rose and their momentum slipped, so the threat faded just before the seventh minute.",
+  "cites": [
+   "e0138",
+   "e0139",
+   "e0140",
+   "e0141",
+   "e0142",
+   "e0143"
+  ]
+ }
+}

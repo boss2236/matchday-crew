@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "¡Marchetti marca para Harbour!",
+  "text": "Después de una serie de pases rápidos, Leo Marchetti corre y dispara con potencia, anotando el primer gol y cambiando la partida.",
+  "cites": [
+   "e0996",
+   "e0997",
+   "e0998"
+  ]
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Contra de Ironvale rompe el momentum",
+  "text": "Intercepción de Marco Silvan (11.8 km) y carry (32.7 km/h), 7 pases (dificultad media 47), disparo de Zeke Mbeki (xG 0.188, 96.1 km/h) invierte momentum a -50.",
+  "cites": [
+   "e0587",
+   "e0588",
+   "e0591",
+   "e0593",
+   "e0594",
+   "e0597",
+   "e0599",
+   "e0600"
+  ]
+ }
+}

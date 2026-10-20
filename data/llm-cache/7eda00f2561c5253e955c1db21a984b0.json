@@ -1,0 +1,14 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour City’s surge quantified",
+  "text": "Harbour City’s xG 0.41, PPDA 8.6, momentum 25; rapid passes e1527 (39.1m, diff 68), e1528 (15.7m, diff 16), e1530 (18.7m, diff 39), e1531 (30.6m, diff 31), e1532 (21.1m, diff 21) drive forward.",
+  "cites": [
+   "e1527",
+   "e1528",
+   "e1530",
+   "e1531",
+   "e1532"
+  ]
+ }
+}

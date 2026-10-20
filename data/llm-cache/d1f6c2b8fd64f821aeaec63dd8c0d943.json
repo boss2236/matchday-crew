@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Missed Shot Sparks Northgate Pressure",
+  "text": "At 45+2', Zeke Mbeki’s 70.3 km/h 5 m shot (xG 0.276) off target, exposing Ironvale’s 9.6 PPDA deep block while Northgate’s 54% possession and 7.8 PPDA shift momentum to the visitors.",
+  "cites": [
+   "e0855"
+  ]
+ }
+}

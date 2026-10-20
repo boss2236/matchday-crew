@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Ironvale pierde impulso tras caos",
+  "text": "La secuencia de pases de Ironvale (21 m, 56.1 m, 31.2 m, 15.9 m, 29.7 m, 22.2 m) con dificultades 39‑87‑31‑16‑33‑35 generó caos 57 y momentum –52, limitando su xG 0.89.",
+  "cites": [
+   "e0138",
+   "e0139",
+   "e0140",
+   "e0141",
+   "e0142",
+   "e0143"
+  ]
+ }
+}

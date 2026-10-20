@@ -1,0 +1,13 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour City pierde impulso",
+  "text": "A los 45+1', Ruiz y Marchetti encadenan pases de 28.2 m y 25.5 m (dificultad 50/43) antes del disparo bloqueado de Kowalski (xG 0.078); momentum 25, caos 55.",
+  "cites": [
+   "e0887",
+   "e0889",
+   "e0890",
+   "e0893"
+  ]
+ }
+}

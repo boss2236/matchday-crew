@@ -1,0 +1,17 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour City dominate after early scare",
+  "text": "The game began with Ironvale pressing forward, Zeke Mbeki firing a powerful early chance that was blocked. A quick pass from Luca Romero set up Mbeki again and he finally broke the deadlock with a fast‑moving strike. Harbour City responded, Leo Marchetti finding the net before half‑time. In the second half Dani Kowalski turned the tide, scoring twice to put Harbour City firmly in control, and then sealed the win with a late finish as the clock ticked over. The visitors could not recover, and the match ended with Harbour City celebrating a comfortable victory.",
+  "cites": [
+   "e0041",
+   "e0599",
+   "e0600",
+   "e0999",
+   "e1223",
+   "e1552",
+   "e1725",
+   "e1727"
+  ]
+ }
+}

@@ -1,0 +1,13 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Zeke Mbeki’s quick strike secures Ironvale win",
+  "text": "Ironvale Athletic began the match with a patient, direct style that kept Northgate Rovers on the back foot. Early pressure from Kai Nakamura was turned back, but the turning point came in the 27th minute when Zeke Mbeki broke through and scored, giving Ironvale the lead. Northgate tried to rally, but Ironvale’s pressing and solid defence held firm. The game settled into a calm finish, with Ironvale’s disciplined play keeping the score 1‑0. Zeke Mbeki’s single goal proved the difference, turning a tight contest into a deserved victory.",
+  "cites": [
+   "e0485",
+   "e0484",
+   "e0483",
+   "e0485"
+  ]
+ }
+}

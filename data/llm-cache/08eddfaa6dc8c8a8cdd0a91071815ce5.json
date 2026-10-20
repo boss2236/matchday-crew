@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Ironvale’s Turnaround Chaos",
+  "text": "A wild 44.5m pass got intercepted and a pressured 41.2m pass followed, sparking a big momentum drop and chaos around the 54‑55 minute mark.",
+  "cites": [
+   "e1059",
+   "e1067",
+   "m064"
+  ]
+ }
+}

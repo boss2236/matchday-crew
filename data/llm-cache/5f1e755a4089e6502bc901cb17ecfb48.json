@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Ironvale still up 1-0",
+  "text": "Half‑time, Ironvale Athletic leads Northgate Rovers 1-0, holding a 12‑point momentum edge while keeping the game calm. They’re in control, 46% possession versus 54%.",
+  "cites": [
+   "e0857"
+  ]
+ }
+}

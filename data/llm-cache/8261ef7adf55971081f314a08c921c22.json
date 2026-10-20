@@ -1,0 +1,22 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour City’s swift strike",
+  "text": "After Jonah Pike’s interception, a flurry of passes ended with Dani Kowalski blasting a 97.9 km/h winner, giving Harbour City the lead.",
+  "cites": [
+   "e1201",
+   "e1205",
+   "e1206",
+   "e1207",
+   "e1208",
+   "e1209",
+   "e1211",
+   "e1215",
+   "e1216",
+   "e1217",
+   "e1220",
+   "e1221",
+   "e1222"
+  ]
+ }
+}

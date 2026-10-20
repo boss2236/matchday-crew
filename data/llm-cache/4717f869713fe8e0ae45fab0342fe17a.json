@@ -1,0 +1,16 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Dani’s Last‑Gasp Winner",
+  "text": "After a slick interception, Dani Kowalski weaved through quick passes and smashed a fast shot to seal a 4‑1 win in stoppage time, thrilling the fans.",
+  "cites": [
+   "e1715",
+   "e1716",
+   "e1717",
+   "e1718",
+   "e1722",
+   "e1724",
+   "e1725"
+  ]
+ }
+}

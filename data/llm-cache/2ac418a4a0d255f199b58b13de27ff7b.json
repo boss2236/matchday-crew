@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour City seal dominant finish",
+  "text": "At 90+2', Harbour City's high‑press style culminated in a 4‑1 win, reflecting a momentum of 75 versus chaos 49, confirming control over Ironvale's deep block.",
+  "tags": [
+   "momentum",
+   "control",
+   "finishing"
+  ],
+  "cites": [
+   "e1727"
+  ]
+ }
+}

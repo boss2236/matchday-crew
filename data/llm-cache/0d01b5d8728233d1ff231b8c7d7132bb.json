@@ -1,0 +1,13 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Ironvale's swift counter threat",
+  "text": "After a -25 momentum swing, Ironvale linked a 49.5m pass (diff 84) to Zeke, then 34.1m (diff 49) and 36m (diff 52) passes, ending with a blocked 0.071 xG shot from 11.6m.",
+  "cites": [
+   "e0575",
+   "e0576",
+   "e0577",
+   "e0578"
+  ]
+ }
+}

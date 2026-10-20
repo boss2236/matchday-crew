@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Ironvale eleva posesión y xG",
+  "text": "Secuencia de 5 pases (e0772‑e0776) y el pase largo de Ivo Petrov (e0782) aumentó la posesión a 51 % y el xG a 1.63, reduciendo momentum ‑27.",
+  "cites": [
+   "e0772",
+   "e0773",
+   "e0774",
+   "e0775",
+   "e0776",
+   "e0782"
+  ]
+ }
+}

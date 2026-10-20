@@ -1,0 +1,19 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Ironvale’s 26th‑minute strike",
+  "text": "A quick 38‑m pass from Ivo Petrov to Zeke Mbeki, followed by a 26‑kph dribble and a 79.8‑kph finish, gives Ironvale a 1‑0 lead, shifting momentum to 13 and reducing chaos.",
+  "tags": [
+   "pressing",
+   "momentum",
+   "finishing"
+  ],
+  "cites": [
+   "e0480",
+   "e0481",
+   "e0482",
+   "e0484",
+   "e0485"
+  ]
+ }
+}

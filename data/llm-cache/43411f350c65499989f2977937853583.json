@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Ivo y equipo recuperan balón",
+  "text": "Ivo Petrov y sus compañeros interrumpen la jugada con tres recuperaciones en 120 segundos, cambiando el juego a favor de Ironvale Athletic. ¡Qué presión!",
+  "cites": [
+   "e1263",
+   "e1276",
+   "e1297"
+  ]
+ }
+}

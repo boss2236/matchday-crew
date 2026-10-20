@@ -1,0 +1,14 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Cinco pases impulsan momentum",
+  "text": "Cinco pases completos, dos bajo presión, elevaron el momentum a 28 mientras el caos se mantuvo en 55.",
+  "cites": [
+   "e1324",
+   "e1326",
+   "e1327",
+   "e1328",
+   "e1331"
+  ]
+ }
+}

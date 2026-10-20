@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Press falla, control perdido",
+  "text": "Con 35 de momentum y 55 de caos, Harbour City pierde 3 de 5 pases de alta presión (e1110‑e1128), cediendo dominio a Ironvale con xG 1.68 y PPDA 9.7.",
+  "cites": [
+   "e1110",
+   "e1111",
+   "e1118",
+   "e1126",
+   "e1127",
+   "e1128"
+  ]
+ }
+}

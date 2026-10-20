@@ -1,0 +1,13 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour City’s decisive surge",
+  "text": "Harbour City’s 0.024 xG strike follows a 29.2 m pass (diff 41) and a 14.3 m carry, boosting momentum to 26.",
+  "cites": [
+   "e0994",
+   "e0996",
+   "e0997",
+   "e0998"
+  ]
+ }
+}

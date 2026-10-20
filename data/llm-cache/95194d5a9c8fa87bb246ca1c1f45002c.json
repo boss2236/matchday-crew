@@ -1,0 +1,17 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Ironvale's Press Shifts Control",
+  "text": "Three consecutive interceptions by Ivo Petrov and teammates (e1263, e1276, e1297) within 120 seconds regained possession three times, turning a deep‑block side into a pressing threat and nudging momentum despite high chaos (16 vs 53).",
+  "tags": [
+   "pressing",
+   "control",
+   "momentum"
+  ],
+  "cites": [
+   "e1263",
+   "e1276",
+   "e1297"
+  ]
+ }
+}

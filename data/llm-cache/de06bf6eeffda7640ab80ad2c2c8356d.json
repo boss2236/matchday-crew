@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Mbeki genera chance de 0.876 xG",
+  "text": "A los 01:22, Zeke Mbeki dispara 2.5 m a 80.1 km/h; el tiro de 0.876 xG es bloqueado, manteniendo el bloque profundo de Ironvale y momentum –84.",
+  "cites": [
+   "e0041"
+  ]
+ }
+}

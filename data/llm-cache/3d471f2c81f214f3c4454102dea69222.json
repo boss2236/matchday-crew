@@ -1,0 +1,16 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Marchetti iguala con gol veloz",
+  "text": "Después de la intercepción de Okafor, tres pases sin presión y un arrastre, Marchetti disparó a 83 km/h y el marcador quedó 1‑1.",
+  "cites": [
+   "e0991",
+   "e0994",
+   "e0995",
+   "e0996",
+   "e0997",
+   "e0998",
+   "e0999"
+  ]
+ }
+}

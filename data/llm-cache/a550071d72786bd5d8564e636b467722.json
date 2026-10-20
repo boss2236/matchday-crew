@@ -1,0 +1,20 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Ironvale's Build‑Up Shifts Momentum",
+  "text": "A rapid five‑pass sequence (e0138‑e0143) lifted Ironvale Athletic’s possession and progressed the ball 20 km/h, turning a -52 momentum swing into controlled pressure despite chaos 57, signaling a shift from Harbour City’s press to Ironvale’s counter rhythm.",
+  "tags": [
+   "possession",
+   "momentum",
+   "control"
+  ],
+  "cites": [
+   "e0138",
+   "e0139",
+   "e0140",
+   "e0141",
+   "e0142",
+   "e0143"
+  ]
+ }
+}

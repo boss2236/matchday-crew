@@ -1,0 +1,11 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Ironvale’s 27‑point surge",
+  "text": "At 10:54, Hollis’s 56.4‑km/h pass to Reid sparks a 27‑point swing, and Tanaka’s 51.9‑km/h link keeps the home side in control.",
+  "cites": [
+   "e0184",
+   "e0195"
+  ]
+ }
+}

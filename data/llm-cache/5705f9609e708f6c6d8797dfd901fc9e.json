@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Half‑time: Ironvale's 1‑0 edge persists",
+  "text": "At 45+2', Ironvale leads 1‑0, with 12 momentum versus 44 chaos, dominating possession 46% against Northgate's 54% and controlling the game’s tempo.",
+  "tags": [
+   "control",
+   "momentum",
+   "chaos"
+  ],
+  "cites": [
+   "e0857"
+  ]
+ }
+}

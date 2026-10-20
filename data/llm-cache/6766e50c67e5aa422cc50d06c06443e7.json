@@ -1,0 +1,14 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Ironvale’s 26‑Point Momentum Surge",
+  "text": "Nico’s 9.1‑m carry, 13.3‑m pass (difficulty 13), Callum’s 21‑m pass (difficulty 33), Marco’s 16.1‑m pass (difficulty 16), Callum’s 33.4‑m pass (difficulty 50) build 26‑point swing.",
+  "cites": [
+   "e0322",
+   "e0323",
+   "e0324",
+   "e0325",
+   "e0326"
+  ]
+ }
+}

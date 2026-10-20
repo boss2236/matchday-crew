@@ -1,0 +1,14 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Ironvale’s momentum drops to -28",
+  "text": "Callum Reid’s 15.8m carry (e1631) and risky passes (e1632, e1633, e1635) preceded a 0.008 xG off‑target shot (e1650), dropping momentum to –28 and raising chaos to 69.",
+  "cites": [
+   "e1631",
+   "e1632",
+   "e1633",
+   "e1635",
+   "e1650"
+  ]
+ }
+}

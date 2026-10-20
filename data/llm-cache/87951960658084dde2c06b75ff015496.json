@@ -1,0 +1,14 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "¡Gol de contra de Ironvale!",
+  "text": "Después de la interceptación de Marco Silvan, una cadena de pases rápidos terminó con Zeke Mbeki disparando a 96.1 km/h y marcando el 1‑0.",
+  "cites": [
+   "e0587",
+   "e0591",
+   "e0594",
+   "e0597",
+   "e0599"
+  ]
+ }
+}

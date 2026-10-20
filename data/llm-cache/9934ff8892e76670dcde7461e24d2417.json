@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour City’s stats at half‑time",
+  "text": "Harbour City xG 0.27 vs Ironvale 1.63; PPDA 9.8 vs 10.8; momentum 24; possession 48% vs 52%",
+  "cites": [
+   "e0897"
+  ]
+ }
+}

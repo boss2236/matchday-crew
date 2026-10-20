@@ -1,0 +1,14 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour City’s rapid passing spikes momentum",
+  "text": "Five swift passes (e1527‑e1532) covering 125.0 m, avg difficulty 35, raised momentum to 25 while chaos hit 45, tightening pressure with PPDA 8.6.",
+  "cites": [
+   "e1527",
+   "e1528",
+   "e1530",
+   "e1531",
+   "e1532"
+  ]
+ }
+}

@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-20b",
+ "output": {
+  "headline": "Ironvale Holds 1‑0 Lead",
+  "text": "With 12 momentum, 46% possession, 1.14 xG, 9.6 PPDA, Ironvale dominates Northgate’s 54% possession and 0.68 xG at half‑time.",
+  "cites": [
+   "e0857"
+  ]
+ }
+}
