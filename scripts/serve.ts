@@ -12,23 +12,29 @@ import { existsSync } from 'node:fs';
 import { createApp } from '../src/server/app.ts';
 import { ChatClient, llmConfigFromEnv } from '../src/ai/llm.ts';
 import { CachedChat } from '../src/ai/cache.ts';
+import { CopilotChat, copilotConfigFromEnv } from '../src/ai/copilot.ts';
 import { Translator, translatorConfigFromEnv } from '../src/ai/translator.ts';
 import { Speech, speechConfigFromEnv } from '../src/ai/speech.ts';
 import { ContentSafety, safetyConfigFromEnv } from '../src/ai/safety.ts';
 import { AppInsights, noTelemetry, track } from '../src/telemetry.ts';
 import type { Telemetry } from '../src/telemetry.ts';
+import type { JsonModel } from '../src/types.ts';
 
 if (existsSync('.env')) process.loadEnvFile('.env');
 
 const telemetry: Telemetry = process.env.APPLICATIONINSIGHTS_CONNECTION_STRING ? new AppInsights(process.env.APPLICATIONINSIGHTS_CONNECTION_STRING) : noTelemetry;
 
-const config = llmConfigFromEnv();
+// LLM_PROVIDER=copilot uses GitHub Copilot (src/ai/copilot.ts); otherwise Foundry or
+// an OpenAI-compatible server (src/ai/llm.ts).
+const copilot = copilotConfigFromEnv();
+const config = copilot ? null : llmConfigFromEnv();
+const label = copilot ? `GitHub Copilot (${copilot.model})` : (config?.label ?? null);
 const useCache = process.env.LLM_CACHE !== 'off';
-const inner = config ? new ChatClient(config) : null;
+const inner: JsonModel | null = copilot ? new CopilotChat(copilot) : config ? new ChatClient(config) : null;
 // Only real model calls are dependencies; cache hits never leave the process.
 if (inner) {
   const json = inner.json.bind(inner);
-  inner.json = (request) => track(telemetry, 'AI model', 'chat completion', config?.label ?? 'model', () => json(request), { maxTokens: request.maxTokens });
+  inner.json = (request) => track(telemetry, 'AI model', 'chat completion', label ?? 'model', () => json(request), { maxTokens: request.maxTokens });
 }
 const llm = useCache ? new CachedChat(inner, { write: process.env.LLM_CACHE !== 'read' }) : inner;
 
@@ -53,7 +59,7 @@ if (safety) {
   safety.screen = (text) => track(telemetry, 'Azure AI Content Safety', 'text:analyze', safetyConfig?.endpoint ?? 'content safety', () => screen(text));
 }
 
-const modelLabel = config ? config.label : useCache ? 'response cache only' : null;
+const modelLabel = label ?? (useCache ? 'response cache only' : null);
 const port = Number(process.env.PORT) || 3000;
 createApp({ llm, translator, speech, safety, telemetry, modelLabel }).listen(port, () => {
   console.log(`Nutmeg Desk on http://localhost:${port}`);
