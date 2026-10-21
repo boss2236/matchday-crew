@@ -157,3 +157,40 @@ test('Translator agent localises template lines for non-English audiences and ke
   assert.ok(crew2.feed.filter((f) => f.audience === 'casual').every((f) => f.source === 'template'));
   assert.ok(crew2.trace.some((r) => r.agent === 'Translator' && r.status === 'rejected'));
 });
+
+// GitHub Copilot provider, with a fake SDK: no network, no Copilot allowance used.
+test('copilot: one session per call, every tool request rejected, JSON parsed', async () => {
+  const { CopilotChat, copilotConfigFromEnv, parseJsonReply } = await import('../src/ai/copilot.ts');
+  assert.equal(copilotConfigFromEnv({}), null);
+  assert.deepEqual(copilotConfigFromEnv({ LLM_PROVIDER: 'copilot', COPILOT_MODEL: 'gpt-5' }), { model: 'gpt-5', timeoutMs: 60000 });
+
+  const seen: { model: string; prompt: string; permission: unknown; closed: boolean }[] = [];
+  let started = 0, stopped = 0;
+  class FakeClient {
+    async start() { started++; }
+    async stop() { stopped++; }
+    async createSession({ model, onPermissionRequest }: { model: string; onPermissionRequest: () => unknown }) {
+      const rec = { model, prompt: '', permission: onPermissionRequest(), closed: false };
+      seen.push(rec);
+      return {
+        sendAndWait: async ({ prompt }: { prompt: string }) => { rec.prompt = prompt; return { data: { content: '```json\n{"headline":"Goal","text":"Mbeki scores.","cites":["e1"]}\n```' } }; },
+        disconnect: async () => { rec.closed = true; },
+      };
+    }
+  }
+  const chat = new CopilotChat({ model: 'gpt-5-mini', timeoutMs: 1000 }, { load: async () => ({ CopilotClient: FakeClient as never }) });
+  const out = await chat.json({ system: 'Write JSON.', user: { a: 1 } });
+  await chat.json({ system: 'Again.', user: 'x' });
+  await chat.stop();
+
+  assert.deepEqual(out, { headline: 'Goal', text: 'Mbeki scores.', cites: ['e1'] });
+  assert.equal(started, 1, 'one client for the process');
+  assert.equal(stopped, 1);
+  assert.equal(seen.length, 2);
+  assert.ok(seen.every((s) => s.closed && s.model === 'gpt-5-mini'));
+  assert.deepEqual(seen[0]?.permission, { kind: 'reject' });
+  assert.match(seen[0]?.prompt ?? '', /Write JSON\.[\s\S]*Do not use any tools[\s\S]*\{"a":1\}/);
+  assert.equal(chat.usage.calls, 2);
+  assert.throws(() => parseJsonReply('no json here'), /no JSON object/);
+  assert.deepEqual(parseJsonReply('Sure! {"x": 2} hope that helps'), { x: 2 });
+});

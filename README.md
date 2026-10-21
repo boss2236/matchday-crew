@@ -115,6 +115,7 @@ Copy `.env.example` to `.env` and fill in one provider:
 | Provider | Settings | Notes |
 |---|---|---|
 | Microsoft Foundry | `FOUNDRY_ENDPOINT`, `FOUNDRY_DEPLOYMENT`, `FOUNDRY_API_KEY` | Azure OpenAI compatible deployment, e.g. gpt-4o-mini. Used first when set |
+| GitHub Copilot (Copilot SDK) | `LLM_PROVIDER=copilot`, optional `COPILOT_MODEL` | Your Copilot plan, for pre-generating lines; `npm install @github/copilot-sdk` once, `node scripts/copilot-check.ts` to test. Tool use is always refused. Tested with gpt-5-mini |
 | Groq (free tier) | `LLM_BASE_URL`, `LLM_MODEL`, `LLM_API_KEY` | Tested end to end with `openai/gpt-oss-120b` |
 | Google Gemini, Ollama, any OpenAI-compatible API | same `LLM_*` settings | Gemini's free tier allows only 20 requests a day |
 | Azure AI Translator | `AZURE_TRANSLATOR_KEY`, `AZURE_TRANSLATOR_REGION` | Free F0 tier; tested live |
