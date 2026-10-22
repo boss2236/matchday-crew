@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "ハーバーシティのプレス効果",
+  "text": "81:43にKowalskiがタックル、82:29にMehtaがタックル、83:06にDemirがインターセプト、3回復奪でxG0.47、PPDA8.5、モメンタム71",
+  "cites": [
+   "e1562",
+   "e1579",
+   "e1587"
+  ]
+ }
+}

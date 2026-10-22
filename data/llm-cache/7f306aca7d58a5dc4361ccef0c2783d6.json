@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Ironvale direct threat vs Harbour",
+  "text": "Harbour 67% possession, Ironvale 33% with 0.876 xG shot from 2.5 m unpressured; PPDA 10, momentum –84 indicates counter‑danger.",
+  "cites": [
+   "e0041"
+  ]
+ }
+}

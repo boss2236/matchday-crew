@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Silvan’s Sprint Fuels Ironvale Counter",
+  "text": "At 23:57, Marco Silvan’s 33.3 km/h, 4.8‑meter carry exemplifies Ironvale’s deep‑block, direct‑counter approach, raising momentum to 80 while chaos stays low, shifting control toward the home side.",
+  "tags": [
+   "counter",
+   "speed",
+   "momentum"
+  ],
+  "cites": [
+   "e0417"
+  ]
+ }
+}

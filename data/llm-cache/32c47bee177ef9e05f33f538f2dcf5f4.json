@@ -1,0 +1,13 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Kowalskiの奪取で決めた！",
+  "text": "90+1分、Kowalskiがボールを奪い、5回のパスを経て静かにゴール。これで4-1のリードが確定です。",
+  "cites": [
+   "e1715",
+   "e1718",
+   "e1724",
+   "e1725"
+  ]
+ }
+}

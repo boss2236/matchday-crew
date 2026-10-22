@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Zero xG, still hopeful",
+  "text": "Our xG stays at 0 while Northgate’s chances swirl, but we’re still in it.",
+  "cites": [
+   "e0097"
+  ]
+ }
+}

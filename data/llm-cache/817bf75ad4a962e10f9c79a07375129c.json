@@ -1,0 +1,14 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour Cityがリード守る",
+  "text": "リードを守るため、MateoとLeoが後方へパスをつなぎ、時間を消費しているよ。",
+  "cites": [
+   "e1527",
+   "e1528",
+   "e1530",
+   "e1531",
+   "e1532"
+  ]
+ }
+}

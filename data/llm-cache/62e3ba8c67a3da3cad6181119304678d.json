@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Ironvale’s xG stays low",
+  "text": "Our xG is just 0.01 while Rovers sit at 0.39 after that blocked shot – we need a real chance soon!",
+  "cites": [
+   "e0461"
+  ]
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "xG Stays Zero, Momentum Rises",
+  "text": "xG stays 0 as Ironvale swing momentum 27, chaos 57; Lusk’s 11.4m pass to Bamidele (difficulty 11) and Bamidele’s 20.9m, 19.8‑progress to Tanaka reset attack.",
+  "cites": [
+   "e0194",
+   "e0195"
+  ]
+ }
+}

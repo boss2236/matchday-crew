@@ -1,0 +1,11 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "RuizとKowalskiの連携で決めた！",
+  "text": "RuizがKowalskiにパス、Kowalskiが2.5メートルからゴール。ハーバーシティがリード確実に。",
+  "cites": [
+   "e1722",
+   "e1724"
+  ]
+ }
+}

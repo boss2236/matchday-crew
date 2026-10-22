@@ -37,7 +37,7 @@ Hackathon: Microsoft x Premier League **Inside the Game**. Category to enter: **
 ### Should
 
 7. **Create the Content Safety and Application Insights resources** (docs/AZURE.md, steps 1c and 1d) and put their keys in `.env`. The code is done and tested; without keys both stay off.
-8. **Finish pre-generation** of tailored Arabic and Spanish lines for matches 2-4 (seeds 8, 9, 10): about 110,000 Groq tokens per match and language, 200,000 a day per model, so roughly one day per two runs using both models (`npm run prewarm 8 Arabic`, `LLM_MODEL=openai/gpt-oss-20b npm run prewarm 8 Spanish`, and so on). Then `npm run quality` and commit `data/llm-cache` and `docs/QUALITY.md`. Today: all four matches are model-written in English, and match 1 also in Arabic and Spanish; elsewhere the Tactician's English line airs and Azure Translator localises it.
+8. ~~**Finish pre-generation**~~ Done through the GitHub Copilot SDK: every match in all 16 languages, 88% tailored, no templates (docs/QUALITY.md). Original plan: tailored Arabic and Spanish lines for matches 2-4 (seeds 8, 9, 10): about 110,000 Groq tokens per match and language, 200,000 a day per model, so roughly one day per two runs using both models (`npm run prewarm 8 Arabic`, `LLM_MODEL=openai/gpt-oss-20b npm run prewarm 8 Spanish`, and so on). Then `npm run quality` and commit `data/llm-cache` and `docs/QUALITY.md`. Today: all four matches are model-written in English, and match 1 also in Arabic and Spanish; elsewhere the Tactician's English line airs and Azure Translator localises it.
 
 ### Could
 
@@ -46,4 +46,4 @@ Hackathon: Microsoft x Premier League **Inside the Game**. Category to enter: **
 
 ## Already done
 
-Five-stage pipeline, eight agents with a fact checker and an Azure AI Content Safety agent, Application Insights telemetry, players on the pitch, unit-aware number checks, repository renamed to nutmeg-desk, response cache with pre-generated lines, Azure AI Translator and Azure AI Speech (tested live), Fluent UI app with tour, voice, player and metric focus and broadcast view, strict TypeScript, 52 tests, CI, Docker, Container Apps deploy script, MCP and A2A, rate limits and security headers, quality report. See README.md and docs/HACKATHON.md.
+Five-stage pipeline, eight agents with a fact checker and an Azure AI Content Safety agent, Application Insights telemetry, players on the pitch, unit-aware number checks, repository renamed to nutmeg-desk, response cache with pre-generated lines, Azure AI Translator and Azure AI Speech (tested live), Fluent UI app with tour, voice, player and metric focus and broadcast view, Players and 3D views (three cameras, goal celebration cut), `from=` deep links, strict TypeScript, 67 tests, testing guide, independent review by a second model, CI, Docker, Container Apps deploy script, MCP and A2A, rate limits and security headers, quality report. See README.md and docs/HACKATHON.md.

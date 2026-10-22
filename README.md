@@ -111,7 +111,7 @@ Needs Node 22.18 or newer.
 npm install          # TypeScript compiler (dev only; the server has no runtime dependencies)
 npm run build        # build the Fluent UI app into web/dist
 npm start            # http://localhost:3000
-npm run check        # strict type-check of server and web app, then 65 tests
+npm run check        # strict type-check of server and web app, then 67 tests
 ```
 
 Pick a match, language, favourite club, player and a metric to follow, press **Kick off**, and switch between **Analyst** and **Casual fan** at any time. Deep links work for demos, e.g. `/?match=0&speed=60&language=Arabic&club=harbour&player=harbour-9&metric=xg&persona=casual&autostart=1`.
@@ -134,7 +134,7 @@ Copy `.env.example` to `.env` and fill in one provider:
 
 Reasoning models (gpt-oss, Gemini) need `LLM_REASONING_EFFORT=low` and `LLM_MAX_TOKENS=1500`. Free tiers rate-limit; the client waits as long as the server asks and retries, and backs off on dropped connections.
 
-**Response cache.** Matches are seeded, so the same match for the same audience sends the same prompts. Answers are cached on disk by prompt hash, which makes replays instant and free, keeps the hosted demo inside free quotas, and lets the app serve real model output with no key at all. Every published match ships with model-written lines in all 16 languages for both audiences, written through GitHub Copilot (`npm run prewarm -- all all`), so the hosted demo needs no key: 86% of aired lines are tailored to the language and audience, the rest are the Tactician's model-written line, and none are templates ([docs/QUALITY.md](docs/QUALITY.md)).
+**Response cache.** Matches are seeded, so the same match for the same audience sends the same prompts. Answers are cached on disk by prompt hash, which makes replays instant and free, keeps the hosted demo inside free quotas, and lets the app serve real model output with no key at all. Every published match ships with model-written lines in all 16 languages for both audiences, written through GitHub Copilot (`npm run prewarm -- all all`), so the hosted demo needs no key: 88% of aired lines are tailored to the language and audience, the rest are the Tactician's model-written line, and none are templates ([docs/QUALITY.md](docs/QUALITY.md)).
 
 ### Other entry points
 

@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Ironvale xG 0.01 Sparks Hope",
+  "text": "Our xG sits at 0.01, and Marco Silvan’s 33.3 km/h, 4.8‑meter carry at 22:57 lifts momentum to 80, showing the deep‑block counter is working.",
+  "cites": [
+   "e0417"
+  ]
+ }
+}

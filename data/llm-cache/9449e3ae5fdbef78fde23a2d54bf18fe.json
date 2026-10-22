@@ -1,0 +1,11 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Ironvaleの攻撃、惜しくも外れ",
+  "text": "Luca Romeroがプレッシャー受けてボールを出し、Zeke Mbekiが31.5メートルから放ったが、枠外に。",
+  "cites": [
+   "e1635",
+   "e1650"
+  ]
+ }
+}

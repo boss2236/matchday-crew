@@ -1,0 +1,14 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour City’s rapid combo yields goal",
+  "text": "Okafor’s 13.9 km carry, 15.1 m pass (diff 30), Demir’s 23.2 m pass (diff 43) and Kowalski’s 29.2 m pass (diff 41) produced Marchetti’s 0.024 xG goal; momentum 26, chaos 63, PPDA 9.2.",
+  "cites": [
+   "e0993",
+   "e0994",
+   "e0995",
+   "e0996",
+   "e0998"
+  ]
+ }
+}

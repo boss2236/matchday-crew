@@ -1,0 +1,11 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Ironvaleのパスでモーメンタム急転",
+  "text": "5分45秒 Ade Bamideleの21mパス（難易度39）→Lusk、続く56.1mスイッチ（進捗51.4、難易度87）でモーメンタム-52、IronvaleのxG0.89対Harbour City0.04。",
+  "cites": [
+   "e0138",
+   "e0139"
+  ]
+ }
+}

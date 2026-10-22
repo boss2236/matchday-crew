@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Ironvaleの長いパスが光る",
+  "text": "53分、Ivoの44.5mパスが相手に奪われたが、Hiroの41.2mパスがZekeへ届き、残念ながらオフターゲットに。",
+  "cites": [
+   "e1059",
+   "e1067",
+   "e1068"
+  ]
+ }
+}
