@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Aziz finishes a flowing Southmere move",
+  "text": "Bruno Costa raced forward, then Tariq Aziz and Joel Martin swapped quick passes with nobody closing them down. Aziz tapped it in from 1.2 yards out. What a slick finish!",
+  "cites": [
+   "e1009",
+   "e1010",
+   "e1011",
+   "e1012",
+   "e1013"
+  ]
+ }
+}

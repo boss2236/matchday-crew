@@ -1,11 +1,11 @@
 {
- "model": "openai:openai/gpt-oss-20b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Ironvale's late counter clinches win",
-  "text": "Ironvale’s 1-0 victory at 90+2' was secured by a decisive counter‑attack, turning a 7‑point momentum into a win despite 46 chaos, while possession remained 47% to 53%.",
+  "headline": "Ironvale's deep block wins 1-0",
+  "text": "Northgate held more possession (53) and 9 shots, but Ironvale's direct counters produced the better chances: xg 1.42 against 0.86. The 1-0 result at full time rewards efficiency over patient control.",
   "tags": [
    "counter",
-   "momentum",
+   "finishing",
    "control"
   ],
   "cites": [

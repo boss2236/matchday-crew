@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate ouvrent enfin la défense",
+  "text": "Northgate Rovers gardent patiemment le ballon, puis Sven Dahl glisse une passe sous pression à Andres Vega, et la défense adverse s'ouvre ! Andres Vega file ensuite balle au pied. Ça devient vraiment excitant !",
+  "cites": [
+   "e0115",
+   "e0116"
+  ]
+ }
+}

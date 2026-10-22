@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale's pressing spell flips the pattern",
+  "text": "Hiro Tanaka's interception and tackle, plus Callum Reid's, give Ironvale Athletic 3 regains in 120 seconds. xG 1.15 to 0.86, chaos 67, momentum 5 protect the 1-0 lead despite 48% possession.",
+  "cites": [
+   "e1341",
+   "e1356",
+   "e1363"
+  ]
+ }
+}

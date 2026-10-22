@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate-এর দীর্ঘ পাস কেটে গেল",
+  "text": "Northgate Rovers ১-০ পিছিয়ে। Gabe Moreno-র লম্বা পাসটা মাঝপথে কেটে গেল, কিন্তু Ilan Cohen সুন্দর একটা পাসে Oscar Blum-কে খুঁজে নিয়ে আবার আশা জাগালেন।",
+  "cites": [
+   "e1229",
+   "e1243"
+  ]
+ }
+}

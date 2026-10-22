@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere perd le fil sous la pression",
+  "text": "Southmere enchaînait de jolies passes, mais dès que Rafa Ortega et Bruno Costa ont été harcelés, la passe de Costa vers Tariq Aziz est sortie. Le pressing de Harbour City fait mal !",
+  "cites": [
+   "e1177",
+   "e1179"
+  ]
+ }
+}

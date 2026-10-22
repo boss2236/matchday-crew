@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City চাপ সামলে এগিয়ে গেল",
+  "text": "Harbour City চাপের মধ্যেও বল হারায়নি। Leo Marchetti লম্বা পাস দিলেন, তারপর Jonah Pike সামনে বাড়িয়ে Dani Kowalski-কে খুঁজে নিলেন। ম্যাচে তারা এখনও 2-1 এগিয়ে!",
+  "cites": [
+   "e1326",
+   "e1331",
+   "e1330"
+  ]
+ }
+}

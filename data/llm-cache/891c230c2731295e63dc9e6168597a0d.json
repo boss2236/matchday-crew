@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere líder, pero pierde el control",
+  "text": "Southmere United gana 1-0 (xG 1.65 vs 0.44), pero el momentum es 27. Joel Martin fue interceptado a 59.9 m (dificultad 60) y el presing de Harbour City (PPDA 7.3) forzó dos pases fuera.",
+  "cites": [
+   "e1221",
+   "e1230",
+   "e1234"
+  ]
+ }
+}

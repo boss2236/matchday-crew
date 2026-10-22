@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City maçı Kowalski ile bitirdi",
+  "text": "Mateo Ruiz topu Dani Kowalski'ye ileri taşıdı, Kowalski da kimse yokken topu ağlara yolladı. Harbour City 90+1'de skoru 3-1 yaptı. Tam kapanış golü!",
+  "cites": [
+   "e1722",
+   "e1723",
+   "e1724"
+  ]
+ }
+}

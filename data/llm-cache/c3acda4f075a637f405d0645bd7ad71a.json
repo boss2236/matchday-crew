@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "ضغط Ironvale Athletic يستعيد الاستحواذ",
+  "text": "استعاد Ironvale Athletic الكرة 3 مرات باعتراضات خلال 120 ثانية، آخرها عبر Ivo Petrov عند 66:40. رغم التأخر 2-1، يملك xG بقيمة 1.68 مقابل 0.41، وPPDA عند 9.9.",
+  "cites": [
+   "e1263",
+   "e1276",
+   "e1297"
+  ]
+ }
+}

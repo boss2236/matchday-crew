@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate peinent malgré le ballon",
+  "text": "Northgate mène la possession mais perd 1-0. Gabe Moreno tente une passe très longue vers Emre Kaya, elle est interceptée ! Ilan Cohen remet vite de l'ordre en trouvant Oscar Blum.",
+  "cites": [
+   "e1229",
+   "e1243"
+  ]
+ }
+}

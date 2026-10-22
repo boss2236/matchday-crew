@@ -1,8 +1,8 @@
 {
- "model": "openai:openai/gpt-oss-20b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Joel Martin's 3‑regain spell",
-  "text": "In the dying minute, Martin’s 3 interceptions in 120 seconds halted a 90‑minute surge, preserving a 3‑0 lead amid 46 chaos points.",
+  "headline": "Southmere squeeze out late regains",
+  "text": "Southmere United, 3-0 up at minute 90, won the ball back 3 times in 120 seconds through Joel Martin and Tariq Aziz. Those regains drained Harbour City's late chance to get back into the game.",
   "tags": [
    "pressing",
    "control",

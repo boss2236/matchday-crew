@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City kontrolü kaybediyor",
+  "text": "Harbour City 0-1 geride; momentum 27, kaos 46. Leo Marchetti'nin 60.3 m, zorluk 73 olan pası kesildi; Jonah Pike'ın 40 m, zorluk 64 pası dışarı çıktı. xG: 0.16 - 1.63.",
+  "cites": [
+   "e0725",
+   "e0734"
+  ]
+ }
+}

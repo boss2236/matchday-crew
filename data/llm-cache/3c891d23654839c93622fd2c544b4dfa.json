@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United、87分の連続奪取で試合を制御",
+  "text": "87分、2-0。Southmere Unitedは120秒で3回のインターセプト(Tariq Aziz、Rafa Ortega、Joel Martin)。xG 1.85対0.62、momentum 5。Harbour Cityの組み立てを封じた。",
+  "cites": [
+   "e1818",
+   "e1838",
+   "e1847"
+  ]
+ }
+}

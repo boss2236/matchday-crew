@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Joel Martin kesti, Tariq Aziz vurdu!",
+  "text": "Joel Martin topu kaptı, koşup Tariq Aziz'e uzattı, o da 10 metreden auta bırakmadı. Southmere United rakibin sıkı baskısını saniyeler içinde aştı ve skor 3-0 oldu.",
+  "cites": [
+   "e1847",
+   "e1848",
+   "e1849",
+   "e1850",
+   "e1851"
+  ]
+ }
+}

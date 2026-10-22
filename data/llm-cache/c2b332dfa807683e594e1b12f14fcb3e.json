@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City 인터셉션 후 4-1 완성",
+  "text": "Harbour City가 인터셉션(e1715)으로 공을 따낸 뒤, Mateo Ruiz의 progress 21.6 패스(e1722)와 difficulty 48이 Dani Kowalski의 xG 0.79 마무리(e1725)로 이어져 90+1' 4-1.",
+  "cites": [
+   "e1715",
+   "e1722",
+   "e1725"
+  ]
+ }
+}

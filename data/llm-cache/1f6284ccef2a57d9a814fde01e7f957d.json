@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "¡Contragolpe letal de Ironvale Athletic!",
+  "text": "Ironvale Athletic recuperó el balón en un saque de banda, Ivo Petrov lanzó un pase largo y Zeke Mbeki, solo frente al arco, marcó en segundos. ¡Ironvale Athletic 1-0!",
+  "cites": [
+   "e0480",
+   "e0481",
+   "e0484",
+   "e0485"
+  ]
+ }
+}

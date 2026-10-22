@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Rovers lolos tekanan lewat umpan vertikal panjang",
+  "text": "Sven Dahl mengirim umpan 43.3 m ke Emre Kaya, progres 36.1, tingkat kesulitan 83, di bawah tekanan. Kaya lanjut ke Oscar Blum sejauh 38.4 m. Momentum 26, chaos 54.",
+  "cites": [
+   "e0989",
+   "e0990"
+  ]
+ }
+}

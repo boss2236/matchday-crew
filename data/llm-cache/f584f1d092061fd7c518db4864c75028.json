@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour City’s Rapid Build‑Up Equals",
+  "text": "After e0991 interception, three unpressured passes (difficulty 30‑43) and a 14.3 m carry led to Leo Marchetti’s 0.024 xG, 83 km/h finish.",
+  "cites": [
+   "e0991",
+   "e0994",
+   "e0995",
+   "e0996",
+   "e0997",
+   "e0998"
+  ]
+ }
+}

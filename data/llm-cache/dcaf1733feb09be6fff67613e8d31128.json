@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "サウスミアの ロングパスから ミドルシュート",
+  "text": "Kwame Mensahが相手に詰められながらも55.4メートルの長いパスを通し、Tariq Aziz、Bruno Costaへとつながりました。Bruno Costaが遠くから狙いましたが、惜しくもキーパーに止められました。",
+  "cites": [
+   "e1482",
+   "e1483",
+   "e1484"
+  ]
+ }
+}

@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale enchaînent les passes sereinement",
+  "text": "Quel bel enchaînement d'Ironvale Athletic ! Callum Reid, Marco Silvan, Zeke Mbeki, puis Finn Carver : les passes s'enchaînent sans aucune pression. Ils mènent 1-0 et gardent le contrôle, tranquillement.",
+  "cites": [
+   "e1111",
+   "e1112",
+   "e1113",
+   "e1115"
+  ]
+ }
+}

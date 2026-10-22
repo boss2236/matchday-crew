@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale enchaîne sans pression, momentum 30",
+  "text": "Ironvale Athletic enchaîne cinq passes complètes sans pression, de Callum Reid à Finn Carver : difficulté 51, 49, 53, puis 45. Momentum 30, chaos 36, xG 1.15 pour mener 1-0.",
+  "cites": [
+   "e1111",
+   "e1112",
+   "e1113",
+   "e1115"
+  ]
+ }
+}

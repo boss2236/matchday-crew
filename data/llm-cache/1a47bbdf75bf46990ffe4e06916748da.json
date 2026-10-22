@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City perde il filo a metà campo",
+  "text": "Che confusione per Harbour City! Mateo Ruiz, pressato, trova comunque Leo Marchetti con un bel passaggio in avanti, ma il lancio lunghissimo di Marchetti per Yusuf Demir viene intercettato. Si resta sullo 0-0.",
+  "cites": [
+   "e0671",
+   "e0672"
+  ]
+ }
+}

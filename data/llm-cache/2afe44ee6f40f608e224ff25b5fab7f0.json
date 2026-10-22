@@ -1,0 +1,15 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Okafor steals it, Marchetti equalises!",
+  "text": "Sami Okafor won the ball back, and three quick passes later Leo Marchetti smashed it in at 83 km/h. Nobody got close to Harbour City, and it's 1-1!",
+  "cites": [
+   "e0991",
+   "e0994",
+   "e0995",
+   "e0996",
+   "e0998",
+   "e0999"
+  ]
+ }
+}

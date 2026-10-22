@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ortega连抢三次，球场节奏变了",
+  "text": "Rafa Ortega在短短两分钟里连续三次把球抢回来，两次拦截加一次抢断！Southmere United正落后1-0，这股逼抢让Northgate Rovers的慢慢传球一下子乱了阵脚。",
+  "cites": [
+   "e0887",
+   "e0897",
+   "e0907"
+  ]
+ }
+}

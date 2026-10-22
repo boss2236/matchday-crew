@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United retrocede ante la presión",
+  "text": "Southmere United gana 2-0, pero ahora solo puede pasar hacia atrás: Bruno Costa y Dmitri Volkov retroceden el balón, y Kwame Mensah acaba mandándolo fuera, agobiado por la presión de Harbour City.",
+  "cites": [
+   "e1364",
+   "e1367",
+   "e1369"
+  ]
+ }
+}

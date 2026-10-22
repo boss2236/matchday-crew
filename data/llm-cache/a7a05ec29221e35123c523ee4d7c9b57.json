@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic effizienter als Northgate Rovers",
+  "text": "Northgate Rovers dominieren mit 53 Prozent Ballbesitz und 9 Schüssen, doch Ironvale Athletic erzielt per Konter 1.42 xG gegen 0.86. PPDA 8.8 gegen 7.9, Momentum 7: 1-0 zum Abpfiff.",
+  "cites": [
+   "e1700"
+  ]
+ }
+}

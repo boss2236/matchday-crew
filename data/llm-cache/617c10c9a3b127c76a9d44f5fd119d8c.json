@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ortega non molla un pallone!",
+  "text": "Che spinta di Rafa Ortega! Prima due intercetti, poi un tackle: Southmere United si riprende il pallone e prova a scuotere il Northgate Rovers, avanti 1-0. Il match si fa vivo!",
+  "cites": [
+   "e0887",
+   "e0897",
+   "e0907"
+  ]
+ }
+}

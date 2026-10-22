@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate önde ama pas oyunu dağıldı",
+  "text": "Northgate Rovers 1-0 önde, ama toplar ayağa oturmuyor. Önce Ilan Cohen'in pasını rakip kesti, sonra Oscar Blum'un pası dışarı gitti. Maç bir anda sallanmaya başladı.",
+  "cites": [
+   "e0499",
+   "e0510"
+  ]
+ }
+}

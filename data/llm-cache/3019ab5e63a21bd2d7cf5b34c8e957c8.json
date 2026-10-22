@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic 高位压迫奏效",
+  "text": "72:53,Hiro Tanaka 抢断,Ironvale Athletic 在120秒内完成3次夺回球权。xG 1.15对0.86,PPDA 8.7,混乱度67,动量5,以1-0领先。",
+  "cites": [
+   "e1341",
+   "e1356",
+   "e1363"
+  ]
+ }
+}

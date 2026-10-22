@@ -1,0 +1,15 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City strike from 0.024 xG",
+  "text": "Four unpressured passes and carries, from Sami Okafor's 13.9 carry to Leo Marchetti's 15.2 shot, yield a goal from 0.024 xG. Momentum 26, chaos 63, trailing 0-1 before the strike.",
+  "cites": [
+   "e0993",
+   "e0994",
+   "e0995",
+   "e0996",
+   "e0997",
+   "e0998"
+  ]
+ }
+}

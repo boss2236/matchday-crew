@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic 压迫连抢三次",
+  "text": "Ironvale Athletic 在120秒内通过1次抢断和2次拦截完成3次夺回,以1-0领先。xG 0.84对0.44,PPDA 8.5,混乱度62,反击威胁仍在。",
+  "cites": [
+   "e0564",
+   "e0581",
+   "e0603"
+  ]
+ }
+}

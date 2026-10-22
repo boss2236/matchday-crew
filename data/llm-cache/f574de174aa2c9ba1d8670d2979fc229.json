@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "هدف مرتد سريع يصدم Harbour City",
+  "text": "Felipe Cruz خطف الكرة، ثم مررها إلى Bruno Costa الذي أرسلها إلى Tariq Aziz. وبدون أي ضغط عليه سجّل الهدف الثاني ليصبح 2-0. ضغط Harbour City ترك مساحة خلفه!",
+  "cites": [
+   "e1282",
+   "e1283",
+   "e1285",
+   "e1286"
+  ]
+ }
+}

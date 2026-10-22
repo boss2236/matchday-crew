@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City kehilangan bola berkali-kali",
+  "text": "Wah, Harbour City terus kehilangan bola! Operan panjang dan cepat dari Yusuf Demir dan Dani Kowalski dipotong lawan lagi dan lagi. Dalam waktu kurang dari semenit, bola direbut 3 kali.",
+  "cites": [
+   "e1111",
+   "e1118",
+   "e1128"
+  ]
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate seguram a bola e furam a linha",
+  "text": "O Northgate Rovers tem a bola a maior parte do tempo, e Sven Dahl, mesmo pressionado, lançou Andres Vega para a frente e abriu o jogo. Ainda sem remates, mas com muito controlo!",
+  "cites": [
+   "e0115",
+   "e0116"
+  ]
+ }
+}

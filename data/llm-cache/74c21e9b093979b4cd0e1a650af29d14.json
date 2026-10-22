@@ -1,14 +1,17 @@
 {
- "model": "openai:openai/gpt-oss-120b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Northgate’s momentum spikes into goal",
-  "text": "The surge to 38 momentum and 56 chaos at 24′ coincides with Emre Kaya’s progressive carries and a 30.1 m pass (e0426) that set up Oscar Blum’s 4.3 m, 101.4 km/h goal (e0427), cementing control amid chaos.",
+  "headline": "Kaya's carries set up Rovers' opener",
+  "text": "Emre Kaya's three carries and a 30.1-metre pass released Oscar Blum for the 0.472 xG goal. Rovers lead 1-0 despite 5 Southmere shots, but chaos at 56 and momentum at 38 show control slipping.",
   "tags": [
    "momentum",
-   "control",
-   "chance"
+   "chaos",
+   "counter"
   ],
   "cites": [
+   "e0423",
+   "e0424",
+   "e0425",
    "e0426",
    "e0427"
   ]

@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere, lanci lunghi e momentum in calo",
+  "text": "Bruno Costa (e0574, 33.3 m, difficoltà 51) e Rafa Ortega (e0584, 30.3 m, difficoltà 41) intercettati al 28'. Momentum 26, caos 56, nonostante xG 0.71 contro 0.27: il PPDA di 7.1 di Harbour City punisce.",
+  "cites": [
+   "e0574",
+   "e0584"
+  ]
+ }
+}

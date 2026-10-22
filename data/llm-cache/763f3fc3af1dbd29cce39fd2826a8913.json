@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere's backward passing under chaos",
+  "text": "0-0、Southmere United は xG 0.69 対 0.27 でも momentum 35、chaos 61。Rafa Ortega の 52.4 の縦パス(難易度52)は被インターセプト、続く e0362 は progress -24.7 と後退。",
+  "cites": [
+   "e0355",
+   "e0362"
+  ]
+ }
+}

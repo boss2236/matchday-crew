@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City surge, 0.078 xG blocked",
+  "text": "Mateo Ruiz's 31.2m pass (difficulty 60) found Dani Kowalski, who carried 14.8m and shot from 6.9m, blocked at 0.078 xG. Harbour City trail 0-1, momentum 25, PPDA 9.4.",
+  "cites": [
+   "e0890",
+   "e0891",
+   "e0893"
+  ]
+ }
+}

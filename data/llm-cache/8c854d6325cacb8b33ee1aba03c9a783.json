@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate recycle, danger still absent",
+  "text": "Trailing 1-0, Northgate Rovers keep the ball unpressured: Kai Nakamura's 37.1 pass to Andres Vega (difficulty 54), after Oscar Blum's saved 0.09 xG shot. Momentum -26, chaos 54, PPDA 7.2.",
+  "cites": [
+   "e0782",
+   "e0791",
+   "e0793"
+  ]
+ }
+}

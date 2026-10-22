@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale führen 1-0 und beruhigen das Spiel",
+  "text": "Ironvale Athletic führt 1-0, obwohl der Ball öfter bei Northgate Rovers liegt. Luca Romeros Pass wurde abgefangen, doch Hiro Tanaka trägt den Ball ruhig nach vorn und bringt das Team wieder in Ruhe.",
+  "cites": [
+   "e0980",
+   "e0990",
+   "e0991"
+  ]
+ }
+}

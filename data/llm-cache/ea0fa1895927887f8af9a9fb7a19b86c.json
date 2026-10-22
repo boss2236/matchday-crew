@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kowalski plante le 3-1 pour Harbour City",
+  "text": "Quelle action ! Sur une simple touche, Harbour City déroule sans être gêné, Mateo Ruiz trouve Dani Kowalski, et boum, frappe au fond ! Ça fait 3-1 face à Ironvale Athletic.",
+  "cites": [
+   "e1545",
+   "e1550",
+   "e1551",
+   "e1552"
+  ]
+ }
+}

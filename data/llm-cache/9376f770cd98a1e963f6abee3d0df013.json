@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Elias Brandt의 멋진 전진 패스!",
+  "text": "Harbour City가 Elias Brandt의 긴 전진 패스로 기분 좋게 시작했어요. 그런데 뒤로 돌리는 패스가 이어지면서 흐름이 살짝 식었습니다. 아직 0-0이라 승부는 모릅니다!",
+  "cites": [
+   "e0255",
+   "e0259",
+   "e0260"
+  ]
+ }
+}

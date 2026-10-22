@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "¡Mbeki se queda sin premio!",
+  "text": "Zeke Mbeki tenía el gol casi hecho, pero con un rival encima el balón se fue desviado justo antes del descanso. Ironvale Athletic gana 1-0 y pudo ampliar la ventaja.",
+  "cites": [
+   "e0855"
+  ]
+ }
+}

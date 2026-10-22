@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale 1-0 आगे, गति 25, अराजकता 54",
+  "text": "Ironvale Athletic 46% possession पर भी 1-0 आगे, xG 1.14 बनाम 0.71। Romero का 32.7 मीटर पास e0980 पर intercepted; Hiro Tanaka के 9.1 और 8.5 मीटर carries (e0990, e0991) से नियंत्रण लौटा।",
+  "cites": [
+   "e0980",
+   "e0990",
+   "e0991"
+  ]
+ }
+}

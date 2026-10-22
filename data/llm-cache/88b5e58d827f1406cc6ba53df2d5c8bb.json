@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Roubo de bola vira golo em 7 segundos",
+  "text": "Joel Martin intercepta, conduz 7.3 m e serve Tariq Aziz com passe de dificuldade 35. Remate de 10 m, xG 0.106, 3-0. O pressing do Harbour City (PPDA 7.4) foi batido.",
+  "cites": [
+   "e1847",
+   "e1848",
+   "e1849",
+   "e1850",
+   "e1851"
+  ]
+ }
+}

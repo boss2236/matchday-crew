@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kowalski vira o jogo com golaço!",
+  "text": "O Harbour City roubou a bola e tocou com paciência, passe a passe, até Yusuf Demir servir Dani Kowalski. Ele chutou forte e marcou! Agora é 2-1 para o Harbour City!",
+  "cites": [
+   "e1201",
+   "e1221",
+   "e1222",
+   "e1223"
+  ]
+ }
+}

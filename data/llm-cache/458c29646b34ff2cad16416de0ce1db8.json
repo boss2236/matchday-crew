@@ -1,0 +1,15 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic, Northgate Rovers'u 1-0 yendi",
+  "text": "Northgate Rovers topu daha çok tutarak maça sakin başladı, ama Ironvale Athletic geride sağlam durup hızlı hücumları bekledi. 26. dakikada Oscar Blum çok yakından vurdu, şut kaleye gitmeden engellendi. Hemen ardından, 27. dakikada Ironvale Athletic'in oyuncusu Zeke Mbeki kale önünde topu ağlara gönderdi ve takım öne geçti. Bu gol maçın tek golü oldu. Sonrasında Callum Reid ve arkadaşları topu defalarca rakipten kapıp Northgate Rovers'u rahat bırakmadı. Mbeki ilk yarının sonunda bir fırsat daha buldu, ama top dışarı gitti. Sonuçta Ironvale Athletic sabırla savunup şansını değerlendirdiği için kazandı. Maçın yıldızı, golü atan Zeke Mbeki oldu.",
+  "cites": [
+   "e0461",
+   "e0484",
+   "e0485",
+   "e0603",
+   "e0855",
+   "e1700"
+  ]
+ }
+}

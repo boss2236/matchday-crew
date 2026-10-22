@@ -1,18 +1,14 @@
 {
- "model": "openai:openai/gpt-oss-20b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Harbour City domina con 4-1",
-  "text": "El partido empezó con un gran peligro de Ironvale (e0041) pero el primer gol llegó a los 30’ cuando Zeke Mbeki anotó tras un pase de Luca Romero (e0599,e0600). Harbour City respondió con un gol de Leo Marchetti a 49’ (e0998). El marcador se equilibró en 2-1 cuando Dani Kowalski marcó a 62’ (e1222,e1223). En la segunda mitad, Harbour City extendió la ventaja con goles de Kowalski a 81’ (e1551,e1552) y a 90+1’ (e1724,e1725). La presión alta de Harbour City (ppda 8.5) y la falta de control de Ironvale (ppda 10.3) marcaron la diferencia.",
+  "headline": "Harbour City remonta 4-1 pese a perder el xG",
+  "text": "Ironvale Athletic empezó mejor: Zeke Mbeki vio bloqueada una ocasión de 0.876 xG (e0041) y abrió el marcador en el minuto 30 con un remate de 0.188 xG tras 7 pases de construcción (e0600). Harbour City, con PPDA de 8.5 frente a 10.3, igualó en el 49 con Leo Marchetti, que convirtió un disparo de 0.024 xG (e0999). Dani Kowalski dio la vuelta en el 62 con 0.06 xG (e1223) y amplió en el 81 con 0.057 xG (e1552). Cerró el 4-1 en el 90 con un tiro de 0.79 xG desde 2.5 (e1725). Ironvale generó más xG (1.76 vs 1.26), pero Harbour City fue más eficaz. Kowalski fue el jugador más destacado, con 3 goles.",
   "cites": [
    "e0041",
-   "e0599",
    "e0600",
-   "e0998",
-   "e1222",
+   "e0999",
    "e1223",
-   "e1551",
    "e1552",
-   "e1724",
    "e1725"
   ]
  }

@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kowalski conclut après 14 passes, xG 0.06",
+  "text": "Harbour City mène 2-1 : Dani Kowalski, servi par Yusuf Demir (difficulté 55), frappe à 97.9 km/h depuis 13.5 m pour un xG de 0.06, au bout de 14 buildUpPasses. PPDA 9 contre 10.6.",
+  "cites": [
+   "e1201",
+   "e1221",
+   "e1222",
+   "e1223"
+  ]
+ }
+}

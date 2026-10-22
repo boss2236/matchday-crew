@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere recule sous la pression de Harbour City",
+  "text": "Southmere United, pourtant devant 2-0, n'arrive plus à avancer : Bruno Costa puis Dmitri Volkov renvoient le ballon vers l'arrière, et la pression de Harbour City finit par sortir la balle en touche.",
+  "cites": [
+   "e1364",
+   "e1367",
+   "e1369"
+  ]
+ }
+}

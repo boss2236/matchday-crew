@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City'de oyun karıştı!",
+  "text": "Harbour City uzun toplarla oynadı, biri araya girildi ve maç birden kontrolden çıktı. Ama Mateo Ruiz baskı altında bile topu ileri taşıdı, sonra Yusuf Demir'e güzel bir pas ulaştı.",
+  "cites": [
+   "e0671",
+   "e0672",
+   "e0679"
+  ]
+ }
+}

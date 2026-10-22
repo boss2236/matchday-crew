@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers drehen den Ball dreimal zurück",
+  "text": "Ilan Cohen schnappt sich schon den dritten Ball in kurzer Zeit! Northgate Rovers setzen Southmere United mächtig unter Druck und bringen die 1-0-Führung so ruhig und sicher über die Zeit.",
+  "cites": [
+   "e1425",
+   "e1441",
+   "e1462"
+  ]
+ }
+}

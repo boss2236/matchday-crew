@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale aguenta o 1-0 e se acalma",
+  "text": "O Ironvale Athletic segue na frente por 1-0. Depois de um passe de Luca Romero cortado aos 51:20, Hiro Tanaka levou a bola com calma e o time respirou aliviado.",
+  "cites": [
+   "e0980",
+   "e0990",
+   "e0991"
+  ]
+ }
+}

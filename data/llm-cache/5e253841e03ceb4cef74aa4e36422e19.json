@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere تتقدم بـ xG 0.69 رغم التمريرة الضائعة",
+  "text": "تتفوق Southmere United في xG بنتيجة 0.69 مقابل 0.27 عند 0-0، مع momentum 25 وPPDA 8.2. أنهى Bruno Costa الهجمة بتمريرة صعوبتها 62 ومسافتها 48.8 خرجت إلى 'out'.",
+  "cites": [
+   "e0413",
+   "e0412"
+  ]
+ }
+}

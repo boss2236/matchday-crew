@@ -1,0 +1,15 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers يفوزون 1-0 بفضل هدف Oscar Blum المبكر",
+  "text": "بدأت المباراة بتفوق Northgate Rovers عبر انطلاقة Andres Vega لمسافة 10.9 م بسرعة 26.5 كم/س (momentum 37). نقطة التحول جاءت في الدقيقة 23: تمريرة Emre Kaya بصعوبة 48 وصلت إلى Oscar Blum الذي سجل بتسديدة xG 0.472 من مسافة 4.3 م ليتقدم Northgate Rovers 1-0. أنهى Northgate Rovers المباراة بـ xG 1.18 مقابل 0.9، وحسموا الاستحواذ 55%، رغم تفوق Southmere United في دخول الثلث الأخير 57 مقابل 42 وPPDA 7.6 مقابل 8.3. أهدر Oscar Blum فرصة xG 0.284 في الدقيقة 65، ولم تتحول سيطرة Southmere United إلى هدف. Oscar Blum هو نجم اللقاء بهدف وxG 1.16.",
+  "cites": [
+   "e0116",
+   "e0426",
+   "e0427",
+   "e0428",
+   "e1205",
+   "e1784"
+  ]
+ }
+}

@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City-র দুর্দান্ত পাসিং মুভ!",
+  "text": "Sami Okafor-এর লম্বা পাস থেকে Yusuf Demir, Mateo Ruiz হয়ে Dani Kowalski-র কাছে বল গেল, কেউ চাপ দিতে পারেনি! Dani শট নিলেন, কিন্তু গোলকিপার ঠেকিয়ে দিলেন। খেলা এখনও 0-0।",
+  "cites": [
+   "e0838",
+   "e0840",
+   "e0842",
+   "e0843"
+  ]
+ }
+}

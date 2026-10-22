@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic、焦りのロングシュートは外れる",
+  "text": "Ironvale Athleticは3-1で負けている終盤。Luca Romeroのパスは相手に詰められてラインの外へ出て、そのあとZeke Mbekiが遠くから打ちましたが、ゴールの外へ。焦りが見えますね！",
+  "cites": [
+   "e1635",
+   "e1650"
+  ]
+ }
+}

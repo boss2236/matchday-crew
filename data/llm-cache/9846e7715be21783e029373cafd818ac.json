@@ -1,17 +1,14 @@
 {
- "model": "openai:openai/gpt-oss-120b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Southmere’s Momentum Shift at 70’",
-  "text": "A rapid four‑pass chain ending with a backward pass to Haddad shows Southmere battling a -30 momentum dip while chaos spikes to 72, highlighting their effort to regain control under pressure.",
+  "headline": "Southmere recycle, but momentum still slips",
+  "text": "Southmere string six actions together, including Jan Novak's long pass to Bruno Costa, yet Costa's final pass goes backward to Nasser Haddad. Momentum sits at -30 with chaos at 72, and Southmere trail 1-0 with 0.38 xG.",
   "tags": [
    "momentum",
-   "control",
-   "pressing"
+   "chaos",
+   "possession"
   ],
   "cites": [
-   "e1293",
-   "e1294",
-   "e1295",
    "e1296",
    "e1298"
   ]

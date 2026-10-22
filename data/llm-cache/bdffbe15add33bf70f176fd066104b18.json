@@ -1,0 +1,21 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kowalski Hattrick Bawa Harbour City Menang 4-1",
+  "text": "Harbour City menang 4-1 atas Ironvale Athletic, padahal xG mereka hanya 1.26 berbanding 1.76. Ironvale unggul lewat Zeke Mbeki menit 30 (xG 0.188, tembakan 96.1 km/jam setelah Luca Romero mengirim umpan difficulty 53), setelah peluang 0.876 xG menit 2 diblok. Leo Marchetti menyamakan skor menit 49 dari xG 0.024. Dani Kowalski membalik keadaan menit 62 (xG 0.06) dan menit 81 (xG 0.057), lalu menutup laga menit 90 dari jarak 2.5 dengan xG 0.79. Tekanan Harbour City lebih intens: PPDA 8.5 lawan 10.3, finalThirdEntries 56 lawan 43, momentum akhir 75. Kowalski, 3 gol dari xG 1.17, menjadi pemain terbaik; Mbeki sebaliknya hanya mencetak 1 gol dari xG 1.74.",
+  "cites": [
+   "e0041",
+   "e0599",
+   "e0600",
+   "e0998",
+   "e0999",
+   "e1222",
+   "e1223",
+   "e1551",
+   "e1552",
+   "e1724",
+   "e1725",
+   "e1727"
+  ]
+ }
+}

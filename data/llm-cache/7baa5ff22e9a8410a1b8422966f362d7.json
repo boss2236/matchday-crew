@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale rouba a bola e marca!",
+  "text": "Marco Silvan roubou a bola, correu com ela e os passes foram fluindo sem pressão até Zeke Mbeki chutar forte e marcar. Ironvale Athletic vence por 1-0, mesmo com menos posse de bola!",
+  "cites": [
+   "e0587",
+   "e0588",
+   "e0597",
+   "e0599",
+   "e0600"
+  ]
+ }
+}

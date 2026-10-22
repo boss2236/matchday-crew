@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale ci prova in lungo, ma finisce fuori",
+  "text": "Ironvale lancia lungo sotto pressione: il primo pallone per Zeke Mbeki viene intercettato, il secondo di Hiro Tanaka lo trova, ma il suo tiro dal limite finisce fuori. Partita apertissima sull'1-1!",
+  "cites": [
+   "e1059",
+   "e1067",
+   "e1068"
+  ]
+ }
+}

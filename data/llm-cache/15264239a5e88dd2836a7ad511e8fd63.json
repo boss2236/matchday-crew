@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City、低xGシュートで終わる",
+  "text": "81分、Harbour Cityは5連続アクションを繋ぎ、Arjun MehtaからDani Kowalskiへ27.2mのパス(難度43)。シュートは距離23.9m、xG 0.018でセーブ。モメンタムは-30。",
+  "cites": [
+   "e1714",
+   "e1715"
+  ]
+ }
+}

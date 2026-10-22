@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Reid'in baskısı Ironvale'e top kazandırıyor",
+  "text": "Callum Reid 120 saniyede 3 kez topu kazandı; Ironvale Athletic %40 topa sahip olsa da xG 0.89, Harbour City 0.04. PPDA 13, momentum -8; 0-0'da geçişler tehlike üretiyor.",
+  "cites": [
+   "e0201",
+   "e0220",
+   "e0243"
+  ]
+ }
+}

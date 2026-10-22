@@ -1,0 +1,18 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers siegen 1-0 dank Blums Tor aus 4.3 Metern",
+  "text": "Northgate Rovers gewinnen 1-0 gegen Southmere United. Früh dominierte Northgate: Andres Vega trug den Ball 10.9 m bei 26.5 km/h (Momentum 37). In der 23. Minute spielte Emre Kaya den Pass mit Schwierigkeit 48 auf Oscar Blum, der aus 4.3 m mit 101.4 km/h zum xG 0.472 einnetzte. Danach drehte Southmere mit Rafa Ortegas Pressingphasen (Minute 19 und 47, je 3 Ballgewinne) das Momentum zeitweise auf -29. Blum vergab in der 65. Minute eine Großchance (xG 0.284). Northgate gewann das xG-Duell mit 1.18 zu 0.9, bei 55% Ballbesitz und PPDA 8.3. Southmere hatte 57 Final-Third-Entries, blieb aber ineffizient. Standout: Oscar Blum, xG 1.16.",
+  "cites": [
+   "e0116",
+   "e0341",
+   "e0426",
+   "e0427",
+   "e0428",
+   "e0713",
+   "e0907",
+   "e1205",
+   "e1784"
+  ]
+ }
+}

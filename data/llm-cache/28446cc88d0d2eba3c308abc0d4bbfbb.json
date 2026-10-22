@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ruiz sets up Kowalski for the clincher",
+  "text": "Mateo Ruiz slipped a lovely forward pass to Dani Kowalski, who had all the space he needed and smashed it home. Harbour City lead Ironvale Athletic 3-1 at the very end!",
+  "cites": [
+   "e1722",
+   "e1723",
+   "e1724"
+  ]
+ }
+}

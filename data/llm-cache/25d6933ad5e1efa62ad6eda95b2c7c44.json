@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "ノースゲート、縦パスで圧力回避",
+  "text": "Northgate Roversは圧力下で連続成功。Sven Dahlの43.3mパス(難度83)でEmre Kayaへ前進36.1、Oscar Blumへ繋ぐ。momentum 26、chaos 54、PPDA 9、xG 0.69。",
+  "cites": [
+   "e0989",
+   "e0990",
+   "e0985"
+  ]
+ }
+}

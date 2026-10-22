@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Rovers lead at the break",
+  "text": "Half-time, and Northgate Rovers lead 1-0! Southmere United have had more of the ball near the goal, but Rovers made their chances count. Southmere will need to push hard after the break.",
+  "cites": [
+   "e0860"
+  ]
+ }
+}

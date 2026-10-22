@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Mipira mirefu ya Southmere inakatwa tena",
+  "text": "Southmere United wanapiga pasi ndefu, lakini Harbour City wanazikata njiani, e0574 na e0584. Ni kama kurusha mpira gizani! Mchezo unachanganyikiwa, na kasi yao inashuka hadi 26.",
+  "cites": [
+   "e0574",
+   "e0584"
+  ]
+ }
+}

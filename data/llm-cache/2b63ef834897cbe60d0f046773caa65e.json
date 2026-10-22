@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City gardent le ballon, sans danger",
+  "text": "Menés 3-0, les joueurs de Harbour City s'échangent calmement le ballon, de Leo Marchetti à Elias Brandt, puis Jonah Pike. Mais plusieurs passes reculent : ça tourne bien, sans vraiment inquiéter l'adversaire.",
+  "cites": [
+   "e1926",
+   "e1927",
+   "e1928"
+  ]
+ }
+}

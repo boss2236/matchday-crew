@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City、ピンチをパスでかわす",
+  "text": "Harbour Cityは相手に寄せられても慌てず、Leo Marchettiが長いパスで抜け出しました。最後はJonah PikeからDani Kowalskiへ、前へ運ぶ一本。2-1のリードを守りながら流れを引き寄せます。",
+  "cites": [
+   "e1326",
+   "e1331",
+   "e1330"
+  ]
+ }
+}

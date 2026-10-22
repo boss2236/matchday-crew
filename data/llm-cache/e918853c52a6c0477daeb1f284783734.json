@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers étouffent Southmere United",
+  "text": "Kai Nakamura récupère 3 ballons en 120 secondes (tacle, interception). Northgate Rovers mènent 1-0 à la 42e, PPDA 8.5 contre 9.1, xG 0.68 contre 0.16 : le pressing verrouille l'avantage.",
+  "cites": [
+   "e0738",
+   "e0757",
+   "e0765"
+  ]
+ }
+}

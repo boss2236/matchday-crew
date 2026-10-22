@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic batte Northgate Rovers 1-0",
+  "text": "Northgate Rovers domina il possesso (53%) e tira 9 volte, ma Ironvale Athletic, con contropiedi diretti, crea di più: xG 1.42 contro 0.86. Al 90+2' finisce 1-0, PPDA 8.8 contro 7.9.",
+  "cites": [
+   "e1700"
+  ]
+ }
+}

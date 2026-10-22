@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Zeke Mbeki rate le break !",
+  "text": "Quel dommage ! Zeke Mbeki, bousculé tout près du but à 45+2', envoie sa frappe à côté. Ironvale Athletic mène 1-0 et aurait pu creuser l'écart avant la pause.",
+  "cites": [
+   "e0855"
+  ]
+ }
+}

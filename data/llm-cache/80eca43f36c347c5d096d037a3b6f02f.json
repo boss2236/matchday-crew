@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Les longs ballons de Southmere perdent l'élan",
+  "text": "Bruno Costa (33.3 m, difficulté 51, e0574) puis Rafa Ortega (30.3 m, difficulté 41, e0584) sont interceptés. Momentum à 26, chaos à 56, malgré xG 0.71 contre 0.27 ; le PPDA de Harbour City est de 7.1.",
+  "cites": [
+   "e0574",
+   "e0584"
+  ]
+ }
+}

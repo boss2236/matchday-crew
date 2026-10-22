@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City chiude: Kowalski firma il 4-1",
+  "text": "Intercetto di Kowalski (e1715), poi Ruiz con passaggio da 21.6 di progressione e difficoltà 48 (e1722): Kowalski finalizza da 2.5 con 0.79 xG (e1725). 4-1 al 90+1', PPDA 8.5.",
+  "cites": [
+   "e1715",
+   "e1722",
+   "e1725"
+  ]
+ }
+}

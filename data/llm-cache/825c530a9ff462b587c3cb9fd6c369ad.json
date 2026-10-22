@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City topu çeviriyor ama ilerleyemiyor",
+  "text": "Harbour City 3-0 geride ama rahatça pas yapıyor. Leo Marchetti'den Elias Brandt'a, oradan Jonah Pike'a toplar dönüyor. Sorun şu: pasların çoğu geriye gidiyor, yani top var ama tehlike yok.",
+  "cites": [
+   "e1926",
+   "e1927",
+   "e1928",
+   "e1929"
+  ]
+ }
+}

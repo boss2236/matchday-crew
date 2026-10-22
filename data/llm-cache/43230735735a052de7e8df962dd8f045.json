@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Costa's carry sparks Aziz's 0.931 xG goal",
+  "text": "Bruno Costa carried at 33.1 km/h, then three unpressured passes (difficulty 59, 42, 44) found Tariq Aziz. He finished from 1.2 distance with 0.931 xG, at momentum 52 despite Harbour City's 6.8 PPDA.",
+  "cites": [
+   "e1009",
+   "e1010",
+   "e1011",
+   "e1012",
+   "e1013"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City dördüncüyü presle buldu",
+  "text": "Harbour City, e1715'teki top kapmayla başladı; Mateo Ruiz'in 21.6 progress'li, 48 zorluklu pasıyla (e1722) Dani Kowalski 2.5 metreden 0.79 xG'lik golü (e1725) attı: 4-1. PPDA 8.5.",
+  "cites": [
+   "e1715",
+   "e1722",
+   "e1725"
+  ]
+ }
+}

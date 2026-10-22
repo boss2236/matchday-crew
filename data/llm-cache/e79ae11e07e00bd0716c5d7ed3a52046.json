@@ -1,20 +1,17 @@
 {
- "model": "openai:openai/gpt-oss-120b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Ironvale’s Build‑Up Shifts Momentum",
-  "text": "At 40’, Ironvale’s 5‑pass sequence (e0772‑e0776) and Ivo Petrov’s long ball (e0782) raised possession to 51% and xG to 1.63, swinging momentum ‑27 despite chaos 48, signalling a control surge against Harbour’s deep block.",
+  "headline": "Ironvale's direct play drives momentum swing",
+  "text": "Ironvale, 1-0 up, kept stringing unpressured passes together, and Ivo Petrov's 38.9-length ball progressing 34.9 to Luca Romero cut through. With chaos at 48 and xg 1.63 to 0.16, the direct counter style is paying off.",
   "tags": [
    "momentum",
-   "control",
-   "pass"
+   "counter",
+   "chance"
   ],
   "cites": [
+   "e0782",
    "e0772",
-   "e0773",
-   "e0774",
-   "e0775",
-   "e0776",
-   "e0782"
+   "e0774"
   ]
  }
 }

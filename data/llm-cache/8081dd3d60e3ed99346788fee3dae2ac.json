@@ -1,0 +1,16 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Mbeki trifft aus 2 Metern: Ironvale schlägt Northgate 1-0",
+  "text": "Ironvale Athletic gewinnt 1-0 gegen Northgate Rovers, obwohl Northgate mit 53% mehr Ballbesitz und 85% Passquote spielt. Nach Oscar Blums geblocktem Abschluss (xG 0.394, 4 m) in der 26. Minute schlägt Ironvale zu: Zeke Mbeki vollendet aus 2 m mit xG 0.829 zum 1-0 (Minute 27). Kurz vor der Pause vergibt Mbeki unter Druck bei xG 0.276. Der Schlüssel ist die Effizienz: Ironvale kommt auf xG 1.42 bei 8 Schüssen, Northgate nur auf xG 0.86 bei 9. Ironvales tiefer Block mit direkten Kontern liefert 15 gewonnene Zweikämpfe und 42 Interceptions; Callum Reid löst Pressingphasen mit 3 Ballgewinnen in 120 Sekunden aus. Mbeki ist mit 1 Tor und xG 1.39 der prägende Spieler.",
+  "cites": [
+   "e0461",
+   "e0484",
+   "e0485",
+   "e0855",
+   "e0603",
+   "e1437",
+   "e1700"
+  ]
+ }
+}

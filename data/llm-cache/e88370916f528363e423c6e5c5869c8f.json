@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United 압박 구간, 2-0 리드 방어",
+  "text": "Southmere United는 120초 동안 3회 소유권을 회복했다. Tariq Aziz, Bruno Costa 태클과 Liam Doyle의 67:31 인터셉트. xG 1.81 대 0.57, PPDA 7.7, chaos 75로 2-0을 지킨다.",
+  "cites": [
+   "e1408",
+   "e1414",
+   "e1445"
+  ]
+ }
+}

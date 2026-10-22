@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Baskısız zincir Aziz'in golüyle bitti",
+  "text": "Bruno Costa 33.1 km/h taşıdı, ardından 3 baskısız pasla Tariq Aziz'e ulaşıldı; Aziz 1.2 mesafeden 0.931 xG ile attı. Harbour City'nin PPDA'sı 6.8 olsa da baskı yetişmedi, momentum 52.",
+  "cites": [
+   "e1009",
+   "e1010",
+   "e1011",
+   "e1012",
+   "e1013"
+  ]
+ }
+}

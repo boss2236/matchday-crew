@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic aguanta y gana 1-0 a Northgate Rovers",
+  "text": "¡Qué partido, amigo! Northgate Rovers tuvo más la pelota, pero Ironvale Athletic jugó atrás, esperó y golpeó a la contra. Al principio Northgate mandó, y en el minuto 26 Oscar Blum tuvo una gran ocasión, pero el disparo fue bloqueado. Un minuto después llegó el golpe: Zeke Mbeki empujó el balón a la red y puso el 1-0. Después Callum Reid y sus compañeros recuperaron el balón una y otra vez con presión, y Northgate no encontró el camino al gol. Mbeki también tuvo otra ocasión antes del descanso, aunque la mandó fuera. Zeke Mbeki fue la gran estrella de la tarde. Ironvale Athletic se llevó la victoria porque aprovechó su oportunidad y defendió con muchísimo corazón.",
+  "cites": [
+   "e0461",
+   "e0485",
+   "e0603",
+   "e0855",
+   "e1700"
+  ]
+ }
+}

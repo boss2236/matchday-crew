@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale, cinco pases limpios, momentum 30",
+  "text": "Ironvale encadena pases sin presión: Callum Reid a Marco Silvan (28.9 m, dificultad 51), a Zeke Mbeki (31.7 m, 49) y a Finn Carver (53.3 m, 53). Momentum 30, caos 36, 1.15 xG.",
+  "cites": [
+   "e1111",
+   "e1112",
+   "e1113",
+   "e1115"
+  ]
+ }
+}

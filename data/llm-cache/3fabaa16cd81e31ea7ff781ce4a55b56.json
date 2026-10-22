@@ -1,0 +1,21 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City 4-1 Ironvale Athletic: Kowalski tripletta, clinica",
+  "text": "Ironvale Athletic parte meglio: Zeke Mbeki sbaglia al 2' una big chance da 0.876 xG (tiro bloccato da 2.5) e poi segna al 30' l'1-0 (0.188 xG, 96.1 km/h) dopo un assist di Luca Romero. Harbour City pareggia al 49' con Leo Marchetti (0.024 xG da 15.2), poi ribalta con Dani Kowalski al 62' (0.06 xG) e all'81' (0.057 xG). Al 90+1' arriva il 4-1 da 0.79 xG. Il risultato nasce dall'efficienza: Harbour City chiude con 1.26 xG contro 1.76, ma ha 56 ingressi nel terzo finale e PPDA 8.5 contro 10.3. Kowalski, tripletta, è il migliore.",
+  "cites": [
+   "e0041",
+   "e0599",
+   "e0600",
+   "e0998",
+   "e0999",
+   "e1222",
+   "e1223",
+   "e1551",
+   "e1552",
+   "e1724",
+   "e1725",
+   "e1727"
+  ]
+ }
+}

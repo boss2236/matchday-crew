@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale lanza balones largos y todo se vuelve loco",
+  "text": "Ironvale probó el pase largo bajo presión: el primero se perdió, pero el de Hiro Tanaka encontró a Zeke Mbeki, que remató fuera. Todo sigue 1-1 y el partido está revuelto.",
+  "cites": [
+   "e1059",
+   "e1067",
+   "e1068"
+  ]
+ }
+}

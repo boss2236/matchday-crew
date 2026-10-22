@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere go long, then turn back",
+  "text": "Jan Novak's big long pass finds Bruno Costa and the crowd leans in, but Costa slides it backward to Nasser Haddad. Southmere United keep the ball, yet still trail 1-0.",
+  "cites": [
+   "e1296",
+   "e1298"
+  ]
+ }
+}

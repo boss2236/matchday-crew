@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers 1-0 险胜 Southmere United",
+  "text": "全场90+5'结束,Northgate Rovers 1-0。xG 1.18对0.9,尽管Southmere United禁区前沿推进57次对42次。PPDA 8.3对7.6,chaos 56,momentum -63。",
+  "cites": [
+   "e1784"
+  ]
+ }
+}

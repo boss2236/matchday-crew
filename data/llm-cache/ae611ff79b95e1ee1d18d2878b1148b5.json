@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale schlägt lange Bälle – und es wird wild",
+  "text": "Ironvale Athletic haut den Ball weit nach vorn. Erst fängt der Gegner einen Pass auf Zeke Mbeki ab, dann klappt es: Hiro Tanaka findet ihn, Mbeki schießt aber knapp daneben. Es steht 1-1.",
+  "cites": [
+   "e1059",
+   "e1067",
+   "e1068"
+  ]
+ }
+}

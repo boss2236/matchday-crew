@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United reprend le ballon !",
+  "text": "Southmere United met la pression ! Tariq Aziz coupe deux passes et Joel Martin en vole une autre : trois ballons récupérés. Northgate Rovers n'arrive plus à poser son jeu tranquille.",
+  "cites": [
+   "e1251",
+   "e1261",
+   "e1272"
+  ]
+ }
+}

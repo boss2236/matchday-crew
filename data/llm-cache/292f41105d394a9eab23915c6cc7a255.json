@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere topu üst üste kapıyor!",
+  "text": "Southmere United son iki dakikada topu 3 kez rakipten kaptı! Liam Doyle, Tariq Aziz ve Rafa Ortega araya girdi. Northgate Rovers'ın sakin oyunu bozuldu, maç 0-0 ama tempo değişiyor.",
+  "cites": [
+   "e0306",
+   "e0328",
+   "e0341"
+  ]
+ }
+}

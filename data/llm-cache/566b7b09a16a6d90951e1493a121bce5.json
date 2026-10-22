@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Mbeki verpasst kurz vor der Pause",
+  "text": "Autsch! Zeke Mbeki steht nur 5 Meter vor dem Tor, wird bedrängt und schießt knapp vorbei. Ironvale Athletic führt 1-0 und hätte kurz vor der Pause nachlegen können.",
+  "cites": [
+   "e0855"
+  ]
+ }
+}

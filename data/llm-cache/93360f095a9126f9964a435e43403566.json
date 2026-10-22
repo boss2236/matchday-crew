@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale strike fast and silence Northgate",
+  "text": "Ironvale won a throw-in, and Ivo Petrov hit one long ball straight to Zeke Mbeki. A few touches later, he stroked it in from just 2 metres out. Ironvale Athletic lead!",
+  "cites": [
+   "e0480",
+   "e0481",
+   "e0484",
+   "e0485"
+  ]
+ }
+}

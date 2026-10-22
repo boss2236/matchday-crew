@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City、後方循環でリード保持",
+  "text": "80分、2-1のHarbour Cityは非プレス下で連続パス。Leo MarchettiのMateo Ruiz宛て-24.1(難易度31)、Ruiz発-17.9(難易度21)と後退。momentum 25、chaos 45、リスクより支配を選択。",
+  "cites": [
+   "e1528",
+   "e1531",
+   "e1532"
+  ]
+ }
+}

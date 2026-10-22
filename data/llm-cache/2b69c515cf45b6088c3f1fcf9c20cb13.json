@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Uongozi wa Harbour City unayumba",
+  "text": "Harbour City wanaongoza 2-1, lakini wameanza kupoteza udhibiti. Mateo Ruiz alirudisha mpira nyuma kwa Rui Barros, kisha pasi yake ikanaswa na Ironvale Athletic. Mashabiki, hapa hakuna kupumzika bado!",
+  "cites": [
+   "e1451",
+   "e1453"
+  ]
+ }
+}

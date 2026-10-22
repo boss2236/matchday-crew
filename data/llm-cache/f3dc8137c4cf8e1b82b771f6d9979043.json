@@ -1,0 +1,15 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Dani Kowalski guida Harbour City al trionfo 4-1",
+  "text": "Che partita, amici! Ironvale Athletic parte forte: Zeke Mbeki sfiora subito il gol e al minuto 30 sblocca il risultato con un tiro potentissimo. Sembra tutto sotto controllo per gli ospiti, ma dopo l'intervallo Harbour City cambia faccia. Al minuto 49 Leo Marchetti pareggia con un tiro da lontano, davvero inatteso. Poi arriva il momento di Dani Kowalski: segna al minuto 62, ancora al minuto 81 e chiude i conti al minuto 90, a due passi dalla porta. Mbeki ha avuto occasioni enormi ma ha trovato muri e parate, mentre Harbour City ha sfruttato ogni spazio. Il protagonista è Dani Kowalski, con 3 gol.",
+  "cites": [
+   "e0600",
+   "e0999",
+   "e1223",
+   "e1552",
+   "e1725",
+   "e1727"
+  ]
+ }
+}

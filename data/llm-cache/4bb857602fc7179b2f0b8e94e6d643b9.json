@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ortega's pressing spell flips the tempo",
+  "text": "Rafa Ortega récupère 3 ballons en 120 secondes (2 interceptions, 1 tacle). Southmere United, mené 1-0, affiche un PPDA de 8.6 contre 8.2, avec chaos 61 et momentum -42 face à Northgate Rovers.",
+  "cites": [
+   "e0887",
+   "e0897",
+   "e0907"
+  ]
+ }
+}

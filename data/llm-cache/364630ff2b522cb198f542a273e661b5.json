@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere 패스는 좋았는데 아쉬워요",
+  "text": "Southmere United가 공을 차분히 돌리다 Jan Novak의 시원한 긴 패스가 Bruno Costa에게 닿았어요! 그런데 Costa가 공을 뒤로 돌려 Nasser Haddad에게 줬고, 기회가 살짝 사라졌네요.",
+  "cites": [
+   "e1296",
+   "e1298"
+  ]
+ }
+}

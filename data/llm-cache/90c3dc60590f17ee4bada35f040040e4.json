@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Reid's regains fuel Ironvale counters",
+  "text": "Callum Reid wins possession 3 times in 120 seconds, via a tackle and 2 interceptions. Ironvale Athletic hold 40% possession yet lead xG 0.89 to 0.04 at 0-0, with momentum at -8.",
+  "cites": [
+   "e0201",
+   "e0220",
+   "e0243"
+  ]
+ }
+}

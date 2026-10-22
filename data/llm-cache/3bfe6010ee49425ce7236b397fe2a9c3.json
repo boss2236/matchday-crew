@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers ধৈর্য ধরে লাইন ভাঙল",
+  "text": "Northgate Rovers বল নিজেদের পায়ে রেখেছে। চাপের মধ্যেও Sven Dahl দারুণ এক পাস বাড়াল Andres Vega-র দিকে, আর Vega বল নিয়ে এগিয়ে গেল। এখনও গোলের সুযোগ আসেনি, তবে নিয়ন্ত্রণ ওদেরই।",
+  "cites": [
+   "e0115",
+   "e0116"
+  ]
+ }
+}

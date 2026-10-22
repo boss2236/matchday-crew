@@ -1,0 +1,15 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Gol! Oscar Blum bikin Northgate unggul",
+  "text": "Gabe Moreno mengirim bola panjang ke Emre Kaya, yang berlari membawa bola sendiri, lalu memberi umpan manis. Oscar Blum menyelesaikannya tanpa gangguan. Northgate Rovers unggul 1-0!",
+  "cites": [
+   "e0422",
+   "e0423",
+   "e0424",
+   "e0425",
+   "e0426",
+   "e0427"
+  ]
+ }
+}

@@ -1,15 +1,16 @@
 {
- "model": "openai:openai/gpt-oss-20b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Momentum swing after interception",
-  "text": "The intercepted pass by Gabe Moreno at 66:22 tipped Northgate into chaos, dropping momentum to -27 and inflating chaos to 46, while Ironvale’s possession edge widened to 53%.",
+  "headline": "Northgate lose grip despite possession edge",
+  "text": "Northgate trail 1-0 with momentum at -27 and chaos at 46. Gabe Moreno's 63.1-length pass, difficulty 82, was intercepted, then Ilan Cohen's 22.6 pass to Oscar Blum rebuilt progress. Patient possession is being tested by Ironvale's xG of 1.15.",
   "tags": [
    "momentum",
    "chaos",
-   "control"
+   "possession"
   ],
   "cites": [
-   "e1229"
+   "e1229",
+   "e1243"
   ]
  }
 }

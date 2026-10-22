@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic: contre direct, momentum à 29",
+  "text": "Ironvale Athletic mène 1-0 : Callum Reid vers Luca Romero (46.2 m, difficulté 58), puis Romero vers Marco Silvan (62.6 m, difficulté 80, 67.4 km/h). Chaos à 62, momentum à 29.",
+  "cites": [
+   "e1464",
+   "e1465",
+   "e1468",
+   "e1469"
+  ]
+ }
+}

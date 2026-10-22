@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City perd le fil du jeu",
+  "text": "Quelle séquence mouvementée ! Mateo Ruiz tente une passe sous pression et fait avancer son équipe, mais le long ballon de Leo Marchetti vers Yusuf Demir est intercepté. Le match s'emballe à 0-0.",
+  "cites": [
+   "e0671",
+   "e0672",
+   "e0679"
+  ]
+ }
+}

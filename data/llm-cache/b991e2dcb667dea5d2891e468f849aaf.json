@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United、プレスで2-0を維持",
+  "text": "Southmere Unitedは120秒で3回ボール奪取。Tariq Azizと Bruno Costaのタックル、67:31のLiam Doyleのインターセプト。xG 1.81対0.57、chaos 75の中でも2-0を守る。",
+  "cites": [
+   "e1408",
+   "e1414",
+   "e1445"
+  ]
+ }
+}

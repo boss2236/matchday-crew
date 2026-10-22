@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic 1-0, 효율이 점유를 이기다",
+  "text": "Northgate Rovers가 점유율 53%, 슈팅 9회로 앞섰지만 xG는 0.86. Ironvale Athletic은 직접 역습으로 xG 1.42를 쌓았고, PPDA 8.8 속에서도 1-0을 지켰다. 모멘텀 7.",
+  "cites": [
+   "e1700"
+  ]
+ }
+}

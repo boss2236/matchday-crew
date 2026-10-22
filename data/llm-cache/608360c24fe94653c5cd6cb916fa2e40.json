@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate가 압박 속에서 길을 열었어요",
+  "text": "Northgate Rovers가 공을 69% 가졌어요. Sven Dahl이 압박을 받으면서도 Andres Vega에게 길게 찔러 줬고, 수비 라인이 흔들렸어요. 아직 슈팅은 없지만 분위기는 좋아요!",
+  "cites": [
+   "e0115",
+   "e0116"
+  ]
+ }
+}

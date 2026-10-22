@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Aziz conclut une séquence de 19 passes",
+  "text": "Southmere United enchaîne 19 passes de construction contre le pressing de Harbour City (PPDA 6.8). Costa trouve Aziz (difficulté 59), puis Martin le relance : frappe à 1.2 m, xG 0.931, 1-0 à 45+3'.",
+  "cites": [
+   "e1010",
+   "e1012",
+   "e1013",
+   "e1014"
+  ]
+ }
+}

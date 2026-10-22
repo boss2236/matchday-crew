@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United 一直在往回传",
+  "text": "Southmere United 拿着球,可 Rafa Ortega 传给 Kwame Mensah 的长传被断下了。之后两脚传球也都是往回传,Harbour City 的逼抢让他们不敢向前,场面有点乱。",
+  "cites": [
+   "e0355",
+   "e0362",
+   "e0363"
+  ]
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Tariq Aziz afunga mabao matatu, Southmere United yaishinda Harbour City",
+  "text": "Mchezo ulianza kwa kasi, na Tariq Aziz wa Southmere United alikaribia kufunga mapema, lakini kipa aliokoa. Hakukata tamaa. Kabla ya mapumziko, Joel Martin alimpa pasi nzuri, naye Tariq Aziz akafunga bao la kwanza. Kipindi cha pili, Bruno Costa alimtengenezea nafasi, na Tariq Aziz akaongeza bao la pili. Harbour City walijaribu kujibu, lakini nafasi zao hazikuwa hatari sana. Dakika ya 87, Joel Martin alinyakua mpira kutoka kwa wapinzani, akampasia Tariq Aziz, naye akamaliza kazi kwa bao la tatu. Matokeo yalikuwa 3-0. Southmere United walishinda kwa sababu walitumia nafasi zao vizuri na kuwabana wapinzani mara kwa mara. Mchezaji bora ni Tariq Aziz, mfungaji wa mabao yote matatu.",
+  "cites": [
+   "e0077",
+   "e1012",
+   "e1014",
+   "e1285",
+   "e1287",
+   "e1849",
+   "e1851",
+   "e1950"
+  ]
+ }
+}

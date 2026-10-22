@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United ribalta il ritmo!",
+  "text": "Che pressione! Southmere United ha riconquistato il pallone 3 volte in due minuti, con Liam Doyle, Tariq Aziz e Rafa Ortega. Northgate Rovers fatica a costruire il suo gioco paziente, e la gara è ancora 0-0.",
+  "cites": [
+   "e0306",
+   "e0328",
+   "e0341"
+  ]
+ }
+}

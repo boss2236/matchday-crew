@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City সময় কাটাচ্ছে, লিড আগলে",
+  "text": "Harbour City এখন তাড়াহুড়ো করছে না। Leo Marchetti আর Mateo Ruiz বল পেছনে-পাশে ঘুরিয়ে খেলাটা ঠান্ডা করছে। ২-১ লিড ধরে রাখতে ঝুঁকির বদলে নিয়ন্ত্রণই তাদের পছন্দ।",
+  "cites": [
+   "e1528",
+   "e1531",
+   "e1532"
+  ]
+ }
+}

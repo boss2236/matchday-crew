@@ -1,18 +1,14 @@
 {
- "model": "openai:openai/gpt-oss-20b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Chaos Drives Momentum Swing",
-  "text": "Northgate’s rapid passes and high‑speed carries overwhelm Ironvale, turning a 70% possession advantage into a -65 momentum swing, as chaos spikes to 43.",
+  "headline": "Northgate's patient play swings momentum away",
+  "text": "Northgate hold 70% possession and complete safe passes, but Kai Nakamura's pass to Oscar Blum was intercepted at 05:55. With momentum at -65 and chaos at 43, a controlled spell turned into a turnover for Ironvale's counters.",
   "tags": [
    "momentum",
-   "chaos",
-   "pressing"
+   "possession",
+   "counter"
   ],
   "cites": [
-   "e0091",
-   "e0092",
-   "e0096",
-   "e0097",
    "e0098",
    "e0099"
   ]

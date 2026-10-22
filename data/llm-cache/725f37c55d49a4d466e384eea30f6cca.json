@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City empurra, mas segue atrás",
+  "text": "Que ataque rápido do Harbour City! Mateo Ruiz lançou Dani Kowalski, que partiu para dentro da área e finalizou, mas o chute foi bloqueado. O time perde por 0-1 e continua a pressionar.",
+  "cites": [
+   "e0890",
+   "e0891",
+   "e0893"
+  ]
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kaya arranca e Blum faz o golo!",
+  "text": "Emre Kaya correu com a bola, lançou Oscar Blum com um passe longo e o Northgate Rovers marcou. Vence por 1-0, mas o jogo está mais solto e o Southmere United aperta.",
+  "cites": [
+   "e0423",
+   "e0424",
+   "e0425",
+   "e0426",
+   "e0427"
+  ]
+ }
+}

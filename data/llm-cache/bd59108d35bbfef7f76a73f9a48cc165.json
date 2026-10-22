@@ -1,0 +1,17 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic تفوز 1-0 على Northgate Rovers بفضل Zeke Mbeki",
+  "text": "انتهت المباراة 1-0 لصالح Ironvale Athletic رغم استحواذ Northgate Rovers بنسبة 53%. بدأ Northgate بالسيطرة، وأضاع Oscar Blum فرصة xG 0.394 من مسافة 4 فتصدّى لها الدفاع في الدقيقة 26. وبعد دقيقة واحدة سجّل Zeke Mbeki هدف الفوز من مسافة 2 بقيمة xG 0.829. ضغط Ironvale بسلسلات استعادة متتالية، مع Callum Reid وHiro Tanaka، رغم PPDA 8.8 مقابل 7.9. أنهى Ironvale بـ xG 1.42 مقابل 0.86، و15 تدخلاً ناجحاً مقابل 11. كان Mbeki نجم اللقاء بهدف وxG 1.39، وانتهت المباراة بزخم 7.",
+  "cites": [
+   "e0461",
+   "e0484",
+   "e0485",
+   "e0603",
+   "e0855",
+   "e1363",
+   "e1437",
+   "e1700"
+  ]
+ }
+}

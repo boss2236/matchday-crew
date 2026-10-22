@@ -1,17 +1,16 @@
 {
- "model": "openai:openai/gpt-oss-120b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Harbour City’s Press Falters Amid Chaos",
-  "text": "At 38’, Harbour City’s momentum sits at 27 while chaos spikes to 46, as a series of risky passes (e0695, e0722, e0724) fail to break the deadlock, highlighting loss of control despite high‑press intent.",
+  "headline": "Harbour City losing control while trailing",
+  "text": "Harbour City trail 0-1 with momentum at 27 and chaos at 46. Their long, risky passes, like Leo Marchetti's intercepted ball in e0725 and Jonah Pike's out-of-play pass in e0734, hand possession back to Ironvale.",
   "tags": [
-   "pressing",
    "momentum",
-   "control"
+   "chaos",
+   "pass"
   ],
   "cites": [
-   "e0695",
-   "e0722",
-   "e0724"
+   "e0725",
+   "e0734"
   ]
  }
 }

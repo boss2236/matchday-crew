@@ -1,20 +1,18 @@
 {
- "model": "openai:openai/gpt-oss-120b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Late Chaos Undermines Southmere’s Push",
-  "text": "At 90+1', Southmere’s momentum drops to -33 and chaos spikes to 55, yet a series of rapid passes and carries (e1690‑e1697) shows they’re still trying to control the game despite the unfavorable swing.",
+  "headline": "Southmere chase it, Northgate hold on",
+  "text": "Trailing 1-0 at 90+1', Southmere United recycle between Rafa Ortega, Bruno Costa and Tariq Aziz, and a backward 13.1 pass shows the lack of penetration. Chaos is 55 and momentum is -33, so Northgate Rovers are still in control.",
   "tags": [
    "momentum",
    "chaos",
    "control"
   ],
   "cites": [
-   "e1690",
    "e1692",
    "e1693",
    "e1694",
-   "e1695",
-   "e1697"
+   "e1695"
   ]
  }
 }

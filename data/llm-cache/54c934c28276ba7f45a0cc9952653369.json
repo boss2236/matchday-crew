@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City roda a bola, mas sem perigo",
+  "text": "O Harbour City trocou passes com calma e Arjun Mehta chutou de longe, mas o goleiro defendeu. Foi um remate fraco, sem muito perigo. Ainda está 0-0.",
+  "cites": [
+   "e0351",
+   "e0352",
+   "e0353"
+  ]
+ }
+}

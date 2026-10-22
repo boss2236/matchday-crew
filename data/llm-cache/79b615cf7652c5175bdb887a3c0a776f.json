@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Oscar Blum vergibt aus fünf Metern",
+  "text": "Oh nein! Oscar Blum steht ganz nah vor dem Tor, wird bedrängt und schießt vorbei. Northgate Rovers führen zwar mit 1-0, aber so bleibt es für Southmere United spannend.",
+  "cites": [
+   "e1205"
+  ]
+ }
+}

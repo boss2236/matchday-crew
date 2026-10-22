@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic gana 1-0 con xG superior",
+  "text": "Northgate Rovers tuvo 53% de posesión y 9 tiros, pero Ironvale Athletic generó mejor: xG 1.42 contra 0.86. Con PPDA de 8.8 y contragolpes directos, el 1-0 final premia la eficiencia.",
+  "cites": [
+   "e1700"
+  ]
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate-এর নিয়ন্ত্রণ, momentum ভারসাম্যপূর্ণ",
+  "text": "Northgate Rovers 1-0 এগিয়ে, xG 0.67 বনাম 0.16, PPDA 8.3। Kai Nakamura থেকে Oscar Blum-এ 35.3 মিটার, difficulty 61 পাস; তবু momentum 46, chaos 48।",
+  "cites": [
+   "e0553",
+   "e0556"
+  ]
+ }
+}

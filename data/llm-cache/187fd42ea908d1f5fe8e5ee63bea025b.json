@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athleticのロングボール、混沌を招く",
+  "text": "Ivo Petrovの44.5距離・難易度95のパスはインターセプト。直後にHiro Tanakaの41.2・難易度89がZeke Mbekiへ通り、xG 0.02のシュートは枠外。momentum -53、chaos 64。",
+  "cites": [
+   "e1059",
+   "e1067",
+   "e1068"
+  ]
+ }
+}

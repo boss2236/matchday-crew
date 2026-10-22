@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Rovers launch a huge ball to escape trouble",
+  "text": "Northgate Rovers were hemmed in, then Sven Dahl sent a giant pass to Emre Kaya that rocketed them forward. Kaya quickly found Oscar Blum. It's scrappy, wild play, not calm control.",
+  "cites": [
+   "e0989",
+   "e0990"
+  ]
+ }
+}

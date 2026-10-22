@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere drängt, aber der Pass geht ins Aus",
+  "text": "Southmere United hält den Ball ruhig und sicher in den eigenen Reihen. Dann will Bruno Costa einen weiten Ball zu Joel Martin spielen, doch der fliegt ins Aus. Schade, aber der Druck bleibt!",
+  "cites": [
+   "e0413",
+   "e0412"
+  ]
+ }
+}

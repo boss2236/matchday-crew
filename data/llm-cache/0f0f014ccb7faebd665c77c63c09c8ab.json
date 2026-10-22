@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Rovers baskıdan uzun pasla kurtuldu!",
+  "text": "Northgate Rovers sıkışmıştı ama Sven Dahl'ın uzun topu Emre Kaya'yı buldu, Kaya da hemen Oscar Blum'a uzattı. Düzenli oyun değil, kaos içinden çıkan müthiş bir hamle! 43.3 metrelik pas.",
+  "cites": [
+   "e0989",
+   "e0990"
+  ]
+ }
+}

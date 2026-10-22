@@ -1,0 +1,15 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic s'impose 1-0 face à Northgate Rovers",
+  "text": "Ironvale Athletic bat Northgate Rovers 1-0 en bloc bas et contres directs, malgré 47% de possession contre 53%. Au minute 26, Oscar Blum voit sa frappe à 4 m bloquée (0.394 xG). Une minute plus tard, Zeke Mbeki ouvre le score d'un tir à 79.8 km/h, 0.829 xG, à 2 m du but (e0485). Northgate Rovers, plus propre (85% de passes précises), n'a généré que 0.86 xG contre 1.42 pour Ironvale Athletic. Les pressing spells de Callum Reid (3 récupérations en 120 s, minute 33) et de Hiro Tanaka (minute 73) ont étouffé la relance adverse. Mbeki, 1 but et 1.39 xG, est l'homme du match. Score final : 1-0 (e1700).",
+  "cites": [
+   "e0461",
+   "e0484",
+   "e0485",
+   "e0603",
+   "e1363",
+   "e1700"
+  ]
+ }
+}

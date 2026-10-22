@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City schlägt per Konter zum 4-1 zu",
+  "text": "Nach dem Ballgewinn per Interception (e1715) spielt Mateo Ruiz einen Pass mit 21.6 Raumgewinn und Schwierigkeit 48 (e1722). Dani Kowalski vollendet mit 0.79 xG zum 4-1 (e1725). PPDA: 8.5.",
+  "cites": [
+   "e1715",
+   "e1722",
+   "e1725"
+  ]
+ }
+}

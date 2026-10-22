@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere win the ball back again and again",
+  "text": "Southmere United keep snatching the ball back, with Liam Doyle's interception at 67:31 the latest. Those steals are helping them protect their 2-0 lead against Harbour City.",
+  "cites": [
+   "e1408",
+   "e1414",
+   "e1445"
+  ]
+ }
+}

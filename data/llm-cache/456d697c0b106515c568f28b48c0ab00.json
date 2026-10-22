@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City、ロングパスで試合が荒れ模様",
+  "text": "Harbour Cityのロングパスが相手に止められ、試合は落ち着かない展開に。それでもMateo Ruizが強い寄せの中で前へ運び、Yusuf Demirにつなげました。まだ0-0です。",
+  "cites": [
+   "e0671",
+   "e0672",
+   "e0679"
+  ]
+ }
+}

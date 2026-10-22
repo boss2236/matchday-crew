@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City slice through in seconds",
+  "text": "Harbour City flew forward! Sami Okafor's long pass started it, Yusuf Demir, Mateo Ruiz and Dani Kowalski kept it moving, and nobody got near them. Kowalski's shot was saved, but what a move.",
+  "cites": [
+   "e0838",
+   "e0840",
+   "e0842",
+   "e0843"
+  ]
+ }
+}

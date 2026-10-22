@@ -1,12 +1,12 @@
 {
- "model": "openai:openai/gpt-oss-120b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Rovers seal win at death",
-  "text": "At 90+5', Northgate Rovers clinch 1‑0, confirming their patient possession dominance (55% possession, 83% pass accuracy) while momentum sits at –63 and chaos peaks at 56, highlighting control over a chaotic finale.",
+  "headline": "Rovers edge it despite Southmere's territory",
+  "text": "Northgate Rovers hold 1-0 with 1.18 xg to 0.9, even though Southmere United had 57 final third entries to 42. Chaos at 56 and momentum at -63 show a tense, late-leaning finish.",
   "tags": [
    "control",
-   "momentum",
-   "chaos"
+   "chaos",
+   "momentum"
   ],
   "cites": [
    "e1784"

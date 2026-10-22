@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere'in baskısı tempoyu çeviriyor",
+  "text": "Southmere United 120 saniyede 3 top kazanımı yaptı: Liam Doyle, Tariq Aziz, Rafa Ortega araya girdi. Momentum -40, kaos 61; xG Southmere 0.16, Northgate Rovers 0.11, skor 0-0.",
+  "cites": [
+   "e0306",
+   "e0328",
+   "e0341"
+  ]
+ }
+}

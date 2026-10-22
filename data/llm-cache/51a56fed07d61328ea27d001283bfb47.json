@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United pressen Northgate Rovers aus dem Rhythmus",
+  "text": "Southmere United gewinnt in 120 Sekunden 3 Mal den Ball zurück: Liam Doyle, Tariq Aziz, Rafa Ortega per Interception. Chaos 61, Momentum -40, xG 0.16 zu 0.11 beim 0-0.",
+  "cites": [
+   "e0306",
+   "e0328",
+   "e0341"
+  ]
+ }
+}

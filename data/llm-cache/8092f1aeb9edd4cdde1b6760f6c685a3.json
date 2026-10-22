@@ -1,19 +1,18 @@
 {
- "model": "openai:openai/gpt-oss-20b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Tariq's 59th‑minute strike seals control",
-  "text": "Southmere’s possession change at 58:35, followed by a 36‑meter pass and a 34‑meter finish, shifts momentum, reducing chaos and extending their 2‑0 lead.",
+  "headline": "Quick counter punishes Harbour City's press",
+  "text": "Felipe Cruz's tackle won the ball, and two passes later Tariq Aziz scored from 8.2 metres, unpressured, making it 2-0. A high press that leaves space behind got hit with only 2 build-up passes.",
   "tags": [
-   "control",
-   "momentum",
-   "passing"
+   "counter",
+   "pressing",
+   "speed"
   ],
   "cites": [
    "e1282",
    "e1283",
    "e1285",
-   "e1286",
-   "e1287"
+   "e1286"
   ]
  }
 }

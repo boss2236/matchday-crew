@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers 점유 지속, 위협은 아직",
+  "text": "Oscar Blum의 0.09 xG 슈팅(9.5m) 이후 Northgate Rovers는 압박 없는 패스 순환을 이어간다. Kai Nakamura의 37.1m 패스 난이도 54, momentum -26으로 1-0 열세 속 위협은 제한적이다.",
+  "cites": [
+   "e0782",
+   "e0789",
+   "e0791",
+   "e0793"
+  ]
+ }
+}

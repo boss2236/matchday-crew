@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City's risky long balls cede possession",
+  "text": "Harbour City trail 0-1, momentum 27, chaos 46, xG 0.16 vs 1.63. Leo Marchetti's 60.3m pass (difficulty 73) was intercepted in e0725; Jonah Pike's 40m ball (difficulty 64) went out in e0734.",
+  "cites": [
+   "e0725",
+   "e0734"
+  ]
+ }
+}

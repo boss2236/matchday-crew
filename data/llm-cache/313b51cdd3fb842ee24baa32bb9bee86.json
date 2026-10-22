@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kowalski conclut après 20 secondes sans pression",
+  "text": "Harbour City, de la touche à 80:07 au but à 80:27 : trois passes sans pression, dont Pike→Marchetti (difficulté 45). Kowalski frappe à 14.1 m, xG 0.057, 71.6 km/h. 3-1.",
+  "cites": [
+   "e1545",
+   "e1547",
+   "e1550",
+   "e1551",
+   "e1552"
+  ]
+ }
+}

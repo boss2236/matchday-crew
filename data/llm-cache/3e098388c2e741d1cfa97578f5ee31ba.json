@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere's xG 0.68 edge amid chaos 66",
+  "text": "Southmere United lead xG 0.68 to 0.17 with 61% possession and PPDA 5.7, yet momentum is 40 and chaos 66. Tariq Aziz's pressured 55.1 pass to Dmitri Volkov carries difficulty 73.",
+  "cites": [
+   "e0142",
+   "e0144"
+  ]
+ }
+}

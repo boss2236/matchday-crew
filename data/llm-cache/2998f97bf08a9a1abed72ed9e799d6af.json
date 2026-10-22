@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United、3-0で完勝!",
+  "text": "試合終了!ボールを持つ時間は互角でも、Southmere Unitedはチャンスをきっちり決めきりました。Harbour Cityを相手に、決める力の差が出て3-0の勝利です!",
+  "cites": [
+   "e1950"
+  ]
+ }
+}

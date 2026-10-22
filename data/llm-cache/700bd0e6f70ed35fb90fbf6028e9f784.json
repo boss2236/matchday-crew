@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere reagem com um passe ousado",
+  "text": "O Southmere perde por 1-0, mas depois de um passe cortado, Alfie Grant, mesmo pressionado, lançou um passe longo para Joel Martin e levou a equipa bem para a frente. Que coragem!",
+  "cites": [
+   "e0703",
+   "e0713"
+  ]
+ }
+}

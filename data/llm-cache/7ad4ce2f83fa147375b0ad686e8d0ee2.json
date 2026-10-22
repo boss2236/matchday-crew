@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic 逼抢连续断球夺回控制",
+  "text": "Ironvale Athletic 在120秒内完成3次拦截,Ivo Petrov 于66:40收尾。球队PPDA 9.9,xG 1.68 对 0.41,虽以2-1落后,动能值16,正重新掌控节奏。",
+  "cites": [
+   "e1263",
+   "e1276",
+   "e1297"
+  ]
+ }
+}

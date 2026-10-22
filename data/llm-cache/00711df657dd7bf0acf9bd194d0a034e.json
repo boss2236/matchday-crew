@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City perd le fil en étant mené",
+  "text": "Harbour City mène 0-1... non : mené 0-1, momentum 27, chaos 46, xG 0.16 contre 1.63. Les longues passes de Leo Marchetti (e0725, difficulté 73, 60.3 m, interceptée) et de Jonah Pike (e0734, difficulté 64, sortie) rendent le ballon.",
+  "cites": [
+   "e0725",
+   "e0734"
+  ]
+ }
+}

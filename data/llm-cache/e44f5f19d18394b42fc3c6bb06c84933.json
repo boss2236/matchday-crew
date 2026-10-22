@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City 2-1 리드, 모멘텀 28",
+  "text": "Harbour City는 Marchetti의 42.9 압박 하 패스(난이도 61)로 탈출한 뒤 Pike가 25.7 전진 패스로 Kowalski를 찾았다. 2-1 리드지만 모멘텀 28, 혼돈 55, xG는 0.41 대 1.68.",
+  "cites": [
+   "e1326",
+   "e1331",
+   "e1330"
+  ]
+ }
+}

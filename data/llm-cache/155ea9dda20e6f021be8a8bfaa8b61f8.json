@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale recuperano palla, Mbeki chiude il giro",
+  "text": "Tre intercetti in 120 secondi per Ironvale Athletic, l'ultimo di Zeke Mbeki, spezzano il possesso di Northgate Rovers. Sull'1-0 l'xG è 1.14 contro 0.68: il contropiede diretto pesa.",
+  "cites": [
+   "e0900",
+   "e0928",
+   "e0935"
+  ]
+ }
+}

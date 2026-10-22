@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale ruba palla tre volte!",
+  "text": "Che pressione, Ironvale Athletic! Con Luca Romero, Marco Silvan e Callum Reid ha preso palla tre volte in due minuti, davanti a un Northgate Rovers paziente. Il contropiede è sempre pronto!",
+  "cites": [
+   "e0564",
+   "e0581",
+   "e0603"
+  ]
+ }
+}

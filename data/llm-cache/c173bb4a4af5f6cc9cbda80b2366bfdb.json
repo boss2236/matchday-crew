@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Aziz trifft kurz vor der Pause",
+  "text": "Was für ein Moment! Southmere United lässt den Ball geduldig laufen, Joel Martin spielt auf Tariq Aziz, und der schiebt aus nur 1.2 Metern ein. Kurz vor der Pause steht es 1-0!",
+  "cites": [
+   "e1012",
+   "e1013",
+   "e1014"
+  ]
+ }
+}

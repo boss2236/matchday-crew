@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate's 82-difficulty ball costs them control",
+  "text": "Gabe Moreno's 63.1 pass, difficulty 82, was intercepted. Ilan Cohen's 22.6 pass to Oscar Blum (progress 21.8) rebuilt. Northgate Rovers trail 1-0, momentum -27, xG 0.71 against Ironvale Athletic's 1.15.",
+  "cites": [
+   "e1229",
+   "e1243"
+  ]
+ }
+}

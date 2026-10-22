@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere relancent d'une passe audacieuse",
+  "text": "Southmere est mené 1-0, mais Alfie Grant, sous pression, envoie un long ballon à Joel Martin et fait gagner un terrain énorme à son équipe. Quel culot, quel soulagement après cette interception !",
+  "cites": [
+   "e0703",
+   "e0713"
+  ]
+ }
+}

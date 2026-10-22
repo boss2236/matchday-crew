@@ -1,0 +1,15 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Dani Kowalski brilha e Harbour City vira o jogo",
+  "text": "Que jogo, amigo! O Ironvale Athletic começou melhor e Zeke Mbeki abriu o marcador aos 30 minutos, num remate fortíssimo. Parecia que a defesa fechada e os contra-ataques iam funcionar. Mas, logo aos 49 minutos, Leo Marchetti empatou para o Harbour City, e o jogo virou! A equipa da casa pressionou alto, roubou bolas e não largou mais o adversário. Dani Kowalski fez o 2-1 aos 62 minutos, o 3-1 aos 81 e fechou a festa já nos descontos, com o 4-1. Três golos de Kowalski, a estrela da noite! O Ironvale ainda criou chances, mas faltou pontaria. Resultado final: 4-1.",
+  "cites": [
+   "e0600",
+   "e0999",
+   "e1223",
+   "e1552",
+   "e1725",
+   "e1727"
+  ]
+ }
+}

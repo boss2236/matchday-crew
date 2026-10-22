@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic 120초 내 3회 탈취",
+  "text": "Ironvale Athletic이 120초 동안 태클 1회, 인터셉트 2회로 3회 탈취했다. xG 0.84 대 0.44, PPDA 8.5, 혼돈 지수 62, 스코어 1-0이라 역습 위협이 유지된다.",
+  "cites": [
+   "e0564",
+   "e0581",
+   "e0603"
+  ]
+ }
+}

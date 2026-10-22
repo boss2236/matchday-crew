@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City 지배했지만 위협은 낮다",
+  "text": "Harbour City는 압박 없이 패스를 이어갔지만 Arjun Mehta의 슈팅은 25.2 거리, 0.015 xG에 그쳤습니다. 난이도 64 패스 후에도 xG 0.06 대 Ironvale Athletic 0.89, 모멘텀 33입니다.",
+  "cites": [
+   "e0351",
+   "e0352",
+   "e0353"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale s'échappent et font très mal",
+  "text": "Quelle sortie de balle d'Ironvale Athletic ! Owen Lusk envoie un immense long ballon à Marco Silvan et tout bascule : six passes réussies, et le match change de visage à 0-0.",
+  "cites": [
+   "e0138",
+   "e0139",
+   "e0143"
+  ]
+ }
+}

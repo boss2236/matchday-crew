@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic edge Northgate Rovers 1-0",
+  "text": "Full time, 90+2': Ironvale Athletic win 1-0 despite Northgate Rovers' 53 possession and 9 shots. Ironvale's direct counters returned 1.42 xG to 0.86, with PPDA 8.8 against 7.9. Efficiency beat control.",
+  "cites": [
+   "e1700"
+  ]
+ }
+}

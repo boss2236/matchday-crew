@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere: Lange Bälle kosten Momentum",
+  "text": "Bruno Costa (33.3 m, Schwierigkeit 51) und Rafa Ortega (30.3 m, Schwierigkeit 41) werden abgefangen. Momentum 26, Chaos 56, obwohl Southmere United bei xG 0.71 zu 0.27 führt; Harbour Citys PPDA 7.1 erzwingt Fehler.",
+  "cites": [
+   "e0574",
+   "e0584"
+  ]
+ }
+}

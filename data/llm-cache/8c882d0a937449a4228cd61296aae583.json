@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Aziz denied from point-blank range!",
+  "text": "Tariq Aziz had a golden chance right in front of goal for Southmere United, but the keeper pulled off a save! It's still 0-0, though Southmere are bossing the start.",
+  "cites": [
+   "e0077"
+  ]
+ }
+}

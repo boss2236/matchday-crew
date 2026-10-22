@@ -1,0 +1,11 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour City Press Falters",
+  "text": "At 38’, momentum 27, chaos 46; risky passes: Demir 65.1m, diff 83 out; Ruiz 32.7m to Marchetti diff 55 complete; overall PPDA 9.1, xG 0.16.",
+  "cites": [
+   "e0695",
+   "e0724"
+  ]
+ }
+}

@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Contropiede diretto di Ironvale: Mbeki punisce",
+  "text": "Ironvale Athletic recupera da rimessa (e0480): Ivo Petrov lancia Zeke Mbeki con passaggio da 38.2 m, difficoltà 53. Tiro da 2 m, xG 0.829, 1-0. Possesso 45 contro 55, momentum 13.",
+  "cites": [
+   "e0480",
+   "e0481",
+   "e0484",
+   "e0485"
+  ]
+ }
+}

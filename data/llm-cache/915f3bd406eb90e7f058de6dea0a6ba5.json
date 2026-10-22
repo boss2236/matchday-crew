@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United 被压在自家半场",
+  "text": "Northgate Rovers 一直握着球，Southmere United 只能咬牙周旋。Joel Martin 在压力下把球传给 Rafa Ortega，Rafa Ortega 随后带球向前，努力想打开局面！",
+  "cites": [
+   "e0219",
+   "e0220",
+   "e0221"
+  ]
+ }
+}

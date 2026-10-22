@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale'den uzun toplarla büyük tehlike!",
+  "text": "Ade Bamidele'nin 49.5 metrelik uzun pası Zeke Mbeki'ye ulaştı, birkaç pas sonra Mbeki şutunu çekti ama top engellendi. Maç henüz 0-0 ve ortalık oldukça karışık, Harbour City dikkatli olmalı!",
+  "cites": [
+   "e0575",
+   "e0576",
+   "e0577",
+   "e0578"
+  ]
+ }
+}

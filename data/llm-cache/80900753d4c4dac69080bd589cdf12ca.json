@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Marchetti’s Sprint Ignites Harbour City",
+  "text": "In the 13th minute Leo Marchetti burst forward, showing the kind of energy that could turn the game around for Harbour City, and fans are loving it.",
+  "cites": [
+   "e0266"
+  ]
+ }
+}

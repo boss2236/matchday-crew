@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kowalski vollendet mit 0.79 xG",
+  "text": "Ruiz spielt in e1722 einen Pass mit 21.6 Raumgewinn und Schwierigkeit 48, Kowalski vollendet unbedrängt mit 0.79 xG zum 3-1. Momentum 60, Chaos 57, Harbour City presst mit PPDA 8.5.",
+  "cites": [
+   "e1722",
+   "e1723",
+   "e1724"
+  ]
+ }
+}

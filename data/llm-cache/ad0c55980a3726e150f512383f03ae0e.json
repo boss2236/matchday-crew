@@ -1,0 +1,16 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Okafor kesti, Marchetti sayıyı attı!",
+  "text": "Sami Okafor topu kaptı, Harbour City rakibe hiç baskı yaptırmadan üç pas ve bir koşuyla ilerledi. Leo Marchetti 83 km/h hızla vurdu, skor 1-1 oldu!",
+  "cites": [
+   "e0991",
+   "e0994",
+   "e0995",
+   "e0996",
+   "e0997",
+   "e0998",
+   "e0999"
+  ]
+ }
+}

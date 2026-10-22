@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate brechen die Linie auf",
+  "text": "Northgate Rovers haben den Ball fast die ganze Zeit. Dann spielt Sven Dahl trotz Druck einen mutigen Pass auf Andres Vega, und der läuft sofort mit dem Ball weiter. Das macht Lust auf mehr!",
+  "cites": [
+   "e0115",
+   "e0116"
+  ]
+ }
+}

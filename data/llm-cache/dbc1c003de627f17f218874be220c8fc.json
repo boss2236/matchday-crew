@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere lead 1-0 at the break",
+  "text": "Half-time, and Southmere United lead Harbour City 1-0! The sides shared the ball evenly, but Southmere made their chances count, with 3 shots on target to Harbour City's 2. A tight, exciting first half.",
+  "cites": [
+   "e1016"
+  ]
+ }
+}

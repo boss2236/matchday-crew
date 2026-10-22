@@ -1,19 +1,16 @@
 {
- "model": "openai:openai/gpt-oss-120b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Ironvale’s Counter Sparks Lead",
-  "text": "After Marco Silvan’s interception (e0587) and rapid carries, a swift 7‑pass build‑up culminated in Zeke Mbeki’s 96.1 km/h shot (e0599) that broke the game’s -50 momentum, shifting control to Ironvale.",
+  "headline": "Counter from interception breaks the press",
+  "text": "Ironvale, a deep block, turned an interception into a goal: Marco Silvan carried twice, then seven unpressured passes ended with Zeke Mbeki's 96.1 km/h finish. It made 1-0 despite Harbour City's 52% possession.",
   "tags": [
    "counter",
-   "momentum",
-   "control"
+   "finishing",
+   "momentum"
   ],
   "cites": [
    "e0587",
    "e0588",
-   "e0591",
-   "e0593",
-   "e0594",
    "e0597",
    "e0599",
    "e0600"

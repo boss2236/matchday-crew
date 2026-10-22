@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Reid wins the ball back again and again",
+  "text": "Callum Reid is everywhere for Ironvale Athletic! He wins the ball back 3 times in two minutes, stopping Northgate Rovers from settling and keeping that 1-0 lead safe.",
+  "cites": [
+   "e1414",
+   "e1420",
+   "e1437"
+  ]
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "インターセプトから鮮やかなカウンター!",
+  "text": "Ironvale Athletic、ボールを奪うとMarco Silvanが前へ運び、パスをつないでZeke Mbekiがズドン!Harbour Cityにボールを持たれても、1-0と先制です!",
+  "cites": [
+   "e0587",
+   "e0588",
+   "e0597",
+   "e0599",
+   "e0600"
+  ]
+ }
+}

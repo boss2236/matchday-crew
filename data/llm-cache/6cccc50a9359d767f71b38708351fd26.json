@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers يفوزون رغم أرضية Southmere United",
+  "text": "Northgate Rovers يتقدم 1-0 بـ xG 1.18 مقابل 0.9، رغم أن Southmere United سجل 57 دخولاً للثلث الأخير مقابل 42. PPDA عند 8.3 مقابل 7.6، والفوضى 56 والزخم -63.",
+  "cites": [
+   "e1784"
+  ]
+ }
+}

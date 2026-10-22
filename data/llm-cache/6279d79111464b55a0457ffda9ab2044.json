@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour Cityのロングパス、3本被インターセプト",
+  "text": "Harbour Cityの長く速いパスが約1分で3度カットされた。e1111は33.6m・難度56、e1118は43.2m・難度55。xGはIronvale Athletic 1.68対0.35、momentum 35、chaos 55。",
+  "cites": [
+   "e1111",
+   "e1118",
+   "e1128"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Rovers watoka kwenye presha kwa mpira mrefu!",
+  "text": "Northgate Rovers wakiongoza 1-0, walibanwa vibaya, lakini Kai Nakamura alipiga mpira mrefu wa kijasiri kwa Emre Kaya. Presha ikapungua ghafla, na timu ikapumua!",
+  "cites": [
+   "e1531",
+   "e1534",
+   "e1536"
+  ]
+ }
+}

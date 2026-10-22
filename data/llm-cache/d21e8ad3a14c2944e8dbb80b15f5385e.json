@@ -1,0 +1,18 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic Menang 1-0 Lewat Gol Mbeki",
+  "text": "Ironvale Athletic mengalahkan Northgate Rovers 1-0 meski kalah penguasaan bola (47% vs 53%). Northgate membuka dengan operan Kai Nakamura yang diintersep pada menit 6 (kesulitan 48), lalu peluang Oscar Blum (xG 0.394) diblok pada menit 26. Titik balik datang menit 27: Zeke Mbeki mencetak gol dari jarak 2 dengan xG 0.829. Ironvale unggul xG 1.42 berbanding 0.86 dan tampil lebih efektif dalam transisi, dengan 15 tackle berhasil dan tiga pressing spell (menit 33, 49, 73, 77) yang masing-masing mencatat 3 regains. Northgate unggul akurasi operan 85% dan PPDA 7.9 (Ironvale 8.8), tetapi gagal menembus blok rendah. Mbeki menjadi pemain terbaik dengan 1 gol dan xG 1.39.",
+  "cites": [
+   "e0099",
+   "e0461",
+   "e0484",
+   "e0485",
+   "e0603",
+   "e0935",
+   "e1363",
+   "e1437",
+   "e1700"
+  ]
+ }
+}

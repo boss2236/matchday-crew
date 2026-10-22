@@ -1,11 +1,11 @@
 {
- "model": "openai:openai/gpt-oss-120b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Reid fuels Ironvale’s pressing surge",
-  "text": "Callum Reid’s three regain actions by minute 11 intensify Ironvale’s pressing, shifting momentum to -8 while chaos stays high at 37, reflecting a pivotal control surge in a tightly contested match.",
+  "headline": "Reid's pressing wins Ironvale the ball repeatedly",
+  "text": "Callum Reid won possession 3 times in 120 seconds, even though Ironvale hold only 40% possession. Their xg of 0.89 against 0.04 shows those regains feed direct counters at 0-0.",
   "tags": [
    "pressing",
-   "control",
+   "counter",
    "momentum"
   ],
   "cites": [

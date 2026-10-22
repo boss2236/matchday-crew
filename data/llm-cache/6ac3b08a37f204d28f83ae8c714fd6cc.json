@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Roubo de bola e golaço de Tariq Aziz!",
+  "text": "Joel Martin roubou a bola, correu e passou para Tariq Aziz, que chutou de perto e marcou! O Southmere United faz 3-0 sobre o Harbour City em poucos segundos. Que contra-ataque!",
+  "cites": [
+   "e1847",
+   "e1848",
+   "e1849",
+   "e1850",
+   "e1851"
+  ]
+ }
+}

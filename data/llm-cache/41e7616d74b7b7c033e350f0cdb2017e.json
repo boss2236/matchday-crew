@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate controla a bola, mas perde",
+  "text": "O Northgate Rovers tem mais a bola, mas anda de lado e para trás. Sven Dahl recuou a bola mais uma vez, e o Ironvale Athletic segue na frente por 1-0.",
+  "cites": [
+   "e0560",
+   "e0546",
+   "e0551"
+  ]
+ }
+}

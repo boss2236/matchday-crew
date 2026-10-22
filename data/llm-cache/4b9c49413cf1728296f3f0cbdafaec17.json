@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale yaadhibu kwa shambulizi la moja kwa moja",
+  "text": "Ironvale Athletic, wakiwa na possession 45, walifunga sekunde 14 baada ya throw-in: pasi ya Ivo Petrov ya 38.2, difficulty 53, ilimfikia Zeke Mbeki aliyemaliza kutoka 2, xG 0.829. Momentum 13.",
+  "cites": [
+   "e0480",
+   "e0481",
+   "e0484",
+   "e0485"
+  ]
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere keep the ball, nerves everywhere",
+  "text": "Southmere United have the ball and are passing it around nicely, with Tariq Aziz sending a long one back to Dmitri Volkov under pressure. It's 0-0, but this game still feels wild and up for grabs!",
+  "cites": [
+   "e0142",
+   "e0144"
+  ]
+ }
+}

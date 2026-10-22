@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United 전반 종료 직전 선제골",
+  "text": "Southmere United가 19회 빌드업 패스 끝에 Tariq Aziz의 1.2 거리 슈팅, xG 0.931로 1-0을 만들었다. Harbour City의 PPDA 6.8 압박을 넘어선 장면이다.",
+  "cites": [
+   "e1010",
+   "e1012",
+   "e1013",
+   "e1014"
+  ]
+ }
+}

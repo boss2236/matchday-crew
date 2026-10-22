@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere's pressing spell flips tempo",
+  "text": "Southmere United が120秒で3回のボール奪取。Liam Doyle、Tariq Aziz、Rafa Ortega のインターセプトで、Northgate Rovers の保持(60%)を分断。カオス61、モメンタム-40、0-0。",
+  "cites": [
+   "e0306",
+   "e0328",
+   "e0341"
+  ]
+ }
+}

@@ -1,16 +1,15 @@
 {
- "model": "openai:openai/gpt-oss-120b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Southmere’s Momentum Drops Sharply",
-  "text": "At 38:29 Southmere’s momentum fell to -29 with chaos 33 as a pressured 41‑metre pass (e0713) followed a series of low‑progress, high‑speed passes (e0699,e0702), signalling loss of control and rising pressure.",
+  "headline": "Southmere survive pressure with a bold switch",
+  "text": "Southmere trail 1-0 with momentum at -29, and the game is fairly chaotic at 33. After a loose spell that ended with an intercepted pass, Alfie Grant's pressured 41-metre pass to Joel Martin gained 40.9 of progress.",
   "tags": [
    "momentum",
    "chaos",
-   "pressing"
+   "pass"
   ],
   "cites": [
-   "e0699",
-   "e0702",
+   "e0703",
    "e0713"
   ]
  }

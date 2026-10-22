@@ -1,12 +1,12 @@
 {
- "model": "openai:openai/gpt-oss-20b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Ironvale’s 3‑shot pressing burst",
-  "text": "Three interceptions in 120 seconds by Zeke Mbeki shift control to Ironvale, boosting momentum to 33 while Northgate’s chaos rises to 47. The rapid regain of possession underpins Ironvale’s deep‑block counter strategy.",
+  "headline": "Ironvale win the ball back repeatedly",
+  "text": "Ironvale Athletic's three interceptions in 120 seconds, the last by Zeke Mbeki, are disrupting Northgate Rovers' patient possession. At 1-0, with Ironvale's xg at 1.14 against 0.68, their direct counters look dangerous.",
   "tags": [
    "pressing",
-   "momentum",
-   "control"
+   "counter",
+   "momentum"
   ],
   "cites": [
    "e0900",

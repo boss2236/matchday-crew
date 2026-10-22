@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Oscar Blum, 아쉬운 슛이 빗나갔어요!",
+  "text": "Oscar Blum이 수비에 쫓기면서도 골문 가까이에서 힘껏 슛을 날렸지만, 아쉽게 골문을 벗어났어요! 그래도 Northgate Rovers가 1-0으로 앞서고 있어서 아직 경기는 짜릿하게 이어지고 있어요.",
+  "cites": [
+   "e1205"
+  ]
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers、パスが乱れ始めた",
+  "text": "Northgate Rovers は1-0でリード。でもパスがつながらなくなってきました。Ilan Cohen のパスは途中で奪われ、Oscar Blum のパスはラインの外へ。流れが少し危ない感じです。",
+  "cites": [
+   "e0499",
+   "e0510"
+  ]
+ }
+}

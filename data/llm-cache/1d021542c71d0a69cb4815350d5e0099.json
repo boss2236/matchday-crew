@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers asfixian a Southmere United",
+  "text": "¡Qué presión de Northgate Rovers! Kai Nakamura corta el juego con una entrada y una intercepción, y recuperan el balón 3 veces. Así protegen el 1-0 y frenan las bandas rivales.",
+  "cites": [
+   "e0738",
+   "e0757",
+   "e0765"
+  ]
+ }
+}

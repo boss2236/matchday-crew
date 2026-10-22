@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "¡Ironvale se escapa y se lanza!",
+  "text": "¡Qué jugada! Ironvale Athletic aguantó la presión, y Owen Lusk lanzó un pase larguísimo a Marco Silvan que cambió todo. Después, seis pases seguidos y el equipo de Ironvale Athletic empezó a mandar.",
+  "cites": [
+   "e0138",
+   "e0139",
+   "e0143"
+  ]
+ }
+}

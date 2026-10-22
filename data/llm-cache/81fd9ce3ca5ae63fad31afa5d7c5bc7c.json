@@ -1,0 +1,16 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers washinda 1-0 dhidi ya Southmere United",
+  "text": "Northgate Rovers walishinda 1-0 dhidi ya Southmere United. Mchezo ulianza kwa Andres Vega kubeba mpira mita 10.9 dakika ya 7, kisha Rafa Ortega akaongoza presha ya Southmere United (regains 3 dakika ya 19). Hatua ya kuamua ilikuja dakika ya 23: pasi ya Emre Kaya kwa Oscar Blum (ugumu 48), kisha shuti la xG 0.472 likawa bao. Southmere United waliingia final third mara 57 dhidi ya 42, PPDA 7.6 dhidi ya 8.3, lakini xG yao ilikuwa 0.9 dhidi ya 1.18 ya Northgate Rovers. Dakika ya 65 Blum alikosa nafasi ya xG 0.284. Blum, mwenye xG 1.16, ndiye nyota wa mechi. Momentum ya mwisho ilikuwa -63.",
+  "cites": [
+   "e0116",
+   "e0341",
+   "e0426",
+   "e0427",
+   "e0428",
+   "e1205",
+   "e1784"
+  ]
+ }
+}

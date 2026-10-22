@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic dreht das Pressing auf",
+  "text": "Ironvale Athletic holt 3 Ballgewinne in 120 Sekunden, zuletzt Ivo Petrov bei 66:40. PPDA 9.9, xG 1.68 gegen 0.41, Momentum 16: Beim 2-1-Rückstand übernimmt der Außenseiter wieder Kontrolle.",
+  "cites": [
+   "e1263",
+   "e1276",
+   "e1297"
+  ]
+ }
+}

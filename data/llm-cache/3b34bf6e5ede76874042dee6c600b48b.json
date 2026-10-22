@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United récupère trois ballons en 120 secondes",
+  "text": "Southmere United regagne 3 ballons en 120 secondes : 2 interceptions de Tariq Aziz, 1 de Joel Martin. PPDA 8, chaos 68, momentum 31 : Northgate Rovers (xG 1.18) ne s'installe plus.",
+  "cites": [
+   "e1251",
+   "e1261",
+   "e1272"
+  ]
+ }
+}

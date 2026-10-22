@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale juegan tranquilos y ganan impulso",
+  "text": "¡Mira qué calma! Ironvale Athletic enlaza pases sin que nadie les moleste, de Callum Reid a Marco Silvan, luego Zeke Mbeki y Finn Carver. Van ganando 1-0 y el partido se inclina a su favor.",
+  "cites": [
+   "e1111",
+   "e1112",
+   "e1113",
+   "e1115"
+  ]
+ }
+}

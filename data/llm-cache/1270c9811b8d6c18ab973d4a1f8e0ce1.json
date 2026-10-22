@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City 传得漂亮,射门却不危险",
+  "text": "Harbour City 连续传球没被逼抢,最后 Arjun Mehta 远远打门,被门将扑出。看着热闹,其实威胁不大,反倒是 Ironvale Athletic 的机会更好。",
+  "cites": [
+   "e0351",
+   "e0352",
+   "e0353"
+  ]
+ }
+}

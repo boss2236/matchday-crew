@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale topu tekrar tekrar kapıyor!",
+  "text": "Ironvale Athletic topu üç kez rakipten söküp aldı, sonuncusunu Zeke Mbeki yaptı. Northgate Rovers sakin oyununu kuramıyor, Ironvale ise 1-0 önde hızlı kontralara hazır!",
+  "cites": [
+   "e0900",
+   "e0928",
+   "e0935"
+  ]
+ }
+}

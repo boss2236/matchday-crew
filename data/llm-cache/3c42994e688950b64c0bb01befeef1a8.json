@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Bamidele's 49.5 ball triggers Ironvale chaos",
+  "text": "At 0-0, Ade Bamidele's 49.5 pass (difficulty 84) to Zeke Mbeki began a direct sequence ending in his blocked 0.071 xG shot from 11.6. Chaos 67, momentum -25: loose, not controlled.",
+  "cites": [
+   "e0575",
+   "e0576",
+   "e0577",
+   "e0578"
+  ]
+ }
+}

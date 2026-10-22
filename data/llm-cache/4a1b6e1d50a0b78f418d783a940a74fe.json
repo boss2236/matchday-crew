@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere verlieren den Ball mit langen Pässen",
+  "text": "Zweimal schickt Southmere United den Ball weit nach vorn, und zweimal fängt Harbour City ihn ab. Der Schwung kippt, die Partie wird wild – dabei steht es noch 0-0 und Southmere hat die besseren Chancen.",
+  "cites": [
+   "e0574",
+   "e0584"
+  ]
+ }
+}

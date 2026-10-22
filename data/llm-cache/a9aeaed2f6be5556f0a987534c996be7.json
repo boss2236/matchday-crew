@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic تقترب من صدمة Harbour City",
+  "text": "في الدقيقة 2 فقط، Zeke Mbeki وجد نفسه أمام المرمى تقريباً وجهاً لوجه، لكن تسديدته ارتطمت بمدافع! فرصة ذهبية كادت تفاجئ Harbour City رغم استحواذهم على الكرة.",
+  "cites": [
+   "e0041"
+  ]
+ }
+}

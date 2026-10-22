@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale mène à la pause !",
+  "text": "Mi-temps : Ironvale Athletic mène 1-0 face à Northgate Rovers, même avec moins le ballon. Ils défendent bien groupés, puis filent en contre. Simple, direct, et ça marche !",
+  "cites": [
+   "e0857"
+  ]
+ }
+}

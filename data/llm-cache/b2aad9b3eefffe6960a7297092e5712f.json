@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate controllano, momentum in equilibrio",
+  "text": "Northgate Rovers avanti 1-0 con 59 possesso e xG 0.67 contro 0.16; Kai Nakamura trova Oscar Blum con un passaggio da 35.3 m, difficoltà 61. Momentum 46, chaos 48: partita equilibrata.",
+  "cites": [
+   "e0553",
+   "e0556"
+  ]
+ }
+}

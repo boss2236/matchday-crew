@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City push, but Ironvale hold firm",
+  "text": "Harbour Cityが一気に攻め込んだ！Mateo Ruizの長いパスからDani Kowalskiが運んで、シュートまで行ったけど止められちゃった。まだ0-1で、同点はお預けだね。",
+  "cites": [
+   "e0890",
+   "e0891",
+   "e0893"
+  ]
+ }
+}

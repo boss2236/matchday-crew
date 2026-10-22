@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United s'impose 3-0",
+  "text": "Coup de sifflet final ! Southmere United gagne 3-0 contre Harbour City. Le ballon a été partagé à parts égales, mais Southmere a su frapper juste quand il le fallait. Bravo !",
+  "cites": [
+   "e1950"
+  ]
+ }
+}

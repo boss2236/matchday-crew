@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers menahan Southmere United!",
+  "text": "Ilan Cohen baru saja memotong umpan lawan! Itu ketiga kalinya Northgate Rovers merebut bola dalam waktu singkat. Southmere United jadi sulit menyerang dari sayap, dan keunggulan 1-0 tetap aman.",
+  "cites": [
+   "e1425",
+   "e1441",
+   "e1462"
+  ]
+ }
+}

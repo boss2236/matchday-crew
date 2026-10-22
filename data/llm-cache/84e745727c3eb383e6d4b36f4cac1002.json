@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "ضغط Northgate Rovers يخنق Southmere United",
+  "text": "استعاد Northgate Rovers الكرة 3 مرات خلال 120 ثانية بقيادة Kai Nakamura، مع PPDA بقيمة 8.5 مقابل 9.1، وxG بقيمة 0.68 مقابل 0.16، والنتيجة 1-0 في الدقيقة 42.",
+  "cites": [
+   "e0738",
+   "e0757",
+   "e0765"
+  ]
+ }
+}

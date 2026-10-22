@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City menyerang cepat dan rapi!",
+  "text": "Bola mengalir cepat dari Sami Okafor ke Yusuf Demir, Mateo Ruiz, lalu Dani Kowalski. Tanpa ada yang menekan, Dani langsung menembak, tapi kiper sigap menepisnya! Skor masih 0-0.",
+  "cites": [
+   "e0838",
+   "e0840",
+   "e0842",
+   "e0843"
+  ]
+ }
+}

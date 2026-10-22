@@ -1,17 +1,15 @@
 {
- "model": "openai:openai/gpt-oss-120b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Harbour City’s surge reshapes control",
-  "text": "A flurry of rapid passes—e1527, e1528, e1530, e1531, e1532—boosted Harbour City’s momentum to 25 while chaos rose to 45, shifting the game’s control in the 80th minute.",
+  "headline": "Harbour City recycle possession, protect lead",
+  "text": "Harbour City complete five straight unpressured passes, several going backwards (-24.1, -17.9), to slow the game at 2-1 in the 80th minute. Momentum is 25 and chaos 45, so they are choosing control over risk.",
   "tags": [
-   "momentum",
    "control",
-   "chaos"
+   "possession",
+   "momentum"
   ],
   "cites": [
-   "e1527",
    "e1528",
-   "e1530",
    "e1531",
    "e1532"
   ]

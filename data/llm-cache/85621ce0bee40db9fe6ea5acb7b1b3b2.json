@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic تنطلق في هجمة مرتدة سريعة",
+  "text": "Ironvale Athletic يحمي تقدمه 1-0، فيمرر Callum Reid كرة طويلة إلى Luca Romero، ثم إلى Marco Silvan، وبعدها يعود Luca Romero ويقود الكرة بنفسه. المباراة صارت مفتوحة ومتقلبة!",
+  "cites": [
+   "e1464",
+   "e1465",
+   "e1467",
+   "e1468",
+   "e1469"
+  ]
+ }
+}

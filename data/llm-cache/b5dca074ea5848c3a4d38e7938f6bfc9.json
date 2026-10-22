@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale gâche une belle séquence",
+  "text": "Ironvale enchaîne les passes, avec un long ballon de Callum Reid vers Luca Romero. Mais la passe de Romero pour Hiro Tanaka sort en touche. Quel dommage, le 0-0 tient toujours !",
+  "cites": [
+   "e0326",
+   "e0327"
+  ]
+ }
+}

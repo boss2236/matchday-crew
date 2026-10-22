@@ -1,12 +1,12 @@
 {
- "model": "openai:openai/gpt-oss-120b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Harbour City seal dominant finish",
-  "text": "At 90+2', Harbour City's high‑press style culminated in a 4‑1 win, reflecting a momentum of 75 versus chaos 49, confirming control over Ironvale's deep block.",
+  "headline": "Harbour City's finishing beats Ironvale's xG",
+  "text": "Harbour City won 4-1 despite lower xg (1.26 vs 1.76), converting 7 shots on target from 12. Their high press (ppda 8.5 vs 10.3) and 56 final third entries kept momentum at 75.",
   "tags": [
-   "momentum",
-   "control",
-   "finishing"
+   "finishing",
+   "pressing",
+   "momentum"
   ],
   "cites": [
    "e1727"

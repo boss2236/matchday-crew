@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kowalski sentencia con 0.057 xG",
+  "text": "Harbour City, desde un saque de banda, llegó al gol en 20 segundos sin pases presionados. Dani Kowalski batió el bloque bajo de Ironvale Athletic con 0.057 xG desde 14.1 metros: 3-1, minuto 81.",
+  "cites": [
+   "e1545",
+   "e1547",
+   "e1550",
+   "e1551",
+   "e1552"
+  ]
+ }
+}

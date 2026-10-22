@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic 1-0 Northgate Rovers",
+  "text": "終了の笛。Ironvale AthleticはxG 1.42対0.86、ポゼッション47%ながらカウンターで質の高い chances を創出。Northgate Roversは支配率53%、9本のシュートも実らず1-0。",
+  "cites": [
+   "e1700"
+  ]
+ }
+}

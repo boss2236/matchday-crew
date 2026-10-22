@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United: umpan balik di bawah tekanan",
+  "text": "Southmere United unggul xG 0.69 vs 0.27, tetapi chaos 61 dan momentum 35. Umpan Rafa Ortega ke Kwame Mensah (e0355) dicegat, jarak 52.4, progres -40.7, difficulty 52; e0362 progres -24.7 vs PPDA Harbour City 6.9.",
+  "cites": [
+   "e0355",
+   "e0362"
+  ]
+ }
+}

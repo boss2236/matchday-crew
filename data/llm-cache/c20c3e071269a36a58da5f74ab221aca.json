@@ -1,0 +1,21 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Tariq Aziz 帽子戏法 Southmere United 3-0 Harbour City",
+  "text": "Southmere United 3-0 Harbour City。开场第4分钟Tariq Aziz距离2米的xG 0.622单刀被扑出。第45+3分钟Joel Martin传球26.1米助攻，Tariq Aziz在1.2米处打进xG 0.931的破门，1-0，当时momentum为52。第59分钟Bruno Costa直塞后，Tariq Aziz以xG 0.16再入一球。第87分钟Joel Martin抢断后1次传球，Tariq Aziz的xG 0.106攻入第三球。全场Southmere United xG 1.95对0.62，射正7对5，进入final third 62次对52次，PPDA 7.9对7.6。Tariq Aziz 3球、xG 1.88，是全场最佳。",
+  "cites": [
+   "e0077",
+   "e1012",
+   "e1013",
+   "e1014",
+   "e1285",
+   "e1286",
+   "e1287",
+   "e1847",
+   "e1849",
+   "e1850",
+   "e1851",
+   "e1950"
+  ]
+ }
+}

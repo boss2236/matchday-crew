@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Mi-temps : Rovers devant, Southmere territorial",
+  "text": "Northgate Rovers mènent 1-0 avec 0.68 xG contre 0.31. Southmere United domine les entrées dans le dernier tiers (32 contre 26) et les tirs (6 contre 4). PPDA 8.6 contre 9.1, momentum -46.",
+  "cites": [
+   "e0860"
+  ]
+ }
+}

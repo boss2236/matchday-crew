@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere push, but Costa's pass runs out",
+  "text": "Southmere United are on top at 0-0, and Bruno Costa tried a big long ball to Joel Martin, but it sailed out of play. A loose end to some tidy passing!",
+  "cites": [
+   "e0413",
+   "e0412"
+  ]
+ }
+}

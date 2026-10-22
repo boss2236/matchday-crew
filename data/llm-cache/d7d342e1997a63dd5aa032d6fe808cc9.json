@@ -1,19 +1,16 @@
 {
- "model": "openai:openai/gpt-oss-120b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Harbour City’s Press Falters at 58’",
-  "text": "At 57:27 the momentum dropped to 35 while chaos rose to 55 as Harbour City’s high‑press passes (e1110‑e1128) were repeatedly intercepted, ceding control to Ironvale’s deep block.",
+  "headline": "Harbour City's long passes keep getting picked off",
+  "text": "Harbour City's long, fast passes at 1-1 were intercepted three times in under a minute (e1111, e1118, e1128), and Ironvale's xg of 1.68 against 0.35 shows the momentum of 35 is slipping amid chaos of 55.",
   "tags": [
-   "pressing",
+   "momentum",
    "chaos",
-   "momentum"
+   "pass"
   ],
   "cites": [
-   "e1110",
    "e1111",
    "e1118",
-   "e1126",
-   "e1127",
    "e1128"
   ]
  }

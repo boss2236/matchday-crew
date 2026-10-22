@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Dani Kowalski scelle la victoire de Harbour City",
+  "text": "Harbour City récupère le ballon, puis Mateo Ruiz lance Dani Kowalski d'une belle passe. Kowalski ne tremble pas et marque : 4-1 à la 90+1' !",
+  "cites": [
+   "e1715",
+   "e1722",
+   "e1725"
+  ]
+ }
+}

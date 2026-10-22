@@ -1,0 +1,16 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City 4-1 Ironvale Athletic, Kowalski hat-trick",
+  "text": "Ironvale Athletic는 2분 Zeke Mbeki의 xG 0.876 빅찬스가 막히며 출발했고, 30분 Mbeki가 xG 0.188 슛(96.1km/h)으로 0-1을 만들었다. Harbour City는 49분 Leo Marchetti의 xG 0.024 중거리 골로 1-1을 만든 뒤 62분 Dani Kowalski(xG 0.06)와 81분(xG 0.057)로 3-1까지 뒤집었다. 90분 Kowalski가 2.5 거리에서 xG 0.79 골로 4-1을 마무리했다. 총 xG는 Ironvale Athletic 1.76 대 Harbour City 1.26으로 뒤졌지만, 유효슈팅 7 대 4와 PPDA 8.5 대 10.3, 최종 3분의 1 진입 56 대 43이 결과를 갈랐다. 최종 모멘텀은 75. 해트트릭의 Kowalski가 최고 선수다.",
+  "cites": [
+   "e0041",
+   "e0600",
+   "e0999",
+   "e1223",
+   "e1552",
+   "e1725",
+   "e1727"
+  ]
+ }
+}

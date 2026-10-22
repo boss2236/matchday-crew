@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Aziz ouvre le score juste avant la pause",
+  "text": "Southmere United a gardé le ballon avec patience, puis Joel Martin a trouvé Tariq Aziz. Il n'a eu qu'à pousser le ballon au fond : 1-0 à la mi-temps, quel timing !",
+  "cites": [
+   "e1012",
+   "e1013",
+   "e1014"
+  ]
+ }
+}

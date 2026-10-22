@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "O Ironvale rouba a bola outra vez!",
+  "text": "Que pressão do Ironvale Athletic! O Zeke Mbeki roubou a bola mais uma vez e o Northgate Rovers não consegue respirar. Com 3 roubos em 120 segundos, o contra-ataque pode vir a qualquer momento!",
+  "cites": [
+   "e0900",
+   "e0928",
+   "e0935"
+  ]
+ }
+}

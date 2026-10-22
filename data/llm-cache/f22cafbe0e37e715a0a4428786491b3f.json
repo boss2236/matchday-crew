@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate lidera con control frágil",
+  "text": "Northgate Rovers gana 1-0 con 58% de posesión y 0.67 xG, pero su momentum es 26 frente a caos 44. Cohen vio interceptado un pase de 15.1 m (e0499); Oscar Blum sacó fuera uno de 23.3 m (e0510).",
+  "cites": [
+   "e0499",
+   "e0510"
+  ]
+ }
+}

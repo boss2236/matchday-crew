@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Marchetti’s Sprint Sparks Hope",
+  "text": "Leo Marchetti zipped 31.2 km/h for a 7.4‑unit run, showing Harbour City’s push as they chase the lead at minute 44.",
+  "cites": [
+   "e0857"
+  ]
+ }
+}

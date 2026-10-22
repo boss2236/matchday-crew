@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Oscar Blumの一撃でNorthgate Roversが勝利",
+  "text": "ホームのNorthgate Roversが、Southmere Unitedを1-0で下しました。序盤はSouthmere UnitedのRafa Ortegaがボールを奪い返して流れをつかみかけましたが、23分に試合が動きます。Emre Kayaの鋭いパスを受けたOscar Blumが、ゴール前でしっかり決めて先制しました。その後もNorthgate Roversはボールを長く持って落ち着いて試合を進めます。後半、Oscar Blumにもう1点のチャンスがありましたが、シュートは枠の外へ。Southmere Unitedも最後まで攻め続けましたが、同点には届きませんでした。このゴールを決めたOscar Blumが、文句なしの主役です。チャンスの質で少し上回ったことが、この1点差の勝利につながりました。",
+  "cites": [
+   "e0426",
+   "e0428",
+   "e0341",
+   "e1205",
+   "e1784"
+  ]
+ }
+}

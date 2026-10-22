@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate mène 1-0, contrôle fragile",
+  "text": "Northgate Rovers mène 1-0 (xG 0.67 contre 0.16), mais momentum 26 pour chaos 44. Ilan Cohen intercepté (difficulté 15), Oscar Blum sorti en touche (difficulté 23) ; Southmere United compte 13 interceptions, PPDA 8.9.",
+  "cites": [
+   "e0499",
+   "e0510"
+  ]
+ }
+}

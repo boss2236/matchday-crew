@@ -1,11 +1,10 @@
 {
- "model": "openai:openai/gpt-oss-120b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Harbour City dominate after early scare",
-  "text": "The game began with Ironvale pressing forward, Zeke Mbeki firing a powerful early chance that was blocked. A quick pass from Luca Romero set up Mbeki again and he finally broke the deadlock with a fast‑moving strike. Harbour City responded, Leo Marchetti finding the net before half‑time. In the second half Dani Kowalski turned the tide, scoring twice to put Harbour City firmly in control, and then sealed the win with a late finish as the clock ticked over. The visitors could not recover, and the match ended with Harbour City celebrating a comfortable victory.",
+  "headline": "Kowalski Hat-Trick Powers Harbour City Past Ironvale",
+  "text": "Ironvale Athletic came out sharp, and Zeke Mbeki was denied from almost point-blank range in the 2nd minute. He finally broke through in the 30th minute to put Ironvale ahead 1-0. Then the game flipped. Right after the break, Leo Marchetti curled in a surprise equaliser in the 49th minute. Harbour City kept pressing, winning the ball back and pushing forward, and Dani Kowalski struck in the 62nd and 81st minutes to make it 3-1. He added a tap-in at the very death for 4-1. Ironvale made good chances but couldn't finish them, while Harbour City made the most of every opening. Kowalski, with 3 goals, was the star.",
   "cites": [
    "e0041",
-   "e0599",
    "e0600",
    "e0999",
    "e1223",

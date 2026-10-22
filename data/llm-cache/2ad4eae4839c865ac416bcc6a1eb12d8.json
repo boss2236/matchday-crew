@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate 점유율 70%, 모멘텀 -65",
+  "text": "Northgate Rovers 점유율 70%, xG 0. 그러나 05:55 Kai Nakamura의 Oscar Blum 향한 23m 패스(난이도 48)가 차단됐다. 모멘텀 -65, 혼돈 43, Ironvale Athletic 역습 기회다.",
+  "cites": [
+   "e0098",
+   "e0099"
+  ]
+ }
+}

@@ -1,0 +1,15 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City responde com golaço em equipa!",
+  "text": "Que jogada! Sami Okafor arrancou, a bola passou por Yusuf Demir, Dani Kowalski e Leo Marchetti, sem ninguém a apertar, e Marchetti rematou para o golo. O Harbour City empatou!",
+  "cites": [
+   "e0993",
+   "e0994",
+   "e0995",
+   "e0996",
+   "e0997",
+   "e0998"
+  ]
+ }
+}

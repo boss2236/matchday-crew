@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City perd le ballon trois fois",
+  "text": "Les longues passes de Harbour City ne passent pas ! Yusuf Demir et Dani Kowalski se font couper la route, et en moins d'une minute Ironvale Athletic récupère le ballon trois fois.",
+  "cites": [
+   "e1111",
+   "e1118",
+   "e1128"
+  ]
+ }
+}

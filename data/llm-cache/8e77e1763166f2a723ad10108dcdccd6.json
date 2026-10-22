@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate tengono il pallone, partita aperta",
+  "text": "Northgate Rovers sono avanti 1-0 e fanno girare il pallone con calma: Kai Nakamura lancia Oscar Blum, che poi serve Ilan Cohen. Ma Southmere United restano lì, la sfida è ancora tutta da giocare!",
+  "cites": [
+   "e0553",
+   "e0556"
+  ]
+ }
+}

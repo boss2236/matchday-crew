@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City ileri gitti, sonra geri döndü",
+  "text": "Harbour City, Elias Brandt'ın 37.6 ilerleten güzel pasıyla öne atıldı. Ama sonraki paslar geriye gitti ve atak yavaşladı. Skor hâlâ 0-0, topun ritmi şimdilik Southmere United'da.",
+  "cites": [
+   "e0255",
+   "e0259",
+   "e0260"
+  ]
+ }
+}

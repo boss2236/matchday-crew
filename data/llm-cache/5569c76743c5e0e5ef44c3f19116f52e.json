@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City 공은 돌리지만 위협은 약했어요",
+  "text": "Harbour City가 압박 없이 패스를 이어가다 Arjun Mehta가 슈팅했지만 골키퍼가 막았어요. 공은 오래 가졌어도 아직 위협적인 찬스는 아니었죠. 0-0, 팽팽합니다!",
+  "cites": [
+   "e0351",
+   "e0352",
+   "e0353"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale rouba a bola três vezes!",
+  "text": "Que pressão do Ironvale Athletic! Em 2 minutos, Luca Romero, Marco Silvan e Callum Reid tiraram a bola do Northgate Rovers. Com 1-0 no placar, o contra-ataque continua no ar!",
+  "cites": [
+   "e0564",
+   "e0581",
+   "e0603"
+  ]
+ }
+}

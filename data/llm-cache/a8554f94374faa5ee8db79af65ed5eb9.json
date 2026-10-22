@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic recupera tres veces en 120 segundos",
+  "text": "Ironvale Athletic suma 3 recuperaciones en 120 segundos (una entrada y dos intercepciones, la última de Callum Reid) ante Northgate Rovers. Gana 1-0 con xG 0.84 contra 0.44, PPDA 8.5 y caos 62.",
+  "cites": [
+   "e0564",
+   "e0581",
+   "e0603"
+  ]
+ }
+}

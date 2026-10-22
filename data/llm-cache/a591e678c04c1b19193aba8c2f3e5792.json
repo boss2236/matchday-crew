@@ -1,0 +1,16 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Gabe Moreno'nun uzun pasıyla gol geldi",
+  "text": "Gabe Moreno uzun bir pasla Emre Kaya'yı kaçırdı, Kaya topu taşıyıp Oscar Blum'a verdi. Blum rahatça attı ve Northgate Rovers 1-0 öne geçti!",
+  "cites": [
+   "e0422",
+   "e0423",
+   "e0424",
+   "e0425",
+   "e0426",
+   "e0427",
+   "e0428"
+  ]
+ }
+}

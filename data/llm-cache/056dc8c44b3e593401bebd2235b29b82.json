@@ -1,17 +1,17 @@
 {
- "model": "openai:openai/gpt-oss-20b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Southmere’s Momentum Surge",
-  "text": "At 56:07, Southmere United’s 27‑point momentum swing, amid 48 chaos, followed a high‑pressure pass from Joel Martin (e1219) and a key interception (e1221), shifting control to the home side.",
+  "headline": "Southmere leading but losing control",
+  "text": "Southmere lead 1-0, yet momentum sits at 27 and chaos at 48. Joel Martin's pass was intercepted at 55:10, then passes went out at 55:40 and 56:07 against Harbour City's high press (PPDA 7.3).",
   "tags": [
    "momentum",
-   "control",
+   "chaos",
    "pressing"
   ],
   "cites": [
-   "e1219",
    "e1221",
-   "m065"
+   "e1230",
+   "e1234"
   ]
  }
 }

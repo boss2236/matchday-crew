@@ -1,0 +1,16 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Tariq Aziz 帽子戏法,Southmere United 3-0 获胜",
+  "text": "这场比赛一开场,Southmere United 的 Tariq Aziz 就有一次近在咫尺的大好机会,可惜被门将扑出。上半场快结束时,Joel Martin 传球给他,Tariq Aziz 这次一蹴而就,把比分改写成 1-0。下半场刚过不久,Bruno Costa 又送出助攻,Tariq Aziz 再进一球,2-0。临近结束,Joel Martin 在前场抢下球,马上又传给 Tariq Aziz,他第三次破门,3-0。Harbour City 也有射门,但都被扑出,威胁不大。Southmere United 把机会抓得更牢,所以赢得干脆。全场最耀眼的当然是 Tariq Aziz,他一个人包办了 3 个进球。",
+  "cites": [
+   "e0077",
+   "e1013",
+   "e1014",
+   "e1287",
+   "e1850",
+   "e1851",
+   "e1950"
+  ]
+ }
+}

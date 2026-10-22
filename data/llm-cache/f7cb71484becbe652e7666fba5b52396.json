@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United、xG 0.69で優位も終盤は乱れる",
+  "text": "Southmere Unitedはxg 0.69対0.27で0-0、momentum 25、PPDA 8.2。e0413でBruno Costaの難度62、距離48.8のパスがアウトとなり、安全な組み立てが緩く終わった。",
+  "cites": [
+   "e0413",
+   "e0412"
+  ]
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic تفقد الكرة بعد تمريرة صعبة",
+  "text": "أكمل Callum Reid تمريرة بطول 33.4 وصعوبة 50 إلى Luca Romero بتقدم 17.9، لكن تمريرة Romero إلى Hiro Tanaka خرجت. الزخم 26 والفوضى 45 عند 0-0، وxG لإيرونفيل 0.01.",
+  "cites": [
+   "e0326",
+   "e0327"
+  ]
+ }
+}

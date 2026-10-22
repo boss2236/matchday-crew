@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City keep the ball, going nowhere",
+  "text": "Harbour City are 3-0 down and passing it around calmly, with nobody pressing them. But a few of those passes go backwards, so it's all tidy and safe, yet it isn't hurting anyone.",
+  "cites": [
+   "e1926",
+   "e1928",
+   "e1929",
+   "e1930"
+  ]
+ }
+}

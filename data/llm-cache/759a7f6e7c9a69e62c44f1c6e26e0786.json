@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Reid presst, Ironvale kontert bei 0-0",
+  "text": "Callum Reid gewinnt 3 Ballbesitze in 120 Sekunden, obwohl Ironvale Athletic nur 40% Ballbesitz hat. xG 0.89 gegen 0.04, PPDA 13 gegen 9.2, Momentum -8: Konter nach Ballgewinn.",
+  "cites": [
+   "e0201",
+   "e0220",
+   "e0243"
+  ]
+ }
+}

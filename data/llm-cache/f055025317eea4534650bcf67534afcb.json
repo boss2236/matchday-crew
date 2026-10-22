@@ -1,21 +1,19 @@
 {
- "model": "openai:openai/gpt-oss-120b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Harbour City’s decisive press combo",
-  "text": "After a throw‑in, Jonah Pike’s 6.5 km carry and two rapid passes (21.3 m, 23.5 m) created a three‑pass build‑up ending with Dani Kowalski’s 71.6 km/h shot, extending the lead to 3‑1 at 81 min.",
+  "headline": "Unpressured build-up yields low-xG clincher",
+  "text": "Harbour City moved from a throw-in to a goal in 20 seconds, with every pass unpressured. Kowalski's 0.057 xG shot from 14.1 metres still beat Ironvale's deep block, making it 3-1 at 81 minutes.",
   "tags": [
-   "pressing",
-   "possession",
+   "finishing",
+   "control",
    "momentum"
   ],
   "cites": [
    "e1545",
-   "e1546",
    "e1547",
-   "e1548",
-   "e1549",
    "e1550",
-   "e1551"
+   "e1551",
+   "e1552"
   ]
  }
 }

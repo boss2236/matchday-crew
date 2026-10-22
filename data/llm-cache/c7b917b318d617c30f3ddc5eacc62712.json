@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Contre-attaque éclair de Southmere United à 3-0",
+  "text": "Joel Martin intercepte à 86:38, porte 7.3 m, passe de difficulté 35 à Tariq Aziz, qui marque d'une distance de 10 m (xG 0.106). Le pressing de Harbour City (PPDA 7.4) est battu en 7 secondes.",
+  "cites": [
+   "e1847",
+   "e1848",
+   "e1849",
+   "e1850",
+   "e1851"
+  ]
+ }
+}

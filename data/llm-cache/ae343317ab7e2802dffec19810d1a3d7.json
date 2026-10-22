@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere domina el xG pero pierde precisión",
+  "text": "Southmere United lidera el xG 0.69 a 0.27 con momentum 25 y PPDA 8.2. Bruno Costa envió un pase de 48.8 de distancia y dificultad 62 fuera, cerrando una secuencia segura.",
+  "cites": [
+   "e0413",
+   "e0412"
+  ]
+ }
+}

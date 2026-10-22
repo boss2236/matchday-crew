@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale ci prova, ma il tiro finisce fuori",
+  "text": "Ironvale Athletic è sotto 3-1 e cerca la rimonta: un passaggio sotto pressione esce dal campo, poi Zeke Mbeki prova un tiro da lontano, ma la palla finisce fuori. Un gran peccato!",
+  "cites": [
+   "e1635",
+   "e1650"
+  ]
+ }
+}

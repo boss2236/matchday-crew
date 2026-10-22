@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City、ダメ押しの4点目！",
+  "text": "Harbour Cityがボールを奪い、テンポよくつないで、Mateo Ruizの縦への鋭いパスからDani Kowalskiが決めました！試合終了間際、4-1です！",
+  "cites": [
+   "e1715",
+   "e1722",
+   "e1725"
+  ]
+ }
+}

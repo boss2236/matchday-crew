@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic kontert in Sekunden",
+  "text": "Was für ein Tempo! Ironvale Athletic führt 1-0 und schickt den Ball blitzschnell von Callum Reid zu Luca Romero und weiter zu Marco Silvan. Dann prescht Romero selbst mit dem Ball nach vorn.",
+  "cites": [
+   "e1464",
+   "e1465",
+   "e1467",
+   "e1468",
+   "e1469"
+  ]
+ }
+}

@@ -1,0 +1,16 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers 1-0 Southmere United：Blum制胜",
+  "text": "Northgate Rovers主场1-0击败Southmere United。第7分钟Andres Vega带球10.9米、时速26.5 km/h，开局占据主动；第13分钟Rafa Ortega反击，势头转向Southmere United。转折点在第23分钟：Emre Kaya送出难度48的30.1米传球，Oscar Blum在4.3米处以101.4 km/h射门破门，xG 0.472。第65分钟Blum再获xG 0.284的机会，却射偏。全场xG为1.18对0.9，射门均为10次，Southmere United的PPDA 7.6、最终三区进入57次，但未能转化。Blum个人xG 1.16，是全场最佳球员。",
+  "cites": [
+   "e0116",
+   "e0221",
+   "e0426",
+   "e0427",
+   "e0428",
+   "e1205",
+   "e1784"
+  ]
+ }
+}

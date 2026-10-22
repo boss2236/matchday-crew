@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate تقود لكن الكرة تفلت منها",
+  "text": "Northgate Rovers تتقدم 1-0 وتملك الكرة أكثر، لكن تمريراتها صارت مفككة: تمريرة Oscar Blum خرجت من الملعب، وتمريرة Ilan Cohen قطعها الخصم. التقدم لا يزال هشاً.",
+  "cites": [
+   "e0499",
+   "e0510"
+  ]
+ }
+}

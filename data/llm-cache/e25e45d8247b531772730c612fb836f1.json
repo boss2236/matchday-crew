@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City recua com a bola",
+  "text": "Aos 12 minutos, o Harbour City avançou com um grande passe de Elias Brandt para Yusuf Demir, mas depois passou a bola para trás duas vezes. Continua 0-0.",
+  "cites": [
+   "e0255",
+   "e0259",
+   "e0260"
+  ]
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate's 70% possession ends in turnover",
+  "text": "Northgate hold 70% possession, xG 0, but Kai Nakamura's 23m pass to Oscar Blum, difficulty 48, was intercepted at 05:55. Momentum -65, chaos 43; Ironvale's counters get the ball.",
+  "cites": [
+   "e0098",
+   "e0099"
+  ]
+ }
+}

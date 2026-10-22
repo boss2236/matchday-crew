@@ -1,16 +1,15 @@
 {
- "model": "openai:openai/gpt-oss-20b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Harbour City’s last‑minute collapse",
-  "text": "A 90+3' passing chain, starting with Leo Marchetti, saw Harbour City swing momentum by –25, turning a tight 3-0 lead into chaos and losing control as they failed to finish.",
+  "headline": "Harbour City recycle possession while trailing 3-0",
+  "text": "Trailing 3-0 at 90+3', Harbour City string five unpressured completions, but several passes go backwards (progress -23.9, -9.4, -10.5). Momentum sits at -25 with chaos 46, so the late circulation looks controlled yet toothless.",
   "tags": [
-   "momentum",
-   "chaos",
-   "control"
+   "possession",
+   "control",
+   "momentum"
   ],
   "cites": [
    "e1926",
-   "e1927",
    "e1928",
    "e1929",
    "e1930"

@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City、PPDA 8.5で終盤を制圧",
+  "text": "Harbour Cityは120秒で3回ボール奪取。Dani KowalskiとArjun Mehtaのタックル、83:06のYusuf Demirのインターセプト。PPDA 8.5、モメンタム71、3-1でプレスが試合を支配。",
+  "cites": [
+   "e1562",
+   "e1579",
+   "e1587"
+  ]
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kaya lance Blum, Rovers mènent 1-0",
+  "text": "Trois conduites d'Emre Kaya (8.1, 9, 14.2 m) puis une passe de 30.1 m, difficulté 48, libèrent Oscar Blum : but à 0.472 xG, à 4.3 m. Momentum 38, chaos 56.",
+  "cites": [
+   "e0423",
+   "e0424",
+   "e0425",
+   "e0426",
+   "e0427"
+  ]
+ }
+}

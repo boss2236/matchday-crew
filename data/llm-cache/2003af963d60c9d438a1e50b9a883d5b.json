@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour City Press Reset Needed",
+  "text": "At half‑time Harbour City’s xG 0.27 vs Ironvale 1.63, PPDA 9.8 vs 10.8, possession 48% vs 52%, momentum 24, chaos 50 demand tactical shift.",
+  "cites": [
+   "e0897"
+  ]
+ }
+}

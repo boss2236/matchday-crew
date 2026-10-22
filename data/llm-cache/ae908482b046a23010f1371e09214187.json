@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers가 공을 잡고도 끌려가요",
+  "text": "Northgate Rovers가 공을 더 오래 갖고 있지만 1-0으로 지고 있어요. Sven Dahl이 공을 뒤로 돌리며 앞으로 나가는 힘이 자꾸 끊기고 있네요.",
+  "cites": [
+   "e0560",
+   "e0546"
+  ]
+ }
+}

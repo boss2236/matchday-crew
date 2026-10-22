@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ortega no deja respirar al rival",
+  "text": "¡Qué presión de Rafa Ortega! Le quita el balón al Northgate Rovers tres veces en solo 120 segundos, con dos interceptaciones y una entrada. Southmere United pierde 1-0, pero ahora empuja y el partido cambia.",
+  "cites": [
+   "e0887",
+   "e0897",
+   "e0907"
+  ]
+ }
+}

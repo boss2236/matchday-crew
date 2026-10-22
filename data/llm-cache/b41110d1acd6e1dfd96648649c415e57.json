@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City控球，但射门价值极低",
+  "text": "Harbour City连续5次无压迫传球后，Arjun Mehta在25.2距离起脚被扑出，xG仅0.015。0-0下其xG 0.06，Ironvale Athletic为0.89；动量33。",
+  "cites": [
+   "e0351",
+   "e0352",
+   "e0353"
+  ]
+ }
+}

@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic、直線的な攻撃で混沌",
+  "text": "0-0の27:38、Ade Bamidele発Zeke Mbeki行きのパスは距離49.5・難易度84で成功。続くZeke Mbekiのシュートは距離11.6、xG 0.071でブロック。混沌67、momentum -25。",
+  "cites": [
+   "e0575",
+   "e0576",
+   "e0577",
+   "e0578"
+  ]
+ }
+}

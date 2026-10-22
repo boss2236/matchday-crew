@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Rovers wanatoroka shinikizo kwa pasi ndefu!",
+  "text": "Northgate Rovers walibanwa, lakini Sven Dahl alipiga pasi ndefu kwa Emre Kaya, kisha Kaya akampa Oscar Blum. Ni kama kutoroka kwenye msongamano! Mpira umewasogeza mita 36.1 mbele kwa sekunde chache.",
+  "cites": [
+   "e0989",
+   "e0990"
+  ]
+ }
+}

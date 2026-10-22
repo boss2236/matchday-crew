@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kowalski afunga bao zuri Harbour City!",
+  "text": "Harbour City walianza na throw-in, wakapasiana kwa utulivu bila presha yoyote, kisha Dani Kowalski akapiga shuti na kufunga! Ni 3-1 sasa, na Ironvale Athletic wamebaki wakishangaa jinsi ilivyokuwa rahisi.",
+  "cites": [
+   "e1545",
+   "e1547",
+   "e1550",
+   "e1551",
+   "e1552"
+  ]
+ }
+}

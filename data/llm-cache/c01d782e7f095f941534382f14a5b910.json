@@ -1,18 +1,18 @@
 {
- "model": "openai:openai/gpt-oss-20b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Ironvale’s 60‑minute surge",
-  "text": "Callum Reid’s 13.8m carry and rapid 28.9m pass to Marco Silvan set a 30‑point momentum swing, turning a 1‑0 lead into a controlled counter‑attack, keeping chaos at 36.",
+  "headline": "Ironvale build calmly, swing momentum their way",
+  "text": "Ironvale string five unpressured completions from Callum Reid through Marco Silvan and Zeke Mbeki to Finn Carver, riding momentum 30 with chaos only 36. Leading 1-0 on 1.15 xg, they play controlled direct football.",
   "tags": [
    "momentum",
    "control",
-   "counter"
+   "pass"
   ],
   "cites": [
-   "e1110",
    "e1111",
    "e1112",
-   "e1113"
+   "e1113",
+   "e1115"
   ]
  }
 }

@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Rovers rompen la presión con balones largos",
+  "text": "Sven Dahl a Emre Kaya: 43.3 m, 36.1 de progresión, dificultad 83 bajo presión. Kaya conecta con Oscar Blum (38.4 m). Momentum 26, caos 54: oscilación por juego de transiciones, no control paciente.",
+  "cites": [
+   "e0989",
+   "e0990"
+  ]
+ }
+}

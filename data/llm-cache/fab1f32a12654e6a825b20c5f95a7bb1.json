@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate hanno il pallone, ma non pungono",
+  "text": "Northgate Rovers tengono palla, ma Sven Dahl la gira all'indietro invece di far avanzare la squadra. Così Ironvale Athletic resta avanti 1-0 e Northgate non trova la porta.",
+  "cites": [
+   "e0560",
+   "e0546",
+   "e0551"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City joue bien, mais sans danger",
+  "text": "Harbour City fait tourner le ballon tranquillement, puis Arjun Mehta tire de loin et le gardien arrête. Belle maîtrise, mais très peu de danger : 0-0, et Ironvale Athletic reste plus menaçant.",
+  "cites": [
+   "e0351",
+   "e0352",
+   "e0353"
+  ]
+ }
+}

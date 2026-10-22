@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Joel Martin aanzisha shambulizi la kasi!",
+  "text": "Joel Martin alinyakua mpira, akakimbia, kisha akampasia Tariq Aziz, aliyefunga bao kutoka umbali wa 10. Southmere United wanaongoza 3-0, na Harbour City hawakuamini macho yao!",
+  "cites": [
+   "e1847",
+   "e1848",
+   "e1849",
+   "e1850",
+   "e1851"
+  ]
+ }
+}

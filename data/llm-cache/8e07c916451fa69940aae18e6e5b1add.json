@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United: 61% possession, अस्थिर 0-0",
+  "text": "Southmere United के पास 61% possession, xG 0.68 और PPDA 5.7 है, पर momentum 40 और chaos 66 है। Tariq Aziz का pressured 55.1 मीटर पास, difficulty 73, Dmitri Volkov तक पहुँचा।",
+  "cites": [
+   "e0138",
+   "e0142",
+   "e0144"
+  ]
+ }
+}

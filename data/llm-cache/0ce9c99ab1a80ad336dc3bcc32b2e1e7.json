@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City、xG 0.57で劣勢拡大",
+  "text": "76分、0-2のHarbour Cityは支配率51%もxG 0.57対1.81。Leo Marchettiの難度78、距離57.2のYusuf Demir宛パスがアウトとなり、momentum -35、chaos 59。",
+  "cites": [
+   "e1583"
+  ]
+ }
+}

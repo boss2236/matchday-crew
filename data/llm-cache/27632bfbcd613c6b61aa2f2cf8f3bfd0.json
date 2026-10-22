@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Rovers s'échappent d'un long ballon",
+  "text": "Northgate Rovers étouffe sous la pression, mais Kai Nakamura sort tout le monde d'affaire avec une grande passe vers Emre Kaya. Un jeu osé, et la pression retombe d'un coup !",
+  "cites": [
+   "e1531",
+   "e1534",
+   "e1536"
+  ]
+ }
+}

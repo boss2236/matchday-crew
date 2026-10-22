@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere drängt, doch Northgate hält stand",
+  "text": "Southmere United liegt in der Nachspielzeit 1-0 hinten und spielt den Ball hin und her: Rafa Ortega, Bruno Costa, Tariq Aziz. Ein Pass geht sogar zurück. So kommt kein Druck auf das Tor!",
+  "cites": [
+   "e1692",
+   "e1693",
+   "e1694",
+   "e1695"
+  ]
+ }
+}

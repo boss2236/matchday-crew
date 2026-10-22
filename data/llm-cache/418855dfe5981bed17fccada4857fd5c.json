@@ -1,17 +1,17 @@
 {
- "model": "openai:openai/gpt-oss-120b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Rovers seize control in chaotic surge",
-  "text": "At minute 53 the Rovers' high‑difficulty, pressured passes (e0981, e0985, e0989) built progressive momentum, turning a chaotic 54‑chaos state into a controlled 26‑momentum swing, shifting the match’s flow toward possession dominance.",
+  "headline": "Rovers escape pressure with long vertical passes",
+  "text": "Northgate Rovers completed five passes under pressure, with Sven Dahl's 43.3-metre ball to Emre Kaya gaining 36.1 and Kaya finding Oscar Blum. Momentum reads 26 and chaos 54, so this is a swing from scrambling play, not patient control.",
   "tags": [
    "momentum",
-   "control",
+   "chaos",
    "pass"
   ],
   "cites": [
-   "e0981",
-   "e0985",
-   "e0989"
+   "e0989",
+   "e0990",
+   "e0985"
   ]
  }
 }

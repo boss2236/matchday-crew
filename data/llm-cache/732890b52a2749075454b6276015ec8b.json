@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale spreca una bella azione",
+  "text": "Ironvale ha giocato bene la palla: Callum Reid ha lanciato lungo verso Luca Romero. Peccato che il passaggio di Romero per Hiro Tanaka sia finito fuori. Un'occasione buttata via!",
+  "cites": [
+   "e0326",
+   "e0327"
+  ]
+ }
+}

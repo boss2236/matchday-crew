@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers يتقدمون عند الاستراحة",
+  "text": "عند نهاية الشوط الأول، Northgate Rovers متقدمون 1-0، رغم أن Southmere United سيطروا على المنطقة الأخيرة أكثر. يعني الفريق الأقل ضغطاً حصل على الأفضلية، وما زال الشوط الثاني مفتوحاً تماماً!",
+  "cites": [
+   "e0860"
+  ]
+ }
+}

@@ -1,14 +1,16 @@
 {
- "model": "openai:openai/gpt-oss-20b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Southmere’s 3‑point press dominates",
-  "text": "Liam Doyle’s 3‑point pressing spell at 68:31 shifts momentum, forcing 30 interceptions and 18 tackles for Southmere, tightening control in a high‑chaos 75 game.",
+  "headline": "Southmere's pressing spell protects the 2-0 lead",
+  "text": "Southmere United won possession 3 times in 120 seconds, via two tackles and Liam Doyle's interception at 67:31. With chaos at 75, those regains help them hold a 2-0 lead.",
   "tags": [
    "pressing",
-   "momentum",
-   "control"
+   "chaos",
+   "momentum"
   ],
   "cites": [
+   "e1408",
+   "e1414",
    "e1445"
   ]
  }

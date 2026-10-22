@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers pressen Southmere United zurück",
+  "text": "Ilan Cohens Interception ist Northgate Rovers' dritter Ballgewinn in 120 Sekunden. Beim 1-0 in Minute 78 liegt der xG bei 1.18 zu 0.38, die Momentum-Marke steht bei -39.",
+  "cites": [
+   "e1425",
+   "e1441",
+   "e1462"
+  ]
+ }
+}

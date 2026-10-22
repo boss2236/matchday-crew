@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere cierra el partido recuperando balones",
+  "text": "Southmere United gana 3-0 y no suelta el balón: Joel Martin y Tariq Aziz robaron la pelota una y otra vez, y Harbour City se quedó sin aire para intentar remontar.",
+  "cites": [
+   "e1858",
+   "e1889",
+   "e1897"
+  ]
+ }
+}

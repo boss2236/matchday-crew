@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers、猛プレスでボール奪取",
+  "text": "Northgate Rovers がボールを何度も奪い返しています！特に Kai Nakamura がタックルとインターセプトで大活躍。1-0のリードを守りながら、Southmere United の攻めをしっかり止めています。",
+  "cites": [
+   "e0757",
+   "e0765",
+   "e0738"
+  ]
+ }
+}

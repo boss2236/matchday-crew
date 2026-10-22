@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere shut the door late",
+  "text": "Southmere United lead 3-0 and they're not letting Harbour City breathe. Joel Martin and Tariq Aziz keep winning the ball back, so Harbour City never get a real chance to build a comeback.",
+  "cites": [
+   "e1858",
+   "e1889",
+   "e1897"
+  ]
+ }
+}

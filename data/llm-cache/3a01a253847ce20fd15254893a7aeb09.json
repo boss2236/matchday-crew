@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Contre direct : Mbeki punit Northgate",
+  "text": "Ironvale Athletic, bloc bas à 45 de possession, frappe 14 secondes après la touche : passe de 38.2 de Petrov (difficulté 53), Mbeki conclut à 2 avec 0.829 xG. Score 1-0, momentum 13.",
+  "cites": [
+   "e0480",
+   "e0481",
+   "e0484",
+   "e0485"
+  ]
+ }
+}

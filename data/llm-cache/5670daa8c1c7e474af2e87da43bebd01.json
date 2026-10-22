@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City의 긴 패스가 계속 끊겨요",
+  "text": "Harbour City가 길고 빠른 패스를 세 번이나 상대에게 빼앗겼어요. 1분도 안 되는 사이에 Yusuf Demir와 Dani Kowalski의 패스가 끊기면서, 경기 분위기가 Ironvale Athletic 쪽으로 넘어가고 있어요.",
+  "cites": [
+   "e1111",
+   "e1118",
+   "e1128"
+  ]
+ }
+}

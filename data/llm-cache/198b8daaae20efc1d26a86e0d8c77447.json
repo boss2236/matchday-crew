@@ -1,12 +1,12 @@
 {
- "model": "openai:openai/gpt-oss-120b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Southmere's Pressing Sparks Turnover Surge",
-  "text": "Rafa Ortega’s pressing spell reclaimed the ball three times in two minutes, following consecutive interceptions by Doyle and Aziz, shifting control despite a -40 momentum and high chaos level.",
+  "headline": "Southmere's pressing spell flips the tempo",
+  "text": "Southmere United won the ball back 3 times in 120 seconds, via interceptions by Liam Doyle, Tariq Aziz and Rafa Ortega. Chaos at 61 and momentum at -40 show Northgate Rovers' patient possession is being disrupted at 0-0.",
   "tags": [
    "pressing",
-   "momentum",
-   "control"
+   "chaos",
+   "momentum"
   ],
   "cites": [
    "e0306",

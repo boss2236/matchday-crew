@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Callum Reid 逼抢连续断球",
+  "text": "Callum Reid 在120秒内3次夺回球权,Ironvale Athletic 控球仅40%,但 xG 达0.89,对 Harbour City 的0.04;PPDA 13,动量-8,0-0下反击威胁更大。",
+  "cites": [
+   "e0201",
+   "e0220",
+   "e0243"
+  ]
+ }
+}

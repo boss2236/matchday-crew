@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Oscar Blum 압박 속 빗나간 찬스",
+  "text": "Oscar Blum이 거리 5에서 압박을 받으며 91.4 km/h 슈팅을 날렸지만 xG 0.284 기회는 골문을 벗어났다. Northgate Rovers는 xG 1.18 대 0.32로 앞서지만 카오스 59로 경기는 열려 있다.",
+  "cites": [
+   "e1205"
+  ]
+ }
+}

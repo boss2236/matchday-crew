@@ -1,0 +1,16 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City ने Ironvale Athletic को 4-1 से हराया",
+  "text": "Ironvale Athletic ने शुरुआत में दबदबा बनाया: 2' पर Zeke Mbeki का 0.876 xG वाला शॉट ब्लॉक हुआ, फिर 30' पर 0.188 xG से उन्होंने 1-0 की बढ़त ली। 49' पर Leo Marchetti के 0.024 xG वाले गोल से Harbour City ने 1-1 किया। इसके बाद Dani Kowalski ने 62' में 0.06 xG, 81' में 0.057 xG और 90+1' में 0.79 xG से हैट्रिक पूरी की। Ironvale का xG 1.76 रहा, Harbour City का 1.26, पर फिनिशिंग ने फर्क किया। Harbour City का PPDA 8.5 बनाम 10.3 और final third entries 56 बनाम 43 रहीं; अंत में momentum 75 रहा। स्टैंडआउट: Dani Kowalski।",
+  "cites": [
+   "e0041",
+   "e0600",
+   "e0999",
+   "e1223",
+   "e1552",
+   "e1725",
+   "e1727"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale kontert über Petrov und Romero",
+  "text": "Ironvale führt 1-0, xG 1.63 zu 0.16. Ivo Petrovs Ball auf Luca Romero: 38.9 Distanz, 34.9 Raumgewinn, Schwierigkeit 66, ohne Gegnerdruck. Momentum -27, Chaos 48, PPDA 11.6 zu 9.3.",
+  "cites": [
+   "e0782",
+   "e0772",
+   "e0774"
+  ]
+ }
+}

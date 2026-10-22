@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere pousse, mais la passe s'égare",
+  "text": "Southmere United met la pression depuis un moment, mais Bruno Costa tente une grande passe de 48.8 vers Joel Martin, et le ballon sort. Dommage, une belle séquence qui se termine en touche !",
+  "cites": [
+   "e0413",
+   "e0412"
+  ]
+ }
+}

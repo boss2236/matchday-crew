@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate sabırla topu çevirmeye devam ediyor",
+  "text": "Northgate Rovers 1-0 geride ama acele etmiyor. Oscar Blum'un şutu kurtarıldıktan sonra Ilan Cohen, Kai Nakamura ve Andres Vega topu baskısız, sakince paslaşıyor. Şimdi sıra bu sabrı tehlikeye çevirmekte.",
+  "cites": [
+   "e0782",
+   "e0789",
+   "e0791",
+   "e0793"
+  ]
+ }
+}

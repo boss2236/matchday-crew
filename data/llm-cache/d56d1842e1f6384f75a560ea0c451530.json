@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers étouffe Southmere United",
+  "text": "Ilan Cohen signe la 3e récupération de Northgate Rovers en 120 secondes. xG 1.18 contre 0.38, PPDA 8.7, momentum -39 : le 1-0 est verrouillé à la 78e minute, chaos à 54.",
+  "cites": [
+   "e1425",
+   "e1441",
+   "e1462"
+  ]
+ }
+}

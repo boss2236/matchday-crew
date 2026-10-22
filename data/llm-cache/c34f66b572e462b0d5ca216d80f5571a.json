@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kowalski clôt le score pour Harbour City",
+  "text": "Ruiz trouve Kowalski sur une passe de 22.8 m, difficulté 48, progression 21.6, sans pression. Kowalski finit à 2.5 m : 0.79 xG, but. Harbour City mène 3-1, momentum 60, PPDA 8.5.",
+  "cites": [
+   "e1722",
+   "e1723",
+   "e1724"
+  ]
+ }
+}

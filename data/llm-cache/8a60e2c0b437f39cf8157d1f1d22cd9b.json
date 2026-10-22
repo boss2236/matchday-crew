@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale kontert eiskalt zum 1-0",
+  "text": "Marco Silvan klaut den Ball, rennt los, und dann läuft alles wie am Schnürchen: Zeke Mbeki hämmert ihn mit 96.1 km/h rein. Ironvale Athletic führt, obwohl Harbour City mehr den Ball hatte!",
+  "cites": [
+   "e0587",
+   "e0588",
+   "e0597",
+   "e0599",
+   "e0600"
+  ]
+ }
+}

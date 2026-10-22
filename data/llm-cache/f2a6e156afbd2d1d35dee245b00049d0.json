@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale's direct chain dies at Romero",
+  "text": "Callum Reid's 33.4 distance ball to Luca Romero, difficulty 50, progressed 17.9, but Romero's pass to Hiro Tanaka went out. Momentum 26, chaos 45, 0-0, Ironvale xG 0.01.",
+  "cites": [
+   "e0326",
+   "e0327"
+  ]
+ }
+}

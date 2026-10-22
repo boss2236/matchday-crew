@@ -1,0 +1,18 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic 1-0 Northgate Rovers: Mbeki decides",
+  "text": "Ironvale Athletic が Northgate Rovers を1-0で下した。26分(26:05)、Northgate の Oscar Blum が距離4でxG 0.394のシュートを打つもブロックされた。直後の27分、Zeke Mbeki が距離2、xG 0.829の決定機を79.8km/hで沈め、これが唯一の得点となった。Ironvale は深いブロックからの直接的なカウンターで、xG 1.42対0.86と上回った。Northgate は支配率53%、パス成功率85%、PPDA 7.9で保持したが、決定的な質で劣った。Ironvale は33分、49分、73分、77分に3回のリゲインを記録し、タックル勝利も15対11。45+2分には Mbeki が xG 0.276を外した。最終モメンタムは7。決勝点の Mbeki はゴール1、xG 1.39で試合の顔だった。",
+  "cites": [
+   "e0461",
+   "e0484",
+   "e0485",
+   "e0603",
+   "e0855",
+   "e0935",
+   "e1363",
+   "e1437",
+   "e1700"
+  ]
+ }
+}

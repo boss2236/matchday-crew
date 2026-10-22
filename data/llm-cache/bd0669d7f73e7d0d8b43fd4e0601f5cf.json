@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Mbeki rate un but cent fait à 2.5",
+  "text": "Ironvale Athletic punit le pressing de Harbour City (67 de possession) : Zeke Mbeki tire à 2.5 de distance, xG 0.876, tir bloqué à 0-0. Momentum -84, PPDA 10.",
+  "cites": [
+   "e0041"
+  ]
+ }
+}

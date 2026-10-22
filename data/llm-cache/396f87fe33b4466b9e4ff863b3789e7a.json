@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers、落ち着いて主導権を握る",
+  "text": "Northgate Rovers が1-0でリード中です。Kai Nakamura から Oscar Blum へ前に進むパスが通り、焦らずボールを回して試合を落ち着かせています。でもまだ勝負はわかりませんよ。",
+  "cites": [
+   "e0553",
+   "e0556"
+  ]
+ }
+}

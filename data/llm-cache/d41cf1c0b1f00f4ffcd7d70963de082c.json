@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Ironvale Takes Control",
+  "text": "A slick five‑pass run and Ivo’s long ball lifted Ironvale’s possession to 51% and xG to 1.63, swinging momentum their way at the 40th minute.",
+  "cites": [
+   "e0772",
+   "e0773",
+   "e0774",
+   "e0775",
+   "e0776",
+   "e0782"
+  ]
+ }
+}

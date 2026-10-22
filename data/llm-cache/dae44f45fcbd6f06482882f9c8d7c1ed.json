@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Nakamura's interception flips Northgate's momentum to -65",
+  "text": "Kai Nakamura's 23m pass to Oscar Blum, difficulty 48, was intercepted at 05:55. Northgate hold 70% possession with 0 xG and PPDA 4.8, yet momentum sits at -65, chaos 43.",
+  "cites": [
+   "e0098",
+   "e0099"
+  ]
+ }
+}

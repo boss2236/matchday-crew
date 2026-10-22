@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City 疯狂逼抢，Ironvale 喘不过气",
+  "text": "Harbour City 在短短 120 秒里连续抢回球，Dani Kowalski 和 Arjun Mehta 先后断球，Yusuf Demir 又拦下传球。Ironvale Athletic 根本没法好好组织进攻！",
+  "cites": [
+   "e1562",
+   "e1579",
+   "e1587"
+  ]
+ }
+}

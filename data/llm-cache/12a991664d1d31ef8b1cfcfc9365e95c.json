@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale kontert Northgate in 14 Sekunden",
+  "text": "Nach Einwurf (e0480) spielt Ivo Petrov einen 38.2-Pass, Schwierigkeit 53, auf Zeke Mbeki. Der schließt aus 2 mit xG 0.829 ab (e0484). Ironvale hat 45 Ballbesitz, führt 1-0.",
+  "cites": [
+   "e0480",
+   "e0481",
+   "e0484",
+   "e0485"
+  ]
+ }
+}

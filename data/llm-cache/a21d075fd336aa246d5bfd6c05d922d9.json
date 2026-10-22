@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kaya lancia, Blum la mette dentro!",
+  "text": "Emre Kaya corre palla al piede tre volte, poi lancia Oscar Blum, che non sbaglia e segna! Northgate Rovers avanti 1-0, ma il Southmere United ora spinge forte.",
+  "cites": [
+   "e0423",
+   "e0424",
+   "e0425",
+   "e0426",
+   "e0427"
+  ]
+ }
+}

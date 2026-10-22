@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale يلعبون كرات طويلة وفوضى كبيرة",
+  "text": "Ironvale Athletic رموا الكرة بعيداً تحت الضغط. أول كرة إلى Zeke Mbeki قطعها الخصم، وثاني كرة من Hiro Tanaka وصلته، فسدد خارج المرمى. التعادل 1-1 والمباراة مشتعلة!",
+  "cites": [
+   "e1059",
+   "e1067",
+   "e1068"
+  ]
+ }
+}

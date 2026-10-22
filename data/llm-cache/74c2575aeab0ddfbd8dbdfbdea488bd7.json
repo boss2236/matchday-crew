@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Reid recupera bola e alimenta contra-ataques",
+  "text": "Callum Reid somou 3 recuperações em 120 segundos. Ironvale Athletic tem 40% de posse, mas xG 0.89 contra 0.04, PPDA 13 e momentum -8: contra-ataque direto a render em 0-0.",
+  "cites": [
+   "e0201",
+   "e0220",
+   "e0243"
+  ]
+ }
+}

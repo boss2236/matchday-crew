@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City zirkulieren ohne Zugriff",
+  "text": "Beim Stand von 3-0 spielt Harbour City fünf Pässe ohne Druck, mehrere rückwärts (progress -23.9, -9.4, -10.5). Momentum -25, chaos 46, xG nur 0.62 gegen 1.95: kontrolliert, aber harmlos.",
+  "cites": [
+   "e1926",
+   "e1928",
+   "e1929",
+   "e1930"
+  ]
+ }
+}

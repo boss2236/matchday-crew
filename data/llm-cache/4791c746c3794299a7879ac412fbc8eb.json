@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City'nin baskısı Ironvale'i boğuyor",
+  "text": "Harbour City 120 saniyede 3 top kazandı: Dani Kowalski ve Arjun Mehta'nın top çalmaları, ardından Yusuf Demir'in 83:06'daki araya girmesi. PPDA 8.5'e karşı 10.9, momentum 71, skor 3-1.",
+  "cites": [
+   "e1562",
+   "e1579",
+   "e1587"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Callum Reid vole le ballon encore et encore",
+  "text": "Callum Reid est partout ! Il récupère le ballon 3 fois en deux minutes pour Ironvale Athletic, et chaque récupération lance une contre-attaque dangereuse. Harbour City n'arrive pas à souffler.",
+  "cites": [
+   "e0201",
+   "e0220",
+   "e0243"
+  ]
+ }
+}

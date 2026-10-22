@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United তেড়ে এসে খেলা ঘুরিয়ে দিচ্ছে",
+  "text": "Northgate Rovers আরাম করে বল ধরে রাখছিল, কিন্তু Southmere United এখন বারবার বল কেড়ে নিচ্ছে! Liam Doyle, Tariq Aziz আর Rafa Ortega একের পর এক বল ছিনিয়ে নিলেন। ম্যাচ এখনও 0-0।",
+  "cites": [
+   "e0306",
+   "e0328",
+   "e0341"
+  ]
+ }
+}

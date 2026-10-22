@@ -1,19 +1,17 @@
 {
- "model": "openai:openai/gpt-oss-20b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Northgate’s 26‑point swing",
-  "text": "A 26‑point momentum swing at 42:22, with chaos at 54, shows Northgate’s patient possession overturning Ironvale’s deep block, turning control into a chaotic counter‑attack.",
+  "headline": "Northgate probe patiently while trailing 1-0",
+  "text": "Trailing 1-0, Northgate Rovers recycle through Ilan Cohen, Kai Nakamura and Andres Vega, all unpressured, after Oscar Blum's saved 0.09 xG shot. Chaos sits at 54 and momentum at -26, so the patient possession hasn't yet turned pressure into danger.",
   "tags": [
+   "possession",
    "momentum",
-   "control",
-   "chaos"
+   "control"
   ],
   "cites": [
    "e0782",
    "e0789",
-   "e0790",
    "e0791",
-   "e0792",
    "e0793"
   ]
  }

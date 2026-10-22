@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale's late push dies from distance",
+  "text": "Luca Romero's pressured pass out (difficulty 51, progress -27.6) kills the move, then Zeke Mbeki shoots off target from 31.5 for 0.008 xG. Trailing 3-1, momentum -28, chaos 69.",
+  "cites": [
+   "e1635",
+   "e1650"
+  ]
+ }
+}

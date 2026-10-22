@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City wanapunguza kasi, wanalinda ushindi",
+  "text": "Harbour City wanapigiana pasi kwa utulivu, wengine wakirudisha mpira nyuma, bila presha yoyote. Wanaongoza 2-1, kwa hiyo wanapunguza kasi ya mchezo na kulinda ushindi wao badala ya kuhatarisha.",
+  "cites": [
+   "e1528",
+   "e1531",
+   "e1532"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic récupère le ballon en pressing",
+  "text": "Ironvale Athletic enchaîne 3 interceptions en 120 secondes, la dernière par Ivo Petrov à 66:40. Menés 2-1, ils affichent un xG de 1.68 contre 0.41, un PPDA de 9.9 et un momentum de 16.",
+  "cites": [
+   "e1263",
+   "e1276",
+   "e1297"
+  ]
+ }
+}

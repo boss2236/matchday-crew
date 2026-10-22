@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic 连抢三次球!",
+  "text": "Ironvale Athletic 在短短 120 秒里连续抢回球权,Luca Romero 先断下,Marco Silvan 和 Callum Reid 又接连拦截。他们1-0领先,反击的机会还在!",
+  "cites": [
+   "e0564",
+   "e0581",
+   "e0603"
+  ]
+ }
+}

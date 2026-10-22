@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City 传得漂亮,射门不够险",
+  "text": "Harbour City 连续传了5脚,Arjun Mehta 随后起脚,但被门将扑出。这脚离球门有点远,威胁不大。球队控球不错,可惜还没真正吓到对手。",
+  "cites": [
+   "e0351",
+   "e0352",
+   "e0353"
+  ]
+ }
+}

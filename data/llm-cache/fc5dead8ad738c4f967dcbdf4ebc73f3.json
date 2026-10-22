@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Aziz taps in right on half-time",
+  "text": "What a calm finish! Southmere United passed it around patiently, and Tariq Aziz tapped in from just 1.2 yards out. That puts them 1-0 up with the break almost here.",
+  "cites": [
+   "e1012",
+   "e1013",
+   "e1014"
+  ]
+ }
+}

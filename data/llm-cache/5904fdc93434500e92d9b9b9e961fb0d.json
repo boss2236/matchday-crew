@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "¡Kowalski sentencia para Harbour City!",
+  "text": "¡Qué jugada! Del saque de banda al gol en solo 20 segundos, sin que nadie les molestara. Dani Kowalski remata desde lejos y Harbour City manda 3-1 al minuto 81.",
+  "cites": [
+   "e1545",
+   "e1550",
+   "e1551",
+   "e1552"
+  ]
+ }
+}

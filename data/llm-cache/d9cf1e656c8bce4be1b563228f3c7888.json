@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City-র চাপে Ironvale দিশেহারা",
+  "text": "Harbour City মাত্র 120 সেকেন্ডে তিনবার বল কেড়ে নিয়েছে! Dani Kowalski আর Arjun Mehta ট্যাকল করলেন, তারপর Yusuf Demir বল কেটে দিলেন। ৩-১ এগিয়ে থেকে তারা ম্যাচটা নিজেদের হাতে রেখেছে।",
+  "cites": [
+   "e1562",
+   "e1579",
+   "e1587"
+  ]
+ }
+}

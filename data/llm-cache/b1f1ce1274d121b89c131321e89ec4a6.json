@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate mandan con la pelota",
+  "text": "Northgate Rovers ganan 1-0 y llevan la pelota con calma. Kai Nakamura le dio un buen pase a Oscar Blum, que enseguida se lo pasó a Ilan Cohen. Pero Southmere United sigue en el partido.",
+  "cites": [
+   "e0553",
+   "e0556"
+  ]
+ }
+}

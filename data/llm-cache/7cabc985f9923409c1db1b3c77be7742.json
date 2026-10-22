@@ -1,0 +1,20 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United 3-0 Harbour City: tripletta di Tariq Aziz",
+  "text": "Southmere United batte Harbour City 3-0 e vince la sfida dell'xG: 1.95 contro 0.62, con 7 tiri in porta su 10 contro 5 su 11. Il match parte con la grande occasione di Tariq Aziz al 4' (xG 0.622, distanza 2, parata). Lo sblocco arriva al 45+3': Joel Martin serve Aziz, che segna da 1.2 con xG 0.931. Al 59' Aziz firma il 2-0 su assist di Bruno Costa (xG 0.16, distanza 8.2). All'87' Martin recupera palla e innesca il 3-0 (xG 0.106). Possesso 50-50 e PPDA 7.9 contro 7.6, ma Southmere ha 62 ingressi nel terzo finale contro 52 e 45 intercetti contro 37. Aziz, con 3 gol e xG 1.88, è il migliore.",
+  "cites": [
+   "e0077",
+   "e1012",
+   "e1013",
+   "e1014",
+   "e1285",
+   "e1286",
+   "e1287",
+   "e1847",
+   "e1850",
+   "e1851",
+   "e1950"
+  ]
+ }
+}

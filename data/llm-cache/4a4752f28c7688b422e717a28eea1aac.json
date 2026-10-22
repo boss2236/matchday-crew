@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic schlägt den langen Ball",
+  "text": "Ade Bamidele schickt einen riesigen Pass auf Zeke Mbeki, ein paar schnelle Stationen später zieht Mbeki ab – geblockt! Es bleibt 0-0, und das Spiel ist herrlich wild.",
+  "cites": [
+   "e0575",
+   "e0576",
+   "e0577",
+   "e0578"
+  ]
+ }
+}

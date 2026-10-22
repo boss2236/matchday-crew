@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale pierde el control tras balón de 33.4",
+  "text": "Ironvale enlazó cuatro pases completos, con el de Callum Reid a Luca Romero de 33.4 de distancia y dificultad 50, pero el pase de Romero a Hiro Tanaka salió (-16 de progreso). Momentum 26, caos 45.",
+  "cites": [
+   "e0326",
+   "e0327"
+  ]
+ }
+}

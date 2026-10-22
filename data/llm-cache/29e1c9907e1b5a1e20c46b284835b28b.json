@@ -1,15 +1,14 @@
 {
- "model": "openai:openai/gpt-oss-20b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Southmere's 45+3' Momentum Surge",
-  "text": "At 45+3', Bruno Costa’s rapid carries and a 32‑m pass to Tariq Aziz culminated in a 0.931‑xg goal, tipping momentum to 52 and reducing chaos to 40.",
+  "headline": "Unpressured chain ends in Aziz's goal",
+  "text": "Bruno Costa carried at 33.1 km/h, then three unpressured passes found Tariq Aziz, who scored from 1.2 distance with 0.931 xG. Harbour City's high press never got close, and the game state swung at 0-0.",
   "tags": [
-   "momentum",
-   "control",
-   "finishing"
+   "counter",
+   "finishing",
+   "momentum"
   ],
   "cites": [
-   "e1008",
    "e1009",
    "e1010",
    "e1011",

@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate 1-0, 통제력은 불안하다",
+  "text": "Northgate Rovers는 점유율 58%, xG 0.67로 앞서지만 momentum 26, chaos 44. Oscar Blum의 난도 23 패스(23.3m)는 out, Ilan Cohen 패스는 차단됐고 Southmere United는 인터셉션 13회.",
+  "cites": [
+   "e0499",
+   "e0510"
+  ]
+ }
+}

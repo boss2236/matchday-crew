@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City batte l'xG di Ironvale",
+  "text": "Harbour City vince 4-1 nonostante xG 1.26 contro 1.76: 7 tiri in porta su 12. Pressing alto (PPDA 8.5 contro 10.3), 56 ingressi nel terzo finale e momentum a 75.",
+  "cites": [
+   "e1727"
+  ]
+ }
+}

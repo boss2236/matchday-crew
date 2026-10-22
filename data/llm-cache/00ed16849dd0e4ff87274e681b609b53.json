@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate haben den Ball, aber kein Tor",
+  "text": "Northgate Rovers spielen sich den Ball hin und her, aber oft eher zurück oder zur Seite. Sven Dahl passt nach hinten, und so bleibt der Druck nach vorn aus. Noch führt Ironvale Athletic mit 1-0.",
+  "cites": [
+   "e0560",
+   "e0546",
+   "e0551"
+  ]
+ }
+}

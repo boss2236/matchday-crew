@@ -1,12 +1,12 @@
 {
- "model": "openai:openai/gpt-oss-120b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Blum's high‑xG chance under pressure",
-  "text": "At 64:16, Oscar Blum unleashed a 5‑metre, 91.4 km/h shot (xG 0.284) while pressured, a key chance as Northgate’s momentum sits at 40 amid a chaos level of 59.",
+  "headline": "Pressured miss from five yards",
+  "text": "Oscar Blum, pressured from distance 5, fired off target at 91.4 km/h, wasting a 0.284 xg chance. Northgate Rovers lead 1-0 with 1.18 xg to 0.32, yet chaos at 59 keeps the game open.",
   "tags": [
    "chance",
-   "pressing",
-   "momentum"
+   "finishing",
+   "chaos"
   ],
   "cites": [
    "e1205"

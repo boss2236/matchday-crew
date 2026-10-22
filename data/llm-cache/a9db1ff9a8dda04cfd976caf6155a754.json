@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City verlieren den Ball zu oft",
+  "text": "Harbour City schlägt beim Stand von 1-1 ständig lange, schnelle Pässe, doch Ironvale Athletic fängt sie ab. Dani Kowalski und Yusuf Demir verlieren dadurch gleich mehrmals den Ball. Das macht das Spiel richtig wild!",
+  "cites": [
+   "e1111",
+   "e1118",
+   "e1128"
+  ]
+ }
+}

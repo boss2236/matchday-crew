@@ -1,17 +1,21 @@
 {
- "model": "openai:openai/gpt-oss-20b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Dani Kowalski domina con tres goles",
-  "text": "El partido empezó con un intento bloqueado de Zeke Mbeki, pero la presión de Harbour City dio su primera ventaja cuando Leo Marchetti anotó tras un pase de Dani Kowalski. La remontada de Ironvale fue breve, con un gol de Zeke tras un pase de Luca Romero, pero Harbour City volvió a tomar la delantera gracias a un disparo de Dani. El resto del tiempo fue una serie de goles de Dani, que cerró con un cuarto en los últimos minutos. La combinación de presión y velocidad de Harbour City hizo imposible que Ironvale mantuviera la ventaja.",
+  "headline": "Harbour City remonta y golea 4-1 a Ironvale Athletic",
+  "text": "¡Qué partido, amigos! Ironvale Athletic empezó mandando: Zeke Mbeki rozó el gol al minuto 2 y lo logró en el minuto 30, para el 0-1. Pero tras el descanso todo cambió. En el minuto 49, Leo Marchetti sacó un disparo desde lejos y Harbour City empató 1-1. Entonces el equipo local se soltó, presionó arriba y no dejó respirar al rival. Dani Kowalski marcó en el minuto 62 y otra vez en el 81, para poner el 3-1. Ironvale Athletic tuvo ocasiones, pero no las aprovechó. Y en el tiempo añadido, Kowalski cerró la fiesta con su tercer gol: 4-1. Él fue la gran estrella de la tarde.",
   "cites": [
    "e0041",
+   "e0599",
+   "e0600",
    "e0998",
-   "e025",
-   "e0599",
-   "e0599",
+   "e0999",
    "e1222",
+   "e1223",
    "e1551",
-   "e1724"
+   "e1552",
+   "e1724",
+   "e1725",
+   "e1727"
   ]
  }
 }

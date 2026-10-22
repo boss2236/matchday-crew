@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale yapiga kwa kasi, Mbeki afunga!",
+  "text": "Ironvale Athletic walipata mpira kwa throw-in, Ivo Petrov akapiga pasi ndefu moja kwa Zeke Mbeki, naye akafunga kwa karibu sana. Haraka, rahisi, bao! Ironvale 1, Northgate Rovers 0.",
+  "cites": [
+   "e0480",
+   "e0481",
+   "e0484",
+   "e0485"
+  ]
+ }
+}

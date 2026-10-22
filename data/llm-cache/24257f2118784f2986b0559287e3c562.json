@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale'den hızlı ve uzun kontra!",
+  "text": "Ironvale Athletic 1-0 öndeyken topu uzun uzun ileri taşıdı: Callum Reid, Luca Romero'ya, o da Marco Silvan'a attı. Sonra Romero topla koşmaya devam etti. Maç tam bir kaos!",
+  "cites": [
+   "e1464",
+   "e1465",
+   "e1467",
+   "e1468",
+   "e1469"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere presos sob controlo do Northgate",
+  "text": "Momentum -27, caos 52: Southmere com 36% de posse contra 64%, 2 entradas no último terço contra 8, PPDA 15 vs 10.2. Joel Martin completa passe sob pressão (dificuldade 33); Rafa Ortega conduz 12.7 e 10 metros.",
+  "cites": [
+   "e0219",
+   "e0220",
+   "e0221"
+  ]
+ }
+}

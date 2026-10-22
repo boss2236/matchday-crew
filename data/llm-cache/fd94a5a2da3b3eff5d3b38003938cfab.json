@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City prueba suerte, sin premio",
+  "text": "Harbour City va perdiendo 2-0 y movió el balón muy rápido, pase tras pase, hasta que Dani Kowalski disparó desde lejos. El portero la detuvo sin problemas: era un tiro con pocas opciones de gol.",
+  "cites": [
+   "e1714",
+   "e1715"
+  ]
+ }
+}

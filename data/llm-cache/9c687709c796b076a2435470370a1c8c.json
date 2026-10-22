@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers behalten die Ruhe",
+  "text": "Northgate Rovers führen 1-0 und lassen den Ball in Ruhe laufen. Kai Nakamura schickt Oscar Blum steil nach vorn, dann geht es per Ilan Cohen wieder zurück. Geduld gehört hier zum Plan.",
+  "cites": [
+   "e0553",
+   "e0556"
+  ]
+ }
+}

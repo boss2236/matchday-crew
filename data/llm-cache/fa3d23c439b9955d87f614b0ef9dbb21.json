@@ -1,18 +1,19 @@
 {
- "model": "openai:openai/gpt-oss-120b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Harbour City’s swift combo clinches lead",
-  "text": "From a 13.9 m carry at 30.4 km/h (e0993) through three rapid passes covering 67.5 m at high speed (e0994‑e0996), the team broke a chaotic 63‑chaos state, culminating in Marchetti’s 15.2 m, 83 km/h goal (e0998).",
+  "headline": "Harbour City answer with a quick-combination goal",
+  "text": "Four unpressured moves from Sami Okafor's carry to Leo Marchetti's 15.2-distance shot ended in a goal from just 0.024 xG. Harbour City's chaos reading of 63 hid a clean sequence, and it came while trailing 0-1.",
   "tags": [
    "momentum",
-   "control",
-   "chance"
+   "finishing",
+   "pass"
   ],
   "cites": [
    "e0993",
    "e0994",
    "e0995",
    "e0996",
+   "e0997",
    "e0998"
   ]
  }

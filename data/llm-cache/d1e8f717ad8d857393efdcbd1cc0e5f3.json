@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale keep stealing the ball back!",
+  "text": "Ironvale Athletic are leading 1-0, and they just snatched the ball back three times in a row. Callum Reid's latest steal shows Northgate Rovers can't relax, and Ironvale are ready to break forward.",
+  "cites": [
+   "e0564",
+   "e0581",
+   "e0603"
+  ]
+ }
+}

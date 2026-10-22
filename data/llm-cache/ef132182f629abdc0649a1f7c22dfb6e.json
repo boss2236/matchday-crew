@@ -1,19 +1,17 @@
 {
- "model": "openai:openai/gpt-oss-20b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Northgate’s Momentum Collapse",
-  "text": "After a series of high‑speed passes and an intercepted long ball, Northgate’s momentum plunged to –78, with chaos rising to 48, forcing a shift from patient possession to frantic pressing and disrupting their control.",
+  "headline": "Northgate dominate possession but trail",
+  "text": "Northgate Rovers hold 56% possession and 22 final-third entries, yet trail 1-0 with 0 shots on target. Backwards and sideways passing, like Sven Dahl's -8.5 progress ball, lets momentum sit at -78.",
   "tags": [
+   "possession",
    "momentum",
-   "chaos",
-   "pressing"
+   "control"
   ],
   "cites": [
-   "e0539",
+   "e0560",
    "e0546",
-   "e0548",
-   "e0551",
-   "e0560"
+   "e0551"
   ]
  }
 }

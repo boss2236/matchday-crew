@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Dani Kowalski fecha a goleada!",
+  "text": "Harbour City roubou a bola e, em jogadas rápidas, Mateo Ruiz lançou Dani Kowalski, que não perdoou e marcou. É o golo que sela o 4-1 aos 90+1'. Que final de jogo!",
+  "cites": [
+   "e1715",
+   "e1722",
+   "e1725"
+  ]
+ }
+}

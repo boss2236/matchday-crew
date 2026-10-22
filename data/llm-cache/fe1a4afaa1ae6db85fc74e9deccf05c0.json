@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kaya-র দৌড়ে Rovers-এর প্রথম গোল!",
+  "text": "Emre Kaya বল নিয়ে তিনবার ছুটলেন, তারপর লম্বা একটা পাস দিলেন Oscar Blum-কে। Blum একদম সামনে থেকে গোল করে দিলেন! Northgate Rovers এখন 1-0 এগিয়ে, দারুণ কাউন্টার!",
+  "cites": [
+   "e0423",
+   "e0424",
+   "e0425",
+   "e0426",
+   "e0427"
+  ]
+ }
+}

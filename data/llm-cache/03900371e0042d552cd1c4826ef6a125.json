@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City press, but quality lacking",
+  "text": "Mateo Ruiz's 31.2 pass (difficulty 60) and Dani Kowalski's carry ended in a blocked 0.078 xG shot from 6.9. Trailing 0-1, momentum 25, chaos 55, team xG 0.27 versus 1.63.",
+  "cites": [
+   "e0890",
+   "e0891",
+   "e0893"
+  ]
+ }
+}

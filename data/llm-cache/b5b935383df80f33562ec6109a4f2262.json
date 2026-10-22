@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic 连续断球,夺回主动",
+  "text": "Ironvale Athletic 在短短 120 秒里连抢三次球,最后一次是 Ivo Petrov 断下的。虽然还是 1 球落后,但他们正一点点把比赛握回自己手里!",
+  "cites": [
+   "e1263",
+   "e1276",
+   "e1297"
+  ]
+ }
+}

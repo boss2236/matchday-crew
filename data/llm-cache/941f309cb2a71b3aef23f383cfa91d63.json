@@ -1,0 +1,19 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Tariq Aziz assina hat-trick e Southmere United vence 3-0",
+  "text": "O Southmere United venceu o Harbour City por 3-0 num jogo equilibrado na posse (50% cada) e no PPDA (7.9 contra 7.6). A diferença esteve na qualidade das chances: xG de 1.95 contra 0.62. Tariq Aziz falhou aos 4' um remate com xG 0.622, à queima-roupa (distância 2), mas aos 45+3' converteu um xG 0.931, após passe de Joel Martin, e abriu o marcador. Aos 59' fez o 2-0 (xG 0.16), com assistência de Bruno Costa. Aos 87', após recuperação de Joel Martin, fez o 3-0 (xG 0.106). O Harbour City teve 11 remates, mas só 5 enquadrados, com chances de baixo valor, como o remate de Dani Kowalski aos 81' (xG 0.018). Aziz, com 3 golos e xG 1.88, foi o melhor em campo.",
+  "cites": [
+   "e0077",
+   "e1013",
+   "e1012",
+   "e1014",
+   "e1286",
+   "e1287",
+   "e1850",
+   "e1851",
+   "e1715",
+   "e1847"
+  ]
+ }
+}

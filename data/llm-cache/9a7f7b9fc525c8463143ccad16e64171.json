@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City 빠른 패스로 분위기 바꿨다",
+  "text": "Harbour City가 Sami Okafor의 긴 패스에서 시작해 Yusuf Demir, Mateo Ruiz, Dani Kowalski까지 압박 없이 척척 연결했어요! 마지막 슛은 아쉽게 막혔지만 정말 시원한 공격이었습니다.",
+  "cites": [
+   "e0838",
+   "e0840",
+   "e0842",
+   "e0843"
+  ]
+ }
+}

@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Rovers lead 1-0 on xG edge",
+  "text": "前半終了、Northgate Rovers 1-0。xGは0.68対0.31、シュート4対6、最終third進入26対32。PPDAは8.6対9.1、momentumは-46でSouthmere United優勢。",
+  "cites": [
+   "e0860"
+  ]
+ }
+}

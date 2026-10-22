@@ -1,0 +1,15 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Bascule directe : Northgate perce Southmere",
+  "text": "Gabe Moreno trouve Emre Kaya sur 63.8 m (difficulté 88), puis 3 conduites et Oscar Blum conclut sans pression : xG 0.472 pour 1-0. Southmere : 5 tirs, seulement 0.16 xG.",
+  "cites": [
+   "e0422",
+   "e0423",
+   "e0424",
+   "e0425",
+   "e0426",
+   "e0427"
+  ]
+ }
+}

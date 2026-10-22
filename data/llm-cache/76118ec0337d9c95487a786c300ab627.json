@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Aziz la sblocca allo scadere del primo tempo!",
+  "text": "Che azione paziente! Southmere United si passa il pallone con calma, poi Joel Martin serve Tariq Aziz che da vicinissimo la mette dentro. È 1-0 proprio a un soffio dall'intervallo!",
+  "cites": [
+   "e1012",
+   "e1013",
+   "e1014"
+  ]
+ }
+}

@@ -1,11 +1,11 @@
 {
- "model": "openai:openai/gpt-oss-120b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Southmere Pressing Surge Shifts Control",
-  "text": "Tariq Aziz’s three interceptions in 120 seconds (e1251,e1261,e1272) sparked a pressing spell that flipped possession, raising Southmere’s control as momentum stays low (31) amid high chaos (68).",
+  "headline": "Southmere's pressing spell flips the pressure",
+  "text": "Southmere United won possession 3 times in 120 seconds, twice through Tariq Aziz interceptions and once through Joel Martin. Trailing 1-0 with chaos at 68, that sustained pressing keeps Northgate Rovers from settling into their patient possession.",
   "tags": [
    "pressing",
-   "control",
+   "chaos",
    "momentum"
   ],
   "cites": [

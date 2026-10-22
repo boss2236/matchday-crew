@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City behalten die Ruhe",
+  "text": "Harbour City lassen den Ball laufen: Marchetti befreit sich aus dem Druck, dann schickt Jonah Pike einen langen Pass zu Dani Kowalski. Beim Stand von 2-1 bleibt das Spiel wild, aber sie halten dagegen.",
+  "cites": [
+   "e1326",
+   "e1331",
+   "e1330"
+  ]
+ }
+}

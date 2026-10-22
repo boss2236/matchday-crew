@@ -1,15 +1,16 @@
 {
- "model": "openai:openai/gpt-oss-20b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "First‑Half Surge Ends in Goal",
-  "text": "A 19‑pass build‑up from a throw‑in at 45+2 saw Tariq Aziz finish with a 69.6 km/h strike, giving Southmere United a 1‑0 lead as momentum climbed to 52 and possession hovered near 50%.",
+  "headline": "Patient build-up pays off before the break",
+  "text": "Southmere United strung together 19 build-up passes, only three of them pressured, to unlock Harbour City's high press. Aziz tapped in from 1.2 with an xG of 0.931, putting them 1-0 up on the stroke of half-time.",
   "tags": [
+   "control",
    "possession",
-   "momentum",
    "finishing"
   ],
   "cites": [
-   "e0985",
+   "e1010",
+   "e1012",
    "e1013",
    "e1014"
   ]

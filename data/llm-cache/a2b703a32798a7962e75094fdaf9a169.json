@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Oscar Blum、惜しいチャンスを逃す",
+  "text": "Northgate Rovers が 1-0 でリード中。Oscar Blum が相手に寄せられながらゴール前で狙いましたが、ボールはわずかに枠の外へ。追加点のチャンスでした。試合はまだ分かりませんね！",
+  "cites": [
+   "e1205"
+  ]
+ }
+}

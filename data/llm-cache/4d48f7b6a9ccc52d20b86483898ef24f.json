@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere dreht das Tempo um",
+  "text": "Southmere United erobert den Ball gleich 3 Mal zurück: Liam Doyle, Tariq Aziz und Rafa Ortega fangen jeweils einen Pass ab. Northgate Rovers kommen mit ihrem geduldigen Spiel kaum noch durch.",
+  "cites": [
+   "e0306",
+   "e0328",
+   "e0341"
+  ]
+ }
+}

@@ -1,12 +1,12 @@
 {
- "model": "openai:openai/gpt-oss-20b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Aziz’s 74 km/h strike stuns",
-  "text": "Southmere’s 74.1 km/h shot from 2 metres, saved, highlights the team’s possession dominance (67%) and high pressure, keeping momentum 77% despite Harbour’s high press.",
+  "headline": "Southmere dominate early, Aziz denied point-blank",
+  "text": "Southmere hold 67 possession with 2 shots and 0.68 xg against Harbour City's 0. Tariq Aziz's pressured effort from distance 2, worth 0.622 xg, was saved, leaving it 0-0 despite momentum at 77.",
   "tags": [
-   "pressing",
-   "control",
-   "momentum"
+   "chance",
+   "momentum",
+   "control"
   ],
   "cites": [
    "e0077"

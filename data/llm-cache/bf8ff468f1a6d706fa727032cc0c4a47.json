@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Oscar Blum rate une belle occasion !",
+  "text": "Oups ! Oscar Blum, bousculé à 5 mètres du but, tire à côté. Northgate Rovers mène 1-0, mais Southmere United garde l'espoir : le match reste grand ouvert !",
+  "cites": [
+   "e1205"
+  ]
+ }
+}

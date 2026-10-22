@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Callum Reid casse le rythme de Northgate",
+  "text": "Quel travail de Callum Reid ! Il récupère le ballon 3 fois de suite, par tacle, interception, puis tacle encore. Northgate Rovers n'arrive pas à s'installer, et Ironvale Athletic protège son avance 1-0.",
+  "cites": [
+   "e1414",
+   "e1420",
+   "e1437"
+  ]
+ }
+}

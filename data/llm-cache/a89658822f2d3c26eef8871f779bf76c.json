@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Callum Reid की प्रेसिंग से Ironvale को गेंद",
+  "text": "Callum Reid ने 120 सेकंड में 3 regains जीते। Ironvale का possession सिर्फ 40% है, फिर भी xG 0.89 बनाम 0.04 है। PPDA 13 और momentum -8 के साथ स्कोर 0-0 है।",
+  "cites": [
+   "e0201",
+   "e0220",
+   "e0243"
+  ]
+ }
+}

@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kowalski's rocket puts Harbour City ahead",
+  "text": "What a move! Harbour City won the ball back, passed it around patiently, then Yusuf Demir set up Dani Kowalski, who smashed a long-shot chance in anyway. 2-1 to Harbour City!",
+  "cites": [
+   "e1201",
+   "e1221",
+   "e1222",
+   "e1223"
+  ]
+ }
+}

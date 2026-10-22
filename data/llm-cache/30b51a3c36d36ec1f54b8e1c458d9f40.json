@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic、惜しい攻めが途切れた",
+  "text": "Ironvale Athleticはパスを4本つなぎ、Callum ReidからLuca Romeroへの大きなパスも通りました。でもRomeroからHiro Tanakaへのパスがラインの外に出てしまい、攻めはそこでストップです。",
+  "cites": [
+   "e0326",
+   "e0327"
+  ]
+ }
+}

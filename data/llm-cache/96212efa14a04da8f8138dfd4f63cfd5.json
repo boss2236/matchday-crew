@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kaya desata el 1-0 de Northgate Rovers",
+  "text": "Tres conducciones de Emre Kaya y un pase de 30.1 m (dificultad 48) habilitan a Oscar Blum: gol de 0.472 xG desde 4.3 m. Rovers 1-0, pero momentum 38 y caos 56.",
+  "cites": [
+   "e0423",
+   "e0424",
+   "e0425",
+   "e0426",
+   "e0427"
+  ]
+ }
+}

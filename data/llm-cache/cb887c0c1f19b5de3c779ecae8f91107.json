@@ -1,0 +1,11 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Ironvale’s Passes Backfire",
+  "text": "A long risky pass got intercepted and a pressured long ball kept the ball loose, sparking a big momentum drop and chaos around the 54‑minute mark.",
+  "cites": [
+   "e1059",
+   "e1067"
+  ]
+ }
+}

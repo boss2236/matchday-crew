@@ -1,12 +1,12 @@
 {
- "model": "openai:openai/gpt-oss-120b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Ironvale's Press Shifts Control",
-  "text": "Three consecutive interceptions by Ivo Petrov and teammates (e1263, e1276, e1297) within 120 seconds regained possession three times, turning a deep‑block side into a pressing threat and nudging momentum despite high chaos (16 vs 53).",
+  "headline": "Ironvale's pressing spell wins the ball back",
+  "text": "Ironvale Athletic won three interceptions in 120 seconds, the last by Ivo Petrov at 66:40. That spell stands out against a deep-block, direct-counter style, and with a 2-1 deficit it shows them taking back control.",
   "tags": [
    "pressing",
-   "control",
-   "momentum"
+   "momentum",
+   "control"
   ],
   "cites": [
    "e1263",

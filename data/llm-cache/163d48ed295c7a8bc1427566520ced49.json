@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City pousse, mais le but résiste",
+  "text": "Mateo Ruiz lance Dani Kowalski, qui file vers le but ! Son tir est bloqué de justesse. Harbour City mène l'attaque, mais reste mené 0-1 face à Ironvale Athletic.",
+  "cites": [
+   "e0890",
+   "e0891",
+   "e0893"
+  ]
+ }
+}

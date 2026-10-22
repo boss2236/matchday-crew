@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic : 3 récupérations en 120 secondes",
+  "text": "Ironvale Athletic récupère 3 ballons en 120 secondes (tacle Romero, interceptions Silvan et Reid) face à la possession de Northgate Rovers. Score 1-0, xG 0.84 contre 0.44, PPDA 8.5, chaos 62.",
+  "cites": [
+   "e0564",
+   "e0581",
+   "e0603"
+  ]
+ }
+}

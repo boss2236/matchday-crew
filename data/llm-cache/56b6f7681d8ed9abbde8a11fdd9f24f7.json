@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere wanarudisha mpira, lakini bado nyuma",
+  "text": "Jan Novak alipiga pasi ndefu safi kwa Bruno Costa, lakini Costa akairudisha nyuma kwa Nasser Haddad. Southmere United wanaendelea kuhangaika wakiwa nyuma kwa 1-0.",
+  "cites": [
+   "e1296",
+   "e1298"
+  ]
+ }
+}

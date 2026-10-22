@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere'de xG üstünlüğü, son pas dışarıda",
+  "text": "Southmere United xG'de 0.69 - 0.27 önde, momentum 25. Bruno Costa'nın 48.8 mesafeli, zorluk 62 olan pası (e0413) çizgiyi aştı; Harbour City'nin PPDA'sı 7.8, Southmere'nin 8.2.",
+  "cites": [
+   "e0413",
+   "e0412"
+  ]
+ }
+}

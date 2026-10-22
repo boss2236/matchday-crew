@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "카야가 만든 Northgate Rovers의 선제골",
+  "text": "Emre Kaya가 공을 몰고 달린 뒤 길게 찔러 준 패스를 Oscar Blum이 골로 마무리했어요! Northgate Rovers가 1-0으로 앞서가고 있어요.",
+  "cites": [
+   "e0423",
+   "e0424",
+   "e0425",
+   "e0426",
+   "e0427"
+  ]
+ }
+}

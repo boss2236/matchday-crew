@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "¡Southmere se la juega y sale del apuro!",
+  "text": "Southmere pierde 1-0, pero Alfie Grant, con rivales encima, lanzó un pase larguísimo a Joel Martin y movió a todo el equipo hacia delante. ¡Una jugada valiente tras perder un balón antes!",
+  "cites": [
+   "e0703",
+   "e0713"
+  ]
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Joel Martin奪取、7秒でAzizが3-0弾",
+  "text": "86:38のJoel Martinのインターセプトから7.3mのキャリー、難易度35のパスでTariq Azizへ。距離10、xG 0.106のシュートが決まり3-0。Harbour CityのPPDA 7.4の高いプレスを突破。",
+  "cites": [
+   "e1847",
+   "e1848",
+   "e1849",
+   "e1850",
+   "e1851"
+  ]
+ }
+}

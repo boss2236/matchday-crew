@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Dani Kowalski-র দুর্দান্ত গোল, Harbour City এগিয়ে!",
+  "text": "Harbour City বল কেড়ে নিয়ে ধৈর্য ধরে একের পর এক পাস খেলল। শেষে Yusuf Demir-এর পাস থেকে Dani Kowalski জোরালো শটে গোল করলেন, কঠিন সুযোগ হলেও! স্কোর এখন 2-1।",
+  "cites": [
+   "e1201",
+   "e1221",
+   "e1222",
+   "e1223"
+  ]
+ }
+}

@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Marchetti sprint fuels Harbour press",
+  "text": "At 55:08 Marchetti’s 31 km/h, 12.2 m carry illustrates Harbour City’s high‑press (PPDA 9.3) disrupting Ironvale’s deep block, shifting momentum despite -23 rating and chaos 61.",
+  "cites": [
+   "e1091"
+  ]
+ }
+}

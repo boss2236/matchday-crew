@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic के आगे, कम possession में भी",
+  "text": "हाफ़टाइम पर Ironvale Athletic 1-0 आगे हैं। 46% possession और 4 shots के बावजूद उनका xG 1.14 है, जबकि Northgate Rovers का 0.68 है 6 shots से। PPDA 9.6 बनाम 7.8, momentum 12।",
+  "cites": [
+   "e0857"
+  ]
+ }
+}

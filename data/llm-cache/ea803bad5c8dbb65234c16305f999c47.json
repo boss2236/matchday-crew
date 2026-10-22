@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate muovono la palla, poi sfondano",
+  "text": "Il Northgate Rovers tiene la palla quasi sempre. Sven Dahl, anche sotto pressione, lancia lontano per Andres Vega, che parte subito in avanti. Una bella giocata, ma ancora nessun tiro pericoloso.",
+  "cites": [
+   "e0115",
+   "e0116"
+  ]
+ }
+}

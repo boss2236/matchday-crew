@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere تخنق أمل Harbour City",
+  "text": "Southmere United متقدمون 3-0، وجو مارتن وتارق عزيز استعادا الكرة مرة بعد مرة في الدقائق الأخيرة. هكذا لم تجد Harbour City فرصة للعودة، والمباراة تنتهي بهدوء للمضيف.",
+  "cites": [
+   "e1858",
+   "e1889",
+   "e1897"
+  ]
+ }
+}

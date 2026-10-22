@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City verliert Kontrolle bei 0-0",
+  "text": "Beim 0-0 stieg Chaos auf 64, Momentum fiel auf -27. Mateo Ruiz' 26.9 Pass unter Druck brachte 22 Raumgewinn, doch Leo Marchettis 55.6 Ball auf Yusuf Demir wurde abgefangen.",
+  "cites": [
+   "e0671",
+   "e0672"
+  ]
+ }
+}

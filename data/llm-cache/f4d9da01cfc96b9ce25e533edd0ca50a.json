@@ -1,0 +1,16 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Okafor interception, Marchetti 83 km/h equaliser",
+  "text": "Sami Okafor's interception at 48:32 starts an unpressured chain: three passes (difficulty 30, 43, 41), Leo Marchetti's 14.3 carry, then an 83 km/h finish from 15.2 at 0.024 xG. Harbour City level 1-1.",
+  "cites": [
+   "e0991",
+   "e0994",
+   "e0995",
+   "e0996",
+   "e0997",
+   "e0998",
+   "e0999"
+  ]
+ }
+}

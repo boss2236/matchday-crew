@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers hold on for the win!",
+  "text": "試合終了！Northgate Rovers が1-0で逃げ切りました。Southmere United は押し込む場面が多くても、最後まで点を奪えず。ハラハラする終盤を、Rovers が見事にしのぎ切りました！",
+  "cites": [
+   "e1784"
+  ]
+ }
+}

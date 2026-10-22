@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate pierden el hilo en el 67",
+  "text": "Gabe Moreno intentó un pase larguísimo y Ironvale lo cortó. Pero Ilan Cohen respondió con un buen pase a Oscar Blum y Northgate Rovers volvió a avanzar, aunque siguen perdiendo 1-0.",
+  "cites": [
+   "e1229",
+   "e1243"
+  ]
+ }
+}

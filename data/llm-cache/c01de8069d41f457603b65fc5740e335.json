@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate mueve el balón con paciencia",
+  "text": "Northgate Rovers va perdiendo 1-0, pero no se desespera: Ilan Cohen, Kai Nakamura y Andres Vega se pasan el balón con calma, sin nadie encima, tras el tiro parado de Oscar Blum. ¡Buscan su hueco!",
+  "cites": [
+   "e0782",
+   "e0789",
+   "e0791",
+   "e0793"
+  ]
+ }
+}

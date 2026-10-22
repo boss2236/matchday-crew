@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers يتحكمون بالكرة بهدوء",
+  "text": "Northgate Rovers يتقدمون 1-0 ويمسكون الكرة أغلب الوقت. Kai Nakamura يمرر لـ Oscar Blum بتمريرة جميلة للأمام، واللعب يبقى متوازناً ومفتوحاً لأي شيء.",
+  "cites": [
+   "e0553",
+   "e0556"
+  ]
+ }
+}

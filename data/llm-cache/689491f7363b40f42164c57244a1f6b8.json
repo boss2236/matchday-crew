@@ -1,19 +1,16 @@
 {
- "model": "openai:openai/gpt-oss-120b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Southmere's late collapse",
-  "text": "At 90+4', Southmere United’s momentum fell to -27 and chaos rose to 57 as a series of backward passes and low‑speed carries (e1763‑e1769) halted any threat, ceding control to Northgate.",
+  "headline": "Southmere chase it, chaos rising late",
+  "text": "At 90+4' Southmere trail 1-0 and keep the ball moving, Bruno Costa carrying before finding Tariq Aziz. Chaos sits at 57 with momentum at -27, and Southmere's 0.38 xg shows they still lack quality chances.",
   "tags": [
-   "momentum",
    "chaos",
-   "control"
+   "possession",
+   "momentum"
   ],
   "cites": [
-   "e1763",
    "e1764",
-   "e1765",
    "e1767",
-   "e1768",
    "e1769"
   ]
  }

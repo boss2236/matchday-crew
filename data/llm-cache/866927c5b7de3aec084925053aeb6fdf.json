@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City 공격, 갑자기 어수선해졌어요",
+  "text": "Leo Marchetti가 Yusuf Demir에게 길게 찔러준 공이 끊기면서 경기가 순식간에 어수선해졌어요. 그래도 Mateo Ruiz가 압박 속에서 앞으로 밀어준 패스는 참 날카로웠습니다.",
+  "cites": [
+   "e0671",
+   "e0672",
+   "e0679"
+  ]
+ }
+}

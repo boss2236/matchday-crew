@@ -1,16 +1,14 @@
 {
- "model": "openai:openai/gpt-oss-120b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Ironvale’s momentum collapses",
-  "text": "After a 15.8m carry (e1631) and a series of risky passes ending with an off‑target shot (e1650), Ironvale’s momentum fell to –28 and chaos rose to 69, signalling loss of control as they chase the game.",
+  "headline": "Ironvale's late push fizzles into desperation",
+  "text": "Trailing 3-1 at 87 minutes, Ironvale's attack broke down: a pressured pass went out, then Zeke Mbeki fired off target from 31.5 with 0.008 xg. Chaos at 69 and momentum of -28 show control slipping away.",
   "tags": [
-   "momentum",
    "chaos",
-   "control"
+   "momentum",
+   "finishing"
   ],
   "cites": [
-   "e1631",
-   "e1632",
    "e1635",
    "e1650"
   ]

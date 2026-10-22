@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers menekan, Southmere tersendat",
+  "text": "Kai Nakamura memicu 3 regains dalam 120 detik (tekel e0757, intersepsi e0765). Northgate Rovers unggul 1-0 menit 42, xG 0.68 vs 0.16, PPDA 8.5 vs 9.1, momentum -27.",
+  "cites": [
+   "e0738",
+   "e0757",
+   "e0765"
+  ]
+ }
+}

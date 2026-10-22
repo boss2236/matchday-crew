@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Quelle occasion pour Ironvale Athletic !",
+  "text": "Harbour City garde le ballon, mais Ironvale Athletic file en contre et Zeke Mbeki se retrouve tout près du but. Son tir est bloqué, il s'en est fallu de si peu !",
+  "cites": [
+   "e0041"
+  ]
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Oscar Blum'un golü Northgate Rovers'a galibiyeti getirdi",
+  "text": "Maç sakin başladı; Northgate Rovers topu ayağında tutmaya çalıştı, Southmere United ise kanatlardan hızlı oynamayı denedi. Dönüm noktası 23. dakikada geldi. Emre Kaya uzun bir pasla Oscar Blum'u buldu, Blum de kaleciyi çaresiz bırakıp golü attı. Southmere United sonrasında topu sık sık geri kazanıp baskı kurdu, ama istediği golü bulamadı. Oscar Blum 65. dakikada ikinci golü de arıyordu, fakat şutu auta gitti. Son dakikalarda Southmere United son bir şans aradı, yine de kapıyı açamadı. Maç 1-0 bitti. Northgate Rovers topu daha çok kontrol etti ve tek büyük fırsatı gole çevirdi. Günün yıldızı Oscar Blum oldu.",
+  "cites": [
+   "e0426",
+   "e0427",
+   "e0428",
+   "e1205",
+   "e1784"
+  ]
+ }
+}

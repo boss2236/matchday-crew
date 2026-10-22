@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere perde il pallone con i lanci lunghi",
+  "text": "Southmere United prova due lanci lunghi, ma Harbour City li intercetta entrambi. È come buttare il pallone nel mucchio: la squadra ospite lo riprende subito e il ritmo di gioco cala. Occhio alla pressione!",
+  "cites": [
+   "e0574",
+   "e0584"
+  ]
+ }
+}

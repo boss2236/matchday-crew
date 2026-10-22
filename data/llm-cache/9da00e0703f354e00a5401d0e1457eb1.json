@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City topu çevirdi, tehlike yaratamadı",
+  "text": "Harbour City baskısız şekilde pas üstüne pas yaptı, sonunda Arjun Mehta şutu çekti ama kaleci kurtardı. Şut zayıf bir fırsattı; skor hâlâ 0-0 ve top kontrolü henüz gole dönüşmedi.",
+  "cites": [
+   "e0351",
+   "e0352",
+   "e0353"
+  ]
+ }
+}

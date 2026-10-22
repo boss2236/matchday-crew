@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate verlieren den Ball, aber nicht den Mut",
+  "text": "Northgate Rovers liegen 1-0 hinten. Gabe Moreno wagt einen riesigen Pass, doch Emre Kaya bekommt ihn nicht, der Ball wird abgefangen. Dann bringt Ilan Cohen mit einem klugen Pass auf Oscar Blum wieder Schwung ins Spiel.",
+  "cites": [
+   "e1229",
+   "e1243"
+  ]
+ }
+}

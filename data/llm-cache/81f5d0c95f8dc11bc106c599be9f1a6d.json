@@ -1,12 +1,12 @@
 {
- "model": "openai:openai/gpt-oss-120b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Rovers' Press Sparks Turnover Surge",
-  "text": "Ilan Cohen’s three interceptions in a 120‑second spell (e1462) capped a sequence of back‑to‑back gains (e1425, e1441), shifting momentum from –39 to a more controlled phase as Northgate’s pressing forced turnovers.",
+  "headline": "Northgate's pressing spell protects the lead",
+  "text": "Ilan Cohen's interception was Northgate Rovers' third regain in 120 seconds, a sustained spell that stops Southmere United's wing play and protects the 1-0 lead at 78 minutes, with chaos at 54.",
   "tags": [
    "pressing",
-   "momentum",
-   "control"
+   "control",
+   "momentum"
   ],
   "cites": [
    "e1425",

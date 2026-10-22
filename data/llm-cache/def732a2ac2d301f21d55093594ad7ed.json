@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere mène, mais ça devient fragile",
+  "text": "Southmere United mène 1-0, mais le jeu s'énerve ! Joel Martin se fait intercepter, puis deux passes sortent en touche, sous la pression de Harbour City. Les locaux perdent le fil du match.",
+  "cites": [
+   "e1221",
+   "e1230",
+   "e1234"
+  ]
+ }
+}

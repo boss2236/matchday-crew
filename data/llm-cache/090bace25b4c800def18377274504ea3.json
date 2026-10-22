@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City 的长传又被断了",
+  "text": "Harbour City 的长传球快而远，却在不到一分钟里被拦下了3次，球一次次丢给 Ironvale Athletic。比分还是1-1，但场面开始有点乱，Harbour City 得稳住。",
+  "cites": [
+   "e1111",
+   "e1118",
+   "e1128"
+  ]
+ }
+}

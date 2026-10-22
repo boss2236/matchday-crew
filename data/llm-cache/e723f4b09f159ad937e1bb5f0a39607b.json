@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere topu bir türlü rahat tutamıyor",
+  "text": "Northgate topu çoğu zaman kendinde tutuyor, Southmere United ise baskı altında. Joel Martin baskıya rağmen topu Rafa Ortega'ya ulaştırdı, Ortega da topla ilerleyerek takımını rahatlatmaya çalıştı.",
+  "cites": [
+   "e0219",
+   "e0220",
+   "e0221"
+  ]
+ }
+}

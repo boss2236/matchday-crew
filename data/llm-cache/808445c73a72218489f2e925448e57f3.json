@@ -1,0 +1,13 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Ironvale's Quick Counter",
+  "text": "After a -25 swing and chaos 67, Ironvale stitched three sharp passes (e0575‑e0577) before Zeke’s shot was blocked (e0578).",
+  "cites": [
+   "e0575",
+   "e0576",
+   "e0577",
+   "e0578"
+  ]
+ }
+}

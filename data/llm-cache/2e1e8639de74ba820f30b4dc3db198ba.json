@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City push, but shot is weak",
+  "text": "Harbour City가 0-2로 끌려가던 81분, 패스를 빠르게 이어 Dani Kowalski의 슛까지 만들었어요. 하지만 골키퍼가 막아냈고, 아직 Southmere United가 경기를 쥐고 있어요.",
+  "cites": [
+   "e1714",
+   "e1715"
+  ]
+ }
+}
