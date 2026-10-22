@@ -37,6 +37,8 @@ export class Renderer {
     this.canvas.height = Math.round(this.h * dpr);
     this.ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
     this.view = Math.max(22, Math.min(48, (28 * this.w) / Math.max(1, this.h)));
+    // A phone-width frame: closer still, about a quarter of the pitch across.
+    if (this.w < 520) this.view = Math.min(this.view, 26);
   }
 
   // Perspective: the far touchline (y = 0) is higher and narrower than the near one.
