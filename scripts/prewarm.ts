@@ -4,6 +4,8 @@
 //
 //   node scripts/prewarm.ts                       all fixtures, English Arabic Spanish
 //   node scripts/prewarm.ts 7,8 English,French    pick seeds and languages
+//   node scripts/prewarm.ts all all --refresh     every language; rewrite lines
+//                                                 another model cached
 //
 // Uses the model from .env through the response cache: answers already cached
 // cost nothing, so it is safe to rerun after an interruption.
@@ -11,7 +13,7 @@ import { existsSync, mkdirSync, writeFileSync } from 'node:fs';
 import { ChatClient, llmConfigFromEnv } from '../src/ai/llm.ts';
 import { CachedChat } from '../src/ai/cache.ts';
 import { CopilotChat, copilotConfigFromEnv } from '../src/ai/copilot.ts';
-import { Translator, translatorConfigFromEnv } from '../src/ai/translator.ts';
+import { LANGUAGES, Translator, translatorConfigFromEnv } from '../src/ai/translator.ts';
 import { FIXTURES } from '../src/live/fixtures.ts';
 import { LiveSession, audiencesFor } from '../src/live/session.ts';
 import type { FeedItem, TraceEntry } from '../src/types.ts';
@@ -27,8 +29,10 @@ if (!model) {
   console.error('No model configured in .env: nothing to pre-generate.');
   process.exit(1);
 }
-const seeds = process.argv[2] ? process.argv[2].split(',').map(Number) : FIXTURES.map((f) => f.seed);
-const languages = process.argv[3] ? process.argv[3].split(',') : ['English', 'Arabic', 'Spanish'];
+const [seedArg, languageArg] = process.argv.slice(2).filter((a) => !a.startsWith('--'));
+const refresh = process.argv.includes('--refresh');
+const seeds = seedArg && seedArg !== 'all' ? seedArg.split(',').map(Number) : FIXTURES.map((f) => f.seed);
+const languages = languageArg === 'all' ? Object.keys(LANGUAGES) : languageArg ? languageArg.split(',') : ['English', 'Arabic', 'Spanish'];
 const translatorConfig = translatorConfigFromEnv();
 const translator = translatorConfig ? new Translator(translatorConfig) : null;
 mkdirSync('out/prewarm', { recursive: true });
@@ -37,7 +41,7 @@ for (const seed of seeds) {
   const fixture = FIXTURES.find((f) => f.seed === seed);
   if (!fixture) throw new Error(`seed ${seed} is not a published fixture`);
   for (const language of languages) {
-    const llm = new CachedChat(model);
+    const llm = new CachedChat(model, { refresh });
     const items: FeedItem[] = [];
     const trace: TraceEntry[] = [];
     const started = Date.now();
