@@ -23,12 +23,13 @@ export default function Studio() {
   const live = useLiveMatch();
   const items = useMemo(() => live.items.filter((i) => i.audience === persona), [live.items, persona]);
   const { active, highlight } = useOverlays(items);
-  // The match picture is the default; animated players, transparent and green are opt-in.
-  const bg = q.get('bg') === 'transparent' || q.get('bg') === 'green' || q.get('bg') === 'players' ? q.get('bg') : 'pitch';
+  // The match picture is the default; animated players (flat or 3D), transparent and green are opt-in.
+  const bg = ['transparent', 'green', 'players', '3d'].includes(q.get('bg') ?? '') ? q.get('bg') : 'pitch';
+  const players = bg === 'players' || bg === '3d';
   const [azureVoice, setAzureVoice] = useState(false);
 
   useEffect(() => {
-    document.documentElement.dataset.view = bg === 'green' ? 'studio-green' : bg === 'pitch' || bg === 'players' ? 'studio-pitch' : 'studio';
+    document.documentElement.dataset.view = bg === 'green' ? 'studio-green' : bg === 'pitch' || players ? 'studio-pitch' : 'studio';
     fetch('api/config')
       .then((r) => r.json())
       .then((config: AppConfig) => {
@@ -50,7 +51,7 @@ export default function Studio() {
   // OBS's browser source exposes window.obsstudio. Anywhere else, show how to
   // use the page and a checkerboard so the transparent background is obvious.
   const inObs = 'obsstudio' in window;
-  const preview = !inObs && bg !== 'green' && bg !== 'pitch' && bg !== 'players';
+  const preview = !inObs && bg !== 'green' && bg !== 'pitch' && !players;
 
   const m = live.snap?.momentum ?? 0;
   // The broadcast view always sits on the dark pitch: the dark-surface club colours.
@@ -63,9 +64,9 @@ export default function Studio() {
           <span className="studio-label">Synthetic match · simulated feed</span>
         </div>
       )}
-      {bg === 'players' && (
+      {players && (
         <div className="studio-stage">
-          <PlayersView meta={live.meta} subscribe={live.subscribe} eventLog={live.eventLog} idle={false} />
+          <PlayersView mode={bg === '3d' ? '3d' : '2d'} meta={live.meta} subscribe={live.subscribe} eventLog={live.eventLog} idle={false} />
           <span className="studio-label">Synthetic match · simulated feed</span>
         </div>
       )}

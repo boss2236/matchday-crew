@@ -17,6 +17,8 @@ import { FocusCard, MetricCard } from './components/FocusCards.tsx';
 import { TourOffer, TourSteps, useTour } from './components/Tour.tsx';
 import { useBrowserVoices, useVoice, voiceSupport } from './useVoice.ts';
 
+type View = 'board' | 'players' | '3d';
+
 export default function App({ theme, onToggleTheme }: { theme: ThemeName; onToggleTheme: () => void }) {
   const [config, setConfig] = useState<AppConfig | null>(null);
   const [configError, setConfigError] = useState<string | null>(null);
@@ -24,8 +26,11 @@ export default function App({ theme, onToggleTheme }: { theme: ThemeName; onTogg
   const [settings, setSettings] = useState<Settings | null>(null);
   const live = useLiveMatch();
   // The match as a tactics board (where each action happened, what the crew cites)
-  // or as animated players. ?view=players opens on the players.
-  const [view, setView] = useState<'board' | 'players'>(() => (new URLSearchParams(location.search).get('view') === 'players' ? 'players' : 'board'));
+  // or as animated players, flat or in 3D. ?view=players or ?view=3d opens on them.
+  const [view, setView] = useState<View>(() => {
+    const v = new URLSearchParams(location.search).get('view');
+    return v === 'players' || v === '3d' ? v : 'board';
+  });
   const [voice, setVoice] = useState(false);
   const tour = useTour(new URLSearchParams(location.search).get('autostart') === '1');
 
@@ -50,7 +55,7 @@ export default function App({ theme, onToggleTheme }: { theme: ThemeName; onTogg
     if (settings?.player) p.set('player', settings.player);
     if (settings?.metric) p.set('metric', settings.metric);
     if (voice) p.set('voice', '1');
-    if (view === 'players') p.set('bg', 'players');
+    if (view !== 'board') p.set('bg', view);
     return `studio?${p}`;
   };
 
@@ -154,12 +159,20 @@ export default function App({ theme, onToggleTheme }: { theme: ThemeName; onTogg
               )}
             </div>
           </div>
-          <TabList size="small" selectedValue={view} onTabSelect={(_, d) => setView(d.value as 'board' | 'players')} aria-label="How to show the match" className="view-tabs" data-tour="view">
+          <TabList size="small" selectedValue={view} onTabSelect={(_, d) => setView(d.value as View)} aria-label="How to show the match" className="view-tabs" data-tour="view">
             <Tab value="board">Tactics board</Tab>
             <Tab value="players">Players</Tab>
+            <Tab value="3d">3D</Tab>
           </TabList>
-          {view === 'players' ? (
-            <PlayersView key={live.runId} meta={live.meta} subscribe={live.subscribe} eventLog={live.eventLog} idle={live.status === 'idle'} />
+          {view !== 'board' ? (
+            <PlayersView
+              key={live.runId}
+              mode={view === '3d' ? '3d' : '2d'}
+              meta={live.meta}
+              subscribe={live.subscribe}
+              eventLog={live.eventLog}
+              idle={live.status === 'idle'}
+            />
           ) : (
             <Pitch
               key={`${live.runId}-${persona}`}
