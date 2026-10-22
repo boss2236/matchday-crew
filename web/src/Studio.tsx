@@ -39,7 +39,7 @@ export default function Studio() {
         const fixture = config.fixtures[index] ?? config.fixtures[0];
         if (!fixture) return;
         const params = new URLSearchParams({ seed: String(fixture.seed), home: fixture.home, away: fixture.away, speed: q.get('speed') ?? '20', language });
-        for (const k of ['club', 'player', 'metric']) {
+        for (const k of ['club', 'player', 'metric', 'from']) {
           const v = q.get(k);
           if (v) params.set(k, v);
         }

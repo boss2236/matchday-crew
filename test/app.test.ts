@@ -121,13 +121,15 @@ test('recap prompt stays small enough for free-tier request limits', async () =>
 
 test('query parsing clamps and validates viewer input', () => {
   const q = (s: string) => parseLiveQuery(new URLSearchParams(s));
-  assert.deepEqual(q(''), { seed: 7, home: 'harbour', away: 'ironvale', speed: 20, language: 'English', favouriteClub: null, favouritePlayer: null, focusMetric: null });
+  assert.deepEqual(q(''), { seed: 7, home: 'harbour', away: 'ironvale', speed: 20, from: 0, language: 'English', favouriteClub: null, favouritePlayer: null, focusMetric: null });
   assert.equal(q('metric=xg').focusMetric, 'xg');
   assert.equal(q('metric=__proto__').focusMetric, null);
   assert.equal(q('home=__proto__').home, 'harbour');
   assert.equal(q('seed=9').home, 'northgate');
   assert.equal(q('speed=99999').speed, 600);
   assert.equal(q('speed=-5').speed, 0);
+  assert.equal(q('from=29').from, 29 * 60, 'from is a match minute');
+  assert.equal(q('from=500').from, 100 * 60);
   assert.equal(q('language=ar').language, 'Arabic');
   assert.equal(q('language=<script>').language, 'English');
   assert.notEqual(q('home=harbour&away=harbour').away, 'harbour');
@@ -265,4 +267,28 @@ test('every metric reads cleanly from a finished match', () => {
     assert.equal(typeof m.away, 'number', id);
   }
   assert.equal(readMetric('nope', snap, state), null);
+});
+
+test('from= catches the match up at once, then plays live from that minute', async () => {
+  const { LiveSession } = await import('../src/live/session.ts');
+  let clock = 0;
+  const waits: number[] = [];
+  const sent: { type: string; t?: number; at: number }[] = [];
+  const session = new LiveSession({
+    seed: 7,
+    speed: 10,
+    from: 29 * 60,
+    now: () => clock,
+    sleep: async (ms) => {
+      waits.push(ms);
+      clock += ms;
+    },
+    emit: (type, data) => sent.push({ type, t: (data as { t?: number }).t, at: clock }),
+  });
+  await session.run();
+  const events = sent.filter((m) => m.type === 'event');
+  const before = events.filter((e) => (e.t ?? 0) <= 29 * 60);
+  assert.ok(before.length > 100 && before.every((e) => e.at === 0), 'the first 29 minutes arrive at once');
+  const next = events.find((e) => (e.t ?? 0) > 29 * 60);
+  assert.ok(next && next.at > 0 && next.at < 2000, 'play goes on at the chosen pace from minute 29');
 });

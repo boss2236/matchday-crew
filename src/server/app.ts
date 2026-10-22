@@ -50,6 +50,7 @@ export interface LiveQuery {
   home: ClubId;
   away: ClubId;
   speed: number;
+  from: number;
   language: string;
   favouriteClub: string | null;
   favouritePlayer: string | null;
@@ -76,7 +77,8 @@ export function parseLiveQuery(searchParams: URLSearchParams): LiveQuery {
   const favouritePlayer = [...CLUBS[home].players, ...CLUBS[away].players].find((p) => p.id === playerId)?.name ?? null;
   const metric = searchParams.get('metric');
   const focusMetric = isMetricId(metric) ? metric : null;
-  return { seed, home, away, speed: num('speed', 20, 0, 600), language, favouriteClub, favouritePlayer, focusMetric };
+  // from: match minute to start live from (the match before it is caught up at once).
+  return { seed, home, away, speed: num('speed', 20, 0, 600), from: num('from', 0, 0, 100) * 60, language, favouriteClub, favouritePlayer, focusMetric };
 }
 
 // Fixed-window rate limit per client and route. Small and in-memory: one
