@@ -12,10 +12,12 @@ import type { EvidencePack } from '../src/agents/evidence.ts';
 import { FIXTURES } from '../src/live/fixtures.ts';
 import { LiveSession, audiencesFor } from '../src/live/session.ts';
 import { CLUBS } from '../src/engine/teams.ts';
+import { LANGUAGES as APP_LANGUAGES } from '../src/ai/translator.ts';
 import type { ChatRequest, FeedItem, JsonModel, TraceEntry } from '../src/types.ts';
 import type { MatchState } from '../src/stats/matchState.ts';
 
-const LANGUAGES = ['English', 'Arabic', 'Spanish'];
+// Every language the app offers: the shipped cache covers all of them.
+const LANGUAGES = Object.keys(APP_LANGUAGES);
 const pct = (n: number, d: number) => (d ? `${Math.round((n / d) * 1000) / 10}%` : '–');
 
 // 1. What a visitor with no key sees, per published fixture and language.
