@@ -1,8 +1,8 @@
 {
- "model": "copilot:claude-sonnet-5.5",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Ironvale counter nearly stuns Harbour City",
-  "text": "Despite Harbour City's 67 possession, Ironvale's direct style created Zeke Mbeki's 0.876 xg chance from 2.5 distance, blocked at 0-0. Momentum of -84 shows Ironvale's counters dominating the early game state.",
+  "headline": "Ironvale's direct threat stuns possession-heavy Harbour",
+  "text": "Harbour City hold 67% possession, but Ironvale Athletic have the shots, 2 to 0. Zeke Mbeki was unpressured from 2.5 metres for a 0.876 xG chance that was blocked, and momentum sits at -84.",
   "tags": [
    "counter",
    "chance",

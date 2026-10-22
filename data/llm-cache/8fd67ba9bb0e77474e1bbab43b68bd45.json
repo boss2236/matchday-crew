@@ -1,11 +1,11 @@
 {
- "model": "copilot:claude-sonnet-5.5",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Interception sparks lightning equaliser",
-  "text": "Sami Okafor's interception at 48:32 became a seven-event, unpressured sequence: three passes, a carry, then Leo Marchetti's 83 km/h shot. It cost Harbour City nothing, and it levelled 1-1 from just 0.024 xg.",
+  "headline": "Okafor interception sparks Harbour City's equaliser",
+  "text": "Sami Okafor's interception started a quick break of 3 passes, none under pressure, and Leo Marchetti scored from a 0.024 xG chance. Harbour City's high press levels the score at 1-1 even though Ironvale Athletic lead xG 1.63 to 0.35.",
   "tags": [
+   "pressing",
    "counter",
-   "speed",
    "finishing"
   ],
   "cites": [
@@ -13,7 +13,6 @@
    "e0994",
    "e0995",
    "e0996",
-   "e0997",
    "e0998",
    "e0999"
   ]

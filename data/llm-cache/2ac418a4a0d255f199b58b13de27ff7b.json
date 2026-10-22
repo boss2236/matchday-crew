@@ -1,12 +1,12 @@
 {
- "model": "copilot:claude-sonnet-5.5",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Harbour City's finishing beats Ironvale's xG",
-  "text": "Harbour City won 4-1 despite lower xg (1.26 vs 1.76), converting 7 shots on target from 12. Their high press (ppda 8.5 vs 10.3) and 56 final third entries kept momentum at 75.",
+  "headline": "Harbour City's finishing beats the xG story",
+  "text": "Harbour City win 4-1 despite losing the xG battle 1.26 to 1.76. Their high press (PPDA 8.5) and 7 shots on target turned pressure into ruthless finishing against Ironvale Athletic's deep block.",
   "tags": [
    "finishing",
    "pressing",
-   "momentum"
+   "control"
   ],
   "cites": [
    "e1727"

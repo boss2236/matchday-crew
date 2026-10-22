@@ -1,14 +1,17 @@
 {
- "model": "copilot:claude-sonnet-5.5",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Harbour City losing control while trailing",
-  "text": "Harbour City trail 0-1 with momentum at 27 and chaos at 46. Their long, risky passes, like Leo Marchetti's intercepted ball in e0725 and Jonah Pike's out-of-play pass in e0734, hand possession back to Ironvale.",
+  "headline": "Harbour City swing momentum but lack precision",
+  "text": "Harbour City, trailing 0-1, have pushed momentum to 27 with quick combinations, but long balls keep breaking down: Marchetti's 60.3 pass was intercepted and Pike's went out. They have only 0.16 xG to Ironvale's 1.63.",
   "tags": [
    "momentum",
-   "chaos",
+   "possession",
    "pass"
   ],
   "cites": [
+   "e0722",
+   "e0723",
+   "e0724",
    "e0725",
    "e0734"
   ]

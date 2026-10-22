@@ -1,15 +1,17 @@
 {
- "model": "copilot:claude-sonnet-5.5",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Harbour City recycle possession, protect lead",
-  "text": "Harbour City complete five straight unpressured passes, several going backwards (-24.1, -17.9), to slow the game at 2-1 in the 80th minute. Momentum is 25 and chaos 45, so they are choosing control over risk.",
+  "headline": "Harbour City recycle possession to protect lead",
+  "text": "At 2-1, Harbour City string unpressured passes, with Mateo Ruiz and Leo Marchetti going backwards (-24.1, -17.9) to bleed the clock. Momentum sits at 25, but Ironvale's 1.75 xG against 0.41 suggests the lead is fragile.",
   "tags": [
-   "control",
    "possession",
+   "control",
    "momentum"
   ],
   "cites": [
+   "e1527",
    "e1528",
+   "e1530",
    "e1531",
    "e1532"
   ]

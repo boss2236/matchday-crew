@@ -1,8 +1,8 @@
 {
- "model": "copilot:claude-sonnet-5.5",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Harbour City's long passes keep getting picked off",
-  "text": "Harbour City's long, fast passes at 1-1 were intercepted three times in under a minute (e1111, e1118, e1128), and Ironvale's xg of 1.68 against 0.35 shows the momentum of 35 is slipping amid chaos of 55.",
+  "headline": "Harbour City's unpressured passes keep getting picked",
+  "text": "Harbour City lost the ball three times without being pressured. Interceptions by Ironvale Athletic's deep block led to momentum 35 and chaos 55 at 1-1, despite Harbour City's 39 final third entries.",
   "tags": [
    "momentum",
    "chaos",

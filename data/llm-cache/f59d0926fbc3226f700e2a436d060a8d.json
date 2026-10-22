@@ -1,14 +1,17 @@
 {
- "model": "copilot:claude-sonnet-5.5",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Harbour City probe, but only low-value shot",
-  "text": "Harbour City kept five unpressured passes moving before Arjun Mehta's saved shot, worth just 0.015 xg from 25.2 distance. At 0-0, their xg is 0.06 against Ironvale Athletic's 0.89, so control hasn't become danger.",
+  "headline": "Harbour City circulate, but threat stays thin",
+  "text": "Harbour City string five unpressured passes before Arjun Mehta's 25.2m shot is saved at 0.015 xG. Momentum 33 shows control without penetration, while Ironvale Athletic lead xG 0.89 to 0.06.",
   "tags": [
-   "control",
-   "chance",
-   "momentum"
+   "possession",
+   "momentum",
+   "control"
   ],
   "cites": [
+   "e0348",
+   "e0349",
+   "e0350",
    "e0351",
    "e0352",
    "e0353"

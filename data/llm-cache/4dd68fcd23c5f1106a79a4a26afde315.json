@@ -1,12 +1,12 @@
 {
- "model": "copilot:claude-sonnet-5.5",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Ironvale's direct play stirs chaos",
-  "text": "At 0-0, Ironvale's direct passes, including Ade Bamidele's 49.5 to Zeke Mbeki, produced a blocked 0.071 xG shot amid 67 chaos. Momentum sits at -25, so the game is loose rather than controlled.",
+  "headline": "Ironvale's direct play tilts momentum their way",
+  "text": "Ade Bamidele's 49.5m pass sets Ironvale's direct style in motion, and Zeke Mbeki's blocked shot caps the swing to -25. Chaos sits at 67, and Ironvale's 0.96 xG dwarfs Harbour City's 0.16.",
   "tags": [
+   "momentum",
    "counter",
-   "chaos",
-   "momentum"
+   "chaos"
   ],
   "cites": [
    "e0575",

@@ -1,16 +1,19 @@
 {
- "model": "copilot:claude-sonnet-5.5",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Ironvale escape the press and surge",
-  "text": "Ironvale beat pressure, then Owen Lusk's 56.1-metre pass to Marco Silvan (progress 51.4) flipped the game. Six completed passes swung momentum to -52 at 0-0, with chaos at 57 and Ironvale's xg at 0.89 against 0.04.",
+  "headline": "Ironvale seize momentum through patient circulation",
+  "text": "Ironvale Athletic string six completed passes together. Owen Lusk's 56.1m switch to Marco Silvan gains 51.4 of progress, swinging momentum to -52 and giving the away side 0.89 xG against Harbour City's 0.04.",
   "tags": [
    "momentum",
-   "counter",
-   "pass"
+   "pass",
+   "control"
   ],
   "cites": [
    "e0138",
    "e0139",
+   "e0140",
+   "e0141",
+   "e0142",
    "e0143"
   ]
  }

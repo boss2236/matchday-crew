@@ -1,12 +1,12 @@
 {
- "model": "copilot:claude-sonnet-5.5",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Ironvale's pressing spell wins the ball back",
-  "text": "Ironvale Athletic won three interceptions in 120 seconds, the last by Ivo Petrov at 66:40. That spell stands out against a deep-block, direct-counter style, and with a 2-1 deficit it shows them taking back control.",
+  "headline": "Ironvale's deep block starts biting",
+  "text": "Ironvale Athletic made 3 regains in 120 seconds. Interceptions by Marco Silvan, Zeke Mbeki and Ivo Petrov are turning their deep block into a platform for direct counters as they trail 2-1, with xG of 1.68 against 0.41.",
   "tags": [
    "pressing",
-   "momentum",
-   "control"
+   "counter",
+   "momentum"
   ],
   "cites": [
    "e1263",

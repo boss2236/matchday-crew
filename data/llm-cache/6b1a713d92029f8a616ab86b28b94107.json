@@ -1,16 +1,17 @@
 {
- "model": "copilot:claude-sonnet-5.5",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Harbour City's lead feels fragile",
-  "text": "Harbour City lead 2-1 at 77', yet momentum sits at 32 with chaos at 52. A backward ball by Mateo Ruiz to Rui Barros and a pressured pass intercepted at 75:48 hint at loose control, while Ironvale's xg of 1.68 looms.",
+  "headline": "Harbour City recycle, then lose it under pressure",
+  "text": "Harbour City lead 2-1 and moved the ball calmly, but Mateo Ruiz's pass went backwards 33.5 metres and then Rui Barros's pressured pass was intercepted. With momentum at 32 and chaos at 52, they are losing control.",
   "tags": [
    "momentum",
-   "chaos",
-   "set-back"
+   "possession",
+   "chaos"
   ],
   "cites": [
    "e1451",
-   "e1453"
+   "e1453",
+   "e1465"
   ]
  }
 }

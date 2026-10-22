@@ -1,8 +1,8 @@
 {
- "model": "copilot:claude-sonnet-5.5",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Harbour City's press suffocates Ironvale late",
-  "text": "Harbour City won the ball back 3 times in 120 seconds, via tackles by Dani Kowalski and Arjun Mehta, then an interception by Yusuf Demir at 83:06. With a 3-1 lead and momentum at 71, the press keeps control.",
+  "headline": "Harbour City's press still biting late",
+  "text": "Harbour City won the ball back 3 times in 120 seconds: tackles from Dani Kowalski and Arjun Mehta, then a Yusuf Demir interception. Leading 3-1 with momentum at 71, their high press keeps Ironvale Athletic penned in.",
   "tags": [
    "pressing",
    "momentum",

@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-opus-5.5",
+ "output": {
+  "headline": "Kowalski steals it and seals it!",
+  "text": "Dani Kowalski pinches the ball, swaps quick passes with Mateo Ruiz, then gets it back right in front of goal and tucks it home. Harbour City lead 4-1!",
+  "cites": [
+   "e1715",
+   "e1718",
+   "e1722",
+   "e1724",
+   "e1725"
+  ]
+ }
+}

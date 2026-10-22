@@ -1,15 +1,17 @@
 {
- "model": "copilot:claude-sonnet-5.5",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Patient 14-pass buildup ends in low-xG goal",
-  "text": "Harbour City won the ball by interception, then strung together 14 buildUpPasses before Yusuf Demir fed Dani Kowalski, whose 97.9 km/h shot from 13.5 scored despite 0.06 xg, putting them 2-1 up.",
+  "headline": "Patient 14-pass move breaks Ironvale's block",
+  "text": "Jonah Pike's interception started a 14-pass recycle that pulled Ironvale Athletic's deep block apart. Mateo Ruiz and Yusuf Demir then went direct, and Dani Kowalski finished a 0.06 xG chance at 97.9 km/h to make it 2-1.",
   "tags": [
    "possession",
-   "finishing",
-   "control"
+   "control",
+   "finishing"
   ],
   "cites": [
    "e1201",
+   "e1207",
+   "e1215",
    "e1220",
    "e1221",
    "e1222",

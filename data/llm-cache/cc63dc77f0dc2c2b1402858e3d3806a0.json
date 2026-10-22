@@ -1,8 +1,8 @@
 {
- "model": "copilot:claude-sonnet-5.5",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Ironvale's direct play carves clear chance",
-  "text": "Zeke Mbeki's unpressured shot from 4.4 was saved, but Ironvale lead 0-1 with xg 1.63 against Harbour City's 0.16 despite having 48% possession. Their direct counters are punishing the high press.",
+  "headline": "Ironvale's counters keep carving Harbour City open",
+  "text": "Zeke Mbeki's unpressured shot from 4.4 metres, worth 0.459 xG, was saved. Ironvale lead 0-1 with 48% possession and 1.63 xG to Harbour City's 0.16, and momentum sits at -90.",
   "tags": [
    "counter",
    "chance",

@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-opus-5.5",
+ "output": {
+  "headline": "Harbour City's patient passing pays off",
+  "text": "Jonah Pike nicks the ball, Harbour City keep it for 14 passes until Ironvale Athletic's wall cracks, and Yusuf Demir sets up Dani Kowalski to smash it in. Harbour City lead!",
+  "cites": [
+   "e1201",
+   "e1220",
+   "e1221",
+   "e1222",
+   "e1223"
+  ]
+ }
+}

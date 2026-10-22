@@ -1,12 +1,12 @@
 {
- "model": "copilot:claude-sonnet-5.5",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Harbour City answer with a quick-combination goal",
-  "text": "Four unpressured moves from Sami Okafor's carry to Leo Marchetti's 15.2-distance shot ended in a goal from just 0.024 xG. Harbour City's chaos reading of 63 hid a clean sequence, and it came while trailing 0-1.",
+  "headline": "Harbour City's quick combinations turn into a goal",
+  "text": "Okafor, Demir and Kowalski move it quickly and unpressured to Marchetti, who scores from a 0.024 xG chance. Harbour City's high press and quick combinations drive this swing, with chaos at 63 despite their 0.35 xG.",
   "tags": [
    "momentum",
-   "finishing",
-   "pass"
+   "pass",
+   "finishing"
   ],
   "cites": [
    "e0993",

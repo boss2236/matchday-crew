@@ -1,8 +1,8 @@
 {
- "model": "copilot:claude-sonnet-5.5",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Reid's pressing wins Ironvale the ball repeatedly",
-  "text": "Callum Reid won possession 3 times in 120 seconds, even though Ironvale hold only 40% possession. Their xg of 0.89 against 0.04 shows those regains feed direct counters at 0-0.",
+  "headline": "Callum Reid's regains flip the script",
+  "text": "Callum Reid has won the ball back 3 times in 120 seconds. Ironvale Athletic play from a deep block, but they lead on xg with 0.89 against 0.04, even though Harbour City have 60 percent of the ball.",
   "tags": [
    "pressing",
    "counter",

@@ -1,11 +1,11 @@
 {
- "model": "copilot:claude-sonnet-5.5",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Ironvale's late push fizzles into desperation",
-  "text": "Trailing 3-1 at 87 minutes, Ironvale's attack broke down: a pressured pass went out, then Zeke Mbeki fired off target from 31.5 with 0.008 xg. Chaos at 69 and momentum of -28 show control slipping away.",
+  "headline": "Ironvale push, but chaos breeds desperation",
+  "text": "Trailing 3-1, Ironvale's spell ends with Luca Romero's pressured pass going out. Then Zeke Mbeki fires off target from 31.5 out for just 0.008 xG, with chaos at 69.",
   "tags": [
-   "chaos",
    "momentum",
+   "chaos",
    "finishing"
   ],
   "cites": [

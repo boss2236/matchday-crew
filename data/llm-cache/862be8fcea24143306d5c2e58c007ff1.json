@@ -1,12 +1,12 @@
 {
- "model": "copilot:claude-sonnet-5.5",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Ironvale lead on efficiency, not control",
-  "text": "Ironvale Athletic go in 0-1 up with 3 shots on target and 1.63 xg against Harbour City's 1 and 0.27, despite Harbour City having 28 final third entries to 23. Chaos sits at 50.",
+  "headline": "Ironvale's direct counters lead at the break",
+  "text": "Ironvale Athletic lead 0-1 with 1.63 xG against Harbour City's 0.27, and 3 of their 6 shots were on target. Harbour City made 28 final-third entries but got only 1 shot on target.",
   "tags": [
+   "counter",
    "finishing",
-   "chance",
-   "chaos"
+   "momentum"
   ],
   "cites": [
    "e0897"

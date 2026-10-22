@@ -1,12 +1,12 @@
 {
- "model": "copilot:claude-sonnet-5.5",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Ironvale's direct play breeds chaos",
-  "text": "Ironvale went long under pressure: the 44.5-distance pass to Zeke Mbeki was intercepted, then Hiro Tanaka's 41.2 ball found him for a 0.02 xG off-target shot. Chaos at 64 and momentum at -53 at 1-1.",
+  "headline": "Ironvale's direct balls swing momentum their way",
+  "text": "With momentum at -53 and chaos at 64, Ironvale's long passes keep coming. Ivo Petrov's 44.5m ball was intercepted, but Hiro Tanaka's 41.2m pass found Zeke Mbeki, whose 0.02 xG effort went off target.",
   "tags": [
-   "chaos",
+   "momentum",
    "counter",
-   "momentum"
+   "chaos"
   ],
   "cites": [
    "e1059",

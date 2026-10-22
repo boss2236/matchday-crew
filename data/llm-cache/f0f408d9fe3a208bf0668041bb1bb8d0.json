@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-opus-5.5",
+ "output": {
+  "headline": "Ironvale steal it and score",
+  "text": "Marco Silvan nicks the ball, and Ironvale pass it around untouched before Zeke Mbeki smashes in Luca Romero's pass at 96.1 km/h. Harbour City can't get close!",
+  "cites": [
+   "e0587",
+   "e0591",
+   "e0597",
+   "e0599",
+   "e0600"
+  ]
+ }
+}

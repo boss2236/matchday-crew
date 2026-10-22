@@ -1,16 +1,17 @@
 {
- "model": "copilot:claude-sonnet-5.5",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Harbour City seal it with quick combination",
-  "text": "Ruiz and Kowalski swapped passes, including a 21.6 progress ball, before Kowalski finished with 0.79 xG unpressured. Momentum at 60 and chaos at 57 show Harbour City's high-press style turning the game state to 3-1.",
+  "headline": "Ruiz-Kowalski combination seals Harbour City's control",
+  "text": "Harbour City's quick combinations break the deep block: Ruiz and Kowalski trade passes, and Kowalski finishes a 0.79 xG chance from 2.5 metres. That makes it 3-1, and momentum sits at 60.",
   "tags": [
    "momentum",
    "pass",
    "finishing"
   ],
   "cites": [
+   "e1718",
+   "e1720",
    "e1722",
-   "e1723",
    "e1724"
   ]
  }

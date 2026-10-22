@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-opus-5.5",
+ "output": {
+  "headline": "Bamidele's 49.5m ball sparks Ironvale swing",
+  "text": "Ade Bamidele finds Zeke Mbeki with a 49.5m pass rated difficulty 84. Mbeki's 0.071 xG shot is blocked, and momentum swings to -25. Ironvale have 0.96 xG to Harbour City's 0.16.",
+  "cites": [
+   "e0575",
+   "e0578"
+  ]
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-opus-5.5",
+ "output": {
+  "headline": "Harbour City stay calm, then surge forward",
+  "text": "Harbour City lead 2-1 and refuse to panic. Marchetti, under pressure, plays it safely back, they pass it around patiently, then Pike drives forward and finds Kowalski. Lovely composure!",
+  "cites": [
+   "e1326",
+   "e1327",
+   "e1328",
+   "e1330",
+   "e1331"
+  ]
+ }
+}

@@ -1,16 +1,18 @@
 {
- "model": "copilot:claude-sonnet-5.5",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Press turnover seals Harbour City's fourth",
-  "text": "Harbour City won the ball by interception (e1715), then moved it through quick combinations; Mateo Ruiz's 21.6 progress pass (e1722) set up Dani Kowalski's 0.79 xG finish (e1725), making it 4-1 at 90+1'.",
+  "headline": "Kowalski interception sparks clinical Harbour City finish",
+  "text": "Harbour City's high press pays off again. Dani Kowalski's interception starts a 5-pass combination with Mateo Ruiz, and the unpressured 2.5 finish, worth 0.79 xG, makes it 4-1 despite Ironvale Athletic's 1.76 xG.",
   "tags": [
    "pressing",
-   "finishing",
-   "control"
+   "pass",
+   "finishing"
   ],
   "cites": [
    "e1715",
+   "e1718",
    "e1722",
+   "e1724",
    "e1725"
   ]
  }

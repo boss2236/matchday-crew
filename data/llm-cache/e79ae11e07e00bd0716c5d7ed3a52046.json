@@ -1,12 +1,12 @@
 {
- "model": "copilot:claude-sonnet-5.5",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Ironvale's direct play drives momentum swing",
-  "text": "Ironvale, 1-0 up, kept stringing unpressured passes together, and Ivo Petrov's 38.9-length ball progressing 34.9 to Luca Romero cut through. With chaos at 48 and xg 1.63 to 0.16, the direct counter style is paying off.",
+  "headline": "Ironvale seize momentum with direct vertical passing",
+  "text": "Ironvale lead 0-1 and momentum sits at -27 in their favour. Ivo Petrov's 38.9m pass gained 34.9 to find Luca Romero unpressured, and Ironvale have 1.63 xG to Harbour City's 0.16.",
   "tags": [
    "momentum",
    "counter",
-   "chance"
+   "pass"
   ],
   "cites": [
    "e0782",
