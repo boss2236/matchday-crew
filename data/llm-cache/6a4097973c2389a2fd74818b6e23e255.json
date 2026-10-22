@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-opus-5.5",
+ "output": {
+  "headline": "ضغط Harbour City يصطدم بتكتل Ironvale Athletic",
+  "text": "بزخم 25 ومتأخرًا 0-1، مرّر Mateo Ruiz كرة تقدمية 28.7 مترًا بصعوبة 60 إلى Dani Kowalski، فحمل الكرة 14.8 مترًا وسدّد من 6.9 أمتار (xG 0.078) لكنها صُدّت. xG: 0.27 مقابل 1.63، وPPDA 9.4.",
+  "cites": [
+   "e0890",
+   "e0891",
+   "e0893"
+  ]
+ }
+}

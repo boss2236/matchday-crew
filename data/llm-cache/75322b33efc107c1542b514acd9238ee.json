@@ -1,12 +1,12 @@
 {
- "model": "copilot:claude-sonnet-5.5",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Ironvale's pressing spell flips the pattern",
-  "text": "Hiro Tanaka's tackle and interception, plus Callum Reid's, gave Ironvale 3 regains in 120 seconds. Patient Northgate Rovers kept 52% possession, but chaos at 67 favours Ironvale's direct counters while protecting a 1-0 lead.",
+  "headline": "Ironvale's press squeezes Northgate's patient build-up",
+  "text": "Ironvale Athletic, leading 1-0, won the ball back 3 times in 120 seconds. Callum Reid and Hiro Tanaka made interceptions, then Tanaka won a tackle, cutting off Northgate Rovers' possession play and setting up direct counters.",
   "tags": [
    "pressing",
    "counter",
-   "chaos"
+   "control"
   ],
   "cites": [
    "e1341",

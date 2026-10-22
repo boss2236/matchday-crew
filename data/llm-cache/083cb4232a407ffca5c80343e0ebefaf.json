@@ -1,12 +1,12 @@
 {
- "model": "copilot:claude-sonnet-5.5",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Ironvale's deep block wins 1-0",
-  "text": "Northgate held more possession (53) and 9 shots, but Ironvale's direct counters produced the better chances: xg 1.42 against 0.86. The 1-0 result at full time rewards efficiency over patient control.",
+  "headline": "Ironvale's counters beat Northgate's patient possession",
+  "text": "Ironvale Athletic won 1-0 with 47% possession, turning a deep block into 1.42 xG against Northgate Rovers' 0.86. Northgate had 53% of the ball and 9 shots but could not break the block.",
   "tags": [
+   "control",
    "counter",
-   "finishing",
-   "control"
+   "possession"
   ],
   "cites": [
    "e1700"

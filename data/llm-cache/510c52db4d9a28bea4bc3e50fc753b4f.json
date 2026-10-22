@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-opus-5.5",
+ "output": {
+  "headline": "Ironvale keep snatching the ball back",
+  "text": "Ironvale Athletic won the ball back 3 times in two minutes! Luca Romero's tackle, then interceptions from Marco Silvan and Callum Reid. The leaders keep breaking up Northgate Rovers' patient passing.",
+  "cites": [
+   "e0564",
+   "e0581",
+   "e0603"
+  ]
+ }
+}

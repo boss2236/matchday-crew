@@ -1,14 +1,17 @@
 {
- "model": "copilot:claude-sonnet-5.5",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Ironvale's direct passing sequence ends in a giveaway",
-  "text": "Ironvale strung together four completed passes, including a 33.4 distance ball from Callum Reid to Luca Romero, but the chain ended when Romero's pass to Hiro Tanaka went out. Momentum sits at 26 with chaos at 45 in a 0-0 game.",
+  "headline": "Ironvale's unpressured build-up tilts momentum",
+  "text": "Ironvale Athletic strung together four unpressured completions, Callum Reid's 33.4 pass to Luca Romero driving progress, before the move ran out. With 40 possession, the deep-block side briefly took control.",
   "tags": [
    "momentum",
-   "chaos",
-   "pass"
+   "possession",
+   "control"
   ],
   "cites": [
+   "e0323",
+   "e0324",
+   "e0325",
    "e0326",
    "e0327"
   ]

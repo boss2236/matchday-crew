@@ -1,17 +1,17 @@
 {
- "model": "copilot:claude-sonnet-5.5",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Northgate dominate possession but trail",
-  "text": "Northgate Rovers hold 56% possession and 22 final-third entries, yet trail 1-0 with 0 shots on target. Backwards and sideways passing, like Sven Dahl's -8.5 progress ball, lets momentum sit at -78.",
+  "headline": "Rovers dominate the ball, still no breakthrough",
+  "text": "Northgate Rovers have swung momentum to -78 with patient recycling, but trail 1-0 with 0 shots on target. Ilan Cohen's 36.6m forward ball was intercepted, so Sven Dahl reset backwards again.",
   "tags": [
-   "possession",
    "momentum",
+   "possession",
    "control"
   ],
   "cites": [
-   "e0560",
    "e0546",
-   "e0551"
+   "e0551",
+   "e0560"
   ]
  }
 }

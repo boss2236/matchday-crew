@@ -1,12 +1,12 @@
 {
- "model": "copilot:claude-sonnet-5.5",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Ironvale's pressing spell wins three regains",
-  "text": "Ironvale Athletic won possession three times in 120 seconds, via a tackle and two interceptions, against Northgate Rovers' patient possession. With a 1-0 lead and chaos at 62, the regains keep Ironvale's counter threat alive.",
+  "headline": "Ironvale's deep block bites back",
+  "text": "Ironvale Athletic made 3 regains in 120 seconds, with Callum Reid's interception completing the spell. Momentum sits at -11 and chaos at 62, but the 1-0 leaders are breaking up Northgate's patient possession.",
   "tags": [
    "pressing",
-   "counter",
-   "chaos"
+   "chaos",
+   "momentum"
   ],
   "cites": [
    "e0564",

@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-opus-5.5",
+ "output": {
+  "headline": "Northgate Rovers keep the ball, hunting an equaliser",
+  "text": "Oscar Blum's shot gets saved, but Northgate Rovers stay calm. Ilan Cohen, Kai Nakamura and Andres Vega pass it around freely, looking for a gap while trailing 1-0 before the break.",
+  "cites": [
+   "e0782",
+   "e0789",
+   "e0791",
+   "e0792",
+   "e0793"
+  ]
+ }
+}

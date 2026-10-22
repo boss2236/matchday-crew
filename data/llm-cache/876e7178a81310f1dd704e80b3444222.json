@@ -1,15 +1,17 @@
 {
- "model": "copilot:claude-sonnet-5.5",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Mbeki's 0.829 xG goal settles Ironvale's 1-0 win",
-  "text": "Ironvale Athletic beat Northgate Rovers 1-0 despite 47% possession, winning on chance quality: 1.42 xG to 0.86. Northgate's patient build-up carried 53% possession and 85% pass accuracy, yet Oscar Blum's 0.394 xG chance from 4 distance was blocked in the 26th minute. One minute later Zeke Mbeki finished a 0.829 xG shot at 79.8 km/h after one build-up pass, the decisive turning point. Ironvale's deep block pressed in spells, with Callum Reid's regain at 33' and Hiro Tanaka's tackle at 73', against Northgate's PPDA of 7.9 to 8.8. Mbeki, on 1.39 xG, was standout, adding a 0.276 xG chance before the break. Final momentum read 7.",
+  "headline": "Mbeki's close-range strike edges Ironvale past Northgate Rovers",
+  "text": "Northgate Rovers controlled the opening with 53% possession, but Kai Nakamura's difficulty 48 pass was intercepted at 05:55. Oscar Blum had the best Rovers chance at 25:05, a 0.394 xG shot from 4 metres that was blocked. Ironvale Athletic scored a minute later. Zeke Mbeki finished an 0.829 xG chance from 2 metres at 79.8 km/h to make it 1-0. Ironvale then kept their deep block and pressed in short spells. Callum Reid and Hiro Tanaka led spells of 3 regains in 120 seconds, and Ironvale finished with 15 tackles won. Rovers had the lower PPDA, 7.9 against 8.8, but Ironvale created better chances and won the xG battle 1.42 to 0.86. Mbeki was the standout player, with 1.39 xG and 57 completed passes. Final momentum was 7.",
   "cites": [
+   "e0099",
    "e0461",
    "e0484",
    "e0485",
    "e0603",
-   "e0855",
    "e1363",
+   "e1437",
+   "e0855",
    "e1700"
   ]
  }

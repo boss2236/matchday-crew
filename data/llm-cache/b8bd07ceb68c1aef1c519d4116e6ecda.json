@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-opus-5.5",
+ "output": {
+  "headline": "Callum Reid يسرق الكرة ويقلب المباراة",
+  "text": "انتبه لـ Callum Reid! استعاد الكرة 3 مرات خلال دقيقتين تقريبًا. Harbour City تملك الكرة أكثر، لكن Ironvale Athletic تدافع بصبر ثم تنطلق بسرعة، وفرصها أخطر حتى الآن.",
+  "cites": [
+   "e0201",
+   "e0220",
+   "e0243"
+  ]
+ }
+}

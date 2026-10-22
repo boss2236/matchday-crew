@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-opus-5.5",
+ "output": {
+  "headline": "Harbour City يفقدون السيطرة تحت الضغط",
+  "text": "Harbour City متقدمون 2-1، لكن Mateo Ruiz أعاد الكرة للخلف، ثم ضغطوا على Rui Barros فقُطعت تمريرته. الفريق بدأ يفقد هدوءه، والمباراة صارت مفتوحة ومجنونة!",
+  "cites": [
+   "e1451",
+   "e1453"
+  ]
+ }
+}

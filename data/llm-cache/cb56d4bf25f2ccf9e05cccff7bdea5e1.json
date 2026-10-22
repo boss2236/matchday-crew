@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-opus-5.5",
+ "output": {
+  "headline": "Nakamura's forward ball cut out at 05:55",
+  "text": "Northgate Rovers have 70 possession and 88 pass accuracy, but Kai Nakamura's 23m pass, difficulty 48, was intercepted. It's 0-0, momentum -65, PPDA 4.8 against Ironvale's 10.3.",
+  "cites": [
+   "e0097",
+   "e0098",
+   "e0099"
+  ]
+ }
+}

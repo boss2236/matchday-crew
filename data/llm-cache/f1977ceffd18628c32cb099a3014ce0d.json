@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-opus-5.5",
+ "output": {
+  "headline": "Dani Kowalski يخطف الكرة ويُكمل الحكاية",
+  "text": "يا سلام! Dani Kowalski يقطع الكرة من Ironvale Athletic، ثم يتبادل الكرة مع Mateo Ruiz في 5 تمريرات جميلة، ويصل إلى المرمى وحيدًا ويسجل بهدوء. هدف رائع لـ Harbour City!",
+  "cites": [
+   "e1715",
+   "e1718",
+   "e1722",
+   "e1724",
+   "e1725"
+  ]
+ }
+}

@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-opus-5.5",
+ "output": {
+  "headline": "One long pass, and Ironvale strike first!",
+  "text": "Straight from a throw-in, Ivo Petrov sends one long ball to Zeke Mbeki. Nobody's near him, and he calmly taps it in from close range. Ironvale Athletic lead Northgate Rovers 1-0!",
+  "cites": [
+   "e0480",
+   "e0481",
+   "e0484",
+   "e0485"
+  ]
+ }
+}

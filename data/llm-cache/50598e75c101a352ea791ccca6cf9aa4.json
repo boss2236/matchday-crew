@@ -1,12 +1,12 @@
 {
- "model": "copilot:claude-sonnet-5.5",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Northgate's patience yields a blocked big chance",
-  "text": "Oscar Blum's unpressured shot from 4 carried 0.394 xg but was blocked, leaving it 0-0. Northgate's 0.39 xg to Ironvale's 0.01 shows patient possession creating the better chances against a deep block.",
+  "headline": "Rovers' patience carves out a huge chance",
+  "text": "Northgate Rovers' patient possession, with 55% of the ball, opened Ironvale's deep block: an unpressured Oscar Blum shot from 4 metres worth 0.394 xG, but it was blocked. At 0-0 the momentum is with Rovers, at -23.",
   "tags": [
    "chance",
    "possession",
-   "control"
+   "momentum"
   ],
   "cites": [
    "e0461"

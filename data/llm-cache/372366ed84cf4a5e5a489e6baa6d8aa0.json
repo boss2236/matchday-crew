@@ -1,0 +1,15 @@
+{
+ "model": "copilot:claude-opus-5.5",
+ "output": {
+  "headline": "Leo Marchetti يُنهي هجمة سريعة بهدف رائع",
+  "text": "يا سلام! Sami Okafor مرّرها إلى Yusuf Demir، ثم إلى Dani Kowalski، ومنه إلى Leo Marchetti الذي تقدّم بالكرة وسجّل من فرصة صعبة جدًا. تمريرات سريعة دون أي ضغط عليهم!",
+  "cites": [
+   "e0993",
+   "e0994",
+   "e0995",
+   "e0996",
+   "e0997",
+   "e0998"
+  ]
+ }
+}

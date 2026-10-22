@@ -1,12 +1,12 @@
 {
- "model": "copilot:claude-sonnet-5.5",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Direct counter punishes patient Northgate",
-  "text": "Ironvale, sitting in a deep block with 45 possession, struck within 14 seconds of a throw-in: Petrov's 38.2 pass found Mbeki, who finished from 2 with xg 0.829. Direct play beat Northgate's 55 possession.",
+  "headline": "Ironvale's direct route punishes Northgate's possession",
+  "text": "Ironvale Athletic needed just 1 build-up pass from a throw-in, Ivo Petrov's 38.2 pass finding Zeke Mbeki unpressured for a 0.829 xG finish, so their direct game beat Northgate Rovers despite having only 45 possession.",
   "tags": [
    "counter",
    "finishing",
-   "speed"
+   "pass"
   ],
   "cites": [
    "e0480",

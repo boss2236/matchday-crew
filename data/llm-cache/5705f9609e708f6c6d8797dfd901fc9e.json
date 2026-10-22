@@ -1,12 +1,12 @@
 {
- "model": "copilot:claude-sonnet-5.5",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Ironvale lead despite ceding possession",
-  "text": "Ironvale Athletic lead 1-0 at the break with 46% possession, yet their 1.14 xg beats Northgate Rovers' 0.68 from 6 shots. The deep block and direct counters are working against patient possession.",
+  "headline": "Ironvale's deep block wins the first half",
+  "text": "Northgate Rovers hold 54% possession and 6 shots, yet Ironvale Athletic lead 1-0 with 1.14 xG to 0.68. The counters are working, and the pressure stays with Northgate going into the break.",
   "tags": [
-   "counter",
    "control",
-   "finishing"
+   "counter",
+   "possession"
   ],
   "cites": [
    "e0857"

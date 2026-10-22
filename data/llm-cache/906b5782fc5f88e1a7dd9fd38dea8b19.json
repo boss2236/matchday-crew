@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-opus-5.5",
+ "output": {
+  "headline": "Reid's triple regain shields Ironvale's 1-0",
+  "text": "Callum Reid wins it back 3 times in 120 seconds: two tackles, one interception. Ironvale's 1.15 xG leads Northgate's 0.86; PPDA 7.9 vs 7.7, momentum 16, chaos 77.",
+  "cites": [
+   "e1414",
+   "e1420",
+   "e1437"
+  ]
+ }
+}

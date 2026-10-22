@@ -1,15 +1,16 @@
 {
- "model": "copilot:claude-sonnet-5.5",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Northgate lose grip despite possession edge",
-  "text": "Northgate trail 1-0 with momentum at -27 and chaos at 46. Gabe Moreno's 63.1-length pass, difficulty 82, was intercepted, then Ilan Cohen's 22.6 pass to Oscar Blum rebuilt progress. Patient possession is being tested by Ironvale's xG of 1.15.",
+  "headline": "Northgate Rovers swing momentum despite trailing",
+  "text": "Momentum swings -27 toward Northgate Rovers. After Gabe Moreno's 63.1 pass was intercepted, Ilan Cohen carried 10 and found Oscar Blum with 21.8 progress. Ironvale Athletic lead 1-0 and are sitting deep.",
   "tags": [
    "momentum",
-   "chaos",
-   "possession"
+   "possession",
+   "pass"
   ],
   "cites": [
    "e1229",
+   "e1242",
    "e1243"
   ]
  }

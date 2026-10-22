@@ -1,12 +1,12 @@
 {
- "model": "copilot:claude-sonnet-5.5",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Pressured miss from five yards",
-  "text": "Zeke Mbeki, pressured at distance 5, put a 0.276 xg chance off target at 45+2'. Ironvale lead 1-0 with xg 1.14 against 0.68, so the missed chance could have extended a deserved lead before the break.",
+  "headline": "Mbeki misses chance to double Ironvale's lead",
+  "text": "Ironvale's deep block concedes 54% possession, yet Zeke Mbeki got a 0.276 xG look from 5 metres under pressure. He fired it off target, so Northgate Rovers trail only 1-0 at 45+2'.",
   "tags": [
-   "finishing",
    "chance",
-   "momentum"
+   "finishing",
+   "counter"
   ],
   "cites": [
    "e0855"

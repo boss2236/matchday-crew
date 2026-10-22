@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-opus-5.5",
+ "output": {
+  "headline": "Ironvale take a breath and settle down",
+  "text": "Callum Reid launched a long ball, but Luca Romero's next pass got cut out. Then Zeke Mbeki rolled it back to Hiro Tanaka, who calmly carried it forward to settle Ironvale's nerves.",
+  "cites": [
+   "e0979",
+   "e0980",
+   "e0989",
+   "e0990",
+   "e0991"
+  ]
+ }
+}

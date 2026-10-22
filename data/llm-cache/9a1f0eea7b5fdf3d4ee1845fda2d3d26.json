@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-opus-5.5",
+ "output": {
+  "headline": "Northgate keep the ball, then lose it",
+  "text": "Northgate Rovers have had the ball most of the time, passing it around calmly. But Kai Nakamura's pass forward to Oscar Blum got cut out. Still 0-0, with Northgate on top.",
+  "cites": [
+   "e0097",
+   "e0098",
+   "e0099"
+  ]
+ }
+}

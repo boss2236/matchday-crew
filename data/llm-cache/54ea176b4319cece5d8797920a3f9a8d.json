@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-opus-5.5",
+ "output": {
+  "headline": "Northgate Rovers turning the tide",
+  "text": "Gabe Moreno's long ball got picked off, but Northgate Rovers kept coming. Ilan Cohen ran forward and slipped it to Oscar Blum. Ironvale Athletic lead 1-0 but are defending deep.",
+  "cites": [
+   "e1229",
+   "e1242",
+   "e1243"
+  ]
+ }
+}

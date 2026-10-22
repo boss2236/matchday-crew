@@ -1,18 +1,17 @@
 {
- "model": "copilot:claude-sonnet-5.5",
+ "model": "copilot:claude-opus-5.5",
  "output": {
   "headline": "Ironvale's direct counter swings momentum",
-  "text": "Ironvale, protecting a 1-0 lead, stretched play with long, quick passes from Callum Reid to Luca Romero to Marco Silvan, then Romero carried on. Chaos at 62 and momentum at 29 show a stretched, volatile game.",
+  "text": "Ironvale Athletic go direct, true to their counter style. Reid's 46.2m pass and Romero's 62.6m switch carry the ball forward fast, and momentum swings to 29. With chaos at 62 and Ironvale leading 1-0, Northgate's patient possession is being stretched.",
   "tags": [
    "counter",
-   "chaos",
-   "speed"
+   "momentum",
+   "chaos"
   ],
   "cites": [
    "e1464",
    "e1465",
    "e1467",
-   "e1468",
    "e1469"
   ]
  }
