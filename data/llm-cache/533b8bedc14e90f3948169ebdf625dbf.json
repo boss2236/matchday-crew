@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale palleggiano con calma, che sicurezza!",
+  "text": "Che bella azione dell'Ironvale Athletic! Callum Reid, Marco Silvan, Zeke Mbeki e Finn Carver si passano il pallone senza nessuna pressione, e la squadra tiene tranquillamente in mano la partita, avanti 1-0.",
+  "cites": [
+   "e1111",
+   "e1112",
+   "e1113",
+   "e1115"
+  ]
+ }
+}

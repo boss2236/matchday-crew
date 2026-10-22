@@ -1,0 +1,11 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour City’s surge fizzles",
+  "text": "After a burst of quick passes, including a slick one to Leo Marchetti, Harbour City looked alive but a blocked shot ended the hope.",
+  "cites": [
+   "e0887",
+   "e0893"
+  ]
+ }
+}

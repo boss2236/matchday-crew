@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale, 120초 만에 3번 탈취",
+  "text": "Ironvale Athletic이 120초 동안 인터셉트 3회, 마지막은 Zeke Mbeki. 1-0 스코어에서 xG 1.14 대 0.68로 앞서며 Northgate Rovers의 점유를 끊고 직접 역습을 노립니다.",
+  "cites": [
+   "e0900",
+   "e0928",
+   "e0935"
+  ]
+ }
+}

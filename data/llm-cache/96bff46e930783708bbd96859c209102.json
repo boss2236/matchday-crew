@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Aziz çok yakından kaleciyi geçemedi!",
+  "text": "Southmere United çok baskılı başladı! Tariq Aziz kale önünde neredeyse boştaydı, ama şutu kaleciden döndü. Gol kaçtı, skor hâlâ 0-0 ama Southmere topu bırakmıyor.",
+  "cites": [
+   "e0077"
+  ]
+ }
+}

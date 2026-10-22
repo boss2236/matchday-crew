@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ortega의 압박이 템포를 뒤집다",
+  "text": "Rafa Ortega가 120초 동안 인터셉트 2회와 태클 1회로 3번 볼을 탈취했다. Southmere United의 PPDA 8.6, 모멘텀 -42, 혼돈 61이 Northgate Rovers의 점유를 흔든다.",
+  "cites": [
+   "e0887",
+   "e0897",
+   "e0907"
+  ]
+ }
+}

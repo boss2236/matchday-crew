@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City s'en sortent sous pression",
+  "text": "Sous pression, Leo Marchetti sort le ballon d'un long coup de pied à 42.9 mètres, puis Jonah Pike lance Dani Kowalski. Harbour City mène 2-1 et garde son calme !",
+  "cites": [
+   "e1326",
+   "e1331",
+   "e1330"
+  ]
+ }
+}

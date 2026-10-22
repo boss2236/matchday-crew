@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate 1-0 领先，但传球有点乱",
+  "text": "Northgate Rovers 虽然 1-0 领先，球却在自己脚下越传越散：Oscar Blum 的传球出了界，Ilan Cohen 的传球被拦下。Southmere United 抓住了机会。",
+  "cites": [
+   "e0499",
+   "e0510"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City pierde balón sin presión",
+  "text": "Tres pérdidas de Harbour City sin presión (e1111, e1118, e1128), pases de dificultad 56, 55 y 42. Ironvale Athletic, bloque bajo, tiene xG 1.68 contra 0.35; momentum 35, caos 55 en 1-1.",
+  "cites": [
+   "e1111",
+   "e1118",
+   "e1128"
+  ]
+ }
+}

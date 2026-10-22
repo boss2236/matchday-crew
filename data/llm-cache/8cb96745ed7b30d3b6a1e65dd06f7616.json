@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers viran el momentum pese al 1-0",
+  "text": "Momentum -27 hacia Northgate Rovers (xG 0.71 vs 1.15). Tras interceptarse el pase de 63.1 de Gabe Moreno (dificultad 82), Ilan Cohen conduce 10 y filtra a Oscar Blum con progreso 21.8.",
+  "cites": [
+   "e1229",
+   "e1242",
+   "e1243"
+  ]
+ }
+}

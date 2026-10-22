@@ -1,18 +1,14 @@
 {
- "model": "openai:openai/gpt-oss-120b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Southmere's chaotic build‑up shifts momentum",
-  "text": "Despite a chaos rating of 61, Southmere United stringed together five successive passes and a carry, maintaining 85% accuracy and pressuring the opponent, which explains the -25 momentum swing at minute 62.",
+  "headline": "Southmere's build-up collapses under pressure",
+  "text": "Southmere trail 1-0 and had moved the ball cleanly, but Alfie Grant's pressured pass to Joel Martin was intercepted. With chaos at 61 and momentum at -25, the swing favours Northgate Rovers.",
   "tags": [
    "momentum",
-   "control",
-   "pass"
+   "chaos",
+   "pressing"
   ],
   "cites": [
-   "e1155",
-   "e1156",
-   "e1157",
-   "e1158",
    "e1159",
    "e1161"
   ]

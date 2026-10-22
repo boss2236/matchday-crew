@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale-র দুর্দান্ত পাল্টা আক্রমণে গোল!",
+  "text": "বল কেড়ে নিয়েই Ironvale Athletic ছুটে গেল! Marco Silvan দৌড়ালেন, বন্ধুরা নির্বিঘ্নে পাস দিল, আর Zeke Mbeki 96.1 কিমি/ঘণ্টা গতিতে বল জালে পাঠিয়ে দিলেন!",
+  "cites": [
+   "e0587",
+   "e0588",
+   "e0597",
+   "e0599",
+   "e0600"
+  ]
+ }
+}

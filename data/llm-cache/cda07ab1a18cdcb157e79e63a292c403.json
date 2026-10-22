@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City wanasukuma, lakini bado nyuma",
+  "text": "Harbour City walisogea mbele kwa kasi kupitia pasi za Mateo Ruiz na mbio za Dani Kowalski, lakini shuti la Dani Kowalski lilizuiwa. Bado wako nyuma 0-1, na wanahitaji bao!",
+  "cites": [
+   "e0890",
+   "e0891",
+   "e0893"
+  ]
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City kehilangan kontrol saat tertinggal",
+  "text": "Harbour City tertinggal 0-1, momentum 27, xG 0.16 melawan 1.63 Ironvale Athletic. Umpan Leo Marchetti di e0725 (60.3 m, kesulitan 73) diintersep; umpan Jonah Pike di e0734 (kesulitan 64) keluar lapangan.",
+  "cites": [
+   "e0725",
+   "e0734"
+  ]
+ }
+}

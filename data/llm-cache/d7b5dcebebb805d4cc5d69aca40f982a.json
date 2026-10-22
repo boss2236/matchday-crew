@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "低xGでも決めたKowalski、2-1",
+  "text": "Harbour Cityは14本のbuildUpPassesからYusuf DemirがDani Kowalskiへ(difficulty 55)。13.5mから97.9km/hの一撃はxG 0.06ながらゴールで2-1。チームxGは0.41対1.68。",
+  "cites": [
+   "e1201",
+   "e1221",
+   "e1222",
+   "e1223"
+  ]
+ }
+}

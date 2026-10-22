@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ortega presiona y recupera tres veces",
+  "text": "Rafa Ortega suma 3 recuperaciones en 120 segundos (2 intercepciones y 1 entrada) para Southmere United, que pierde 1-0. Con caos 61 y momentum -42, desordena la posesión paciente de Northgate Rovers.",
+  "cites": [
+   "e0887",
+   "e0897",
+   "e0907"
+  ]
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City pierde el balón bajo presión",
+  "text": "Harbour City gana 2-1 y movía el balón con calma, pero Mateo Ruiz mandó un pase largo hacia atrás y, con presión, el pase de Rui Barros fue cortado. ¡El control se les escapa!",
+  "cites": [
+   "e1451",
+   "e1453"
+  ]
+ }
+}

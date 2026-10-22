@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Mbeki, 0.876 xG, bloqué à 2.5 m",
+  "text": "Harbour City tient 67% de possession, mais Ironvale Athletic mène aux tirs 2 à 0. Zeke Mbeki, non pressé à 2.5 mètres, voit son tir à 0.876 xG bloqué. Momentum à -84.",
+  "cites": [
+   "e0041"
+  ]
+ }
+}

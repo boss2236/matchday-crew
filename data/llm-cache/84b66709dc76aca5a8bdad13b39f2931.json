@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate circulan sin presión, aún sin peligro",
+  "text": "Northgate Rovers pierden 1-0 y, tras el tiro parado de Oscar Blum (0.09 xG), Ilan Cohen y Kai Nakamura conectan con Andres Vega sin presión: pase de dificultad 54, 37.1 m. Momentum -26.",
+  "cites": [
+   "e0782",
+   "e0789",
+   "e0791",
+   "e0793"
+  ]
+ }
+}

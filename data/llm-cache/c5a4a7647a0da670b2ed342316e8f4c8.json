@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Rovers in controllo, ma senza sbocco",
+  "text": "Northgate Rovers: momentum -78, xG 0.44 contro 0.84, 0 tiri in porta, PPDA 6.7. Il lancio di Ilan Cohen di 36.6m (difficoltà 51) viene intercettato; Sven Dahl riparte da dietro.",
+  "cites": [
+   "e0551",
+   "e0560"
+  ]
+ }
+}

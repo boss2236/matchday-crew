@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers sortent du pressing en verticale",
+  "text": "Northgate Rovers enchaînent 5 passes sous pression : la transmission de Sven Dahl vers Emre Kaya (43.3 m, difficulté 83) gagne 36.1 m, puis Kaya trouve Oscar Blum. Momentum 26, chaos 54 : jeu de transition, pas de contrôle.",
+  "cites": [
+   "e0989",
+   "e0990",
+   "e0985"
+  ]
+ }
+}

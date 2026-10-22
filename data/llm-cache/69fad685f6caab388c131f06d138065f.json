@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United-এর দুর্দান্ত গোল!",
+  "text": "Bruno Costa বল নিয়ে ছুটলেন, তারপর তিনটি পরিষ্কার পাস ঘুরে Tariq Aziz-এর কাছে পৌঁছাল। Harbour City কাছেই আসতে পারেনি, আর Aziz সহজেই জালে বল পাঠালেন!",
+  "cites": [
+   "e1009",
+   "e1010",
+   "e1011",
+   "e1012",
+   "e1013"
+  ]
+ }
+}

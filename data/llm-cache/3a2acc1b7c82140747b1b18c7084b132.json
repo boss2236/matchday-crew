@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "¡Ironvale se lanza al contraataque!",
+  "text": "¡Qué jugada! Ironvale Athletic deja la paciencia y va directo: Callum Reid lanza un pase de 46.2 metros y Luca Romero la manda lejísimo hacia Marco Silvan. Northgate Rovers se queda estirado.",
+  "cites": [
+   "e1464",
+   "e1465",
+   "e1467"
+  ]
+ }
+}

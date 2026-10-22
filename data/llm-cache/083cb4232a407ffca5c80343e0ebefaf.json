@@ -1,12 +1,12 @@
 {
- "model": "openai:openai/gpt-oss-20b",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Ironvale's late counter clinches win",
-  "text": "Ironvale’s 1-0 victory at 90+2' was secured by a decisive counter‑attack, turning a 7‑point momentum into a win despite 46 chaos, while possession remained 47% to 53%.",
+  "headline": "Ironvale's counters beat Northgate's patient possession",
+  "text": "Ironvale Athletic won 1-0 with 47% possession, turning a deep block into 1.42 xG against Northgate Rovers' 0.86. Northgate had 53% of the ball and 9 shots but could not break the block.",
   "tags": [
+   "control",
    "counter",
-   "momentum",
-   "control"
+   "possession"
   ],
   "cites": [
    "e1700"

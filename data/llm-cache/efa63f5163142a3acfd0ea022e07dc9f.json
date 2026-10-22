@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic تخنق Northgate Rovers بالضغط",
+  "text": "Ironvale Athletic متقدمة 1-0، وCallum Reid وHiro Tanaka قطعا الكرة بذكاء، ثم انتزعها Tanaka بتدخل قوي! هكذا لا تترك Northgate Rovers تلعب على راحتها، وتنطلق الهجمات المرتدة بسرعة.",
+  "cites": [
+   "e1341",
+   "e1356",
+   "e1363"
+  ]
+ }
+}

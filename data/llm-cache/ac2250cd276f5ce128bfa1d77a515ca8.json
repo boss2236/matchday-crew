@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers: 1-0 आगे, पर नियंत्रण कमज़ोर",
+  "text": "Northgate Rovers 1-0 आगे, 58% possession, xG 0.67, पर momentum 26 बनाम chaos 44। Oscar Blum का 23.3m पास (difficulty 23) out गया; Ilan Cohen का 15.1m पास intercepted। Southmere के 13 interceptions।",
+  "cites": [
+   "e0499",
+   "e0510"
+  ]
+ }
+}

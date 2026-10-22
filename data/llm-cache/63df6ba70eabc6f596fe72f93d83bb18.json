@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers'ın baskısı Southmere'i boğuyor",
+  "text": "Northgate Rovers 120 saniyede 3 top kazanımı yaptı; Kai Nakamura tackle ve interception ile öne çıktı. 42. dakikada 1-0, PPDA 8.5 (Southmere United 9.1), xG 0.68'e karşı 0.16.",
+  "cites": [
+   "e0738",
+   "e0757",
+   "e0765"
+  ]
+ }
+}

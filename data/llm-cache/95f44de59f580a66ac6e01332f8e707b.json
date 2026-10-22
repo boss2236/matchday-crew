@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Tariq Aziz finishes a lightning counter",
+  "text": "Felipe Cruz won the ball back, and just moments later Tariq Aziz had a free shot and made it 2-0 for Southmere United. Harbour City pushed up, and got caught out!",
+  "cites": [
+   "e1282",
+   "e1283",
+   "e1285",
+   "e1286",
+   "e1287"
+  ]
+ }
+}

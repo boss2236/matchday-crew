@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United 抢断连连守住领先",
+  "text": "Southmere United 在最近两分钟里连续把球抢了回来，Liam Doyle 还在 67:31 断下一球。对手一直压不上来，Southmere United 稳稳守住 2-0。",
+  "cites": [
+   "e1408",
+   "e1414",
+   "e1445"
+  ]
+ }
+}

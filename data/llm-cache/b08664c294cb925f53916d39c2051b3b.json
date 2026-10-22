@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "オルテガの連続奪取で流れが変わる",
+  "text": "47分、Southmere UnitedのRafa Ortegaが120秒で3回ボールを奪取(インターセプト2、タックル1)。momentum -42、chaos 61、PPDAはNorthgate Rovers 8.2に対しSouthmere United 8.6。",
+  "cites": [
+   "e0887",
+   "e0897",
+   "e0907"
+  ]
+ }
+}

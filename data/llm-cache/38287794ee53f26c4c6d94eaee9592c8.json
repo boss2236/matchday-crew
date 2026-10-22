@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale يباغت Northgate بهجمة مرتدة",
+  "text": "من رمية تماس، مرّر Ivo Petrov كرة طويلة إلى Zeke Mbeki، وبعد ثوانٍ قليلة سجّل من مسافة قريبة جداً! Ironvale Athletic يتقدم 1-0 رغم أن Northgate Rovers يملك الكرة أكثر.",
+  "cites": [
+   "e0480",
+   "e0481",
+   "e0484",
+   "e0485"
+  ]
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Joel Martin steals it, Tariq Aziz scores!",
+  "text": "Joel Martin wins the ball, races forward and slides it to Tariq Aziz, who smashes it in from close range. Harbour City pushed up to press, got caught out, and it's 3-0!",
+  "cites": [
+   "e1847",
+   "e1848",
+   "e1849",
+   "e1850",
+   "e1851"
+  ]
+ }
+}

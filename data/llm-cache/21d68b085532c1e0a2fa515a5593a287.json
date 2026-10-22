@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale hält den Ball – kurz!",
+  "text": "Ironvale Athletic spielt ruhig und ohne Druck. Callum Reid schickt einen langen Ball auf Luca Romero, der die Mannschaft nach vorne bringt. Dann geht der nächste Pass von Romero ins Aus. Schade!",
+  "cites": [
+   "e0326",
+   "e0327"
+  ]
+ }
+}

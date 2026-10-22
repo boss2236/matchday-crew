@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City verlieren Kontrolle beim Rückstand",
+  "text": "Harbour City liegen 0-1 zurück, Momentum 27, xG 0.16 gegen 1.63. Marchettis 60.3-m-Pass (Schwierigkeit 73) wird in e0725 abgefangen, Pikes 40-m-Ball (Schwierigkeit 64) in e0734 geht ins Aus.",
+  "cites": [
+   "e0725",
+   "e0734"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Reid étouffe Northgate Rovers à la 77e",
+  "text": "Callum Reid enchaîne 3 récupérations en 120 secondes (tacle, interception, tacle) à 1-0, minute 77. Chaos à 77, momentum 16 : Ironvale Athletic empêche la possession patiente de Northgate Rovers de s'installer.",
+  "cites": [
+   "e1414",
+   "e1420",
+   "e1437"
+  ]
+ }
+}

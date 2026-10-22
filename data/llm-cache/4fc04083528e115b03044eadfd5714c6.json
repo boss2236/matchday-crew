@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Bruno Costa startet Konter, Aziz vollendet",
+  "text": "Bruno Costa trägt den Ball mit 33.1 km/h, drei unbedrängte Pässe (Schwierigkeit 59, 42, 44) finden Tariq Aziz. Abschluss aus 1.2 Distanz, 0.931 xG, Tor. Harbour Citys PPDA von 6.8 verpufft.",
+  "cites": [
+   "e1009",
+   "e1010",
+   "e1011",
+   "e1012",
+   "e1013"
+  ]
+ }
+}

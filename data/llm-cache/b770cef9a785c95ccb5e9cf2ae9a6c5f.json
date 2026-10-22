@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale recupera la calma tras perder el balón",
+  "text": "Ironvale gana 1-0 y su pase largo de Callum Reid acabó cortado. Pero Zeke Mbeki retrasó el balón a Hiro Tanaka, que avanzó con tranquilidad y dejó respirar al equipo.",
+  "cites": [
+   "e0979",
+   "e0980",
+   "e0989",
+   "e0990",
+   "e0991"
+  ]
+ }
+}

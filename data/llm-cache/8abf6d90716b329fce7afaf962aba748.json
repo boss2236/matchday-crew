@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kowalski seals it for Harbour City",
+  "text": "Harbour City stole the ball back, passed it quickly, and Mateo Ruiz sent a lovely forward ball to Dani Kowalski, who smashed it in. That makes it 4-1 right at the death!",
+  "cites": [
+   "e1715",
+   "e1722",
+   "e1725"
+  ]
+ }
+}

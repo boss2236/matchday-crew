@@ -1,0 +1,15 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale parte forte con un lancio lungo",
+  "text": "Che azione, amici! Ironvale Athletic muove la palla con calma, poi Owen Lusk lancia lontanissimo verso Marco Silvan e tutta la squadra avanza di colpo. Il match si accende, Harbour City è in difficoltà!",
+  "cites": [
+   "e0138",
+   "e0139",
+   "e0140",
+   "e0141",
+   "e0142",
+   "e0143"
+  ]
+ }
+}

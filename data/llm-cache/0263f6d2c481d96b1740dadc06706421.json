@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United、終盤もボールを奪い返す",
+  "text": "終盤、Southmere UnitedのJoel MartinとTariq Azizが次々にボールを奪い返しました。Harbour Cityは反撃のきっかけをつかめません。3-0のまま、試合は落ち着いてきました。",
+  "cites": [
+   "e1858",
+   "e1889",
+   "e1897"
+  ]
+ }
+}

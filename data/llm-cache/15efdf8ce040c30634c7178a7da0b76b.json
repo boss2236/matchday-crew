@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale'in direkt oyunu momentumu çeviriyor",
+  "text": "Ironvale Athletic 1-0 önde; Ivo Petrov'un 38.9 m'lik, zorluk 66 olan pasıyla Luca Romero'ya 34.9 ilerleme sağlandı. Baskısız pas zinciri sürüyor; xG 1.63'e 0.16, kaos 48, momentum -27.",
+  "cites": [
+   "e0782",
+   "e0772",
+   "e0774"
+  ]
+ }
+}

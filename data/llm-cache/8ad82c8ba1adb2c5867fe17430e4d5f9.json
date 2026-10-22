@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers win 1-0",
+  "text": "صافرة النهاية! Northgate Rovers يفوزون على Southmere United بهدف نظيف، رغم أن Southmere United كانوا يضغطون ويقتربون من المرمى أكثر. فوز صعب وأعصاب مشدودة حتى اللحظة الأخيرة!",
+  "cites": [
+   "e1784"
+  ]
+ }
+}

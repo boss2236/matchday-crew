@@ -1,0 +1,16 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Oscar Blum finishes a lightning Northgate counter",
+  "text": "Gabe Moreno launched one huge pass to Emre Kaya, who ran forward with the ball. Then Kaya set up Oscar Blum, who had space and scored. Northgate Rovers lead 1-0!",
+  "cites": [
+   "e0422",
+   "e0423",
+   "e0424",
+   "e0425",
+   "e0426",
+   "e0427",
+   "e0428"
+  ]
+ }
+}

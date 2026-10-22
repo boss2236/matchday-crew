@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City 快传连连,差点破门",
+  "text": "Harbour City 从 Sami Okafor 一脚长传开始,Yusuf Demir、Mateo Ruiz 接力传球,Dani Kowalski 抽射,可惜被门将扑出。全程没人逼抢,场面还是0-0,真刺激!",
+  "cites": [
+   "e0838",
+   "e0840",
+   "e0842",
+   "e0843"
+  ]
+ }
+}

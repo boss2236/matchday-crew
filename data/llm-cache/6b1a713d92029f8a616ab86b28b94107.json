@@ -1,15 +1,15 @@
 {
- "model": "openai:openai/gpt-oss-120b",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Harbour City’s chaotic surge at 77’",
-  "text": "A rapid passing string (e1448‑e1451) raised Harbour City’s momentum but the intercepted pass (e1453) spiked chaos to 52, prompting a stabilising pass (e1465) that kept control amid the swing.",
+  "headline": "Harbour City recycle, then lose it under pressure",
+  "text": "Harbour City lead 2-1 and moved the ball calmly, but Mateo Ruiz's pass went backwards 33.5 metres and then Rui Barros's pressured pass was intercepted. With momentum at 32 and chaos at 52, they are losing control.",
   "tags": [
    "momentum",
-   "chaos",
-   "control"
+   "possession",
+   "chaos"
   ],
   "cites": [
-   "e1448",
+   "e1451",
    "e1453",
    "e1465"
   ]

@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kowalski-Abfangen löst 0.79 xG-Abschluss aus",
+  "text": "Harbour City presst mit PPDA 8.5: Kowalskis Interception startet 5 Pässe mit Mateo Ruiz, Schwierigkeit bis 48. Unbedrängter Abschluss aus 2.5, 0.79 xG, 71.9 km/h – 4-1 trotz Ironvales 1.76 xG.",
+  "cites": [
+   "e1715",
+   "e1722",
+   "e1724",
+   "e1725"
+  ]
+ }
+}

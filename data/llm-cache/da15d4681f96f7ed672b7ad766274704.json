@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic récupère trois ballons",
+  "text": "Ironvale Athletic enchaîne 3 récupérations en 120 secondes, dont l'interception de Callum Reid (32:48). Momentum -11, chaos 62, xG 0.84 contre 0.44 : le bloc bas mène 1-0 face à Northgate Rovers.",
+  "cites": [
+   "e0564",
+   "e0581",
+   "e0603"
+  ]
+ }
+}

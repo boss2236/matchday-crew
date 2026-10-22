@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere étouffe Harbour City en fin de match",
+  "text": "Joel Martin et Tariq Aziz récupèrent le ballon encore et encore ! Southmere United mène 3-0 et ferme la porte : Harbour City n'a plus aucun espace pour espérer revenir.",
+  "cites": [
+   "e1858",
+   "e1889",
+   "e1897"
+  ]
+ }
+}

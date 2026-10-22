@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City drängt, Kowalski scheitert",
+  "text": "Harbour City liegt 2-0 hinten und spielt in Sekunden schnell nach vorn. Dani Kowalski schießt aus der Ferne, doch der Ball wird gehalten. Ein harmloser Versuch, Southmere United bleibt klar vorn.",
+  "cites": [
+   "e1714",
+   "e1715"
+  ]
+ }
+}

@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "هاربر سيتي تقلب الزخم بتمريرات سريعة",
+  "text": "من تمريرة Sami Okafor بمسافة 37.1 وصعوبة 59، مرورًا بـ Yusuf Demir وMateo Ruiz، وصلت الكرة إلى Dani Kowalski خلال 14 ثانية دون ضغط، وانتهت بتسديدة مصدودة xG 0.113.",
+  "cites": [
+   "e0838",
+   "e0840",
+   "e0842",
+   "e0843"
+  ]
+ }
+}

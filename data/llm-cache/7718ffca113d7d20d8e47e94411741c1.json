@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate 保持率56%も後方へのパス",
+  "text": "Northgate Rovers はxG 0.44、枠内シュート0本で0-1。Sven Dahl の30.1mパスは進行度-8.5、難度30。後退パスが続きmomentumは-78、PPDAは6.7。",
+  "cites": [
+   "e0560",
+   "e0546",
+   "e0551"
+  ]
+ }
+}

@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic mène 1-0 malgré 46% de possession",
+  "text": "À la pause (45+2'), Ironvale Athletic mène 1-0 avec 1.14 xG contre 0.68 pour Northgate Rovers, qui domine 54% de possession et 6 tirs. PPDA 7.8 contre 9.6, momentum 12.",
+  "cites": [
+   "e0857"
+  ]
+ }
+}

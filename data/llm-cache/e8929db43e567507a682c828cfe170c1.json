@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Oscar Blum Jadi Pahlawan, Northgate Rovers Menang 1-0",
+  "text": "Northgate Rovers menang atas Southmere United, dan Oscar Blum jadi bintangnya. Di awal laga, Northgate memegang bola dengan sabar sementara Southmere terus mencoba merebutnya kembali lewat Rafa Ortega. Titik balik datang di menit 23: Emre Kaya mengirim umpan manis ke Oscar Blum, yang menembak dari jarak dekat dan bola masuk gawang. Setelah itu Southmere terus menekan, tetapi umpan-umpan mereka sering terpotong. Oscar Blum sempat punya peluang emas lagi di menit 65, namun bolanya melenceng. Southmere berusaha sampai menit akhir, tetapi Northgate bertahan rapi. Skor akhir tetap 1-0, dan Northgate pulang dengan tiga poin.",
+  "cites": [
+   "e0426",
+   "e0427",
+   "e0428",
+   "e1205",
+   "e1784"
+  ]
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic, 패스로 길을 열다",
+  "text": "Ironvale Athletic이 Owen Lusk에서 Ade Bamidele를 거쳐 Hiro Tanaka까지 차분하게 공을 이어 갔어요. 아직 0-0이라 어느 쪽으로든 흐름이 바뀔 수 있는 장면이에요!",
+  "cites": [
+   "e0194",
+   "e0195"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale ritrova il pallone e ci prova",
+  "text": "Ironvale Athletic perde un pallone, ma lo riprende subito: Owen Lusk lo passa ad Ade Bamidele, che lancia in avanti Hiro Tanaka. Si sveglia la squadra che fin qui stava a guardare. 0-0, ma si accende!",
+  "cites": [
+   "e0188",
+   "e0194",
+   "e0195"
+  ]
+ }
+}

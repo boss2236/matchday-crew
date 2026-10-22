@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers-এর লিড কাঁপছে",
+  "text": "Northgate Rovers ১-০ এগিয়ে, কিন্তু পাসগুলো ছড়িয়ে যাচ্ছে! Ilan Cohen-এর পাস কেটে নিল Southmere United, আর Oscar Blum-এর পাস মাঠের বাইরে চলে গেল। 1-0 লিড এখনও নিরাপদ নয়।",
+  "cites": [
+   "e0499",
+   "e0510"
+  ]
+ }
+}

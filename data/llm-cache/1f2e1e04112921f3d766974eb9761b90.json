@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Callum Reid merebut bola lagi dan lagi",
+  "text": "Callum Reid benar-benar jadi pahlawan Ironvale Athletic! Dia berkali-kali merebut bola lewat tekel dan intersep. Meski Harbour City lebih banyak menguasai bola, Ironvale Athletic justru lebih berbahaya.",
+  "cites": [
+   "e0201",
+   "e0220",
+   "e0243"
+  ]
+ }
+}

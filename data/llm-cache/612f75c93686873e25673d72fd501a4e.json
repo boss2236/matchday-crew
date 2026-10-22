@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere 1-0 앞서지만 흔들려요",
+  "text": "Southmere United가 앞서고 있지만 Harbour City의 강한 압박에 고전 중이에요. Joel Martin의 패스가 가로채였고, 이어서 패스가 두 번이나 라인 밖으로 나갔어요.",
+  "cites": [
+   "e1221",
+   "e1230",
+   "e1234"
+  ]
+ }
+}

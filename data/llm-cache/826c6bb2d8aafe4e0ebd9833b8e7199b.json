@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United étouffe Harbour City !",
+  "text": "Trois ballons récupérés en deux minutes par Tariq Aziz, Rafa Ortega et Joel Martin ! Harbour City n'arrive plus à construire, et Southmere United garde le match bien en main sur ce 2-0.",
+  "cites": [
+   "e1818",
+   "e1838",
+   "e1847"
+  ]
+ }
+}

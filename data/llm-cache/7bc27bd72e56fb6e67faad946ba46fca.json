@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate topu sabırla çevirdi, çizgiyi kırdı",
+  "text": "Northgate Rovers topun çoğunu elinde tutuyor. Sven Dahl baskı altında bile Andres Vega'ya cesur bir ileri pas attı, Vega da topla koşarak rakibin düzenini bozdu. Gol tehdidi henüz yok.",
+  "cites": [
+   "e0115",
+   "e0116"
+  ]
+ }
+}

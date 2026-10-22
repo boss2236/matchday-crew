@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Marchetti's sprint fuels Harbour's push",
+  "text": "At 55 minutes Leo Marchetti zipped 13.3 m at 31.5 km/h, adding fresh energy as Harbour City presses hard against Ironvale's deep block.",
+  "cites": [
+   "e1074"
+  ]
+ }
+}

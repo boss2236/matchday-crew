@@ -1,16 +1,14 @@
 {
- "model": "openai:openai/gpt-oss-120b",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Ironvale’s Counter Crumbles Amid Chaos",
-  "text": "At 27:48 the momentum swing to –25 and chaos 67 marks Ironvale’s lost control; after an 8.7 km carry (e0567) a risky 45.1 m pass was intercepted (e0568), the ensuing quick passes (e0575‑e0577) produced a blocked shot (e0578).",
+  "headline": "Ironvale's direct play tilts momentum their way",
+  "text": "Ade Bamidele's 49.5m pass sets Ironvale's direct style in motion, and Zeke Mbeki's blocked shot caps the swing to -25. Chaos sits at 67, and Ironvale's 0.96 xG dwarfs Harbour City's 0.16.",
   "tags": [
+   "momentum",
    "counter",
-   "chaos",
-   "momentum"
+   "chaos"
   ],
   "cites": [
-   "e0567",
-   "e0568",
    "e0575",
    "e0576",
    "e0577",

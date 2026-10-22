@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United تقلب إيقاع المباراة",
+  "text": "Southmere United استعاد الكرة 3 مرات في دقيقتين تقريباً! ليام دويل وطارق عزيز ورافا أورتيغا قطعوا الكرة، وNorthgate Rovers لم يعد يلعب بهدوء. والنتيجة ما زالت 0-0.",
+  "cites": [
+   "e0306",
+   "e0328",
+   "e0341"
+  ]
+ }
+}

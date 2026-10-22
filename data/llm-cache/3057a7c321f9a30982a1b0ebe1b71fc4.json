@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic kontert eiskalt zum 1:0",
+  "text": "Einwurf, ein langer Pass von Ivo Petrov, und schon steht Zeke Mbeki ganz allein da. Aus 2 Metern schiebt er ein! Ironvale Athletic führt 1-0, Northgate Rovers schauen zu.",
+  "cites": [
+   "e0480",
+   "e0481",
+   "e0484",
+   "e0485"
+  ]
+ }
+}

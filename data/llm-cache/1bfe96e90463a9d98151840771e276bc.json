@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic baut unbedrängt auf",
+  "text": "Ironvale Athletic: vier unbedrängte Pässe, Callum Reid auf Luca Romero über 33.4 m, Schwierigkeit 50. Dann Aus bei Romero auf Hiro Tanaka. Momentum 26, xG 0.01, PPDA 11.2, Ballbesitz 40.",
+  "cites": [
+   "e0323",
+   "e0324",
+   "e0325",
+   "e0326",
+   "e0327"
+  ]
+ }
+}

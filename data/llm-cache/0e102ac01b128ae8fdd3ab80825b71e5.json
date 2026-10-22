@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Pressão do Harbour City quebra o Southmere",
+  "text": "O Southmere trocava passes com calma, mas quando Rafa Ortega e Bruno Costa foram apertados, o passe de Costa para Tariq Aziz saiu pela linha. A marcação do Harbour City está a pesar!",
+  "cites": [
+   "e1177",
+   "e1179"
+  ]
+ }
+}

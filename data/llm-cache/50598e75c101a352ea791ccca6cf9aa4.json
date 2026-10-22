@@ -1,12 +1,12 @@
 {
- "model": "openai:openai/gpt-oss-20b",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Blocked Chance Shifts Momentum",
-  "text": "Oscar Blum’s 77.5 km/h shot, blocked at 4 m, highlights Northgate’s patient build‑up and Ironvale’s deep‑block, altering the 26‑minute momentum from –23 to a more balanced state.",
+  "headline": "Rovers' patience carves out a huge chance",
+  "text": "Northgate Rovers' patient possession, with 55% of the ball, opened Ironvale's deep block: an unpressured Oscar Blum shot from 4 metres worth 0.394 xG, but it was blocked. At 0-0 the momentum is with Rovers, at -23.",
   "tags": [
-   "momentum",
-   "control",
-   "pressing"
+   "chance",
+   "possession",
+   "momentum"
   ],
   "cites": [
    "e0461"

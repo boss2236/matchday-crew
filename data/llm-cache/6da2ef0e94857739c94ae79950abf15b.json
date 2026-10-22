@@ -1,0 +1,16 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Blum conclut une action éclair !",
+  "text": "Quelle ouverture ! Gabe Moreno lance Emre Kaya d'une immense passe, Kaya file avec le ballon, puis Oscar Blum, sans personne sur lui, marque pour Northgate Rovers : 1-0 !",
+  "cites": [
+   "e0422",
+   "e0423",
+   "e0424",
+   "e0425",
+   "e0426",
+   "e0427",
+   "e0428"
+  ]
+ }
+}

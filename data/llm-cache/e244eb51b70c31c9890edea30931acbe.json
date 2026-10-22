@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Callum Reid: 3 récupérations en 120 secondes",
+  "text": "Callum Reid récupère 3 ballons en 120 secondes pour Ironvale Athletic. Bloc bas, 40 % de possession, mais xG 0.89 contre 0.04 pour Harbour City (60 %). Momentum -8, PPDA 13.",
+  "cites": [
+   "e0201",
+   "e0220",
+   "e0243"
+  ]
+ }
+}

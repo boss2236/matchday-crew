@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City spingono, ma sbagliano i lanci",
+  "text": "Harbour City è sotto 0-1 e ci prova con passaggi rapidi, ma i lanci lunghi non funzionano: Leo Marchetti viene intercettato e Jonah Pike manda il pallone fuori. Serve più precisione!",
+  "cites": [
+   "e0725",
+   "e0734"
+  ]
+ }
+}

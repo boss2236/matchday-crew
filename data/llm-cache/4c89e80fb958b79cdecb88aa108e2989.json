@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kaya lance Blum, Rovers ouvrent le score !",
+  "text": "Emre Kaya fonce balle au pied, puis offre une longue passe de 30.1 mètres à Oscar Blum, qui marque ! Northgate Rovers mène 1-0 et les fans exultent.",
+  "cites": [
+   "e0423",
+   "e0424",
+   "e0425",
+   "e0426",
+   "e0427"
+  ]
+ }
+}

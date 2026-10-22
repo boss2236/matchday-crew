@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale 1-0领先，场面趋于混乱",
+  "text": "Ironvale Athletic 1-0领先，控球率46%，xG 1.14对0.71。Luca Romero 51:20的32.7米传球难度55被拦截；Hiro Tanaka 51:55与52:00连续带球9.1米、8.5米，稳住局面。混乱度54。",
+  "cites": [
+   "e0980",
+   "e0990",
+   "e0991"
+  ]
+ }
+}

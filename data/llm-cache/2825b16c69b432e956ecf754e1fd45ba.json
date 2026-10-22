@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kowalski chiude i conti per il 3-1!",
+  "text": "Dal rimessa laterale al gol in soli 20 secondi: Harbour City passa il pallone senza mai essere pressata, e Dani Kowalski la spedisce in rete da 14.1 metri. Che finale!",
+  "cites": [
+   "e1545",
+   "e1547",
+   "e1550",
+   "e1551",
+   "e1552"
+  ]
+ }
+}

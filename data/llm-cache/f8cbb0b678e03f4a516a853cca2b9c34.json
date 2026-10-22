@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate controlan, Dahl rompe la línea",
+  "text": "Northgate Rovers tienen 69% de posesión y PPDA 13; el pase presionado de Sven Dahl a Andres Vega (progreso 30.9, dificultad 79) rompe la línea. Momentum 37, xG 0 frente a 0.03 de Southmere.",
+  "cites": [
+   "e0115",
+   "e0116"
+  ]
+ }
+}

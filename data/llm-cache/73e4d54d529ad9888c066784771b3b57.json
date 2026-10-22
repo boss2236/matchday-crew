@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers keep the ball calmly",
+  "text": "Northgate Rovers are trailing 1-0, but they're staying calm. Ilan Cohen, Kai Nakamura and Andres Vega keep passing the ball around without anyone bothering them, looking for a gap in Ironvale Athletic's wall.",
+  "cites": [
+   "e0789",
+   "e0791",
+   "e0792",
+   "e0793"
+  ]
+ }
+}

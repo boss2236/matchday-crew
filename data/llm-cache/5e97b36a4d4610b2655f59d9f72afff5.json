@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers reprennent la main !",
+  "text": "Ça repart pour Northgate Rovers ! Gabe Moreno perd un long ballon, mais Ilan Cohen file balle au pied et trouve Oscar Blum. Ironvale Athletic mène 1-0 et reste bien regroupé derrière.",
+  "cites": [
+   "e1229",
+   "e1242",
+   "e1243"
+  ]
+ }
+}

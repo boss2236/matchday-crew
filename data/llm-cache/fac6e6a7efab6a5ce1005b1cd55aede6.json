@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City prueba, pero sin peligro real",
+  "text": "Harbour City movió el balón con calma, sin que nadie los presionara, y Arjun Mehta probó suerte desde lejos. El portero lo paró sin problemas: fue un disparo de poco peligro, y el 0-0 sigue igual.",
+  "cites": [
+   "e0351",
+   "e0352",
+   "e0353"
+  ]
+ }
+}

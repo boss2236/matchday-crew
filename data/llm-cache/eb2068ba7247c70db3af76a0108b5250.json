@@ -1,0 +1,19 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Tariq Aziz trifft dreifach: Southmere United schlägt Harbour City 3-0",
+  "text": "Southmere United gewinnt 3-0 gegen Harbour City. Früh vergibt Tariq Aziz in der 4. Minute aus 2 m eine Chance mit 0.622 xG, Harbour City-Keeper rettet. Der Bann bricht in der 45. Minute: Joel Martin bedient Aziz, 0.931 xG aus 1.2 m, 1-0 nach 19 Pässen Aufbau. In der 59. Minute folgt das 2-0 (0.16 xG) nach Vorlage von Bruno Costa, in der 87. Minute das 3-0 (0.106 xG) nach einem Ballgewinn von Martin. Bei gleichem Ballbesitz (50%) und ähnlichem PPDA (7.9 zu 7.6) entscheidet die Qualität: 1.95 xG gegen 0.62 xG. Aziz, 3 Tore bei 1.88 xG, ist der überragende Spieler.",
+  "cites": [
+   "e0077",
+   "e1012",
+   "e1013",
+   "e1014",
+   "e1286",
+   "e1287",
+   "e1847",
+   "e1850",
+   "e1851",
+   "e1950"
+  ]
+ }
+}

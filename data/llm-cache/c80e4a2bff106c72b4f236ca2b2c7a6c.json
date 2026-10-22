@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City juegan con calma para proteger el 2-1",
+  "text": "Harbour City se pasan el balón sin que nadie les moleste, incluso hacia atrás, para que corra el reloj. Mateo Ruiz y Leo Marchetti lo mueven tranquilos, pero Ironvale Athletic sigue al acecho.",
+  "cites": [
+   "e1528",
+   "e1530",
+   "e1531",
+   "e1532"
+  ]
+ }
+}

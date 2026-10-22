@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City-র লম্বা পাস বিপদ ডাকছে",
+  "text": "Harbour City এক গোলে পিছিয়ে, আর তাদের লম্বা পাসগুলো বারবার হারাচ্ছে। Leo Marchetti-র পাস কেটে দিল Ironvale Athletic, Jonah Pike-এর পাস গেল মাঠের বাইরে। বল ফিরে গেল প্রতিপক্ষের কাছে!",
+  "cites": [
+   "e0725",
+   "e0734"
+  ]
+ }
+}

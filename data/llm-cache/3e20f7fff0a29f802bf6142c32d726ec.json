@@ -1,16 +1,14 @@
 {
- "model": "openai:openai/gpt-oss-20b",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Ironvale’s late surge",
-  "text": "A rapid 22.6‑yard pass from Mbeki to Reid, followed by a 27.8‑yard drive to Tanaka and a 19.5‑yard link to Romero, lifts Ironvale’s momentum to 25 while chaos climbs to 41, threatening Northgate’s control.",
+  "headline": "Ironvale seize momentum protecting narrow lead",
+  "text": "Leading 1-0 in minute 85, Ironvale reset through Callum Reid and Hiro Tanaka, then Luca Romero carried twice at 31 and 34.1 km/h. Momentum swings to 25 as their direct counters threaten again.",
   "tags": [
    "momentum",
-   "control",
-   "chaos"
+   "counter",
+   "control"
   ],
   "cites": [
-   "e1558",
-   "e1559",
    "e1570",
    "e1571",
    "e1572",

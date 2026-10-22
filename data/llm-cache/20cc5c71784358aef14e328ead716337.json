@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Joel Martin断球，Tariq Aziz闪电破门",
+  "text": "Joel Martin抢断后带球冲出，一脚传给Tariq Aziz，他在10米外轻松破门！Southmere United全程只用了7秒，Harbour City的高位逼抢被一下打穿，比分变成3-0。",
+  "cites": [
+   "e1847",
+   "e1848",
+   "e1849",
+   "e1850",
+   "e1851"
+  ]
+ }
+}

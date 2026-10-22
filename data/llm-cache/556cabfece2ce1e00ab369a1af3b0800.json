@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale kontern in der 85. Minute",
+  "text": "Ironvale führt 1-0 und schaltet blitzschnell um: Reid spielt zu Hiro Tanaka, der steckt zu Luca Romero durch, und der stürmt gleich zweimal nach vorn. Was für ein Tempo!",
+  "cites": [
+   "e1570",
+   "e1571",
+   "e1572",
+   "e1573"
+  ]
+ }
+}

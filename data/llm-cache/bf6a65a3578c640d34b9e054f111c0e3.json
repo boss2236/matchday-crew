@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City'den etkisiz son dakika dolaşımı",
+  "text": "90+3'te Harbour City baskısız beş tamamlanan pas yaptı; ilerleme -23.9, -9.4, -10.5 ile geriye gitti. 3-0 geride momentum -25, chaos 46; xG yalnızca 0.62, dolaşım kontrollü ama etkisiz.",
+  "cites": [
+   "e1926",
+   "e1928",
+   "e1929",
+   "e1930"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kowalski cetak gol keempat Harbour City!",
+  "text": "Harbour City merebut bola lewat intersepsi, lalu mengalirkannya dengan cepat. Mateo Ruiz mengirim umpan tajam ke depan, dan Dani Kowalski menuntaskannya jadi gol. Skor jadi 4-1!",
+  "cites": [
+   "e1715",
+   "e1722",
+   "e1725"
+  ]
+ }
+}

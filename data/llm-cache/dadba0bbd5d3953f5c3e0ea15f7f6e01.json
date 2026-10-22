@@ -1,16 +1,17 @@
 {
- "model": "openai:openai/gpt-oss-120b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Southmere’s chaotic swing",
-  "text": "At 13 minutes the -27 momentum and 52 chaos show Southmere losing control; intercepted pass (e0199) and pressured carry (e0219) highlight disrupted wing play amid 36% possession.",
+  "headline": "Southmere stuck under Northgate's control",
+  "text": "Momentum sits at -27 with chaos at 52, and Southmere hold only 36% possession against Northgate's 64%. Joel Martin's pressured pass (e0219) and Rafa Ortega's carries (e0220, e0221) show them trying to build, while Northgate lead 8 final-third entries to 2.",
   "tags": [
-   "chaos",
+   "momentum",
    "control",
-   "momentum"
+   "possession"
   ],
   "cites": [
-   "e0199",
-   "e0219"
+   "e0219",
+   "e0220",
+   "e0221"
   ]
  }
 }

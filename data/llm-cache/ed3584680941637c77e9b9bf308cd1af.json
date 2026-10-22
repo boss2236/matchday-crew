@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Tariq Aziz가 막판에 골을 터뜨렸어요!",
+  "text": "Bruno Costa가 공을 몰고 달려 나가자, 동료들이 압박 없이 패스를 쭉 이어 갔어요. 마지막엔 Tariq Aziz가 골문 바로 앞에서 침착하게 마무리했습니다!",
+  "cites": [
+   "e1009",
+   "e1010",
+   "e1011",
+   "e1012",
+   "e1013"
+  ]
+ }
+}

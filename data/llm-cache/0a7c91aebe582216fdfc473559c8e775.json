@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale、ロングボールで大慌て",
+  "text": "Ironvale Athletic が長いパスを蹴り込みました。最初は Zeke Mbeki に届く前に止められましたが、Hiro Tanaka の次のパスはつながり、Zeke Mbeki がシュート。惜しくも枠の外でした。",
+  "cites": [
+   "e1059",
+   "e1067",
+   "e1068"
+  ]
+ }
+}

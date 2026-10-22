@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic klaut Northgate den Ball",
+  "text": "Ironvale Athletic führt 1-0 und lässt Northgate Rovers kaum atmen: Callum Reid fängt einen Pass ab, dann schnappt sich Hiro Tanaka den Ball gleich zweimal. Das Pressing wirkt!",
+  "cites": [
+   "e1341",
+   "e1356",
+   "e1363"
+  ]
+ }
+}

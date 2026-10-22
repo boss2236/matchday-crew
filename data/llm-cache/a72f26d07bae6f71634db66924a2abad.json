@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-opus-5.5",
+ "output": {
+  "headline": "Unpressured Harbour City passes keep getting intercepted",
+  "text": "Yusuf Demir's 33.6m pass (difficulty 56) and Dani Kowalski's 43.2m and 30.3m passes were all intercepted, none under pressure. Momentum 35, chaos 55, xG 0.35 vs 1.68.",
+  "cites": [
+   "e1111",
+   "e1118",
+   "e1128"
+  ]
+ }
+}

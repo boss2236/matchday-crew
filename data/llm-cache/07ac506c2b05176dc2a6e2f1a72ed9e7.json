@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers: possession stérile, momentum -78",
+  "text": "Northgate Rovers : 56% de possession, 22 entrées dans le dernier tiers, mais xG 0.44 contre 0.84 et 0 tir cadré. La passe de Sven Dahl (-8.5 de progression, 30.1 m) illustre la circulation latérale.",
+  "cites": [
+   "e0560",
+   "e0546",
+   "e0551"
+  ]
+ }
+}

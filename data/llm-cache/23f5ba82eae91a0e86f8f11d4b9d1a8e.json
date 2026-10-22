@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City'nin farkı çok kırılgan",
+  "text": "Harbour City 2-1 önde ama top ayağında huzursuz. Mateo Ruiz topu geriye, Rui Barros'a çekti; sonra baskı altındaki pas kesildi. Ironvale Athletic bu fırsatı kollayabilir.",
+  "cites": [
+   "e1451",
+   "e1453"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United reprend le ballon, et garde la main",
+  "text": "Southmere United ne lâche rien ! Tariq Aziz, Bruno Costa, puis Liam Doyle récupèrent le ballon coup sur coup. Résultat : l'équipe protège tranquillement son avance de 2-0.",
+  "cites": [
+   "e1408",
+   "e1414",
+   "e1445"
+  ]
+ }
+}

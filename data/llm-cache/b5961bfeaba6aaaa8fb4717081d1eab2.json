@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City verlieren Kontrolle unter Druck",
+  "text": "Harbour City führen 2-1, doch Mateo Ruiz spielt 33.5 m rückwärts (Schwierigkeit 34), Rui Barros' Pass unter Druck (Schwierigkeit 45) wird abgefangen. Momentum 32, Chaos 52; xG nur 0.41 gegen 1.68.",
+  "cites": [
+   "e1451",
+   "e1453"
+  ]
+ }
+}

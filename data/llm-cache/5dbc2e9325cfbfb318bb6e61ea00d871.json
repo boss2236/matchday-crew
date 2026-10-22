@@ -1,0 +1,15 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Okafor klaut den Ball, Marchetti trifft!",
+  "text": "Sami Okafor schnappt sich den Ball, dann geht's blitzschnell: ein paar Pässe, und Leo Marchetti hämmert ihn mit 83 km/h ins Tor. Harbour City gleicht zum 1-1 aus, ohne dass jemand stört!",
+  "cites": [
+   "e0991",
+   "e0994",
+   "e0995",
+   "e0996",
+   "e0998",
+   "e0999"
+  ]
+ }
+}

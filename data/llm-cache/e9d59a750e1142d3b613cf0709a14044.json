@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate-র দখল আছে, কিন্তু প্রভাব নেই",
+  "text": "Northgate Rovers-এর 56% possession ও 22 final-third entry, তবু xG মাত্র 0.44 এবং shotsOnTarget 0। Sven Dahl-এর 30.1 মিটার পাসে progress -8.5, তাই momentum -78।",
+  "cites": [
+   "e0560",
+   "e0546",
+   "e0551"
+  ]
+ }
+}

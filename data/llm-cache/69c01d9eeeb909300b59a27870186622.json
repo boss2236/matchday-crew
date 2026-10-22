@@ -1,0 +1,15 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers ने Oscar Blum के गोल से 1-0 जीता",
+  "text": "Northgate Rovers ने Patient possession के साथ शुरुआत की; minute 7 पर Andres Vega के 10.9 distance वाले carry से momentum 37 हुआ। minute 23 पर Emre Kaya के difficulty 48 वाले pass पर Oscar Blum ने 0.472 xG का गोल किया, स्कोर 1-0। Southmere United ने minute 19 पर Rafa Ortega के interception से pressing की, पर minute 65 पर Blum का 0.284 xG का मौका off_target रहा। अंत में xG Northgate Rovers 1.18 बनाम Southmere United 0.9 रहा; possession 55% बनाम 45%, PPDA 8.3 बनाम 7.6। Southmere के 57 final third entries भी गोल में नहीं बदले। Oscar Blum 1 गोल और 1.16 xG के साथ standout रहे।",
+  "cites": [
+   "e0116",
+   "e0341",
+   "e0426",
+   "e0428",
+   "e1205",
+   "e1784"
+  ]
+ }
+}

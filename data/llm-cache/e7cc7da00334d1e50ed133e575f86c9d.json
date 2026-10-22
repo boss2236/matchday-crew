@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic、直線的な縦パスで主導権",
+  "text": "Ironvale Athleticは1-0でリード。Ivo PetrovからLuca Romeroへの38.9mのパスは前進34.9、難易度66、被プレッシャーなし。xG 1.63対0.16、momentum -27、chaos 48。",
+  "cites": [
+   "e0782",
+   "e0772",
+   "e0774"
+  ]
+ }
+}

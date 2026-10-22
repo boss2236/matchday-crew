@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kaya的冲刺,送出开场进球",
+  "text": "Emre Kaya带球一路狂奔,再送出一脚长传,Oscar Blum轻松破门!Northgate Rovers 1-0领先,不过场面开始有点乱,可别大意啦!",
+  "cites": [
+   "e0423",
+   "e0424",
+   "e0425",
+   "e0426",
+   "e0427"
+  ]
+ }
+}

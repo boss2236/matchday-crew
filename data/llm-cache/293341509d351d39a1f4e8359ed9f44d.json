@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers يضغطون ولا يتركون الكرة",
+  "text": "كاي ناكامورا يخطف الكرة بتدخل ثم بقطع تمريرة، وNorthgate Rovers يستعيدون الكرة 3 مرات تقريبًا في كل مرة يحاول Southmere United الهجوم. هكذا يحمون التقدم 1-0!",
+  "cites": [
+   "e0738",
+   "e0757",
+   "e0765"
+  ]
+ }
+}

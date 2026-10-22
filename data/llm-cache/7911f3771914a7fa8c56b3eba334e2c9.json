@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kowalski 冷静破门,3-1!",
+  "text": "Harbour City 从边线掷界外球开始,几脚传球行云流水,没人上来逼抢。Dani Kowalski 在禁区外一脚低射,稳稳入网,球队 3-1 领先 Ironvale Athletic!",
+  "cites": [
+   "e1545",
+   "e1547",
+   "e1550",
+   "e1551",
+   "e1552"
+  ]
+ }
+}

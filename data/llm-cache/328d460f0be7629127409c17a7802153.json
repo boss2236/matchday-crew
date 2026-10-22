@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate'te momentum -27'ye düştü",
+  "text": "Northgate Rovers 1-0 geride, momentum -27. Gabe Moreno'nun 63.1 uzunluktaki, zorluk 82 olan pasını kesildi; Ilan Cohen'in Oscar Blum'a 22.6 pasıyla oyun toparlandı. Ironvale Athletic xG 1.15, Northgate Rovers 0.71.",
+  "cites": [
+   "e1229",
+   "e1243"
+  ]
+ }
+}

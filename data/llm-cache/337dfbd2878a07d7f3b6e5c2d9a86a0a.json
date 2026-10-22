@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Dani Kowalski offre le 2-1 à Harbour City !",
+  "text": "Quelle action ! Jonah Pike récupère le ballon, puis Harbour City le fait tourner patiemment avant d'accélérer. Yusuf Demir sert Dani Kowalski, qui fusille le gardien : 2-1 !",
+  "cites": [
+   "e1201",
+   "e1220",
+   "e1221",
+   "e1222",
+   "e1223"
+  ]
+ }
+}

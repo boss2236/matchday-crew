@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale-র দীর্ঘ বল, বিশৃঙ্খলা বাড়ছে",
+  "text": "চাপের মুখে Ironvale Athletic লং বল খেলল: Ivo Petrov-এর 44.5 দূরত্বের পাস (কঠিনতা 95) ইন্টারসেপ্ট হলো। Hiro Tanaka-র 41.2 পাসে Zeke Mbeki-র 0.02 xG শট বাইরে গেল। chaos 64, momentum -53, স্কোর 1-1।",
+  "cites": [
+   "e1059",
+   "e1067",
+   "e1068"
+  ]
+ }
+}

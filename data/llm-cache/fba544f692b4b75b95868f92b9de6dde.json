@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers 1-0 하프타임 리드",
+  "text": "Northgate Rovers가 xG 0.68 대 0.31, 슈팅 4 대 6으로 1-0 리드. Southmere United는 최종 third 진입 32 대 26, PPDA 9.1 대 8.6이며 모멘텀은 -46입니다.",
+  "cites": [
+   "e0860"
+  ]
+ }
+}

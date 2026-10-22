@@ -1,17 +1,14 @@
 {
- "model": "openai:openai/gpt-oss-120b",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Ironvale's Control Crumbles",
-  "text": "A series of risky passes, including a 44.5m intercepted ball (e1059) and a pressured 41.2m pass (e1067), triggered a -53 momentum swing and 64 chaos, turning possession into chaos at 54‑55 minutes.",
+  "headline": "Ironvale's direct balls swing momentum their way",
+  "text": "With momentum at -53 and chaos at 64, Ironvale's long passes keep coming. Ivo Petrov's 44.5m ball was intercepted, but Hiro Tanaka's 41.2m pass found Zeke Mbeki, whose 0.02 xG effort went off target.",
   "tags": [
-   "pressing",
-   "chaos",
-   "control"
+   "momentum",
+   "counter",
+   "chaos"
   ],
   "cites": [
-   "e1055",
-   "e1056",
-   "e1057",
    "e1059",
    "e1067",
    "e1068"

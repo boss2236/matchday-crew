@@ -1,0 +1,21 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Tariq Aziz की हैट्रिक से Southmere United 3-0 विजयी",
+  "text": "Southmere United ने Harbour City को 3-0 से हराया। चौथे मिनट में Tariq Aziz का 0.622 xG का शॉट, मात्र 2 की दूरी से, बचा लिया गया। 45+3' पर Joel Martin के पास (difficulty 44) के बाद Aziz ने 0.931 xG का गोल किया। 59वें मिनट में Bruno Costa के पास से 0.16 xG का दूसरा गोल आया। 87वें मिनट में Joel Martin की interception के बाद Aziz ने 0.106 xG से हैट्रिक पूरी की। xG में Southmere United 1.95 बनाम Harbour City 0.62 रहा; shots on target 7 बनाम 5। PPDA 7.9 बनाम 7.6 और final third entries 62 बनाम 52 रहीं। अंतिम momentum -30 रहा। Tariq Aziz 3 गोल के साथ standout रहे।",
+  "cites": [
+   "e0077",
+   "e1012",
+   "e1013",
+   "e1014",
+   "e1285",
+   "e1286",
+   "e1287",
+   "e1847",
+   "e1849",
+   "e1850",
+   "e1851",
+   "e1950"
+  ]
+ }
+}

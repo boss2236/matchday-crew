@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ortega ne lâche rien au milieu !",
+  "text": "Rafa Ortega harcèle Northgate Rovers : deux interceptions, puis un tacle, et Southmere United récupère le ballon trois fois en deux minutes. Les Rovers, pourtant si calmes avec le ballon, n'arrivent plus à respirer !",
+  "cites": [
+   "e0887",
+   "e0897",
+   "e0907"
+  ]
+ }
+}

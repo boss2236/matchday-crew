@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Bolas longas do Southmere perdem momentum",
+  "text": "Aos 28 minutos, Bruno Costa (e0574, 33.3 m, dificuldade 51) e Rafa Ortega (e0584, 30.3 m, dificuldade 41) foram interceptados. Momentum em 26, caos 56, apesar do xG 0.71 a 0.27; PPDA do Harbour City: 7.1.",
+  "cites": [
+   "e0574",
+   "e0584"
+  ]
+ }
+}

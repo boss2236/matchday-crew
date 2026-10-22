@@ -1,0 +1,16 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "¡Gran pase largo y gol de Oscar Blum!",
+  "text": "Gabe Moreno lanzó un pase larguísimo a Emre Kaya, que corrió con el balón y se lo dejó solo a Oscar Blum. ¡Gol de Northgate Rovers y 1-0 en el minuto 23!",
+  "cites": [
+   "e0422",
+   "e0423",
+   "e0424",
+   "e0425",
+   "e0426",
+   "e0427",
+   "e0428"
+  ]
+ }
+}

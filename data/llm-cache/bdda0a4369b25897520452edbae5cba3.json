@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale lance une contre-attaque express",
+  "text": "Quel long ballon d'Ade Bamidele ! Il trouve Zeke Mbeki, le ballon file vers l'avant, et Zeke tente sa chance, mais le tir est bloqué. Ironvale Athletic fait vraiment peur à Harbour City.",
+  "cites": [
+   "e0575",
+   "e0576",
+   "e0577",
+   "e0578"
+  ]
+ }
+}

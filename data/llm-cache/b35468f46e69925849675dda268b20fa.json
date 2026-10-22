@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City aguantan la presión y avanzan",
+  "text": "¡Qué jugada de Harbour City! Marchetti se libra de la presión con un pase largo, y al final Jonah Pike la lanza hacia Dani Kowalski. Van ganando 2-1 y no sueltan el balón.",
+  "cites": [
+   "e1326",
+   "e1331",
+   "e1330"
+  ]
+ }
+}

@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic、落ち着いてパスをつなぐ",
+  "text": "Ironvale Athleticは相手に邪魔されないまま、Callum ReidからMarco Silvan、Zeke Mbeki、Finn Carverへとパスをつなぎます。1-0のリードで、落ち着いた攻めです。",
+  "cites": [
+   "e1111",
+   "e1112",
+   "e1113",
+   "e1115"
+  ]
+ }
+}

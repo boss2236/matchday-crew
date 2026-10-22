@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale mène à la pause, malgré Northgate",
+  "text": "Northgate Rovers garde le ballon, mais Ironvale Athletic frappe vite en contre et mène 1-0 à la pause. Les visiteurs ont 54% de possession, sans réussir à marquer. Quelle mi-temps !",
+  "cites": [
+   "e0857"
+  ]
+ }
+}

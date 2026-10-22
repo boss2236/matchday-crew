@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Oscar Blum frôle l'ouverture du score !",
+  "text": "Northgate Rovers a patiemment fait reculer Ironvale Athletic, puis Oscar Blum, seul et sans personne sur le dos, a tiré de tout près à 4 mètres. Un défenseur a bloqué le ballon juste à temps !",
+  "cites": [
+   "e0461"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United won the ball back three times",
+  "text": "Southmere United kept stealing the ball back, with Liam Doyle's interception the latest. Harbour City couldn't settle, and that pressure helps Southmere United protect their 2-0 lead.",
+  "cites": [
+   "e1408",
+   "e1414",
+   "e1445"
+  ]
+ }
+}

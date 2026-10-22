@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers kontrollieren den Ball",
+  "text": "Nach Oscar Blums gehaltenem Schuss lässt Northgate Rovers den Ball ruhig laufen. Ilan Cohen, Kai Nakamura und Andres Vega spielen sich frei zu, während Ironvale Athletic tief steht und 1-0 vorne liegt.",
+  "cites": [
+   "e0782",
+   "e0789",
+   "e0791",
+   "e0792",
+   "e0793"
+  ]
+ }
+}

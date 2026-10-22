@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale reprend le ballon sans cesse",
+  "text": "Ironvale Athletic récupère le ballon encore et encore, la dernière fois par Zeke Mbeki, et ça gêne Northgate Rovers qui voulait poser son jeu. Avec 1-0 au tableau, les contres d'Ironvale peuvent faire très mal !",
+  "cites": [
+   "e0900",
+   "e0928",
+   "e0935"
+  ]
+ }
+}

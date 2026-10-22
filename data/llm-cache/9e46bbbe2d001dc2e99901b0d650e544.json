@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale, contropiede diretto spinge il momentum",
+  "text": "Ironvale avanti 1-0: Ivo Petrov trova Luca Romero con un lancio da 38.9 m, progressione 34.9, difficoltà 66, senza pressione. xG 1.63 contro 0.16, momentum -27, chaos 48.",
+  "cites": [
+   "e0782",
+   "e0772",
+   "e0774"
+  ]
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere keep pushing, Costa leads the way",
+  "text": "Deep in stoppage time, Southmere United are still a goal down, but Bruno Costa runs the ball forward and slips it to Tariq Aziz. It's getting wild out there, and they're not giving up!",
+  "cites": [
+   "e1767",
+   "e1769"
+  ]
+ }
+}

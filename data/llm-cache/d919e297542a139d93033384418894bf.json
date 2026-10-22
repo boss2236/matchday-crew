@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United domina el balón, 0-0",
+  "text": "Southmere United lleva el balón y no lo suelta: pase tras pase, de Alfie Grant a Tariq Aziz. Pero Harbour City aprieta y el partido sigue 0-0, con 61% de posesión local.",
+  "cites": [
+   "e0138",
+   "e0142",
+   "e0144"
+  ]
+ }
+}

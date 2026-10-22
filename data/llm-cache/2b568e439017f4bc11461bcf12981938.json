@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United 90+4' 攻勢、xG 0.38",
+  "text": "90+4'、Southmere United 0-1。Bruno Costaが16.8m運び、Tariq Azizへ難度34のパス。xG 0.38、PPDA 7.6、momentum -27、chaos 57。決定機の質が不足。",
+  "cites": [
+   "e1767",
+   "e1769"
+  ]
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour City’s quick strike!",
+  "text": "Okafor’s run and three swift passes set up Marchetti, who fired a 15.2 m shot into the net – a perfect finish!",
+  "cites": [
+   "e0993",
+   "e0994",
+   "e0995",
+   "e0996",
+   "e0998"
+  ]
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kowalski'nin kesmesi 4-1'i getirdi",
+  "text": "Harbour City'nin PPDA 8.5 baskısı işledi: Dani Kowalski kesti, Mateo Ruiz ile 5 pasta 46 ve 48 zorluklu iki pasla bitiriş geldi; baskısız 2.5 metreden 0.79 xG'lik vuruş 4-1 yaptı.",
+  "cites": [
+   "e1715",
+   "e1718",
+   "e1722",
+   "e1724",
+   "e1725"
+  ]
+ }
+}

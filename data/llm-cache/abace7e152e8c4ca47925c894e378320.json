@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City, tre intercetti senza pressione",
+  "text": "Harbour City perde 3 palloni senza pressione: e1111 (33.6 m, difficoltà 56), e1118 (43.2 m, difficoltà 55), e1128 (30.3 m, difficoltà 42). Momentum 35, caos 55 sull'1-1; 39 ingressi in zona finale, xG 0.35 contro 1.68.",
+  "cites": [
+   "e1111",
+   "e1118",
+   "e1128"
+  ]
+ }
+}

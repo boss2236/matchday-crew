@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere-এর লং বল, momentum পতন",
+  "text": "28 মিনিটে Bruno Costa-র 33.3 মিটারের (difficulty 51) e0574 ও Rafa Ortega-র 30.3 মিটারের (difficulty 41) e0584 পাস intercepted। xG 0.71-0.27 এগিয়ে থাকলেও momentum 26, chaos 56; Harbour City-র PPDA 7.1।",
+  "cites": [
+   "e0574",
+   "e0584"
+  ]
+ }
+}

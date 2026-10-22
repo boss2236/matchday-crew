@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic relance bien le jeu",
+  "text": "Ironvale Athletic récupère le ballon après la passe ratée d'Ivo Petrov, le fait circuler via Owen Lusk, puis Ade Bamidele lance Hiro Tanaka vers l'avant. Ça devient chaud, 0-0 !",
+  "cites": [
+   "e0188",
+   "e0194",
+   "e0195"
+  ]
+ }
+}

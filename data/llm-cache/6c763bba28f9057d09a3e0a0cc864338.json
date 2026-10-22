@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers 动能反转",
+  "text": "Gabe Moreno 的63.1传球被拦截(难度82)后,Ilan Cohen 带球10,再以21.8推进找到 Oscar Blum。动能-27倾向 Northgate Rovers,xG 0.71对1.15,PPDA 8.2。",
+  "cites": [
+   "e1229",
+   "e1242",
+   "e1243"
+  ]
+ }
+}

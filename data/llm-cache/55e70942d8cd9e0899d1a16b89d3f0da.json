@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic gagne 1-0 en contre !",
+  "text": "Coup de sifflet final ! Ironvale Athletic s'impose 1-0 contre Northgate Rovers. Northgate avait le ballon, mais Ironvale a bien défendu, puis frappé vite en contre. Quelle belle leçon de patience !",
+  "cites": [
+   "e1700"
+  ]
+ }
+}

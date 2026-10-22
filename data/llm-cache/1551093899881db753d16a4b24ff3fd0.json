@@ -1,0 +1,16 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers, Oscar Blum'un golüyle Southmere United'ı 1-0 geçti",
+  "text": "Northgate Rovers, 7. dakikada Andres Vega'nın 26.5 km/s'lik taşımasıyla momentum 37'ye çıkardı. 23. dakikada Emre Kaya'nın 30.1 m'lik, zorluğu 48 olan pasında Oscar Blum, 4.3 m'den xG 0.472'lik vuruşu golle bitirdi: 1-0. Southmere United 19. dakikada Rafa Ortega'nın baskı periyoduyla karşılık verdi; PPDA 7.6'ya karşı 8.3 olsa da kırılma sağlayamadı. 65. dakikada Blum'un xG 0.284'lük, 5 m'den şutu auta gitti. Toplam xG Northgate Rovers lehine 1.18'e 0.9 oldu; Southmere United 57'ye 42 son üçüncü bölge girişi yaptı. Maçın adamı 1 gol ve 1.16 xG ile Oscar Blum.",
+  "cites": [
+   "e0116",
+   "e0426",
+   "e0427",
+   "e0428",
+   "e0341",
+   "e1205",
+   "e1784"
+  ]
+ }
+}

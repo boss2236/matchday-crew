@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate 점유율 56%, 모멘텀 -78",
+  "text": "Northgate Rovers는 점유율 56%, 최종 3분의 1 진입 22회, xG 0.44에도 유효슈팅 0. Sven Dahl의 30.1m 패스는 progress -8.5, 난이도 30으로 후방 전개에 그쳤고 Ironvale Athletic xG 0.84가 앞선다.",
+  "cites": [
+   "e0560",
+   "e0546",
+   "e0551"
+  ]
+ }
+}

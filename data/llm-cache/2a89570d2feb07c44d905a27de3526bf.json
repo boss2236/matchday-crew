@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale s'éteint sur un tir à 0.008 xG",
+  "text": "Ironvale Athletic mène 1.76 xG contre 0.47, mais la passe sous pression de Luca Romero sort (difficulté 51, -27.6 de progression). Zeke Mbeki tire hors cadre à 31.5 m pour 0.008 xG ; chaos 69, momentum -28.",
+  "cites": [
+   "e1635",
+   "e1650"
+  ]
+ }
+}

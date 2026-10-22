@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers 连抢三次守住领先",
+  "text": "Ilan Cohen 这次抢断，是 Northgate Rovers 在 120 秒内第三次把球抢回来！Southmere United 的边路传中被一次次掐断，1-0 的领先暂时稳住了。",
+  "cites": [
+   "e1425",
+   "e1441",
+   "e1462"
+  ]
+ }
+}

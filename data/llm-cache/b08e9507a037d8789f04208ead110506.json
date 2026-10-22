@@ -1,0 +1,16 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers s'impose 1-0 face à Southmere United",
+  "text": "Northgate Rovers a gagné 1-0 grâce à Oscar Blum. Dès la 7e minute, Andres Vega lance une conduite de 10.9 m à 26.5 km/h et le momentum monte à 37. À la 23e, Emre Kaya trouve Oscar Blum (passe de 30.1 m, difficulté 48), qui marque d'une frappe à 101.4 km/h pour 0.472 xG. Southmere United réplique par le pressing de Rafa Ortega (3 récupérations en 120 s à la 19e) et mène 57 entrées dans le dernier tiers contre 42. Oscar Blum gâche toutefois une occasion à 0.284 xG à la 65e. Au final, Northgate Rovers domine en xG (1.18 contre 0.9) et en possession (55%), malgré un PPDA de 8.3 contre 7.6. Oscar Blum, 1 but et 1.16 xG, est l'homme du match.",
+  "cites": [
+   "e0116",
+   "e0341",
+   "e0426",
+   "e0427",
+   "e0428",
+   "e1205",
+   "e1784"
+  ]
+ }
+}

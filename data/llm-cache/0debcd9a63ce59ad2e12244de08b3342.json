@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers won't let Southmere breathe",
+  "text": "Northgate Rovers keep snatching the ball back! Kai Nakamura led the charge with a tackle and an interception, and that's 3 steals in two minutes, protecting the 1-0 lead.",
+  "cites": [
+   "e0738",
+   "e0757",
+   "e0765"
+  ]
+ }
+}

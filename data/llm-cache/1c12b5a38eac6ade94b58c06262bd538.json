@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City tourne sans mordant à 3-0",
+  "text": "90+3' : Harbour City enchaîne 5 passes sans pression, mais Leo Marchetti recule (progress -23.9), Jonah Pike -9.4, Sami Okafor -10.5. xG 0.62 contre 1.95, momentum -25 : contrôle stérile.",
+  "cites": [
+   "e1926",
+   "e1928",
+   "e1929",
+   "e1930"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Callum Reid recupera todo para Ironvale Athletic",
+  "text": "¡Qué partido está haciendo Callum Reid! Ironvale Athletic defiende atrás, pero él les quita el balón una y otra vez, y así salen al contraataque. Harbour City tiene más balón, ¡pero el peligro es de Ironvale!",
+  "cites": [
+   "e0201",
+   "e0220",
+   "e0243"
+  ]
+ }
+}

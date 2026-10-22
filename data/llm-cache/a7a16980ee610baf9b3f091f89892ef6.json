@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic récupère le ballon, ça devient dangereux !",
+  "text": "Trois interceptions en 120 secondes pour Ironvale Athletic ! Marco Silvan, Zeke Mbeki puis Ivo Petrov volent le ballon et lancent des contres rapides, même si Harbour City mène encore 2-1.",
+  "cites": [
+   "e1263",
+   "e1276",
+   "e1297"
+  ]
+ }
+}

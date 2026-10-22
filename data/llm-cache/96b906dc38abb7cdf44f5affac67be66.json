@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic、奪って奪って奪い返す!",
+  "text": "Ironvale Athleticが激しいプレスで、ボールを3回も奪い返しました!Northgate Rovers がじっくりパスをつなぐ中、タックルとインターセプトで流れを引き寄せ、カウンターのチャンスをつくっています。",
+  "cites": [
+   "e0564",
+   "e0581",
+   "e0603"
+  ]
+ }
+}

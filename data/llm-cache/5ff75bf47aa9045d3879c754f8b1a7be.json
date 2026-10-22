@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kowalski vollendet mit 0.79 xG zum 3-1",
+  "text": "Mateo Ruiz und Dani Kowalski spielen sich durch den tiefen Block: Pässe mit Schwierigkeit 46, 33 und 48. Kowalski schließt aus 2.5 Metern mit 0.79 xG ab, 3-1, Momentum 60.",
+  "cites": [
+   "e1718",
+   "e1720",
+   "e1722",
+   "e1724"
+  ]
+ }
+}

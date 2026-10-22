@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Mi-temps : Southmere United mène 1-0",
+  "text": "C'est la pause ! Southmere United mène 1-0 face à Harbour City, alors que le ballon a été partagé à parts égales. Leurs tirs cadrés ont fait toute la différence, et la seconde période s'annonce palpitante !",
+  "cites": [
+   "e1016"
+  ]
+ }
+}

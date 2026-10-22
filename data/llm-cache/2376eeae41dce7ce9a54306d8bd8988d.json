@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Reid, Ironvale'in toplarını geri kazanıyor",
+  "text": "Callum Reid topu üç kez geri kazandı: önce müdahale, sonra iki kesme! Ironvale Athletic topa az sahip olsa da, bu top kazanmalar onlara hızlı ve tehlikeli atak fırsatları veriyor.",
+  "cites": [
+   "e0201",
+   "e0220",
+   "e0243"
+  ]
+ }
+}

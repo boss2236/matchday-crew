@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale élève son momentum sans pression",
+  "text": "Ironvale Athletic enchaîne 4 passes complètes sans pression : Callum Reid trouve Luca Romero sur 33.4 de distance, difficulté 50, progression 17.9. Momentum 26, mais la séquence finit en sortie ; xG 0.01.",
+  "cites": [
+   "e0323",
+   "e0324",
+   "e0325",
+   "e0326",
+   "e0327"
+  ]
+ }
+}

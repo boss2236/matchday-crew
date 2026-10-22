@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate control, momentum still balanced",
+  "text": "Northgate lead 1-0 with 59% possession, 0.67 xG to 0.16 and PPDA 8.3. Kai Nakamura's 35.3 distance pass to Oscar Blum, difficulty 61, progressed 33.5, yet momentum is 46, chaos 48.",
+  "cites": [
+   "e0553",
+   "e0556"
+  ]
+ }
+}

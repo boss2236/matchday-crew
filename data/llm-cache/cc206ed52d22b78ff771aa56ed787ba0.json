@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale ritrova la calma dopo l'errore",
+  "text": "Ironvale Athletic conduce 1-0. Il passaggio di Luca Romero per Zeke Mbeki viene intercettato, ma poi Hiro Tanaka si prende il pallone e avanza con due calme conduzioni: la squadra respira e rimette ordine.",
+  "cites": [
+   "e0980",
+   "e0990",
+   "e0991"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic: 3 Ballgewinne in 120 Sekunden",
+  "text": "Ironvale Athletic gewinnt in 120 Sekunden dreimal den Ball (Tackle, 2 Interceptions) gegen Northgate Rovers' Ballbesitz. xG 0.84 zu 0.44, PPDA 8.5, Momentum -11, Chaos 62 bei 1-0: Kontergefahr bleibt.",
+  "cites": [
+   "e0564",
+   "e0581",
+   "e0603"
+  ]
+ }
+}

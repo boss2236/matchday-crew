@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate's pressing spell protects the lead",
+  "text": "Ilan Cohen's interception is Northgate Rovers' 3rd regain in 120 seconds. They lead 1-0 at 78 minutes, with xG 1.18 against Southmere United's 0.38, PPDA 8.7, momentum -39 and chaos 54.",
+  "cites": [
+   "e1425",
+   "e1441",
+   "e1462"
+  ]
+ }
+}

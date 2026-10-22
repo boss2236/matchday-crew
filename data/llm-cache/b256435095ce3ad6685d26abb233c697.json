@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale চাপ কাটিয়ে ঝড় তুলল",
+  "text": "Harbour City চেপে ধরেছিল, কিন্তু Ironvale Athletic পাস দিয়ে বেরিয়ে এল! Owen Lusk-এর লম্বা পাস পৌঁছল Marco Silvan-এর কাছে, আর খেলার হাওয়া পুরো ঘুরে গেল। স্কোর এখনও 0-0।",
+  "cites": [
+   "e0138",
+   "e0139",
+   "e0143"
+  ]
+ }
+}

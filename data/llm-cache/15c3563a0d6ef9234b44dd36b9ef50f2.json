@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-opus-5.5",
+ "output": {
+  "headline": "Ironvale's unpressured build-up tilts momentum",
+  "text": "Ironvale Athletic string four unpressured completions; Callum Reid's 33.4 pass to Luca Romero, difficulty 50, gains 17.9 before Romero's ball goes out. Momentum 26 despite 40 possession, PPDA 11.2.",
+  "cites": [
+   "e0323",
+   "e0324",
+   "e0325",
+   "e0326",
+   "e0327"
+  ]
+ }
+}

@@ -1,0 +1,16 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Oscar Blum aipa Northgate Rovers ushindi wa 1-0",
+  "text": "Mechi ilianza kwa kasi, huku Andres Vega wa Northgate Rovers akikimbia mbele kwa nguvu mapema. Southmere United walijibu kwa kuwabana wapinzani, na Rafa Ortega akawanyang'anya mpira mara kadhaa. Lakini dakika ya 23, Emre Kaya alimpasia Oscar Blum, naye akapiga shuti kali na kufunga bao la kwanza. Hilo ndilo lililoamua mechi. Baada ya hapo, Southmere United walijaribu sana kurudi mchezoni, lakini Northgate Rovers walishikilia mpira kwa subira. Dakika ya 65, Oscar Blum alikaribia kufunga tena, ila shuti lilitoka nje. Mwishoni Northgate Rovers walishinda 1-0. Oscar Blum ndiye nyota wa mchezo, kwa sababu alitumia nafasi yake vizuri wakati timu zote zilikuwa sawa kwa mashuti.",
+  "cites": [
+   "e0116",
+   "e0341",
+   "e0426",
+   "e0427",
+   "e0428",
+   "e1205",
+   "e1784"
+  ]
+ }
+}

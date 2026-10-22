@@ -1,0 +1,15 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "¡Robo de Okafor y golazo de Marchetti!",
+  "text": "Sami Okafor roba el balón, Harbour City lo mueve sin que nadie lo moleste y Leo Marchetti suelta un disparo de 83 km/h. ¡Empate 1-1 en un abrir y cerrar de ojos!",
+  "cites": [
+   "e0991",
+   "e0994",
+   "e0995",
+   "e0996",
+   "e0998",
+   "e0999"
+  ]
+ }
+}

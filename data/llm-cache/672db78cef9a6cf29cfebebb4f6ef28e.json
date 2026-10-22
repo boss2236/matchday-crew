@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City perdem a bola sob pressão",
+  "text": "O Harbour City ganha por 2-1 e tocava a bola com calma, mas o passe de Rui Barros, apertado pelos rivais, foi interceptado. A equipa está a perder o controlo do jogo!",
+  "cites": [
+   "e1451",
+   "e1453"
+  ]
+ }
+}

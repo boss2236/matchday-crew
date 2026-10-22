@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Aziz-এর গোলে হাফ-টাইমের আগেই এগিয়ে Southmere United",
+  "text": "কী সুন্দর ধৈর্য! Southmere United বল ঘুরিয়ে ঘুরিয়ে খেলল, আর Joel Martin-এর পাস পেয়ে একেবারে কাছ থেকে Tariq Aziz বল জালে ঠেলে দিলেন। হাফ-টাইমের ঠিক আগে 1-0!",
+  "cites": [
+   "e1012",
+   "e1013",
+   "e1014"
+  ]
+ }
+}

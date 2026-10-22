@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic、1-0でハーフタイムへ",
+  "text": "前半が終わって、Ironvale Athleticが1-0でリード。ボールを持つ時間はNorthgate Roversのほうが長いのに、守りを固めて素早く攻めるやり方がしっかり実を結んでいます。",
+  "cites": [
+   "e0857"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-opus-5.5",
+ "output": {
+  "headline": "Harbour City surge, but long balls fail",
+  "text": "Momentum 27 for Harbour City, trailing 0-1. Marchetti's 60.3m pass (difficulty 73) was intercepted and Pike's 40m ball went out. xG: 0.16 against Ironvale's 1.63. PPDA 9.1.",
+  "cites": [
+   "e0724",
+   "e0725",
+   "e0734"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Reid frena a Northgate Rovers",
+  "text": "¡Qué trabajo de Callum Reid! Con Ironvale Athletic ganando 1-0, recupera el balón con dos tackles y una intercepción, y corta el juego paciente de Northgate Rovers. ¡Así se cuida la ventaja!",
+  "cites": [
+   "e1414",
+   "e1420",
+   "e1437"
+  ]
+ }
+}

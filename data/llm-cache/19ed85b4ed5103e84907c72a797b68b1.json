@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic 抢断后快攻破门",
+  "text": "Ironvale Athletic 一抢断就反击!Marco Silvan 带球推进,队友们连续传球,最后 Zeke Mbeki 一脚劲射破门,1-0 领先,虽然 Harbour City 控球更多。",
+  "cites": [
+   "e0587",
+   "e0588",
+   "e0597",
+   "e0599",
+   "e0600"
+  ]
+ }
+}

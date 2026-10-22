@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City's unpressured four-event sequence yields 0.113 xG",
+  "text": "Sami Okafor's 37.1m long pass (difficulty 59) starts a 14-second, unpressured chain via Yusuf Demir and Mateo Ruiz. Dani Kowalski shoots from 9.9m for 0.113 xG, saved. Momentum -25, chaos 62.",
+  "cites": [
+   "e0838",
+   "e0840",
+   "e0842",
+   "e0843"
+  ]
+ }
+}

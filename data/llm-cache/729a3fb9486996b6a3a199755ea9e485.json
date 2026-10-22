@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic 低位防守反噬 Northgate",
+  "text": "Ironvale Athletic 在120秒内完成3次抢回,Callum Reid 的拦截收尾。xG 0.84对0.44,PPDA 8.5,动量-11,混乱值62,1-0领先并拆解 Northgate Rovers 的传控。",
+  "cites": [
+   "e0564",
+   "e0581",
+   "e0603"
+  ]
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Aziz boş kaleye yakın golü attı!",
+  "text": "Bruno Costa topu hızla sürdü, ardından üç pas rakip baskısı olmadan Tariq Aziz'e ulaştı. Aziz de kaleye 1.2 metre kala işi bitirdi. Harbour City'nin yüksek baskısı bir türlü yetişemedi!",
+  "cites": [
+   "e1009",
+   "e1010",
+   "e1011",
+   "e1012",
+   "e1013"
+  ]
+ }
+}

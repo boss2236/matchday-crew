@@ -1,15 +1,14 @@
 {
- "model": "openai:openai/gpt-oss-20b",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Ironvale’s Momentum Surge",
-  "text": "At 18:39, a 26‑point momentum swing shows Ironvale’s rapid build‑up, with successive passes from Nico to Callum, Marco, Luca, and a failed attempt to Hiro, driving control into a chaotic 45‑point zone.",
+  "headline": "Ironvale's unpressured build-up tilts momentum",
+  "text": "Ironvale Athletic strung together four unpressured completions, Callum Reid's 33.4 pass to Luca Romero driving progress, before the move ran out. With 40 possession, the deep-block side briefly took control.",
   "tags": [
    "momentum",
-   "control",
-   "chaos"
+   "possession",
+   "control"
   ],
   "cites": [
-   "e0322",
    "e0323",
    "e0324",
    "e0325",

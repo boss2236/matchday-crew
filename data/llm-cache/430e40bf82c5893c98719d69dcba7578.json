@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kowalski conclut une séquence de 14 passes",
+  "text": "Après l'interception de Jonah Pike, 14 passes dont Ruiz→Demir (41.3 m, difficulté 60) puis Demir→Kowalski (difficulté 55). Frappe à 97.9 km/h, 0.06 xG, 13.5 m : 2-1 pour Harbour City.",
+  "cites": [
+   "e1201",
+   "e1220",
+   "e1221",
+   "e1222",
+   "e1223"
+  ]
+ }
+}

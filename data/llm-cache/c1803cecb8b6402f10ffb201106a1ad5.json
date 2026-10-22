@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere squeeze out late regains",
+  "text": "Southmere United, 3-0 up at 90 minutes, won the ball back 3 times in 120 seconds via Joel Martin and Tariq Aziz, on xG 1.95 against 0.62, with momentum at 3.",
+  "cites": [
+   "e1858",
+   "e1889",
+   "e1897"
+  ]
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United がボールを持ち続ける",
+  "text": "Southmere United がパスをつないで、じっくり攻めています。Tariq Aziz は相手に迫られながらも、Dmitri Volkov へ長いパスを通しました。まだ0-0、どちらに転ぶか分からない展開です。",
+  "cites": [
+   "e0142",
+   "e0144"
+  ]
+ }
+}

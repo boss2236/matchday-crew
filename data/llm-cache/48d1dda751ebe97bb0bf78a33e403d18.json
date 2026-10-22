@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kowalski scores 0.06 xG, Harbour City lead 2-1",
+  "text": "After Jonah Pike's interception, Harbour City strung 14 buildUpPasses together; Mateo Ruiz's 41.3m ball (difficulty 60) set up Yusuf Demir, and Dani Kowalski's 97.9 km/h shot from 13.5 scored at 0.06 xG.",
+  "cites": [
+   "e1201",
+   "e1220",
+   "e1221",
+   "e1222",
+   "e1223"
+  ]
+ }
+}

@@ -1,12 +1,12 @@
 {
- "model": "openai:openai/gpt-oss-20b",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Ironvale’s 3‑Regain Pressing Spell",
-  "text": "Callum Reid’s 3‑regain interception burst at 32:48 shifted momentum, tightening control after a 46% possession advantage and 14 interceptions, turning a 1‑0 lead into a more secure stance.",
+  "headline": "Ironvale's deep block bites back",
+  "text": "Ironvale Athletic made 3 regains in 120 seconds, with Callum Reid's interception completing the spell. Momentum sits at -11 and chaos at 62, but the 1-0 leaders are breaking up Northgate's patient possession.",
   "tags": [
    "pressing",
-   "momentum",
-   "control"
+   "chaos",
+   "momentum"
   ],
   "cites": [
    "e0564",

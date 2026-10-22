@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City quase abrem o marcador!",
+  "text": "Que jogada bonita! Sami Okafor lançou, Yusuf Demir, Mateo Ruiz e Dani Kowalski trocaram passes sem ninguém os incomodar, e o remate de Kowalski foi defendido. Ainda 0-0, mas que susto!",
+  "cites": [
+   "e0838",
+   "e0840",
+   "e0842",
+   "e0843"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate sabırlı, ama tehlike henüz yok",
+  "text": "Northgate Rovers 1-0 geride; Oscar Blum'un 0.09 xG'lik şutu kurtarıldı. Kai Nakamura'dan Andres Vega'ya 37.1 m, zorluk 54 pas baskısız geldi. Momentum -26, PPDA 7.2, kaos 54.",
+  "cites": [
+   "e0782",
+   "e0791",
+   "e0793"
+  ]
+ }
+}

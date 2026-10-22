@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic reprend le ballon !",
+  "text": "Ironvale Athletic harcèle Harbour City ! Marco Silvan, Zeke Mbeki puis Ivo Petrov récupèrent le ballon coup sur coup. Même menés 2-1, ils reprennent la main et le match s'enflamme !",
+  "cites": [
+   "e1263",
+   "e1276",
+   "e1297"
+  ]
+ }
+}

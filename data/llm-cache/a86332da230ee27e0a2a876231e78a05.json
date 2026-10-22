@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City keep giving the ball away",
+  "text": "Harbour City are 0-1 down and getting restless. Leo Marchetti's big long pass was picked off, then Jonah Pike's long ball sailed out of play. Ironvale Athletic keep getting the ball back for free.",
+  "cites": [
+   "e0725",
+   "e0734"
+  ]
+ }
+}

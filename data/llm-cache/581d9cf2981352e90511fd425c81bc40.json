@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City salen del apuro y atacan",
+  "text": "Harbour City va ganando 2-1 y, aun presionado, Marchetti da un pase largo hacia atrás para mantener el balón. Después Pike conduce y le da un gran pase a Kowalski. ¡Qué tranquilidad!",
+  "cites": [
+   "e1326",
+   "e1330",
+   "e1331"
+  ]
+ }
+}

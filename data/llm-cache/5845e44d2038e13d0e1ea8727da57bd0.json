@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale يتجاوزون الضغط ويقلبون المباراة",
+  "text": "بعد تمريرة Ade Bamidele تحت الضغط، مرّر Owen Lusk كرة بطول 56.1 متر إلى Marco Silvan (تقدّم 51.4، صعوبة 87). ست تمريرات ناجحة دفعت الزخم إلى -52 عند 0-0، وxG لـIronvale 0.89 مقابل 0.04.",
+  "cites": [
+   "e0138",
+   "e0139",
+   "e0143"
+  ]
+ }
+}

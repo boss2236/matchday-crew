@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Dani Kowalski'den sabırlı golün finali!",
+  "text": "Harbour City topu kapınca sabırla pas pas oynadı, Yusuf Demir'in ortasında Dani Kowalski şimdiye kadar pek şans verilmeyen vuruşu çaktı ve skor 2-1 oldu!",
+  "cites": [
+   "e1201",
+   "e1220",
+   "e1221",
+   "e1222",
+   "e1223"
+  ]
+ }
+}

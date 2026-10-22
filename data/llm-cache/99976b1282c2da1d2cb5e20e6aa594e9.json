@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City perdono il pallone sotto pressione",
+  "text": "Harbour City sono avanti 2-1 e giocano con calma, ma Mateo Ruiz passa il pallone indietro e Rui Barros, pressato, si fa intercettare il passaggio. Occhio: il controllo sta scivolando via!",
+  "cites": [
+   "e1451",
+   "e1453"
+  ]
+ }
+}

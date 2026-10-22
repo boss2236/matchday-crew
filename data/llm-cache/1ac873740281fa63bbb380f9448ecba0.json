@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Reid klaut Ironvale immer wieder den Ball",
+  "text": "Callum Reid schnappt sich den Ball gleich 3 Mal – per Tackling und Abfangen! Ironvale Athletic hat zwar weniger Ballbesitz, aber nach diesen Ballgewinnen wird's vorne richtig gefährlich. Stark!",
+  "cites": [
+   "e0201",
+   "e0220",
+   "e0243"
+  ]
+ }
+}

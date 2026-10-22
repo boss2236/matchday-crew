@@ -1,0 +1,15 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Dani Kowalski, triplé et Harbour City s'impose",
+  "text": "Quel match, mes amis ! Ironvale Athletic a pris les devants à la 30e minute : Zeke Mbeki a conclu une belle construction, sur une passe de Luca Romero, pour le 0-1. Mais Harbour City n'a rien lâché. Dès la 49e minute, Leo Marchetti a égalisé d'une frappe de loin, 1-1. Ensuite, la pression de Harbour City a fait la différence : Dani Kowalski a marqué à la 62e minute, puis à la 81e, pour le 3-1. Il a même ajouté un quatrième but, tout près de la ligne, à la 90e minute. Résultat final : 4-1. Dani Kowalski est le héros du soir avec 3 buts, car Harbour City a su profiter de chaque occasion.",
+  "cites": [
+   "e0600",
+   "e0999",
+   "e1223",
+   "e1552",
+   "e1725",
+   "e1727"
+  ]
+ }
+}

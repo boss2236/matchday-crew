@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers가 공을 차분히 지배 중",
+  "text": "Northgate Rovers가 1-0으로 앞서 있어요! Kai Nakamura가 Oscar Blum에게 앞으로 길게 찔러 주며 공을 편안하게 돌리고 있지만, 경기 흐름은 아직 팽팽해서 방심은 금물이에요.",
+  "cites": [
+   "e0553",
+   "e0556"
+  ]
+ }
+}

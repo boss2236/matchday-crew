@@ -1,12 +1,12 @@
 {
- "model": "openai:openai/gpt-oss-20b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Half‑time: Southmere leads",
-  "text": "Southmere United's 1‑0 advantage at 45+4’ shows control in the final third, with 34 entries versus Harbour City's 28, despite equal possession.",
+  "headline": "Southmere lead 1-0 despite even possession",
+  "text": "Possession is level at 50% each, yet Southmere's xg of 1.64 against 0.39 explains the 1-0 half-time lead. Harbour City press harder (ppda 6.8), but Southmere's 3 shots on target made the difference.",
   "tags": [
    "control",
-   "momentum",
-   "possession"
+   "finishing",
+   "chance"
   ],
   "cites": [
    "e1016"

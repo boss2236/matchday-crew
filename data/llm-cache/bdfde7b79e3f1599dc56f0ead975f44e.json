@@ -1,8 +1,8 @@
 {
- "model": "openai:openai/gpt-oss-120b",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Harbour City’s Press Sparks Momentum Shift",
-  "text": "After three successive possession gains—tackles by Dani Kowalski (e1562) and Arjun Mehta (e1579) and an interception by Yusuf Demir (e1587)—Harbour City’s high‑press reclaimed the ball three times in 120 seconds, boosting momentum to 71 and tightening control.",
+  "headline": "Harbour City's press still biting late",
+  "text": "Harbour City won the ball back 3 times in 120 seconds: tackles from Dani Kowalski and Arjun Mehta, then a Yusuf Demir interception. Leading 3-1 with momentum at 71, their high press keeps Ironvale Athletic penned in.",
   "tags": [
    "pressing",
    "momentum",

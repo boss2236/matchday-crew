@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale'den 120 saniyede 3 top kazanımı",
+  "text": "Ironvale Athletic 120 saniyede 3 kez topu kazandı: 1 tackle, 2 interception. Skor 1-0, xG 0.84'e karşı 0.44; kaos 62. Northgate Rovers'ın sabırlı oyununa karşı kontra tehdidi sürüyor.",
+  "cites": [
+   "e0564",
+   "e0581",
+   "e0603"
+  ]
+ }
+}

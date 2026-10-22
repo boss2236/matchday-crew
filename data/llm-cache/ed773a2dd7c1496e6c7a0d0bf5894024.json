@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale schlägt die langen Bälle",
+  "text": "Ironvale Athletic probiert es mit langen Pässen nach vorn. Erst fängt der Gegner einen ab, dann findet Hiro Tanaka Zeke Mbeki. Sein Schuss geht leider knapp daneben, aber es wird wild!",
+  "cites": [
+   "e1059",
+   "e1067",
+   "e1068"
+  ]
+ }
+}

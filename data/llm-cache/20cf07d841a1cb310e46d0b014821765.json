@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere spielen nur noch rückwärts",
+  "text": "Southmere United haben den Ball, aber es wird hektisch. Rafa Ortegas langer Pass auf Kwame Mensah wurde abgefangen, danach ging es zweimal zurück. Harbour City drückt vorne mächtig an. Es steht 0-0.",
+  "cites": [
+   "e0355",
+   "e0362",
+   "e0363"
+  ]
+ }
+}

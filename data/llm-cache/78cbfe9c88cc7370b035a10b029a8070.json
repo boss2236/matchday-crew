@@ -1,12 +1,12 @@
 {
- "model": "openai:openai/gpt-oss-120b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Southmere’s Pressing Surge Shifts Control",
-  "text": "Rafa Ortega’s three regains in a 120‑second window (e0887, e0897, e0907) illustrate a decisive pressing spell that curbs Northgate’s momentum (-42) and raises chaos (61), turning the match’s control in Southmere’s favor.",
+  "headline": "Ortega's pressing spell flips the tempo",
+  "text": "Rafa Ortega wins the ball three times in 120 seconds, via two interceptions and a tackle, as Southmere United chase a 1-0 deficit. With chaos at 61 and momentum at -42, that pressure keeps Northgate Rovers' patient possession off balance.",
   "tags": [
    "pressing",
-   "control",
-   "momentum"
+   "momentum",
+   "chaos"
   ],
   "cites": [
    "e0887",

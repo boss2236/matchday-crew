@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic geride durup kazandı!",
+  "text": "Maç bitti! Northgate Rovers topu daha çok tuttu ama Ironvale Athletic, hızlı kontralarla daha tehlikeli şanslar buldu. Sonuç 1-0. Kısacası top sizde olsa da önemli olan işi bitirmek!",
+  "cites": [
+   "e1700"
+  ]
+ }
+}

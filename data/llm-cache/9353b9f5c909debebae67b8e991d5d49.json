@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale recuperan tres veces en 120 segundos",
+  "text": "Tres intercepciones de Ironvale Athletic en 120 segundos, la última de Zeke Mbeki, rompen la posesión de Northgate Rovers. Con 1-0, su xG de 1.14 frente a 0.68 vuelve peligrosos sus contraataques directos.",
+  "cites": [
+   "e0900",
+   "e0928",
+   "e0935"
+  ]
+ }
+}

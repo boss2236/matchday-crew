@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale punissent le pressing de Harbour City",
+  "text": "Interception de Marco Silvan, puis 7 passes sans pression, dont Luca Romero (difficulté 53, 31.7 m). Zeke Mbeki conclut à 96.1 km/h, xG 0.188. Ironvale Athletic mène 0-1, xG 1.15 contre 0.16.",
+  "cites": [
+   "e0587",
+   "e0597",
+   "e0599",
+   "e0600"
+  ]
+ }
+}

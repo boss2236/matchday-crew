@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City drückt weiter nach vorn",
+  "text": "Harbour City holt sich den Ball immer wieder zurück: erst Tackles von Dani Kowalski und Arjun Mehta, dann fängt Yusuf Demir einen Pass ab. Ironvale Athletic kommt kaum aus der eigenen Hälfte, bei 3-1.",
+  "cites": [
+   "e1562",
+   "e1579",
+   "e1587"
+  ]
+ }
+}

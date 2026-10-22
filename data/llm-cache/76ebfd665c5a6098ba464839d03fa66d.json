@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-opus-5.5",
+ "output": {
+  "headline": "Northgate Rovers swing momentum despite trailing 1-0",
+  "text": "Momentum -27 toward Northgate Rovers. Gabe Moreno's 63.1 pass, difficulty 82, intercepted; Ilan Cohen carried 10, found Oscar Blum, 21.8 progress. Ironvale Athletic sit deep: xG 1.15 vs 0.71, PPDA 9.5.",
+  "cites": [
+   "e1229",
+   "e1242",
+   "e1243"
+  ]
+ }
+}

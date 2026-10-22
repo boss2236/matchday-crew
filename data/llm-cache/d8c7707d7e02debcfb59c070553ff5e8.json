@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate 점유 우위, 모멘텀은 균형",
+  "text": "Northgate Rovers가 1-0 리드, xG 0.67 대 0.16, 점유율 59%. Kai Nakamura의 Oscar Blum 전진 패스는 거리 35.3, 난이도 61. 모멘텀 46, PPDA 8.3.",
+  "cites": [
+   "e0553",
+   "e0556"
+  ]
+ }
+}

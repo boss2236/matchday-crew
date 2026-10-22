@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Aziz marca no fim da primeira parte!",
+  "text": "Que jogada paciente do Southmere United! Passe a passe, a bola chegou a Tariq Aziz, que só teve de empurrar para a baliza mesmo em cima do intervalo. É 1-0!",
+  "cites": [
+   "e1012",
+   "e1013",
+   "e1014"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United, 공을 차분히 돌린다",
+  "text": "Southmere United가 공을 오래 가지고 있어요. Alfie Grant부터 Liam Doyle, Joel Martin을 거쳐 Tariq Aziz까지 패스가 쭉 이어졌고, 아직 0-0이라 어느 쪽으로 흐를지 몰라요!",
+  "cites": [
+   "e0138",
+   "e0139",
+   "e0142"
+  ]
+ }
+}

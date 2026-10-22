@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City estão a perder a bola",
+  "text": "O Harbour City perde por 0-1 e está a lançar bolas longas demais. O passe de Leo Marchetti foi cortado e o de Jonah Pike saiu pela linha, entregando a bola ao Ironvale Athletic.",
+  "cites": [
+   "e0725",
+   "e0734"
+  ]
+ }
+}

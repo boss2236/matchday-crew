@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "¡Gol de Zeke Mbeki tras robo de Marco Silvan!",
+  "text": "Marco Silvan robó el balón y Ironvale Athletic tocó sin que nadie los molestara. Luca Romero dio el pase final y Zeke Mbeki marcó a 96.1 km/h. ¡Ironvale gana 0-1!",
+  "cites": [
+   "e0587",
+   "e0591",
+   "e0597",
+   "e0599",
+   "e0600"
+  ]
+ }
+}

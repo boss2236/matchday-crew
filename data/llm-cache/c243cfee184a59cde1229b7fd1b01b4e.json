@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kowalski afunga, Harbour City mbele 2-1!",
+  "text": "Harbour City waliiba mpira, wakapigiana pasi nyingi kwa subira, kisha Yusuf Demir akampa Dani Kowalski. Akapiga shuti kali sana, mpira ukatinga wavuni! Harbour City sasa wanaongoza 2-1.",
+  "cites": [
+   "e1201",
+   "e1220",
+   "e1221",
+   "e1222",
+   "e1223"
+  ]
+ }
+}

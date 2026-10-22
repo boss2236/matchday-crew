@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City sakin kaldı, sonra hücuma çıktı",
+  "text": "Harbour City 2-1 öndeyken baskı altında bile topu kaybetmedi. Jonah Pike topla koştu, ardından Dani Kowalski'ye ileri doğru güzel bir pas attı ve takım hızla atağa döndü.",
+  "cites": [
+   "e1326",
+   "e1330",
+   "e1331"
+  ]
+ }
+}

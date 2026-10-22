@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City'de akış kaotikleşti",
+  "text": "0-0'da Harbour City'nin uzun paslarından biri 55.6 mesafede kesildi; kaos 64, momentum -27. Mateo Ruiz'in baskı altındaki 26.9 pası 22 ilerleme sağladı, ardından Yusuf Demir'e 34.6 top ulaştı.",
+  "cites": [
+   "e0671",
+   "e0672",
+   "e0679"
+  ]
+ }
+}

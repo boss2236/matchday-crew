@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic dreht den Druck um",
+  "text": "Was für ein Zwischenspurt! Hiro Tanaka und Callum Reid holen Ironvale Athletic in 120 Sekunden den Ball zurück. Die Führung steht, und jetzt lauern schnelle Konter gegen Northgate Rovers.",
+  "cites": [
+   "e1341",
+   "e1356",
+   "e1363"
+  ]
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-opus-5.5",
+ "output": {
+  "headline": "Ironvale's late push fizzles at 3-1",
+  "text": "Luca Romero's pressured 32.8m pass (difficulty 51) runs out. Zeke Mbeki then shoots off target from 31.5 for 0.008 xG. Momentum -28, chaos 69, Ironvale 1.76 xG.",
+  "cites": [
+   "e1635",
+   "e1650"
+  ]
+ }
+}

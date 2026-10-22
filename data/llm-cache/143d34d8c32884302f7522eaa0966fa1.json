@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City verliert Momentum trotz Passkette",
+  "text": "Harbour City startet in der 12. Minute mit Elias Brandts 38.5-m-Pass (progress 37.6, difficulty 61), dann folgen Rückpässe (-21.2, -30.2). Momentum -25, chaos 58, 0-0; Southmere United führt xG 0.68 zu 0.27.",
+  "cites": [
+   "e0255",
+   "e0259",
+   "e0260"
+  ]
+ }
+}

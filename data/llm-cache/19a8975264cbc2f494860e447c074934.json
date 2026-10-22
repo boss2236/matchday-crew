@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United가 공을 계속 되찾는다",
+  "text": "경기 막판, Southmere United가 Joel Martin과 Tariq Aziz의 가로채기로 공을 3번이나 되찾았어요. Harbour City는 따라잡을 기회를 좀처럼 잡지 못합니다!",
+  "cites": [
+   "e1858",
+   "e1889",
+   "e1897"
+  ]
+ }
+}

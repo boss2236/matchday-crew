@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere's interceptions strangle Harbour City's build-up",
+  "text": "Three interceptions in 120 seconds, via Tariq Aziz, Rafa Ortega and Joel Martin, keep Southmere United 2-0 up in minute 87. xG 1.85 against 0.62, momentum 5, PPDA 8.",
+  "cites": [
+   "e1818",
+   "e1838",
+   "e1847"
+  ]
+ }
+}

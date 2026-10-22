@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "ブルーノ・コスタから始まった見事な一撃",
+  "text": "Bruno Costaが一気に駆け上がり、相手に邪魔されないままパスが3本つながって、Tariq Azizが目の前でゴール！Harbour Cityは追いつけませんでした。前半終了間際の大きな一発です。",
+  "cites": [
+   "e1009",
+   "e1010",
+   "e1011",
+   "e1012",
+   "e1013"
+  ]
+ }
+}

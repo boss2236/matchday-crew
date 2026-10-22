@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate keep the ball, still chasing",
+  "text": "Northgate Rovers are 1-0 down but staying calm, passing it around between Ilan Cohen, Kai Nakamura and Andres Vega with nobody close to them. Oscar Blum's shot was saved, so they're still hunting a way through.",
+  "cites": [
+   "e0782",
+   "e0789",
+   "e0791",
+   "e0793"
+  ]
+ }
+}

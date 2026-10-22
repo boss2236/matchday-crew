@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City's long passes keep getting intercepted",
+  "text": "At 1-1, Harbour City's long passes were intercepted three times: 33.6 distance at 56 difficulty, 43.2 at 55, 30.3 at 42. Ironvale lead xG 1.68 to 0.35; momentum 35, chaos 55.",
+  "cites": [
+   "e1111",
+   "e1118",
+   "e1128"
+  ]
+ }
+}

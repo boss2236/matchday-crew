@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale punit Northgate en 1 passe",
+  "text": "Sur une touche, Ivo Petrov sert Zeke Mbeki à 38.2 de distance (difficulté 53, sans pression) : tir à 2, xG 0.829, but. Ironvale Athletic mène 1-0 avec 45 de possession, momentum 13.",
+  "cites": [
+   "e0480",
+   "e0481",
+   "e0484",
+   "e0485"
+  ]
+ }
+}

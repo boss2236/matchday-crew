@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale ci prova con lanci lunghi",
+  "text": "Ironvale non ha paura di buttarla avanti! Il lancio di Ivo Petrov viene intercettato, ma Hiro Tanaka trova Zeke Mbeki con un passaggio lunghissimo. Il tiro però finisce fuori, che peccato!",
+  "cites": [
+   "e1059",
+   "e1067",
+   "e1068"
+  ]
+ }
+}

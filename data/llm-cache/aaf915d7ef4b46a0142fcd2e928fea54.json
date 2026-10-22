@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic tekan Northgate Rovers",
+  "text": "Ironvale Athletic unggul 1-0, merebut bola 3 kali dalam 120 detik: Callum Reid dan Hiro Tanaka intersep, lalu Tanaka tekel. xG 1.15 berbanding 0.86, PPDA 8.7, momentum 5.",
+  "cites": [
+   "e1341",
+   "e1356",
+   "e1363"
+  ]
+ }
+}

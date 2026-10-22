@@ -1,0 +1,15 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale kontrayla Harbour City'yi yakaladı",
+  "text": "Marco Silvan topu kapıp iki kez koşturdu, takım arkadaşlarıyla pas pas ilerledi ve Zeke Mbeki 96.1 km/h'lik şutla golü attı. Harbour City topa daha çok sahip olsa da Ironvale öne geçti!",
+  "cites": [
+   "e0587",
+   "e0588",
+   "e0590",
+   "e0597",
+   "e0599",
+   "e0600"
+  ]
+ }
+}

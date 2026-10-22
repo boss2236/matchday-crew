@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City nehmen das Tempo raus",
+  "text": "Harbour City lassen den Ball ruhig laufen, mehrere Pässe gehen sogar zurück. Bei 2-1 in der 80. Minute wollen sie die Führung sicher nach Hause spielen, ohne Risiko.",
+  "cites": [
+   "e1528",
+   "e1531",
+   "e1532"
+  ]
+ }
+}

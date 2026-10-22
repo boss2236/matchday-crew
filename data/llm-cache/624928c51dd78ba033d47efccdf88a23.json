@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "¡Gol de Tariq Aziz en un suspiro!",
+  "text": "Bruno Costa arrancó a toda velocidad y Southmere United pasó el balón tres veces sin que nadie los molestara. Tariq Aziz remató casi bajo el arco y marcó. ¡Harbour City no llegó a tiempo!",
+  "cites": [
+   "e1009",
+   "e1010",
+   "e1011",
+   "e1012",
+   "e1013"
+  ]
+ }
+}

@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "¡Harbour City ataca en 14 segundos!",
+  "text": "¡Qué jugada de Harbour City! Sami Okafor lanza largo, Yusuf Demir, Mateo Ruiz y Dani Kowalski combinan sin que nadie los moleste, y el remate de Kowalski lo para el portero. Sigue 0-0.",
+  "cites": [
+   "e0838",
+   "e0840",
+   "e0842",
+   "e0843"
+  ]
+ }
+}

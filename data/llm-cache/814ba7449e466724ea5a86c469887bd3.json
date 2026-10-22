@@ -1,0 +1,16 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City 4-1 Ironvale Athletic: Kowalski hat-trick",
+  "text": "Ironvale Athletic の Zeke Mbeki は2分に xG 0.876 の決定機をブロックされたが、30分に xG 0.188 のシュートを決めて0-1とした。前半の xG は Ironvale Athletic が優勢だった。49分に Leo Marchetti が xG 0.024 の15.2mからの一撃で1-1とし、流れが変わった。62分には Yusuf Demir のパスから Dani Kowalski が xG 0.06 で2-1、81分に xG 0.057 で3-1、90+1分に xG 0.79 で4-1とした。試合全体の xG は Harbour City 1.26、Ironvale Athletic 1.76 で、勝敗は決定力の差だった。Harbour City の PPDA は8.5、Ironvale Athletic は10.3。最終 momentum は75。Dani Kowalski が3ゴールで最優秀選手。",
+  "cites": [
+   "e0041",
+   "e0599",
+   "e0998",
+   "e1222",
+   "e1551",
+   "e1724",
+   "e1727"
+  ]
+ }
+}

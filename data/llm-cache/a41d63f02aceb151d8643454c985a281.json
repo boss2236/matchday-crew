@@ -1,0 +1,15 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kowalski firma il 2-1 dopo un'azione infinita",
+  "text": "Che azione! Jonah Pike ruba palla, poi l'Harbour City si passa il pallone con pazienza, finché Mateo Ruiz e Yusuf Demir cambiano marcia. Dani Kowalski tira forte e segna: 2-1!",
+  "cites": [
+   "e1201",
+   "e1207",
+   "e1220",
+   "e1221",
+   "e1222",
+   "e1223"
+  ]
+ }
+}

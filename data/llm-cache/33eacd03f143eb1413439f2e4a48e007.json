@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United、後退パスで押し込まれる",
+  "text": "64分、Southmere Unitedのパスはe1364で進行-45.1、e1367で-22.8と後退し、e1369は難易度36の被プレス下でアウト。2-0でもモメンタム35、カオス52。Harbour CityのPPDAは7.3。",
+  "cites": [
+   "e1364",
+   "e1367",
+   "e1369"
+  ]
+ }
+}

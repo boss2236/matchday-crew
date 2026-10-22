@@ -1,0 +1,16 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Zeke Mbeki의 골로 Ironvale Athletic 1-0 승리",
+  "text": "Ironvale Athletic이 Northgate Rovers를 1-0으로 꺾었어요! 경기 초반에는 Northgate Rovers가 공을 더 오래 잡고 차분하게 경기를 풀어갔어요. 그래도 26분에 Oscar Blum의 슛이 막히며 아쉽게 기회를 놓쳤죠. 바로 다음 순간, Ironvale Athletic의 Zeke Mbeki가 골문 바로 앞에서 침착하게 공을 밀어 넣어 결승골을 터뜨렸어요. 이후 Ironvale Athletic은 수비를 단단히 하고, 공을 빼앗자마자 빠르게 치고 나가는 작전을 이어갔어요. Callum Reid와 Hiro Tanaka가 공을 여러 번 되찾아 와서 Northgate Rovers의 공격을 끊었답니다. 결국 한 골 차를 끝까지 지켜냈어요. 오늘의 주인공은 단연 골을 넣은 Zeke Mbeki였어요!",
+  "cites": [
+   "e0461",
+   "e0484",
+   "e0485",
+   "e0603",
+   "e1363",
+   "e1437",
+   "e1700"
+  ]
+ }
+}

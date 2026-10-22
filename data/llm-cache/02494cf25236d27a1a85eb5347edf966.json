@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City font tourner le ballon",
+  "text": "Harbour City mène 2-1 et ne prend aucun risque : Leo Marchetti et Mateo Ruiz se passent le ballon tranquillement, parfois vers l'arrière, pour calmer le jeu et garder l'avantage.",
+  "cites": [
+   "e1528",
+   "e1531",
+   "e1532"
+  ]
+ }
+}

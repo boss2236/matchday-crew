@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City控球占优，动量下滑",
+  "text": "Harbour City 0-2落后，控球51%但xG仅0.57对1.81。Leo Marchetti传给Yusuf Demir的57.2距离、难度78长传出界，动量-35，混乱值59，PPDA 7.3。",
+  "cites": [
+   "e1583",
+   "e1578"
+  ]
+ }
+}

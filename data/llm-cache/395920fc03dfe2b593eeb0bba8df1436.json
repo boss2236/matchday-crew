@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City's press ends Southmere's move",
+  "text": "Southmere were passing nicely, but once Rafa Ortega and Bruno Costa had Harbour City's players closing in, Costa's ball towards Tariq Aziz sailed out of play. That high press is really biting now!",
+  "cites": [
+   "e1177",
+   "e1179"
+  ]
+ }
+}

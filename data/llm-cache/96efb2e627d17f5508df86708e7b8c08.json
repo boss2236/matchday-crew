@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate의 패스가 끊겼어요!",
+  "text": "Northgate Rovers가 공을 오래 돌리며 경기를 끌고 가는 중이었는데요, Kai Nakamura가 Oscar Blum에게 보낸 앞쪽 패스가 가로채졌어요. 아직 0-0이라 승부는 이제부터예요!",
+  "cites": [
+   "e0099"
+  ]
+ }
+}

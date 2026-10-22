@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United won't let Northgate settle",
+  "text": "Southmere United are swarming Northgate Rovers! Tariq Aziz and Joel Martin keep stealing the ball, 3 times in two minutes, so Northgate can't relax and play their patient game while trailing 1-0.",
+  "cites": [
+   "e1251",
+   "e1261",
+   "e1272"
+  ]
+ }
+}

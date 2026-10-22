@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate domine, mais Nakamura se fait intercepter",
+  "text": "Northgate Rovers : 70 de possession, 88 de précision, PPDA 4.8, xG 0. Passe de Kai Nakamura vers Oscar Blum, 23 m, difficulté 48, interceptée. 0-0, momentum -65.",
+  "cites": [
+   "e0099",
+   "e0098",
+   "e0097"
+  ]
+ }
+}

@@ -1,0 +1,16 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Oscar Blum afungia Northgate bao la kwanza!",
+  "text": "Gabe Moreno alipiga pasi ndefu ya kustaajabisha kwa Emre Kaya, naye akakimbia na mpira mbele ya mabeki. Kisha Oscar Blum akamalizia bila kusumbuliwa. Northgate Rovers wanaongoza 1-0!",
+  "cites": [
+   "e0422",
+   "e0423",
+   "e0424",
+   "e0425",
+   "e0426",
+   "e0427",
+   "e0428"
+  ]
+ }
+}

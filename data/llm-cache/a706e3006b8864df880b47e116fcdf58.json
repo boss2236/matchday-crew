@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United 高位反抢守住2-0",
+  "text": "Southmere United 在120秒内完成3次抢回,含两次抢断及 Liam Doyle 在67:31的拦截。xG 1.81对0.57,PPDA 7.7,chaos 75,助其稳守2-0。",
+  "cites": [
+   "e1408",
+   "e1414",
+   "e1445"
+  ]
+ }
+}

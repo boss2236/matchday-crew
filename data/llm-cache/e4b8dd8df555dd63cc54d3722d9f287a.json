@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic 连续抢断压制对手",
+  "text": "Ironvale Athletic 在120秒内完成3次抢断,最后一次由 Zeke Mbeki 完成,打乱 Northgate Rovers 的控球节奏。比分1-0,xG 1.14对0.68,反击威胁明显。",
+  "cites": [
+   "e0900",
+   "e0928",
+   "e0935"
+  ]
+ }
+}

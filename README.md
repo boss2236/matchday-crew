@@ -20,6 +20,16 @@ Built for the Microsoft x Premier League **Inside the Game** developer hackathon
 |---|---|
 | ![Momentum swing chart](docs/images/chart-momentum.png) | ![Share donut in the light theme](docs/images/chart-share.png) |
 
+**Watch it your way.** The same live match, the same crew, three ways to see it: the tactics board above, animated players, or a 3D stadium.
+
+| 3D: a goal, and the cut to the celebration | 3D: follow camera |
+|---|---|
+| ![3D view: teammates mob the scorer by the goal, with the crew's GOAL graphic](docs/images/3d-goal.jpg) | ![3D view: low camera behind the attack](docs/images/3d-follow.jpg) |
+
+| Players: the same goal in 2D | 3D in the app, with the camera picker |
+|---|---|
+| ![Players view: the scorer's team celebrates](docs/images/players-2d.jpg) | ![The app on its 3D tab, with Broadcast, Tactical and Follow cameras](docs/images/app-3d-tab.jpg) |
+
 ## What it does
 
 The hackathon asks for one pipeline with five stages. Here is where each one lives:
@@ -52,11 +62,12 @@ How reliable is it? [docs/QUALITY.md](docs/QUALITY.md) measures it: share of lin
 ### In the app
 
 - **Players on the pitch**: everyone involved in recent play with shirt numbers in club colours, the ball at its carrier's feet with a name tag, the followed player ringed.
+- **Players view**: switch the tactics board to a broadcast-style camera over 22 animated players in club kits. The feed only places the players involved in each action; everyone else moves as a team, holding a 4-3-3 shape that slides with the ball, pressing out of possession. Passes and shots are kicked, keepers dive for saves, and a goal zooms in on the scorer as the net bulges and the team piles on, held on screen at any replay speed. A **3D** tab draws the same players in a floodlit three.js stadium with shadows and three cameras (broadcast, tactical, follow), cutting to a close-up of the scorer's celebration after a goal (loaded only when picked). Real time or 3× looks most natural; `?view=players` or `?view=3d` opens on them.
 - **Analyst / casual fan** switch on the same live match, **16 languages**, favourite club, **player focus** and **follow-a-metric** modes.
 - **Match charts** you can shape: a trend line for any stat (xG, shots, passes, possession, pass accuracy, tackles...), a momentum swing chart, a share donut and a minute-by-minute table, with hover read-outs. Club colours are checked to stay distinguishable with colour-blindness, in light and dark themes.
 - **Built for phones too**: on a small screen the setup folds into a one-line summary once the match starts, and the crew's lines come straight after the pitch.
 - **Voice commentary**: every line read aloud with Azure AI Speech neural voices (browser voice when no key is set).
-- **Broadcast view** (`/studio`): what a viewer at home sees: the live match full-screen with a scorebug and the crew's graphics, no controls. `voice=1` reads lines aloud. For broadcast software, `bg=transparent` keeps only the graphics (to layer in OBS or vMix over a video whose events come from the same data feed) and `bg=green` puts them on chroma green. The lines describe the synthetic match: the crew reads an event feed, it does not watch video.
+- **Broadcast view** (`/studio`): what a viewer at home sees: the live match full-screen with a scorebug and the crew's graphics, no controls. `voice=1` reads lines aloud. `from=29` starts live from minute 29 (the match before it is caught up at once), handy for demos. For broadcast software, `bg=transparent` keeps only the graphics (to layer in OBS or vMix over a video whose events come from the same data feed) and `bg=green` puts them on chroma green. `bg=players` (or `bg=3d`, with `cam=tactical` or `cam=follow` for another 3D camera) shows the animated players instead of the tactics board. The lines describe the synthetic match: the crew reads an event feed, it does not watch video.
 - **First-visit tour**: new visitors are offered an interactive Fluent teaching-popover tour (or skip it); replay it any time from the header.
 - **Evidence** under every line, and a live agent trace.
 
@@ -85,6 +96,7 @@ flowchart LR
 | **Azure AI Content Safety** | Safety agent: every model-written line is screened before it airs |
 | **Azure Application Insights** | Requests, every model and Azure AI call, a summary per match session, and errors (`src/telemetry.ts`, no SDK) |
 | **Azure Container Apps** | Hosting: scale to zero, keys as secrets, health probes (`infra/deploy.sh`) |
+| **GitHub Copilot (Copilot SDK)** | Model provider for pre-generation: every line the app ships was written through it (Claude Sonnet 5.5 for all 16 languages, Claude Opus 5.5 for the demo matches), and a GPT model through it independently reviews the crew's lines ([docs/REVIEW.md](docs/REVIEW.md)) |
 | **Microsoft Foundry** | Compatible model provider: set three values and it is used first. Request format covered by contract tests |
 | **GitHub Actions** | Type-check, tests on Node 22 and 24, web build, container build and smoke test, headless UI check, image publish |
 | **GitHub Container Registry** | Free image hosting for the Azure deploy |
@@ -99,7 +111,7 @@ Needs Node 22.18 or newer.
 npm install          # TypeScript compiler (dev only; the server has no runtime dependencies)
 npm run build        # build the Fluent UI app into web/dist
 npm start            # http://localhost:3000
-npm run check        # strict type-check of server and web app, then 57 tests
+npm run check        # strict type-check of server and web app, then 65 tests
 ```
 
 Pick a match, language, favourite club, player and a metric to follow, press **Kick off**, and switch between **Analyst** and **Casual fan** at any time. Deep links work for demos, e.g. `/?match=0&speed=60&language=Arabic&club=harbour&player=harbour-9&metric=xg&persona=casual&autostart=1`.
@@ -115,14 +127,14 @@ Copy `.env.example` to `.env` and fill in one provider:
 | Provider | Settings | Notes |
 |---|---|---|
 | Microsoft Foundry | `FOUNDRY_ENDPOINT`, `FOUNDRY_DEPLOYMENT`, `FOUNDRY_API_KEY` | Azure OpenAI compatible deployment, e.g. gpt-4o-mini. Used first when set |
-| GitHub Copilot (Copilot SDK) | `LLM_PROVIDER=copilot`, optional `COPILOT_MODEL` | Your Copilot plan, for pre-generating lines; `npm install @github/copilot-sdk` once, `node scripts/copilot-check.ts` to test. Tool use is always refused. Tested with gpt-5-mini |
+| GitHub Copilot (Copilot SDK) | `LLM_PROVIDER=copilot`, optional `COPILOT_MODEL` | Your Copilot plan, for pre-generating lines; `npm install @github/copilot-sdk` once, `node scripts/copilot-check.ts` to test. Tool use is always refused. Wrote the shipped cache with claude-sonnet-5.5 and claude-opus-5.5 |
 | Groq (free tier) | `LLM_BASE_URL`, `LLM_MODEL`, `LLM_API_KEY` | Tested end to end with `openai/gpt-oss-120b` |
 | Google Gemini, Ollama, any OpenAI-compatible API | same `LLM_*` settings | Gemini's free tier allows only 20 requests a day |
 | Azure AI Translator | `AZURE_TRANSLATOR_KEY`, `AZURE_TRANSLATOR_REGION` | Free F0 tier; tested live |
 
 Reasoning models (gpt-oss, Gemini) need `LLM_REASONING_EFFORT=low` and `LLM_MAX_TOKENS=1500`. Free tiers rate-limit; the client waits as long as the server asks and retries, and backs off on dropped connections.
 
-**Response cache.** Matches are seeded, so the same match for the same audience sends the same prompts. Answers are cached on disk by prompt hash, which makes replays instant and free, keeps the hosted demo inside free quotas, and lets the app serve real model output with no key at all. The demo match ships with model-written lines in English and Arabic.
+**Response cache.** Matches are seeded, so the same match for the same audience sends the same prompts. Answers are cached on disk by prompt hash, which makes replays instant and free, keeps the hosted demo inside free quotas, and lets the app serve real model output with no key at all. Every published match ships with model-written lines in all 16 languages for both audiences, written through GitHub Copilot (`npm run prewarm -- all all`), so the hosted demo needs no key: 86% of aired lines are tailored to the language and audience, the rest are the Tactician's model-written line, and none are templates ([docs/QUALITY.md](docs/QUALITY.md)).
 
 ### Other entry points
 
@@ -133,6 +145,7 @@ npm run generate 4                # write synthetic matches to data/
 npm run mcp                       # MCP server (stdio)
 npm run prewarm                   # pre-generate model lines for the published matches (resumable)
 npm run quality                   # write docs/QUALITY.md
+node scripts/review.ts 150        # a second model reviews aired lines: docs/REVIEW.md (Copilot)
 npm run ui-check -- "http://localhost:3000/?autostart=1&speed=60" out/ui 20   # headless UI check
 ```
 
@@ -160,11 +173,12 @@ src/live/       live session: paced events, crew queue, fixtures
 src/server/     HTTP server and SSE stream
 src/mcp/        MCP tools and stdio server
 src/a2a/        Agent2Agent card and JSON-RPC endpoint
-web/            Fluent UI React app (Vite, TypeScript)
+web/            Fluent UI React app (Vite, TypeScript); web/src/players2d/ (the players
+                simulation and 2D camera) and web/src/players3d/ (three.js stadium)
 scripts/        start, crew runner, dataset generator, MCP, pre-generation, quality report, UI check
 infra/          Azure Container Apps deploy script
 data/           published synthetic matches and the response cache
 test/           unit, contract (mock Foundry, OpenAI and Translator) and server tests
 ```
 
-Hackathon requirements and test results: [docs/HACKATHON.md](docs/HACKATHON.md). Plan to submission: [docs/ROADMAP.md](docs/ROADMAP.md).
+How it is tested, layer by layer: [docs/TESTING.md](docs/TESTING.md). Hackathon requirements and test results: [docs/HACKATHON.md](docs/HACKATHON.md). Plan to submission: [docs/ROADMAP.md](docs/ROADMAP.md).

@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "O Northgate vence, mas está a tremer",
+  "text": "O Northgate Rovers ganha por 1-0, mas o jogo está solto! Oscar Blum mandou um passe para fora e Ilan Cohen viu o seu ser cortado. É uma vantagem frágil.",
+  "cites": [
+   "e0499",
+   "e0510"
+  ]
+ }
+}

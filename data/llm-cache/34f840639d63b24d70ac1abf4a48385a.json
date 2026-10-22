@@ -1,12 +1,12 @@
 {
- "model": "openai:openai/gpt-oss-120b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Half‑time seals Rovers’ tactical edge",
-  "text": "At 45+2' the score 1‑0 reflects Northgate Rovers’ patient possession, with momentum –46 and chaos 46 showing their control versus Southmere’s disruptive wing play, setting the tone for the second half.",
+  "headline": "Rovers lead despite Southmere's territory",
+  "text": "Northgate Rovers lead 1-0 at half-time with 0.68 xg to 0.31, though Southmere United had 32 final third entries to 26 and 6 shots to 4. Momentum is -46, so the pressure is on the leaders.",
   "tags": [
-   "control",
    "momentum",
-   "chaos"
+   "finishing",
+   "chance"
   ],
   "cites": [
    "e0860"

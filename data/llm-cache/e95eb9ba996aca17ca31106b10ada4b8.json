@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere cierra el partido presionando alto",
+  "text": "Southmere United recupera 3 balones en 120 segundos: Tariq Aziz, Rafa Ortega y Joel Martin. Con 2-0 en el minuto 87, xG 1.85 contra 0.62 y PPDA 8, Harbour City no puede construir.",
+  "cites": [
+   "e1818",
+   "e1838",
+   "e1847"
+  ]
+ }
+}

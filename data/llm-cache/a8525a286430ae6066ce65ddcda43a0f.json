@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kowalski punit Ironvale après un long enchaînement !",
+  "text": "Quelle séquence de Harbour City ! Après une interception, ils font tourner le ballon, Yusuf Demir sert Dani Kowalski, et boum : frappe puissante, but ! Harbour City mène 2-1, même si ce tir semblait peu dangereux.",
+  "cites": [
+   "e1201",
+   "e1221",
+   "e1222",
+   "e1223"
+  ]
+ }
+}

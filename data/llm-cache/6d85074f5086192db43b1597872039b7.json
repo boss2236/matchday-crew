@@ -1,17 +1,19 @@
 {
- "model": "openai:openai/gpt-oss-120b",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Harbour City’s Press Falters Amid Chaos",
-  "text": "At 38’, Harbour City’s momentum sits at 27 while chaos spikes to 46, as a series of risky passes (e0695, e0722, e0724) fail to break the deadlock, highlighting loss of control despite high‑press intent.",
+  "headline": "Harbour City swing momentum but lack precision",
+  "text": "Harbour City, trailing 0-1, have pushed momentum to 27 with quick combinations, but long balls keep breaking down: Marchetti's 60.3 pass was intercepted and Pike's went out. They have only 0.16 xG to Ironvale's 1.63.",
   "tags": [
-   "pressing",
    "momentum",
-   "control"
+   "possession",
+   "pass"
   ],
   "cites": [
-   "e0695",
    "e0722",
-   "e0724"
+   "e0723",
+   "e0724",
+   "e0725",
+   "e0734"
   ]
  }
 }

@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere étouffe Harbour City en fin de match",
+  "text": "Southmere United, 3-0 à la 90e, enchaîne 3 récupérations en 120 secondes via Joel Martin et Tariq Aziz. xG 1.95 contre 0.62, PPDA 7.8 : Harbour City ne revient plus.",
+  "cites": [
+   "e1858",
+   "e1889",
+   "e1897"
+  ]
+ }
+}

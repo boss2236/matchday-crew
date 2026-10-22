@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate tiene el balón, pero pierde 1-0",
+  "text": "Northgate Rovers manda con el balón, pero pasa tanto hacia atrás que no hace daño. Sven Dahl retrocede el balón a Ravi Kapoor y el equipo sigue sin un solo tiro a puerta.",
+  "cites": [
+   "e0560",
+   "e0546"
+  ]
+ }
+}

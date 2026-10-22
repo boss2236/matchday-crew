@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic 拦截连环断球",
+  "text": "Ironvale Athletic 在120秒内3次断球,Callum Reid、Marco Silvan、Zeke Mbeki 均靠拦截完成。他们控球率44%、xG 1.14,PPDA 9.5,以1-0领先并压制 Northgate Rovers。",
+  "cites": [
+   "e0900",
+   "e0928",
+   "e0935"
+  ]
+ }
+}

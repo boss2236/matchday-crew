@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere pousse, la tension monte",
+  "text": "À la 90+4', Southmere United est mené 1-0 mais ne lâche rien : Bruno Costa avance balle au pied, puis trouve Tariq Aziz. Les supporters retiennent leur souffle !",
+  "cites": [
+   "e1767",
+   "e1769"
+  ]
+ }
+}

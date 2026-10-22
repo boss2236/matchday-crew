@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City pass nicely, but no danger",
+  "text": "Harbour City kept the ball moving smoothly, then Arjun Mehta tried a shot from far out and it was saved. Still 0-0, and it was never a big scare for Ironvale Athletic.",
+  "cites": [
+   "e0352",
+   "e0353"
+  ]
+ }
+}

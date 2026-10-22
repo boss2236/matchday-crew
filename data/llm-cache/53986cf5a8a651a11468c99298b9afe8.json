@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kowalski clôture le 4-1 à 90+1'",
+  "text": "Interception (e1715), puis Mateo Ruiz sert Dani Kowalski sur une passe de progression de 21.6, difficulté 48 (e1722). Kowalski conclut à 2.5 de distance, 0.79 xG (e1725). Harbour City mène 4-1, PPDA 8.5.",
+  "cites": [
+   "e1715",
+   "e1722",
+   "e1725"
+  ]
+ }
+}

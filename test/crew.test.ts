@@ -186,6 +186,9 @@ test('numbers are read in other scripts and decimal styles', async () => {
 test('units: distances are metres, so a bare km is rejected but km/h is fine', async () => {
   const { unitProblems } = await import('../src/agents/evidence.ts');
   assert.deepEqual(unitProblems('After an 8.7 km carry'), ['distance 8.7 km should be metres']);
+  assert.deepEqual(unitProblems('Aziz taps in from 1.2 yards'), ['distance 1.2 yards should be metres']);
+  assert.deepEqual(unitProblems('a miss from five yards out, a 30-yd pass'), ['distance five yards should be metres', 'distance 30 yards should be metres']);
+  assert.deepEqual(unitProblems('the backyard, 12 m out'), []);
   assert.deepEqual(unitProblems('بعد اندفاع لمسافة 8.7 كم'), ['distance 8.7 km should be metres']);
   assert.deepEqual(unitProblems('a 96.1 km/h shot'), []);
   assert.deepEqual(unitProblems('بسرعة 96.1 كم/س'), []);

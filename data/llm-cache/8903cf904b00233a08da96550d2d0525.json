@@ -1,0 +1,21 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United, Tariq Aziz'in hat-trick'iyle Harbour City'yi 3-0 yendi",
+  "text": "Southmere United, Harbour City karşısında 3-0 kazandı. 4. dakikada Tariq Aziz'in 0.622 xG'lik, 2 metreden kullandığı şut kurtarıldı. 45+3'te Joel Martin'in asistiyle Aziz, 0.931 xG'lik pozisyonu 1.2 metreden gole çevirdi; 19 pas içeren build-up'ın ardından momentum 52'ye çıktı. 59'da Bruno Costa'nın pasıyla 0.16 xG'den 2-0 geldi. 87'de Martin'in regain'inin ardından 0.106 xG'lik üçüncü gol çıktı. Toplam xG 1.95'e karşı 0.62; isabetli şut 7'ye karşı 5 oldu. PPDA 7.9'a karşı 7.6 ile baskı dengeliydi, fark bitiricilikteydi. Aziz 3 gol ve 1.88 xG ile maçın adamıydı.",
+  "cites": [
+   "e0077",
+   "e1013",
+   "e1012",
+   "e1014",
+   "e1285",
+   "e1286",
+   "e1287",
+   "e1847",
+   "e1849",
+   "e1850",
+   "e1851",
+   "e1950"
+  ]
+ }
+}

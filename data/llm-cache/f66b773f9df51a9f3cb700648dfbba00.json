@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic kontert Northgate Rovers aus",
+  "text": "Ironvale Athletic gewinnt 1-0 bei 47% Ballbesitz, xG 1.42 gegen 0.86 für Northgate Rovers. Northgate hat 53% und 9 Schüsse, PPDA 7.9 gegen 8.8, doch der tiefe Block hält.",
+  "cites": [
+   "e1700"
+  ]
+ }
+}

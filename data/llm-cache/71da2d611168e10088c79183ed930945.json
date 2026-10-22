@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City mengoper santai, tapi tertinggal 3-0",
+  "text": "Harbour City terus mengoper bola tanpa ditekan, lima umpan sukses beruntun. Tapi beberapa umpan malah mundur ke belakang. Jadi permainannya tenang, namun belum menakutkan lawan.",
+  "cites": [
+   "e1926",
+   "e1928",
+   "e1929",
+   "e1930"
+  ]
+ }
+}

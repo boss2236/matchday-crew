@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere avanti, ma Harbour City preme",
+  "text": "Southmere United è avanti 1-0, ma sta soffrendo: Joel Martin perde un pallone intercettato, poi due passaggi finiscono fuori. Harbour City li pressa alto e li costringe a sbagliare.",
+  "cites": [
+   "e1221",
+   "e1230",
+   "e1234"
+  ]
+ }
+}

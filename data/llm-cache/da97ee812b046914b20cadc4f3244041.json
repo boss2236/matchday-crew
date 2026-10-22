@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United reprend le ballon !",
+  "text": "Quelle bascule ! Southmere United a volé le ballon 3 fois en 2 minutes, avec Liam Doyle, Tariq Aziz et Rafa Ortega. Northgate Rovers, tranquille jusque-là, n'arrive plus à respirer.",
+  "cites": [
+   "e0306",
+   "e0328",
+   "e0341"
+  ]
+ }
+}

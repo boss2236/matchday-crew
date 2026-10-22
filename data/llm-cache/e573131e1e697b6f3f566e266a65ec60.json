@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Rovers brisent le pressing d'une longue diagonale",
+  "text": "Northgate Rovers mène 1-0 à 81' : trois passes sous pression, dont Kai Nakamura vers Emre Kaya (36.4 de distance, difficulté 76). Chaos 63, momentum 25, PPDA adverse 7.3 : le pressing est désamorcé.",
+  "cites": [
+   "e1531",
+   "e1534",
+   "e1536"
+  ]
+ }
+}

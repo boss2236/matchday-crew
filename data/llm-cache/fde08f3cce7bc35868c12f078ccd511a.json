@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City pousse, mais reste mené",
+  "text": "Harbour City enchaîne : passe de Mateo Ruiz à Dani Kowalski (31.2 m, difficulté 60), conduite de 14.8 m, puis tir bloqué à 0.078 xG. Mené 0-1, momentum 25, PPDA 9.4 contre 10.8.",
+  "cites": [
+   "e0890",
+   "e0891",
+   "e0893"
+  ]
+ }
+}

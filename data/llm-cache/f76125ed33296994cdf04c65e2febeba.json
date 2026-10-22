@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic تخطف الكرة من Northgate Rovers",
+  "text": "Ironvale Athletic يتقدم 1-0 ويدافع بذكاء! Callum Reid وMarco Silvan وZeke Mbeki قطعوا تمريرات Northgate Rovers الهادئة واحدة تلو الأخرى، وكل مرة تعود الكرة لأصحاب الأرض وتشتعل المدرجات.",
+  "cites": [
+   "e0900",
+   "e0928",
+   "e0935"
+  ]
+ }
+}

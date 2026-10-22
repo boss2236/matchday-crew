@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate controlam, mas sem profundidade",
+  "text": "Northgate Rovers têm 56% de posse e 22 entradas no último terço, mas xG 0.44 e 0 remates à baliza. Sven Dahl recua com -8.5 de progressão (dificuldade 30); momentum em -78.",
+  "cites": [
+   "e0560",
+   "e0546",
+   "e0551"
+  ]
+ }
+}

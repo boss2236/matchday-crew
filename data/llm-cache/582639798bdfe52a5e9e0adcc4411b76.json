@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City 传来传去，却没威胁",
+  "text": "比赛尾声，Harbour City 以0比3落后，Leo Marchetti、Elias Brandt、Jonah Pike、Sami Okafor、Rui Barros 连续五次顺利传球，但好几脚是往回传，球一直没真正压向前。",
+  "cites": [
+   "e1926",
+   "e1927",
+   "e1928",
+   "e1929",
+   "e1930"
+  ]
+ }
+}

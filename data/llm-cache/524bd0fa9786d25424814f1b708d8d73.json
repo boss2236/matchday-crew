@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City pierde tres pases largos",
+  "text": "¡Ojo, Harbour City! Sus pases largos y rápidos, con el marcador 1-1, fueron cortados por Ironvale Athletic tres veces en menos de un minuto. Se les escapa el balón y el partido se pone loco.",
+  "cites": [
+   "e1111",
+   "e1118",
+   "e1128"
+  ]
+ }
+}

@@ -1,15 +1,17 @@
 {
- "model": "openai:openai/gpt-oss-20b",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Momentum swing after interception",
-  "text": "The intercepted pass by Gabe Moreno at 66:22 tipped Northgate into chaos, dropping momentum to -27 and inflating chaos to 46, while Ironvale’s possession edge widened to 53%.",
+  "headline": "Northgate Rovers swing momentum despite trailing",
+  "text": "Momentum swings -27 toward Northgate Rovers. After Gabe Moreno's 63.1 pass was intercepted, Ilan Cohen carried 10 and found Oscar Blum with 21.8 progress. Ironvale Athletic lead 1-0 and are sitting deep.",
   "tags": [
    "momentum",
-   "chaos",
-   "control"
+   "possession",
+   "pass"
   ],
   "cites": [
-   "e1229"
+   "e1229",
+   "e1242",
+   "e1243"
   ]
  }
 }

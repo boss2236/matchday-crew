@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Reid가 Ironvale의 리드를 지킨다",
+  "text": "Callum Reid가 태클, 가로채기, 다시 태클로 공을 3번이나 되찾았어요! 덕분에 Northgate Rovers가 차분하게 공을 돌리지 못하고, Ironvale Athletic은 1-0 리드를 단단히 지켜요.",
+  "cites": [
+   "e1414",
+   "e1420",
+   "e1437"
+  ]
+ }
+}

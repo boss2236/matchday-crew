@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Dahl's pressured 79-difficulty pass splits Southmere",
+  "text": "Northgate Rovers hold 69% possession; Sven Dahl's pressured 36.9-distance pass to Andres Vega (progress 30.9, difficulty 79) breaks the line. Momentum 37, but xG 0 against Southmere United's 0.03, PPDA 13 versus 21.5.",
+  "cites": [
+   "e0115",
+   "e0116"
+  ]
+ }
+}

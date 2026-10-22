@@ -213,6 +213,15 @@ export function useLiveMatch() {
   // Positions of events by id, for drawing what a line cites. Not React state:
   // nothing renders from it directly.
   const events = useRef(new Map<string, LiveEvent>());
+  // Every event of this run in order, and who wants each one as it arrives (the
+  // 2D players view animates from them, outside React).
+  const log = useRef<LiveEvent[]>([]);
+  const listeners = useRef(new Set<(ev: LiveEvent) => void>());
+  const subscribe = useCallback((fn: (ev: LiveEvent) => void) => {
+    listeners.current.add(fn);
+    return () => void listeners.current.delete(fn);
+  }, []);
+  const eventLog = useCallback(() => log.current, []);
 
   const flush = useCallback(() => {
     frame.current = 0;
@@ -234,6 +243,7 @@ export function useLiveMatch() {
       source.current?.close();
       queue.current = [];
       events.current = new Map();
+      log.current = [];
       dispatch({ type: 'reset' });
       const es = new EventSource(`api/live?${params}`);
       source.current = es;
@@ -244,7 +254,11 @@ export function useLiveMatch() {
           const raw = (e as MessageEvent<string>).data;
           if (!raw) return; // the browser's own connection "error" has no data
           const msg = { type, data: JSON.parse(raw) } as Message;
-          if (msg.type === 'event' && msg.data.x !== undefined) events.current.set(msg.data.id, msg.data);
+          if (msg.type === 'event') {
+            if (msg.data.x !== undefined) events.current.set(msg.data.id, msg.data);
+            log.current.push(msg.data);
+            for (const fn of listeners.current) fn(msg.data);
+          }
           if (msg.type === 'end') {
             ended = true;
             es.close();
@@ -269,5 +283,5 @@ export function useLiveMatch() {
     [],
   );
 
-  return { ...state, start, events: events.current };
+  return { ...state, start, events: events.current, subscribe, eventLog };
 }

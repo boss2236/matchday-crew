@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale ataca com passes diretos e perigosos",
+  "text": "O Ironvale Athletic vence por 0-1 e está a crescer! Ivo Petrov lançou um passe enorme para Luca Romero, que recebeu sem ninguém por perto. É assim que se chega rápido perto da baliza!",
+  "cites": [
+   "e0782",
+   "e0772",
+   "e0774"
+  ]
+ }
+}

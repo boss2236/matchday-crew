@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Rovers befreien sich mit langem Ball",
+  "text": "Northgate Rovers stecken unter Druck, doch Sven Dahl schlägt einen weiten Ball auf Emre Kaya, der den Ball direkt zu Oscar Blum weiterspielt. Aus dem Gewühl wird plötzlich Schwung nach vorn!",
+  "cites": [
+   "e0989",
+   "e0990"
+  ]
+ }
+}

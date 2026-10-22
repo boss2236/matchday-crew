@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City oyunu yavaşlatıyor",
+  "text": "Harbour City 2-1 öndeyken topu geri geri çevirip sakin sakin paslaşıyor. Rakip baskı yapmıyor, onlar da risk almıyor. Maçı bu şekilde soğutup skoru korumaya çalışıyorlar.",
+  "cites": [
+   "e1528",
+   "e1531",
+   "e1532"
+  ]
+ }
+}

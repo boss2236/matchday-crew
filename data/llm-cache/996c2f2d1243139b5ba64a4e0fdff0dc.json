@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale se suelta y respira con balón",
+  "text": "Ironvale Athletic encadenó cuatro pases sin que nadie los presionara. Callum Reid lanzó un gran pase largo a Luca Romero y el equipo avanzó. Al final el último pase de Luca Romero salió fuera.",
+  "cites": [
+   "e0324",
+   "e0326",
+   "e0327"
+  ]
+ }
+}

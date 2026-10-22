@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale relance, Romero déborde à 34.1 km/h",
+  "text": "Menant 1-0 à la 85e, Ironvale ressort via Callum Reid puis Hiro Tanaka (difficulté 28 et 34), et Luca Romero enchaîne deux conduites à 31 et 34.1 km/h. Momentum 25.",
+  "cites": [
+   "e1570",
+   "e1571",
+   "e1572",
+   "e1573"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-opus-5.5",
+ "output": {
+  "headline": "Ironvale Athletic keep stealing Harbour City's passes",
+  "text": "At 1-1, nobody is even closing Harbour City down, yet Yusuf Demir and Dani Kowalski keep seeing their passes picked off by Ironvale Athletic's patient defenders sitting deep. Ironvale must love it!",
+  "cites": [
+   "e1111",
+   "e1118",
+   "e1128"
+  ]
+ }
+}

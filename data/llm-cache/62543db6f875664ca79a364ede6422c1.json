@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ortega klaut Northgate den Ball!",
+  "text": "Rafa Ortega schnappt sich für Southmere United gleich dreimal den Ball: zweimal abgefangen, einmal im Zweikampf geholt. Northgate Rovers kommen aus dem Ruhigen Spiel raus, und Southmere jagt den Rückstand.",
+  "cites": [
+   "e0887",
+   "e0897",
+   "e0907"
+  ]
+ }
+}

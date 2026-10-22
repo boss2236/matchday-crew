@@ -1,0 +1,19 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Tariq Aziz のハットトリックでSouthmere Unitedが完勝",
+  "text": "Southmere United が Harbour City に3-0で勝ちました。試合の最初から Tariq Aziz がゴール目の前の大チャンスを迎えましたが、相手キーパーに止められました。それでも前半の終わりに、Joel Martin の パスから Tariq Aziz がきっちり決めて先制です。後半に入ってすぐ、Bruno Costa のパスから Tariq Aziz が2点目を決めました。終盤には Joel Martin がボールを奪い返し、すぐ Tariq Aziz へつないで、3点目が生まれました。Harbour City も何度かシュートを打ちましたが、決めきれませんでした。勝敗を分けたのは、チャンスを確実にゴールにした Southmere United の決定力です。この日の主役は、3ゴールの Tariq Aziz でした。",
+  "cites": [
+   "e0077",
+   "e1012",
+   "e1013",
+   "e1014",
+   "e1285",
+   "e1287",
+   "e1847",
+   "e1849",
+   "e1851",
+   "e1950"
+  ]
+ }
+}

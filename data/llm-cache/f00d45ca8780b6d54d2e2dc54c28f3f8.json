@@ -1,0 +1,15 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City responde con combinación rápida",
+  "text": "Cuatro acciones sin presión, del acarreo de Sami Okafor al disparo de Leo Marchetti a 15.2, terminan en gol con solo 0.024 xG. Momentum 26, caos 63, partido 0-1.",
+  "cites": [
+   "e0993",
+   "e0994",
+   "e0995",
+   "e0996",
+   "e0997",
+   "e0998"
+  ]
+ }
+}

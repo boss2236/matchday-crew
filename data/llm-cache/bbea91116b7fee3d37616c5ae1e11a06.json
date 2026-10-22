@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United, 뒤로만 밀려나요",
+  "text": "Southmere United가 2-0으로 앞서 있는데도 Harbour City의 압박에 몰려 자꾸 뒤로 패스해요. 결국 Kwame Mensah의 패스가 압박 속에 밖으로 나가 버렸어요.",
+  "cites": [
+   "e1364",
+   "e1367",
+   "e1369"
+  ]
+ }
+}

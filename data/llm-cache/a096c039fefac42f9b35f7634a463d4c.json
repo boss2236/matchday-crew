@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic تضيع هجمة واعدة",
+  "text": "Callum Reid أرسل كرة طويلة رائعة إلى Luca Romero، وكانت الهجمة تسير بشكل جميل. لكن تمريرة Romero إلى Hiro Tanaka خرجت من الملعب، فضاعت الفرصة.",
+  "cites": [
+   "e0326",
+   "e0327"
+  ]
+ }
+}

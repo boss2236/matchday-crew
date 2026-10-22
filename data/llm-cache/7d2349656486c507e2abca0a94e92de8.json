@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kowalski clôt le match avec sang-froid !",
+  "text": "Dani Kowalski récupère le ballon, puis Mateo Ruiz et lui se renvoient la balle jusqu'au but ! Tout près du gardien, il ne tremble pas : Harbour City mène 4-1 !",
+  "cites": [
+   "e1715",
+   "e1722",
+   "e1724",
+   "e1725"
+  ]
+ }
+}

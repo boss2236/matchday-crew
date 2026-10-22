@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale schlägt schnell zu: 1-0!",
+  "text": "Was für ein Konter, Zeke Mbeki trifft! Nach dem Einwurf spielt Ivo Petrov den Ball einfach lang zu Zeke Mbeki, der völlig frei bleibt. Ironvale Athletic führt 1-0 gegen Northgate Rovers.",
+  "cites": [
+   "e0480",
+   "e0481",
+   "e0484",
+   "e0485"
+  ]
+ }
+}

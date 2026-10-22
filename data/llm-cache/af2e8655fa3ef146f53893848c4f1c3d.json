@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City pousse, mais Ironvale tient bon",
+  "text": "Menés 0-1, Harbour City met la pression ! Mateo Ruiz lance Dani Kowalski, qui file vers le but et tire de tout près, mais un défenseur d'Ironvale Athletic bloque le ballon.",
+  "cites": [
+   "e0890",
+   "e0891",
+   "e0893"
+  ]
+ }
+}

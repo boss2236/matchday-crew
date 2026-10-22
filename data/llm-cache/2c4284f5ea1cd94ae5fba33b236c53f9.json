@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers pierden el balón en el 0-0",
+  "text": "Northgate Rovers mueve el balón con paciencia, pero el pase de Kai Nakamura hacia Oscar Blum fue interceptado. Sigue 0-0, y el partido es de ellos, aunque ahora hay un susto.",
+  "cites": [
+   "e0099"
+  ]
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere garde le ballon, 0-0",
+  "text": "Southmere United a le ballon 61% du temps et enchaîne les passes. Même sous pression, Tariq Aziz retrouve Dmitri Volkov d'un long ballon en retrait : ça reste ouvert, et c'est palpitant !",
+  "cites": [
+   "e0142",
+   "e0144"
+  ]
+ }
+}

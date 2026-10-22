@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Rovers break free with a bold long ball",
+  "text": "Northgate Rovers were boxed in while leading 1-0, but Kai Nakamura found a way out. His long, brave pass to Emre Kaya cut straight through the squeeze. What a relief!",
+  "cites": [
+   "e1531",
+   "e1534",
+   "e1536"
+  ]
+ }
+}

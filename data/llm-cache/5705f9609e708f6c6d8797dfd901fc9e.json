@@ -1,12 +1,12 @@
 {
- "model": "openai:openai/gpt-oss-20b",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Half‑time: Ironvale's 1‑0 edge persists",
-  "text": "At 45+2', Ironvale leads 1‑0, with 12 momentum versus 44 chaos, dominating possession 46% against Northgate's 54% and controlling the game’s tempo.",
+  "headline": "Ironvale's deep block wins the first half",
+  "text": "Northgate Rovers hold 54% possession and 6 shots, yet Ironvale Athletic lead 1-0 with 1.14 xG to 0.68. The counters are working, and the pressure stays with Northgate going into the break.",
   "tags": [
    "control",
-   "momentum",
-   "chaos"
+   "counter",
+   "possession"
   ],
   "cites": [
    "e0857"

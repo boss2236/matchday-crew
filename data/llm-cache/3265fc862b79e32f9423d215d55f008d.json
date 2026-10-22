@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City's lead is wobbling",
+  "text": "Harbour City lead 2-1, but it's getting scrappy. Mateo Ruiz sent the ball all the way back to Rui Barros, then Barros's next pass under pressure was cut out. Ironvale Athletic can smell a chance.",
+  "cites": [
+   "e1451",
+   "e1453"
+  ]
+ }
+}

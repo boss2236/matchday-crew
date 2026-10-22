@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-opus-5.5",
+ "output": {
+  "headline": "Ironvale's deep block strikes three times",
+  "text": "Ironvale Athletic make 3 regains in 120 seconds: Luca Romero tackles, Marco Silvan and Callum Reid intercept. PPDA 8.5, xG 0.84 vs 0.44, leading 1-0 despite momentum at -11.",
+  "cites": [
+   "e0564",
+   "e0581",
+   "e0603"
+  ]
+ }
+}

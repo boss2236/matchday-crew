@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale reprend le contrôle après une relance directe ratée",
+  "text": "Ironvale mène 1-0 (xG 1.14). La passe directe de Callum Reid de 41.8 est complète, celle de Luca Romero est interceptée (difficulté 55). Zeke Mbeki rejoue -13.4 vers Hiro Tanaka : momentum 25, chaos 54.",
+  "cites": [
+   "e0979",
+   "e0980",
+   "e0989",
+   "e0990",
+   "e0991"
+  ]
+ }
+}

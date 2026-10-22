@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate gardent la balle et mènent 1-0",
+  "text": "Northgate Rovers mènent 1-0 et gardent la balle avec patience. Kai Nakamura trouve Oscar Blum d'une belle passe longue vers l'avant, mais le match reste ouvert et tout peut encore basculer.",
+  "cites": [
+   "e0553",
+   "e0556"
+  ]
+ }
+}

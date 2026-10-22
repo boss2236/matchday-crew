@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City regala el balón otra vez",
+  "text": "Harbour City pierde 0-1 y se está precipitando. Leo Marchetti lanzó un pase larguísimo que Ironvale Athletic interceptó, y Jonah Pike mandó otro fuera. ¡Así es muy difícil recuperar el control, amigo!",
+  "cites": [
+   "e0725",
+   "e0734"
+  ]
+ }
+}

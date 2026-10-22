@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City topu geri kapmaya devam ediyor",
+  "text": "Harbour City son 120 saniyede topu 3 kez geri aldı: Dani Kowalski ve Arjun Mehta çalım yerine top kesti, Yusuf Demir araya girdi. Ironvale Athletic bir türlü rahat nefes alamıyor.",
+  "cites": [
+   "e1562",
+   "e1579",
+   "e1587"
+  ]
+ }
+}

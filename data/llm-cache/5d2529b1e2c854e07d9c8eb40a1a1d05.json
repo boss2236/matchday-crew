@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ruiz e Kowalski chiudono la partita!",
+  "text": "Che azione, amici! Mateo Ruiz lancia Dani Kowalski con un passaggio che porta tutta la squadra in avanti, poi Kowalski, libero da avversari, segna e il Harbour City vola sul 3-1!",
+  "cites": [
+   "e1722",
+   "e1723",
+   "e1724"
+  ]
+ }
+}

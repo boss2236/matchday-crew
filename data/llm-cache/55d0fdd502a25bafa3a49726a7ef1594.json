@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City's long passes keep getting intercepted",
+  "text": "Three Harbour City passes intercepted in 44 seconds: e1111 (33.6 distance, difficulty 56), e1118 (43.2, difficulty 55), e1128 (30.3, difficulty 42). xG sits 0.35 against Ironvale's 1.68, momentum 35, chaos 55.",
+  "cites": [
+   "e1111",
+   "e1118",
+   "e1128"
+  ]
+ }
+}

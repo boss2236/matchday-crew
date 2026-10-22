@@ -1,13 +1,16 @@
 {
- "model": "openai:openai/gpt-oss-20b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Momentum swing at 70:04",
-  "text": "Southmere United’s 70:04 shot, saved, marks a 35‑point momentum swing amid 54 chaos, tipping control back to Harbour City.",
+  "headline": "Southmere's long ball sparks a speculative shot",
+  "text": "Kwame Mensah's pressured 55.4-metre pass found Tariq Aziz, and Bruno Costa shot from 33.9 metres at 0.006 xg, which was saved. Chaos sits at 54 while Southmere lead 2-0, so a speculative strike is acceptable.",
   "tags": [
-   "momentum",
-   "chaos"
+   "chaos",
+   "speed",
+   "chance"
   ],
   "cites": [
+   "e1482",
+   "e1483",
    "e1484"
   ]
  }

@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Oscar Blum offre la victoire à Northgate Rovers",
+  "text": "Quel match serré ! Northgate Rovers a pris le ballon en main dès le début, avec patience, tandis que Southmere United tentait de passer par les ailes. Le tournant arrive à la 23e minute : Emre Kaya trouve Oscar Blum d'une belle passe, et Oscar Blum marque tout près du but. 1-0 ! Ensuite, Southmere United a poussé fort et récupéré beaucoup de ballons grâce à Rafa Ortega, mais n'a jamais réussi à égaliser. Northgate Rovers a même failli doubler la mise quand Oscar Blum a tiré à côté. Au coup de sifflet final, Northgate Rovers s'impose 1-0. Oscar Blum est notre homme du match : il a marqué le seul but, et ça a suffi.",
+  "cites": [
+   "e0426",
+   "e0427",
+   "e0428",
+   "e1205",
+   "e1784"
+  ]
+ }
+}

@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic、終盤に鋭いカウンター",
+  "text": "85分、1-0。Callum Reidの27.8mのパス(難易度28)からHiro Tanaka、Luca Romeroへ。Romeroは時速31km、34.1kmで2度運び、momentum 25、chaos 41。",
+  "cites": [
+   "e1570",
+   "e1571",
+   "e1572",
+   "e1573"
+  ]
+ }
+}

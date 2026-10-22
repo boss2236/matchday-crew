@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City'nin uzun paslarına Ironvale geçit vermiyor",
+  "text": "Harbour City uzun ve hızlı paslarla hızlanmak istedi ama Ironvale Athletic araya girip topu üç kez kaptı. Skor 1-1 ve maçın havası biraz Ironvale lehine dönüyor gibi.",
+  "cites": [
+   "e1111",
+   "e1118",
+   "e1128"
+  ]
+ }
+}

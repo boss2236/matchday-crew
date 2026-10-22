@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale fangen sich nach verlorenem Direktball",
+  "text": "Beim 1-0 für Ironvale Athletic geht Callum Reids Ball über 41.8 auf Luca Romero (Schwierigkeit 56), dessen Pass abgefangen wird. Zeke Mbeki spielt -13.4 zurück auf Hiro Tanaka; Momentum 25, Chaos 54.",
+  "cites": [
+   "e0979",
+   "e0980",
+   "e0989",
+   "e0990",
+   "e0991"
+  ]
+ }
+}

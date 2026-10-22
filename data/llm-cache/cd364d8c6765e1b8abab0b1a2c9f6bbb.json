@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-opus-5.5",
+ "output": {
+  "headline": "Ironvale's press chokes Northgate's patient build-up",
+  "text": "Ironvale Athletic, 1-0 up, regain 3 times in 120 seconds: Reid and Tanaka intercept, then Tanaka tackles. PPDA 8.7, xG 1.15 vs 0.86, momentum 5.",
+  "cites": [
+   "e1341",
+   "e1356",
+   "e1363"
+  ]
+ }
+}

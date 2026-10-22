@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City keep the ball, calm things down",
+  "text": "Harbour City lead 2-1 and are happy to pass it around safely, even backwards, with nobody pressing them. It's a smart way to slow the game and protect their lead.",
+  "cites": [
+   "e1528",
+   "e1531",
+   "e1532"
+  ]
+ }
+}

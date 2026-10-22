@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Callum Reid가 리드를 지켜냅니다",
+  "text": "Ironvale Athletic이 1-0으로 앞선 가운데, Callum Reid가 태클과 가로채기로 공을 끈질기게 되찾아 Northgate Rovers의 공격 흐름을 끊어냅니다!",
+  "cites": [
+   "e1414",
+   "e1420",
+   "e1437"
+  ]
+ }
+}

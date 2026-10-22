@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere领先1-0，xG优势明显",
+  "text": "半场45+4'，Southmere United 以1-0领先。双方控球率均为50%，但 xG 为1.64对0.39，射正3次对2次；Harbour City 的 PPDA 为6.8，压迫更强，Southmere United 的势头值为71。",
+  "cites": [
+   "e1016"
+  ]
+ }
+}

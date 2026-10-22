@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic、ロングパスで一気に前進",
+  "text": "Ironvale Athleticが1-0でリード。Ivo Petrovが前線のLuca Romeroへ長いパスを通し、一気にゴールへ近づきました。相手に邪魔されず、パスがどんどんつながっています！",
+  "cites": [
+   "e0782",
+   "e0772",
+   "e0774"
+  ]
+ }
+}

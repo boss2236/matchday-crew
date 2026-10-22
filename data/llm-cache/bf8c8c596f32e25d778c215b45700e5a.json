@@ -1,0 +1,15 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Contra de Ironvale rompe la presión",
+  "text": "Marco Silvan robó el balón (e0587) y condujo 11.8 y 9.1 m; siete pases sin presión, uno de dificultad 62, acabaron en el remate de Zeke Mbeki: xG 0.188, 96.1 km/h, a 6.3 m. 0-1.",
+  "cites": [
+   "e0587",
+   "e0588",
+   "e0590",
+   "e0593",
+   "e0599",
+   "e0600"
+  ]
+ }
+}

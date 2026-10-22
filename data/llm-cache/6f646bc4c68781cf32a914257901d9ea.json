@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City、圧力下で保持を継続",
+  "text": "Harbour Cityは6アクションを連ね、Marchettiの42.9mのパス(難易度61、プレッシャー下)で脱出。Pikeの25.7mの前進パス(難易度47)がKowalskiへ通る。2-1、momentum 28、chaos 55。",
+  "cites": [
+   "e1326",
+   "e1331",
+   "e1330"
+  ]
+ }
+}

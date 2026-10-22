@@ -1,17 +1,16 @@
 {
- "model": "openai:openai/gpt-oss-20b",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Momentum swing sparks Ironvale surge",
-  "text": "Ironvale’s 27‑point momentum, amid 57 chaos, follows a rapid 27.2‑km/h pass by Hollis and a 51.9‑km/h intercept‑free link to Tanaka, shifting control to the home side.",
+  "headline": "Ironvale Wrestle Momentum Despite Patient Northgate",
+  "text": "Ironvale Athletic swing momentum to 27 by recycling through Owen Lusk after Ivo Petrov's intercepted pass, then Ade Bamidele's 19.8-progress ball finds Hiro Tanaka. With chaos at 57 and 0-0, the deep block is now probing.",
   "tags": [
    "momentum",
-   "control",
-   "passing"
+   "chaos",
+   "pass"
   ],
   "cites": [
-   "e0184",
-   "e0185",
-   "e0187",
+   "e0188",
+   "e0194",
    "e0195"
   ]
  }

@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere probe late, xG gap persists",
+  "text": "90+4' Southmere trail 1-0: Bruno Costa carries 16.8 then plays Tariq Aziz, a 21.8 pass, difficulty 34. Momentum -27, chaos 57, yet Southmere's xG sits at 0.38 against Northgate's 1.18.",
+  "cites": [
+   "e1767",
+   "e1769"
+  ]
+ }
+}

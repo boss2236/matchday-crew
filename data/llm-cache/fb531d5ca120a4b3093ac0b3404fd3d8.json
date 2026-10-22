@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers 控球多却落后",
+  "text": "Northgate Rovers 一直把球攥在脚下，可 Sven Dahl 这脚传球却往回倒，没能向前推进。球是玩得久，却始终没威胁，还是 1-0 落后，真让人着急！",
+  "cites": [
+   "e0560",
+   "e0546"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Callum Reid ने पलट दिया खेल",
+  "text": "Callum Reid ने गेंद बार-बार छीनी! Harbour City के पास गेंद ज़्यादा है, पर असली खतरा Ironvale Athletic बना रहा है। दोस्त, यही तो काउंटर अटैक का मज़ा है, 3 बार गेंद वापस जीती!",
+  "cites": [
+   "e0201",
+   "e0220",
+   "e0243"
+  ]
+ }
+}

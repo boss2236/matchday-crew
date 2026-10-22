@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City mulai kehilangan arah",
+  "text": "Harbour City sempat melesat lewat umpan jauh Elias Brandt ke Yusuf Demir, tapi setelah itu bola malah balik ke belakang. Skor masih 0-0, dan Southmere United terlihat lebih berbahaya.",
+  "cites": [
+   "e0255",
+   "e0259",
+   "e0260"
+  ]
+ }
+}

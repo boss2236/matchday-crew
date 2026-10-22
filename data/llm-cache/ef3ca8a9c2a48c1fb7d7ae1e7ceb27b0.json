@@ -1,8 +1,8 @@
 {
- "model": "openai:openai/gpt-oss-20b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Southmere’s 3‑Regain Press",
-  "text": "Joel Martin’s pressing spell, beginning at 86:38, reclaimed possession thrice in 120 seconds, tightening control as the game neared its end and stifling Harbour City’s high‑press approach.",
+  "headline": "Southmere's late pressing locks the game",
+  "text": "Southmere United won the ball back three times in 120 seconds, via Tariq Aziz, Rafa Ortega and Joel Martin. At 2-0 in minute 87, that spell stops Harbour City building and keeps the game under control.",
   "tags": [
    "pressing",
    "control",

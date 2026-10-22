@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United schnappt sich den Ball zurück",
+  "text": "Southmere United klaut Harbour City dreimal den Ball, erst Tariq Aziz, dann Rafa Ortega, zuletzt Joel Martin. Beim Stand von 2-0 nimmt das den Gästen jede Ruhe und gibt Southmere die Kontrolle.",
+  "cites": [
+   "e1818",
+   "e1838",
+   "e1847"
+  ]
+ }
+}

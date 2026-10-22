@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City 4-1, xG 1.26 vs 1.76",
+  "text": "Harbour City는 xG 1.26으로 Ironvale Athletic의 1.76에 밀렸지만 12개 슈팅 중 7개를 유효슈팅으로 연결했다. PPDA 8.5 대 10.3의 하이 프레스와 final third 진입 56회로 momentum 75를 유지했다.",
+  "cites": [
+   "e1727"
+  ]
+ }
+}

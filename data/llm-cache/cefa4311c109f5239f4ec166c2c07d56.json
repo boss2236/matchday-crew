@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "El bloque bajo de Ironvale muerde",
+  "text": "Ironvale Athletic encadena 3 recuperaciones en 120 segundos: interceptaciones de Marco Silvan, Zeke Mbeki e Ivo Petrov. Pierden 2-1, pero su xG es 1.68 frente a 0.41; PPDA 9.9 y momentum 16.",
+  "cites": [
+   "e1263",
+   "e1276",
+   "e1297"
+  ]
+ }
+}

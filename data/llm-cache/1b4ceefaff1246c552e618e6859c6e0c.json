@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere reciclan, pero el momentum cae",
+  "text": "Jan Novak conecta 55.9 m hacia Bruno Costa (dificultad 86, progreso 49.8), pero Costa devuelve 34.8 m atrás a Nasser Haddad (progreso -23.5). Momentum -30, caos 72; Southmere pierden 1-0 con 0.38 xG.",
+  "cites": [
+   "e1296",
+   "e1298"
+  ]
+ }
+}

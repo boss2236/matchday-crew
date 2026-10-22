@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "هاربر سيتي يفقد الكرة بتمريرات طويلة",
+  "text": "هاربر سيتي متأخر 0-1، ومحاولاته الطويلة تضيع الكرة. تمريرة Leo Marchetti قطعها الخصم، وتمريرة Jonah Pike خرجت من الملعب، فعادت الكرة إلى Ironvale Athletic.",
+  "cites": [
+   "e0725",
+   "e0734"
+  ]
+ }
+}

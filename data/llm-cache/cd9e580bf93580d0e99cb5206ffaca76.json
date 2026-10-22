@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Rovers' control stalls without a final ball",
+  "text": "Northgate Rovers hold 56% possession and momentum -78, but xG is only 0.44 with 0 shots on target. Ilan Cohen's 36.6m pass, difficulty 51, was intercepted; Sven Dahl then recycled back.",
+  "cites": [
+   "e0551",
+   "e0560"
+  ]
+ }
+}

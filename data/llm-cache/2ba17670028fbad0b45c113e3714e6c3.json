@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City का सब्र, Kowalski का गोल!",
+  "text": "Harbour City ने गेंद छीनी, फिर आराम से पास पर पास खेले। Yusuf Demir ने Dani Kowalski को गेंद दी और Kowalski ने ज़ोरदार शॉट से गोल कर दिया। अब स्कोर 2-1!",
+  "cites": [
+   "e1201",
+   "e1221",
+   "e1222",
+   "e1223"
+  ]
+ }
+}

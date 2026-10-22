@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers-এর দখল আছে, ভেদ নেই",
+  "text": "Northgate Rovers-এর xG 0.44, shotsOnTarget 0, momentum -78, PPDA 6.7। Ilan Cohen-এর 36.6m পাস (difficulty 51) intercepted হয়; পরে Sven Dahl-এর 30.1m পাসের progress -8.5, তাই আক্রমণ আবার পিছিয়ে যায়।",
+  "cites": [
+   "e0551",
+   "e0560"
+  ]
+ }
+}

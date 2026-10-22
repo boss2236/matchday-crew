@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic 高位压迫封锁 Northgate Rovers",
+  "text": "73分钟,Ironvale Athletic 1-0 领先,120秒内完成3次夺回:Callum Reid、Hiro Tanaka 两次拦截,Tanaka 再抢断。xG 1.15 对 0.86,PPDA 8.7,动量5。",
+  "cites": [
+   "e1341",
+   "e1356",
+   "e1363"
+  ]
+ }
+}

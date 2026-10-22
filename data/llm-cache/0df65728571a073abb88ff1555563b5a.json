@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale topu üç kez geri kapıyor!",
+  "text": "Ironvale Athletic baskıyı artırdı! Callum Reid, Marco Silvan ve Luca Romero rakibin elindeki topu tek tek aldı. Northgate Rovers sabırlı oynamak istiyor, ama Ironvale 1-0 önde ve hızlı hücuma hazır!",
+  "cites": [
+   "e0564",
+   "e0581",
+   "e0603"
+  ]
+ }
+}

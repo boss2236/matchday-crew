@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City تحسم الهدف الرابع بعد اعتراض",
+  "text": "اعتراض e1715 ثم تمريرة Mateo Ruiz التقدمية 21.6 وصعوبتها 48 (e1722) إلى Dani Kowalski، فسدد من مسافة 2.5 بقيمة 0.79 xG (e1724) ليصبح 4-1 عند 90+1'، وPPDA لـHarbour City 8.5.",
+  "cites": [
+   "e1715",
+   "e1722",
+   "e1724",
+   "e1725"
+  ]
+ }
+}

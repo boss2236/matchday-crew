@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City non molla la pressione",
+  "text": "Che pressing, ragazzi! Harbour City ha rubato palla 3 volte in due minuti: Dani Kowalski e Arjun Mehta in tackle, poi Yusuf Demir intercetta. Ironvale Athletic non riesce a respirare.",
+  "cites": [
+   "e1562",
+   "e1579",
+   "e1587"
+  ]
+ }
+}

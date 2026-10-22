@@ -1,0 +1,16 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City, Kowalski'nin hat-trick'iyle Ironvale'i 4-1 yendi",
+  "text": "Ironvale Athletic, 2. dakikada Zeke Mbeki'nin 0.876 xG'lik blokelenen şutuyla başladı; 30. dakikada yine Mbeki, 7 pasluk üretimin ardından 0.188 xG'lik golle 1-0 öne geçti. Harbour City 49. dakikada Leo Marchetti'nin 0.024 xG'lik şutuyla 1-1'i yakaladı. Kowalski 62. dakikada 0.06 xG ile 2-1, 81. dakikada 0.057 xG ile 3-1, 90+1'de 0.79 xG ile 4-1 yaptı. Ironvale 1.76 xG'ye karşı 1.26 xG üretti, ancak Harbour City'nin PPDA 8.5 (Ironvale 10.3) ve 56 final third girişi baskıyı belirledi; momentum 75'e çıktı. Maçın adamı 3 golle Dani Kowalski oldu.",
+  "cites": [
+   "e0041",
+   "e0599",
+   "e0998",
+   "e1222",
+   "e1551",
+   "e1724",
+   "e1727"
+  ]
+ }
+}

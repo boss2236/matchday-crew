@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic si riprende il pallone!",
+  "text": "Che momento per Ironvale Athletic! Marco Silvan, Zeke Mbeki e poi Ivo Petrov rubano palla uno dopo l'altro: sono 3 recuperi in pochi minuti. Sono sotto 2-1, ma ora sembrano tornare padroni della partita.",
+  "cites": [
+   "e1263",
+   "e1276",
+   "e1297"
+  ]
+ }
+}

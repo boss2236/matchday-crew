@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Mbeki’s high‑xG chance shifts momentum",
+  "text": "Mbeki’s 4.4 m shot (xG 0.459) at 33 min reduced Harbour’s PPDA 8.5 to Ironvale’s 11.2, flipping momentum to –90.",
+  "cites": [
+   "e0651"
+  ]
+ }
+}

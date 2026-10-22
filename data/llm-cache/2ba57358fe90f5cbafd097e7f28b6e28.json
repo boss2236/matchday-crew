@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere recycle backward under Harbour City press",
+  "text": "Southmere lead xG 0.69 to 0.27, yet momentum is 35. Ortega's 52.4m pass to Mensah, difficulty 52, was intercepted (e0355); e0362 went -24.7 progress against Harbour City's 6.9 PPDA.",
+  "cites": [
+   "e0355",
+   "e0362"
+  ]
+ }
+}

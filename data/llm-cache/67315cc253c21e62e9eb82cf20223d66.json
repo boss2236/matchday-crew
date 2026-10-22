@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Contra-ataque rápido faz o 2-0!",
+  "text": "Felipe Cruz roubou a bola com um desarme e, em poucos passes, Tariq Aziz ficou livre e marcou. Harbour City subiu para pressionar, deixou espaço atrás, e o Southmere United castigou!",
+  "cites": [
+   "e1282",
+   "e1283",
+   "e1285",
+   "e1286"
+  ]
+ }
+}

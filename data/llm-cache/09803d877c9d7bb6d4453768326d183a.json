@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Callum Reid keeps stealing the ball",
+  "text": "Ironvale Athletic는 공을 적게 가졌지만, Callum Reid가 막고 끊어내며 공을 3번 되찾았어요. 그 덕분에 빠른 역습 기회가 계속 살아나고 있어요!",
+  "cites": [
+   "e0201",
+   "e0220",
+   "e0243"
+  ]
+ }
+}

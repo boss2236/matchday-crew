@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Reid bricht Northgates Ballbesitz dreifach auf",
+  "text": "Callum Reid gewinnt 3 Bälle in 120 Sekunden: zwei Tackles, ein Abfangen. Ironvale Athletic führt 1-0 bei xG 1.15 gegen 0.86; Chaos 77, Momentum 16, PPDA 7.9 gegenüber 7.7.",
+  "cites": [
+   "e1414",
+   "e1420",
+   "e1437"
+  ]
+ }
+}

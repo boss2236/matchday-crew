@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic führt trotz 46% Ballbesitz",
+  "text": "Zur Pause 1-0: Ironvale Athletic erzielt 1.14 xG aus 4 Schüssen, Northgate Rovers nur 0.68 xG aus 6 Schüssen bei 54% Ballbesitz. PPDA 7.8 gegen 9.6, Momentum 12.",
+  "cites": [
+   "e0857"
+  ]
+ }
+}

@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Marchetti's sprint spikes pressure",
+  "text": "Leo Marchetti's 31.5 km/h, 13.3 m run at 55' underscores Harbour City's high‑press, quick‑combination style trying to breach Ironvale's deep block as momentum slides to –41 and chaos peaks at 63.",
+  "tags": [
+   "pressing",
+   "speed",
+   "counter"
+  ],
+  "cites": [
+   "e1074"
+  ]
+ }
+}

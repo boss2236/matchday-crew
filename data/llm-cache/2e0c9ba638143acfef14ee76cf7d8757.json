@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere recule sous le pressing de Harbour City",
+  "text": "À 64', Southmere United enchaîne des passes vers l'arrière (progression -45.1, puis -22.8, difficulté 52) et finit par une sortie sous pression. À 2-0, momentum 35, chaos 52; PPDA Harbour City 7.3.",
+  "cites": [
+   "e1364",
+   "e1367",
+   "e1369"
+  ]
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Dani Kowalski bitirdi, Harbour City 3-1 önde",
+  "text": "Harbour City taç atışından sonra kimse baskı yapmadan topu oynadı. Mateo Ruiz topu taşıdı, Dani Kowalski de ceza sahasına yakın bir yerden sakin sakin golü attı. Skor artık 3-1!",
+  "cites": [
+   "e1545",
+   "e1549",
+   "e1550",
+   "e1551",
+   "e1552"
+  ]
+ }
+}

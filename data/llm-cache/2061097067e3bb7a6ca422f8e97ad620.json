@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Novak's 86-difficulty ball wasted by Costa",
+  "text": "Jan Novak's 55.9m pass to Bruno Costa (difficulty 86, 49.8 progress) breaks the press, but Costa's 34.8m return to Nasser Haddad loses 23.5. Momentum -30, chaos 72; Southmere 0.38 xG, trailing 1-0.",
+  "cites": [
+   "e1296",
+   "e1298"
+  ]
+ }
+}

@@ -1,0 +1,16 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic arrache la victoire 1-0 face à Northgate Rovers",
+  "text": "Quel match accroché ! Northgate Rovers gardait le ballon plus souvent, mais Ironvale Athletic a joué malin : bien regroupé derrière, puis prêt à filer vers l'avant dès qu'il récupérait la balle. Au départ, Northgate Rovers a eu la plus grosse occasion avec Oscar Blum, mais son tir a été bloqué. Quelques instants plus tard, Zeke Mbeki a marqué le seul but de la partie, à bout portant. Ensuite, Ironvale Athletic a étouffé son adversaire, récupérant le ballon encore et encore, notamment avec Callum Reid et Hiro Tanaka. Zeke Mbeki est le héros du soir. Voilà pourquoi 1-0 : une occasion saisie, une défense solide.",
+  "cites": [
+   "e0461",
+   "e0484",
+   "e0485",
+   "e0603",
+   "e1363",
+   "e1437",
+   "e1700"
+  ]
+ }
+}

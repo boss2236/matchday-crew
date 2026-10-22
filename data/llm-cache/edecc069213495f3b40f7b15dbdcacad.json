@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate lassen den Ball geduldig laufen",
+  "text": "Northgate Rovers liegen 1-0 zurück und bleiben ruhig: Ilan Cohen, Kai Nakamura und Andres Vega spielen den Ball ohne Druck hin und her. Gefahr entsteht daraus aber noch nicht.",
+  "cites": [
+   "e0789",
+   "e0791",
+   "e0792",
+   "e0793"
+  ]
+ }
+}

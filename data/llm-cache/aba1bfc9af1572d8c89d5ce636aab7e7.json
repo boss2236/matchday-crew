@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate sterile: 56% possession, momentum -78",
+  "text": "Northgate Rovers lead possession 56% and final-third entries 22, but xG is 0.44 against 0.84 and 0 shots on target. Sven Dahl's 30.1m pass carried -8.5 progress; momentum sits at -78.",
+  "cites": [
+   "e0560",
+   "e0546",
+   "e0551"
+  ]
+ }
+}

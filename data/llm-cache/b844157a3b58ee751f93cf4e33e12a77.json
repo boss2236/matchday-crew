@@ -1,0 +1,15 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers vencem Southmere United por 1-0",
+  "text": "O Northgate Rovers (Patient possession) venceu por 1-0 com 55% de posse e 1.18 xG contra 0.9. O jogo abriu com momentum de 37 a favor do Northgate aos 7' e pressing do Southmere, com Rafa Ortega a somar 3 recuperações aos 19'. Aos 23', Emre Kaya serviu Oscar Blum com passe de 30.1 m e dificuldade 48; Blum finalizou de 4.3 m (0.472 xG, 101.4 km/h) para o 1-0. Blum falhou depois uma big chance de 0.284 xG aos 65'. O Southmere teve 57 entradas no último terço contra 42, PPDA de 7.6 contra 8.3, mas só 0.9 xG e ficou em 0. Blum, com 1.16 xG, foi o destaque.",
+  "cites": [
+   "e0426",
+   "e0427",
+   "e0428",
+   "e0341",
+   "e1205",
+   "e1784"
+  ]
+ }
+}

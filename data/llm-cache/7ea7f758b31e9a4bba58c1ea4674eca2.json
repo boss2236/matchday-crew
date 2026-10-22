@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kowalski macht das 4-1 für Harbour City",
+  "text": "Harbour City klaut den Ball, spielt schnell nach vorn, und Mateo Ruiz legt den Ball genau für Dani Kowalski auf. Der schiebt aus nächster Nähe ein: 4-1 in der 90+1'!",
+  "cites": [
+   "e1715",
+   "e1722",
+   "e1725"
+  ]
+ }
+}

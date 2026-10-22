@@ -1,0 +1,16 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Dani Kowalski의 3골, Harbour City 4-1 대역전승",
+  "text": "경기 초반에는 Ironvale Athletic이 먼저 기회를 만들었어요. 2분에 Zeke Mbeki의 슛이 막힌 뒤, 30분에 Luca Romero의 패스를 받은 Zeke Mbeki가 선제골을 넣었습니다. 그런데 후반 시작 직후인 49분, Leo Marchetti가 멀리서 때린 슛이 들어가면서 Harbour City가 동점을 만들었어요. 이 골이 분위기를 완전히 바꿨습니다. 이후 Harbour City는 계속 몰아쳤고, 62분과 81분에 Dani Kowalski가 연속골을 넣었어요. 90분에는 바로 골문 앞에서 마무리하며 쐐기를 박았습니다. Ironvale Athletic은 좋은 기회가 많았지만 결정적인 순간을 살리지 못했어요. 오늘의 주인공은 3골을 넣은 Dani Kowalski입니다!",
+  "cites": [
+   "e0041",
+   "e0600",
+   "e0999",
+   "e1223",
+   "e1552",
+   "e1725",
+   "e1727"
+  ]
+ }
+}

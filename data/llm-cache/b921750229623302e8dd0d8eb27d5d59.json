@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City: momentum 27, mas sem precisão",
+  "text": "Harbour City, a perder 0-1, sobe o momentum para 27, mas falha no passe longo: Marchetti, 60.3 de distância e dificuldade 73, é intercetado; Pike, dificuldade 64, vai para fora. xG: 0.16 contra 1.63.",
+  "cites": [
+   "e0725",
+   "e0734"
+  ]
+ }
+}

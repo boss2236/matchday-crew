@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United 动能升至25，传球却失准",
+  "text": "Southmere United 以 xG 0.69 对 0.27 占优，比分0-0，动能25。Bruno Costa 一脚48.8距离、难度62的长传出界，终结了这轮推进。",
+  "cites": [
+   "e0413",
+   "e0412"
+  ]
+ }
+}

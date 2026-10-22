@@ -1,11 +1,11 @@
 {
- "model": "openai:openai/gpt-oss-20b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Late Finish Extends Dominance",
-  "text": "Southmere’s 3-0 lead is sealed by Tariq Aziz’s 86:45 goal, a quick build‑up from Joel Martin that capitalised on a possession change and a short pass, maintaining control in the final third.",
+  "headline": "Interception sparks lightning counter at 3-0",
+  "text": "Joel Martin's interception turned into a carry and a pass to Tariq Aziz, who scored from 10 with a 0.106 xg shot, all within seven seconds. Harbour City's high press was beaten, and the game was already 3-0.",
   "tags": [
-   "control",
-   "momentum",
+   "counter",
+   "pressing",
    "finishing"
   ],
   "cites": [

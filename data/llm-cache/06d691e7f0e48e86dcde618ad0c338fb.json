@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City pierde inercia pese a progresar",
+  "text": "Brandt abre con pase de 38.5 m (progress 37.6, dificultad 61), pero Kowalski y Ruiz retroceden -21.2 y -30.2. Momentum -25, chaos 58; 0-0 con xG 0.68 de Southmere United contra 0.27.",
+  "cites": [
+   "e0255",
+   "e0259",
+   "e0260"
+  ]
+ }
+}

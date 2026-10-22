@@ -1,0 +1,15 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Contre-attaque d'Ironvale sur interception",
+  "text": "Après l'interception de Marco Silvan (e0587), 2 conduites de balle (11.8 et 9.1) puis 7 passes sans pression: Zeke Mbeki conclut à 96.1 km/h, xG 0.188. Ironvale mène 1-0 malgré 52% de possession adverse.",
+  "cites": [
+   "e0587",
+   "e0588",
+   "e0590",
+   "e0597",
+   "e0599",
+   "e0600"
+  ]
+ }
+}

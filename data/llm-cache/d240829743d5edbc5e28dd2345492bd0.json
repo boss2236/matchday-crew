@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City drängt, doch die langen Bälle misslingen",
+  "text": "Harbour City liegt 0-1 hinten und spielt mutig nach vorn. Die kurzen Pässe klappen oft, aber Leo Marchettis weiter Ball auf Yusuf Demir wurde abgefangen. Da fehlt noch die Genauigkeit!",
+  "cites": [
+   "e0722",
+   "e0723",
+   "e0724",
+   "e0725"
+  ]
+ }
+}

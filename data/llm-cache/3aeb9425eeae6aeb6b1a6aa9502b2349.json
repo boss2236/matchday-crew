@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale 1-0 önde, oyun sakinleşiyor",
+  "text": "Ironvale Athletic 1-0 önde. Luca Romero'nun pasını rakip kesince ortalık karıştı, ama Hiro Tanaka topu ayağında taşıyarak takımı sakinleştirdi. Maç yeniden kontrol altına girmeye başladı.",
+  "cites": [
+   "e0980",
+   "e0990",
+   "e0991"
+  ]
+ }
+}

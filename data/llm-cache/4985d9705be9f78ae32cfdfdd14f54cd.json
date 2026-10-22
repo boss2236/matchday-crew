@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City's press stops Southmere",
+  "text": "Southmere were passing nicely, but when Rafa Ortega and Bruno Costa got pressed, Costa's pass to Tariq Aziz went out of play. Harbour City's high press is really biting now!",
+  "cites": [
+   "e1177",
+   "e1179"
+  ]
+ }
+}

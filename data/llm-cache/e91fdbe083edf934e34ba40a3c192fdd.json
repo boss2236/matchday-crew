@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City outscore their xG at full time",
+  "text": "Full time, 4-1 to Harbour City despite xG 1.26 against Ironvale Athletic's 1.76. They landed 7 of 12 shots on target, pressed at PPDA 8.5 versus 10.3, and held momentum at 75.",
+  "cites": [
+   "e1727"
+  ]
+ }
+}

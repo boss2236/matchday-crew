@@ -1,17 +1,16 @@
 {
- "model": "openai:openai/gpt-oss-20b",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Northgate’s 26‑point swing",
-  "text": "A 26‑point momentum swing at 42:22, with chaos at 54, shows Northgate’s patient possession overturning Ironvale’s deep block, turning control into a chaotic counter‑attack.",
+  "headline": "Northgate Rovers tighten their grip before half-time",
+  "text": "Momentum swings to -26 as Northgate Rovers recycle patiently. After Oscar Blum's saved shot, Ilan Cohen, Kai Nakamura and Andres Vega string unpressured passes together, probing Ironvale Athletic's deep block while trailing 1-0.",
   "tags": [
    "momentum",
-   "control",
-   "chaos"
+   "possession",
+   "control"
   ],
   "cites": [
    "e0782",
    "e0789",
-   "e0790",
    "e0791",
    "e0792",
    "e0793"

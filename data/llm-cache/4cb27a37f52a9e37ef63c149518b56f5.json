@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic-এর প্রেসিংয়ে ১২০ সেকেন্ডে ৩ রিগেইন",
+  "text": "Ironvale Athletic 120 সেকেন্ডে 3 বার বল জিতেছে: 1টি ট্যাকল, 2টি ইন্টারসেপশন। xG 0.84 বনাম 0.44, PPDA 8.5, স্কোর 1-0, chaos 62; Callum Reid-এর ইন্টারসেপশনে কাউন্টারের হুমকি বাড়ছে।",
+  "cites": [
+   "e0564",
+   "e0581",
+   "e0603"
+  ]
+ }
+}

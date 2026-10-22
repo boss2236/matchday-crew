@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Marchetti Sprint Shifts Press Momentum",
+  "text": "Leo Marchetti's 31.2 km/h sprint over 7.4 units at 44' reflects Harbour City's PPDA 9.7, countering Ironvale's deep block as momentum sits –52 and chaos 57.",
+  "cites": [
+   "e0857"
+  ]
+ }
+}

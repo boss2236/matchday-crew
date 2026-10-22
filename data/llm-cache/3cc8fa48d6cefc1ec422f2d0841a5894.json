@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Golaço de Kowalski, 3-1 ao Harbour City!",
+  "text": "Que jogada, amigo! O Harbour City saiu de uma reposição lateral e, sem ninguém a pressionar, Mateo Ruiz serviu Dani Kowalski, que rematou de longe e marcou. Está 3-1!",
+  "cites": [
+   "e1545",
+   "e1550",
+   "e1551",
+   "e1552"
+  ]
+ }
+}

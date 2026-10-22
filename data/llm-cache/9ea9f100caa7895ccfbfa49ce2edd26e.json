@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City perde controllo: momentum -27",
+  "text": "Sullo 0-0, Mateo Ruiz trova Leo Marchetti con un passaggio di 26.9 sotto pressione (difficoltà 64, progressione 22); poi l'intercetto da 55.6 spinge il caos a 64, con momentum a -27.",
+  "cites": [
+   "e0671",
+   "e0672"
+  ]
+ }
+}

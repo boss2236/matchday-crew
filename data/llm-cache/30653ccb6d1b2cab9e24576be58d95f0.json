@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City dördüncüyü buldu!",
+  "text": "Harbour City topu kapıp hızlı paslarla ilerledi, Mateo Ruiz'in müthiş ileri pasını Dani Kowalski golle bitirdi. Harbour City 4-1 öne geçti, maç neredeyse bitti!",
+  "cites": [
+   "e1715",
+   "e1722",
+   "e1725"
+  ]
+ }
+}

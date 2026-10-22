@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale aguanta el 1-0 y se calma",
+  "text": "Ironvale Athletic gana 1-0 y, aunque Luca Romero perdió un pase en el 51:20, Hiro Tanaka respondió con dos avances seguidos y el equipo recuperó la calma con el balón.",
+  "cites": [
+   "e0980",
+   "e0990",
+   "e0991"
+  ]
+ }
+}

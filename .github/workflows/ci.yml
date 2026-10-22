@@ -51,6 +51,8 @@ jobs:
         run: |
           node --version
           CHROME=google-chrome node scripts/ui-check.ts "http://localhost:8080/?speed=60&autostart=1" ui 15
+          CHROME=google-chrome node scripts/ui-check.ts "http://localhost:8080/?speed=60&autostart=1&view=players" ui-players 15
+          CHROME=google-chrome node scripts/ui-check.ts "http://localhost:8080/?speed=60&autostart=1&view=3d" ui-3d 15
       - uses: actions/upload-artifact@v4
         if: always()
         with:

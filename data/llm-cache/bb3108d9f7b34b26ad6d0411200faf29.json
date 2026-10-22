@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City 抢断后一击致命",
+  "text": "Harbour City 在门前抢下球,Mateo Ruiz 一脚漂亮的直塞,Dani Kowalski 轻松推射破门!比分变成 4-1,这球太干脆了!",
+  "cites": [
+   "e1715",
+   "e1722",
+   "e1725"
+  ]
+ }
+}

@@ -70,6 +70,9 @@ export interface LiveSessionOptions {
   away?: string;
   // Match seconds per real second. 0 plays as fast as possible.
   speed?: number;
+  // Match second to start playing live from: everything before it is sent at
+  // once (the picture, score and crew catch up), then the pace applies.
+  from?: number;
   audiences?: Audience[];
   llm?: JsonModel | null;
   translator?: TextTranslator | null;
@@ -82,6 +85,7 @@ export interface LiveSessionOptions {
 export class LiveSession {
   match: Match;
   speed: number;
+  from: number;
   emit: Emit;
   now: () => number;
   sleep: (ms: number) => Promise<unknown>;
@@ -94,9 +98,10 @@ export class LiveSession {
   queue: Promise<void>;
   lastStateAt: number;
 
-  constructor({ seed = 7, home = 'harbour', away = 'ironvale', speed = 20, audiences = audiencesFor(), llm = null, translator = null, safety = null, emit = () => {}, now = () => Date.now(), sleep }: LiveSessionOptions = {}) {
+  constructor({ seed = 7, home = 'harbour', away = 'ironvale', speed = 20, from = 0, audiences = audiencesFor(), llm = null, translator = null, safety = null, emit = () => {}, now = () => Date.now(), sleep }: LiveSessionOptions = {}) {
     this.match = simulateMatch({ seed, home, away });
     this.speed = speed;
+    this.from = from;
     this.emit = emit;
     this.now = now;
     this.sleep = sleep ?? ((ms) => new Promise((r) => setTimeout(r, ms)));
@@ -137,8 +142,8 @@ export class LiveSession {
     const started = this.now();
     for (const ev of events) {
       if (this.stopped) return;
-      if (this.speed > 0) {
-        const due = started + (ev.t / this.speed) * 1000;
+      if (this.speed > 0 && ev.t > this.from) {
+        const due = started + ((ev.t - this.from) / this.speed) * 1000;
         const wait = due - this.now();
         if (wait > 0) await this.sleep(wait);
         if (this.stopped) return;

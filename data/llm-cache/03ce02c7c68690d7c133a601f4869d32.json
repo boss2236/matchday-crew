@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Mipira mirefu ya Southmere yapoteza kasi",
+  "text": "Pasi e0574 (mita 33.3, ugumu 51) na e0584 (mita 30.3, ugumu 41) ziliingiliwa dakika ya 28. Momentum 26, chaos 56; Southmere wanaongoza xG 0.71 dhidi ya 0.27, ila presha ya Harbour City, PPDA 7.1, inawabana.",
+  "cites": [
+   "e0574",
+   "e0584"
+  ]
+ }
+}

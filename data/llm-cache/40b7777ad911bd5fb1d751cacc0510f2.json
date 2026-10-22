@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United mulai menekan balik!",
+  "text": "Seru banget! Southmere United merebut bola 3 kali dalam waktu singkat, dua kali lewat Tariq Aziz dan sekali lewat Joel Martin. Northgate Rovers jadi susah main tenang.",
+  "cites": [
+   "e1251",
+   "e1261",
+   "e1272"
+  ]
+ }
+}

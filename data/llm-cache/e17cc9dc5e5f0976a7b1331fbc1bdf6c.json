@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers 高位压迫 120秒3次夺回",
+  "text": "41:22,Kai Nakamura 再度断球,Northgate Rovers 在120秒内3次夺回球权。PPDA 8.5对9.1,xG 0.68对0.16,1-0领先,动量-27。",
+  "cites": [
+   "e0738",
+   "e0757",
+   "e0765"
+  ]
+ }
+}

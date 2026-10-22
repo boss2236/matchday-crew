@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers recyclent sans pression",
+  "text": "Momentum -26 : après le tir d'Oscar Blum (xG 0.09, arrêté), Ilan Cohen, Kai Nakamura et Andres Vega enchaînent 4 passes non pressées, dont 37.1 m (difficulté 54), face au bloc d'Ironvale Athletic. PPDA 7.2.",
+  "cites": [
+   "e0782",
+   "e0789",
+   "e0791",
+   "e0792",
+   "e0793"
+  ]
+ }
+}

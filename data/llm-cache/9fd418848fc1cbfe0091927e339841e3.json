@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate控球70%，Nakamura传球被断",
+  "text": "Northgate Rovers控球70、传球成功率88，但Kai Nakamura向Oscar Blum的前传（距离23，难度48）被拦截。比分0-0，momentum -65，xG 0，PPDA 4.8。",
+  "cites": [
+   "e0099",
+   "e0097",
+   "e0098"
+  ]
+ }
+}

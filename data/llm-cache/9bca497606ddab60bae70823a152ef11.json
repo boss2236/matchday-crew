@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale fait circuler le ballon avec calme",
+  "text": "Ironvale Athletic enchaîne les passes : Owen Lusk trouve Ade Bamidele, qui sert Hiro Tanaka. Un joli geste d'équipe, même si Northgate Rovers garde le ballon plus longtemps, avec 59 % de possession.",
+  "cites": [
+   "e0194",
+   "e0195"
+  ]
+ }
+}

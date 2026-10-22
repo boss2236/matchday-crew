@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kowalski cetak gol dari xG 0.06",
+  "text": "Harbour City merebut bola lewat interception (e1201), 14 buildUpPasses, lalu Yusuf Demir mengumpan ke Dani Kowalski. Tembakan 97.9 km/h dari 13.5 masuk meski xG 0.06; skor 2-1, momentum 33.",
+  "cites": [
+   "e1201",
+   "e1221",
+   "e1222",
+   "e1223"
+  ]
+ }
+}

@@ -1,0 +1,15 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere öndeler ama kontrol kayıyor",
+  "text": "Southmere United 1-0 önde ama Harbour City baskıyı artırdı. Joel Martin'in pasını rakip kesti, sonra iki pas daha dışarı gitti. Top ayaklarında durmuyor, sakin kalmaları lazım!",
+  "tags": [
+   "momentum"
+  ],
+  "cites": [
+   "e1221",
+   "e1230",
+   "e1234"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale: lanci lunghi, xG 0.02 sprecato",
+  "text": "Momentum -53, caos 64: il lancio di Ivo Petrov da 44.5m viene intercettato (difficoltà 95), Hiro Tanaka trova Zeke Mbeki con 41.2m (difficoltà 89), ma il tiro da 22.3m vale solo 0.02 xG e finisce fuori.",
+  "cites": [
+   "e1059",
+   "e1067",
+   "e1068"
+  ]
+ }
+}

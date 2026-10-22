@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic gana 1-0 al contragolpe",
+  "text": "Ironvale Athletic vence 1-0 con 47% de posesión y 1.42 xG frente a 0.86 de Northgate Rovers, que tuvo 53% y 9 tiros. PPDA 8.8 contra 7.9; momentum 7.",
+  "cites": [
+   "e1700"
+  ]
+ }
+}

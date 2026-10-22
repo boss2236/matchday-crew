@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kowalski finishes 0.79 xG chance for 4-1",
+  "text": "Harbour City's interception (e1715) leads to Mateo Ruiz's 21.6 progress pass, difficulty 48 (e1722). Dani Kowalski finishes a 0.79 xG shot from 2.5 distance (e1724) for 4-1 at 90+1'.",
+  "cites": [
+   "e1715",
+   "e1722",
+   "e1724",
+   "e1725"
+  ]
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Tariq Aziz firma tres goles y Southmere United gana",
+  "text": "¡Qué tarde de Tariq Aziz! Southmere United venció 3-0 a Harbour City, y el delantero fue la gran estrella. Todo empezó con un susto: en el minuto 4, Tariq Aziz tuvo una ocasión clarísima, pero el portero la detuvo. Aun así, no se rindió. Justo antes del descanso, Joel Martin le dio un buen pase y Tariq Aziz marcó el 1-0. Después del descanso, Bruno Costa lo encontró en el área y llegó el 2-0. Cerca del final, Joel Martin recuperó la pelota y Tariq Aziz la mandó dentro otra vez para el 3-0. Harbour City chutó bastante, pero casi nunca con peligro de verdad. Southmere United, en cambio, aprovechó cada oportunidad y se llevó la victoria.",
+  "cites": [
+   "e0077",
+   "e1012",
+   "e1014",
+   "e1285",
+   "e1287",
+   "e1849",
+   "e1851",
+   "e1950"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale elevan el momentum a 27",
+  "text": "Ironvale Athletic reciclan con Owen Lusk tras el pase interceptado de Ivo Petrov (e0188); Ade Bamidele conecta con Hiro Tanaka con 19.8 de progreso y dificultad 33. Momentum 27, caos 57, 0-0.",
+  "cites": [
+   "e0188",
+   "e0194",
+   "e0195"
+  ]
+ }
+}

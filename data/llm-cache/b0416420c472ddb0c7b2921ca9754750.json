@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Zeke Mbeki firma il contropiede di Ironvale!",
+  "text": "Marco Silvan ruba palla e Ironvale Athletic scappa via con una serie di passaggi puliti, senza che nessuno li disturbi. Luca Romero serve Zeke Mbeki e lui la butta dentro: 0-1!",
+  "cites": [
+   "e0587",
+   "e0597",
+   "e0599",
+   "e0600"
+  ]
+ }
+}

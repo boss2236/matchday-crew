@@ -1,0 +1,18 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers 1-0 Southmere United、Blumの一撃が決着",
+  "text": "Northgate Rovers(Patient possession)が1-0で勝利。7分にAndres Vegaが10.9mのキャリー(26.5km/h)で流れを作り、23分にEmre Kayaの難度48のパス(30.1m)からOscar Blumが至近距離4.3mから0.472のxGを決めて先制した。その後Southmere Unitedは13分にRafa Ortegaのキャリーで反撃し、19分にはOrtegaを軸に120秒で3回のregainsを記録。ただし39分のAlfie Grantの難度84のパスなど、プレッシャー下の攻撃は実らなかった。65分にBlumのxG 0.284の決定機は枠外。xGは1.18対0.9、PPDAは8.3対7.6、終盤のmomentumは-63。Blumは1ゴール、xG 1.16でMVP。",
+  "cites": [
+   "e0116",
+   "e0221",
+   "e0341",
+   "e0426",
+   "e0427",
+   "e0428",
+   "e0713",
+   "e1205",
+   "e1784"
+  ]
+ }
+}

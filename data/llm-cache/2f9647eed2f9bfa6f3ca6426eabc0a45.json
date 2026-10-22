@@ -1,13 +1,17 @@
 {
- "model": "openai:openai/gpt-oss-20b",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Zeke Mbeki’s quick strike secures Ironvale win",
-  "text": "Ironvale Athletic began the match with a patient, direct style that kept Northgate Rovers on the back foot. Early pressure from Kai Nakamura was turned back, but the turning point came in the 27th minute when Zeke Mbeki broke through and scored, giving Ironvale the lead. Northgate tried to rally, but Ironvale’s pressing and solid defence held firm. The game settled into a calm finish, with Ironvale’s disciplined play keeping the score 1‑0. Zeke Mbeki’s single goal proved the difference, turning a tight contest into a deserved victory.",
+  "headline": "Zeke Mbeki's close-range strike gives Ironvale a hard-fought win",
+  "text": "Northgate Rovers started the brighter side, passing it around patiently, and Oscar Blum nearly scored from right in front of goal, but his shot was blocked. Just a minute later, Ironvale Athletic punished them. Zeke Mbeki pounced from close range and fired home. After that, Ironvale sat deep and stayed compact. Callum Reid and Hiro Tanaka kept snapping into tackles and winning the ball back. Mbeki almost doubled the lead just before half-time but put his shot wide. In the second half, Rovers kept the ball but couldn't find a way through, while Ironvale broke forward whenever they could. The home side held on to win 1-0. Mbeki was the standout player, scoring the winner and working hard everywhere.",
   "cites": [
-   "e0485",
+   "e0461",
    "e0484",
-   "e0483",
-   "e0485"
+   "e0485",
+   "e0603",
+   "e0855",
+   "e1363",
+   "e1437",
+   "e1700"
   ]
  }
 }

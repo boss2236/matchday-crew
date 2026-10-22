@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City: Kontrolle ohne Gefahr",
+  "text": "Harbour City spielt fünf unbedrängte Pässe, davon e0351 mit Schwierigkeit 64, doch Arjun Mehtas Schuss aus 25.2 Distanz bringt nur 0.015 xG. Gesamt-xG: 0.06 gegen 0.89 für Ironvale Athletic, Momentum 33.",
+  "cites": [
+   "e0351",
+   "e0352",
+   "e0353"
+  ]
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City 长传失控，动量仅27",
+  "text": "Harbour City 0-1 落后，动量27、混乱度46。Leo Marchetti 的60.3米长传（难度73）被拦截，Jonah Pike 的40米传球（难度64）出界；xG仅0.16，对手1.63。",
+  "cites": [
+   "e0725",
+   "e0734"
+  ]
+ }
+}

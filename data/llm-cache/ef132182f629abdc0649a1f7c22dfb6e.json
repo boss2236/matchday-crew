@@ -1,17 +1,15 @@
 {
- "model": "openai:openai/gpt-oss-20b",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Northgate’s Momentum Collapse",
-  "text": "After a series of high‑speed passes and an intercepted long ball, Northgate’s momentum plunged to –78, with chaos rising to 48, forcing a shift from patient possession to frantic pressing and disrupting their control.",
+  "headline": "Rovers dominate the ball, still no breakthrough",
+  "text": "Northgate Rovers have swung momentum to -78 with patient recycling, but trail 1-0 with 0 shots on target. Ilan Cohen's 36.6m forward ball was intercepted, so Sven Dahl reset backwards again.",
   "tags": [
    "momentum",
-   "chaos",
-   "pressing"
+   "possession",
+   "control"
   ],
   "cites": [
-   "e0539",
    "e0546",
-   "e0548",
    "e0551",
    "e0560"
   ]

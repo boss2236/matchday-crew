@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere ahead but starting to wobble",
+  "text": "Southmere United lead 1-0, but Harbour City's pressing is making them rush. Joel Martin's long pass was cut out, and then two more passes went straight out of play.",
+  "cites": [
+   "e1221",
+   "e1230",
+   "e1234"
+  ]
+ }
+}

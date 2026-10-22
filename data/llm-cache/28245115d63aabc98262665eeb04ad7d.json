@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Zeke Mbeki rate une énorme occasion !",
+  "text": "Harbour City garde le ballon, mais c'est Ironvale Athletic qui frappe ! Zeke Mbeki, seul à 2.5 mètres du but, voit son tir contré. Quelle occasion immense !",
+  "cites": [
+   "e0041"
+  ]
+ }
+}

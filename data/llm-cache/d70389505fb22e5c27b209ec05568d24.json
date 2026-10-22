@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic 无压力出球推高势头",
+  "text": "Ironvale Athletic 连续4次无压力传球成功,Callum Reid 33.4米传给 Luca Romero,难度50,推进17.9;随后传球出界。势头26,控球率40%,PPDA 11.2。",
+  "cites": [
+   "e0323",
+   "e0324",
+   "e0325",
+   "e0326",
+   "e0327"
+  ]
+ }
+}

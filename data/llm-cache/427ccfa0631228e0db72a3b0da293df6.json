@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City rodam a bola, mas sem perigo",
+  "text": "O Harbour City perde por 3-0 e vai trocando passes sem ninguém o incomodar. Mas vários vão para trás, como o de Leo Marchetti para Elias Brandt. Muita calma, pouca ameaça!",
+  "cites": [
+   "e1926",
+   "e1928",
+   "e1929",
+   "e1930"
+  ]
+ }
+}

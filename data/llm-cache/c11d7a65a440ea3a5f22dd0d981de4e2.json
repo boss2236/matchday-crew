@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate控球占优但落后",
+  "text": "Northgate Rovers控球56%、22次进入final third,xG 0.44对0.84,0次射正。Sven Dahl向Ravi Kapoor的30.1米传球progress -8.5,momentum -78。",
+  "cites": [
+   "e0560",
+   "e0546",
+   "e0551"
+  ]
+ }
+}

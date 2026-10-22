@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "¡Ironvale les roba el balón una y otra vez!",
+  "text": "Ironvale Athletic recupera el balón tres veces en 2 minutos, la última con Zeke Mbeki, y Northgate Rovers no logra tocar a gusto. Con el 1-0, ¡cada contraataque huele a peligro!",
+  "cites": [
+   "e0900",
+   "e0928",
+   "e0935"
+  ]
+ }
+}

@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kowalski ने Harbour City को 3-1 पर पहुँचाया",
+  "text": "क्या शानदार खेल! Mateo Ruiz और Dani Kowalski ने आपस में पास खेले, फिर Kowalski ने सिर्फ़ 2.5 मीटर से गोल कर दिया। Harbour City अब 3-1 से आगे है, यार!",
+  "cites": [
+   "e1718",
+   "e1720",
+   "e1722",
+   "e1724"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic empieza a mover el balón",
+  "text": "Tras perder un pase, Ironvale Athletic no se rinde: Owen Lusk toca atrás con calma y Ade Bamidele lanza un gran pase largo a Hiro Tanaka. ¡Sigue 0-0, pero ya se atreven!",
+  "cites": [
+   "e0188",
+   "e0194",
+   "e0195"
+  ]
+ }
+}

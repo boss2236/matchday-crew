@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale ataca em velocidade e quase assusta",
+  "text": "Que lançamento de Ade Bamidele! Bola de 49.5 metros direto para Zeke Mbeki, e o Ironvale Athletic foi rápido para a frente. O chute de Zeke acabou bloqueado, mas o perigo foi real.",
+  "cites": [
+   "e0575",
+   "e0576",
+   "e0577",
+   "e0578"
+  ]
+ }
+}

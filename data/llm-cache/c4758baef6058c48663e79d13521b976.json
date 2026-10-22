@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City 후방 순환, 위협은 없다",
+  "text": "90+3'에 Harbour City가 압박 없이 5연속 패스를 완료했지만 progress -23.9, -9.4, -10.5로 후퇴했다. xG 0.62, 모멘텀 -25, chaos 46: 통제된 순환일 뿐 무딘 흐름이다.",
+  "cites": [
+   "e1926",
+   "e1928",
+   "e1929",
+   "e1930"
+  ]
+ }
+}

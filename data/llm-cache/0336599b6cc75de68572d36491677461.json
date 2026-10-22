@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City, 4-1 완승!",
+  "text": "Harbour City가 Ironvale Athletic을 4-1로 이겼어요! 기회의 질은 조금 아쉬웠지만, 유효슈팅 12번 중 7번이 아니라 슈팅 12번 중 7번을 골문으로 보내는 정확함이 승리를 만들었습니다.",
+  "cites": [
+   "e1727"
+  ]
+ }
+}

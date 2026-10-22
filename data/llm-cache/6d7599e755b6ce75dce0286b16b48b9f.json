@@ -1,0 +1,13 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour City’s rapid pass chain ends blocked",
+  "text": "Momentum 25, chaos 55 as Ruiz‑Marchetti‑Ruiz passes (28.2 m d50, 25.5 m d43) and Ruiz to Kowalski (31.2 m d60) precede Kowalski’s blocked 0.078 xG shot.",
+  "cites": [
+   "e0887",
+   "e0889",
+   "e0890",
+   "e0893"
+  ]
+ }
+}

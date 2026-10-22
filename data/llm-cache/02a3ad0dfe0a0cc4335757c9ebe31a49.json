@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic ruba palla dopo palla",
+  "text": "Ironvale Athletic recupera il pallone 3 volte in 120 secondi! Callum Reid chiude la serie con un intercetto e il 1-0 resta in piedi: Northgate Rovers non riesce a far girare il suo gioco paziente.",
+  "cites": [
+   "e0564",
+   "e0581",
+   "e0603"
+  ]
+ }
+}

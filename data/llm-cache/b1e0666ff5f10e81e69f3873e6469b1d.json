@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "¡Harbour City sentencia con el cuarto!",
+  "text": "¡Qué jugada! Harbour City roba el balón y Mateo Ruiz lanza un pase hacia delante que deja a Dani Kowalski solo para marcar. ¡Es el 4-1 en el 90+1'!",
+  "cites": [
+   "e1715",
+   "e1722",
+   "e1725"
+  ]
+ }
+}

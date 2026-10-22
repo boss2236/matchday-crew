@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers wanatawala mpira kabla ya mapumziko",
+  "text": "Northgate Rovers wanapiga pasi kwa utulivu! Ilan Cohen, Kai Nakamura na Andres Vega wanapasiana bila presha, wakitafuta nafasi dhidi ya Ironvale Athletic, ingawa bado wako nyuma 1-0.",
+  "cites": [
+   "e0789",
+   "e0791",
+   "e0792",
+   "e0793"
+  ]
+ }
+}

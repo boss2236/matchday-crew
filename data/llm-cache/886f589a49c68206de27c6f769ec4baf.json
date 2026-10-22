@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United inverse le tempo par le pressing",
+  "text": "Southmere United récupère 3 ballons en 120 secondes (Liam Doyle, Tariq Aziz, Rafa Ortega). Chaos à 61, momentum à -40, xG 0.16 contre 0.11 : la possession de Northgate Rovers (60%) est perturbée à 0-0.",
+  "cites": [
+   "e0306",
+   "e0328",
+   "e0341"
+  ]
+ }
+}

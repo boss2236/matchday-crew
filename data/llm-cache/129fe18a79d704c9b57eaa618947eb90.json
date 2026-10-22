@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "¡Kowalski remata el 4-1 para Harbour City!",
+  "text": "¡Qué jugada! Dani Kowalski roba el balón, combina con Mateo Ruiz y, sin nadie encima, empuja el gol casi bajo el arco. Harbour City ya gana 4-1 en el minuto 90.",
+  "cites": [
+   "e1715",
+   "e1722",
+   "e1724",
+   "e1725"
+  ]
+ }
+}

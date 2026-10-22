@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers menang 1-0 berkat gol Oscar Blum",
+  "text": "Northgate Rovers menang 1-0 atas Southmere United. Andres Vega membuka laga lewat carry 10.9 m pada menit 7 dengan momentum +37. Titik balik terjadi di menit 23: Emre Kaya mengirim umpan sulit (difficulty 48) ke Oscar Blum, yang mencetak gol dari xG 0.472 dengan tembakan 101.4 km/jam. Southmere United bangkit lewat pressing Rafa Ortega dan momentum -33 di akhir laga, namun 57 final third entries tidak berbuah gol. xG Northgate Rovers 1.18 berbanding 0.9; PPDA 8.3 lawan 7.6. Blum, dengan 1 gol dan xG 1.16, menjadi pemain terbaik meski peluang 0.284 di menit 65 melenceng.",
+  "cites": [
+   "e0116",
+   "e0426",
+   "e0428",
+   "e1205",
+   "e1784"
+  ]
+ }
+}

@@ -1,0 +1,15 @@
+{
+ "model": "copilot:claude-opus-5.5",
+ "output": {
+  "headline": "Okafor steals it, Marchetti makes it level!",
+  "text": "Sami Okafor snatches the ball, three quick passes later Leo Marchetti fires home from a real long shot. Harbour City are level, and the sofa is shaking!",
+  "cites": [
+   "e0991",
+   "e0994",
+   "e0995",
+   "e0996",
+   "e0998",
+   "e0999"
+  ]
+ }
+}

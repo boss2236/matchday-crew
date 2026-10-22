@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City vence com pontaria afiada!",
+  "text": "Fim de jogo: o Harbour City venceu o Ironvale Athletic por 4-1! Mesmo criando menos chances claras, acertou o alvo quando contou e fez a festa com muita pontaria.",
+  "cites": [
+   "e1727"
+  ]
+ }
+}

@@ -1,18 +1,14 @@
 {
- "model": "openai:openai/gpt-oss-120b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Northgate's Controlled Build‑Up Shifts Momentum",
-  "text": "A series of short, high‑pressured passes (e0110, e0111, e0112, e0115) and quick carries (e0113, e0116) under patient possession kept 69% control, raising momentum to 37 while chaos rose to 42, signalling a decisive swing.",
+  "headline": "Northgate patiently probe, then break the line",
+  "text": "Northgate Rovers hold 69% possession, and Sven Dahl's pressured pass to Andres Vega (progress 30.9, difficulty 79) breaks the shape. Momentum is 37 with chaos at 42, but 0 shots against Southmere's 1 shows control without a threat yet.",
   "tags": [
    "possession",
-   "pressing",
-   "momentum"
+   "momentum",
+   "control"
   ],
   "cites": [
-   "e0110",
-   "e0111",
-   "e0112",
-   "e0113",
    "e0115",
    "e0116"
   ]

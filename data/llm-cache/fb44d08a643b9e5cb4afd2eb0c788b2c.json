@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City spingono, ma Ironvale resiste",
+  "text": "Harbour City è sotto 0-1 e ci prova: Mateo Ruiz lancia lungo, Dani Kowalski corre palla al piede e tira da vicino, ma un difensore di Ironvale Athletic blocca tutto!",
+  "cites": [
+   "e0890",
+   "e0891",
+   "e0893"
+  ]
+ }
+}

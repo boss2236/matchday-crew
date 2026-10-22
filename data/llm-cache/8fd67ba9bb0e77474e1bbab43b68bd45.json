@@ -1,20 +1,20 @@
 {
- "model": "openai:openai/gpt-oss-120b",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Rapid Build‑Up Leads to Equaliser",
-  "text": "After an interception (e0991), Harbour City executed three swift, unpressured passes (e0994‑e0996) and a short carry (e0997), culminating in a high‑speed 83 km/h shot (e0998) that restored parity, highlighting controlled possession over chaos.",
+  "headline": "Okafor interception sparks Harbour City's equaliser",
+  "text": "Sami Okafor's interception started a quick break of 3 passes, none under pressure, and Leo Marchetti scored from a 0.024 xG chance. Harbour City's high press levels the score at 1-1 even though Ironvale Athletic lead xG 1.63 to 0.35.",
   "tags": [
-   "possession",
-   "control",
-   "chance"
+   "pressing",
+   "counter",
+   "finishing"
   ],
   "cites": [
    "e0991",
    "e0994",
    "e0995",
    "e0996",
-   "e0997",
-   "e0998"
+   "e0998",
+   "e0999"
   ]
  }
 }

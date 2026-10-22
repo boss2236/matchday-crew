@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Callum Reid klaut den Ball dreimal",
+  "text": "Callum Reid holt sich für Ironvale Athletic immer wieder den Ball zurück, mit Tackle und zwei Abfangaktionen. Harbour City hat zwar mehr Ballbesitz, aber Ironvale bleibt gefährlicher und lauert auf Konter.",
+  "cites": [
+   "e0201",
+   "e0220",
+   "e0243"
+  ]
+ }
+}

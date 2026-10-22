@@ -1,0 +1,15 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers 直传撕开防线",
+  "text": "Gabe Moreno 63.8米长传找到Emre Kaya,难度88;三次带球后,Oscar Blum 在4.3米处无压力射门,xG 0.472,时速101.4,Northgate Rovers 1-0。",
+  "cites": [
+   "e0422",
+   "e0423",
+   "e0424",
+   "e0425",
+   "e0426",
+   "e0427"
+  ]
+ }
+}

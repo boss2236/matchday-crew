@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "南部联队末段连续夺回球权",
+  "text": "Southmere United 3-0领先,90分钟前120秒内通过Joel Martin与Tariq Aziz完成3次反抢,PPDA 7.8,xG 1.95对0.62,momentum 3,压制Harbour City反扑。",
+  "cites": [
+   "e1858",
+   "e1889",
+   "e1897"
+  ]
+ }
+}

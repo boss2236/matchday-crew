@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale tente les longs ballons !",
+  "text": "Ironvale Athletic joue long et direct. Hiro Tanaka lance un immense ballon de 41.2m vers Zeke Mbeki, qui tente sa chance… mais le tir passe à côté. Quelle énergie dans ce match !",
+  "cites": [
+   "e1067",
+   "e1068"
+  ]
+ }
+}

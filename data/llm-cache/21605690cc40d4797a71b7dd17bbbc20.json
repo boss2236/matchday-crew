@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers-এর দখল আছে, গোল নেই",
+  "text": "Northgate Rovers বল নিজেদের পায়েই রাখছে, কিন্তু 0টা শট লক্ষ্যে। Ilan Cohen লম্বা পাস বাড়াতেই বল কেটে গেল, তাই Sven Dahl আবার পিছিয়ে খেলা সাজাল।",
+  "cites": [
+   "e0551",
+   "e0560"
+  ]
+ }
+}

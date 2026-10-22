@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate topu kaptırdı, ama toparlandı",
+  "text": "Northgate Rovers 1-0 geride. Gabe Moreno'nun çok uzak ve zor paso denemesi kesildi, topu rakip kaptı. Hemen ardından Ilan Cohen, Oscar Blum'a güzel bir paso verip oyunu yeniden ileri taşıdı.",
+  "cites": [
+   "e1229",
+   "e1243"
+  ]
+ }
+}

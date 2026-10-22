@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic يتقدمون 1-0 رغم الفوضى",
+  "text": "Ironvale Athletic يقودون 1-0 بـ xG 1.14 مقابل 0.71 وبنسبة استحواذ 46%، مع فوضى 54 وزخم 25. تمريرة Luca Romero (صعوبة 55، مسافة 32.7) قُطعت، ثم استعاد Hiro Tanaka السيطرة بحمل 9.1 و8.5.",
+  "cites": [
+   "e0980",
+   "e0990",
+   "e0991"
+  ]
+ }
+}

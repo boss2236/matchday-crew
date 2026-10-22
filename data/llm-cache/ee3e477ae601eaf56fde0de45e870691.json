@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Tariq Aziz signe un triplé et Southmere United s'impose",
+  "text": "Quel match pour Southmere United ! Dès le début, Tariq Aziz a failli ouvrir le score, mais le gardien a sauvé. Harbour City a bien résisté, sans réussir à vraiment inquiéter l'adversaire. Juste avant la pause, Joel Martin a trouvé Tariq Aziz, qui a marqué : 1-0. Après la reprise, Bruno Costa lui a offert un deuxième but, 2-0. Puis, vers la fin, Joel Martin a récupéré le ballon et Tariq Aziz a encore frappé : 3-0. Southmere United a gagné parce qu'il a mieux profité de ses occasions. Tariq Aziz est le héros du soir avec 3 buts. Quelle soirée !",
+  "cites": [
+   "e0077",
+   "e1014",
+   "e1287",
+   "e1851",
+   "e1950"
+  ]
+ }
+}

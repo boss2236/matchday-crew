@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale colpisce con il lancio lungo",
+  "text": "Ironvale è avanti 1-0 e fa male con palloni diretti: Ivo Petrov lancia lungo per Luca Romero, e la difesa di Harbour City viene saltata come se niente fosse. Che azione!",
+  "cites": [
+   "e0782",
+   "e0772",
+   "e0774"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic تستعيد الكرة ثلاث مرات",
+  "text": "Ironvale Athletic ضغطت بقوة وانتزعت الكرة 3 مرات من Northgate Rovers: تدخل نظيف من Luca Romero، ثم اعتراضان من Marco Silvan وCallum Reid. وهكذا يبقى الهجوم المرتد قريباً!",
+  "cites": [
+   "e0564",
+   "e0581",
+   "e0603"
+  ]
+ }
+}

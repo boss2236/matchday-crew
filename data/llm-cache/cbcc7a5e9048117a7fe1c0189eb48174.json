@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers tiennent bon et gagnent 1-0",
+  "text": "Coup de sifflet final : Northgate Rovers l'emporte 1-0 ! Southmere United a pourtant beaucoup poussé vers le but adverse, mais les Rovers ont tenu bon jusqu'au bout. Quelle fin de match tendue !",
+  "cites": [
+   "e1784"
+  ]
+ }
+}

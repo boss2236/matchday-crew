@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere'in uzun topları kaybedildi",
+  "text": "Southmere United uzun toplarla çıkmak istedi ama Bruno Costa ile Rafa Ortega'nın iki pası rakibe kaptırıldı. Harbour City baskıyı bırakmıyor, maçın ritmi şu an Southmere'in elinden kayıyor.",
+  "cites": [
+   "e0574",
+   "e0584"
+  ]
+ }
+}

@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic تفوز 1-0 بالمرتدات",
+  "text": "فاز Ironvale Athletic 1-0 بنسبة استحواذ 47% مقابل 53% لـ Northgate Rovers، وبـ xG 1.42 مقابل 0.86. نسبة PPDA كانت 8.8 مقابل 7.9، والزخم 7، والكتلة الدفاعية صمدت.",
+  "cites": [
+   "e1700"
+  ]
+ }
+}

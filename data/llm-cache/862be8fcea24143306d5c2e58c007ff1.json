@@ -1,11 +1,11 @@
 {
- "model": "openai:openai/gpt-oss-120b",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Half-time sees tactical reset",
-  "text": "At the 45+2' half‑time break, Harbour City trails 0‑1 as momentum sits at 24 and chaos peaks at 50, highlighting the need to shift from their high‑press to regain control against Ironvale’s deep block.",
+  "headline": "Ironvale's direct counters lead at the break",
+  "text": "Ironvale Athletic lead 0-1 with 1.63 xG against Harbour City's 0.27, and 3 of their 6 shots were on target. Harbour City made 28 final-third entries but got only 1 shot on target.",
   "tags": [
-   "control",
-   "chaos",
+   "counter",
+   "finishing",
    "momentum"
   ],
   "cites": [

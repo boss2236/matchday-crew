@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers mandan, pero no llegan",
+  "text": "Northgate Rovers tienen el balón, pero Ilan Cohen lanzó un pase largo hacia Emre Kaya y se lo cortaron. Sven Dahl tuvo que volver a empezar atrás. Siguen perdiendo 1-0.",
+  "cites": [
+   "e0551",
+   "e0560"
+  ]
+ }
+}

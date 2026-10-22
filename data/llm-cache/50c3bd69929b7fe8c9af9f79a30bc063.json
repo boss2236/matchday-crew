@@ -1,15 +1,17 @@
 {
- "model": "openai:openai/gpt-oss-20b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Momentum swing fuels Southmere surge",
-  "text": "Southmere United’s 35‑point momentum rise amid 61 chaos marks a decisive shift, as rapid passes and a 59.2 km/h burst from Tariq Aziz set the tone for control and pressure.",
+  "headline": "Southmere's backward passing under chaos",
+  "text": "Southmere keep 54% possession at 0-0, but chaos sits at 61 and momentum at 35. Rafa Ortega's pass to Kwame Mensah was intercepted (e0355), and the retained passes at e0362 and e0363 go backward against Harbour City's press.",
   "tags": [
-   "momentum",
-   "control",
-   "pressing"
+   "chaos",
+   "pressing",
+   "momentum"
   ],
   "cites": [
-   "e0351"
+   "e0355",
+   "e0362",
+   "e0363"
   ]
  }
 }

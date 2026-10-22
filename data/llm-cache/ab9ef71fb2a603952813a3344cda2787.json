@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Lusk's 56.1m pass breaks Harbour City press",
+  "text": "Owen Lusk's 56.1-metre pass to Marco Silvan (difficulty 87, progress 51.4) beat the press. Six completes swung momentum to -52 at 0-0; Ironvale's xG is 0.89 against 0.04, PPDA 11.3 versus 9.5.",
+  "cites": [
+   "e0138",
+   "e0139",
+   "e0143"
+  ]
+ }
+}

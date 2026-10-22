@@ -1,0 +1,16 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers Blum کے واحد گول سے جیت گئے",
+  "text": "Northgate Rovers نے Southmere United کو 1-0 سے ہرایا۔ 7ویں منٹ میں Andres Vega کی 10.9 میٹر کیری پر momentum 37 رہا، مگر 13ویں منٹ میں Southmere United کے momentum -27 نے جواب دیا۔ 23ویں منٹ میں Emre Kaya کے 48 difficulty والے پاس پر Oscar Blum نے 0.472 xG کا گول کیا۔ 65ویں منٹ میں Blum کا 0.284 xG کا شاٹ off_target گیا۔ ٹیم xG 1.18 بمقابلہ 0.9 رہا، PPDA 8.3 بمقابلہ 7.6، جبکہ Southmere United کی 57 final third entries کے باوجود دونوں کے 10 شاٹس اور 3 shots on target تھے۔ حتمی momentum -63 رہا۔ Oscar Blum 1 گول اور 1.16 xG کے ساتھ نمایاں کھلاڑی تھے۔",
+  "cites": [
+   "e0116",
+   "e0221",
+   "e0426",
+   "e0427",
+   "e0428",
+   "e1205",
+   "e1784"
+  ]
+ }
+}

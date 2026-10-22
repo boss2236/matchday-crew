@@ -1,18 +1,18 @@
 {
- "model": "openai:openai/gpt-oss-120b",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Harbour City’s Passing Surge Shifts Momentum",
-  "text": "A rapid series of five completions, including two under pressure, moved Harbour City from defensive to attacking control, boosting momentum to 28 while chaos stayed high at 55, setting up a potential finish.",
+  "headline": "Harbour City recycle under pressure, then go forward",
+  "text": "Leading 2-1, Harbour City keep the ball through Marchetti's 42.9m pass back while under pressure. Pike then carries and plays a 25.4-progress pass to Kowalski, and momentum swings to 28.",
   "tags": [
-   "control",
+   "possession",
    "momentum",
-   "passing"
+   "control"
   ],
   "cites": [
-   "e1324",
    "e1326",
    "e1327",
    "e1328",
+   "e1330",
    "e1331"
   ]
  }

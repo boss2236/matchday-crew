@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere领先但失去控制",
+  "text": "Southmere United 1-0领先,xG 1.65对0.44,但势头仅27、混乱度48。Joel Martin在55:10的59.9米传球被断,随后55:40、56:07出界,Harbour City PPDA 7.3。",
+  "cites": [
+   "e1221",
+   "e1230",
+   "e1234"
+  ]
+ }
+}

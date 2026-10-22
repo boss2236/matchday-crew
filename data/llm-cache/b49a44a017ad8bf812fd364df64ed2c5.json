@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "¡Ironvale sale volando al contraataque!",
+  "text": "¡Qué contraataque de Ironvale Athletic! Callum Reid lanza largo a Luca Romero, que se la juega a Marco Silvan, y Romero devuelve y sigue corriendo. Ironvale gana 1-0 y el partido está loco.",
+  "cites": [
+   "e1464",
+   "e1465",
+   "e1467",
+   "e1468",
+   "e1469"
+  ]
+ }
+}

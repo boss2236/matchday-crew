@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic bikin gol kilat!",
+  "text": "Lemparan ke dalam, Ivo Petrov langsung kirim umpan jauh ke Zeke Mbeki, dan dia tinggal menceploskan bola dari jarak dekat. Cuma sekitar 14 detik, Ironvale Athletic unggul 1-0!",
+  "cites": [
+   "e0480",
+   "e0481",
+   "e0484",
+   "e0485"
+  ]
+ }
+}

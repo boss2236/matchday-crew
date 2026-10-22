@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City pierde el pulso del partido",
+  "text": "Harbour City, abajo 2-0 en el 76', tiene 51% de posesión pero 0.57 xG frente a 1.81. Su secuencia termina con un pase de 57.2 de distancia y dificultad 78 fuera; momentum -35.",
+  "cites": [
+   "e1583",
+   "e1578"
+  ]
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Ironvale’s Build‑Up Shifts Momentum",
+  "text": "Five‑pass chain (31.6m, 22m, 30.1m, 47.3m) plus Ivo Petrov’s 38.9m long ball lifted possession to 51% and xG to 1.63, driving momentum ‑27.",
+  "cites": [
+   "e0772",
+   "e0774",
+   "e0775",
+   "e0776",
+   "e0782"
+  ]
+ }
+}

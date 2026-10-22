@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere 压着打，但最后一脚太急",
+  "text": "Southmere United 一直占着上风，传球也很稳。可是 Bruno Costa 最后那脚长传直接出了界，好好的一波进攻就这样断了，真可惜。",
+  "cites": [
+   "e0413",
+   "e0412"
+  ]
+ }
+}

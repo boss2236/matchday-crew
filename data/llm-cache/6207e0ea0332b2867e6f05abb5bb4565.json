@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Reid'in baskısı Ironvale'in 1-0 üstünlüğünü koruyor",
+  "text": "Callum Reid 120 saniyede 3 top kazandı: tackle, interception, tackle. Ironvale Athletic 77. dakikada 1-0 önde; chaos 77, momentum 16. Northgate Rovers'ın sabırlı hâkimiyeti oturamıyor, xG 1.15'e 0.86.",
+  "cites": [
+   "e1414",
+   "e1420",
+   "e1437"
+  ]
+ }
+}

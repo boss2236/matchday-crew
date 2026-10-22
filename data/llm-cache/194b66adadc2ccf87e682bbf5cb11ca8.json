@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City verliert den Faden",
+  "text": "Harbour City wirft den langen Ball nach vorn, doch Leo Marchettis Pass auf Yusuf Demir wird abgefangen. Wenig später findet Mateo Ruiz Yusuf Demir dann doch, mitten im Gewühl. Es steht 0-0.",
+  "cites": [
+   "e0672",
+   "e0679"
+  ]
+ }
+}

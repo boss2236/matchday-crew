@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic, 점유율 46%에도 1-0 리드",
+  "text": "Ironvale Athletic이 전반 1-0 리드. 점유율 46%지만 xG 1.14로 Northgate Rovers의 0.68(슈팅 6회)을 앞섭니다. PPDA는 9.6 대 7.8, 모멘텀 12, 낮은 블록과 직선적 역습이 통했습니다.",
+  "cites": [
+   "e0857"
+  ]
+ }
+}

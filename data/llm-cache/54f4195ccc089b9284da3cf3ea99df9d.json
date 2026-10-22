@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City、パスがラインの外へ",
+  "text": "Harbour Cityは2点を追う展開。Leo MarchettiからYusuf Demirへの長いパスがピッチの外に出てしまい、流れをつかみきれません。ここは何とか立て直したいところです!",
+  "cites": [
+   "e1583"
+  ]
+ }
+}

@@ -31,6 +31,7 @@ export const STEPS: TourStep[] = [
   { target: 'kickoff', title: 'Kick off', body: 'Starts the match. Events stream in live, sped up, and the AI crew starts covering it.' },
   { target: 'scoreboard', title: 'Score and game state', body: 'Momentum shows who is on top right now. Control vs chaos shows how scrappy the game is.' },
   { target: 'persona', title: 'Analyst or casual fan', body: 'The same moment, told two ways: numbers and tactics for analysts, plain and warm for fans. Switch any time.' },
+  { target: 'view', title: 'Board, players or 3D', body: 'Watch the same live match as a tactics board, as 22 animated players, or in a 3D stadium. The commentary and stats stay the same.' },
   { target: 'pitch', title: 'Broadcast overlays', body: 'Key moments appear as on-screen graphics where a TV producer would put them, with the passes and shots behind them highlighted.' },
   { target: 'voice', title: 'Voice commentary', body: 'Turn this on to hear every line read aloud in your language.' },
   { target: 'feed', title: 'The story so far', body: 'Every line the AI writes. Open Evidence to see the exact match events it is based on. Badges show whether the AI wrote it.' },

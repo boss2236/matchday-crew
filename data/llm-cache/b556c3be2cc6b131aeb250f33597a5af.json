@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City's long passes keep getting cut out",
+  "text": "Harbour City tried long, fast passes, but Ironvale Athletic cut them out again and again. Three were intercepted in under a minute, and the game is slipping away from them at 1-1.",
+  "cites": [
+   "e1111",
+   "e1118",
+   "e1128"
+  ]
+ }
+}

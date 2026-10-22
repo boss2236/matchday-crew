@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers tiennent le ballon, sans percer",
+  "text": "Northgate Rovers gardent la balle, mais Ironvale Athletic mène 1-0. Ilan Cohen tente une longue passe vers Emre Kaya, elle est coupée, alors Sven Dahl recule le ballon pour repartir calmement.",
+  "cites": [
+   "e0551",
+   "e0560"
+  ]
+ }
+}

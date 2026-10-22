@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Pressão alta do Harbour City continua letal",
+  "text": "Harbour City recuperou a bola 3 vezes em 120 segundos: desarmes de Dani Kowalski e Arjun Mehta, depois interceção de Yusuf Demir. PPDA de 8.5 contra 10.9, vantagem de 3-1 e momentum em 71.",
+  "cites": [
+   "e1562",
+   "e1579",
+   "e1587"
+  ]
+ }
+}

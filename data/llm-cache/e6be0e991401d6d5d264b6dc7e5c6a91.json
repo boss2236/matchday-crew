@@ -1,0 +1,19 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Tariq Aziz üç golle Southmere United'a galibiyeti getirdi",
+  "text": "Maç başında Southmere United hemen kapıyı çaldı: Tariq Aziz çok yakından vurdu ama kaleci topu çıkardı. Harbour City de kısa süre sonra kontrolü yakalamaya çalıştı, ama Dani Kowalski'nin şutu da kalecide kaldı. Devre bitmeden Joel Martin'in pasında Tariq Aziz topu ağlara gönderdi ve 1-0 geldi. İkinci yarıda Bruno Costa'nın pasıyla Tariq Aziz ikinci golü attı. Sonra Joel Martin topu kapıp hızlıca Tariq Aziz'e verdi ve üçüncü gol geldi. Maç 3-0 bitti. Fark şuydu: Southmere United, Tariq Aziz'in önüne daha net fırsatlar çıkardı ve onları kaçırmadı. Gecenin yıldızı kesinlikle Tariq Aziz.",
+  "cites": [
+   "e0077",
+   "e0843",
+   "e1012",
+   "e1014",
+   "e1285",
+   "e1287",
+   "e1847",
+   "e1849",
+   "e1851",
+   "e1950"
+  ]
+ }
+}

@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers keep patiently passing",
+  "text": "1-0で負けているNorthgate Rovers。Oscar Blumのシュートは止められましたが、Ilan Cohen、Kai Nakamura、Andres Vegaが焦らずボールを回し、チャンスをじっくり探しています。",
+  "cites": [
+   "e0782",
+   "e0789",
+   "e0791",
+   "e0793"
+  ]
+ }
+}

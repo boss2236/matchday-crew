@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "¡Ironvale le roba el balón tres veces!",
+  "text": "¡Qué presión de Ironvale Athletic! Frente al toque paciente de Northgate Rovers, recuperó el balón tres veces en dos minutos. Con el 1-0 a favor, ese robo constante mantiene viva su contra.",
+  "cites": [
+   "e0564",
+   "e0581",
+   "e0603"
+  ]
+ }
+}

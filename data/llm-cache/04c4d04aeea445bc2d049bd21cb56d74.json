@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City: Marchetti sous pression, Pike relance",
+  "text": "À 2-1, Marchetti trouve Kofi Asante sur 42.9m (difficulté 61, sous pression). Pike conduit 11.5m puis sert Dani Kowalski, 25.4 de progression, difficulté 47. Momentum 28, PPDA 9.3 contre 10.3.",
+  "cites": [
+   "e1326",
+   "e1330",
+   "e1331"
+  ]
+ }
+}

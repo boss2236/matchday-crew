@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere segura o 2-0 com pressão",
+  "text": "Que pressão do Southmere United! Com dois desarmes e uma interceptação de Liam Doyle, a bola voltou 3 vezes para eles em dois minutinhos. É assim que se protege uma vantagem de 2-0!",
+  "cites": [
+   "e1408",
+   "e1414",
+   "e1445"
+  ]
+ }
+}

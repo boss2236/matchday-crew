@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Pases largos de Harbour City, interceptados",
+  "text": "Tres pases largos de Harbour City interceptados en 56:05–56:49: e1118 de 43.2 m con dificultad 55, a 63.1 km/h. Ironvale Athletic domina el xG, 1.68 contra 0.35, con momentum de 35 y caos de 55.",
+  "cites": [
+   "e1111",
+   "e1118",
+   "e1128"
+  ]
+ }
+}

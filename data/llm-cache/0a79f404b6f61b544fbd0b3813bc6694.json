@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale frappe en contre-attaque !",
+  "text": "Marco Silvan récupère le ballon, puis Ironvale enchaîne les passes sans que personne ne le gêne. Luca Romero offre le but à Zeke Mbeki, qui frappe fort : 0-1 pour Ironvale Athletic !",
+  "cites": [
+   "e0587",
+   "e0591",
+   "e0597",
+   "e0599",
+   "e0600"
+  ]
+ }
+}

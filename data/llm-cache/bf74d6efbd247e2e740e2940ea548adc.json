@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-opus-5.5",
+ "output": {
+  "headline": "Petrov's 38.2 pass unlocks Mbeki, Ironvale lead",
+  "text": "Throw-in, 1 build-up pass: Ivo Petrov's unpressured 38.2 ball, difficulty 53, finds Zeke Mbeki, who finishes from 2 for 0.829 xG. Ironvale Athletic lead 1-0 with 45 possession, momentum 13.",
+  "cites": [
+   "e0480",
+   "e0481",
+   "e0484",
+   "e0485"
+  ]
+ }
+}

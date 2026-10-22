@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic snatch the ball back",
+  "text": "Ironvale Athletic are fighting back! Ivo Petrov steps in at 66:40 to win the ball, the third steal in two minutes. Still 2-1 down, but they're grabbing control of this game.",
+  "cites": [
+   "e1263",
+   "e1276",
+   "e1297"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City perde palloni lanciati lunghi",
+  "text": "Che fatica per Harbour City! Con il punteggio di 1-1, i suoi lanci lunghi e veloci sono stati intercettati tre volte in meno di un minuto. Ironvale Athletic ringrazia e prende fiducia.",
+  "cites": [
+   "e1111",
+   "e1118",
+   "e1128"
+  ]
+ }
+}

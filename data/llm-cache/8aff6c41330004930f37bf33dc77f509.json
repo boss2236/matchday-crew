@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere 控球61%，动量仅40",
+  "text": "Southmere United 控球61%，xG 0.68对Harbour City 0.17，PPDA 5.7。Tariq Aziz 受压回传Dmitri Volkov，距离55.1、难度73，动量40、混乱度66。",
+  "cites": [
+   "e0142",
+   "e0144"
+  ]
+ }
+}

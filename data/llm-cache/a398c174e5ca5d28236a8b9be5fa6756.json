@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "14脚传导后Kowalski低xG破门",
+  "text": "Harbour City在e1201由Jonah Pike抢断后完成14次传球,Yusuf Demir传出难度55的直塞,Dani Kowalski在13.5距离以97.9 km/h射门,xG仅0.06,比分2-1。",
+  "cites": [
+   "e1201",
+   "e1221",
+   "e1222",
+   "e1223"
+  ]
+ }
+}

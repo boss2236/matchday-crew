@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City gèle le tempo à 2-1",
+  "text": "Harbour City enchaîne 5 passes sans pression, dont -24.1 et -17.9 de progression, difficulté 31 et 21. À 2-1 (80e), momentum 25, chaos 45 : le contrôle prime sur le risque, malgré xG 0.41 contre 1.75.",
+  "cites": [
+   "e1528",
+   "e1531",
+   "e1532"
+  ]
+ }
+}

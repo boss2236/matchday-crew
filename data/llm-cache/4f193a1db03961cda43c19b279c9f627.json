@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate kontrolü elinde tutuyor",
+  "text": "Northgate Rovers 1-0 önde: xG 0.67'ye karşı 0.16, PPDA 8.3. Kai Nakamura'dan Oscar Blum'a 35.3 m, zorluk 61'lik pas oyunu açtı; momentum 46, kaos 48.",
+  "cites": [
+   "e0553",
+   "e0556"
+  ]
+ }
+}

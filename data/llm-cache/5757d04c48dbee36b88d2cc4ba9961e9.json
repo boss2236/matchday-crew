@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City drängt, aber ohne Qualität",
+  "text": "Mateo Ruiz spielt 31.2 m Pass (Schwierigkeit 60) auf Dani Kowalski, dessen Schuss mit 0.078 xG geblockt wird. Beim 0-1 liegt Momentum bei 25, Harbour City hat insgesamt nur 0.27 xG, PPDA 9.4.",
+  "cites": [
+   "e0890",
+   "e0891",
+   "e0893"
+  ]
+ }
+}

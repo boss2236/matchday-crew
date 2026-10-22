@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers 高い位置からの圧力",
+  "text": "Northgate Rovers はPPDA 8.5、120秒で3回のボール奪取。Kai Nakamura のタックルとインターセプトで、xG 0.68対0.16の1-0を守る。Southmere United のウイング攻撃を寸断。",
+  "cites": [
+   "e0738",
+   "e0757",
+   "e0765"
+  ]
+ }
+}

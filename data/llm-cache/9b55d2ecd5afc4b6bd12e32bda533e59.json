@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic, 공을 되찾아오다",
+  "text": "Ironvale Athletic이 2분 사이에 공을 세 번이나 가로챘어요! 마지막은 Ivo Petrov의 66:40 인터셉트였죠. 2-1로 뒤지고 있지만, 이제 경기의 흐름을 조금씩 되찾는 모습이에요.",
+  "cites": [
+   "e1263",
+   "e1276",
+   "e1297"
+  ]
+ }
+}

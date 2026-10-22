@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United 快攻再下一城",
+  "text": "Felipe Cruz 一抢到球，Southmere United 马上反击！Bruno Costa 一传，Tariq Aziz 近距离轻松破门，2-0。Harbour City 压得太靠前，身后全是空档。",
+  "cites": [
+   "e1282",
+   "e1283",
+   "e1285",
+   "e1286"
+  ]
+ }
+}

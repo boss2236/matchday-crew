@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic低位防守领先半场",
+  "text": "半场45+2'，Ironvale Athletic 1-0领先，xG 1.14对0.68；Northgate Rovers控球54%、6次射门，PPDA 7.8，但反击效率不足，momentum 12。",
+  "cites": [
+   "e0857"
+  ]
+ }
+}

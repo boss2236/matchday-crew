@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City escape pressure, find Kowalski",
+  "text": "Marchetti's 42.9 pass, difficulty 61 under pressure, then Pike's 25.7 forward ball to Kowalski. Harbour City lead 2-1 on xG 0.41 against 1.68, momentum 28, chaos 55, PPDA 9.3.",
+  "cites": [
+   "e1326",
+   "e1331",
+   "e1330"
+  ]
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City perd le fil du match",
+  "text": "Harbour City est mené 0-1 et force trop ses longues passes. Léo Marchetti se fait intercepter, puis Jonah Pike envoie le ballon en sortie : Ironvale Athletic récupère tranquillement le ballon !",
+  "cites": [
+   "e0725",
+   "e0734"
+  ]
+ }
+}

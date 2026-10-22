@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City recule malgré une belle action",
+  "text": "Elias Brandt lance Yusuf Demir d'une grande passe vers l'avant, mais ensuite Harbour City repart en arrière. Résultat : toujours 0-0, et Southmere United garde la main sur le match.",
+  "cites": [
+   "e0255",
+   "e0259",
+   "e0260"
+  ]
+ }
+}

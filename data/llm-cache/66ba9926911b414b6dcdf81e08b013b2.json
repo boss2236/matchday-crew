@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City watoka kwenye presha!",
+  "text": "Harbour City wanapita mpira kwa utulivu, Marchetti anatoka kwenye presha, kisha Jonah Pike anampa Dani Kowalski pasi ndefu ya mbele. Wanaongoza 2-1, na mpira unaenda kasi kwelikweli!",
+  "cites": [
+   "e1326",
+   "e1330",
+   "e1331"
+  ]
+ }
+}

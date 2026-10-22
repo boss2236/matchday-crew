@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale controlam sem pressão, momentum 30",
+  "text": "Ironvale encadeiam 4 passes completos sem pressão: Callum Reid–Marco Silvan (dificuldade 51), Silvan–Zeke Mbeki (49), Mbeki–Finn Carver (53 m) e Carver–Mbeki (45). Lideram 1-0 com 1.15 xG, momentum 30.",
+  "cites": [
+   "e1111",
+   "e1112",
+   "e1113",
+   "e1115"
+  ]
+ }
+}

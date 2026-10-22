@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kowalski sentencia el 4-1 tras robo",
+  "text": "Tras la interceptación (e1715), Mateo Ruiz filtra un pase de 21.6 de progreso y dificultad 48 (e1722); Dani Kowalski remata a 2.5 con 0.79 xG (e1724) y Harbour City hace el 4-1 (e1725).",
+  "cites": [
+   "e1715",
+   "e1722",
+   "e1724",
+   "e1725"
+  ]
+ }
+}

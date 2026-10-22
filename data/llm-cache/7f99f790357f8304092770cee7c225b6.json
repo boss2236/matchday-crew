@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ruiz und Kowalski machen es klar!",
+  "text": "Was für ein Zusammenspiel! Mateo Ruiz schickt Dani Kowalski steil nach vorn, und der schiebt frei vor dem Tor zum Treffer ein. Harbour City macht in der 90. Minute den 3-1-Sieg perfekt.",
+  "cites": [
+   "e1722",
+   "e1723",
+   "e1724"
+  ]
+ }
+}

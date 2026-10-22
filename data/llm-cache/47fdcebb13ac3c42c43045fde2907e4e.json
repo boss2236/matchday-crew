@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United 稳稳控球,场面仍混乱",
+  "text": "Southmere United 现在握着 61% 的控球,球一路从 Alfie Grant 传到 Tariq Aziz,再被他长传回 Dmitri Volkov。不过场面还很乱,谁都没真正稳住,比分仍是 0-0。",
+  "cites": [
+   "e0138",
+   "e0142",
+   "e0144"
+  ]
+ }
+}

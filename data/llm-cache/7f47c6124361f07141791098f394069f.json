@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "¡Ironvale le roba el balón a Harbour City!",
+  "text": "Ironvale Athletic aprieta arriba y recupera el balón una y otra vez. Ivo Petrov corta otro pase a los 66:40. Aunque pierden 2-1, ahora mandan ellos y huelen el empate.",
+  "cites": [
+   "e1263",
+   "e1276",
+   "e1297"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic klaut Northgate den Ball",
+  "text": "Ironvale Athletic schnappt sich den Ball immer wieder zurück! Zuletzt fängt Callum Reid einen Pass ab. Northgate Rovers wollen geduldig spielen, aber Ironvale führt 1-0 und stört jeden Aufbau.",
+  "cites": [
+   "e0564",
+   "e0581",
+   "e0603"
+  ]
+ }
+}

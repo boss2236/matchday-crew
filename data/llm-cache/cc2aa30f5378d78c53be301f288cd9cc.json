@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City perd le fil à Southmere",
+  "text": "Harbour City a le ballon, mais Southmere United mène 2-0. Après une belle série de passes, Leo Marchetti envoie un long ballon vers Yusuf Demir, directement en touche. Quel coup dur !",
+  "cites": [
+   "e1583"
+  ]
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City: impulso 27, pero sin precisión",
+  "text": "Harbour City pierde 0-1 con momentum 27 y 0.16 xG frente a 1.63 de Ironvale Athletic. El pase de 60.3 m de Leo Marchetti (dificultad 73) fue interceptado y el de Jonah Pike (64) salió.",
+  "cites": [
+   "e0725",
+   "e0734"
+  ]
+ }
+}

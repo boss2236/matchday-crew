@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic win three interceptions in 120 seconds",
+  "text": "Ironvale Athletic's 3 interceptions in 120 seconds, the last by Ivo Petrov at 66:40, come with xG 1.68 against Harbour City's 0.41, PPDA 9.9, momentum 16, despite trailing 2-1.",
+  "cites": [
+   "e1263",
+   "e1276",
+   "e1297"
+  ]
+ }
+}

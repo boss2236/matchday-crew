@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale keep the ball calmly moving",
+  "text": "Ironvale Athletic are passing it around nicely, with Callum Reid, Marco Silvan, Zeke Mbeki and Finn Carver linking up without any pressure. They lead 1-0 and look relaxed on the ball.",
+  "cites": [
+   "e1111",
+   "e1112",
+   "e1113",
+   "e1115"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic casse les lignes en 3 passes",
+  "text": "Reid 46.2m (difficulté 58), Romero 62.6m (difficulté 80), Silvan 56.5m (difficulté 84) : Ironvale Athletic mène 1-0, xG 1.15 contre 0.86, momentum 29, chaos 62. Northgate Rovers, PPDA 7.8, est étiré.",
+  "cites": [
+   "e1464",
+   "e1465",
+   "e1467"
+  ]
+ }
+}

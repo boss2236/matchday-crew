@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kowalski firma il 2-1 per Harbour City!",
+  "text": "Che azione! Harbour City ruba palla e la passa e la ripassa con pazienza, poi Yusuf Demir serve Dani Kowalski, che spara una bomba da fuori e segna: 2-1!",
+  "cites": [
+   "e1201",
+   "e1220",
+   "e1221",
+   "e1222",
+   "e1223"
+  ]
+ }
+}

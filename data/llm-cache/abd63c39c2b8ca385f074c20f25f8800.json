@@ -1,0 +1,15 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kowalski firma il 2-1 dopo 14 passaggi",
+  "text": "Dopo l'intercetto di Jonah Pike, 14 passaggi sfaldano il blocco di Ironvale Athletic: Ruiz-Demir verticali (difficoltà 60 e 55), poi Dani Kowalski segna da 13.5 m a 97.9 km/h, xG 0.06. Harbour City 2-1.",
+  "cites": [
+   "e1201",
+   "e1215",
+   "e1220",
+   "e1221",
+   "e1222",
+   "e1223"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City aprieta, pero siguen perdiendo",
+  "text": "Harbour City se lanzó al ataque con los pases de Mateo Ruiz y las carreras de Dani Kowalski, pero su disparo fue bloqueado. Siguen perdiendo 0-1 y necesitan más puntería para empatar.",
+  "cites": [
+   "e0890",
+   "e0891",
+   "e0893"
+  ]
+ }
+}

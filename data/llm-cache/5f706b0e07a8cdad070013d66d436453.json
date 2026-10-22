@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ruiz e Kowalski chiudono la partita",
+  "text": "Che azione, amici! Mateo Ruiz e Dani Kowalski si passano la palla a velocità, poi Kowalski la mette dentro da vicinissimo. Harbour City vola sul 3-1 al 90+1'!",
+  "cites": [
+   "e1718",
+   "e1720",
+   "e1722",
+   "e1724"
+  ]
+ }
+}

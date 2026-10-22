@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic、効率で前半リード",
+  "text": "前半終了、Harbour City 0-1 Ironvale Athletic。xGは1.63対0.27、枠内シュート3本対1本。最終third進入は28回対23回でHarbour Cityが上回るが、PPDAは9.8対10.8、momentum 24。",
+  "cites": [
+   "e0897"
+  ]
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Tariq Aziz의 해트트릭이 Southmere United 3-0 승리를 만들다",
+  "text": "Southmere United는 4분 Tariq Aziz의 xG 0.622, 거리 2m 슛이 선방에 막혀 시작했지만, 전반 45+3분 Joel Martin의 도움으로 xG 0.931, 거리 1.2m 슛을 성공시켜 1-0을 만들었다. 후반 59분 Bruno Costa의 패스에서 xG 0.16 추가골이 나왔고, 87분 Joel Martin의 인터셉션 뒤 xG 0.106 슛이 3-0을 완성했다. 팀 xG는 1.95 대 0.62, 유효슈팅은 7개 대 5개였다. PPDA는 7.9 대 7.6으로 비슷했지만 인터셉션은 45회 대 37회였다. Tariq Aziz는 3골, xG 1.88로 경기의 주인공이었다.",
+  "cites": [
+   "e0077",
+   "e1012",
+   "e1013",
+   "e1014",
+   "e1285",
+   "e1286",
+   "e1287",
+   "e1847",
+   "e1849",
+   "e1850",
+   "e1851",
+   "e1950"
+  ]
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers 越踢越有劲",
+  "text": "虽然 Ironvale Athletic 1-0 领先，但 Northgate Rovers 抢回了节奏！Ilan Cohen 带球向前冲了一段，再把球送到 Oscar Blum 脚下，球队一下子推进了不少。",
+  "cites": [
+   "e1242",
+   "e1243"
+  ]
+ }
+}

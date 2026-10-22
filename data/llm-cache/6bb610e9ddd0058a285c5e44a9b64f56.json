@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Sabırlı hücum devre arasından önce gol getirdi",
+  "text": "Southmere United 19 pasla kurduğu atakta Joel Martin'in 9.9 ilerleten pasıyla Tariq Aziz'i buldu; Aziz 1.2 mesafeden, xG 0.931 ile skoru 1-0 yaptı. Baskı altındaki pas sayısı yalnızca 3.",
+  "cites": [
+   "e1012",
+   "e1013",
+   "e1014"
+  ]
+ }
+}

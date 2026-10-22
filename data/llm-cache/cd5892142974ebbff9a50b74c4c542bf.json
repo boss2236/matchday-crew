@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic harcèle Northgate Rovers !",
+  "text": "Quel coup de pression ! Hiro Tanaka et Callum Reid récupèrent le ballon encore et encore : 3 fois en deux minutes. Ironvale Athletic protège son 1-0 et menace de filer en contre !",
+  "cites": [
+   "e1341",
+   "e1356",
+   "e1363"
+  ]
+ }
+}

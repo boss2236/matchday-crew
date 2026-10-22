@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ruiz e Kowalski selam a vitória!",
+  "text": "Que jogada, amigo! Mateo Ruiz lança Dani Kowalski, que fica livre, sem ninguém na marcação, e finaliza para o golo. O Harbour City fecha o jogo em 3-1 nos acréscimos!",
+  "cites": [
+   "e1722",
+   "e1723",
+   "e1724"
+  ]
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate تفقد الكرة في لحظة خطيرة",
+  "text": "Northgate يمسكون الكرة معظم الوقت بتمريرات هادئة، لكن تمريرة Kai Nakamura إلى Oscar Blum انقطعت في الدقيقة 05:55، وأعطت Ironvale Athletic فرصة للانطلاق بهجمة مرتدة سريعة.",
+  "cites": [
+   "e0098",
+   "e0099"
+  ]
+ }
+}

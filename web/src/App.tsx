@@ -8,6 +8,7 @@ import Controls from './components/Controls.tsx';
 import type { Settings } from './components/Controls.tsx';
 import Scoreboard from './components/Scoreboard.tsx';
 import Pitch from './components/Pitch.tsx';
+import PlayersView from './components/PlayersView.tsx';
 import Stats from './components/Stats.tsx';
 import Feed from './components/Feed.tsx';
 import CrewTrace from './components/CrewTrace.tsx';
@@ -16,12 +17,20 @@ import { FocusCard, MetricCard } from './components/FocusCards.tsx';
 import { TourOffer, TourSteps, useTour } from './components/Tour.tsx';
 import { useBrowserVoices, useVoice, voiceSupport } from './useVoice.ts';
 
+type View = 'board' | 'players' | '3d';
+
 export default function App({ theme, onToggleTheme }: { theme: ThemeName; onToggleTheme: () => void }) {
   const [config, setConfig] = useState<AppConfig | null>(null);
   const [configError, setConfigError] = useState<string | null>(null);
   const [persona, setPersona] = useState<Persona>(() => (new URLSearchParams(location.search).get('persona') === 'casual' ? 'casual' : 'analyst'));
   const [settings, setSettings] = useState<Settings | null>(null);
   const live = useLiveMatch();
+  // The match as a tactics board (where each action happened, what the crew cites)
+  // or as animated players, flat or in 3D. ?view=players or ?view=3d opens on them.
+  const [view, setView] = useState<View>(() => {
+    const v = new URLSearchParams(location.search).get('view');
+    return v === 'players' || v === '3d' ? v : 'board';
+  });
   const [voice, setVoice] = useState(false);
   const tour = useTour(new URLSearchParams(location.search).get('autostart') === '1');
 
@@ -46,6 +55,7 @@ export default function App({ theme, onToggleTheme }: { theme: ThemeName; onTogg
     if (settings?.player) p.set('player', settings.player);
     if (settings?.metric) p.set('metric', settings.metric);
     if (voice) p.set('voice', '1');
+    if (view !== 'board') p.set('bg', view);
     return `studio?${p}`;
   };
 
@@ -149,17 +159,33 @@ export default function App({ theme, onToggleTheme }: { theme: ThemeName; onTogg
               )}
             </div>
           </div>
-          <Pitch
-            key={`${live.runId}-${persona}`}
-            meta={live.meta}
-            trail={live.trail}
-            players={live.players}
-            onBall={live.onBall}
-            focus={settings?.player || null}
-            items={visible}
-            events={live.events}
-            idle={live.status === 'idle'}
-          />
+          <TabList size="small" selectedValue={view} onTabSelect={(_, d) => setView(d.value as View)} aria-label="How to show the match" className="view-tabs" data-tour="view">
+            <Tab value="board">Tactics board</Tab>
+            <Tab value="players">Players</Tab>
+            <Tab value="3d">3D</Tab>
+          </TabList>
+          {view !== 'board' ? (
+            <PlayersView
+              key={live.runId}
+              mode={view === '3d' ? '3d' : '2d'}
+              meta={live.meta}
+              subscribe={live.subscribe}
+              eventLog={live.eventLog}
+              idle={live.status === 'idle'}
+            />
+          ) : (
+            <Pitch
+              key={`${live.runId}-${persona}`}
+              meta={live.meta}
+              trail={live.trail}
+              players={live.players}
+              onBall={live.onBall}
+              focus={settings?.player || null}
+              items={visible}
+              events={live.events}
+              idle={live.status === 'idle'}
+            />
+          )}
           <div className="ticker" aria-label="Live events">
             {live.ticker.map((t) => (
               <span key={t.id} className={settings?.player && t.players.includes(settings.player) ? 'mine' : undefined}>

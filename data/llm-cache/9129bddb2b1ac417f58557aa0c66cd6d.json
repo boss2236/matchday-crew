@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Mbeki’s strike rattles Harbour",
+  "text": "Zeke Mbeki unleashed a 4.4 m effort, a top‑quality chance that stunned Harbour City and shifted the flow of the game.",
+  "cites": [
+   "e0651"
+  ]
+ }
+}

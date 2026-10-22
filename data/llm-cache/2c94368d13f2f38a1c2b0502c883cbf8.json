@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City-র চাপ আছে, কিন্তু নিখুঁত নয়",
+  "text": "Harbour City ০-১ পিছিয়ে, তাই দ্রুত পাসে চাপ বাড়াচ্ছে। কিন্তু লম্বা বল বারবার কাজে লাগছে না: Leo Marchetti-র পাস কেটে দিল, আর Jonah Pike-এর বল বাইরে চলে গেল।",
+  "cites": [
+   "e0725",
+   "e0734"
+  ]
+ }
+}

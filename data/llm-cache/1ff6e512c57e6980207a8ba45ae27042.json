@@ -1,0 +1,16 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City viram o jogo com 4-1 sobre Ironvale",
+  "text": "Ironvale Athletic abriu o marcador aos 30' com Zeke Mbeki (xG 0.188, remate a 96.1 km/h, 7 passes de construção), depois de um xG de 0.876 desperdiçado aos 2'. Harbour City respondeu aos 49' com Leo Marchetti (xG 0.024) e passou a mandar: PPDA de 8.5 contra 10.3, 56 entradas no último terço contra 43. Dani Kowalski virou aos 62' (xG 0.06), ampliou aos 81' e fechou aos 90+1' (xG 0.79, a 2.5), terminando com 3 golos. O xG total favoreceu Ironvale (1.76 contra 1.26), mas Harbour City teve 7 remates enquadrados contra 4 e foi mais eficaz. Momentum final: 75.",
+  "cites": [
+   "e0041",
+   "e0600",
+   "e0999",
+   "e1223",
+   "e1552",
+   "e1725",
+   "e1727"
+  ]
+ }
+}

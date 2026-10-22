@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Oscar Blum 一球定胜负，Northgate Rovers 险胜",
+  "text": "这场比赛打得很紧张，最后 Northgate Rovers 1-0 赢了 Southmere United。开场双方互相试探，Andres Vega 和 Rafa Ortega 都带球冲了几步。第23分钟成了全场的转折点：Emre Kaya 一脚漂亮的长传找到 Oscar Blum，他在门前很近的位置直接把球打进，Northgate Rovers 先拿到领先。之后 Southmere United 一直追着打，不停断球、反抢，把压力压了上来。可 Oscar Blum 在第65分钟又有一次近距离射门，球偏出了门外，Northgate Rovers 没能把比分拉开。幸好他们守得稳，把这一球的优势一直守到终场哨响。Oscar Blum 就是全场最亮眼的球员。",
+  "cites": [
+   "e0426",
+   "e0427",
+   "e0428",
+   "e1205",
+   "e1784"
+  ]
+ }
+}

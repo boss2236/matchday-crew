@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United dreht den Druck um",
+  "text": "Southmere United klaut sich den Ball gleich dreimal zurück, zweimal durch Tariq Aziz, einmal durch Joel Martin. So kommt Northgate Rovers nicht zur Ruhe, obwohl sie 1-0 vorn liegen!",
+  "cites": [
+   "e1251",
+   "e1261",
+   "e1272"
+  ]
+ }
+}

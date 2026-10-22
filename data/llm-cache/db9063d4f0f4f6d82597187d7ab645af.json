@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers 1-0 Southmere United 종료",
+  "text": "Northgate Rovers가 1-0으로 승리. xG 1.18 대 0.9로 앞섰고, Southmere United는 final third 진입 57 대 42로 우세했지만 PPDA 7.6, 모멘텀 -63, 혼돈도 56.",
+  "cites": [
+   "e1784"
+  ]
+ }
+}

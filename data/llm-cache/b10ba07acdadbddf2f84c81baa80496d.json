@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City verschenken den Ball",
+  "text": "Harbour City liegen 0-1 zurück und wirken hektisch. Leo Marchetti spielt einen weiten, riskanten Pass, der abgefangen wird, und Jonah Pike schlägt den Ball ins Aus. So bekommt Ironvale Athletic den Ball geschenkt.",
+  "cites": [
+   "e0725",
+   "e0734"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale win the ball back again and again",
+  "text": "Hiro Tanaka and Callum Reid are snapping up the ball for Ironvale Athletic, 3 times in two minutes. Northgate Rovers love to pass patiently, but this scramble suits Ironvale's quick counters.",
+  "cites": [
+   "e1341",
+   "e1356",
+   "e1363"
+  ]
+ }
+}

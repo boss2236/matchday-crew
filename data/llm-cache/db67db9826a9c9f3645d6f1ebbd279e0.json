@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour City press fuels momentum",
+  "text": "Harbour City’s high‑press sequence of five passes (distances 43.3 m, 32.3 m, 19.3 m, 45.5 m, 37.3 m; avg difficulty 43) lifted momentum to 33, then Mehta’s 0.015 xG shot.",
+  "cites": [
+   "e0348",
+   "e0349",
+   "e0350",
+   "e0351",
+   "e0352",
+   "e0353"
+  ]
+ }
+}

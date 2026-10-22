@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City sortent de la pression, momentum 28",
+  "text": "Harbour City mènent 2-1 avec un momentum de 28 et un chaos de 55 : Marchetti perce la pression par une passe de 42.9 (difficulté 61), puis Pike sert Kowalski sur 25.7.",
+  "cites": [
+   "e1326",
+   "e1331",
+   "e1330"
+  ]
+ }
+}

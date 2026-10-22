@@ -1,17 +1,18 @@
 {
- "model": "openai:openai/gpt-oss-20b",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Ironvale’s Counter‑Rush Dominates",
-  "text": "A 29‑point momentum swing sees Ironvale’s rapid 13.3‑km/h pass to Callum Reid ignite a direct counter, with Luca Romero’s 46.2‑km/h drive into the final third turning chaos into control.",
+  "headline": "Ironvale's direct counter swings momentum",
+  "text": "Ironvale Athletic go direct, true to their counter style. Reid's 46.2m pass and Romero's 62.6m switch carry the ball forward fast, and momentum swings to 29. With chaos at 62 and Ironvale leading 1-0, Northgate's patient possession is being stretched.",
   "tags": [
    "counter",
    "momentum",
-   "control"
+   "chaos"
   ],
   "cites": [
-   "e1463",
    "e1464",
-   "e1465"
+   "e1465",
+   "e1467",
+   "e1469"
   ]
  }
 }

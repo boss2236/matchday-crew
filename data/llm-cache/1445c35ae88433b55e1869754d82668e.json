@@ -1,12 +1,12 @@
 {
- "model": "openai:openai/gpt-oss-20b",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Ironvale’s Missed Chance Spurs Pressure",
-  "text": "At 45+2', Zeke Mbeki’s 70.3 km/h shot from 5 m missed, leaving Ironvale’s deep block vulnerable as Northgate’s possession edge grows, shifting momentum toward the visitors.",
+  "headline": "Mbeki misses chance to double Ironvale's lead",
+  "text": "Ironvale's deep block concedes 54% possession, yet Zeke Mbeki got a 0.276 xG look from 5 metres under pressure. He fired it off target, so Northgate Rovers trail only 1-0 at 45+2'.",
   "tags": [
-   "pressing",
-   "momentum",
-   "control"
+   "chance",
+   "finishing",
+   "counter"
   ],
   "cites": [
    "e0855"

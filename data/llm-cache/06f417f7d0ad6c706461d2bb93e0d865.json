@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kowalski scelle la victoire de Harbour City",
+  "text": "Mateo Ruiz lance Dani Kowalski avec une belle passe en avant, puis Kowalski reste calme et marque, seul devant le but. Harbour City mène 3-1 et la fin de match est pour eux !",
+  "cites": [
+   "e1722",
+   "e1723",
+   "e1724"
+  ]
+ }
+}

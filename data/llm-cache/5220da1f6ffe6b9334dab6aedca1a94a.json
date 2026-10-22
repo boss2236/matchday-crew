@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City、4-1で快勝！",
+  "text": "試合終了！Harbour Cityが Ironvale Athletic に4-1で勝ちました。チャンスの数では相手が上でしたが、Harbour Cityは打ったシュートをしっかりゴールに結びつけました。見事な決定力です！",
+  "cites": [
+   "e1727"
+  ]
+ }
+}

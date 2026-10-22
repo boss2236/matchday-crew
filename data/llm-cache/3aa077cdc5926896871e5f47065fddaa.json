@@ -1,0 +1,17 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic batte Northgate Rovers 1-0 con Mbeki",
+  "text": "Ironvale Athletic, blocco basso e contropiedi diretti, vince 1-0 contro il Northgate Rovers, più paziente nel possesso (53%). Al 26' Oscar Blum, da 4 m, si vede murare un tiro da 0.394 xG; al 27' Zeke Mbeki segna da 2 m con 0.829 xG, tiro a 79.8 km/h, dopo un solo passaggio di costruzione. Nel finale di primo tempo Mbeki sfiora il raddoppio (0.276 xG, 45+2'). Nella ripresa Ironvale resiste con tre spell di pressing da 3 recuperi (minuti 49, 73, 77). Il dato xG premia i padroni di casa: 1.42 contro 0.86, con 15 tackle vinti contro 11. Mbeki è il migliore: 1 gol e 1.39 xG.",
+  "cites": [
+   "e0461",
+   "e0484",
+   "e0485",
+   "e0855",
+   "e0935",
+   "e1363",
+   "e1437",
+   "e1700"
+  ]
+ }
+}

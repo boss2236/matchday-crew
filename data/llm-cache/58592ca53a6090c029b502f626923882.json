@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale s'éteint, momentum de -28",
+  "text": "À 3-1 à la 87e, Ironvale Athletic craque : la passe de Luca Romero sous pression (difficulté 51) sort, puis Zeke Mbeki tire hors cadre de 31.5 avec 0.008 xG. Chaos 69, momentum -28.",
+  "cites": [
+   "e1635",
+   "e1650"
+  ]
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Rantai bebas tekanan berujung gol Aziz",
+  "text": "Bruno Costa membawa bola 33.1 km/h, lalu tiga umpan tanpa tekanan (kesulitan 59, 42, 44) menemukan Tariq Aziz. Ia mencetak gol dari jarak 1.2 dengan 0.931 xG; momentum 52, PPDA Harbour City 6.8.",
+  "cites": [
+   "e1009",
+   "e1010",
+   "e1011",
+   "e1012",
+   "e1013"
+  ]
+ }
+}

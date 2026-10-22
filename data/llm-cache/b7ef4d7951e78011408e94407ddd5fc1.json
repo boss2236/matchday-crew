@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United, 61% de possession, 0-0",
+  "text": "Southmere United domine (61% de possession, xG 0.68, PPDA 5.7), mais momentum 40 et chaos 66. La passe pressée de Tariq Aziz vers Dmitri Volkov, 55.1 m, difficulté 73, reste risquée.",
+  "cites": [
+   "e0138",
+   "e0142",
+   "e0144"
+  ]
+ }
+}

@@ -1,0 +1,16 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic 1-0 Northgate Rovers",
+  "text": "Northgate Rovers 在比赛里更多时间拿着球，但最后还是 Ironvale Athletic 笑到了最后，1-0 赢下比赛。开场不久 Northgate Rovers 很稳，可是第26分钟 Oscar Blum 近距离的大好机会被挡了出去。仅仅一分钟后，Ivo Petrov 送出助攻，Zeke Mbeki 在门前一脚破门，Ironvale Athletic 1-0 领先。之后 Ironvale Athletic 守得很紧，Callum Reid 和 Hiro Tanaka 一次次把球抢回来，Northgate Rovers 一直找不到出路。这场的最佳球员是 Zeke Mbeki：他进了制胜球，还一直威胁对手球门。简单说，Ironvale Athletic 抓住了机会，又守住了成果。",
+  "cites": [
+   "e0461",
+   "e0484",
+   "e0485",
+   "e0603",
+   "e1363",
+   "e1437",
+   "e1700"
+  ]
+ }
+}

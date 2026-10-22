@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United: 0.68 xG, Chaos 66",
+  "text": "Southmere United führen 0.68 xG zu 0.17 an, PPDA 5.7, Ballbesitz 61%. Tariq Aziz spielt unter Druck 55.1 m auf Dmitri Volkov, Schwierigkeit 73. Momentum nur 40, Chaos 66.",
+  "cites": [
+   "e0138",
+   "e0142",
+   "e0144"
+  ]
+ }
+}

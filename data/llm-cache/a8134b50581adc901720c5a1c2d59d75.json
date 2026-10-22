@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate의 패스가 중간에 끊겼어요!",
+  "text": "Northgate Rovers가 공을 차분히 돌리고 있었는데, Kai Nakamura가 Oscar Blum에게 보낸 패스가 중간에서 끊겼어요. 이제 Ironvale Athletic이 빠른 역습을 노릴 수 있는 분위기예요!",
+  "cites": [
+   "e0099"
+  ]
+ }
+}

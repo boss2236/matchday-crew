@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Long ballon de Mensah, tir spéculatif de Costa",
+  "text": "Kwame Mensah trouve Tariq Aziz sur 55.4 m, difficulté 100, sous pression. Bruno Costa frappe de 33.9 m pour 0.006 xG, arrêté. Chaos à 54, Southmere United mène 2-0 : tir acceptable.",
+  "cites": [
+   "e1482",
+   "e1483",
+   "e1484"
+  ]
+ }
+}

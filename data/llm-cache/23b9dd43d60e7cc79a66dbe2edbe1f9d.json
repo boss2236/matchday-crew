@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale castiga la presión de Harbour City",
+  "text": "Tras la intercepción de Marco Silvan, 7 pases sin presión (dificultad 53 en el último de Luca Romero) y Zeke Mbeki cierra a 6.3 m con 0.188 xG y 96.1 km/h. Ironvale 1.15 xG vs 0.16; PPDA 8.3.",
+  "cites": [
+   "e0587",
+   "e0597",
+   "e0599",
+   "e0600"
+  ]
+ }
+}

@@ -1,0 +1,16 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kowalski conclut une touche sans pression",
+  "text": "Sur touche, Harbour City enchaîne 3 passes sans pression (difficulté 45, 29, 31), Mateo Ruiz porte 13.1 m, Dani Kowalski conclut à 14.1 m pour 0.057 xG. 3-1, malgré 0.47 xG contre 1.75.",
+  "cites": [
+   "e1545",
+   "e1547",
+   "e1548",
+   "e1549",
+   "e1550",
+   "e1551",
+   "e1552"
+  ]
+ }
+}

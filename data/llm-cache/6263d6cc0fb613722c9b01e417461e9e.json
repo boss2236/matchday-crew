@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Aziz afunga bao kabla ya mapumziko!",
+  "text": "Southmere United walipasiana kwa subira, wakiwachezesha Harbour City kama kikaragosi. Kisha Joel Martin akampa Tariq Aziz, naye akamalizia kwa urahisi kabisa. Ni 1-0 dakika ya mwisho kabla ya mapumziko!",
+  "cites": [
+   "e1012",
+   "e1013",
+   "e1014"
+  ]
+ }
+}

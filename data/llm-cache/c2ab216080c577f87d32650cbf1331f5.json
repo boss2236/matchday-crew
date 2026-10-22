@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere führen 1-0 trotz 50% Ballbesitz",
+  "text": "Zur Halbzeit 1-0: Southmere United erzielen xG 1.64 gegen 0.39 und haben 3 Schüsse aufs Tor. Harbour City pressen intensiver (PPDA 6.8 gegen 9.2), Ballbesitz je 50%. Momentum 71.",
+  "cites": [
+   "e1016"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City की बिना प्रेशर वाली पासेज़ इंटरसेप्ट",
+  "text": "Harbour City ने बिना प्रेशर के तीन बार गेंद गंवाई: e1111 (कठिनाई 56, 33.6m), e1118 (55, 43.2m), e1128 (42)। Ironvale Athletic का डीप ब्लॉक, 39 फाइनल थर्ड एंट्री के बावजूद momentum 35, chaos 55, स्कोर 1-1।",
+  "cites": [
+   "e1111",
+   "e1118",
+   "e1128"
+  ]
+ }
+}

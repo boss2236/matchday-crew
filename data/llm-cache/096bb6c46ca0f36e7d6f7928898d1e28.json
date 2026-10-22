@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United 后传增多,混乱度攀升",
+  "text": "Southmere United 控球54%,xG 0.69 对 0.27,但混乱度61、势头35。Rafa Ortega 传 Kwame Mensah 的52.4米长传被拦截(难度52,纵深-40.7),随后e0362再回传;Harbour City PPDA 6.9。",
+  "cites": [
+   "e0355",
+   "e0362"
+  ]
+ }
+}

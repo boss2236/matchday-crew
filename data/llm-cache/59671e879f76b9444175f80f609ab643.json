@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City lidera, mas sofre",
+  "text": "O Harbour City vence por 2-1, mas o controlo está frágil. Mateo Ruiz recuou a bola para Rui Barros, e logo depois o passe seguinte foi cortado sob pressão. Dá para o Ironvale Athletic sonhar!",
+  "cites": [
+   "e1451",
+   "e1453"
+  ]
+ }
+}

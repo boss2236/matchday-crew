@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City circulan sin amenaza con 3-0",
+  "text": "Harbour City enlaza cinco pases completos sin presión en 90+3', pero tres van hacia atrás (progress -23.9, -9.4, -10.5). Con momentum -25, chaos 46 y xG de 0.62 frente a 1.95, la posesión resulta inofensiva.",
+  "cites": [
+   "e1926",
+   "e1928",
+   "e1929",
+   "e1930"
+  ]
+ }
+}

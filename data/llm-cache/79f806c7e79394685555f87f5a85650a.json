@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City empurram, mas falta pontaria",
+  "text": "O Harbour City aperta e troca passes rápidos, mas os lançamentos longos não chegam. O passe de Leo Marchetti foi cortado e o de Jonah Pike saiu pela linha. Ainda perdem por 0-1.",
+  "cites": [
+   "e0725",
+   "e0734"
+  ]
+ }
+}

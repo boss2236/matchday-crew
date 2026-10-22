@@ -1,11 +1,11 @@
 {
- "model": "openai:openai/gpt-oss-120b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Northgate Rovers lose control in 81st minute",
-  "text": "At minute 81 the momentum dropped to 25 while chaos rose to 63, and three consecutive passes (e1531, e1534, e1536) were made under pressure, signalling a shift from controlled possession to chaotic play.",
+  "headline": "Rovers escape pressure with a long ball",
+  "text": "Northgate Rovers, leading 1-0 at 81', worked three pressured passes out of tight spaces, ending with Kai Nakamura's 36.4-unit ball to Emre Kaya. With chaos at 63, that bold switch released the squeeze.",
   "tags": [
+   "pressing",
    "chaos",
-   "control",
    "pass"
   ],
   "cites": [

@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic تقطع التمرير عند Northgate Rovers",
+  "text": "Ironvale Athletic استعاد الكرة 3 مرات خلال 120 ثانية عبر Callum Reid وMarco Silvan وZeke Mbeki، متقدماً 1-0 بنسبة استحواذ 44 وxG 1.14 مقابل 0.68، وPPDA يبلغ 9.5.",
+  "cites": [
+   "e0900",
+   "e0928",
+   "e0935"
+  ]
+ }
+}

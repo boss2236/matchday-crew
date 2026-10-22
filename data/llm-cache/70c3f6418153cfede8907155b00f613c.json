@@ -1,0 +1,16 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "গাব্রের লম্বা পাসেই গোল!",
+  "text": "Gabe Moreno এক লম্বা পাস বাড়াল Emre Kaya-র দিকে। Emre বল নিয়ে দৌড়ে গিয়ে Oscar Blum-কে দিল, আর Oscar একদম ফাঁকায় গোল করল! Northgate Rovers এগিয়ে 1-0।",
+  "cites": [
+   "e0422",
+   "e0423",
+   "e0424",
+   "e0425",
+   "e0426",
+   "e0427",
+   "e0428"
+  ]
+ }
+}

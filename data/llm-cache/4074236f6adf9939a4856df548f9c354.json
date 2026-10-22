@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere cherche encore, Northgate résiste",
+  "text": "Southmere United est mené 1-0 dans les dernières secondes. Rafa Ortega, Bruno Costa et Tariq Aziz se passent le ballon, mais une passe en arrière montre qu'ils n'avancent pas. Northgate Rovers tient bon !",
+  "cites": [
+   "e1692",
+   "e1693",
+   "e1694",
+   "e1695"
+  ]
+ }
+}

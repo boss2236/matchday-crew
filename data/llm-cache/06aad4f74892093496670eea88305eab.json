@@ -1,0 +1,11 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour City’s Press Falters",
+  "text": "At 38 minutes the team’s momentum is low at 27 and chaos high at 46, with risky passes like Demir’s out and a missed chance to Leo Marchetti.",
+  "cites": [
+   "e0695",
+   "e0724"
+  ]
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City zittert um die Führung",
+  "text": "Harbour City führt 2-1, aber es wird wackelig: Mateo Ruiz spielt den Ball weit zurück zu Rui Barros, und dessen Pass wird unter Druck abgefangen. Ironvale Athletic lauert auf den Ausgleich.",
+  "cites": [
+   "e1451",
+   "e1453"
+  ]
+ }
+}

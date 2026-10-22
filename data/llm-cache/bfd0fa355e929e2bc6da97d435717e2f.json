@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour City needs a reset",
+  "text": "Half‑time shows they’re down 0‑1, momentum low and chaos high, so they must ditch the press and settle down to stop Ironvale’s block.",
+  "cites": [
+   "e0897"
+  ]
+ }
+}

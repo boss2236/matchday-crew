@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale enchaîne les longues passes vers l'avant",
+  "text": "Ironvale mène 0-1 et ça file vite ! Ivo Petrov envoie une longue passe tranchante vers Luca Romero, sans que personne ne le gêne. Harbour City n'a pas le temps de souffler.",
+  "cites": [
+   "e0782",
+   "e0772",
+   "e0774"
+  ]
+ }
+}

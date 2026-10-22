@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City surperforme son xG, 4-1",
+  "text": "Harbour City s'impose 4-1 malgré un xG inférieur (1.26 contre 1.76) : 7 tirs cadrés sur 12, un PPDA de 8.5 contre 10.3, 56 entrées dans le dernier tiers, momentum à 75.",
+  "cites": [
+   "e1727"
+  ]
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Nakamura-Pass abgefangen, Momentum kippt auf -65",
+  "text": "Northgate Rovers halten 70% Ballbesitz bei 88% Passquote, doch Kai Nakamuras Pass auf Oscar Blum (Schwierigkeit 48, 23 m) wurde bei 05:55 abgefangen. Momentum -65, Chaos 43; xG weiter 0.",
+  "cites": [
+   "e0099",
+   "e0098"
+  ]
+ }
+}

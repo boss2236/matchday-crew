@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere、プレス下の大型スイッチ",
+  "text": "Southmereは0-1で劣勢、momentum -29、chaos 33。e0703のインターセプト直後、Alfie GrantからJoel Martinへの41mのプレッシャー下パスは難易度84、progress 40.9を獲得。xGは0.16対0.68。",
+  "cites": [
+   "e0703",
+   "e0713"
+  ]
+ }
+}

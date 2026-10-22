@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic تعاقب Northgate Rovers بهجمة مرتدة",
+  "text": "بعد رمية تماس، مرّر Ivo Petrov تمريرة طولها 38.2 وصعوبتها 53 إلى Zeke Mbeki، الذي سجّل من مسافة 2 بقيمة xG 0.829 وسرعة تسديد 79.8 كم/س. النتيجة 1-0.",
+  "cites": [
+   "e0480",
+   "e0481",
+   "e0484",
+   "e0485"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere recule face à la pression",
+  "text": "Southmere United a le ballon, mais Rafa Ortega se fait intercepter en tentant une longue passe vers Kwame Mensah. Ensuite, ils reviennent en arrière pour se rassurer face à Harbour City qui presse fort.",
+  "cites": [
+   "e0355",
+   "e0362",
+   "e0363"
+  ]
+ }
+}

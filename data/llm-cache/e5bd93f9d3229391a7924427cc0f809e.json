@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic, 낮은 블록에서 반격 성공",
+  "text": "Ironvale Athletic이 120초 동안 3회 소유권을 되찾았고, Callum Reid의 인터셉션이 마무리했습니다. xG 0.84 대 0.44, 모멘텀 -11, 카오스 62 속에 1-0 리드를 지킵니다.",
+  "cites": [
+   "e0564",
+   "e0581",
+   "e0603"
+  ]
+ }
+}

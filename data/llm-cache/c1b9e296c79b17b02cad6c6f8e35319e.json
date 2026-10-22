@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere se quedan sin premio otra vez",
+  "text": "Southmere mueven el balón con calma y Jan Novak lanza un pase larguísimo a Bruno Costa. Pero Costa, en vez de atacar, devuelve la pelota atrás a Nasser Haddad. Siguen 1-0 abajo.",
+  "cites": [
+   "e1296",
+   "e1298"
+  ]
+ }
+}

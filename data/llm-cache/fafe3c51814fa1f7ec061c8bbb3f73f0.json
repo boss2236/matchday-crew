@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "ضغط Ironvale يخنق بناء Northgate Rovers",
+  "text": "Ironvale Athletic يتقدم 1-0 واستعاد الكرة 3 مرات خلال 120 ثانية؛ اعتراضان لـ Callum Reid وHiro Tanaka ثم تدخل ناجح. xG لصالح Ironvale 1.15 مقابل 0.86، وPPDA يساوي 8.7، والزخم 5.",
+  "cites": [
+   "e1341",
+   "e1356",
+   "e1363"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic curi bola berkali-kali!",
+  "text": "Northgate Rovers sabar mengoper, tapi Ironvale Athletic terus memotong bola. Callum Reid, Marco Silvan, lalu Zeke Mbeki sukses merebutnya. Ironvale Athletic pun aman menjaga keunggulan 1-0!",
+  "cites": [
+   "e0900",
+   "e0928",
+   "e0935"
+  ]
+ }
+}

@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "¡Zeke Mbeki casi hace el segundo!",
+  "text": "Zeke Mbeki se plantó solo ante la portería, sin nadie encima, y chutó desde muy cerca. ¡El portero salvó! Ironvale Athletic gana 0-1 y sigue castigando a Harbour City al contraataque.",
+  "cites": [
+   "e0651"
+  ]
+ }
+}

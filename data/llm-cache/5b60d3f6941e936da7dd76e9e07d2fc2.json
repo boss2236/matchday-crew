@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale 1-0 pese al 46% de posesión",
+  "text": "Ironvale gana 1-0 con xG 1.14 frente a 0.71 y PPDA 9.5. Tras el pase interceptado de Romero (dificultad 55) a Zeke Mbeki en 51:20, Hiro Tanaka conduce 9.1 y 8.5 m.",
+  "cites": [
+   "e0980",
+   "e0990",
+   "e0991"
+  ]
+ }
+}

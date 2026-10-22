@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate perd le ballon à la 6e minute",
+  "text": "Northgate gardent le ballon depuis un moment, mais la passe de Kai Nakamura vers Oscar Blum est interceptée. Ironvale Athletic récupère et peut maintenant partir en contre. Quel retournement, tout bascule !",
+  "cites": [
+   "e0099"
+  ]
+ }
+}

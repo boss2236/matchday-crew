@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers keep the ball, no goal yet",
+  "text": "Northgate Rovers가 공을 계속 돌리고 있지만 아직 0-1로 뒤지고 있어요! Ilan Cohen이 길게 찔러 준 패스가 끊기자, Sven Dahl이 침착하게 뒤로 돌려 다시 시작했어요.",
+  "cites": [
+   "e0551",
+   "e0560"
+  ]
+ }
+}

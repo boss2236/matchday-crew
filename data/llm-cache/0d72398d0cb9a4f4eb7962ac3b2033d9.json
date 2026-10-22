@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Rovers lideran con 0.68 xG al descanso",
+  "text": "Northgate Rovers ganan 1-0 con 0.68 xG frente a 0.31 de Southmere United, pese a 32 entradas al último tercio contra 26 y 6 tiros contra 4. PPDA 8.6 vs 9.1; momentum -46.",
+  "cites": [
+   "e0860"
+  ]
+ }
+}

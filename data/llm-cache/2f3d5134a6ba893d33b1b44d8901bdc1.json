@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale: lancio diretto, tiro da 0.071 xG",
+  "text": "Sullo 0-0, Ade Bamidele serve Zeke Mbeki con un lancio da 49.5 (difficoltà 84); Mbeki tira da 11.6, bloccato, 0.071 xG. Momentum -25, caos 67: gara sciolta, non controllata.",
+  "cites": [
+   "e0575",
+   "e0576",
+   "e0577",
+   "e0578"
+  ]
+ }
+}

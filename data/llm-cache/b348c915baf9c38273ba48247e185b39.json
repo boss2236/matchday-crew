@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United: xG 0.68, ছয় পাসের চেইন",
+  "text": "Southmere United-এর possession 61%, xG 0.68, PPDA 5.7। Alfie Grant থেকে Tariq Aziz পর্যন্ত পাস চেইন; Tariq Aziz-এর pressured 55.1 দূরত্বের পাস, difficulty 73, Dmitri Volkov-কে। momentum 40, chaos 66।",
+  "cites": [
+   "e0138",
+   "e0142",
+   "e0144"
+  ]
+ }
+}

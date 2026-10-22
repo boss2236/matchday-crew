@@ -1,17 +1,14 @@
 {
- "model": "openai:openai/gpt-oss-20b",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Chaos Drives Momentum Swing",
-  "text": "Northgate’s rapid passes and high‑speed carries overwhelm Ironvale, turning a 70% possession advantage into a -65 momentum swing, as chaos spikes to 43.",
+  "headline": "Northgate's patient circulation finally gets picked off",
+  "text": "Northgate Rovers hold 70 possession and 88 pass accuracy, but Kai Nakamura's forward pass to Oscar Blum was intercepted. It's still 0-0, and the momentum reading of -65 leans heavily Northgate's way.",
   "tags": [
+   "possession",
    "momentum",
-   "chaos",
-   "pressing"
+   "control"
   ],
   "cites": [
-   "e0091",
-   "e0092",
-   "e0096",
    "e0097",
    "e0098",
    "e0099"

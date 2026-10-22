@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Ironvale’s Build‑Up Sparks Lead",
+  "text": "Ironvale’s slick five‑pass run and Ivo’s long ball lifted them into the lead, pushing possession to 51% and xG over 1.5.",
+  "cites": [
+   "e0772",
+   "e0773",
+   "e0774",
+   "e0775",
+   "e0776",
+   "e0782"
+  ]
+ }
+}

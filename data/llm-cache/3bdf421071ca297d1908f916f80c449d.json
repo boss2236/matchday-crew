@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic frappe en contre !",
+  "text": "Ironvale Athletic mène 1-0 et enchaîne les passes sans être gêné. Puis Ivo Petrov envoie un long ballon parfait vers Luca Romero, et toute la défense est dépassée. Quel contre !",
+  "cites": [
+   "e0782",
+   "e0772",
+   "e0774"
+  ]
+ }
+}

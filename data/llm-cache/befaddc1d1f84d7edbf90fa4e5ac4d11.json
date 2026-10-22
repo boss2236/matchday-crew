@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Callum Reid ruba palla dopo palla",
+  "text": "Callum Reid non molla: ha già riconquistato il pallone 3 volte, con due intercetti e un tackle. Così l'Ironvale Athletic, pur difendendosi bassa, ribalta il gioco e fa paura all'Harbour City.",
+  "cites": [
+   "e0201",
+   "e0220",
+   "e0243"
+  ]
+ }
+}

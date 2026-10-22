@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City schlagen die xG-Statistik",
+  "text": "Harbour City gewinnt 4-1, obwohl das xG-Duell 1.26 zu 1.76 an Ironvale Athletic geht. 7 Schüsse aufs Tor, PPDA 8.5 gegen 10.3 und Momentum 75 sprechen für effizientes Pressing und Abschluss.",
+  "cites": [
+   "e1727"
+  ]
+ }
+}

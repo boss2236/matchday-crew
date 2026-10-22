@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City 0.57 xG, 모멘텀 -35",
+  "text": "76분 0-2 열세 Harbour City, 점유율 51%에도 xG 0.57 대 1.81. Leo Marchetti의 57.2 거리, 난이도 78 패스가 아웃되며 모멘텀 -35, 혼돈 59. PPDA 7.3.",
+  "cites": [
+   "e1583",
+   "e1578"
+  ]
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Los pases largos de Southmere se pierden",
+  "text": "Dos pases largos de Southmere United, e0574 y e0584, fueron cortados por Harbour City en el minuto 28. Aunque van por delante en ocasiones, su impulso cayó a 26 y el partido se desordena.",
+  "cites": [
+   "e0574",
+   "e0584"
+  ]
+ }
+}

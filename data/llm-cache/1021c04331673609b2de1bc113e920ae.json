@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale kontern nach Ballverlust",
+  "text": "Beim 1-0 in der 85. Minute: Reid–Tanaka–Romero, Passschwierigkeit 28 und 34, danach zwei Romero-Läufe mit 31 und 34.1 km/h. Momentum 25, Chaos 41, Ironvale xG 1.2 gegenüber 0.86.",
+  "cites": [
+   "e1570",
+   "e1571",
+   "e1572",
+   "e1573"
+  ]
+ }
+}

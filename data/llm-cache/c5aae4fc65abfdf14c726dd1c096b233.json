@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "¡Contragolpe letal de Ironvale Athletic!",
+  "text": "¡Qué jugada! Marco Silvan robó el balón, corrió con él y Ironvale Athletic lo movió sin que nadie los molestara. Zeke Mbeki remató a 96.1 km/h y puso el 1-0.",
+  "cites": [
+   "e0587",
+   "e0588",
+   "e0597",
+   "e0599",
+   "e0600"
+  ]
+ }
+}

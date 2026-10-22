@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale wanaruka kwa kasi ya ajabu!",
+  "text": "Ironvale Athletic wanaongoza 1-0, na sasa wanashambulia haraka! Callum Reid anampa Luca Romero mpira mrefu, Romero anamtumia Marco Silvan, kisha anarudishiwa na kukimbia nao mbele. Mchezo umechangamka!",
+  "cites": [
+   "e1464",
+   "e1465",
+   "e1467",
+   "e1468",
+   "e1469"
+  ]
+ }
+}

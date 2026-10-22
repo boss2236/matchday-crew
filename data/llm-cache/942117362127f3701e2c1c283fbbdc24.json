@@ -1,0 +1,16 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers 1-0 Southmere United: Blum Decides",
+  "text": "Northgate Rovers가 Southmere United를 1-0으로 꺾었다. 초반 7분 Andres Vega의 10.9m 캐리(26.5km/h)로 momentum 37을 만들었고, 23분 Emre Kaya의 난이도 48 패스를 받은 Oscar Blum이 xG 0.472, 4.3m 거리에서 선제골을 넣었다. 이후 Southmere United는 13분 Rafa Ortega의 캐리로 momentum -27을 만들며 반격했고, final third 진입은 57회로 Northgate Rovers의 42회보다 많았다. 그러나 xG는 0.9 대 1.18로 밀렸다. 65분 Blum의 xG 0.284 슈팅은 빗나갔지만 Northgate Rovers가 승점을 지켰다. PPDA는 8.3 대 7.6이었다. 최우수 선수는 xG 1.16의 Oscar Blum이다.",
+  "cites": [
+   "e0116",
+   "e0221",
+   "e0426",
+   "e0427",
+   "e0428",
+   "e1205",
+   "e1784"
+  ]
+ }
+}

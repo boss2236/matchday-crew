@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "¡Aziz remata una jugada paciente antes del descanso!",
+  "text": "¡Qué jugada de Southmere United! Pasó el balón con calma, sin dejarse agobiar por Harbour City, y Tariq Aziz la empujó a gol casi bajo el palo. ¡1-0 justo antes del descanso!",
+  "cites": [
+   "e1010",
+   "e1012",
+   "e1013",
+   "e1014"
+  ]
+ }
+}

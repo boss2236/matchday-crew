@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers segura o jogo com garra",
+  "text": "Que sufoco para o Southmere United! O Northgate Rovers roubou a bola três vezes seguidas, e Ilan Cohen fechou a sequência aos 78 minutos. O 1-0 continua firme!",
+  "cites": [
+   "e1425",
+   "e1441",
+   "e1462"
+  ]
+ }
+}

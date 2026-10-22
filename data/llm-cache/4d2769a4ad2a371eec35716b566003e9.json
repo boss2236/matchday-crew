@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic hızlı vurdu, öne geçti!",
+  "text": "Kenardan oyun başlar başlamaz Ivo Petrov uzun bir pas attı, Zeke Mbeki de çok yakından topu ağlara gönderdi. Ironvale Athletic bekleyip tek hamlede 1-0 öne geçti!",
+  "cites": [
+   "e0480",
+   "e0481",
+   "e0484",
+   "e0485"
+  ]
+ }
+}

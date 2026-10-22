@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale file en contre-attaque !",
+  "text": "Ironvale mène 1-0 et ne s'arrête plus : Callum Reid trouve Hiro Tanaka, qui sert Luca Romero. Et là, Romero s'élance à 34.1 km/h pour lancer la contre-attaque !",
+  "cites": [
+   "e1570",
+   "e1571",
+   "e1572",
+   "e1573"
+  ]
+ }
+}

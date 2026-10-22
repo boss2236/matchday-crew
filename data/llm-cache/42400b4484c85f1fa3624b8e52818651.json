@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City perde bolas sem pressão",
+  "text": "Três passes intercetados sem pressão: Demir→Kowalski (33.6 m, dificuldade 56), Kowalski→Demir (43.2 m, 55), Kowalski→Marchetti (30.3 m, 42). Harbour City com xG 0.35 contra 1.68, momentum 35, caos 55 no 1-1.",
+  "cites": [
+   "e1111",
+   "e1118",
+   "e1128"
+  ]
+ }
+}

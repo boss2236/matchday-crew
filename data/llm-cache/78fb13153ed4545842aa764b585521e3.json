@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale'in güzel serisi taça gitti",
+  "text": "Callum Reid, Luca Romero'ya uzun bir pas attı, top ona ulaştı. Ama Romero'nun Hiro Tanaka'ya yolladığı pas dışarı çıktı ve Ironvale Athletic bu güzel hücum zincirini boşa harcadı.",
+  "cites": [
+   "e0326",
+   "e0327"
+  ]
+ }
+}

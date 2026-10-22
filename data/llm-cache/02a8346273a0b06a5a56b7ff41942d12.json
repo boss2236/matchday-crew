@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate's 1-0 lead looks fragile",
+  "text": "Northgate lead 1-0 on 0.67 xG to 0.16, but momentum is only 26 against chaos 44. Oscar Blum's 23.3m pass went out; Ilan Cohen's 15.1m ball was intercepted. Southmere have 13 interceptions.",
+  "cites": [
+   "e0499",
+   "e0510"
+  ]
+ }
+}

@@ -1,0 +1,15 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers-এর Oscar Blum-এর গোলে ১-০ জয়",
+  "text": "Northgate Rovers 1-0 জিতেছে Southmere United-এর বিপক্ষে। শুরুতে 7 মিনিটে Andres Vega-র 26.5 km/h ক্যারিতে momentum 37-এ ওঠে। 23 মিনিটে Emre Kaya-র difficulty 48 পাসে Oscar Blum 4.3 দূরত্ব থেকে 0.472 xG-র সুযোগ গোলে বদলান। 65 মিনিটে Blum-এর 0.284 xG-র শট off_target যায়, ফলে ব্যবধান বাড়েনি। Southmere United-এর final third entries 57 (Northgate Rovers 42) এবং PPDA 7.6 (Northgate Rovers 8.3) হলেও xG 0.9, বিপরীতে Northgate Rovers 1.18। 55% possession ও 3 shots on target-এ সমান থেকেও Northgate Rovers-এর সুযোগের মান ফলাফল নির্ধারণ করেছে। standout: Oscar Blum, 1 গোল, xG 1.16।",
+  "cites": [
+   "e0116",
+   "e0427",
+   "e0428",
+   "e0426",
+   "e1205",
+   "e1784"
+  ]
+ }
+}

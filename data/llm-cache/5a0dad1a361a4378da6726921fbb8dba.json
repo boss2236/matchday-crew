@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate topu üst üste kapıyor!",
+  "text": "Ilan Cohen az önce topu kesti ve Northgate Rovers iki dakikada üçüncü kez topu geri aldı! Southmere United kanatlardan bir türlü çıkamıyor, Northgate 1-0'lık farkı sımsıkı koruyor.",
+  "cites": [
+   "e1425",
+   "e1441",
+   "e1462"
+  ]
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers wanamiliki mpira, bado hakuna bao",
+  "text": "Northgate Rovers wanaumiliki mpira kwa utulivu, lakini bado wanazidiwa 1-0. Ilan Cohen alipiga pasi ndefu mbele, ikakatwa, kwa hiyo Sven Dahl akarudisha mpira nyuma tena.",
+  "cites": [
+   "e0551",
+   "e0560"
+  ]
+ }
+}

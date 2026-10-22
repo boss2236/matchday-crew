@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers 1-0、xGで上回り勝利",
+  "text": "Northgate Rovers が1-0で勝利。xGは1.18対0.9、Southmere United は final third entries 57対42と領域で上回った。PPDAは8.3対7.6、momentum -63、chaos 56。",
+  "cites": [
+   "e1784"
+  ]
+ }
+}

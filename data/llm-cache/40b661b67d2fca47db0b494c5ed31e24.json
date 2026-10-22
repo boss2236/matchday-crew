@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers verlieren den Ball",
+  "text": "Northgate Rovers spielen geduldig und haben viel Ball, aber Kai Nakamura schickt den Pass zu Oscar Blum direkt in die Beine des Gegners. Es steht weiter 0-0, die Spannung bleibt!",
+  "cites": [
+   "e0099"
+  ]
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate 점유 70%, 패스 차단 e0099",
+  "text": "Northgate Rovers가 점유율 70, 패스 성공률 88로 지배하지만 Kai Nakamura의 Oscar Blum 향 전진 패스(거리 23, 난이도 48)가 차단됐습니다. xG 0, PPDA 4.8, 모멘텀 -65.",
+  "cites": [
+   "e0099",
+   "e0098"
+  ]
+ }
+}

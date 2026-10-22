@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Aziz finishes counter after Cruz tackle",
+  "text": "Felipe Cruz's tackle starts it; passes of 36.4 (difficulty 64) and 34.1 (difficulty 54), both unpressured, free Tariq Aziz for an 8.2 shot, xG 0.16. Harbour City's PPDA 7.3 leaves space; 2-0.",
+  "cites": [
+   "e1282",
+   "e1283",
+   "e1285",
+   "e1286"
+  ]
+ }
+}

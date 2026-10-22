@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kowalski tutup laga untuk Harbour City!",
+  "text": "Mateo Ruiz mengirim umpan jauh ke Dani Kowalski, lalu Kowalski menggiring bola sebentar dan mencetak gol dari jarak dekat tanpa gangguan. Harbour City unggul 3-1 di menit akhir!",
+  "cites": [
+   "e1722",
+   "e1723",
+   "e1724"
+  ]
+ }
+}

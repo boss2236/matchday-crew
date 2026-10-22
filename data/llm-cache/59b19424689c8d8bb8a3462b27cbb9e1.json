@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers 控球多,还差一个突破",
+  "text": "Northgate Rovers 一直把球攥在脚下,可还是 1-0 落后。Ilan Cohen 的长传被拦下,Sven Dahl 只好把球传回去重新组织,球迷们都替他们着急!",
+  "cites": [
+   "e0551",
+   "e0560"
+  ]
+ }
+}

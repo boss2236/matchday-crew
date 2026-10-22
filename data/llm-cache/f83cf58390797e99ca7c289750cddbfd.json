@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kowalski chiude i conti: 4-1 Harbour City!",
+  "text": "Che azione! Dani Kowalski ruba palla, poi uno scambio veloce con Mateo Ruiz lo riporta davanti alla porta, tutto solo. Tocco facile e gol: Harbour City vola sul 4-1!",
+  "cites": [
+   "e1715",
+   "e1722",
+   "e1724",
+   "e1725"
+  ]
+ }
+}

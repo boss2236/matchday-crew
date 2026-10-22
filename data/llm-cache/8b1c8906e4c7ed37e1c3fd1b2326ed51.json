@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Joel Martin mencuri bola, Tariq Aziz mencetak gol!",
+  "text": "Joel Martin merebut bola, berlari membawanya, lalu mengumpan ke Tariq Aziz. Dari jarak 10 meter, Tariq Aziz menceploskan bola ke gawang. Southmere United unggul 3-0 atas Harbour City!",
+  "cites": [
+   "e1847",
+   "e1848",
+   "e1849",
+   "e1850",
+   "e1851"
+  ]
+ }
+}

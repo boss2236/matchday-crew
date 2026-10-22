@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale's long balls yield only 0.02 xG",
+  "text": "Ironvale went direct under pressure: Ivo Petrov's 44.5 pass (difficulty 95) was intercepted, then Hiro Tanaka's 41.2 ball (difficulty 89) found Zeke Mbeki for a 0.02 xG off-target shot. Chaos 64, momentum -53, 1-1.",
+  "cites": [
+   "e1059",
+   "e1067",
+   "e1068"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic, 공을 세 번 가로챘다!",
+  "text": "Ironvale Athletic이 2분 동안 태클 한 번, 가로채기 두 번으로 공을 되찾았어요! Northgate Rovers가 차분히 돌리던 공을 끊어내며 1-0 리드를 지키고 있습니다.",
+  "cites": [
+   "e0564",
+   "e0581",
+   "e0603"
+  ]
+ }
+}

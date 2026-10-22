@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere's long balls bleed momentum",
+  "text": "Bruno Costa's 33.3m ball (difficulty 51) and Rafa Ortega's 30.3m ball (difficulty 41) were both intercepted. Momentum is 26, chaos 56, despite Southmere's xG 0.71 to 0.27. Harbour City's PPDA is 7.1.",
+  "cites": [
+   "e0574",
+   "e0584"
+  ]
+ }
+}

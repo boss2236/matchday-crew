@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "¡Dani Kowalski corona una jugada paciente!",
+  "text": "Jonah Pike robó el balón y Harbour City lo movió con paciencia hasta abrir a Ironvale Athletic. Mateo Ruiz y Yusuf Demir fueron directos y Dani Kowalski soltó un disparo a 97.9 km/h. ¡2-1!",
+  "cites": [
+   "e1201",
+   "e1220",
+   "e1221",
+   "e1222",
+   "e1223"
+  ]
+ }
+}

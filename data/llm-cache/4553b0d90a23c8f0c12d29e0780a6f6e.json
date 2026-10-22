@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Grant's 41m switch breaks Northgate's press",
+  "text": "Southmere trail 1-0, xG 0.16 vs 0.68, momentum -29. After Felipe Cruz's intercepted pass, Alfie Grant's pressured 41m ball to Joel Martin, difficulty 84, gained 40.9 progress.",
+  "cites": [
+   "e0703",
+   "e0713"
+  ]
+ }
+}

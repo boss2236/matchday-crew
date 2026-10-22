@@ -1,0 +1,15 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Okafor-র ইন্টারসেপ্ট, Marchetti-র গোল!",
+  "text": "Sami Okafor বল কেড়ে নিতেই Harbour City ঝড়ের গতিতে ছুটল! তিনটি পাস, তারপর Leo Marchetti-র জোরালো শটে গোল, আর খেলা হলো 1-1। কেউ তাদের আটকাতেই পারল না!",
+  "cites": [
+   "e0991",
+   "e0994",
+   "e0995",
+   "e0996",
+   "e0998",
+   "e0999"
+  ]
+ }
+}

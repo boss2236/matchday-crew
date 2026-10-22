@@ -185,9 +185,15 @@ export function extractNumbers(text: unknown): number[] {
 // Reads the same numeral styles as extractNumbers, and hyphenated forms ("a 10.3-km run").
 const KM_NOT_SPEED = /(\d+(?:\.\d+)?)[\s\-‐‑]*(?:km|kilomet(?:re|er)s?|كم|كيلومترات?|كيلومتر)(?!\s*(?:\/|per\b|an hour|ph\b|\/h|\/س|في الساعة))/gi;
 
+// Yards are the same mistake the other way: a 1.2 m tap-in written as "1.2 yards"
+// (found by the independent review, docs/REVIEW.md). Digits or a number word.
+const YARDS = /\b(\d+(?:\.\d+)?|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|fifteen|twenty|thirty|forty|fifty)[\s\-‐‑]*(?:yards?|yds?)\b/gi;
+
 export function unitProblems(text: unknown): string[] {
   const problems: string[] = [];
-  for (const m of normalizeNumerals(text).matchAll(KM_NOT_SPEED)) problems.push(`distance ${m[1]} km should be metres`);
+  const normalized = normalizeNumerals(text);
+  for (const m of normalized.matchAll(KM_NOT_SPEED)) problems.push(`distance ${m[1]} km should be metres`);
+  for (const m of normalized.matchAll(YARDS)) problems.push(`distance ${m[1]} yards should be metres`);
   return problems;
 }
 

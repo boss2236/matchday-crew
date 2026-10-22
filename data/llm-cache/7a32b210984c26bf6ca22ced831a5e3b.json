@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere empuja, pero el último pase se va fuera",
+  "text": "Southmere United lleva la iniciativa y ha pasado cerca del gol, pero Bruno Costa lanzó un pase largo a Joel Martin que se fue fuera. ¡Un final suelto para tanto toque tranquilo!",
+  "cites": [
+   "e0413",
+   "e0412"
+  ]
+ }
+}

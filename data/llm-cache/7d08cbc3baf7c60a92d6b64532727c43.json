@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale casi se lanza, pero el balón sale",
+  "text": "¡Qué jugada! Callum Reid lanzó un pase larguísimo a Luca Romero, pero Romero mandó el siguiente a Hiro Tanaka fuera. Se acabó la jugada de Ironvale Athletic, y seguimos 0-0.",
+  "cites": [
+   "e0326",
+   "e0327"
+  ]
+ }
+}

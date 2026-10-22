@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers perdent le fil: momentum -65",
+  "text": "Nakamura vers Blum, passe de 23 m, difficulté 48, interceptée à 05:55. Northgate 70% de possession, PPDA 4.8, xG 0 ; momentum -65, chaos 43 : Ironvale Athletic peut contre-attaquer.",
+  "cites": [
+   "e0098",
+   "e0099"
+  ]
+ }
+}

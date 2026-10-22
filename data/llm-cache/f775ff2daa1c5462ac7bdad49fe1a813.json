@@ -1,12 +1,12 @@
 {
- "model": "openai:openai/gpt-oss-20b",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Ironvale’s 3‑shot pressing burst",
-  "text": "Three interceptions in 120 seconds by Zeke Mbeki shift control to Ironvale, boosting momentum to 33 while Northgate’s chaos rises to 47. The rapid regain of possession underpins Ironvale’s deep‑block counter strategy.",
+  "headline": "Ironvale's interceptions choke Northgate's patient build-up",
+  "text": "Ironvale Athletic won the ball back 3 times in 120 seconds, with interceptions by Callum Reid, Marco Silvan and Zeke Mbeki. Protecting a 1-0 lead with 44 percent possession, their deep block keeps forcing turnovers from Northgate's patient passing.",
   "tags": [
    "pressing",
-   "momentum",
-   "control"
+   "control",
+   "counter"
   ],
   "cites": [
    "e0900",

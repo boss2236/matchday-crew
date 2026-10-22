@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City mueve el balón, sin peligro",
+  "text": "Harbour City pierde 3-0 y encadena cinco pases seguidos sin presión, pero varios van hacia atrás. Mucho trato de balón, pocas ganas de pisar el área rival.",
+  "cites": [
+   "e1926",
+   "e1928",
+   "e1929",
+   "e1930"
+  ]
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United, 모멘텀 40 속 점유 61%",
+  "text": "Southmere United는 xG 0.68, PPDA 5.7로 앞서지만 모멘텀 40, 혼전도 66입니다. Tariq Aziz의 압박 속 55.1m 백패스는 난이도 73이었고 Dmitri Volkov가 받았습니다.",
+  "cites": [
+   "e0142",
+   "e0144"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United hält den Ball ruhig",
+  "text": "Southmere United lässt den Ball von Alfie Grant bis zu Tariq Aziz laufen. Dann spielt Aziz unter Druck weit zurück zu Dmitri Volkov. Es bleibt 0-0, und alles ist noch offen.",
+  "cites": [
+   "e0138",
+   "e0142",
+   "e0144"
+  ]
+ }
+}

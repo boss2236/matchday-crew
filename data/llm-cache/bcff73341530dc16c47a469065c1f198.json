@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City、リスク高いロングパスで主導権喪失",
+  "text": "Harbour Cityは0-1で劣勢、momentum 27。Leo Marchettiのe0725は60.3m・difficulty 73でintercepted、Jonah Pikeのe0734は40m・difficulty 64でout。xGは0.16対1.63。",
+  "cites": [
+   "e0725",
+   "e0734"
+  ]
+ }
+}

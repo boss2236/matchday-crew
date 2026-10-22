@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City avanti, ma c'è tensione",
+  "text": "Harbour City è avanti 2-1, ma la squadra sta rischiando. Mateo Ruiz ha riportato indietro il pallone a Rui Barros, e il passaggio successivo, sotto pressione, è stato intercettato. Ironvale Athletic ci crede!",
+  "cites": [
+   "e1451",
+   "e1453"
+  ]
+ }
+}

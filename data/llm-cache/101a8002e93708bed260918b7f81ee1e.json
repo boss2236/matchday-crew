@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Mnyororo bila presha wamfikisha Aziz golini",
+  "text": "Bruno Costa alibeba mpira kwa 33.1 km/h, kisha pasi 3 bila presha zikamfikia Tariq Aziz, aliyefunga kutoka umbali wa 1.2 kwa xG 0.931. PPDA ya Harbour City ilikuwa 6.8, lakini momentum ni 52.",
+  "cites": [
+   "e1009",
+   "e1010",
+   "e1011",
+   "e1012",
+   "e1013"
+  ]
+ }
+}

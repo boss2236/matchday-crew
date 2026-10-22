@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic 역습으로 선제골!",
+  "text": "Marco Silvan이 공을 가로챈 뒤 달려나갔고, 패스가 매끄럽게 이어졌어요. 마지막은 Zeke Mbeki의 시속 96.1km 강슛! Ironvale Athletic이 1-0으로 앞서갑니다.",
+  "cites": [
+   "e0587",
+   "e0588",
+   "e0597",
+   "e0599",
+   "e0600"
+  ]
+ }
+}

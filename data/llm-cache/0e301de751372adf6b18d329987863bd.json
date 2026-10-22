@@ -1,17 +1,17 @@
 {
- "model": "openai:openai/gpt-oss-120b",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Harbour City’s half‑time surge falters",
-  "text": "At 45:02 the team’s momentum rose to 25 but chaos spiked to 55 as rapid passes (e0887, e0889, e0890) led to a blocked shot (e0893), highlighting a fleeting control burst that dissolved into disorder.",
+  "headline": "Harbour City push, but Ironvale's block holds",
+  "text": "Down 0-1, Harbour City carry the momentum at 25. Ruiz's 26.6-metre progressive pass and Kowalski's carry set up a shot from 6.9 metres, but it was blocked. Their xG is 0.27 against Ironvale's 1.63, so the pressure is still not producing chances.",
   "tags": [
    "momentum",
-   "chaos",
-   "control"
+   "pressing",
+   "chance"
   ],
   "cites": [
    "e0887",
-   "e0889",
    "e0890",
+   "e0891",
    "e0893"
   ]
  }

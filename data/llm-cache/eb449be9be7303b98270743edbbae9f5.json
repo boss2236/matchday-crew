@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "इंटरसेप्शन से Ironvale का शानदार गोल",
+  "text": "Harbour City गेंद पर भारी थी, पर Ironvale ने गेंद छीनी, Marco Silvan दौड़े, साथी पास देते रहे और Zeke Mbeki ने गोल ठोक दिया। स्कोर 0-1!",
+  "cites": [
+   "e0587",
+   "e0588",
+   "e0597",
+   "e0599",
+   "e0600"
+  ]
+ }
+}

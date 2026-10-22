@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Joel Martin lance la contre-attaque éclair !",
+  "text": "Joel Martin récupère le ballon, file vers l'avant et sert Tariq Aziz. Tariq Aziz ne tremble pas et marque ! Southmere United mène 3-0 face à Harbour City, et tout ça en quelques secondes seulement !",
+  "cites": [
+   "e1847",
+   "e1848",
+   "e1849",
+   "e1850",
+   "e1851"
+  ]
+ }
+}

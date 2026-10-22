@@ -1,15 +1,14 @@
 {
- "model": "openai:openai/gpt-oss-120b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Rovers' Patient Build‑Up Pays Off",
-  "text": "After a throw‑in, Northgate kept possession with three short passes (e0421‑e0423) and three carries (e0424‑e0426), culminating in a high‑speed 101.4 km/h shot (e0427) that broke the 56% possession control and gave them a 1‑0 lead.",
+  "headline": "Direct switch unlocks Southmere's defence",
+  "text": "Gabe Moreno's 63.8-metre pass to Emre Kaya, followed by three carries and an unpressured Oscar Blum finish, gave Northgate a 1-0 lead from only 2 shots. Southmere had 5 shots but just 0.16 xG.",
   "tags": [
-   "possession",
-   "control",
+   "counter",
+   "finishing",
    "chance"
   ],
   "cites": [
-   "e0421",
    "e0422",
    "e0423",
    "e0424",

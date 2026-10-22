@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kowalski sentencia 4-1 após recuperação alta",
+  "text": "Harbour City recupera por interceptação (e1715); Mateo Ruiz lança passe de 21.6 de progressão e dificuldade 48 (e1722), e Dani Kowalski finaliza a 2.5 de distância, 0.79 xG (e1725). PPDA 8.5.",
+  "cites": [
+   "e1715",
+   "e1722",
+   "e1725"
+  ]
+ }
+}

@@ -1,0 +1,15 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic、奪取から7本の無圧力パスで先制",
+  "text": "Marco Silvanが11.8mと9.1mを運び、7本のパスをつないでZeke Mbekiが距離6.3m、xG 0.188、96.1 km/hで決めた。Harbour City 52%保持でも0-1、momentum -50。",
+  "cites": [
+   "e0587",
+   "e0588",
+   "e0590",
+   "e0597",
+   "e0599",
+   "e0600"
+  ]
+ }
+}

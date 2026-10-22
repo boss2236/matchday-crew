@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate avanti, ma sono insicuri",
+  "text": "Northgate Rovers è avanti 1-0, ma i passaggi si sono fatti scivolosi: Ilan Cohen è stato intercettato e il pallone di Oscar Blum è finito fuori. Southmere United ringrazia e ci prova.",
+  "cites": [
+   "e0499",
+   "e0510"
+  ]
+ }
+}

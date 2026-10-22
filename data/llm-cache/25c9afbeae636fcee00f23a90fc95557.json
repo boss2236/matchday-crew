@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Reid, Ironvale'in galibiyet hayalini koruyor",
+  "text": "Callum Reid sahada durmuyor! Önce çalım kesti, sonra pası kaptı, ardından yine topu geri aldı. Northgate Rovers rahat oynayamıyor, Ironvale Athletic de 1-0'lık öne geçişini böyle koruyor.",
+  "cites": [
+   "e1414",
+   "e1420",
+   "e1437"
+  ]
+ }
+}

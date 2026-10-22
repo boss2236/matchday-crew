@@ -1,0 +1,17 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City yaipiga Ironvale Athletic 4-1 licha ya xG ndogo",
+  "text": "Harbour City ilishinda 4-1 dhidi ya Ironvale Athletic, ingawa xG ilikuwa 1.26 dhidi ya 1.76. Ironvale ilianza vizuri: Zeke Mbeki alikosa nafasi ya xG 0.876 kutoka mita 2.5 dakika ya 2, kisha akafunga dakika ya 30 (xG 0.188) kwa shuti la 96.1 km/h baada ya pasi ya Luca Romero. Mbeki alikosa tena nafasi ya xG 0.459 dakika ya 33. Leo Marchetti alisawazisha dakika ya 49 kwa xG 0.024 tu. Presha ya Harbour City (PPDA 8.5 dhidi ya 10.3) iligeuza mchezo. Dani Kowalski alifunga dakika ya 62 (xG 0.06), dakika ya 81 (xG 0.057) na dakika ya 90 (xG 0.79), akiwa mchezaji bora wa mechi kwa mabao 3. Ufanisi wa kumalizia uliamua matokeo, momentum ikiisha 75.",
+  "cites": [
+   "e0041",
+   "e0599",
+   "e0651",
+   "e0998",
+   "e1222",
+   "e1551",
+   "e1724",
+   "e1727"
+  ]
+ }
+}

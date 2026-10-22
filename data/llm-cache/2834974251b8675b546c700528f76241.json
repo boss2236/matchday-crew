@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kowalski fecha a goleada no fim!",
+  "text": "Que final de jogo! Dani Kowalski rouba a bola, troca passes com Mateo Ruiz e, sozinho e sem ninguém em cima, empurra para o golo. O Harbour City vence por 4-1!",
+  "cites": [
+   "e1715",
+   "e1722",
+   "e1724",
+   "e1725"
+  ]
+ }
+}

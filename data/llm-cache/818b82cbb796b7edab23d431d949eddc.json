@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City's press tightens grip late",
+  "text": "Harbour City won the ball back 3 times in 120 seconds: tackles by Dani Kowalski and Arjun Mehta, then Yusuf Demir's interception at 83:06. PPDA 8.5 versus 10.9, momentum 71, leading 3-1.",
+  "cites": [
+   "e1562",
+   "e1579",
+   "e1587"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Un long ballon, et Bruno Costa tente sa chance",
+  "text": "Kwame Mensah envoie un immense ballon vers Tariq Aziz malgré la pression, puis Bruno Costa tente sa chance de loin. Le gardien arrête tranquillement, mais Southmere United mène 2-0, alors pourquoi pas !",
+  "cites": [
+   "e1482",
+   "e1483",
+   "e1484"
+  ]
+ }
+}

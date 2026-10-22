@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City, possesso sterile sul 3-0",
+  "text": "Al 90+3' Harbour City completa cinque passaggi senza pressione, ma tre vanno all'indietro (progress -23.9, -9.4, -10.5). Momentum -25, chaos 46, xG 0.62 contro 1.95: circolazione controllata, ma senza pericolo.",
+  "cites": [
+   "e1926",
+   "e1928",
+   "e1929",
+   "e1930"
+  ]
+ }
+}

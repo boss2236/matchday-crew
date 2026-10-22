@@ -1,16 +1,16 @@
 {
- "model": "openai:openai/gpt-oss-120b",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Harbour City’s Press Wins 4‑1",
-  "text": "Harbour City’s high‑press, quick‑combination style dominated after an early Ironvale block (e0041). A 22‑m pass from Hiro Tanaka to Luca Romero (e0143) sparked the first chance, but Zeke Mbeki’s 6.3 m, 96.1 km/h strike gave Ironvale a 1‑0 lead (e0599,e0600). Harbour City responded with Leo Marchetti’s 15.2 m goal (e0999) and Dani Kowalski’s 13.5 m finish (e1223), turning momentum (m074). Kowalski added two more strikes, the last a 2.5 m, 71.9 km/h winner (e1725), sealing a 4‑1 win. Harbour’s PPDA 8.5 and 84% pass accuracy limited Ironvale’s deep block, while Kowalski’s 3 goals (xG 1.17) made him the standout.",
+  "headline": "Kowalski hat-trick powers Harbour City past wasteful Ironvale",
+  "text": "Ironvale Athletic should have led inside 2 minutes, but Zeke Mbeki's 0.876 xG effort from 2.5m was blocked. Mbeki eventually scored on 30 minutes, finishing under pressure at 96.1 km/h (xg 0.188) after Luca Romero's 31.7m pass with difficulty 53. His 0.459 chance on 33 minutes was saved. Leo Marchetti equalised on 49 minutes from just 0.024 xG. Dani Kowalski then took over. He scored at 97.9 km/h on 62 minutes, added a 0.057 finish on 81 minutes and closed it out from 2.5m (0.79 xG) for 4-1. Harbour City's press (PPDA 8.5 vs 10.3) gave them control, and momentum ended at 75. Ironvale outscored them on xG, 1.76 to 1.26, but Mbeki turned 1.74 xG into 1 goal.",
   "cites": [
    "e0041",
-   "e0143",
+   "e0597",
    "e0599",
-   "e0600",
-   "e0999",
-   "e1223",
-   "e1725",
+   "e0651",
+   "e0998",
+   "e1222",
+   "e1551",
    "e1724",
    "e1727"
   ]

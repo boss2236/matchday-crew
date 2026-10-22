@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "¡Ironvale no deja respirar a Northgate!",
+  "text": "Ironvale Athletic gana 1-0 y no suelta a Northgate Rovers: Callum Reid y Hiro Tanaka le roban el balón una y otra vez, y Northgate no logra tocar con calma.",
+  "cites": [
+   "e1341",
+   "e1356",
+   "e1363"
+  ]
+ }
+}

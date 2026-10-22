@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale ruba palla e colpisce subito!",
+  "text": "Marco Silvan ruba il pallone e corre veloce, poi i compagni se lo passano senza fretta. Zeke Mbeki chiude con un tiro potentissimo: Ironvale Athletic va avanti 1-0!",
+  "cites": [
+   "e0587",
+   "e0588",
+   "e0597",
+   "e0599",
+   "e0600"
+  ]
+ }
+}
