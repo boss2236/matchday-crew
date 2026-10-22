@@ -26,10 +26,10 @@ az group create --name "$RG" --location "$LOCATION" --only-show-errors >/dev/nul
 echo "==> Creating or updating the container app"
 if [[ "${SOURCE_BUILD:-0}" == "1" ]]; then
   az containerapp up --name "$APP" --resource-group "$RG" --location "$LOCATION" --environment "$ENV_NAME" \
-    --source . --ingress external --target-port 8080 --only-show-errors
+    --source . --ingress external --target-port 8080
 else
   az containerapp up --name "$APP" --resource-group "$RG" --location "$LOCATION" --environment "$ENV_NAME" \
-    --image "$IMAGE" --ingress external --target-port 8080 --only-show-errors
+    --image "$IMAGE" --ingress external --target-port 8080
 fi
 
 echo "==> Settings and secrets"
