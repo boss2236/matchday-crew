@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers、プレスで1-0を守る",
+  "text": "78分、Ilan Cohenのインターセプトは120秒で3度目のリカバリー。Northgate Rovers(xG 1.18、PPDA 8.7)がSouthmere United(xG 0.38)のサイド攻撃を封じ、1-0を維持。モメンタム-39。",
+  "cites": [
+   "e1425",
+   "e1441",
+   "e1462"
+  ]
+ }
+}

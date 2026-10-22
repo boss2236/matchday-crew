@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate have the ball but trail",
+  "text": "Northgate Rovers have plenty of the ball, but they keep passing backwards. Sven Dahl's pass back to Ravi Kapoor is one example, so they trail 1-0 and haven't hit the target yet.",
+  "cites": [
+   "e0560",
+   "e0546"
+  ]
+ }
+}

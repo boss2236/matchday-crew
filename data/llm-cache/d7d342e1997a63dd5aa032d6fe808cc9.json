@@ -1,19 +1,16 @@
 {
- "model": "openai:openai/gpt-oss-120b",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Harbour City’s Press Falters at 58’",
-  "text": "At 57:27 the momentum dropped to 35 while chaos rose to 55 as Harbour City’s high‑press passes (e1110‑e1128) were repeatedly intercepted, ceding control to Ironvale’s deep block.",
+  "headline": "Harbour City's unpressured passes keep getting picked",
+  "text": "Harbour City lost the ball three times without being pressured. Interceptions by Ironvale Athletic's deep block led to momentum 35 and chaos 55 at 1-1, despite Harbour City's 39 final third entries.",
   "tags": [
-   "pressing",
+   "momentum",
    "chaos",
-   "momentum"
+   "pass"
   ],
   "cites": [
-   "e1110",
    "e1111",
    "e1118",
-   "e1126",
-   "e1127",
    "e1128"
   ]
  }

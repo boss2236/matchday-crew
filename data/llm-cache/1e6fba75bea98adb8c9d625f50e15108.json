@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Tariq Aziz、カウンターで2-0!",
+  "text": "Felipe Cruzがボールを奪うと、Bruno Costaを経てTariq Azizへ。あっという間にパスがつながり、Tariq Azizがゴールを決めました。Southmere Unitedの鮮やかな速攻です!",
+  "cites": [
+   "e1282",
+   "e1283",
+   "e1285",
+   "e1286"
+  ]
+ }
+}

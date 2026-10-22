@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers 掌控比赛节奏",
+  "text": "Northgate Rovers 1-0 领先，Kai Nakamura 一脚长传找到 Oscar Blum，球队传得稳、控球多，但 Southmere United 仍有机会，比赛还没定。",
+  "cites": [
+   "e0553",
+   "e0556"
+  ]
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Il pressing di Harbour City punisce Southmere",
+  "text": "Southmere United stava costruendo bene, ma appena Rafa Ortega e Bruno Costa sono stati pressati, il passaggio di Costa per Tariq Aziz è finito fuori. Harbour City aggredisce alto e si vede!",
+  "cites": [
+   "e1177",
+   "e1179"
+  ]
+ }
+}

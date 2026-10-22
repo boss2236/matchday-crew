@@ -1,0 +1,15 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic ने Northgate Rovers को 1-0 से हराया",
+  "text": "Ironvale Athletic ने Northgate Rovers पर 1-0 की जीत दर्ज की। 26 मिनट पर Oscar Blum का 0.394 xG वाला शॉट blocked हुआ, और अगले ही मिनट 27 में Zeke Mbeki ने 0.829 xG के मौके को 2 की दूरी से गोल में बदला। Ironvale के deep block और direct counters ने असर दिखाया: 8.8 PPDA, 15 tackles won और 42 interceptions। Northgate के पास 53% possession, 85% pass accuracy और 9 शॉट थे, पर उनका xG 0.86 रहा, जबकि Ironvale का 1.42। 45+2' पर Mbeki का 0.276 xG वाला शॉट off_target गया। Mbeki 1.39 xG और 1 गोल के साथ standout रहे।",
+  "cites": [
+   "e0461",
+   "e0484",
+   "e0485",
+   "e0603",
+   "e0855",
+   "e1700"
+  ]
+ }
+}

@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Marchetti's sprint fuels Harbour press",
+  "text": "At 55' Marchetti hit 31.5 km/h over 13.3 m run (e1074), Harbour City's PPDA 9.1, xG 0.35, momentum –41, chaos 63 as they press Ironvale's deep block.",
+  "cites": [
+   "e1074"
+  ]
+ }
+}

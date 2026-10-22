@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale lead on 1.14 xG, 46% possession",
+  "text": "Half time, Ironvale Athletic 1-0 Northgate Rovers. Ironvale's 1.14 xG from 4 shots beats Northgate's 0.68 from 6, despite 46% possession. Northgate press harder (PPDA 7.8 vs 9.6), but the counters bite. Momentum 12.",
+  "cites": [
+   "e0857"
+  ]
+ }
+}

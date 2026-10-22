@@ -1,11 +1,11 @@
 {
- "model": "openai:openai/gpt-oss-120b",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "High‑xG chance shakes Ironvale’s block",
-  "text": "At 01:22 Zeke Mbeki produced a 0.876 xG, 2.5 m shot at 80.1 km/h, which was blocked, highlighting a rare danger to Ironvale’s deep‑block, direct‑counter setup as momentum sits at –84 and chaos at 51.",
+  "headline": "Ironvale's direct threat stuns possession-heavy Harbour",
+  "text": "Harbour City hold 67% possession, but Ironvale Athletic have the shots, 2 to 0. Zeke Mbeki was unpressured from 2.5 metres for a 0.876 xG chance that was blocked, and momentum sits at -84.",
   "tags": [
+   "counter",
    "chance",
-   "pressing",
    "momentum"
   ],
   "cites": [

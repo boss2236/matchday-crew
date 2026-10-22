@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City kontrolliert, aber ohne Gefahr",
+  "text": "Harbour City spielt fünf Pässe in Ruhe hin und her, dann schießt Arjun Mehta – der Ball wird gehalten. Ein harmloser Versuch, denn Ironvale Athletic war bisher gefährlicher. Es steht 0-0.",
+  "cites": [
+   "e0351",
+   "e0352",
+   "e0353"
+  ]
+ }
+}

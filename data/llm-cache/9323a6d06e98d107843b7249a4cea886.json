@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City tente, Southmere tient bon",
+  "text": "À la 81e minute, Harbour City enchaîne des passes rapides, jusqu'au tir de Dani Kowalski. Le gardien repousse sans trembler : ce tir avait très peu de chances de finir au fond.",
+  "cites": [
+   "e1714",
+   "e1715"
+  ]
+ }
+}

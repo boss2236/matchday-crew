@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Reid stoppt Northgate immer wieder!",
+  "text": "Was für ein Einsatz von Callum Reid! Er holt den Ball 3 Mal zurück, per Tackle, Abfangen und nochmal Tackle. So bleibt Ironvale Athletic vorn und Northgate Rovers kommt nicht in Ruhe zum Spielen.",
+  "cites": [
+   "e1414",
+   "e1420",
+   "e1437"
+  ]
+ }
+}

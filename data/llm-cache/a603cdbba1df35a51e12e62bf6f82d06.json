@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Oscar Blum'dan baskı altında kaçan fırsat",
+  "text": "Oscar Blum, 5 mesafeden baskı altında 91.4 km/h vuruşla 0.284 xG'lik pozisyonu auta gönderdi. Northgate Rovers 1-0 önde; xG 1.18'e 0.32, momentum 40, kaos 59.",
+  "cites": [
+   "e1205"
+  ]
+ }
+}

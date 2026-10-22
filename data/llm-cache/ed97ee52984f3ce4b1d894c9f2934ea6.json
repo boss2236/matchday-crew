@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City, lanci lunghi intercettati tre volte",
+  "text": "Harbour City perde tre passaggi lunghi (e1111, e1118, e1128): distanze 33.6, 43.2, 30.3 m, difficoltà 56, 55, 42. Momentum 35, caos 55; xG 0.35 contro 1.68 di Ironvale Athletic.",
+  "cites": [
+   "e1111",
+   "e1118",
+   "e1128"
+  ]
+ }
+}

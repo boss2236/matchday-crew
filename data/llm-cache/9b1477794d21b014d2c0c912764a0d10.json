@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers split Southmere open",
+  "text": "Northgate Rovers have the ball most of the time, and Sven Dahl just threaded a tricky pass under pressure to Andres Vega, who ran on with it. Lovely, but no shot yet!",
+  "cites": [
+   "e0115",
+   "e0116"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic、プレスで流れを変える",
+  "text": "Hiro Tanakaのタックルとインターセプト、Callum Reidの奪取で120秒に3回のregain。Ironvale AthleticはxG 1.15対0.86、PPDA 8.7、chaos 67で1-0を守りつつカウンターを狙う。",
+  "cites": [
+   "e1341",
+   "e1356",
+   "e1363"
+  ]
+ }
+}

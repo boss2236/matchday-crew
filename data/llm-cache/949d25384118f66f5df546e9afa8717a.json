@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale 连续传球,Hiro Tanaka 接到球",
+  "text": "Ironvale Athletic 一脚接一脚,Owen Lusk 传给 Ade Bamidele,再送到 Hiro Tanaka 脚下!不过场面还有点乱,现在 0-0,大家都在盯着下一步。",
+  "cites": [
+   "e0194",
+   "e0195"
+  ]
+ }
+}

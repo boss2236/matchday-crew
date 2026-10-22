@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic 1-0 终场定胜负",
+  "text": "全场90+2'结束,Ironvale Athletic 以1-0击败Northgate Rovers。对手控球53%、9脚射门,但Ironvale Athletic 的xG为1.42,高于0.86;PPDA为8.8对7.9,动量7。",
+  "cites": [
+   "e1700"
+  ]
+ }
+}

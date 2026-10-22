@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United gestisce il pallone con calma",
+  "text": "Southmere United tiene il pallone con il 61% di possesso. Alfie Grant lo passa a Liam Doyle, che poi lo gira a Joel Martin: tanti passaggi puliti, ma il match resta ancora aperto, sullo 0-0.",
+  "cites": [
+   "e0138",
+   "e0139",
+   "e0142"
+  ]
+ }
+}

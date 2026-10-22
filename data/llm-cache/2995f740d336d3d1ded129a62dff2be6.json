@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale quase constrói, mas perde a bola",
+  "text": "O Ironvale Athletic trocou passes com calma e Callum Reid lançou longe para Luca Romero. Só que Romero tentou Hiro Tanaka e a bola saiu pela linha. Jogada boa, final triste!",
+  "cites": [
+   "e0326",
+   "e0327"
+  ]
+ }
+}

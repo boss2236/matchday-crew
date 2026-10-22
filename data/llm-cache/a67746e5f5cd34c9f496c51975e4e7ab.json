@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale tente le grand ballon, ça part en vrille",
+  "text": "Ironvale balance de longs ballons sous la pression : celui d'Ivo Petrov vers Zeke Mbeki est intercepté, puis Hiro Tanaka retrouve Zeke Mbeki, qui tire à côté. Match fou, 1-1 !",
+  "cites": [
+   "e1059",
+   "e1067",
+   "e1068"
+  ]
+ }
+}

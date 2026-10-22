@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere pierde el control del partido",
+  "text": "Southmere United gana 1-0, pero Harbour City aprieta alto y no los deja respirar. Joel Martin vio cómo le interceptaban un pase, y luego dos balones más se fueron fuera. ¡Se pone tenso!",
+  "cites": [
+   "e1221",
+   "e1230",
+   "e1234"
+  ]
+ }
+}

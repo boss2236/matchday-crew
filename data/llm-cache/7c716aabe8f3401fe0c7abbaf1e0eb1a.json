@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United xG 우위, 마무리는 불안",
+  "text": "Southmere United는 xG 0.69 대 0.27로 앞서고 모멘텀 25, PPDA 8.2입니다. 그러나 Bruno Costa의 48.8 거리, 난이도 62 패스가 아웃되며 빌드업이 끊겼습니다.",
+  "cites": [
+   "e0413",
+   "e0412"
+  ]
+ }
+}

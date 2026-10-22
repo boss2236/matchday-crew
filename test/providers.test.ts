@@ -100,6 +100,23 @@ test('response cache: second run makes no model calls and airs the same lines', 
   assert.equal(readdirSync(dir).length, callsAfterFirst);
 });
 
+test('response cache: refresh rewrites another model\'s answers once, then reuses its own', async () => {
+  const dir = mkdtempSync(join(tmpdir(), 'mc-cache-'));
+  const answer = (req: Parameters<typeof evidenceOf>[0]) => groundedFromPack(evidenceOf(req));
+  await runCrew(new CachedChat(model(answer, 'old'), { dir }));
+  let calls = 0;
+  const fresh = model((req) => {
+    calls++;
+    return answer(req);
+  }, 'new');
+  const refreshed = new CachedChat(fresh, { dir, refresh: true });
+  await runCrew(refreshed);
+  assert.ok(calls > 0 && refreshed.stats.hits === 0, 'every old answer was rewritten');
+  const callsAfterFirst = calls;
+  await runCrew(new CachedChat(fresh, { dir, refresh: true }));
+  assert.equal(calls, callsAfterFirst, 'a rerun reuses what the new model wrote');
+});
+
 test('response cache: replay-only misses fall back to templates; key ignores provider', async () => {
   const dir = mkdtempSync(join(tmpdir(), 'mc-cache-'));
   const crew = await runCrew(new CachedChat(null, { dir }));

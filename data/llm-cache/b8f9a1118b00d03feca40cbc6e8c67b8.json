@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers가 끈질기게 압박합니다",
+  "text": "Northgate Rovers가 공을 3번이나 되찾았어요! 특히 Kai Nakamura 선수가 가로채고 빼앗으며 앞서가는 흐름을 지켜 주고 있고, Southmere United는 좀처럼 숨 돌릴 틈이 없네요.",
+  "cites": [
+   "e0738",
+   "e0757",
+   "e0765"
+  ]
+ }
+}

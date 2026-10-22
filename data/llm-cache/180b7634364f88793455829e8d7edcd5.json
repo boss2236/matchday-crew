@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale steal it and strike!",
+  "text": "Ironvale Athletic won the ball back, and Marco Silvan raced forward with it. A slick run of passes later, Zeke Mbeki smashed it home for 1-0. Harbour City never saw it coming!",
+  "cites": [
+   "e0587",
+   "e0588",
+   "e0597",
+   "e0599",
+   "e0600"
+  ]
+ }
+}

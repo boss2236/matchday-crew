@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United turn up the heat",
+  "text": "Southmere United are hounding Northgate Rovers! Tariq Aziz and Joel Martin keep stealing the ball back, and it's stopping Northgate from settling. Three steals in two minutes, with Southmere chasing the game.",
+  "cites": [
+   "e1251",
+   "e1261",
+   "e1272"
+  ]
+ }
+}

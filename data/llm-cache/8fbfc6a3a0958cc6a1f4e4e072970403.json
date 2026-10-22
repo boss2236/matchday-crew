@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate lideram com controlo frágil",
+  "text": "Northgate Rovers vencem 1-0 com 58% de posse e 0.67 xG, mas momentum de 26 contra caos de 44. Ilan Cohen perdeu passe de 15.1 m interceptado; Oscar Blum atirou para fora (dificuldade 23).",
+  "cites": [
+   "e0499",
+   "e0510"
+  ]
+ }
+}

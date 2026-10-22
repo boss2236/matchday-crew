@@ -1,0 +1,15 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic, Mbeki'nin golüyle Northgate Rovers'ı 1-0 geçti",
+  "text": "Northgate Rovers topa 53% sahip oldu, pas isabeti 85% idi; ancak Ironvale Athletic derin blok ve direkt kontralarla maçı 1-0 aldı. Oscar Blum'un 26. dakikadaki 0.394 xG'lik şutu 4 metreden bloklandı (e0461). Hemen ardından 27. dakikada Zeke Mbeki 2 metreden 0.829 xG'lik şansı golle bitirdi (e0484, e0485). İlk yarı sonunda Mbeki'nin 0.276 xG'lik şutu auta gitti (e0855). Callum Reid'in önde baskı kırdığı 3 top kazanımı (e0603) ve 42 müdahale (interceptions), Northgate Rovers'ın 0.86 xG'sine karşı 1.42 xG'lik üstünlüğü getirdi. PPDA Ironvale Athletic'te 8.8, Northgate Rovers'ta 7.9 idi. Maçın oyuncusu 1 gol ve 1.39 xG ile Mbeki oldu.",
+  "cites": [
+   "e0461",
+   "e0484",
+   "e0485",
+   "e0855",
+   "e0603",
+   "e1700"
+  ]
+ }
+}

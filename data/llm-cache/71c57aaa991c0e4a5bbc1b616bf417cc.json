@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers 耐心传球寻找机会",
+  "text": "Northgate Rovers 0-1 落后,Ilan Cohen、Kai Nakamura 和 Andres Vega 在没人逼抢时来回传球,稳稳掌控皮球。Oscar Blum 刚才的射门被扑出,他们还在等机会。",
+  "cites": [
+   "e0782",
+   "e0789",
+   "e0791",
+   "e0793"
+  ]
+ }
+}

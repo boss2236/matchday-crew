@@ -1,14 +1,17 @@
 {
- "model": "openai:openai/gpt-oss-20b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Harbour City Momentum Collapse",
-  "text": "A high‑pressure pass by Yusuf Demir at 11:42 (e0258) triggered a 25‑point momentum swing, leaving Harbour City in chaos (58) and forcing a defensive reset.",
+  "headline": "Harbour City's momentum slips despite sequence",
+  "text": "Harbour City's chain of passes at 12' began with a 37.6 progress ball, then went backward (-21.2, -30.2). With momentum at -25 and chaos 58, it's still 0-0 and Southmere lead xg 0.68 to 0.27.",
   "tags": [
    "momentum",
-   "chaos"
+   "chaos",
+   "possession"
   ],
   "cites": [
-   "e0258"
+   "e0255",
+   "e0259",
+   "e0260"
   ]
  }
 }

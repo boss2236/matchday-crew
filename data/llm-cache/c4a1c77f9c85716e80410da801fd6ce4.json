@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers lassen Southmere nicht atmen",
+  "text": "Northgate Rovers holen sich den Ball immer wieder zurück! Kai Nakamura grätscht erst sauber dazwischen und fängt dann den nächsten Pass ab. So bleibt die 1-0-Führung sicher.",
+  "cites": [
+   "e0738",
+   "e0757",
+   "e0765"
+  ]
+ }
+}

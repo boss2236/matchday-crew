@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Reid recupera palla, Ironvale riparte in verticale",
+  "text": "Callum Reid vince 3 recuperi in 120 secondi: tackle e2 intercetti. Ironvale Athletic ha il 40% di possesso ma xG 0.89 contro 0.04, PPDA 13, momentum -8 sullo 0-0.",
+  "cites": [
+   "e0201",
+   "e0220",
+   "e0243"
+  ]
+ }
+}

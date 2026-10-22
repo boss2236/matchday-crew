@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere gardent le ballon, mais reculent",
+  "text": "Southmere enchaînent les passes, avec une belle longue balle de Jan Novak vers Bruno Costa. Mais Costa rend ensuite le ballon en arrière à Nasser Haddad : l'élan retombe, et Southmere restent menés 1-0.",
+  "cites": [
+   "e1296",
+   "e1298"
+  ]
+ }
+}

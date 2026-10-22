@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City、支配も危険度は低い",
+  "text": "Harbour Cityはプレッシャーなしで繋ぎ、難易度64のパスも通した。だがArjun Mehtaの25.2mからのシュートはxG 0.015でセーブ。0-0でxGは0.06対0.89、モメンタム33。",
+  "cites": [
+   "e0351",
+   "e0352",
+   "e0353"
+  ]
+ }
+}

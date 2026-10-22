@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Callum Reid anawanyang'anya mpira tena na tena",
+  "text": "Callum Reid wa Ironvale Athletic ni kama mlinzi wa mlangoni! Anachukua mpira kwa kukabili na kunasa pasi za wapinzani, kisha timu yake inashambulia haraka. Mpaka sasa ni 0-0, lakini hatari ipo.",
+  "cites": [
+   "e0201",
+   "e0220",
+   "e0243"
+  ]
+ }
+}

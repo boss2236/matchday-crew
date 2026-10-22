@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ortega topu üç kez geri kazandı!",
+  "text": "Rafa Ortega bir dakikalık bir anda rakibin elinden topu üç kez söküp aldı: iki top kesme, bir top çalma. Southmere United geriden gelirken Northgate Rovers'ın sakin oyunu birden karıştı!",
+  "cites": [
+   "e0887",
+   "e0897",
+   "e0907"
+  ]
+ }
+}

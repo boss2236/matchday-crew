@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United klaut sich den Ball zurück",
+  "text": "Southmere United holt sich den Ball dreimal zurück: zwei Tacklings, dann fängt Liam Doyle bei 67:31 einen Pass ab. So bleibt die 2-0-Führung sicher, auch wenn das Spiel wild wird.",
+  "cites": [
+   "e1408",
+   "e1414",
+   "e1445"
+  ]
+ }
+}

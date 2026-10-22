@@ -1,0 +1,15 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Zeke Mbeki's Goal Sinks Northgate Rovers",
+  "text": "Ironvale Athletic が Northgate Rovers に 1-0 で勝ちました。序盤は Northgate Rovers がボールを持つ時間が長く、落ち着いて攻めていました。でも27分、Zeke Mbeki がゴール前で冷静にシュートを決めて、Ironvale Athletic が先制。試合の流れが大きく変わった瞬間でした。その少し前の26分、Oscar Blum の決定的なシュートは相手に体を張って止められていて、ここが運命の分かれ道だったんですね。後半、Ironvale Athletic は深く守りながら、ボールを奪ってはすばやく攻めるスタイルを貫きました。Callum Reid たちが何度もボールを取り返して、Northgate Rovers に追いつくチャンスをほとんど与えませんでした。ヒーローは、ゴールを決めた Zeke Mbeki です。",
+  "cites": [
+   "e0461",
+   "e0484",
+   "e0485",
+   "e0603",
+   "e1437",
+   "e1700"
+  ]
+ }
+}

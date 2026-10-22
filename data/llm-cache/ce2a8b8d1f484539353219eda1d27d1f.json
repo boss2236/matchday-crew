@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Aziz tout près d'ouvrir le score !",
+  "text": "Quelle occasion pour Southmere United ! Tariq Aziz tire de tout près, sous pression, mais le gardien repousse. Southmere domine le début de match, et c'est toujours 0-0.",
+  "cites": [
+   "e0077"
+  ]
+ }
+}

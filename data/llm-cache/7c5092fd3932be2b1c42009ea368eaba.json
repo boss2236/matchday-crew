@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United domine, mais Costa gaspille",
+  "text": "Southmere United mène aux xG 0.69 contre 0.27 (0-0), momentum 25. Bruno Costa tente une passe de 48.8 m, difficulté 62, sortie en touche : PPDA 8.2 contre 7.8 pour Harbour City.",
+  "cites": [
+   "e0413",
+   "e0412"
+  ]
+ }
+}

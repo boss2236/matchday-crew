@@ -1,12 +1,11 @@
 {
- "model": "openai:openai/gpt-oss-20b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Southmere United Secures Decisive Victory",
-  "text": "With a 3-0 win, Southmere’s wing play dominated, countering Harbour City’s high press and securing 50% possession, 10 shots, and 7.95 xG to maintain control and momentum.",
+  "headline": "Southmere clinical despite even possession",
+  "text": "Possession split 50-50, yet Southmere's 7 shots on target and 1.95 xG against Harbour City's 5 and 0.62 explain the 3-0 full time. Efficiency in front of goal, not control, decided it.",
   "tags": [
-   "control",
-   "momentum",
-   "finishing"
+   "finishing",
+   "control"
   ],
   "cites": [
    "e1950"

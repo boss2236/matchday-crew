@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale mène 1-0, xG 1.14 contre 0.71",
+  "text": "Ironvale Athletic mène 1-0 avec 46% de possession et un xG de 1.14. La passe de Luca Romero (difficulté 55) est interceptée à 51:20, puis Hiro Tanaka porte 9.1 m et 8.5 m. Momentum 25, chaos 54.",
+  "cites": [
+   "e0980",
+   "e0990",
+   "e0991"
+  ]
+ }
+}

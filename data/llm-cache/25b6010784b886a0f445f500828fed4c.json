@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City washambulia kwa pasi za haraka!",
+  "text": "Sami Okafor alipiga pasi ndefu, kisha Yusuf Demir, Mateo Ruiz na Dani Kowalski wakapigiana pasi haraka, hakuna aliyebanwa. Dani akapiga shuti, kipa akaokoa! Bado ni 0-0.",
+  "cites": [
+   "e0838",
+   "e0840",
+   "e0842",
+   "e0843"
+  ]
+ }
+}

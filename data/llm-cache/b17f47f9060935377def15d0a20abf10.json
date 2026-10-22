@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City étouffe Ironvale !",
+  "text": "Harbour City récupère le ballon sans cesse : Dani Kowalski et Arjun Mehta taclent, puis Yusuf Demir intercepte à 83:06. Ironvale Athletic n'arrive plus à respirer, et ça mène 3-1 !",
+  "cites": [
+   "e1562",
+   "e1579",
+   "e1587"
+  ]
+ }
+}

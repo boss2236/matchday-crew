@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate palleggia con calma, cercando il varco",
+  "text": "Northgate Rovers è sotto 1-0, ma non si agita: Ilan Cohen, Kai Nakamura e Andres Vega si passano il pallone senza pressione, cercando lo spazio giusto dopo il tiro parato a Oscar Blum.",
+  "cites": [
+   "e0782",
+   "e0789",
+   "e0791",
+   "e0793"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Passes longos do Harbour City cortados",
+  "text": "Aos 56:05, 56:13 e 56:49, Harbour City perdeu três passes longos (33.6, 43.2 e 30.3 m; dificuldade 56, 55 e 42). Ironvale Athletic lidera o xG por 1.68 a 0.35; momentum 35, caos 55.",
+  "cites": [
+   "e1111",
+   "e1118",
+   "e1128"
+  ]
+ }
+}

@@ -1,0 +1,16 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City washinda 4-1, Dani Kowalski apiga mabao matatu",
+  "text": "Ironvale Athletic walianza vizuri. Zeke Mbeki alikaribia kufunga mapema dakika ya 2, kisha akafunga dakika ya 30 na kuwapa wageni uongozi wa 1-0. Lakini kipindi cha pili kilibadilisha kila kitu. Leo Marchetti alisawazisha dakika ya 49 kwa shuti la mbali, na Harbour City wakaanza kutawala mchezo. Dani Kowalski alifunga dakika ya 62, akaongeza la tatu dakika ya 81, kisha akamaliza kazi dakika ya 90 kwa bao rahisi la karibu. Mechi iliisha 4-1. Kwa nini? Harbour City waliendelea kubonyeza na kupitisha mpira haraka, wakatumia nafasi zao vizuri. Ironvale walikosa makali baada ya kusawazishwa. Mchezaji bora ni Dani Kowalski, aliyefunga mabao matatu.",
+  "cites": [
+   "e0041",
+   "e0600",
+   "e0999",
+   "e1223",
+   "e1552",
+   "e1725",
+   "e1727"
+  ]
+ }
+}

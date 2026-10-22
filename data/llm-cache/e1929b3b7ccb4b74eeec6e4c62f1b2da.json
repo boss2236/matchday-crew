@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers পিছিয়ে, তবু ধৈর্য ধরে খেলছে",
+  "text": "Northgate Rovers 1-0 গোলে পিছিয়ে। Oscar Blum-এর শট ঠেকিয়ে দেওয়া হলো, তারপর Ilan Cohen, Kai Nakamura আর Andres Vega চাপহীন অবস্থায় বল ঘোরাচ্ছেন। এবার বিপদ তৈরির পালা!",
+  "cites": [
+   "e0782",
+   "e0789",
+   "e0791",
+   "e0793"
+  ]
+ }
+}

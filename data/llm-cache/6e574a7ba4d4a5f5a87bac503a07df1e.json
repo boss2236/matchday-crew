@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic erobert das Spiel zurück",
+  "text": "Ironvale Athletic klaut sich den Ball gleich dreimal zurück, zuletzt schnappt ihn Ivo Petrov weg. Obwohl das Team 1-2 hinten liegt, wirkt es plötzlich wieder mutig und gewinnt langsam die Kontrolle zurück.",
+  "cites": [
+   "e1263",
+   "e1276",
+   "e1297"
+  ]
+ }
+}

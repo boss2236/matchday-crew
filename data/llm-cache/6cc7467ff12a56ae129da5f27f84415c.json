@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale wanapiga mipira mirefu kwa ustadi!",
+  "text": "Ironvale Athletic wanaongoza 1-0, na Ivo Petrov amepiga mpira mrefu mzuri sana kwa Luca Romero, bila mtu kumbana! Wanapita kwa urahisi kama kisu kwenye siagi. Harbour City wana kazi kubwa!",
+  "cites": [
+   "e0782",
+   "e0772",
+   "e0774"
+  ]
+ }
+}

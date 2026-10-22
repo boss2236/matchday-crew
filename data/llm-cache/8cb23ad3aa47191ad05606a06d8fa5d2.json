@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour Cityが20秒で決めた!",
+  "text": "スローインからあっという間でした!Harbour Cityは誰にも邪魔されずにパスをつなぎ、最後はDani Kowalskiが落ち着いてゴール。これで3-1、勝利がぐっと近づきました!",
+  "cites": [
+   "e1545",
+   "e1547",
+   "e1550",
+   "e1551",
+   "e1552"
+  ]
+ }
+}

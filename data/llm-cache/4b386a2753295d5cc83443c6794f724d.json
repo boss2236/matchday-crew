@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City schlägt Ironvale trotz xG-Rückstand",
+  "text": "Harbour City gewinnt 4-1 trotz niedrigerem xG (1.26 vs 1.76): 7 Schüsse aufs Tor bei 12 Versuchen. Hohes Pressing (PPDA 8.5 vs 10.3), 56 Final-Third-Entries, Momentum 75.",
+  "cites": [
+   "e1727"
+  ]
+ }
+}

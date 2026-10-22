@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City ci prova, ma il tiro viene murato",
+  "text": "Che bella azione per Harbour City! Mateo Ruiz lancia Dani Kowalski, che si infila in area e tira da vicino, ma un difensore lo blocca. Si resta sullo 0-1.",
+  "cites": [
+   "e0890",
+   "e0891",
+   "e0893"
+  ]
+ }
+}

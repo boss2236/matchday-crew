@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic vence por 1-0!",
+  "text": "Apito final! O Northgate Rovers ficou mais tempo com a bola, mas o Ironvale Athletic foi esperto nos contra-ataques e criou os melhores lances. Resultado: 1-0 para quem soube aproveitar!",
+  "cites": [
+   "e1700"
+  ]
+ }
+}

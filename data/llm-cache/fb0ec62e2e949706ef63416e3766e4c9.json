@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere stuck passing backwards",
+  "text": "Southmere have the ball more, but Rafa Ortega's long pass to Kwame Mensah was snatched away, and the next passes only went backward. Harbour City's pressing is making them uneasy at 0-0.",
+  "cites": [
+   "e0355",
+   "e0362",
+   "e0363"
+  ]
+ }
+}

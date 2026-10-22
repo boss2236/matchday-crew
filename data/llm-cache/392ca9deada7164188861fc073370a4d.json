@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City 压上，xG 仅 0.078",
+  "text": "Mateo Ruiz 传给 Dani Kowalski，距离 31.2，难度 60；Kowalski 带球 14.8 后，在 6.9 处的射门被封堵，xG 0.078。Harbour City 0-1 落后，势头 25，混乱度 55。",
+  "cites": [
+   "e0890",
+   "e0891",
+   "e0893"
+  ]
+ }
+}

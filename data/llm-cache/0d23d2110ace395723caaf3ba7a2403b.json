@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic gewinnt mit 1-0",
+  "text": "Northgate Rovers hatte mehr vom Ball, doch Ironvale Athletic war bei seinen schnellen Kontern gefährlicher und hat das Spiel am Ende mit 1-0 gewonnen. Manchmal zählt eben nicht der Ballbesitz, sondern der Torabschluss!",
+  "cites": [
+   "e1700"
+  ]
+ }
+}

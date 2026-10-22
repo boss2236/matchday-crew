@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic counter after Reid interception",
+  "text": "85'、Ironvale Athletic 1-0。Reid→Tanaka→Romeroの連続パス(難易度28、34)から、Romeroが13.1mと12.8mをキャリー。速度31、34.1 km/h。momentum 25、chaos 41。",
+  "cites": [
+   "e1570",
+   "e1571",
+   "e1572",
+   "e1573"
+  ]
+ }
+}

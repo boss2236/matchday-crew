@@ -1,17 +1,16 @@
 {
- "model": "openai:openai/gpt-oss-20b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Momentum swing sparks Ironvale surge",
-  "text": "Ironvale’s 27‑point momentum, amid 57 chaos, follows a rapid 27.2‑km/h pass by Hollis and a 51.9‑km/h intercept‑free link to Tanaka, shifting control to the home side.",
+  "headline": "Ironvale stitch passes amid high chaos",
+  "text": "Ironvale string together passes through Hollis, Reid, Lusk and Bamidele to Hiro Tanaka, but chaos of 57 and momentum of 27 show a fragile spell at 0-0, with Northgate holding 59 possession.",
   "tags": [
    "momentum",
-   "control",
-   "passing"
+   "chaos",
+   "pass"
   ],
   "cites": [
    "e0184",
-   "e0185",
-   "e0187",
+   "e0194",
    "e0195"
   ]
  }

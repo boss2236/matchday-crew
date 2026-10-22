@@ -1,12 +1,12 @@
 {
- "model": "openai:openai/gpt-oss-20b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Blocked Chance Shifts Momentum",
-  "text": "Oscar Blum’s 77.5 km/h shot, blocked at 4 m, highlights Northgate’s patient build‑up and Ironvale’s deep‑block, altering the 26‑minute momentum from –23 to a more balanced state.",
+  "headline": "Northgate's patience yields a blocked big chance",
+  "text": "Oscar Blum's unpressured shot from 4 carried 0.394 xg but was blocked, leaving it 0-0. Northgate's 0.39 xg to Ironvale's 0.01 shows patient possession creating the better chances against a deep block.",
   "tags": [
-   "momentum",
-   "control",
-   "pressing"
+   "chance",
+   "possession",
+   "control"
   ],
   "cites": [
    "e0461"

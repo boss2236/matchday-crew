@@ -1,12 +1,22 @@
 {
- "model": "openai:openai/gpt-oss-20b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Tariq Aziz lights up Southmere United",
-  "text": "Southmere United kicked off with a big chance that was saved, but the game turned in their favour when Tariq Aziz netted the opener in the 45+3 minute half‑time break. He then added two more goals, one in the 58:49 minute and another in the 86:45 minute, turning a tight match into a comfortable 3‑0 win. The midfield ran the ball well, and the forwards kept pressing, while Harbour City struggled to create chances. Tariq’s three goals and sharp passing made the difference, and his performance was the highlight of the night.",
+  "headline": "Tariq Aziz's hat-trick sinks Harbour City 3-0",
+  "text": "Southmere United against Harbour City started as a tense, scrappy fight. Early on, Tariq Aziz had a great chance from very close range, but the keeper saved it. Harbour City pushed back and Dani Kowalski tested the keeper too, yet nobody could score before the break. Then, late in the first half, Joel Martin set up Tariq Aziz and he finally smashed in the opener. Soon after the restart, Bruno Costa slipped him another pass and it was 2-0. Late on, Joel Martin won the ball back and Tariq Aziz made it 3-0. Southmere United were sharper in front of goal, and Tariq Aziz was the star.",
   "cites": [
+   "e0077",
+   "e0843",
+   "e1012",
+   "e1013",
    "e1014",
+   "e1285",
+   "e1286",
    "e1287",
-   "e1851"
+   "e1847",
+   "e1849",
+   "e1850",
+   "e1851",
+   "e1950"
   ]
  }
 }

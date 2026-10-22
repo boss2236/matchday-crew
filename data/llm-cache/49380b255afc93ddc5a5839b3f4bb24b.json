@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate: possesso sterile, momentum -78",
+  "text": "Northgate Rovers hanno 56% di possesso e 22 ingressi in zona finale, ma 0 tiri in porta e xG 0.44 contro 0.84. Il passaggio di Sven Dahl a Ravi Kapoor vale -8.5 di progressione.",
+  "cites": [
+   "e0560",
+   "e0546",
+   "e0551"
+  ]
+ }
+}

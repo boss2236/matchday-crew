@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers、支配は脆い",
+  "text": "Northgate Rovers は1-0でポゼッション58%、xG 0.67だが、momentum 26に対しchaos 44。Ilan Cohenのパス(難度15)は遮断され、Oscar Blumの23.3mのパスはアウト。Southmere Unitedはインターセプト13。",
+  "cites": [
+   "e0499",
+   "e0510"
+  ]
+ }
+}

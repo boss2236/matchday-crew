@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Callum Reidがボールを奪い返し続ける!",
+  "text": "Ironvale AthleticのCallum Reidが、タックルやインターセプトで何度もボールを奪い返しています!守りから一気にカウンターへ。0-0のままですが、危険な空気が漂ってきましたよ。",
+  "cites": [
+   "e0201",
+   "e0220",
+   "e0243"
+  ]
+ }
+}

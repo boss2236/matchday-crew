@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale vola in contropiede!",
+  "text": "Ironvale Athletic, avanti 1-0, rilancia lunghissimo: Callum Reid trova Luca Romero, che serve Marco Silvan, poi Romero rientra e corre ancora. Palla veloce, campo aperto, il match si accende!",
+  "cites": [
+   "e1464",
+   "e1465",
+   "e1467",
+   "e1468",
+   "e1469"
+  ]
+ }
+}

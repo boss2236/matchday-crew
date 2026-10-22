@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale klaut dreimal den Ball zurück!",
+  "text": "Was für eine Druckphase von Ironvale Athletic! Erst ein Tackling von Luca Romero, dann fangen Marco Silvan und Callum Reid die Pässe ab. Drei Ballgewinne in 120 Sekunden – gefährlicher Konter droht!",
+  "cites": [
+   "e0564",
+   "e0581",
+   "e0603"
+  ]
+ }
+}

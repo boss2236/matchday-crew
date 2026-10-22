@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere responde con un cambio de 41 metros",
+  "text": "Southmere pierde 1-0, momentum -29 y xG 0.16 frente a 0.68. Tras la pérdida de e0703, Alfie Grant conecta con Joel Martin: 41 metros, dificultad 84, bajo presión, 40.9 de progresión.",
+  "cites": [
+   "e0703",
+   "e0713"
+  ]
+ }
+}

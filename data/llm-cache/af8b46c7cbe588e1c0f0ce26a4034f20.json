@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City 4-1 力压 Ironvale Athletic",
+  "text": "Harbour City 以 4-1 获胜,尽管 xG 为 1.26 对 1.76;12 次射门中 7 次射正,PPDA 8.5 对 10.3,56 次final third entries,momentum 75。",
+  "cites": [
+   "e1727"
+  ]
+ }
+}

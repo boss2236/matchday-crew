@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "南部联队传来传去，就是推不上去",
+  "text": "补时第一分钟，Southmere United 落后 1-0，Tariq Aziz 还把球回传给了 Bruno Costa。他们传得很稳，却没能往前推进，Northgate Rovers 还稳稳顶着。",
+  "cites": [
+   "e1693",
+   "e1694",
+   "e1695"
+  ]
+ }
+}

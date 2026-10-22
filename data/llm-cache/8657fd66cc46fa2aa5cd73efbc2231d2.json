@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale steady themselves after a wobble",
+  "text": "Ironvale Athletic still lead 1-0. Luca Romero's pass to Zeke Mbeki was cut out, but Hiro Tanaka then carried the ball forward twice, calmly settling things down again.",
+  "cites": [
+   "e0980",
+   "e0990",
+   "e0991"
+  ]
+ }
+}

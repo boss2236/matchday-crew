@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale rompe la presión y dispara el momentum",
+  "text": "Owen Lusk conecta 56.1 m con Marco Silvan (progreso 51.4, dificultad 87) tras superar la presión; seis pases completos llevan el momentum a -52 en 0-0, con xG 0.89 frente a 0.04.",
+  "cites": [
+   "e0138",
+   "e0139",
+   "e0143"
+  ]
+ }
+}

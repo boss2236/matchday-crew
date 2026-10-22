@@ -1,12 +1,12 @@
 {
- "model": "openai:openai/gpt-oss-20b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Ironvale’s Missed Chance Spurs Pressure",
-  "text": "At 45+2', Zeke Mbeki’s 70.3 km/h shot from 5 m missed, leaving Ironvale’s deep block vulnerable as Northgate’s possession edge grows, shifting momentum toward the visitors.",
+  "headline": "Pressured miss from five yards",
+  "text": "Zeke Mbeki, pressured at distance 5, put a 0.276 xg chance off target at 45+2'. Ironvale lead 1-0 with xg 1.14 against 0.68, so the missed chance could have extended a deserved lead before the break.",
   "tags": [
-   "pressing",
-   "momentum",
-   "control"
+   "finishing",
+   "chance",
+   "momentum"
   ],
   "cites": [
    "e0855"

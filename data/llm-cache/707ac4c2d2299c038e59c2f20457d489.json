@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Ironvale’s swift strike!",
+  "text": "Marco’s interception sparked a quick build‑up and Zeke smashed a 96.1 km/h shot into the net, giving Ironvale the lead.",
+  "cites": [
+   "e0587",
+   "e0594",
+   "e0599"
+  ]
+ }
+}

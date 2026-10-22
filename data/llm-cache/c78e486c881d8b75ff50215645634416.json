@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City pierde el control: caos 64",
+  "text": "Con 0-0, Mateo Ruiz conecta 26.9 bajo presión (dificultad 64, progresa 22), pero el pase de 55.6 de Leo Marchetti a Yusuf Demir es interceptado. Momentum -27, caos 64; xG 0.27 contra 0.71.",
+  "cites": [
+   "e0671",
+   "e0672",
+   "e0679"
+  ]
+ }
+}

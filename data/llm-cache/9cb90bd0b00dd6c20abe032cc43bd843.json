@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City의 끈기가 만든 골!",
+  "text": "Harbour City가 공을 가로챈 뒤 침착하게 패스를 이어갔고, Yusuf Demir의 패스를 받은 Dani Kowalski가 강하게 차 넣었어요! 쉽지 않은 슛이었는데 2-1 역전골입니다!",
+  "cites": [
+   "e1201",
+   "e1221",
+   "e1222",
+   "e1223"
+  ]
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere'dan baskı altında cesur uzun pas",
+  "text": "Southmere geriden geliyor ama pes etmiyor! Karşı takımın baskısına rağmen Alfie Grant, Joel Martin'e 41 metrelik dev bir pas attı ve takımı bir anda ileri taşıdı. Sakin ama çok cesur bir hamle!",
+  "cites": [
+   "e0713",
+   "e0703"
+  ]
+ }
+}

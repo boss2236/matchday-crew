@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale keep stealing the ball back",
+  "text": "Ironvale Athletic keep snatching the ball off Northgate Rovers, three times in 120 seconds, the latest by Zeke Mbeki. Northgate want to pass patiently, but Ironvale are breaking up play and leading 1-0.",
+  "cites": [
+   "e0900",
+   "e0928",
+   "e0935"
+  ]
+ }
+}

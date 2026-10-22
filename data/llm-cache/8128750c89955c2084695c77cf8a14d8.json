@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers battono Southmere United 1-0 con Blum",
+  "text": "Northgate Rovers vincono 1-0 su Southmere United con un'azione sola ma decisiva. Dopo il momentum di 37 al minuto 7, al 23' Emre Kaya serve Oscar Blum (passaggio da 30.1 m, difficoltà 48) e Blum segna da 4.3 m con xG 0.472, tiro a 101.4 km/h. Al 65' lo stesso Blum spreca una big chance da xG 0.284 da 5 m. Southmere United hanno spinto con 57 ingressi nel terzo finale contro 42 e PPDA 7.6 contro 8.3, ma xG 0.9 contro 1.18 e 10 tiri a testa con 3 nello specchio. Blum è il migliore: 1 gol, xG 1.16 e 31 passaggi riusciti. Finale con momentum -63.",
+  "cites": [
+   "e0426",
+   "e0427",
+   "e0428",
+   "e1205",
+   "e1784"
+  ]
+ }
+}

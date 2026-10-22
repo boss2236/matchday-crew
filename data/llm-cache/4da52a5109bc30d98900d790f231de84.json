@@ -1,18 +1,14 @@
 {
- "model": "openai:openai/gpt-oss-120b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Northgate’s Passing Spurs Momentum Swing",
-  "text": "A string of five passes—including a 42.4m attempt by Sven Dahl (e0545) and a 27.5m completion to Ilan Cohen (e0556)—kept possession high (59%) while chaos rose to 48, showing controlled pressure despite the turbulent state.",
+  "headline": "Northgate hold control despite balanced momentum",
+  "text": "Northgate lead 1-0 with 59 possession and 0.67 xg to 0.16, recycling through Kai Nakamura and Oscar Blum, yet momentum sits at 46 and chaos at 48, so the game stays finely balanced.",
   "tags": [
    "control",
-   "momentum",
-   "passing"
+   "possession",
+   "momentum"
   ],
   "cites": [
-   "e0543",
-   "e0544",
-   "e0545",
-   "e0552",
    "e0553",
    "e0556"
   ]

@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-opus-5.5",
+ "output": {
+  "headline": "Harbour City pushing, but the final ball fails",
+  "text": "Harbour City are a goal down and pushing hard with quick little passes. The trouble is the long balls: Marchetti's got cut out and Pike's sailed out of play.",
+  "cites": [
+   "e0722",
+   "e0723",
+   "e0724",
+   "e0725",
+   "e0734"
+  ]
+ }
+}

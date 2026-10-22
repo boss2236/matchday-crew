@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Mbeki misses just before the break",
+  "text": "Zeke Mbeki had a real chance right at the end of the first half, with defenders closing in, but he fired off target. Ironvale Athletic still lead 1-0, so that one stings.",
+  "cites": [
+   "e0855"
+  ]
+ }
+}

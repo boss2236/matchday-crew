@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kaya's run sets up Blum's goal",
+  "text": "Emre Kaya burst forward with three big carries, then slipped a long pass to Oscar Blum, who smashed it in. Northgate Rovers lead 1-0, and it was a lovely team move.",
+  "cites": [
+   "e0423",
+   "e0424",
+   "e0425",
+   "e0426",
+   "e0427"
+  ]
+ }
+}

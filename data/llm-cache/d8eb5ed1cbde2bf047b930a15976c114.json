@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate manda y Vega arranca",
+  "text": "Northgate Rovers lleva la pelota casi todo el rato, con 69% de posesión. Sven Dahl lanza un pase largo y difícil a Andres Vega, que sale corriendo con el balón. ¡Se abre el partido!",
+  "cites": [
+   "e0115",
+   "e0116"
+  ]
+ }
+}

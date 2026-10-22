@@ -1,0 +1,15 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Okafor vole le ballon, Marchetti égalise !",
+  "text": "Sami Okafor intercepte, et Harbour City file droit au but sans que personne ne les gêne. Leo Marchetti termine d'une frappe à 83 km/h : 1-1, quelle réponse éclair !",
+  "cites": [
+   "e0991",
+   "e0994",
+   "e0995",
+   "e0996",
+   "e0998",
+   "e0999"
+  ]
+ }
+}

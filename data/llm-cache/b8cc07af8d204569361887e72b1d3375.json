@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Dani Kowalski cetak gol dari sapuan sabar!",
+  "text": "Harbour City merebut bola, lalu mengoper sabar bergantian sampai Yusuf Demir menyodorkan bola ke Dani Kowalski. Dani menembak keras dan gol! Peluangnya kecil, tapi Harbour City kini unggul 2-1.",
+  "cites": [
+   "e1201",
+   "e1221",
+   "e1222",
+   "e1223"
+  ]
+ }
+}

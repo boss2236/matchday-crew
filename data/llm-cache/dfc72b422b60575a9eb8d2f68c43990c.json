@@ -1,0 +1,20 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Tariq Aziz hat-trick yaipa Southmere United ushindi 3-0",
+  "text": "Southmere United waliifunga Harbour City 3-0, huku xG ikiwa 1.95 dhidi ya 0.62. Mchezo ulianza kwa Tariq Aziz kupoteza nafasi kubwa dakika ya 4 (xG 0.622, umbali 2, shuti likaokolewa). Hatua ya kwanza ya mabadiliko ilikuja dakika ya 45+3: Joel Martin alimpa Aziz pasi, naye akafunga (xG 0.931, umbali 1.2) na kufanya 1-0. Dakika ya 59 Bruno Costa alitoa pasi na Aziz akafunga 2-0 (xG 0.16). Dakika ya 87 Martin alirejesha mpira kwa interception, Aziz akakamilisha hat-trick (xG 0.106) na kuwa 3-0. PPDA ilikuwa 7.9 dhidi ya 7.6, lakini Southmere walikuwa na interceptions 45 na finalThirdEntries 62. Aziz ndiye mchezaji bora, akiwa na mabao 3 na xG 1.88.",
+  "cites": [
+   "e0077",
+   "e1012",
+   "e1013",
+   "e1014",
+   "e1285",
+   "e1286",
+   "e1287",
+   "e1847",
+   "e1850",
+   "e1851",
+   "e1950"
+  ]
+ }
+}

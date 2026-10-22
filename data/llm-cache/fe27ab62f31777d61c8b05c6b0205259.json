@@ -1,0 +1,16 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City renverse Ironvale Athletic 4-1 grâce à Kowalski",
+  "text": "Ironvale Athletic, en bloc bas, démarre fort : Zeke Mbeki voit sa frappe de 0.876 xG à 2.5 m bloquée (2e), puis ouvre le score à la 30e (0.188 xG, 96.1 km/h) après une passe de Luca Romero. Harbour City, en pressing haut (PPDA 8.5 contre 10.3), égalise dès la 49e par Leo Marchetti sur une frappe à 0.024 xG. Dani Kowalski fait ensuite basculer le match : 2-1 à la 62e (0.06 xG), 3-1 à la 81e (0.057 xG), puis 4-1 à la 90+1' (0.79 xG, 2.5 m). Ironvale domine l'xG (1.76 contre 1.26) mais n'a cadré que 4 tirs contre 7. Kowalski, auteur de 3 buts, est le joueur du match ; le momentum final est de 75.",
+  "cites": [
+   "e0041",
+   "e0600",
+   "e0999",
+   "e1223",
+   "e1552",
+   "e1725",
+   "e1727"
+  ]
+ }
+}

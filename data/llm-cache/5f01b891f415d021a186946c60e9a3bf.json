@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic gagne 1-0 en contre",
+  "text": "Northgate Rovers domine la possession (53%) et tire 9 fois, mais Ironvale Athletic, en bloc bas, punit en transition : xG 1.42 contre 0.86, PPDA 8.8 contre 7.9. Score final : 1-0.",
+  "cites": [
+   "e1700"
+  ]
+ }
+}

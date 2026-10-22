@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere's long balls keep getting snatched",
+  "text": "Southmere United are trying big, long passes, but Harbour City keep stepping in to steal them. Bruno Costa and Rafa Ortega both saw their long balls cut out, and the momentum is slipping away.",
+  "cites": [
+   "e0574",
+   "e0584"
+  ]
+ }
+}

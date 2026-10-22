@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere、後ろ向きのパスが続く",
+  "text": "Southmere Unitedはボールを持っていますが、Rafa OrtegaからKwame Mensahへの長いパスが奪われました。その後も後ろ向きのパスが続き、Harbour Cityの激しいプレスに苦しんでいます。",
+  "cites": [
+   "e0355",
+   "e0362",
+   "e0363"
+  ]
+ }
+}

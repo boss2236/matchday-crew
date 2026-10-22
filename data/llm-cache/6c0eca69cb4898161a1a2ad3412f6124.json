@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers lead at the break",
+  "text": "前半終了！Northgate Rovers が1-0でリード。Southmere United のほうがシュートは多く攻め込んでいましたが、Rovers はチャンスの質で上回りました。後半、この差がどうなるか楽しみですね。",
+  "cites": [
+   "e0860"
+  ]
+ }
+}

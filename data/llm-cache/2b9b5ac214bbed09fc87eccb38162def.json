@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "ريد يقود استرجاعات Ironvale المتكررة",
+  "text": "Callum Reid استعاد الكرة 3 مرات خلال 120 ثانية، رغم استحواذ Ironvale Athletic بنسبة 40%. xG بلغ 0.89 مقابل 0.04، وPPDA عند 13، والزخم -8 عند التعادل 0-0.",
+  "cites": [
+   "e0201",
+   "e0220",
+   "e0243"
+  ]
+ }
+}

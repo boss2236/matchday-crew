@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "¡Contraataque letal de Southmere United!",
+  "text": "Felipe Cruz robó el balón y, en un suspiro, Bruno Costa se la dejó a Tariq Aziz, que remató solo y marcó el 2-0. ¡Harbour City se quedó con la defensa descolocada!",
+  "cites": [
+   "e1282",
+   "e1283",
+   "e1285",
+   "e1286"
+  ]
+ }
+}

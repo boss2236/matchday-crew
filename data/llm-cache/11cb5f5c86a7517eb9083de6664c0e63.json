@@ -1,17 +1,14 @@
 {
- "model": "openai:openai/gpt-oss-20b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Chaos Reigns Amid Momentum Swing",
-  "text": "Harbour City’s frantic passing sequence, culminating in an interception at 31:31, fuels the 64‑point chaos surge and a -27 momentum swing, leaving the game in disarray at 32 minutes.",
+  "headline": "Harbour City's sequence turns chaotic",
+  "text": "At 0-0, Harbour City's long passes, one intercepted at 55.6 distance, fed chaos 64 as momentum slipped to -27. Mateo Ruiz's 26.9 pass under pressure still progressed 22, before Yusuf Demir received a 34.6 ball.",
   "tags": [
-   "momentum",
    "chaos",
-   "pressing"
+   "momentum",
+   "pass"
   ],
   "cites": [
-   "e0660",
-   "e0662",
-   "e0669",
    "e0671",
    "e0672",
    "e0679"

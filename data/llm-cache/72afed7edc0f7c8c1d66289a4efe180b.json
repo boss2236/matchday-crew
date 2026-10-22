@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City、連続パスが混沌化",
+  "text": "0-0の32分、Harbour CityはxG 0.27、PPDA 6.5。Mateo Ruizの26.9のパスは難度64・前進22で成功も、Leo Marchettiの55.6の長いパスは遮断され、momentum -27、chaos 64。",
+  "cites": [
+   "e0671",
+   "e0672"
+  ]
+ }
+}

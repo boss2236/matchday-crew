@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ortega wins it back, again and again!",
+  "text": "Rafa Ortega is all over the pitch! Two interceptions and a tackle, and Southmere United keep stealing the ball back from Northgate Rovers. Still 1-0 down, but they're really sparking.",
+  "cites": [
+   "e0887",
+   "e0897",
+   "e0907"
+  ]
+ }
+}

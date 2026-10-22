@@ -1,0 +1,21 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City 4-1 Ironvale Athletic：Kowalski 梅开二度后再进一球",
+  "text": "Ironvale Athletic 开局占优：Zeke Mbeki 在第2分钟的 xG 0.876 机会被封堵，第30分钟他以 xG 0.188 的射门破门，Luca Romero 助攻，Ironvale Athletic 1-0 领先。第49分钟 Leo Marchetti 以 xG 0.024 的远射扳平，比分 1-1，Harbour City 的高位逼抢开始见效。第62分钟 Dani Kowalski 在 14 次传递的组织后射入 xG 0.06 的进球，第81分钟再进一球，比分 3-1，终场前他又在第90分钟以 xG 0.79 破门，4-1。Ironvale Athletic 的 xG 为 1.76，高于 Harbour City 的 1.26，但射正只有 4 次，对方有 7 次，PPDA 为 8.5 对 10.3，最终动量为 75。Kowalski 3 球，是全场最佳。",
+  "cites": [
+   "e0041",
+   "e0599",
+   "e0600",
+   "e0998",
+   "e0999",
+   "e1222",
+   "e1223",
+   "e1551",
+   "e1552",
+   "e1724",
+   "e1725",
+   "e1727"
+  ]
+ }
+}

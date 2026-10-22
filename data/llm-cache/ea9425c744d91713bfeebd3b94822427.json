@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere devant malgré une possession égale",
+  "text": "Mi-temps, Southmere United mène 1-0 avec 50% de possession partout: xG 1.64 contre 0.39, 3 tirs cadrés. Harbour City presse plus haut (PPDA 6.8 contre 9.2), mais momentum 71.",
+  "cites": [
+   "e1016"
+  ]
+ }
+}

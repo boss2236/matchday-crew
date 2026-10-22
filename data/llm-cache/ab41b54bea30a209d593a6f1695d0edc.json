@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere تحاول البناء تحت ضغط Northgate",
+  "text": "Northgate Rovers يمسكون الكرة أغلب الوقت، وSouthmere United يكافحون ليخرجوا من الضغط. لكن Rafa Ortega يتقدم بالكرة بهدوء ويحاول فتح الطريق، والمباراة ما زالت 0-0.",
+  "cites": [
+   "e0219",
+   "e0220",
+   "e0221"
+  ]
+ }
+}

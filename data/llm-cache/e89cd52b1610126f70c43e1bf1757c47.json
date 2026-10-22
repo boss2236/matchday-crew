@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United-এর প্রেসিং 2-0 লিড রক্ষা করছে",
+  "text": "120 সেকেন্ডে Southmere United 3 বার বল জিতেছে: দুটি ট্যাকল ও 67:31-এ Liam Doyle-এর ইন্টারসেপশন। chaos 75, xG 1.81 বনাম 0.57, PPDA 7.7; তাই 2-0 লিড সুরক্ষিত।",
+  "cites": [
+   "e1408",
+   "e1414",
+   "e1445"
+  ]
+ }
+}

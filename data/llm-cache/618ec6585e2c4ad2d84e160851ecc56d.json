@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere son dakikalarda topu geri kazandı",
+  "text": "Southmere United, 3-0 öndeyken 120 saniyede 3 top kazanımıyla (Joel Martin, Tariq Aziz) Harbour City'nin geri dönüşünü söndürdü; xG 1.95'e karşı 0.62, PPDA 7.8, momentum 3.",
+  "cites": [
+   "e1858",
+   "e1889",
+   "e1897"
+  ]
+ }
+}

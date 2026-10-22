@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale lance le jeu, ça devient fou !",
+  "text": "Ade Bamidele envoie une immense passe à Zeke Mbeki, qui file vers le but... Marco Silvan lui rend le ballon, mais le tir de Zeke Mbeki est bloqué ! Le match part dans tous les sens.",
+  "cites": [
+   "e0575",
+   "e0576",
+   "e0577",
+   "e0578"
+  ]
+ }
+}

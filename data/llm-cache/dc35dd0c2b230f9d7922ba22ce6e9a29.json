@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "हार्बर सिटी का बेकार पासिंग खेल",
+  "text": "मैच के आखिरी पलों में हार्बर सिटी 3-0 से पीछे है। Leo Marchetti, Elias Brandt, Jonah Pike, Sami Okafor और Rui Barros आराम से पास देते रहे, पर कई पास पीछे गए, इसलिए गोल का खतरा नहीं बना।",
+  "cites": [
+   "e1926",
+   "e1927",
+   "e1928",
+   "e1929",
+   "e1930"
+  ]
+ }
+}

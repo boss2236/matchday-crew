@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City 耐心传球终得手",
+  "text": "Harbour City 抢下球后一脚接一脚耐心传球，Yusuf Demir 把球送给 Dani Kowalski，他一脚劲射破门！这球机会本来不大，却帮球队 2-1 领先！",
+  "cites": [
+   "e1201",
+   "e1221",
+   "e1222",
+   "e1223"
+  ]
+ }
+}

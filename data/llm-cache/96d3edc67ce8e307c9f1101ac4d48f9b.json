@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United 逼得对手喘不过气",
+  "text": "Southmere United 连续三次把球抢回来,Tariq Aziz 就拦截了两次,Joel Martin 也抢到一次。Northgate Rovers 想慢慢传球,现在根本静不下来,场面越来越乱!",
+  "cites": [
+   "e1251",
+   "e1261",
+   "e1272"
+  ]
+ }
+}

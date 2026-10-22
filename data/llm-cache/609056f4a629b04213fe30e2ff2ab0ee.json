@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Martin-Konter: Aziz trifft zum 3-0",
+  "text": "Joel Martin fängt ab (86:38), trägt 7.3 m, spielt 15.1 m zu Tariq Aziz (Schwierigkeit 35). Aziz vollendet aus 10 m, xG 0.106, 86.9 km/h. Harbour Citys Pressing (PPDA 7.4) ausgehebelt.",
+  "cites": [
+   "e1847",
+   "e1848",
+   "e1849",
+   "e1850",
+   "e1851"
+  ]
+ }
+}

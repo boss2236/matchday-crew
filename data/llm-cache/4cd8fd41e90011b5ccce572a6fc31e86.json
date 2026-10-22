@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate joue beaucoup, mais ne marque pas",
+  "text": "Northgate Rovers a le ballon, mais il tourne en rond. Sven Dahl recule le jeu au lieu d'avancer, et Ironvale Athletic mène 1-0. Ça ressemble à une belle valse sans but !",
+  "cites": [
+   "e0560",
+   "e0546",
+   "e0551"
+  ]
+ }
+}

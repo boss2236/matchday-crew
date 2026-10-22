@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Reid keeps snatching the ball back for Ironvale",
+  "text": "Callum Reid has stolen the ball 3 times in two minutes, even while Ironvale Athletic see less of it. Every steal sets up a quick dash forward, and it's still 0-0.",
+  "cites": [
+   "e0201",
+   "e0220",
+   "e0243"
+  ]
+ }
+}

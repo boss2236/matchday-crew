@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United verrouille le score par le pressing",
+  "text": "Southmere United récupère 3 ballons en 120 secondes (Tariq Aziz, Rafa Ortega, Joel Martin) à la 87e, menant 2-0. xG 1.85 contre 0.62 pour Harbour City, momentum 5.",
+  "cites": [
+   "e1818",
+   "e1838",
+   "e1847"
+  ]
+ }
+}

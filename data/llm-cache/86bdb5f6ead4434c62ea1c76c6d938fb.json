@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale、120秒で3回のボール奪取",
+  "text": "Ironvale Athleticは120秒でタックル1回、インターセプト2回の計3回奪取。xG 0.84対0.44、PPDA 8.5、chaos 62。1-0のリードで、Northgate Roversの保持を断ち切りカウンターを狙う。",
+  "cites": [
+   "e0564",
+   "e0581",
+   "e0603"
+  ]
+ }
+}

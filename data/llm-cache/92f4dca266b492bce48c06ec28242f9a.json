@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere pierde el balón y retrocede",
+  "text": "Rafa Ortega lanzó un pase largo hacia Kwame Mensah y Harbour City lo cortó. Después, Southmere United siguió pasando hacia atrás, buscando calma mientras el rival aprieta con 61 de caos.",
+  "cites": [
+   "e0355",
+   "e0362",
+   "e0363"
+  ]
+ }
+}

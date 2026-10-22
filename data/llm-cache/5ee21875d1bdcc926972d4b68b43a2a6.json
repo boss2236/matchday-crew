@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United ने संभाला खेल",
+  "text": "Southmere United गेंद अपने पास रख रही है, 61% समय! Alfie Grant से Tariq Aziz तक पास घूमे, फिर Tariq Aziz ने लंबा पास Dmitri Volkov को पीछे दिया। मैच अभी 0-0 है।",
+  "cites": [
+   "e0138",
+   "e0142",
+   "e0144"
+  ]
+ }
+}

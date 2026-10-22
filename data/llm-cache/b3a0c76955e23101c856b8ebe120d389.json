@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Contra directo de Ironvale castiga a Northgate",
+  "text": "Ironvale, con 45 de posesión, marcó 14 segundos tras el saque de banda: pase de Petrov de 38.2 m, dificultad 53, y Mbeki remató a 2 m con xG 0.829. Momentum 13, PPDA 9.4.",
+  "cites": [
+   "e0480",
+   "e0481",
+   "e0484",
+   "e0485"
+  ]
+ }
+}

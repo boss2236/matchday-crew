@@ -1,12 +1,12 @@
 {
- "model": "openai:openai/gpt-oss-20b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Reid’s 3‑tackle Pressing Spell",
-  "text": "Callum Reid’s 3 regains in 120 seconds at 76:38 cut Northgate’s build‑up, shifting momentum 16 to Ironvale’s 77‑minute advantage and tightening control in a high‑chaos 1‑0 lead.",
+  "headline": "Reid's pressing spell protects Ironvale's lead",
+  "text": "Callum Reid won possession 3 times in 120 seconds, via tackle, interception and tackle, at 1-0 in minute 77. With chaos at 77, Ironvale's regains stop Northgate's patient possession from settling.",
   "tags": [
    "pressing",
-   "momentum",
-   "control"
+   "chaos",
+   "momentum"
   ],
   "cites": [
    "e1414",

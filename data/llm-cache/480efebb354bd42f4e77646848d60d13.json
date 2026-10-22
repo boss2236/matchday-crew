@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale frappe en contre, 1-0 !",
+  "text": "Quelle contre-attaque ! Sur une touche, Ivo Petrov lance Zeke Mbeki d'une longue passe, et Zeke Mbeki marque à 2 mètres du but. Ironvale Athletic mène 1-0 face à Northgate Rovers !",
+  "cites": [
+   "e0480",
+   "e0481",
+   "e0484",
+   "e0485"
+  ]
+ }
+}

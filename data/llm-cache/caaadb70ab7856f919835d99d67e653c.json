@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City atağa kalktı ama geride",
+  "text": "Harbour City hızlı çıktı: Mateo Ruiz'in pasları, Dani Kowalski'nin koşusu ve ardından gelen şut... Ama savunma önünü kesti. Takım hâlâ 0-1 geride, gol için baskıyı sürdürmesi lazım.",
+  "cites": [
+   "e0890",
+   "e0891",
+   "e0893"
+  ]
+ }
+}

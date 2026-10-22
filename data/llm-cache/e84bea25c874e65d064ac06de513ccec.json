@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic تفوز بثلاث استعادات في 120 ثانية",
+  "text": "Ironvale Athletic استعاد الكرة 3 مرات خلال 120 ثانية (تدخل واعتراضان) أمام Northgate Rovers، وPPDA بلغ 8.5 مقابل 7، وxG بلغ 0.84 مقابل 0.44، والنتيجة 1-0 والفوضى 62.",
+  "cites": [
+   "e0564",
+   "e0581",
+   "e0603"
+  ]
+ }
+}

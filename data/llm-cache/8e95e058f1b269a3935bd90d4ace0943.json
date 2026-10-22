@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers wanawabana Southmere kwa presha",
+  "text": "Northgate Rovers wanaipokonya mpira tena na tena! Kai Nakamura amekabili na kunasa pasi, wakirudisha mpira mara 3 ndani ya dakika mbili. Wanailinda bao lao 1-0 kama simba analinda chakula chake!",
+  "cites": [
+   "e0738",
+   "e0757",
+   "e0765"
+  ]
+ }
+}

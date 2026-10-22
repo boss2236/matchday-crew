@@ -1,0 +1,16 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Dani Kowalski की तिकड़ी, Harbour City ने जीता मैच",
+  "text": "सोफ़े पर बैठे दोस्त को बताऊँ तो मैच शुरू से रोमांचक था। Ironvale Athletic को शुरुआत में ही बड़ा मौका मिला, पर Zeke Mbeki का शॉट रुक गया। फिर 30वें मिनट में Zeke Mbeki ने गोल करके Ironvale Athletic को आगे कर दिया। लेकिन दूसरे हाफ़ में कहानी पलट गई। 49वें मिनट में Leo Marchetti ने दूर से शानदार गोल करके बराबरी कर दी। इसके बाद Harbour City का दबदबा बढ़ता गया और Dani Kowalski ने 62वें और 81वें मिनट में गोल दागे। आख़िर में उन्होंने बिलकुल पास से एक और गोल करके तिकड़ी पूरी की। Harbour City ने 4-1 से जीत पाई। Ironvale Athletic ने मौके बनाए, पर Harbour City ने अपने मौके गोल में बदले। असली हीरो रहे Dani Kowalski।",
+  "cites": [
+   "e0041",
+   "e0600",
+   "e0999",
+   "e1223",
+   "e1552",
+   "e1725",
+   "e1727"
+  ]
+ }
+}

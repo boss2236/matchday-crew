@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-opus-5.5",
+ "output": {
+  "headline": "Kowalski finishes Ruiz one-two, 3-1",
+  "text": "Ruiz finds Kowalski with a 26.9m pass (difficulty 46), then a 22.8m ball (difficulty 48) cuts through Ironvale's deep block. Kowalski scores from 2.5m, a 0.79 xG chance. Momentum is 60.",
+  "cites": [
+   "e1718",
+   "e1720",
+   "e1722",
+   "e1724"
+  ]
+ }
+}

@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "¡Ironvale sale disparado al contraataque!",
+  "text": "Ironvale Athletic gana 1-0 y, tras recuperar un balón perdido, Callum Reid, Hiro Tanaka y Luca Romero lo juegan rapidísimo. ¡Romero se lanza con el balón a 34.1 km/h!",
+  "cites": [
+   "e1570",
+   "e1571",
+   "e1572",
+   "e1573"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale के लंबे पास, मैदान में हड़कंप",
+  "text": "Ironvale ने दबाव में लंबे पास खेले। पहला पास Zeke Mbeki तक पहुँचने से पहले ही कट गया, फिर Hiro Tanaka का लंबा पास पहुँचा, पर Zeke का शॉट गोल से दूर गया। स्कोर 1-1 है।",
+  "cites": [
+   "e1059",
+   "e1067",
+   "e1068"
+  ]
+ }
+}

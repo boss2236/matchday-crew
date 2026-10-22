@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Marchetti's Sprint Shifts Press Momentum",
+  "text": "Leo Marchetti's 31.2 km/h sprint covering 7.4 units illustrates Harbour City's high‑press intent, countering Ironvale's deep block as momentum sits at –52 and chaos peaks at 57, signalling a pivotal shift in control.",
+  "tags": [
+   "pressing",
+   "speed",
+   "momentum"
+  ],
+  "cites": [
+   "e0857"
+  ]
+ }
+}

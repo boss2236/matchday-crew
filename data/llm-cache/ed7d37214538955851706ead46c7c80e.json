@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers يتجاوزون الضغط بتمريرات طويلة عمودية",
+  "text": "كرة Sven Dahl إلى Emre Kaya: 43.3 متر، تقدم 36.1، صعوبة 83 تحت الضغط. ثم Kaya إلى Oscar Blum بمسافة 38.4 وصعوبة 58. الزخم 26 والفوضى 54، أي تذبذب لا سيطرة.",
+  "cites": [
+   "e0989",
+   "e0990"
+  ]
+ }
+}

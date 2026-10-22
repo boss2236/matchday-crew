@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City pierde el control del balón",
+  "text": "Mateo Ruiz se la jugó con presión y lanzó un pase largo que avanzó 22 metros. Pero poco después, Leo Marchetti buscó a Yusuf Demir y Southmere United cortó el balón. ¡Qué locura!",
+  "cites": [
+   "e0671",
+   "e0672"
+  ]
+ }
+}

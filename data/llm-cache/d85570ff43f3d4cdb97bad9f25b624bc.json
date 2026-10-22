@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City: lange Pässe werden abgefangen",
+  "text": "Harbour Citys lange Bälle bei 1-1 wurden dreimal abgefangen (e1111, 33.6 m, Schwierigkeit 56; e1118, 43.2 m, 55; e1128, 30.3 m, 42). Ironvale Athletic führt bei xG 1.68 zu 0.35; Momentum 35, Chaos 55.",
+  "cites": [
+   "e1111",
+   "e1118",
+   "e1128"
+  ]
+ }
+}

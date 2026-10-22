@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Contre éclair : Tariq Aziz double la mise !",
+  "text": "Felipe Cruz gagne le ballon, Bruno Costa file vers l'avant, et Tariq Aziz marque pour Southmere United ! Harbour City pressait haut, mais l'équipe a été surprise en un éclair : 2-0 !",
+  "cites": [
+   "e1282",
+   "e1283",
+   "e1285",
+   "e1286"
+  ]
+ }
+}

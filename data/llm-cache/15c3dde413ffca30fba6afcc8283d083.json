@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale encuentra el pase que rompe todo",
+  "text": "Ironvale ganaba 1-0 y nadie los presionaba. Entonces Ivo Petrov lanzó un pase larguísimo a Luca Romero, que dejó atrás a la defensa. ¡Así de simple se abre un partido, amigo!",
+  "cites": [
+   "e0782",
+   "e0772",
+   "e0774"
+  ]
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City tremble malgré leur avance",
+  "text": "Harbour City mène 2-1, mais ça devient fébrile ! Mateo Ruiz renvoie le ballon en arrière vers Rui Barros, puis la passe de Rui Barros est interceptée. Ironvale Athletic reste dangereux.",
+  "cites": [
+   "e1451",
+   "e1453"
+  ]
+ }
+}

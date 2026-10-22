@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere 被 Northgate 压制",
+  "text": "动量-27,混乱值52。Southmere 控球仅36%,Northgate 64%;最后三区进入次数2比8,PPDA 15对10.2。Joel Martin 在压迫下传球,难度33(e0219);Rafa Ortega 带球推进12.7米(e0220)。",
+  "cites": [
+   "e0219",
+   "e0220"
+  ]
+ }
+}

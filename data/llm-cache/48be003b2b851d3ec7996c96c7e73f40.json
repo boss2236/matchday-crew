@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City spielt den Ball zurück",
+  "text": "Elias Brandt schickt Yusuf Demir weit nach vorne, doch dann geht es über Dani Kowalski und Mateo Ruiz zu Sami Okafor wieder zurück. Es steht 0-0, Southmere United bleibt gefährlicher.",
+  "cites": [
+   "e0255",
+   "e0259",
+   "e0260"
+  ]
+ }
+}

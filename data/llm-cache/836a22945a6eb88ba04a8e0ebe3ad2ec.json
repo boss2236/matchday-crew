@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers 长传破围抢！",
+  "text": "Northgate Rovers 在 1-0 领先时被紧紧围住，Kai Nakamura 却顶着压力一脚大胆长传，直找 Emre Kaya，一下子把对手的逼抢甩开，球队顿时喘过气来！",
+  "cites": [
+   "e1534",
+   "e1536"
+  ]
+ }
+}

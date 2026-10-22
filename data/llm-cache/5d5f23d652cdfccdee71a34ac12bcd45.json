@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United 공이 자꾸 뒤로 향해요",
+  "text": "Rafa Ortega가 Kwame Mensah에게 건넨 긴 패스를 Harbour City가 가로챘어요. 그 뒤로도 Southmere United는 공을 뒤로 돌리며 압박을 피하려 애쓰고 있어요.",
+  "cites": [
+   "e0355",
+   "e0362",
+   "e0363"
+  ]
+ }
+}

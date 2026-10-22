@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Oscar Blum gâche une grosse occasion",
+  "text": "Oscar Blum, sous pression à distance 5, tire à côté à 91.4 km/h : 0.284 xG gaspillés. Northgate Rovers mène 1-0, 1.18 xG contre 0.32, momentum 40, chaos 59.",
+  "cites": [
+   "e1205"
+  ]
+ }
+}

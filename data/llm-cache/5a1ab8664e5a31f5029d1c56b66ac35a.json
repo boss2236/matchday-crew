@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City, tiro da 23.9 m a basso xG",
+  "text": "Sotto 2-0 all'81', Harbour City concatena cinque azioni in 14 secondi: l'ultimo passaggio di Arjun Mehta ha difficoltà 43, ma il tiro di Dani Kowalski vale 0.018 xG e viene parato. Momentum -30.",
+  "cites": [
+   "e1714",
+   "e1715"
+  ]
+ }
+}

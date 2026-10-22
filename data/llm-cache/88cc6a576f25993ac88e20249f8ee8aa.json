@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Callum Reid बार-बार गेंद छीन रहे हैं",
+  "text": "Ironvale Athletic के Callum Reid ने सिर्फ 120 सेकंड में 3 बार गेंद छीनी! गेंद कम होने पर भी वे तेज़ पलटवार बना रहे हैं, और स्कोर अभी 0-0 है।",
+  "cites": [
+   "e0201",
+   "e0220",
+   "e0243"
+  ]
+ }
+}

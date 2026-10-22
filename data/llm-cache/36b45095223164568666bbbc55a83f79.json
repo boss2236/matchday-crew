@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Rovers lead at the break",
+  "text": "Babak pertama selesai! Northgate Rovers unggul 1-0. Southmere United memang lebih sering menekan, tapi Rovers lebih tajam saat mendapat peluang. Jadi babak kedua pasti seru!",
+  "cites": [
+   "e0860"
+  ]
+ }
+}

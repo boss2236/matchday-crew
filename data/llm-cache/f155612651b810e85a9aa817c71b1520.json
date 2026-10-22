@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate تحاول العودة رغم التأخر",
+  "text": "Northgate Rovers متأخرون 1-0، وتمريرة Gabe Moreno الطويلة قطعها الخصم. لكن Ilan Cohen لم يستسلم، ومرّر الكرة إلى Oscar Blum لتتحرك الهجمة للأمام من جديد. الفريق ما زال يحاول!",
+  "cites": [
+   "e1229",
+   "e1243"
+  ]
+ }
+}

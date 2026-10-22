@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United 被逼得一路后退",
+  "text": "Southmere United 虽然2-0领先,但被 Harbour City 压得喘不过气。Bruno Costa 和 Dmitri Volkov 的传球都往回走,最后 Kwame Mensah 被逼得把球传出了界外。",
+  "cites": [
+   "e1364",
+   "e1367",
+   "e1369"
+  ]
+ }
+}

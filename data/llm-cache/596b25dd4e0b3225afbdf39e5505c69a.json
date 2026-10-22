@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City's big ball, then backwards",
+  "text": "Elias Brandt sent a long pass forward to Yusuf Demir, but then Harbour City passed backwards twice, through Dani Kowalski and Mateo Ruiz. It's still 0-0 and the momentum has slipped away.",
+  "cites": [
+   "e0255",
+   "e0259",
+   "e0260"
+  ]
+ }
+}

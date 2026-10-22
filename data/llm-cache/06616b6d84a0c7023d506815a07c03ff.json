@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City kombinieren blitzschnell nach vorn",
+  "text": "Was für ein Zug von Harbour City! Von Sami Okafor über Yusuf Demir und Mateo Ruiz zu Dani Kowalski, ohne Druck des Gegners. Der Schuss wird gehalten, es bleibt 0-0.",
+  "cites": [
+   "e0838",
+   "e0840",
+   "e0842",
+   "e0843"
+  ]
+ }
+}

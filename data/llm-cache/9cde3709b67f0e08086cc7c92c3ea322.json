@@ -1,0 +1,15 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kowalski trifft aus 0.057 xG zum 3-1",
+  "text": "Harbour City kombiniert nach dem Einwurf unpressed: Pässe mit Schwierigkeit 45, 29, 31. Kowalski vollendet aus 14.1 m mit 0.057 xG, 71.6 km/h, 3-1 in Minute 81. Momentum 44.",
+  "cites": [
+   "e1545",
+   "e1547",
+   "e1548",
+   "e1550",
+   "e1551",
+   "e1552"
+  ]
+ }
+}

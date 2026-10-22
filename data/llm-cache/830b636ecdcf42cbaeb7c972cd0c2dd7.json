@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City supera el xG de Ironvale",
+  "text": "Harbour City gana 4-1 pese a un xG de 1.26 frente a 1.76: 7 tiros a puerta de 12. Su PPDA de 8.5 (vs 10.3) y 56 entradas al último tercio sostienen un momentum de 75.",
+  "cites": [
+   "e1727"
+  ]
+ }
+}

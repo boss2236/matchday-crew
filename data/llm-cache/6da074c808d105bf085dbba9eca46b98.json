@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Marchetti’s sprint sparks Harbour City",
+  "text": "Leo Marchetti burst forward at 55:08, sprinting 12.2 m at 31 km/h, showing Harbour City’s pressing spirit despite the game’s chaos and a -23 momentum shift.",
+  "cites": [
+   "e1091"
+  ]
+ }
+}

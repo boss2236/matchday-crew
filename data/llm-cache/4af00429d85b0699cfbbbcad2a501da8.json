@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-opus-5.5",
+ "output": {
+  "headline": "Harbour City's press still biting at 84'",
+  "text": "Harbour City make 3 regains in 120 seconds: tackles by Dani Kowalski and Arjun Mehta, then a Yusuf Demir interception. PPDA 8.5 against 10.9, momentum 71, 3-1 up despite 0.47 xG to 1.75.",
+  "cites": [
+   "e1562",
+   "e1579",
+   "e1587"
+  ]
+ }
+}

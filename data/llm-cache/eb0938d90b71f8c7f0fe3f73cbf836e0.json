@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate wanamiliki mpira, Dahl avunja ulinzi",
+  "text": "Northgate Rovers wanamiliki mpira kwa 69%. Sven Dahl, akibanwa na wapinzani, alipiga pasi ndefu kwa Andres Vega, kisha Vega akakimbia na mpira. Bado hakuna shuti hatari, lakini wanatawala mchezo.",
+  "cites": [
+   "e0115",
+   "e0116"
+  ]
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale s'écroule, le tir de Zeke Mbeki file ailleurs",
+  "text": "Ironvale Athletic est mené 3-1 et tente un dernier coup. Luca Romero, sous pression, envoie sa passe en touche, puis Zeke Mbeki tire de loin, tout à côté. Le rêve de remontée s'éloigne.",
+  "cites": [
+   "e1635",
+   "e1650"
+  ]
+ }
+}

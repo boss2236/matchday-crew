@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers, 차분하게 공을 돌립니다",
+  "text": "1-0으로 뒤진 Northgate Rovers가 Ilan Cohen, Kai Nakamura, Andres Vega를 거치며 압박 없이 공을 돌려요. 침착하게 기회를 만들고 있지만, 아직 위협적인 장면까지는 이어지지 않았습니다.",
+  "cites": [
+   "e0789",
+   "e0791",
+   "e0793"
+  ]
+ }
+}

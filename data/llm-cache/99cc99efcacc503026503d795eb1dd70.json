@@ -1,0 +1,15 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City égalise sur une action limpide !",
+  "text": "Quelle réponse de Harbour City ! Sami Okafor lance, trois passes s'enchaînent sans pression, et Leo Marchetti conclut du pied. Un but tout en fluidité, alors que l'équipe était menée 0-1 !",
+  "cites": [
+   "e0993",
+   "e0994",
+   "e0995",
+   "e0996",
+   "e0997",
+   "e0998"
+  ]
+ }
+}

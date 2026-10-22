@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kowalski trifft trotz 0.06 xG zum 2-1",
+  "text": "Nach Interception von Jonah Pike folgen 14 Pässe, darunter Demir auf Kowalski (Schwierigkeit 55). Kowalski schließt aus 13.5 m mit 97.9 km/h ab, 0.06 xG, Tor zum 2-1. Momentum 33.",
+  "cites": [
+   "e1201",
+   "e1220",
+   "e1221",
+   "e1222",
+   "e1223"
+  ]
+ }
+}

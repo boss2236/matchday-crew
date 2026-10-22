@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers étouffent Southmere United",
+  "text": "Quel travail de Northgate Rovers ! Kai Nakamura récupère le ballon deux fois de suite, un tacle puis une interception. Southmere United n'arrive plus à respirer, et la victoire 1-0 reste bien protégée.",
+  "cites": [
+   "e0757",
+   "e0765"
+  ]
+ }
+}

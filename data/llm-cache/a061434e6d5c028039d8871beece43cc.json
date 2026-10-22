@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Reid、Ironvaleの回収で反撃を演出",
+  "text": "Callum Reidが120秒で3回ボール奪取。Ironvale Athleticは支配率40%ながらxG 0.89対0.04、シュート2本。0-0でも、カウンターの質で優位に立つ。",
+  "cites": [
+   "e0201",
+   "e0220",
+   "e0243"
+  ]
+ }
+}

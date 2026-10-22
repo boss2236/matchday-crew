@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City, che azione veloce!",
+  "text": "Che bella azione di Harbour City! Da Sami Okafor a Yusuf Demir, poi Mateo Ruiz e Dani Kowalski: tutto in 14 secondi, senza pressione. Il tiro di Dani Kowalski però viene parato!",
+  "cites": [
+   "e0838",
+   "e0840",
+   "e0842",
+   "e0843"
+  ]
+ }
+}

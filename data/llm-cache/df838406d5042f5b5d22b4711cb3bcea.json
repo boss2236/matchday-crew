@@ -1,0 +1,15 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Marchetti empata num piscar de olhos!",
+  "text": "Sami Okafor roubou a bola e, em poucos toques, ela chegou a Leo Marchetti, que chutou sem ninguém em cima. Golaço do Harbour City: 1-1, e a festa está armada!",
+  "cites": [
+   "e0991",
+   "e0994",
+   "e0995",
+   "e0996",
+   "e0998",
+   "e0999"
+  ]
+ }
+}

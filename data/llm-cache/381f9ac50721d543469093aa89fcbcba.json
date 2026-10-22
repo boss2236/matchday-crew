@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate 控球占优，动量仍均衡",
+  "text": "Northgate Rovers 1-0 领先，控球59%，xG 0.67对0.16，PPDA 8.3。Kai Nakamura 35.3米传给 Oscar Blum，难度61，推进33.5米；动量46，混乱度48。",
+  "cites": [
+   "e0553",
+   "e0556"
+  ]
+ }
+}

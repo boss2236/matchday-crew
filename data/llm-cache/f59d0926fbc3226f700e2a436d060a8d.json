@@ -1,10 +1,10 @@
 {
- "model": "openai:openai/gpt-oss-120b",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Harbour City’s Press Sparks Momentum Shift",
-  "text": "A rapid passing sequence (e0348‑e0352) raised Harbour City’s momentum to 33 while chaos hit 47, culminating in Mehta’s shot (e0353) that threatened Ironvale’s deep block.",
+  "headline": "Harbour City circulate, but threat stays thin",
+  "text": "Harbour City string five unpressured passes before Arjun Mehta's 25.2m shot is saved at 0.015 xG. Momentum 33 shows control without penetration, while Ironvale Athletic lead xG 0.89 to 0.06.",
   "tags": [
-   "pressing",
+   "possession",
    "momentum",
    "control"
   ],

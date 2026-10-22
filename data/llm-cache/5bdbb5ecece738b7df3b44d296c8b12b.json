@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City-র চতুর্থ গোল, প্রেস থেকে",
+  "text": "Harbour City ইন্টারসেপশনে (e1715) বল জিতে নেয়; Mateo Ruiz-এর 21.6 প্রোগ্রেস পাস (e1722) থেকে Dani Kowalski-র 0.79 xG ফিনিশ (e1725), 2.5 দূরত্বে। স্কোর 4-1, PPDA 8.5।",
+  "cites": [
+   "e1715",
+   "e1722",
+   "e1725"
+  ]
+ }
+}

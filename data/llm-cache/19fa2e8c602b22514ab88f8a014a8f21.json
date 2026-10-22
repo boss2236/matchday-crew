@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate mène, mais ça devient fragile",
+  "text": "Northgate Rovers mène 1-0, mais ses passes se perdent : Ilan Cohen s'est fait intercepter, puis le ballon d'Oscar Blum est sorti. Southmere United en profite et reprend espoir !",
+  "cites": [
+   "e0499",
+   "e0510"
+  ]
+ }
+}

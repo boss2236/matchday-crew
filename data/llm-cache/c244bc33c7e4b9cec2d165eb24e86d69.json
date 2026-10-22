@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere lead 1-0 but momentum slipping",
+  "text": "Southmere lead 1-0 with 1.65 xG to 0.44, yet momentum is 27 and chaos 48. Joel Martin's 59.9 distance pass was intercepted at 55:10; two passes went out against Harbour City's 7.3 PPDA press.",
+  "cites": [
+   "e1221",
+   "e1230",
+   "e1234"
+  ]
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kaya'nın koşusu, Blum'un golü!",
+  "text": "Emre Kaya topu üç kez koşturup Oscar Blum'a uzun bir pas attı, Blum da golü buldu. Northgate Rovers 1-0 önde, ama Southmere United baskıyı artırıyor.",
+  "cites": [
+   "e0423",
+   "e0424",
+   "e0425",
+   "e0426",
+   "e0427"
+  ]
+ }
+}

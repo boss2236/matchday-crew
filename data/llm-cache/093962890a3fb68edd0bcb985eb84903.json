@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate topu çevirdi ama ileri gidemedi",
+  "text": "Northgate Rovers topun başında ama maç 1-0 geride. Sven Dahl'ın geriye doğru oynadığı pas, takımı ileri taşımak yerine oyunu yavaşlattı; kalede de hiç zorlayıcı vuruş yok.",
+  "cites": [
+   "e0560",
+   "e0546",
+   "e0551"
+  ]
+ }
+}

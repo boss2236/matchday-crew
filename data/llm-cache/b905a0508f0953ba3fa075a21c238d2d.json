@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City का तेज़ हमला, बस थोड़ा चूके!",
+  "text": "Sami Okafor के लंबे पास से शुरू हुआ खेल, Yusuf Demir, Mateo Ruiz और फिर Dani Kowalski तक पहुँचा। किसी ने दबाव नहीं डाला, शॉट पर गोलकीपर ने बचा लिया। स्कोर अभी 0-0 है!",
+  "cites": [
+   "e0838",
+   "e0840",
+   "e0842",
+   "e0843"
+  ]
+ }
+}

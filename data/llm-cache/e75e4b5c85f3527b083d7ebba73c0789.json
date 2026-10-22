@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United가 경기를 꽉 쥐었어요",
+  "text": "Southmere United가 2분 사이에 Tariq Aziz, Rafa Ortega, Joel Martin의 가로채기로 공을 3번 되찾았어요! 2-0 앞선 채 Harbour City가 공격을 풀어가지 못하게 막고 있어요.",
+  "cites": [
+   "e1818",
+   "e1838",
+   "e1847"
+  ]
+ }
+}

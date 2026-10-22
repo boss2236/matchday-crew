@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United 抢断连连，节奏变了",
+  "text": "Southmere United 在 120 秒内连续抢回球权，Liam Doyle、Tariq Aziz 和 Rafa Ortega 轮番拦截。Northgate Rovers 想慢慢控球，现在被搅得有点乱，比分还是 0-0！",
+  "cites": [
+   "e0306",
+   "e0328",
+   "e0341"
+  ]
+ }
+}

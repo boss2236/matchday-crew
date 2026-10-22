@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City کے لمبے پاس بار بار کٹ گئے",
+  "text": "56:05 سے 56:49 تک Harbour City کے تین پاس intercepted ہوئے: e1111 میں 33.6 میٹر، difficulty 56؛ e1118 میں 43.2 میٹر، difficulty 55۔ xG 0.35 بمقابلہ Ironvale Athletic کے 1.68، momentum 35، chaos 55۔",
+  "cites": [
+   "e1111",
+   "e1118",
+   "e1128"
+  ]
+ }
+}

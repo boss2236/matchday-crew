@@ -1,0 +1,19 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Tariq Aziz의 해트트릭, Southmere United 3-0 승리",
+  "text": "경기 초반부터 Southmere United가 기세를 잡았어요. 4분에 Tariq Aziz가 아주 가까운 거리에서 슛을 날렸지만 막혔고, 아쉬움이 남았죠. 하지만 전반 막판 Joel Martin의 패스를 받은 Tariq Aziz가 골문 바로 앞에서 첫 골을 넣었습니다. 후반 59분에는 Bruno Costa의 패스로 두 번째 골이 나왔고, 87분에는 Joel Martin이 공을 빼앗아 곧바로 연결해 Tariq Aziz가 세 번째 골을 완성했어요. Harbour City는 슛을 11번 쐈지만 좋은 기회를 거의 만들지 못했습니다. 오늘의 주인공은 단연 3골을 넣은 Tariq Aziz였어요.",
+  "cites": [
+   "e0077",
+   "e1012",
+   "e1013",
+   "e1014",
+   "e1285",
+   "e1287",
+   "e1847",
+   "e1849",
+   "e1851",
+   "e1950"
+  ]
+ }
+}

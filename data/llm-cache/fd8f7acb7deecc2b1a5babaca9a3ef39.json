@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Callum Reid recupera el balón sin parar",
+  "text": "¡Qué trabajo de Callum Reid! Le quita el balón al rival 3 veces en pocos minutos, y Ironvale Athletic, aunque tiene menos la pelota, sale como un rayo y huele el gol.",
+  "cites": [
+   "e0201",
+   "e0220",
+   "e0243"
+  ]
+ }
+}

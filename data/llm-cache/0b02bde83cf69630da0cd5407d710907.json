@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere struggling to get out of their half",
+  "text": "Northgate are bossing the ball, and Southmere are working hard just to break free. Joel Martin kept calm under pressure, then Rafa Ortega drove forward twice with the ball at his feet.",
+  "cites": [
+   "e0219",
+   "e0220",
+   "e0221"
+  ]
+ }
+}

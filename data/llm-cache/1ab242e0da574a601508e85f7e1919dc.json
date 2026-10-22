@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers 리드, 아직 불안해요",
+  "text": "Northgate Rovers가 1-0으로 앞서 있지만 패스가 자꾸 흔들려요. Ilan Cohen의 패스는 상대에게 끊겼고, Oscar Blum의 패스는 그대로 밖으로 나갔어요. 친구야, 아직 마음 놓긴 일러요!",
+  "cites": [
+   "e0499",
+   "e0510"
+  ]
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City's Frantic Chase Yields 0.018 xG",
+  "text": "Trailing 2-0 at 81', Harbour City string five actions in 15 seconds: Arjun Mehta's 27.2m pass (difficulty 43) finds Dani Kowalski, whose 23.9m shot is saved at just 0.018 xG. Momentum -30.",
+  "cites": [
+   "e1714",
+   "e1715"
+  ]
+ }
+}

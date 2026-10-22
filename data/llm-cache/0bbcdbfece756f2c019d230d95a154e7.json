@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City drängt, doch Ironvale führt",
+  "text": "Mateo Ruiz spielt den Ball weit zu Dani Kowalski, der sofort losläuft und abzieht – aber der Schuss wird geblockt! Harbour City liegt weiter 0-1 zurück und bleibt dran.",
+  "cites": [
+   "e0890",
+   "e0891",
+   "e0893"
+  ]
+ }
+}

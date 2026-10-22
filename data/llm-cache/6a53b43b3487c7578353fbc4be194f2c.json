@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers、ボールは持つが前に進めない",
+  "text": "Northgate Rovers がボールを56%持っているのに、1-0で負けています。Sven Dahl のパスも後ろ向きで、前に進めません。友達に例えるなら、ずっとパスを回しているだけの状態です。",
+  "cites": [
+   "e0560",
+   "e0546"
+  ]
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Zeke Mbeki decide e Ironvale Athletic vence por 1-0",
+  "text": "Que jogo, amigo! O Northgate Rovers ficou mais tempo com a bola e tentou jogar com paciência, mas o Ironvale Athletic esperou bem atrás e saiu rápido quando podia. Aos 26 minutos, Oscar Blum teve uma chance enorme para o Northgate Rovers, mas o chute foi bloqueado. Logo depois, aos 27, Zeke Mbeki apareceu bem perto da baliza e marcou o golo que decidiu tudo. Depois disso, o Ironvale Athletic aguentou a pressão, roubou a bola várias vezes com Callum Reid e Hiro Tanaka e não deixou o Northgate Rovers empatar. Zeke Mbeki foi o grande nome da partida: marcou e quase fez outro antes do intervalo. Foi uma vitória de quem soube sofrer e aproveitar a oportunidade.",
+  "cites": [
+   "e0461",
+   "e0484",
+   "e0485",
+   "e0855",
+   "e0603",
+   "e1363",
+   "e1437",
+   "e1700"
+  ]
+ }
+}

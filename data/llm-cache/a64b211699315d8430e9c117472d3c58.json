@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City da pases hacia atrás",
+  "text": "Harbour City arrancó la jugada con un gran pase de Elias Brandt a Yusuf Demir, pero luego Dani Kowalski y Mateo Ruiz retrocedieron el balón. Sigue 0-0.",
+  "cites": [
+   "e0255",
+   "e0259",
+   "e0260"
+  ]
+ }
+}

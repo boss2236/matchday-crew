@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Joel Martin 가로채기, Tariq Aziz 골!",
+  "text": "Joel Martin이 공을 가로채 달려가더니 Tariq Aziz에게 ��쭉 연결했어요! Tariq Aziz가 침착하게 마무리해서 Southmere United가 순식간에 3-0으로 달아났습니다!",
+  "cites": [
+   "e1847",
+   "e1848",
+   "e1849",
+   "e1850",
+   "e1851"
+  ]
+ }
+}

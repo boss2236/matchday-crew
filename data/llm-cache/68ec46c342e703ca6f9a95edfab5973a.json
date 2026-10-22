@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic가 공을 되찾고 있어요",
+  "text": "Hiro Tanaka와 Callum Reid가 120초 안에 3번이나 공을 빼앗았어요! Ironvale Athletic는 1-0 리드를 지키면서, 빠른 역습 기회를 노리고 있어요.",
+  "cites": [
+   "e1341",
+   "e1356",
+   "e1363"
+  ]
+ }
+}

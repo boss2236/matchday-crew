@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere 的传球被逼断了",
+  "text": "Southmere United 本来传得很顺，可 Bruno Costa 被 Harbour City 紧紧逼抢，传给 Tariq Aziz 的球直接出界了。Harbour City 的高位逼抢开始见效，场面越来越乱。",
+  "cites": [
+   "e1177",
+   "e1179"
+  ]
+ }
+}

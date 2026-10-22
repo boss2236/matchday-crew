@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United würgt Harbour City ab",
+  "text": "Southmere United gewinnt in 120 Sekunden 3 Mal den Ball zurück: Tariq Aziz, Rafa Ortega, Joel Martin. Beim 2-0 in Minute 87 bleibt der PPDA bei 8, xG 1.85 gegen 0.62, Momentum 5.",
+  "cites": [
+   "e1818",
+   "e1838",
+   "e1847"
+  ]
+ }
+}

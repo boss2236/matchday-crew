@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale'ın uzun topu işe yarıyor",
+  "text": "Ironvale Athletic 1-0 önde ve rakip baskı yapamıyor. Ivo Petrov'un Luca Romero'ya attığı upuzun pas savunmayı bir anda geçti. İşte hızlı kontra oyunu tam da böyle çalışıyor!",
+  "cites": [
+   "e0782",
+   "e0772",
+   "e0774"
+  ]
+ }
+}

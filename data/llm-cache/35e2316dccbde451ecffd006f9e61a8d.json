@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City pressen Ironvale Athletic nieder",
+  "text": "Harbour City erobert 3 Bälle in 120 Sekunden: Tacklings von Dani Kowalski und Arjun Mehta, dann Yusuf Demirs Interception bei 83:06. PPDA 8.5 gegenüber 10.9, Momentum 71, Führung 3-1.",
+  "cites": [
+   "e1562",
+   "e1579",
+   "e1587"
+  ]
+ }
+}

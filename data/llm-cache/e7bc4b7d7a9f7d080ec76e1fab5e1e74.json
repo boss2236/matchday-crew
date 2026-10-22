@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City、リードはまだ危うい",
+  "text": "Harbour Cityが2-1でリード中ですが、Mateo RuizがRui Barrosへ大きく下げ、そのRui Barrosのパスが相手に奪われました。落ち着かない時間帯です。",
+  "cites": [
+   "e1451",
+   "e1453"
+  ]
+ }
+}

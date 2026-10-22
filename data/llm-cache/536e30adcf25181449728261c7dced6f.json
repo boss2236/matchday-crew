@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale rompe líneas con pases largos",
+  "text": "Ironvale Athletic, 1-0 arriba, estira el campo: Callum Reid a Luca Romero (46.2 m, dificultad 58), Romero a Marco Silvan (62.6 m, dificultad 80), y Romero conduce 9.8 m. Caos 62, momentum 29.",
+  "cites": [
+   "e1464",
+   "e1465",
+   "e1468"
+  ]
+ }
+}

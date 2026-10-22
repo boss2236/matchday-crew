@@ -1,0 +1,15 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic 1-0 Northgate Rovers: Mbeki 결승골",
+  "text": "Ironvale Athletic이 Northgate Rovers를 1-0으로 꺾었다. 점유율은 47% 대 53%로 밀렸지만 xG는 1.42 대 0.86으로 앞섰다. 26분 Oscar Blum의 xG 0.394 슛이 거리 4에서 막혔고, 직후 27분 Zeke Mbeki가 xG 0.829, 거리 2의 슛으로 선제 결승골을 넣었다. 전반 45+2'에도 Mbeki는 xG 0.276 기회를 놓쳤다. Ironvale은 PPDA 8.8, 태클 성공 15회로 깊은 블록과 직선적 역습을 구사했고, 33분 Callum Reid 등 3회 회수 압박 구간이 이어졌다. Northgate는 패스 성공률 85%, 슈팅 9회였으나 결정력이 부족했다. 최종 모멘텀은 7. 경기 최고 선수는 1골, xG 1.39의 Mbeki다.",
+  "cites": [
+   "e0461",
+   "e0484",
+   "e0485",
+   "e0855",
+   "e0603",
+   "e1700"
+  ]
+ }
+}

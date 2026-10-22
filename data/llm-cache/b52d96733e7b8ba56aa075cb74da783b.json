@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale break fast and stretch the pitch",
+  "text": "Ironvale lead 1-0 and are hitting Northgate Rovers on the break! Callum Reid finds Luca Romero, who sends Marco Silvan racing forward, and Romero carries it on. It's wide open now!",
+  "cites": [
+   "e1464",
+   "e1465",
+   "e1467",
+   "e1468",
+   "e1469"
+  ]
+ }
+}

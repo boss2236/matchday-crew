@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere steal the ball three times!",
+  "text": "Southmere United are hassling Northgate Rovers right now! Liam Doyle, Tariq Aziz and Rafa Ortega each snatched the ball away, and Northgate's calm passing game is being shaken up at 0-0.",
+  "cites": [
+   "e0306",
+   "e0328",
+   "e0341"
+  ]
+ }
+}

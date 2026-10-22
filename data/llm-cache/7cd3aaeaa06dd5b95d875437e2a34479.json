@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere baskı kuruyor, son pas dışarı",
+  "text": "Southmere United topu rahatça gezdirdi ama Bruno Costa'nın uzun pası çizgiden dışarı çıktı. Skor hâlâ 0-0, fakat Southmere United daha tehlikeli görünüyor; Harbour City ise bu baskıya dayanmaya çalışıyor.",
+  "cites": [
+   "e0413",
+   "e0412"
+  ]
+ }
+}

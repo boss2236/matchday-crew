@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale mène 1-0, mais ça s'agite",
+  "text": "Ironvale Athletic garde son avance, même si la passe de Luca Romero vers Zeke Mbeki a été coupée. Heureusement, Hiro Tanaka part en courant avec le ballon et redonne un peu de calme à l'équipe.",
+  "cites": [
+   "e0980",
+   "e0990",
+   "e0991"
+  ]
+ }
+}

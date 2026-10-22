@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Oscar Blum의 골이 Northgate Rovers를 웃게 했다",
+  "text": "소파에 앉은 친구에게 말하듯 이야기해 볼게요. 초반에는 Northgate Rovers가 공을 차분히 돌리며 경기를 이끌었어요. 그리고 23분, Emre Kaya가 길게 찔러준 패스를 Oscar Blum이 골문 바로 앞에서 시원하게 차 넣었습니다. 이 골이 결국 승부를 갈랐어요. 이후 Southmere United가 Rafa Ortega를 앞세워 공을 되찾으며 계속 밀어붙였지만, 마지막 한 방을 만들지 못했어요. 65분에는 Blum에게 추가골 기회도 있었는데 아쉽게 빗나갔죠. 경기는 1-0으로 끝났고, 단 한 번의 정확한 마무리를 해낸 Oscar Blum이 오늘의 주인공이에요.",
+  "cites": [
+   "e0426",
+   "e0427",
+   "e0428",
+   "e1205",
+   "e1784"
+  ]
+ }
+}

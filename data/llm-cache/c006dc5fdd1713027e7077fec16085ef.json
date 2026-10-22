@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale's long ball opens Harbour City up",
+  "text": "Ironvale lead 1-0 and keep finding space. Ivo Petrov's long, forward ball to Luca Romero skipped past Harbour City in one go, the kind of quick counter that's really hurting them.",
+  "cites": [
+   "e0782",
+   "e0772",
+   "e0774"
+  ]
+ }
+}

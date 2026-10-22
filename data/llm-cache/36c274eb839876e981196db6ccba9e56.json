@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Marchetti’s sprint sparks excitement",
+  "text": "At minute 13 Leo Marchetti tore down the wing at 32.2 km/h over 10.3 m, shaking Ironvale’s deep block and lifting the chaos to 41 while momentum stays negative.",
+  "cites": [
+   "e0266"
+  ]
+ }
+}

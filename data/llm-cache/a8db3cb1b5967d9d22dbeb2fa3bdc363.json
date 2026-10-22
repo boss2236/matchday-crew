@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City soffoca l'Ironvale",
+  "text": "Che pressione! Harbour City ha rubato palla 3 volte in pochi minuti: due contrasti di Dani Kowalski e Arjun Mehta, poi l'intercetto di Yusuf Demir. L'Ironvale Athletic non respira più.",
+  "cites": [
+   "e1562",
+   "e1579",
+   "e1587"
+  ]
+ }
+}

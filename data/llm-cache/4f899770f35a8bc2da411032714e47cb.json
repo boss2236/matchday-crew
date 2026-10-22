@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Rovers lead 1-0 on 0.68 xG",
+  "text": "Northgate Rovers lead 1-0 at half-time, 0.68 xG to 0.31, despite Southmere United's 6 shots to 4 and 32 final third entries to 26. PPDA is 8.6 against 9.1; momentum is -46.",
+  "cites": [
+   "e0860"
+  ]
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers non mollano un pallone!",
+  "text": "Che pressione! Kai Nakamura prima ferma l'avversario con un tackle, poi intercetta di nuovo il pallone. Northgate Rovers si riprendono la palla e proteggono il vantaggio sull'1-0, togliendo respiro a Southmere United.",
+  "cites": [
+   "e0757",
+   "e0765"
+  ]
+ }
+}

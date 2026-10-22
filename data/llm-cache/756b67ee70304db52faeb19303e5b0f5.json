@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere keluar dari tekanan lewat umpan switch",
+  "text": "Southmere tertinggal 1-0, momentum -29, xG 0.16 lawan 0.68. Setelah umpan Felipe Cruz dicegat (e0703), umpan Alfie Grant ke Joel Martin sejauh 41 meter, kesulitan 84, di bawah tekanan, progres 40.9 (e0713).",
+  "cites": [
+   "e0703",
+   "e0713"
+  ]
+ }
+}

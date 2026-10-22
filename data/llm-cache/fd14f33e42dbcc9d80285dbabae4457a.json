@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Rovers baskıdan uzun pasla kurtuldu",
+  "text": "Northgate Rovers sıkışmıştı, ama Kai Nakamura gözünü kırpmadan Emre Kaya'ya uzun bir top gönderdi. Rakibin baskısı bir anda dağıldı, takım rahat bir nefes aldı. Skor 1-0!",
+  "cites": [
+   "e1531",
+   "e1534",
+   "e1536"
+  ]
+ }
+}

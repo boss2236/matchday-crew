@@ -1,17 +1,15 @@
 {
- "model": "openai:openai/gpt-oss-120b",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Late Goal Locks Victory",
-  "text": "Harbour City's final‑minute possession chain, starting with Dani Kowalski's interception (e1715) and a series of quick, unpressured passes (e1716‑e1718, e1722), culminated in a high‑speed finish (e1724) that sealed a 4‑1 win, cementing their control and momentum.",
+  "headline": "Kowalski interception sparks clinical Harbour City finish",
+  "text": "Harbour City's high press pays off again. Dani Kowalski's interception starts a 5-pass combination with Mateo Ruiz, and the unpressured 2.5 finish, worth 0.79 xG, makes it 4-1 despite Ironvale Athletic's 1.76 xG.",
   "tags": [
-   "control",
-   "momentum",
+   "pressing",
+   "pass",
    "finishing"
   ],
   "cites": [
    "e1715",
-   "e1716",
-   "e1717",
    "e1718",
    "e1722",
    "e1724",

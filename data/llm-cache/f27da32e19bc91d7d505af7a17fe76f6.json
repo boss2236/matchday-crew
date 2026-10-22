@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere长传被断,势头下滑至26",
+  "text": "Bruno Costa的e0574长传33.3米、难度51被拦截;Rafa Ortega的e0584长传30.3米、难度41同样被断。势头降至26,混乱度56;Southmere xG 0.71对0.27,Harbour City PPDA 7.1。",
+  "cites": [
+   "e0574",
+   "e0584"
+  ]
+ }
+}

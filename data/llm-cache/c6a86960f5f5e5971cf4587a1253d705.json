@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Ironvale's Control Crumbles",
+  "text": "Ironvale’s 44.5m intercepted pass (e1059) and pressured 41.2m pass (e1067) yielded a -53 momentum swing and 64 chaos, while Zeke’s off‑target 22.3m shot (e1068) had xG 0.02.",
+  "cites": [
+   "e1059",
+   "e1067",
+   "e1068"
+  ]
+ }
+}

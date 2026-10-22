@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic topu geri kazanıyor",
+  "text": "Ironvale Athletic 120 saniyede 3 top çalma yaptı; sonuncusu 66:40'ta Ivo Petrov'dan. xG 1.68'e karşı 0.41, PPDA 9.9, momentum 16. 2-1 geride olsalar da kontrolü geri alıyorlar.",
+  "cites": [
+   "e1263",
+   "e1276",
+   "e1297"
+  ]
+ }
+}

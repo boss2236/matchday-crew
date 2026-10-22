@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Reid corta el juego de Northgate",
+  "text": "¡Qué trabajo de Callum Reid! Recuperó el balón 3 veces en un ratito, con dos tackles y una intercepción, y no dejó respirar a Northgate Rovers. Ironvale Athletic aguanta su 1-0.",
+  "cites": [
+   "e1414",
+   "e1420",
+   "e1437"
+  ]
+ }
+}

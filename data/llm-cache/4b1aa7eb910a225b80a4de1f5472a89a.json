@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City perdono il controllo sotto 0-1",
+  "text": "Harbour City sotto 0-1, momentum 27, caos 46. Il lancio di Leo Marchetti in e0725 (60.3 m, difficoltà 73) è intercettato; Jonah Pike in e0734 (40 m, difficoltà 64) finisce fuori. xG 0.16 contro 1.63.",
+  "cites": [
+   "e0725",
+   "e0734"
+  ]
+ }
+}

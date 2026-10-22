@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere étouffé par le contrôle de Northgate",
+  "text": "Momentum à -27, chaos à 52 : Southmere United ne tient que 36% de possession, 2 entrées dans le dernier tiers contre 8, PPDA 15 contre 10.2. Joel Martin sous pression (difficulté 33) puis Rafa Ortega portent le ballon.",
+  "cites": [
+   "e0219",
+   "e0220",
+   "e0221"
+  ]
+ }
+}

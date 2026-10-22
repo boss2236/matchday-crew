@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale 传得又稳又顺",
+  "text": "Ironvale Athletic 现在踢得特别从容!Callum Reid、Marco Silvan、Zeke Mbeki 和 Finn Carver 连续传球,没人逼抢,球队 1-0 领先,势头越来越旺。",
+  "cites": [
+   "e1111",
+   "e1112",
+   "e1113",
+   "e1115"
+  ]
+ }
+}

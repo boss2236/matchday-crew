@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Mbeki finishes direct Ironvale counter",
+  "text": "Ironvale, on 45 possession, struck 14 seconds after a throw-in: Petrov's 38.2 pass (difficulty 53) found Mbeki, who scored from 2 with 0.829 xG. Ironvale's 0.84 xG tops Northgate's 0.39. Momentum 13.",
+  "cites": [
+   "e0480",
+   "e0481",
+   "e0484",
+   "e0485"
+  ]
+ }
+}

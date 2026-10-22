@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United: xG 0.68, caos 66",
+  "text": "Southmere United, possesso 61%, xG 0.68 contro 0.17 e PPDA 5.7. Momentum 40, caos 66: il passaggio in pressione di Tariq Aziz a Dmitri Volkov, 55.1 m e difficoltà 73, resta rischioso.",
+  "cites": [
+   "e0142",
+   "e0144"
+  ]
+ }
+}

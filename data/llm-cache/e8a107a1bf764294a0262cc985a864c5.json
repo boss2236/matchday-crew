@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale 以效率领先半场",
+  "text": "半场0-1,Ironvale Athletic 6次射门、3次射正、xG 1.63;Harbour City 5次射门、1次射正、xG 0.27,虽有28次最后三区进入对23次。PPDA 9.8对10.8,混乱度50。",
+  "cites": [
+   "e0897"
+  ]
+ }
+}

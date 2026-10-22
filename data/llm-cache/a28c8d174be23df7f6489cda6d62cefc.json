@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers kontrollieren trotz Momentum 46",
+  "text": "Northgate Rovers führen 1-0 bei 59 Ballbesitz und 0.67 xG zu 0.16, PPDA 8.3. Kai Nakamura findet Oscar Blum über 35.3 m, Schwierigkeit 61. Momentum 46, Chaos 48: ausgeglichen.",
+  "cites": [
+   "e0553",
+   "e0556"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City 长传失控，动量跌至-27",
+  "text": "0-0，Harbour City 长传连连，e0672 的 55.6 米传球被拦截，混乱值 64、动量-27。Mateo Ruiz 在压迫下 26.9 米传球推进 22，随后 34.6 米找到 Yusuf Demir。",
+  "cites": [
+   "e0671",
+   "e0672",
+   "e0679"
+  ]
+ }
+}

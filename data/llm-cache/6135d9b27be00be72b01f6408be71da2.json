@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "¡Southmere United le roba el balón a Northgate!",
+  "text": "Southmere United está presionando fuerte: Liam Doyle, Tariq Aziz y Rafa Ortega cortaron pases rivales y recuperaron el balón. Northgate Rovers ya no juega tan tranquilo en este 0-0.",
+  "cites": [
+   "e0306",
+   "e0328",
+   "e0341"
+  ]
+ }
+}

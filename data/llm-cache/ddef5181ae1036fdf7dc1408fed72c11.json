@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers、長いパスで一気に脱出",
+  "text": "81分、Northgate Rovers が1-0でリード。Kai Nakamura が詰められた場面から Emre Kaya へ大きく蹴り出し、相手の圧力をスッとかわしました。ベンチも観客も思わず息をのむ一本です！",
+  "cites": [
+   "e1531",
+   "e1534",
+   "e1536"
+  ]
+ }
+}

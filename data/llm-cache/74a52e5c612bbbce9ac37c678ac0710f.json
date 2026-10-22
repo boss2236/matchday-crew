@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Los pases largos de Southmere pierden inercia",
+  "text": "Bruno Costa (33.3 m, dificultad 51) y Rafa Ortega (30.3 m, dificultad 41) fueron interceptados en el minuto 28. Momentum 26, caos 56; Southmere United domina en xG 0.71 a 0.27, pero el PPDA de 7.1 de Harbour City aprieta.",
+  "cites": [
+   "e0574",
+   "e0584"
+  ]
+ }
+}

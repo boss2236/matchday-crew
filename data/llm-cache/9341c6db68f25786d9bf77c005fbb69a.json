@@ -1,18 +1,16 @@
 {
- "model": "openai:openai/gpt-oss-20b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Momentum Decline Amid Chaos",
-  "text": "Harbour City’s drive faltered as a 25‑point momentum swing and 62‑point chaos index hit at 39:12, ending with a 0.113 xG shot that was saved.",
+  "headline": "Harbour City swing momentum with quick combinations",
+  "text": "Harbour City moved from Sami Okafor's long pass through Yusuf Demir, Mateo Ruiz and Dani Kowalski in 14 seconds, none pressured, ending in a saved 0.113 xG shot. Chaos sits at 62 in a 0-0 game.",
   "tags": [
    "momentum",
-   "chaos",
-   "finishing"
+   "chance",
+   "chaos"
   ],
   "cites": [
    "e0838",
-   "e0839",
    "e0840",
-   "e0841",
    "e0842",
    "e0843"
   ]

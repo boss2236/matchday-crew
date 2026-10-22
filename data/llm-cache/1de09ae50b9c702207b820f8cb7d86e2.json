@@ -1,8 +1,8 @@
 {
- "model": "openai:openai/gpt-oss-120b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Rovers' Pressing Surge Shifts Control",
-  "text": "Kai Nakamura’s three regains in a two‑minute window, highlighted by successive interceptions and a tackle (e0738, e0757, e0765), intensifies Northgate’s pressing, turning momentum negative (-27) into defensive dominance.",
+  "headline": "Northgate Rovers squeeze Southmere with pressing",
+  "text": "Northgate Rovers won possession back 3 times in 120 seconds, led by Kai Nakamura's tackle and interception. At 1-0 in minute 42, that pressing protects the lead and disrupts Southmere United's wing play.",
   "tags": [
    "pressing",
    "control",

@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic schlägt mit langen Bällen zu",
+  "text": "Ironvale Athletic führt 1-0 und spielt ohne Druck munter weiter. Ivo Petrov schickt einen langen, mutigen Ball auf Luca Romero, der die Abwehr einfach überspielt. Genau so gefährlich wird das Konterspiel!",
+  "cites": [
+   "e0782",
+   "e0772",
+   "e0774"
+  ]
+ }
+}

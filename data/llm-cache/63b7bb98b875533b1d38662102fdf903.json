@@ -1,0 +1,15 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Okafor'un çalmasıyla Harbour City eşitliği buldu!",
+  "text": "Sami Okafor topu kaptı, takım arkadaşlarıyla üç pas yaptı ve Leo Marchetti saatte 83 km hızla şutunu çaktı! Rakip hiç baskı yapamadı, Harbour City bir anda 1-1'e geldi.",
+  "cites": [
+   "e0991",
+   "e0994",
+   "e0995",
+   "e0996",
+   "e0998",
+   "e0999"
+  ]
+ }
+}

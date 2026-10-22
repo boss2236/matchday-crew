@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "تسلسل من 14 تمريرة ينتهي بهدف منخفض الـxG",
+  "text": "بعد اعتراض الكرة، نفّذ Harbour City 14 تمريرة بناء قبل أن يمرر Yusuf Demir لـDani Kowalski، فسجّل بتسديدة 97.9 km/h من 13.5 رغم xG 0.06، ليتقدم 2-1.",
+  "cites": [
+   "e1201",
+   "e1221",
+   "e1222",
+   "e1223"
+  ]
+ }
+}

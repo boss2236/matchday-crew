@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Mbeki's 0.459 xG chance saved",
+  "text": "Zeke Mbeki's unpressured shot from 4.4 (0.459 xG) is saved, but Ironvale Athletic lead 0-1 on 1.63 xG to 0.16 with 48% possession. Momentum is -90 against Harbour City's 8.5 PPDA press.",
+  "cites": [
+   "e0651"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City parte bene, poi torna indietro",
+  "text": "Che bel lancio di Elias Brandt per Yusuf Demir! Ma poi Harbour City passa all'indietro, prima con Dani Kowalski e poi con Mateo Ruiz, e perde slancio. Per ora è ancora 0-0.",
+  "cites": [
+   "e0255",
+   "e0259",
+   "e0260"
+  ]
+ }
+}

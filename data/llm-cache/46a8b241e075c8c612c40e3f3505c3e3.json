@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate keep calm and keep the ball",
+  "text": "Northgate lead 1-0 and are happily passing it around, with Kai Nakamura finding Oscar Blum again. They hold the ball for 59 percent of the time, so they're the ones steering this game.",
+  "cites": [
+   "e0553",
+   "e0556"
+  ]
+ }
+}

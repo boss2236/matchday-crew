@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "ハーバーシティ、前進から一転バックパス",
+  "text": "12分、Elias Brandtの長いパスで一気に前へ進んだハーバーシティ。でもそのあとDani KowalskiとMateo Ruizのパスは後ろ向きで、勢いは下がり気味です。まだ0-0ですよ。",
+  "cites": [
+   "e0255",
+   "e0259",
+   "e0260"
+  ]
+ }
+}

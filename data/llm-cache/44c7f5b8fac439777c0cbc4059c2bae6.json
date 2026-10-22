@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere : une grosse bascule sous pression",
+  "text": "Southmere United mène à 1-0 en moins bien : momentum -29, xG 0.16 contre 0.68. Alfie Grant, pressé, joue 41 m vers Joel Martin : difficulté 84, progression 40.9, après l'interception e0703.",
+  "cites": [
+   "e0703",
+   "e0713"
+  ]
+ }
+}

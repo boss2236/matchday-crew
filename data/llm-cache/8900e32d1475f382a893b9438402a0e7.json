@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United topu bırakmıyor!",
+  "text": "Southmere United topu rakibe vermiyor. Alfie Grant'ten başlayan paslar Liam Doyle ve Joel Martin üzerinden Tariq Aziz'e kadar uzandı; en sonunda Tariq Aziz baskı altında Dmitri Volkov'a uzun bir pas yolladı. Maç hâlâ 0-0.",
+  "cites": [
+   "e0138",
+   "e0142",
+   "e0144"
+  ]
+ }
+}

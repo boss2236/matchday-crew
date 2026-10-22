@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers يمسكون الكرة لكن بلا خطورة",
+  "text": "Northgate Rovers يستحوذون على الكرة بنسبة 56%، لكنهم متأخرون. حتى تمريرة Sven Dahl إلى Ravi Kapoor رجعت للخلف بدل أن تتقدم، فبقي الفريق يدور بالكرة بلا تهديد حقيقي.",
+  "cites": [
+   "e0560",
+   "e0546",
+   "e0551"
+  ]
+ }
+}

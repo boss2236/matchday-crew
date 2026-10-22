@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Oscar Blum scheitert aus nächster Nähe",
+  "text": "Was für eine Riesenchance! Oscar Blum schießt aus 4 Metern völlig frei, doch ein Gegner wirft sich dazwischen und blockt. Northgate Rovers drückt weiter, aber es steht noch 0-0.",
+  "cites": [
+   "e0461"
+  ]
+ }
+}

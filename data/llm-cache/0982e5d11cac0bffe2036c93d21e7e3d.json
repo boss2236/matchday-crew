@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic、一気のカウンター！",
+  "text": "Ironvale Athletic が1点リードのまま、Callum Reid から Luca Romero、Marco Silvan へと長いパスを素早くつなぎました。最後は Luca Romero がボールを運んで前進。試合は大きく動いています！",
+  "cites": [
+   "e1464",
+   "e1465",
+   "e1467",
+   "e1468",
+   "e1469"
+  ]
+ }
+}

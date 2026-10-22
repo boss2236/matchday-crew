@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Mbeki vergibt Großchance trotz Ironvale-Dominanz",
+  "text": "Zeke Mbeki schießt aus 4.4 m unbedrängt, xG 0.459, gehalten. Ironvale Athletic führt 0-1 bei xG 1.63 gegen 0.16 trotz 48% Ballbesitz; Harbour City presst mit PPDA 8.5, Momentum -90.",
+  "cites": [
+   "e0651"
+  ]
+ }
+}

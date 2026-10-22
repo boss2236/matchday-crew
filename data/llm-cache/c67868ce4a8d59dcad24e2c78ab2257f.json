@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kowalski'den 0.057 xG'lik soğukkanlı bitiriş",
+  "text": "Harbour City, taç atışından 20 saniyede golü buldu: üç pas da baskısızdı. Dani Kowalski 14.1 metreden 0.057 xG'lik şutla Ironvale Athletic'in derin bloğunu geçti; skor 81. dakikada 3-1.",
+  "cites": [
+   "e1545",
+   "e1547",
+   "e1550",
+   "e1551",
+   "e1552"
+  ]
+ }
+}

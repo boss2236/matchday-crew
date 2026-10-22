@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Dani Kowalski tutup laga 4-1 Harbour City",
+  "text": "Setelah interception (e1715), Mateo Ruiz mengirim progress pass 21.6 dengan difficulty 48 (e1722). Dani Kowalski menuntaskan dari jarak 2.5, xG 0.79 (e1724), skor 4-1 di 90+1'. PPDA Harbour City 8.5.",
+  "cites": [
+   "e1715",
+   "e1722",
+   "e1724"
+  ]
+ }
+}

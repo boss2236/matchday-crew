@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate controlan con 0.67 xG",
+  "text": "Northgate Rovers ganan 1-0 con 59 de posesión y 0.67 xG frente a 0.16; Kai Nakamura conecta con Oscar Blum a 35.3 m, dificultad 61, aunque momentum 46 y caos 48.",
+  "cites": [
+   "e0553",
+   "e0556"
+  ]
+ }
+}

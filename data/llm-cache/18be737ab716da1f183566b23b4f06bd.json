@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Rovers bypass pressure with 43.3m vertical ball",
+  "text": "Under pressure, Sven Dahl's 43.3m pass to Emre Kaya (difficulty 83) gained 36.1m, then Kaya found Oscar Blum over 38.4m. Momentum 26, chaos 54: scrambling transition, not control. Rovers' xG 0.69 vs 0.32.",
+  "cites": [
+   "e0989",
+   "e0990",
+   "e0985"
+  ]
+ }
+}

@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-opus-5.5",
+ "output": {
+  "headline": "Harbour City win despite losing xG",
+  "text": "Full time: Harbour City 4-1 Ironvale Athletic. They lost the xG battle 1.26 to 1.76, but a PPDA of 8.5 and 7 shots on target beat the deep block. Momentum 75.",
+  "cites": [
+   "e1727"
+  ]
+ }
+}

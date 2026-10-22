@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere's build-up breaks at 61:51",
+  "text": "Alfie Grant's pressured 22.8m pass to Joel Martin, difficulty 59, was intercepted at 61:51. Southmere trail 1-0, xG 0.32 against 0.84, with chaos at 61 and momentum at -25.",
+  "cites": [
+   "e1161",
+   "e1159"
+  ]
+ }
+}

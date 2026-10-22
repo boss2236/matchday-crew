@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale lead at the break",
+  "text": "Half-time, and Ironvale Athletic are 1-0 up on the road! Harbour City have had plenty of the ball near the goal, but Ironvale have made their chances count far better.",
+  "cites": [
+   "e0897"
+  ]
+ }
+}

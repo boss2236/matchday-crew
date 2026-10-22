@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere's pressing spell protects 2-0 lead",
+  "text": "Southmere United won 3 regains in 120 seconds, tackles from Tariq Aziz and Bruno Costa plus Liam Doyle's interception at 67:31. With chaos at 75 and xG 1.81 to 0.57, the 2-0 lead holds.",
+  "cites": [
+   "e1408",
+   "e1414",
+   "e1445"
+  ]
+ }
+}

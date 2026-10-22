@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United 마지막 공격, 아직 막혔어요",
+  "text": "1-0으로 지고 있는 Southmere United가 Rafa Ortega, Bruno Costa, Tariq Aziz를 거치며 공을 돌리지만, 뒤로 가는 패스가 나오면서 골문 쪽으로는 좀처럼 파고들지 못하고 있어요.",
+  "cites": [
+   "e1692",
+   "e1693",
+   "e1694",
+   "e1695"
+  ]
+ }
+}

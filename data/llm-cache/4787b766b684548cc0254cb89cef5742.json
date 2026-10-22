@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate 69%控球，Dahl破线传球",
+  "text": "Northgate Rovers控球69%，PPDA 13。Sven Dahl受压传球给Andres Vega，距离36.9，推进30.9，难度79。动量37，但xG 0，Southmere United xG 0.03。",
+  "cites": [
+   "e0115",
+   "e0116"
+  ]
+ }
+}

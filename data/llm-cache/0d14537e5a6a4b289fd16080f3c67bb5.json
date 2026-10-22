@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Callum Reid-এর প্রেসিংয়ে Ironvale-এর কাউন্টার",
+  "text": "Callum Reid ১২০ সেকেন্ডে 3 বার বল ফেরত আনলেন, যদিও Ironvale Athletic-এর পজেশন মাত্র 40%। xG 0.89 বনাম 0.04, PPDA 13, momentum -8; স্কোর 0-0।",
+  "cites": [
+   "e0201",
+   "e0220",
+   "e0243"
+  ]
+ }
+}

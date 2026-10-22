@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Le pressing de Harbour City étouffe Ironvale",
+  "text": "Harbour City récupère 3 ballons en 120 secondes (tacles de Dani Kowalski et Arjun Mehta, interception de Yusuf Demir à 83:06). PPDA de 8.5 contre 10.9, momentum à 71, score 3-1.",
+  "cites": [
+   "e1562",
+   "e1579",
+   "e1587"
+  ]
+ }
+}

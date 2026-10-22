@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City、0-3で無圧力の回し",
+  "text": "90+3'、Harbour Cityは0-3の劣勢で5本連続のノープレッシャー成功。e1926は進行-23.9、e1928は-9.4、e1929は-10.5と後退し、momentum -25、chaos 46。xG 0.62のまま牙を欠く。",
+  "cites": [
+   "e1926",
+   "e1928",
+   "e1929",
+   "e1930"
+  ]
+ }
+}

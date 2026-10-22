@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City's 2-1 lead looks fragile",
+  "text": "Mateo Ruiz's 33.9m backward ball to Rui Barros (-33.5 progress), then Barros's pressured pass, difficulty 45, intercepted at 75:48. Momentum 32, chaos 52; Ironvale Athletic's xG 1.68 versus 0.41.",
+  "cites": [
+   "e1451",
+   "e1453"
+  ]
+ }
+}

@@ -1,12 +1,12 @@
 {
- "model": "openai:openai/gpt-oss-20b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Ironvale’s 3‑Goal Surge",
-  "text": "Hiro Tanaka’s 120‑second pressing spell, beginning with a 3‑goal regain, shifts momentum, tightens control, and forces Northgate into chaotic defense, turning a 1‑0 lead into a decisive advantage.",
+  "headline": "Ironvale's pressing spell flips the pattern",
+  "text": "Hiro Tanaka's tackle and interception, plus Callum Reid's, gave Ironvale 3 regains in 120 seconds. Patient Northgate Rovers kept 52% possession, but chaos at 67 favours Ironvale's direct counters while protecting a 1-0 lead.",
   "tags": [
    "pressing",
-   "momentum",
-   "control"
+   "counter",
+   "chaos"
   ],
   "cites": [
    "e1341",

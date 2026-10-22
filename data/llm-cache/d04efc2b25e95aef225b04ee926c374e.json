@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City palleggiano, ma Southmere resiste",
+  "text": "Siamo al 90+3' e Harbour City è sotto 3-0. Passano la palla senza nessuno addosso, ma spesso la girano indietro: tanto giro, poco pericolo, come chi gira in tondo senza trovare la porta.",
+  "cites": [
+   "e1926",
+   "e1928",
+   "e1929",
+   "e1930"
+  ]
+ }
+}

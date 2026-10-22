@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere mène 1-0 mais perd le contrôle",
+  "text": "Southmere United mène 1-0 (xG 1.65 contre 0.44), mais momentum 27, chaos 48. Passe de Joel Martin interceptée (difficulté 60, 59.9 m), puis sorties de balle à 55:40 et 56:07 face au pressing de Harbour City (PPDA 7.3).",
+  "cites": [
+   "e1221",
+   "e1230",
+   "e1234"
+  ]
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic file en contre-attaque !",
+  "text": "Quelle accélération d'Ironvale Athletic ! Callum Reid lance Luca Romero, qui sert Marco Silvan, puis Romero repart balle au pied. Ça court dans tous les sens, et Ironvale mène 1-0 !",
+  "cites": [
+   "e1464",
+   "e1465",
+   "e1467",
+   "e1468",
+   "e1469"
+  ]
+ }
+}

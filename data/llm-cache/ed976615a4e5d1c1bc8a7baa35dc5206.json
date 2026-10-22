@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City 장거리 패스로 주도권 상실",
+  "text": "Harbour City는 0-1 열세, 모멘텀 27. Leo Marchetti의 60.3m 패스(난이도 73)는 차단됐고, Jonah Pike의 40m 패스(난이도 64)는 아웃. xG는 0.16 대 1.63으로 크게 뒤진다.",
+  "cites": [
+   "e0725",
+   "e0734"
+  ]
+ }
+}

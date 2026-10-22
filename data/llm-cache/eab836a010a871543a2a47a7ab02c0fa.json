@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere ileri gidiyor ama geri dönüyor",
+  "text": "Jan Novak'ın Bruno Costa'ya attığı upuzun pas harikaydı, tam ileri gidiyorduk! Ama Costa topu geriye, Nasser Haddad'a bıraktı. Southmere United hâlâ 1-0 geride ve bu fırsat elden kaydı.",
+  "cites": [
+   "e1296",
+   "e1298"
+  ]
+ }
+}

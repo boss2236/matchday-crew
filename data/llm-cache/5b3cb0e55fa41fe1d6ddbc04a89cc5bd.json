@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers l'emporte 1-0 au xG",
+  "text": "Northgate Rovers gagnent 1-0 avec 1.18 xG contre 0.9, malgré 57 entrées dans le dernier tiers pour Southmere United contre 42. PPDA 8.3 contre 7.6, chaos 56, momentum -63.",
+  "cites": [
+   "e1784"
+  ]
+ }
+}

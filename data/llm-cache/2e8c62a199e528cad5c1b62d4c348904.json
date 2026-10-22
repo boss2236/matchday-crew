@@ -1,0 +1,15 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic vence Northgate Rovers por 1-0 com eficiência",
+  "text": "O Ironvale Athletic, em bloco baixo com contra-ataques diretos, venceu por 1-0 apesar de menos posse (47% contra 53%). Aos 6', o passe de Kai Nakamura para Oscar Blum, com dificuldade 48, foi intercetado. Aos 26', Blum rematou de 4 m, xG 0.394, e foi bloqueado. No minuto seguinte, Zeke Mbeki marcou com xG 0.829, a 2 m da baliza, após 1 passe de construção. Aos 45+2', Mbeki falhou outro remate, xG 0.276. O Ironvale somou xG 1.42 contra 0.86 e 42 interceções, com PPDA 8.8 (7.9 do Northgate). Mbeki, com 1 golo e xG 1.39, foi o destaque.",
+  "cites": [
+   "e0099",
+   "e0461",
+   "e0484",
+   "e0485",
+   "e0855",
+   "e1700"
+  ]
+ }
+}

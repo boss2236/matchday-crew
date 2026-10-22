@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour Cityのプレスが効いてきた!",
+  "text": "Southmere Unitedは順調にパスをつないでいましたが、Rafa OrtegaとBruno Costaにプレッシャーがかかると、Costaのパスは Tariq Azizに届かずラインの外へ出てしまいました。",
+  "cites": [
+   "e1177",
+   "e1179"
+  ]
+ }
+}

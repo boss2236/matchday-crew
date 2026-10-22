@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City의 리드, 아직 불안해요",
+  "text": "Harbour City가 2-1로 앞서지만 불안해요! Mateo Ruiz가 Rui Barros에게 공을 뒤로 돌렸고, 곧이어 Rui Barros의 패스가 상대에게 끊겼어요. Ironvale Athletic이 노려볼 만한 순간이에요.",
+  "cites": [
+   "e1451",
+   "e1453"
+  ]
+ }
+}

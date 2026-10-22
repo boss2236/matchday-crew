@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Les Rovers s'échappent par de longues passes",
+  "text": "Sous pression, Northgate Rovers a lancé le jeu : Sven Dahl a envoyé un long ballon à Emre Kaya, qui a trouvé Oscar Blum. Quelle belle sortie de panique, pleine de 43,3 mètres !",
+  "cites": [
+   "e0989",
+   "e0990"
+  ]
+ }
+}

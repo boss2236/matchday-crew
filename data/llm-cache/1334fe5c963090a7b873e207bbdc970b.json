@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City stay calm under pressure",
+  "text": "Leading 2-1, Harbour City shrug off a tight squeeze as Leo Marchetti sprays a long pass out of trouble, then Jonah Pike's forward ball finds Dani Kowalski. Cool, calm passing!",
+  "cites": [
+   "e1326",
+   "e1331"
+  ]
+ }
+}

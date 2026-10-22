@@ -1,0 +1,15 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic washinda 1-0 dhidi ya Northgate Rovers",
+  "text": "Ironvale Athletic walishinda 1-0 kwa kutumia deep block na counters za moja kwa moja. Dakika ya 26, Oscar Blum wa Northgate Rovers alizuiwa shuti la xG 0.394 kutoka umbali wa 4. Dakika ya 27, Zeke Mbeki alifunga bao la xG 0.829 kutoka umbali wa 2, shuti la 79.8 km/h. Callum Reid alianzisha pressing spell dakika ya 33 yenye regains 3 ndani ya sekunde 120. Mbeki alikosa nafasi ya xG 0.276 dakika ya 45+2'. Northgate Rovers walikuwa na possession 53% na pass accuracy 85%, lakini xG yao ilikuwa 0.86 dhidi ya 1.42 ya Ironvale Athletic. PPDA: 8.8 dhidi ya 7.9. Mbeki, mwenye xG 1.39, ndiye mchezaji bora.",
+  "cites": [
+   "e0461",
+   "e0484",
+   "e0485",
+   "e0603",
+   "e0855",
+   "e1700"
+  ]
+ }
+}

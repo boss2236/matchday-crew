@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale recupera três vezes em 120 segundos",
+  "text": "Ironvale Athletic recupera 3 vezes em 120 segundos (1 desarme, 2 interceções) contra a posse paciente do Northgate Rovers. Lidera 1-0, xG 0.84 contra 0.44, com caos em 62.",
+  "cites": [
+   "e0564",
+   "e0581",
+   "e0603"
+  ]
+ }
+}

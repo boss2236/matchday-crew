@@ -1,0 +1,15 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Moreno-Diagonale öffnet Southmere-Abwehr",
+  "text": "Gabe Moreno schlägt 63.8 m zu Emre Kaya (Schwierigkeit 88), drei Carries, dann Pass über 30.1 m auf Oscar Blum: unbedrängter Abschluss, xG 0.472, 1-0. Northgate 2 Schüsse, 0.58 xG; Southmere 5 Schüsse, 0.16 xG.",
+  "cites": [
+   "e0422",
+   "e0423",
+   "e0424",
+   "e0425",
+   "e0426",
+   "e0427"
+  ]
+ }
+}

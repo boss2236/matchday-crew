@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Rovers rompen la presión con cambio largo",
+  "text": "Northgate Rovers, 1-0 al 81', encadenó pases bajo presión hasta el envío de Kai Nakamura a Emre Kaya: 36.4 unidades, dificultad 76, caos 63. Su xG es 1.18 y su PPDA, 9.",
+  "cites": [
+   "e1531",
+   "e1534",
+   "e1536"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers、奪い返しでリードを守る",
+  "text": "Ilan Cohenのインターセプトで、Northgate Roversは2分間に3回もボールを奪い返しました。Southmere Unitedの攻めをしっかり止めて、1-0のリードを守っています！",
+  "cites": [
+   "e1425",
+   "e1441",
+   "e1462"
+  ]
+ }
+}

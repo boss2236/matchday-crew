@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Rovers beat the press with a long switch",
+  "text": "Northgate Rovers, leading 1-0 at 81', escaped Southmere's PPDA 7.3 press: Kai Nakamura's 36.4-unit ball to Emre Kaya, pass difficulty 76 and pressured, progressed 35.2 amid chaos 63. Rovers' xG is 1.18 to 0.38.",
+  "cites": [
+   "e1531",
+   "e1534",
+   "e1536"
+  ]
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Aziz conclut une chaîne sans pression",
+  "text": "Bruno Costa porte à 33.1 km/h, puis trois passes sans pression (difficulté 59, 42, 44) trouvent Tariq Aziz : but à 1.2 de distance, 0.931 xG. Momentum 52 pour Southmere United, score 0-0.",
+  "cites": [
+   "e1009",
+   "e1010",
+   "e1011",
+   "e1012",
+   "e1013"
+  ]
+ }
+}

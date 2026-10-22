@@ -1,0 +1,15 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers vencen 1-0 con el gol de Oscar Blum",
+  "text": "Northgate Rovers ganó 1-0 a Southmere United con un partido de control posicional. El pase de Emre Kaya a Oscar Blum (distancia 30.1, dificultad 48) abrió el camino al gol del minuto 23: xG 0.472, disparo a 4.3 de distancia y 101.4 km/h. Después Southmere United presionó con 3 recuperaciones en 120 segundos, pero no empató. Blum falló una gran ocasión en el minuto 65 (xG 0.284). Northgate Rovers terminó con xG 1.18 frente a 0.9, 55% de posesión y PPDA 8.3, contra 7.6 del rival. Southmere United tuvo 57 entradas al último tercio, pero no las convirtió en peligro. Blum fue el jugador destacado, con 1 gol y xG 1.16.",
+  "cites": [
+   "e0426",
+   "e0427",
+   "e0428",
+   "e1205",
+   "e0341",
+   "e1784"
+  ]
+ }
+}

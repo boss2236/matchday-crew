@@ -1,0 +1,21 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United 3-0 Harbour City: Aziz hat-trick",
+  "text": "Southmere United は Harbour City に3-0で勝利。4分、Tariq Aziz が距離2mからxG 0.622の決定機を迎えたがセーブされた。45+3分、Joel Martin の19本のビルドアップからのパスを受け、Aziz がxG 0.931、距離1.2mで先制。59分には Bruno Costa のパスから、xG 0.16のシュートで2-0とした。87分は Martin のインターセプトから1本のパスで、xG 0.106の3点目が生まれた。xGは1.95対0.62、枠内シュートは7対5、finalThirdEntriesは62対52、インターセプトは45対37で、PPDAは7.9対7.6と拮抗した。Aziz は3ゴール、xG 1.88で立役者となった。",
+  "cites": [
+   "e0077",
+   "e1012",
+   "e1013",
+   "e1014",
+   "e1285",
+   "e1286",
+   "e1287",
+   "e1847",
+   "e1849",
+   "e1850",
+   "e1851",
+   "e1950"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers-এর চাপে লিড নিরাপদ",
+  "text": "Ilan Cohen বল কেড়ে নিলেন, আর Northgate Rovers মাত্র 120 সেকেন্ডে তিনবার বল ফিরিয়ে আনল! এতে Southmere United-এর উইং আক্রমণ থেমে গেল, আর 1-0 লিড নিরাপদ থাকল।",
+  "cites": [
+   "e1425",
+   "e1441",
+   "e1462"
+  ]
+ }
+}

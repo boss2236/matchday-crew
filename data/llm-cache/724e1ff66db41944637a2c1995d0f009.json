@@ -1,0 +1,16 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City gewinnt 4-1 trotz weniger xG",
+  "text": "Ironvale Athletic startete gefährlich: Zeke Mbeki verfehlte in der 2. Minute mit 0.876 xG aus 2.5 m (geblockt), traf aber in der 30. Minute zum 0-1 (0.188 xG, 96.1 km/h). Nach der Pause drehte Harbour City das Spiel: Leo Marchetti glich in der 49. Minute mit nur 0.024 xG aus 15.2 m aus. Dani Kowalski erhöhte in der 62. Minute auf 2-1 (0.06 xG) und in der 81. Minute auf 3-1 (0.057 xG). In der 90. Minute folgte das 4-1 (0.79 xG aus 2.5 m). Harbour City presste intensiver (PPDA 8.5 gegen 10.3) und hatte 7 Schüsse aufs Tor gegenüber 4. Ironvale führte beim xG mit 1.76 zu 1.26, ließ aber Chancen liegen. Standout: Kowalski mit 3 Toren bei 1.17 xG; Endmomentum 75.",
+  "cites": [
+   "e0041",
+   "e0600",
+   "e0999",
+   "e1223",
+   "e1552",
+   "e1725",
+   "e1727"
+  ]
+ }
+}

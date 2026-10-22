@@ -1,16 +1,16 @@
 {
- "model": "openai:openai/gpt-oss-20b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Southmere United Seize Mid‑Game Momentum",
-  "text": "A 12.7‑yard carry by Alfie Grant, followed by a 48.9‑yard pass to Rafa Ortega, shifted momentum to 36, reducing chaos and building a 1‑0 advantage at 53:00.",
+  "headline": "Southmere's sequence breaks down under pressure",
+  "text": "Southmere strung together four completes, but once Rafa Ortega and Bruno Costa were pressured, Costa's pass to Tariq Aziz went out. With chaos at 56 and momentum at 36, Harbour City's high press is biting.",
   "tags": [
-   "momentum",
-   "control",
-   "passing"
+   "pressing",
+   "chaos",
+   "momentum"
   ],
   "cites": [
-   "e1172",
-   "e1175"
+   "e1177",
+   "e1179"
   ]
  }
 }

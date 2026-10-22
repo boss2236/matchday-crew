@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate rodam a bola com paciência",
+  "text": "Depois do chute defendido de Oscar Blum, o Northgate Rovers troca passes com calma, sem ninguém na marcação. Ilan Cohen, Kai Nakamura e Andres Vega procuram o espaço, mas ainda perdem por 1-0!",
+  "cites": [
+   "e0782",
+   "e0789",
+   "e0791",
+   "e0793"
+  ]
+ }
+}

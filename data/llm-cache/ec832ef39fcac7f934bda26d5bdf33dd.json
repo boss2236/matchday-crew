@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kowalski'den sakin bir 3-1 vuruşu!",
+  "text": "Harbour City taç atışından başladı, kimse baskı yapamadı. Mateo Ruiz'in pasıyla Dani Kowalski 14.1 metreden şutu çekti ve top ağlarda! Ironvale Athletic'e karşı skor 3-1 oldu.",
+  "cites": [
+   "e1545",
+   "e1550",
+   "e1551",
+   "e1552"
+  ]
+ }
+}

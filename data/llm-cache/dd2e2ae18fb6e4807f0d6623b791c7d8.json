@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Costa vola, Aziz non perdona!",
+  "text": "Bruno Costa parte in corsa, tre passaggi senza che Harbour City riesca a toccare palla, e Tariq Aziz segna da pochissimi passi. Un gol facile da vedere, perfetto da costruire: Southmere United esulta!",
+  "cites": [
+   "e1009",
+   "e1010",
+   "e1011",
+   "e1012",
+   "e1013"
+  ]
+ }
+}

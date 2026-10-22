@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers: कब्ज़ा ज़्यादा, धार कम",
+  "text": "Northgate Rovers के पास 56% possession और 22 final-third entries हैं, पर xG सिर्फ़ 0.44 और 0 shots on target। Sven Dahl का 30.1 मीटर का -8.5 progress पास; momentum -78।",
+  "cites": [
+   "e0560",
+   "e0546",
+   "e0551"
+  ]
+ }
+}

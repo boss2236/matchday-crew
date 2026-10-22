@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers-এর বল আছে, গোল নেই",
+  "text": "Northgate Rovers বল নিজেদের পায়ে রাখছে, কিন্তু Sven Dahl-এর পিছনে ফেরানো পাসের মতো ধীর খেলায় আক্রমণ এগোচ্ছে না। তাই 1-0 গোলে পিছিয়ে, লক্ষ্যে শটও নেই।",
+  "cites": [
+   "e0560",
+   "e0546",
+   "e0551"
+  ]
+ }
+}

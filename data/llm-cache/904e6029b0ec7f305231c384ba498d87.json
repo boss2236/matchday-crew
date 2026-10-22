@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City চাপ বাড়াচ্ছে, তবু পিছিয়ে",
+  "text": "Mateo Ruiz-এর লম্বা পাস আর Dani Kowalski-র দৌড়ে Harbour City দ্রুত এগোলো, কিন্তু Dani-র শট আটকে গেল। দল এখনও 0-1 গোলে পিছিয়ে, তাই চাপ আছে, ভালো সুযোগ কম।",
+  "cites": [
+   "e0890",
+   "e0891",
+   "e0893"
+  ]
+ }
+}

@@ -1,11 +1,11 @@
 {
- "model": "openai:openai/gpt-oss-120b",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Mbeki's high‑xG chance shifts momentum",
-  "text": "Zeke Mbeki's 4.4 m shot (xG 0.459) at 33 min was a rare high‑quality chance for Ironvale, cutting Harbour City's momentum to –90 and highlighting the clash between Harbour's press and Ironvale's deep block.",
+  "headline": "Ironvale's counters keep carving Harbour City open",
+  "text": "Zeke Mbeki's unpressured shot from 4.4 metres, worth 0.459 xG, was saved. Ironvale lead 0-1 with 48% possession and 1.63 xG to Harbour City's 0.16, and momentum sits at -90.",
   "tags": [
+   "counter",
    "chance",
-   "control",
    "momentum"
   ],
   "cites": [

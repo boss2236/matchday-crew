@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale saem do bloco e correm!",
+  "text": "Aos 85 minutos, com 1-0 no marcador, o Ironvale Athletic roubou a bola e a passou rápido de Callum Reid para Hiro Tanaka e Luca Romero, que arrancou em velocidade duas vezes!",
+  "cites": [
+   "e1570",
+   "e1571",
+   "e1572",
+   "e1573"
+  ]
+ }
+}

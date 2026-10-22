@@ -1,0 +1,16 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ein Traumpass, und Blum schlägt zu!",
+  "text": "Gabe Moreno schlägt einen riesigen Pass auf Emre Kaya, der trägt den Ball nach vorn und legt perfekt auf Oscar Blum auf. Der schiebt frei ein: Northgate Rovers führen 1-0!",
+  "cites": [
+   "e0422",
+   "e0423",
+   "e0424",
+   "e0425",
+   "e0426",
+   "e0427",
+   "e0428"
+  ]
+ }
+}

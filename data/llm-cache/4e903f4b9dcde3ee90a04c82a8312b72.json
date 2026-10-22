@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere cherche l'air sous la pression",
+  "text": "Northgate garde le ballon presque tout le temps, et Southmere United doit se débrouiller. Joel Martin sort une passe sous pression, puis Rafa Ortega file balle au pied pour essayer de relancer.",
+  "cites": [
+   "e0219",
+   "e0220",
+   "e0221"
+  ]
+ }
+}

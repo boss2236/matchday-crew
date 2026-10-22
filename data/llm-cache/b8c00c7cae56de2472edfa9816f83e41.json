@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United、プレスで流れを変える",
+  "text": "Southmere United がボールを何度も奪い返しています。Liam Doyle、Tariq Aziz、Rafa Ortega が相次いでパスを読み切り、Northgate Rovers のじっくり攻めるリズムを崩しています。0-0のまま、勢いは Southmere United へ。",
+  "cites": [
+   "e0306",
+   "e0328",
+   "e0341"
+  ]
+ }
+}

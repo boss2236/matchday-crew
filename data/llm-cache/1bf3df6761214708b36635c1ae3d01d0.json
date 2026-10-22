@@ -1,0 +1,15 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kowalski 0.057 xG、無圧力の20秒ゴール",
+  "text": "81分、Harbour Cityはスローインから無圧力の3本のパスで崩し、Dani Kowalskiが14.1mからxG 0.057を沈めて3-1。パス難度は45、29、31。Ironvaleの低い守備ブロックを破った。",
+  "cites": [
+   "e1545",
+   "e1547",
+   "e1548",
+   "e1550",
+   "e1551",
+   "e1552"
+  ]
+ }
+}

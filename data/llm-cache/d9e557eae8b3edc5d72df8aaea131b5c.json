@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City 追分，射门被扑出",
+  "text": "Harbour City 落后 2-0，连续几脚快速传递一路推进，最后 Dani Kowalski 在远处起脚，被门将稳稳扑出。这脚射门威胁不大，Southmere United 依然占着上风。",
+  "cites": [
+   "e1714",
+   "e1715"
+  ]
+ }
+}

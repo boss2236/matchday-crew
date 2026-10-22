@@ -1,17 +1,16 @@
 {
- "model": "openai:openai/gpt-oss-20b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Ironvale’s 26th‑minute strike",
-  "text": "A quick 38‑m pass from Ivo Petrov to Zeke Mbeki, followed by a 26‑kph dribble and a 79.8‑kph finish, gives Ironvale a 1‑0 lead, shifting momentum to 13 and reducing chaos.",
+  "headline": "Direct counter punishes patient Northgate",
+  "text": "Ironvale, sitting in a deep block with 45 possession, struck within 14 seconds of a throw-in: Petrov's 38.2 pass found Mbeki, who finished from 2 with xg 0.829. Direct play beat Northgate's 55 possession.",
   "tags": [
-   "pressing",
-   "momentum",
-   "finishing"
+   "counter",
+   "finishing",
+   "speed"
   ],
   "cites": [
    "e0480",
    "e0481",
-   "e0482",
    "e0484",
    "e0485"
   ]

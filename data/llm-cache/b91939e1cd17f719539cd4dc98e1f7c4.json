@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United 1-0 リード、xG差が顕著",
+  "text": "前半終了、Southmere United 1-0 Harbour City。xGは1.64対0.39、枠内シュート3本対2本。ポゼッションは50%同士で、Harbour CityのPPDA 6.8に対しSouthmere UnitedのPPDAは9.2、モメンタムは71。",
+  "cites": [
+   "e1016"
+  ]
+ }
+}

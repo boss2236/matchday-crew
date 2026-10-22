@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United 1-0 リードも落ち着けない",
+  "text": "Southmere Unitedが1-0でリード中。でもJoel Martinのパスが奪われ、その後もボールがラインの外へ。Harbour Cityの激しい寄せに、少しバタバタしています。",
+  "cites": [
+   "e1221",
+   "e1230",
+   "e1234"
+  ]
+ }
+}

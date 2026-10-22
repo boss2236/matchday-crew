@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere çabalıyor, Northgate direniyor",
+  "text": "Southmere United geriye düşmüş durumda. Rafa Ortega, Bruno Costa ve Tariq Aziz topu kendi aralarında çevirip duruyor ama kaleye yaklaşamıyorlar. Northgate Rovers hâlâ oyunun kontrolünde, skor 1-0.",
+  "cites": [
+   "e1692",
+   "e1693",
+   "e1694"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale'in pres anı oyunu çeviriyor",
+  "text": "Hiro Tanaka'nın müdahalesi ve Callum Reid'in kesmesiyle Ironvale 120 saniyede 3 top kazandı. xG 1.15'e karşı 0.86, PPDA 8.7'ye karşı 8.1; kaos 67, momentum 5, skor 1-0.",
+  "cites": [
+   "e1341",
+   "e1356",
+   "e1363"
+  ]
+ }
+}

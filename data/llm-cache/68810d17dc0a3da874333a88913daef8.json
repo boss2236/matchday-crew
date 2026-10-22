@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City pierde el control perdiendo 0-1",
+  "text": "Harbour City cae 0-1 con momentum 27 y caos 46; xG 0.16 frente a 1.63. Marchetti falla un pase interceptado de 60.3 m (dificultad 73) y Pike otro fuera de 40 m (dificultad 64).",
+  "cites": [
+   "e0725",
+   "e0734"
+  ]
+ }
+}

@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City'den hızlı ve temiz atak!",
+  "text": "Harbour City top kaybetmeden Sami Okafor, Yusuf Demir, Mateo Ruiz ve Dani Kowalski arasında hızla ilerledi. Kowalski'nin şutu kurtarıldı ama baskı yok, rahat oynadılar. Skor hâlâ 0-0!",
+  "cites": [
+   "e0838",
+   "e0840",
+   "e0842",
+   "e0843"
+  ]
+ }
+}

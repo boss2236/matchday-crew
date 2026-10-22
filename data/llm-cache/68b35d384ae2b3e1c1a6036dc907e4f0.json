@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale's slick passing ends out of play",
+  "text": "Ironvale were rolling, with Callum Reid pinging a big 33.4 ball to Luca Romero. But Romero's next pass to Hiro Tanaka sailed out of play, and the chance fizzled away.",
+  "cites": [
+   "e0326",
+   "e0327"
+  ]
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United、xG 0.68で優勢",
+  "text": "Southmere Unitedは支配率61%、xG 0.68、PPDA 5.7。Tariq Azizの55.1mのパスは難度73でプレッシャー下、Dmitri Volkovへ通る。モメンタム40、カオス66。",
+  "cites": [
+   "e0142",
+   "e0144"
+  ]
+ }
+}

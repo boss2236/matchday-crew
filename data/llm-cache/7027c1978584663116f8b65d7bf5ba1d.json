@@ -1,0 +1,20 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Hattrik Tariq Aziz Antar Southmere United Tekuk Harbour City 3-0",
+  "text": "Southmere United menang 3-0 atas Harbour City dengan xG 1.95 berbanding 0.62. Tariq Aziz sudah memiliki peluang besar pada menit 4 (xG 0.622, jarak 2, ditepis), lalu mencetak gol pembuka menit 45 (xG 0.931, jarak 1.2) lewat umpan Joel Martin. Gol kedua menit 59 (xG 0.16) berasal dari umpan Bruno Costa, dan gol ketiga menit 87 (xG 0.106) lahir dari intersepsi Joel Martin. Harbour City hanya menghasilkan tembakan bernilai rendah, seperti Dani Kowalski menit 40 (xG 0.113) dan menit 81 (xG 0.018). Penguasaan bola 50-50 dan PPDA 7.9 berbanding 7.6, tetapi Southmere unggul dalam kualitas peluang. Aziz menjadi pemain terbaik dengan 3 gol.",
+  "cites": [
+   "e0077",
+   "e1013",
+   "e1012",
+   "e1014",
+   "e1285",
+   "e1287",
+   "e1847",
+   "e1851",
+   "e0843",
+   "e1715",
+   "e1950"
+  ]
+ }
+}

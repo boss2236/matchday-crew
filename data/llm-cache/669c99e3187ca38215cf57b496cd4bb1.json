@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City topu geri kapıyor!",
+  "text": "Harbour City rakibe nefes aldırmıyor! Dani Kowalski ve Arjun Mehta toplara girdi, Yusuf Demir araya girip topu kaptı. 3-1 öndeki ev sahibi oyunun kontrolünü bırakmıyor.",
+  "cites": [
+   "e1562",
+   "e1579",
+   "e1587"
+  ]
+ }
+}

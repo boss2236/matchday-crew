@@ -1,0 +1,17 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic 1-0 Northgate Rovers: Mbeki decide",
+  "text": "Ironvale Athletic ganó 1-0 a Northgate Rovers pese a ceder la posesión (47% frente a 53%). Con bloque bajo y contraataques directos, generó 1.42 xG contra 0.86. Northgate tuvo la gran ocasión inicial en el minuto 26: Oscar Blum, a 4 de distancia, vio su disparo bloqueado (0.394 xG). Un minuto después, Zeke Mbeki marcó con un remate de 0.829 xG desde 2 de distancia, a 79.8 km/h. Ironvale defendió la ventaja con presión: tres recuperaciones en 120 segundos en los minutos 33, 49, 73 y 77, y un PPDA de 8.8 frente al 7.9 rival. Mbeki, con 1.39 xG y 57 pases completos, fue el jugador destacado. El 1-0 se mantuvo hasta el final.",
+  "cites": [
+   "e0461",
+   "e0484",
+   "e0485",
+   "e0603",
+   "e0935",
+   "e1363",
+   "e1437",
+   "e1700"
+  ]
+ }
+}

@@ -1,0 +1,15 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic siegt 1-0 dank Zeke Mbekis Tor",
+  "text": "Was für ein Spiel! Northgate Rovers hatten öfter den Ball und zeigten geduldiges Spiel, doch Ironvale Athletic blieb mit seiner tiefen Abwehr und schnellen Kontern gefährlich. Früh in der Partie wurde es hektisch, dann kam der große Moment: In der 27. Minute traf Zeke Mbeki aus nächster Nähe zum 1-0. Kurz davor hatte Oscar Blum für Northgate Rovers die Riesenchance, doch sein Schuss wurde geblockt. Danach drängte Northgate, aber Ironvale Athletic eroberte den Ball immer wieder zurück, unter anderem durch Callum Reid und Hiro Tanaka. Mbeki war der Mann des Spiels. Ironvale Athletic nutzte seine Chance, Northgate Rovers nicht. Deshalb blieb es beim 1-0.",
+  "cites": [
+   "e0461",
+   "e0485",
+   "e0603",
+   "e1363",
+   "e1437",
+   "e1700"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale vole le ballon trois fois !",
+  "text": "Quelle belle séquence ! Ironvale Athletic récupère le ballon trois fois en deux minutes, grâce à Luca Romero, Marco Silvan et Callum Reid. Avec 1-0 au score, leurs contres restent dangereux face à Northgate Rovers.",
+  "cites": [
+   "e0564",
+   "e0581",
+   "e0603"
+  ]
+ }
+}

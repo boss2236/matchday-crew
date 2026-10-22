@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Marchetti’s sprint spikes Harbour’s press",
+  "text": "At 55’, Leo Marchetti’s 31.5 km/h, 13.3 km run underscores Harbour City’s high‑press, quick‑combination approach, attempting to reverse a –41 momentum swing amid a chaos level of 63.",
+  "tags": [
+   "pressing",
+   "control",
+   "speed"
+  ],
+  "cites": [
+   "e1074"
+  ]
+ }
+}

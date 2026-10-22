@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers 1-0 领先但控制松动",
+  "text": "Northgate Rovers 控球58%、xG 0.67，但动量仅26，混乱度44。Oscar Blum 传球出界（难度23），Ilan Cohen 传球被拦截；Southmere United 拦截13次，PPDA 8.9。",
+  "cites": [
+   "e0499",
+   "e0510"
+  ]
+ }
+}

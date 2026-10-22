@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale roba tres veces en 120 segundos",
+  "text": "Hiro Tanaka (tackle e interceptación) y Callum Reid dan a Ironvale Athletic 3 recuperaciones en 120 segundos; xG 1.15 vs 0.86, PPDA 8.7, caos 67 y momentum 5 favorecen el contraataque con 1-0.",
+  "cites": [
+   "e1341",
+   "e1356",
+   "e1363"
+  ]
+ }
+}

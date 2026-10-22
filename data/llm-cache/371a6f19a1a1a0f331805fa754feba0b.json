@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Blum fires wide from close range!",
+  "text": "Oscar Blum had a real chance from just 5 yards out, but with defenders closing in he blazed it off target. Northgate Rovers still lead 1-0, so Southmere United are very much alive.",
+  "cites": [
+   "e1205"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Callum Reid 一次次抢回球权",
+  "text": "看 Callum Reid！他在这段时间里抢断、拦截，把球一次次夺回来，Ironvale Athletic 虽然控球不多，却能马上反击，场面越来越刺激！",
+  "cites": [
+   "e0201",
+   "e0220",
+   "e0243"
+  ]
+ }
+}

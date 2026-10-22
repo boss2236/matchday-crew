@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United 连抢三次球",
+  "text": "Southmere United 在 2 分钟里连续三次把球抢回来,Tariq Aziz、Rafa Ortega 和 Joel Martin 轮番出手,Harbour City 根本组织不起来,比赛稳稳握在手里!",
+  "cites": [
+   "e1818",
+   "e1838",
+   "e1847"
+  ]
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "¡Gol de Dani Kowalski para Harbour City!",
+  "text": "¡Qué jugada, amigos! Harbour City robó el balón y lo movió con paciencia, pase tras pase, hasta que Yusuf Demir sirvió a Dani Kowalski. ¡Disparo fuerte y gol! Ahora ganan 2-1.",
+  "cites": [
+   "e1201",
+   "e1220",
+   "e1221",
+   "e1222",
+   "e1223"
+  ]
+ }
+}

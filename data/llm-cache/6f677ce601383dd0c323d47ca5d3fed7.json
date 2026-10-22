@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers 1-0 ile kazandı",
+  "text": "Northgate Rovers 1.18 xG'ye karşı 0.9 ile 1-0 galip; Southmere United 57'ye karşı 42 final third girişi yaptı. PPDA 8.3'e karşı 7.6, kaos 56, momentum -63.",
+  "cites": [
+   "e1784"
+  ]
+ }
+}

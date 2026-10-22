@@ -1,20 +1,16 @@
 {
- "model": "openai:openai/gpt-oss-20b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Harbour City’s Momentum Collapse",
-  "text": "Harbour City’s high‑press attack fizzles, losing 35 momentum while chaos spikes to 59, leaving the game 2‑0 in favour of Southmere United.",
+  "headline": "Harbour City chasing, momentum drifting away",
+  "text": "Trailing 2-0 at 76 minutes, Harbour City hold 51% possession but only 0.57 xG against 1.81. Their move ended with a 57.2-distance pass going out, leaving momentum at -35 and chaos at 59.",
   "tags": [
    "momentum",
    "chaos",
-   "control"
+   "set-back"
   ],
   "cites": [
-   "e1578",
-   "e1579",
-   "e1580",
-   "e1581",
-   "e1582",
-   "e1583"
+   "e1583",
+   "e1578"
   ]
  }
 }

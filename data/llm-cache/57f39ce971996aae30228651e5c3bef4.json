@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate lead, but things look wobbly",
+  "text": "Northgate Rovers are 1-0 up, but their passing has gone a bit loose. Oscar Blum's pass sailed out of play, and Ilan Cohen's was snatched away before it reached Kai Nakamura.",
+  "cites": [
+   "e0499",
+   "e0510"
+  ]
+ }
+}

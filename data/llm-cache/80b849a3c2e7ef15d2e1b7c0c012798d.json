@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-opus-5.5",
+ "output": {
+  "headline": "Callum Reid keeps stealing the ball",
+  "text": "Callum Reid keeps snatching the ball back for Ironvale Athletic, 3 times in two minutes! Harbour City have more of the ball, but Ironvale are creating the better chances.",
+  "cites": [
+   "e0201",
+   "e0220",
+   "e0243"
+  ]
+ }
+}

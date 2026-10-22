@@ -1,0 +1,15 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Oscar Blum entscheidet das Spiel für Northgate Rovers",
+  "text": "Northgate Rovers gewann das Spiel mit 1-0 gegen Southmere United. Die Gastgeber ließen den Ball geduldig laufen, Southmere United setzte dagegen auf Flügelspiel und Flanken. In der 23. Minute kam der Moment des Abends: Emre Kaya schickte einen langen Pass zu Oscar Blum, und der schoss aus nächster Nähe ins Tor. Danach drückte Southmere United lange auf den Ausgleich, aber Northgate Rovers hielt dagegen und eroberte immer wieder den Ball zurück. Oscar Blum hatte in der 65. Minute noch eine große Chance, traf aber knapp daneben. Am Ende reichte das eine Tor. Oscar Blum war der Mann des Spiels.",
+  "cites": [
+   "e0426",
+   "e0427",
+   "e0428",
+   "e1205",
+   "e1462",
+   "e1784"
+  ]
+ }
+}

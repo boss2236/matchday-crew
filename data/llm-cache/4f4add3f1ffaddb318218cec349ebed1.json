@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City 공 돌리지만 위협은 없다",
+  "text": "Harbour City가 0-3으로 뒤진 막판, 압박 없이 패스 5개를 연달아 이었어요. 그런데 몇 번은 뒤로 물러난 패스라서, 공은 편하게 돌아도 골문은 멀게 느껴지네요.",
+  "cites": [
+   "e1926",
+   "e1927",
+   "e1928",
+   "e1929",
+   "e1930"
+  ]
+ }
+}

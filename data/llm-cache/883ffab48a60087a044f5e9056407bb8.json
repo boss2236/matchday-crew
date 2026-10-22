@@ -1,16 +1,16 @@
 {
- "model": "openai:openai/gpt-oss-20b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Ironvale Surge Amid Chaos",
-  "text": "At 52:00, Ironvale’s momentum jumps 25 while chaos hits 54, driven by Callum’s 41.8‑yd pass and Zeke’s intercepted attempt, culminating in Hiro’s 8.5‑yd carry, shifting control to the home side.",
+  "headline": "Ironvale lead 1-0 amid scrappy spell",
+  "text": "Ironvale lead 1-0 despite 46% possession, with chaos at 54 and momentum 25. Romero's pass to Zeke Mbeki was intercepted at 51:20, yet Hiro Tanaka's carries at 51:55 and 52:00 show them settling back into control.",
   "tags": [
    "momentum",
    "chaos",
    "control"
   ],
   "cites": [
-   "e0979",
    "e0980",
+   "e0990",
    "e0991"
   ]
  }

@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Dani Kowalski anota con 0.06 xG",
+  "text": "Tras 14 buildUpPasses, Yusuf Demir sirvió a Dani Kowalski (pase de dificultad 55). Su disparo a 97.9 km/h desde 13.5 con 0.06 xG marcó el 2-1 de Harbour City; PPDA 9.",
+  "cites": [
+   "e1221",
+   "e1222",
+   "e1223"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic wanaibia mpira mara tatu!",
+  "text": "Ironvale Athletic wameinyang'anya Northgate Rovers mpira mara 3 ndani ya dakika mbili! Callum Reid na wenzake wanabana kwa nguvu, na wakiongoza 1-0, mashambulizi ya kushtukiza yangali hai!",
+  "cites": [
+   "e0564",
+   "e0581",
+   "e0603"
+  ]
+ }
+}

@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "オスカー・ブルム、5mから痛恨の枠外",
+  "text": "65分、Oscar Blumがプレッシャー下の距離5から91.4 km/hで放つも枠外。xG 0.284を逸した。Northgate Roversは1-0でxG 1.18対0.32と優勢、chaos 59で試合は流動的。",
+  "cites": [
+   "e1205"
+  ]
+ }
+}

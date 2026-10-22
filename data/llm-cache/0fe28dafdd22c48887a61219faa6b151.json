@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ortega'nın baskısı tempoyu çeviriyor",
+  "text": "Rafa Ortega 120 saniyede 3 top kazanıyor: 2 araya girme, 1 top çalma. Southmere United 1-0 geride; momentum -42, kaos 61. Northgate Rovers'ın sabırlı oyunu dengesini kaybediyor.",
+  "cites": [
+   "e0887",
+   "e0897",
+   "e0907"
+  ]
+ }
+}

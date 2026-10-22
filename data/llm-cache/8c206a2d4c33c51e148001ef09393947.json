@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City : longues passes interceptées",
+  "text": "Harbour City perd trois longues passes en 53 secondes : e1111 (33.6 m, difficulté 56), e1118 (43.2 m, difficulté 55), e1128 (30.3 m, difficulté 42). xG 0.35 contre 1.68 pour Ironvale Athletic ; momentum 35, chaos 55.",
+  "cites": [
+   "e1111",
+   "e1118",
+   "e1128"
+  ]
+ }
+}

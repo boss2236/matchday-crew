@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate topu rahatça döndürüyor",
+  "text": "Northgate Rovers 1-0 önde ve topu rakibine pek bırakmıyor. Kai Nakamura'dan Oscar Blum'a giden uzun pas, takımın sakin ama kararlı oyununu çok güzel gösterdi.",
+  "cites": [
+   "e0553",
+   "e0556"
+  ]
+ }
+}

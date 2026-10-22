@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City kreisen, doch es fehlt der Biss",
+  "text": "Harbour City liegt 3-0 hinten und lässt den Ball in Ruhe laufen. Aber mehrere Pässe gehen zurück statt nach vorn. Das sieht ordentlich aus, bringt aber noch keine Gefahr.",
+  "cites": [
+   "e1926",
+   "e1928",
+   "e1929",
+   "e1930"
+  ]
+ }
+}

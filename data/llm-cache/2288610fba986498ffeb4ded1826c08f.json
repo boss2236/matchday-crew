@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere: Verlagerung unter Druck bricht Linien",
+  "text": "Southmere United liegt 0-1 zurück, Momentum -29, xG 0.16 gegen 0.68. Nach dem abgefangenen Pass von Felipe Cruz spielt Alfie Grant unter Druck 41 m auf Joel Martin: Schwierigkeit 84, Raumgewinn 40.9.",
+  "cites": [
+   "e0703",
+   "e0713"
+  ]
+ }
+}

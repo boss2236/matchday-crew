@@ -1,0 +1,15 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic washinda 1-0 dhidi ya Northgate Rovers",
+  "text": "Mechi ilianza kwa Northgate Rovers kumiliki mpira zaidi, wakipita pasi kwa subira. Lakini Ironvale Athletic walisubiri nyuma kwa utulivu, kisha wakashambulia kwa kasi. Dakika ya 26, Oscar Blum wa Northgate Rovers alikaribia kufunga, lakini shuti lake lilizuiwa. Dakika moja baadaye, Zeke Mbeki wa Ironvale Athletic alifunga bao la pekee la mchezo. Baada ya hapo, Ironvale Athletic walibana vizuri, wakachukua mpira mara nyingi, kama Callum Reid alivyofanya dakika ya 33. Northgate Rovers walijaribu hadi mwisho, lakini hawakupata bao. Mchezo uliisha 1-0. Mbeki ndiye mchezaji bora: alifunga, na alipata nafasi nzuri zaidi kuliko wote. Ushindi huu ulitokana na mipango mizuri na kutumia nafasi waliyopata.",
+  "cites": [
+   "e0461",
+   "e0484",
+   "e0485",
+   "e0603",
+   "e0855",
+   "e1700"
+  ]
+ }
+}

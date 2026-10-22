@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale 长传直打引发混乱",
+  "text": "Ironvale Athletic 承压长传:Ivo Petrov 至 Zeke Mbeki 的44.5距离传球(难度95)被断,随后 Hiro Tanaka 的41.2传球(难度89)找到他,射门xG 0.02偏出。混乱值64,势头-53,1-1。",
+  "cites": [
+   "e1059",
+   "e1067",
+   "e1068"
+  ]
+ }
+}

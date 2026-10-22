@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Marchetti’s sprint shakes deep block",
+  "text": "Leo Marchetti’s 32.2 km/h run covering 10.3 m at minute 13 highlights Harbour City’s high‑press, quick‑combination style trying to breach Ironvale’s deep block, raising chaos to 41 while momentum stays negative at –6.",
+  "tags": [
+   "pressing",
+   "speed",
+   "counter"
+  ],
+  "cites": [
+   "e0266"
+  ]
+ }
+}

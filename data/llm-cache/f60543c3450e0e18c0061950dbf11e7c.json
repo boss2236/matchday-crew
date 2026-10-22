@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Blum's 0.394 xG chance blocked at 0-0",
+  "text": "Oscar Blum's unpressured shot from 4 carried 0.394 xG at 77.5 km/h but was blocked. Northgate Rovers lead xG 0.39 to 0.01 with PPDA 7.6, momentum -23, still 0-0.",
+  "cites": [
+   "e0461"
+  ]
+ }
+}

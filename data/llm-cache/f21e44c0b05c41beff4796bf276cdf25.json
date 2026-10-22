@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kowalski afunga la nne dakika ya 90+1'",
+  "text": "Harbour City yanapokonya mpira kwa interception (e1715); pasi ya Mateo Ruiz ya progress 21.6 na difficulty 48 (e1722) inamwandaa Dani Kowalski, xG 0.79 kutoka umbali wa 2.5 (e1724), 4-1 (e1725). PPDA 8.5.",
+  "cites": [
+   "e1715",
+   "e1722",
+   "e1724",
+   "e1725"
+  ]
+ }
+}

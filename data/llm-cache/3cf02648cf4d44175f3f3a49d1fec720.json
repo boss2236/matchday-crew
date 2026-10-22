@@ -1,18 +1,14 @@
 {
- "model": "openai:openai/gpt-oss-20b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Harbour City’s Momentum Collapse",
-  "text": "At 80:25 Harbour City’s 30‑point swing and 53 chaos score after a rapid 5‑pass sequence culminated in a saved shot, underscoring the shift from control to chaos and a momentum loss of 30.",
+  "headline": "Harbour City chasing, low-value shot",
+  "text": "Trailing 2-0 at 81 minutes, Harbour City strung five quick actions together, ending in Dani Kowalski's saved shot worth just 0.018 xg. Chaos sits at 53, but momentum of -30 shows Southmere still in command.",
   "tags": [
    "momentum",
    "chaos",
-   "control"
+   "finishing"
   ],
   "cites": [
-   "e1710",
-   "e1711",
-   "e1712",
-   "e1713",
    "e1714",
    "e1715"
   ]

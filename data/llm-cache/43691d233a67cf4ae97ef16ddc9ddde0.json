@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Martin interception becomes Aziz 0.106 xG goal",
+  "text": "Joel Martin's interception becomes a 7.3 carry, then a 15.1 pass with difficulty 35 to Tariq Aziz, who scores from 10 at 0.106 xG. Southmere United lead 3-0; Harbour City's PPDA is 7.4.",
+  "cites": [
+   "e1847",
+   "e1848",
+   "e1849",
+   "e1850",
+   "e1851"
+  ]
+ }
+}

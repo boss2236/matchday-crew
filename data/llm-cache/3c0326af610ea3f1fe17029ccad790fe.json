@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere's xG edge, loose finish",
+  "text": "Southmere lead xG 0.69 to 0.27 at 0-0, momentum 25, chaos 46. Bruno Costa's 48.8 distance pass, difficulty 62, went out after Tariq Aziz's 30.6 pass at difficulty 45.",
+  "cites": [
+   "e0413",
+   "e0412"
+  ]
+ }
+}

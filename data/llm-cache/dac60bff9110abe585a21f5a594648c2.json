@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City enfría el partido con 2-1",
+  "text": "Harbour City enlaza pases sin presión, con retrocesos de -24.1 y -17.9 en 30.6 y 21.1 m, mientras el momentum es 25 y el caos 45. Priorizan control sobre riesgo con 2-1 en el 80'.",
+  "cites": [
+   "e1531",
+   "e1532"
+  ]
+ }
+}

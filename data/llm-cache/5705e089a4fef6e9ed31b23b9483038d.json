@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate contrôlent malgré un momentum équilibré",
+  "text": "Northgate mènent 1-0 avec 59 % de possession et 0.67 xG contre 0.16. Kai Nakamura trouve Oscar Blum sur 35.3 m, difficulté 61, mais momentum 46 et chaos 48 gardent le match ouvert.",
+  "cites": [
+   "e0553",
+   "e0556"
+  ]
+ }
+}

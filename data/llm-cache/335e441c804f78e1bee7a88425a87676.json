@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic perd le ballon après 4 passes",
+  "text": "Ironvale Athletic enchaîne 4 passes réussies, dont Callum Reid vers Luca Romero (33.4, difficulté 50), puis Romero vers Hiro Tanaka sort en touche (difficulté 21). Momentum 26, chaos 45, score 0-0.",
+  "cites": [
+   "e0326",
+   "e0327"
+  ]
+ }
+}

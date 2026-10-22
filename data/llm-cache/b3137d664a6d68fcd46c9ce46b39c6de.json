@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale spielen sich zu Hiro Tanaka",
+  "text": "Ironvale Athletic lassen den Ball laufen: Von Bram Hollis über Owen Lusk und Ade Bamidele bis zu Hiro Tanaka. Es bleibt wacklig, denn Northgate Rovers haben 59 Prozent Ballbesitz. Noch steht es 0-0.",
+  "cites": [
+   "e0184",
+   "e0194",
+   "e0195"
+  ]
+ }
+}

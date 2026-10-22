@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ortega não dá descanso ao Northgate Rovers",
+  "text": "Rafa Ortega está em todo o lado! Recuperou a bola três vezes em 120 segundos, com duas interceções e um desarme. O Southmere United, a perder por 1-0, acordou o jogo e deixou o adversário sem respirar.",
+  "cites": [
+   "e0887",
+   "e0897",
+   "e0907"
+  ]
+ }
+}

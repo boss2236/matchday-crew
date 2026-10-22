@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City、ボールを回して時間を使う",
+  "text": "80分、2-1でリードするHarbour City。Leo MarchettiとMateo Ruizが後ろへ丁寧にパスをつなぎ、焦らず試合のペースを落としています。リードを守る落ち着いた時間稼ぎです。",
+  "cites": [
+   "e1528",
+   "e1531",
+   "e1532"
+  ]
+ }
+}

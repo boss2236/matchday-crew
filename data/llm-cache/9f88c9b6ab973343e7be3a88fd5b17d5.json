@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Reid's 3 regains shield Ironvale's 1-0",
+  "text": "Callum Reid wins possession 3 times in 120 seconds (tackle, interception, tackle) at 1-0 in minute 77. Chaos 77, momentum 16; Ironvale's xG 1.15 versus 0.86 keeps Northgate's possession from settling.",
+  "cites": [
+   "e1414",
+   "e1420",
+   "e1437"
+  ]
+ }
+}

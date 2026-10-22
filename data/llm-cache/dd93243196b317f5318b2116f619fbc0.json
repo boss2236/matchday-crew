@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers가 리드를 지켜냅니다",
+  "text": "Ilan Cohen이 공을 가로채며 Northgate Rovers가 2분 동안 3번이나 공을 되찾았어요! Southmere United의 측면 공격이 막히면서 1-0 리드가 한층 든든해졌습니다.",
+  "cites": [
+   "e1425",
+   "e1441",
+   "e1462"
+  ]
+ }
+}

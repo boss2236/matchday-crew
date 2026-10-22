@@ -28,15 +28,19 @@ export class CachedChat implements JsonModel {
   inner: JsonModel | null;
   dir: string;
   write: boolean;
+  refresh: boolean;
   name: string;
   usage: { calls: number; promptTokens: number; completionTokens: number };
   stats: { hits: number; misses: number; writeError?: string };
 
   // inner: a ChatClient (or anything with json()), or null for replay-only mode.
-  constructor(inner: JsonModel | null, { dir = DEFAULT_CACHE_DIR, write = true }: { dir?: string; write?: boolean } = {}) {
+  // refresh: answers cached by a different model count as misses and are rewritten
+  // by this one (answers this model already wrote are still reused).
+  constructor(inner: JsonModel | null, { dir = DEFAULT_CACHE_DIR, write = true, refresh = false }: { dir?: string; write?: boolean; refresh?: boolean } = {}) {
     this.inner = inner;
     this.dir = dir;
     this.write = write && Boolean(inner);
+    this.refresh = refresh && Boolean(inner);
     this.name = inner ? `cache+${inner.name}` : 'cache';
     this.usage = inner?.usage ?? { calls: 0, promptTokens: 0, completionTokens: 0 };
     this.stats = { hits: 0, misses: 0 };
@@ -45,8 +49,11 @@ export class CachedChat implements JsonModel {
   async json(request: ChatRequest): Promise<unknown> {
     const file = join(this.dir, `${cacheKey(request)}.json`);
     if (existsSync(file)) {
-      this.stats.hits += 1;
-      return JSON.parse(readFileSync(file, 'utf8')).output;
+      const cached = JSON.parse(readFileSync(file, 'utf8')) as { model?: string; output: unknown };
+      if (!this.refresh || cached.model === this.inner?.name) {
+        this.stats.hits += 1;
+        return cached.output;
+      }
     }
     this.stats.misses += 1;
     if (!this.inner) throw new CacheMissError('no cached answer and no model configured');

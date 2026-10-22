@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kowalski's 0.057 xG clincher from throw-in",
+  "text": "Harbour City went throw-in to goal in 20 seconds, all passes unpressured. Kowalski's 0.057 xG shot from 14.1 metres, 71.6 km/h, made it 3-1 at 81 minutes, with Mateo Ruiz assisting.",
+  "cites": [
+   "e1545",
+   "e1547",
+   "e1550",
+   "e1551",
+   "e1552"
+  ]
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate sondent, puis cassent la ligne",
+  "text": "Northgate Rovers dominent avec 69% de possession et 6 entrées dans le dernier tiers. La passe sous pression de Sven Dahl vers Andres Vega (progress 30.9, difficulté 79) casse le bloc. xG 0 contre 0.03, PPDA 13.",
+  "cites": [
+   "e0115",
+   "e0116"
+  ]
+ }
+}

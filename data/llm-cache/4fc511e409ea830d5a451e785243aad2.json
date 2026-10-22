@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Mi-temps : Northgate Rovers devant",
+  "text": "C'est la pause ! Northgate Rovers mène 1-0 contre Southmere United. Southmere a pourtant beaucoup attaqué, mais les Rovers ont été plus dangereux devant le but. Tout reste ouvert pour la seconde période !",
+  "cites": [
+   "e0860"
+  ]
+ }
+}

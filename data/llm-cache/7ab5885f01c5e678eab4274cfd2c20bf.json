@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere、Northgate Rovers に押し込まれる",
+  "text": "モメンタム-27、カオス52。Southmere United はポゼッション36%、PPDA 15、最終3分の1進入2回(Northgate Rovers 8回、PPDA 10.2)。Joel Martin のプレス下パス(難度33)で組み立てを試みる。",
+  "cites": [
+   "e0219",
+   "e0220",
+   "e0221"
+  ]
+ }
+}

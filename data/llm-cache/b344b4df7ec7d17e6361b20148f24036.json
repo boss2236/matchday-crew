@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic、ボールを奪い返す!",
+  "text": "Ironvale Athleticが気合の守備で、3回もボールを奪い返しました!最後はIvo Petrov。2-1で追う中、流れを自分たちに引き寄せようとしています。ここからの反撃に期待です!",
+  "cites": [
+   "e1263",
+   "e1276",
+   "e1297"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ortega lidera pressão do Southmere United",
+  "text": "Rafa Ortega recupera a bola 3 vezes em 120 segundos (2 interceptações, 1 desarme). Southmere United perde por 1-0, com PPDA de 8.6, caos 61 e momentum -42, desequilibrando a posse paciente do Northgate Rovers.",
+  "cites": [
+   "e0887",
+   "e0897",
+   "e0907"
+  ]
+ }
+}

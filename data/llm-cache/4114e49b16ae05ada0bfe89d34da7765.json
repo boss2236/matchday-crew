@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Cadeia sem pressão termina em golo de Aziz",
+  "text": "Bruno Costa conduziu a 33.1 km/h, três passes sem pressão (dificuldade 59, 42, 44) isolaram Tariq Aziz, que finalizou de 1.2 com 0.931 xG. Momentum 52, PPDA do Harbour City 6.8.",
+  "cites": [
+   "e1009",
+   "e1010",
+   "e1011",
+   "e1012",
+   "e1013"
+  ]
+ }
+}

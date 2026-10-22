@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kowalski seals it from a throw-in!",
+  "text": "What a smooth move! Harbour City swept from a throw-in to a goal in 20 seconds, nobody bothering them. Dani Kowalski stroked it home from Mateo Ruiz's pass, and it's 3-1!",
+  "cites": [
+   "e1545",
+   "e1550",
+   "e1551",
+   "e1552"
+  ]
+ }
+}

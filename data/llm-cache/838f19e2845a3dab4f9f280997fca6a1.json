@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Aziz denied point-blank as Southmere dominate",
+  "text": "Tariq Aziz's pressured shot from distance 2 carries 0.622 xG but is saved. Southmere United lead 67% possession, 0.68 xG to 0, PPDA 5, momentum 77, yet it stays 0-0.",
+  "cites": [
+   "e0077"
+  ]
+ }
+}

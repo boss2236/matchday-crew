@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United: 3 récupérations en 120 secondes",
+  "text": "Southmere United récupère 3 ballons en 120 secondes, dont deux tacles et l'interception de Liam Doyle à 67:31. Avec un chaos à 75 et un xG de 1.81 contre 0.57, le 2-0 tient.",
+  "cites": [
+   "e1408",
+   "e1414",
+   "e1445"
+  ]
+ }
+}

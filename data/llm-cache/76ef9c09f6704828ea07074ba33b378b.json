@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City'nin uzun paslarına Ironvale kesmesi",
+  "text": "Harbour City'nin 33.6, 43.2 ve 30.3 metrelik paslarının üçü de kesildi (zorluk 56, 55, 42). Ironvale Athletic'in xG'si 1.68, Harbour City'nin 0.35; momentum 35, kaos 55.",
+  "cites": [
+   "e1111",
+   "e1118",
+   "e1128"
+  ]
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate's big pass gets picked off",
+  "text": "Northgate are 1-0 down, and Gabe Moreno's long, ambitious pass was cut out by the other side. Ilan Cohen quickly calmed things, finding Oscar Blum with a lovely forward pass to get them moving again.",
+  "cites": [
+   "e1229",
+   "e1243"
+  ]
+ }
+}

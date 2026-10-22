@@ -1,19 +1,17 @@
 {
- "model": "openai:openai/gpt-oss-20b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Southmere’s Chaos‑Driven Momentum Surge",
-  "text": "At 27:48 the 26‑point swing shows Southmere’s chaotic passing and high‑speed carries, turning a balanced 53/47 possession into a 56‑chaos surge that threatens Harbour’s structure.",
+  "headline": "Southmere's long balls bleed momentum",
+  "text": "Two long passes, e0574 and e0584, were intercepted at 28 minutes. Momentum has dropped to 26 with chaos at 56, even though Southmere lead on xg 0.71 to 0.27. Harbour City's press, with a ppda of 7.1, is forcing errors.",
   "tags": [
    "momentum",
+   "pressing",
    "chaos"
   ],
   "cites": [
-   "e0572",
-   "e0573",
    "e0574",
-   "e0582",
-   "e0583",
-   "e0584"
+   "e0584",
+   "e0582"
   ]
  }
 }

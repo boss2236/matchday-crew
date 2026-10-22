@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale récupère le ballon à répétition",
+  "text": "Trois interceptions en 120 secondes pour Ironvale Athletic, dont Zeke Mbeki à 48:38, perturbent la possession de Northgate Rovers. Score 1-0, xG 1.14 contre 0.68, PPDA 9.5 : les contres directs deviennent menaçants.",
+  "cites": [
+   "e0900",
+   "e0928",
+   "e0935"
+  ]
+ }
+}

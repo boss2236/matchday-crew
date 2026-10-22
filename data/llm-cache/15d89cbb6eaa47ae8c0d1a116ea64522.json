@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere nehmen Harbour City den Ball ab",
+  "text": "Southmere United führt 3-0 und lässt Harbour City kaum noch atmen: Joel Martin und Tariq Aziz holen sich den Ball immer wieder zurück. So verpufft jede späte Hoffnung auf ein Comeback.",
+  "cites": [
+   "e1858",
+   "e1889",
+   "e1897"
+  ]
+ }
+}

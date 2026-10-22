@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate étouffe Southmere et garde l'avance",
+  "text": "Ilan Cohen vient de récupérer le ballon ! Pour Northgate Rovers, c'est la 3 fois en deux minutes : Southmere United n'arrive plus à lancer ses ailiers, et le 1-0 tient bon.",
+  "cites": [
+   "e1425",
+   "e1441",
+   "e1462"
+  ]
+ }
+}

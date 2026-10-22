@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere pierde el balón bajo presión",
+  "text": "Southmere iba perdiendo 1-0 y movía bien el balón, pero el pase de Alfie Grant a Joel Martin, con rivales encima, fue cortado. Northgate Rovers aprovecha el momento.",
+  "cites": [
+   "e1159",
+   "e1161"
+  ]
+ }
+}

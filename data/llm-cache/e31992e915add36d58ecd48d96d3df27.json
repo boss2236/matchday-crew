@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale pressen Northgate Rovers im Aufbau",
+  "text": "Ironvale Athletic erobert dreimal in 120 Sekunden den Ball, zuletzt Zeke Mbeki. Beim 1-0 liegt ihr xG bei 1.14 gegen 0.68; PPDA 9.5, Momentum 33. Die direkten Konter sind gefährlich.",
+  "cites": [
+   "e0900",
+   "e0928",
+   "e0935"
+  ]
+ }
+}

@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Mbeki's 0.876 xG chance blocked",
+  "text": "Ironvale Athletic's Zeke Mbeki fires a blocked shot at 80.1 km/h from 2.5 distance, 0.876 xG, with no pressure. Ironvale hold 0.89 xG on 33 possession; momentum -84, score 0-0.",
+  "cites": [
+   "e0041"
+  ]
+ }
+}

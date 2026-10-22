@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic 1-0 リードで前半終了",
+  "text": "前半終了、Ironvale Athletic 1-0。ポゼッション46%ながらxG 1.14でNorthgate Rovers(0.68、6本)を上回る。PPDAは9.6対7.8、モメンタム12。ディープブロックからの直線的カウンターが機能。",
+  "cites": [
+   "e0857"
+  ]
+ }
+}

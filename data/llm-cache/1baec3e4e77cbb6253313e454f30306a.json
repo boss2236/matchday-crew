@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale hızlı kontrayla kaçıyor!",
+  "text": "Ironvale Athletic 1-0 öndeyken topu kaptı, Callum Reid, Hiro Tanaka ve Luca Romero üç pasta ileri fırladı. Romero topu iki kez sürerek rakibin savunmasını arkada bıraktı, tam bir hızlı kontra!",
+  "cites": [
+   "e1570",
+   "e1571",
+   "e1572",
+   "e1573"
+  ]
+ }
+}

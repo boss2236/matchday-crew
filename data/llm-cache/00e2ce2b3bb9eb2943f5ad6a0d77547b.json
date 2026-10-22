@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic 半场领先",
+  "text": "半场哨响,Ironvale Athletic 1-0 领先 Northgate Rovers!他们虽然控球不多,却靠稳稳防守和快速反击抓住机会,把对手耐心的传控牢牢挡在外面。",
+  "cites": [
+   "e0857"
+  ]
+ }
+}

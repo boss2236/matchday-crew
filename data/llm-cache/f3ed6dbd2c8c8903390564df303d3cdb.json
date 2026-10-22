@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic, 85분 역습 전개",
+  "text": "1-0로 앞선 85'에 Callum Reid→Hiro Tanaka(난도 28) 패스, Tanaka→Luca Romero(난도 34) 연결 후 Romero가 31, 34.1 km/h로 두 차례 전진. 모멘텀 25, 혼돈 41.",
+  "cites": [
+   "e1570",
+   "e1571",
+   "e1572",
+   "e1573"
+  ]
+ }
+}

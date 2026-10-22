@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City mengalir tanpa daya tembus",
+  "text": "Harbour City tertinggal 3-0 di 90+3', lima umpan sukses tanpa tekanan, tiga di antaranya mundur (progress -23.9, -9.4, -10.5). Momentum -25, chaos 46, xG hanya 0.62 versus 1.95.",
+  "cites": [
+   "e1926",
+   "e1928",
+   "e1929",
+   "e1930"
+  ]
+ }
+}

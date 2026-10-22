@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers、長いパスが止められた",
+  "text": "Northgate Rovers は 1-0 で負けています。Gabe Moreno の思い切った長いパスは相手に奪われましたが、すぐに Ilan Cohen が Oscar Blum へつないで、もう一度流れを作り直しました。",
+  "cites": [
+   "e1229",
+   "e1243"
+  ]
+ }
+}

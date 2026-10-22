@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic、120秒で3回のインターセプト",
+  "text": "66:40、Ivo Petrovが3本目のインターセプト。Ironvale Athleticは120秒で3回奪取し、xG 1.68対0.41、PPDA 9.9、モメンタム16。2-1のビハインドから主導権を取り戻しつつある。",
+  "cites": [
+   "e1263",
+   "e1276",
+   "e1297"
+  ]
+ }
+}

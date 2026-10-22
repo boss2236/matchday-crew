@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic、終盤の攻撃が不発",
+  "text": "87分、3-1でリードされるIronvale Athletic。Luca Romeroのパスは難易度51、プレッシャー下でアウトに。Zeke Mbekiは31.5mからxG 0.008のシュートを外す。momentum -28、chaos 69。",
+  "cites": [
+   "e1635",
+   "e1650"
+  ]
+ }
+}

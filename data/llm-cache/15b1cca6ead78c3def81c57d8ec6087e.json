@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "¡Contragolpe relámpago de Southmere United!",
+  "text": "¡Qué jugada! Joel Martin roba el balón, corre y se la da a Tariq Aziz, que no perdona desde 10 metros. Harbour City se quedó vendido y ya es 3-0.",
+  "cites": [
+   "e1847",
+   "e1848",
+   "e1849",
+   "e1850",
+   "e1851"
+  ]
+ }
+}

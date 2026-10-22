@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City : momentum à -35",
+  "text": "Mené 2-0 à la 76e, Harbour City tient 51% de possession mais n'obtient que 0.57 xG contre 1.81. Leo Marchetti sort une passe de 57.2 de distance, difficulté 78 ; momentum -35, chaos 59.",
+  "cites": [
+   "e1583",
+   "e1578"
+  ]
+ }
+}

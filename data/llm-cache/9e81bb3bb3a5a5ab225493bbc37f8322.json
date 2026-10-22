@@ -1,0 +1,15 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic batte Northgate Rovers 1-0 con il gol di Mbeki",
+  "text": "Che partita, amici! Northgate Rovers teneva più il pallone, con la sua gestione paziente, ma Ironvale Athletic aspettava ben chiusa dietro e puntava sui contropiedi. Al minuto 27 è arrivata la svolta: Zeke Mbeki ha ricevuto il pallone da Ivo Petrov e l'ha spinto in rete da pochissimo, per l'1-0. Poco prima Oscar Blum aveva avuto una grande occasione per Northgate, ma un difensore l'aveva bloccata. Dopo il gol Ironvale ha continuato a rubare palloni con grande pressione, soprattutto Callum Reid, e Northgate non ha trovato la rete. Il risultato è nato proprio da qui: meno pallone, ma più pericolo e più decisione. Mbeki è il giocatore del match.",
+  "cites": [
+   "e0461",
+   "e0484",
+   "e0485",
+   "e0603",
+   "e1437",
+   "e1700"
+  ]
+ }
+}

@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale's long balls cause chaos",
+  "text": "Ade Bamidele sent a huge pass up to Zeke Mbeki, and Ironvale Athletic swarmed forward. Zeke's shot got blocked, but it's still 0-0 and the game feels wonderfully loose!",
+  "cites": [
+   "e0575",
+   "e0576",
+   "e0577",
+   "e0578"
+  ]
+ }
+}

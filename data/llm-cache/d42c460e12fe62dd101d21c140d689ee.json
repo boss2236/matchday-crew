@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale : jeu long, chaos à 64",
+  "text": "Ironvale joue long sous pression : la passe de 44.5 vers Zeke Mbeki est interceptée (difficulté 95), puis Hiro Tanaka tente 41.2 (difficulté 89) pour un tir hors cadre à 0.02 xG. Chaos 64, momentum -53.",
+  "cites": [
+   "e1059",
+   "e1067",
+   "e1068"
+  ]
+ }
+}

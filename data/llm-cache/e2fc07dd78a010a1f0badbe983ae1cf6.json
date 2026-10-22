@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale 直传制造混乱",
+  "text": "0-0,Ironvale Athletic 的 Ade Bamidele 完成距离 49.5、难度 84 的直塞给 Zeke Mbeki,随后 Mbeki 射门被封堵,xG 0.071。混乱值 67,动量 -25。",
+  "cites": [
+   "e0575",
+   "e0576",
+   "e0577",
+   "e0578"
+  ]
+ }
+}

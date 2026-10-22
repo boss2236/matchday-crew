@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere perd le fil à la 28e minute",
+  "text": "Deux longues passes de Southmere United ont été coupées par Harbour City, et l'équipe perd son élan. Bruno Costa et Rafa Ortega ont tenté loin, sans succès. Le pressing adverse piège les ballons.",
+  "cites": [
+   "e0574",
+   "e0584"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale settle after Romero interception",
+  "text": "Ironvale lead 1-0 on 1.14 xG to 0.71 despite 46% possession. Romero's 32.7m pass, difficulty 55, was intercepted at 51:20, but Hiro Tanaka's carries of 9.1m and 8.5m restored control amid chaos 54, momentum 25.",
+  "cites": [
+   "e0980",
+   "e0990",
+   "e0991"
+  ]
+ }
+}

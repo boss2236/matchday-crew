@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers: 69% Ballbesitz, Linie durchbrochen",
+  "text": "Northgate Rovers kontrollieren 69% Ballbesitz, PPDA 13. Sven Dahls Pass unter Druck auf Andres Vega (36.9 Distanz, Progress 30.9, Schwierigkeit 79) bricht die Linie. xG 0 gegen 0.03, Momentum 37.",
+  "cites": [
+   "e0115",
+   "e0116"
+  ]
+ }
+}

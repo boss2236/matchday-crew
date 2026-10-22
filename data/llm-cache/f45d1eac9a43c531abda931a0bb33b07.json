@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers pressen Southmere United früh",
+  "text": "Kai Nakamura erzwingt per Tackle und Interception 3 Ballgewinne in 120 Sekunden. Northgate Rovers führen 1-0, xG 0.68 zu 0.16, PPDA 8.5 gegen 9.1. Momentum: -27.",
+  "cites": [
+   "e0738",
+   "e0757",
+   "e0765"
+  ]
+ }
+}

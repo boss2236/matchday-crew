@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers press, regain 3 times",
+  "text": "Kai Nakamura's tackle and interception help Northgate Rovers win the ball back 3 times in 120 seconds. At 1-0 in minute 42, they hold xG 0.68 to 0.16 and PPDA 8.5 against 9.1.",
+  "cites": [
+   "e0738",
+   "e0757",
+   "e0765"
+  ]
+ }
+}

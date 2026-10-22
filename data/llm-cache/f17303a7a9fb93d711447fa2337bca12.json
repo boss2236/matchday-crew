@@ -1,0 +1,15 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale punisce il pressing: 1-0 in contropiede",
+  "text": "Intercetto di Marco Silvan, 2 conduzioni (11.8 e 9.1 m), poi 7 passaggi senza pressione. Zeke Mbeki conclude a 96.1 km/h, xG 0.188, da 6.3 m. Momentum -50, Harbour City 52% possesso.",
+  "cites": [
+   "e0587",
+   "e0588",
+   "e0590",
+   "e0597",
+   "e0599",
+   "e0600"
+  ]
+ }
+}

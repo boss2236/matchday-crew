@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City、90+1'に4-1へ",
+  "text": "e1715のインターセプトから、Mateo Ruizの前進距離21.6・難易度48のパス(e1722)でDani Kowalskiが距離2.5、xG 0.79のシュートを沈め4-1。PPDAは8.5、momentum 60。",
+  "cites": [
+   "e1715",
+   "e1722",
+   "e1724",
+   "e1725"
+  ]
+ }
+}

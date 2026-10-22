@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United win 3-0 at full time",
+  "text": "That's the final whistle, and Southmere United take it 3-0! Harbour City had just as much of the ball, but Southmere made their chances count. Sharp finishing won it, not who held the ball.",
+  "cites": [
+   "e1950"
+  ]
+ }
+}

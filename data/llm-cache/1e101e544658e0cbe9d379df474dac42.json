@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere চাপ বাড়াচ্ছে, কিন্তু শেষটা এলোমেলো",
+  "text": "Southmere United ভালো খেলছে, বল ঘুরছে সুন্দর। কিন্তু Bruno Costa-র লম্বা পাসটা Joel Martin-এর কাছে না পৌঁছে বাইরে চলে গেল। আক্রমণটা শেষ হলো আক্ষেপে!",
+  "cites": [
+   "e0413",
+   "e0412"
+  ]
+ }
+}

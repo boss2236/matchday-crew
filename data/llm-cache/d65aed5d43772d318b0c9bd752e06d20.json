@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City control yields only 0.015 xG",
+  "text": "Five unpressured Harbour City passes, including Leo Marchetti's 45.5 distance, difficulty 64 ball, ended in Arjun Mehta's saved 0.015 xG shot from 25.2. Harbour City xG is 0.06 versus Ironvale Athletic's 0.89.",
+  "cites": [
+   "e0351",
+   "e0352",
+   "e0353"
+  ]
+ }
+}

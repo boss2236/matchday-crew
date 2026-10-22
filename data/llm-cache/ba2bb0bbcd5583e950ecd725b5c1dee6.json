@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate font tourner le ballon avec patience",
+  "text": "Northgate Rovers menés 1-0, gardent le ballon sans stress : Ilan Cohen, Kai Nakamura et Andres Vega s'échangent des passes tranquilles, après le tir d'Oscar Blum arrêté. Reste à transformer ça en vrai danger !",
+  "cites": [
+   "e0782",
+   "e0789",
+   "e0791",
+   "e0793"
+  ]
+ }
+}

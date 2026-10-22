@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate pierde el control en el minuto 6",
+  "text": "Northgate tiene 70% de posesión y 88% de precisión, pero el pase de Kai Nakamura a Oscar Blum, dificultad 48 y 23 m, fue interceptado a las 05:55. Momentum -65, caos 43.",
+  "cites": [
+   "e0098",
+   "e0099"
+  ]
+ }
+}

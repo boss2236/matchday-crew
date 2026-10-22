@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale pass it nicely to Hiro Tanaka",
+  "text": "Ironvale Athletic worked the ball neatly from Owen Lusk to Ade Bamidele, who sent it on to Hiro Tanaka. Still 0-0, and it's a wild, scrappy spell out there.",
+  "cites": [
+   "e0194",
+   "e0195"
+  ]
+ }
+}

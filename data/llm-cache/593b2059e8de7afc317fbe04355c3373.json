@@ -1,15 +1,17 @@
 {
- "model": "openai:openai/gpt-oss-20b",
+ "model": "copilot:claude-sonnet-5.5",
  "output": {
-  "headline": "Southmere's 7‑minute possession surge",
-  "text": "Southmere United's 61% possession and 5 final‑third entries, powered by a 55‑meter pass from Tariq Aziz, swing momentum to 40 while chaos climbs to 66, shifting control toward the home side.",
+  "headline": "Southmere probe through chaos, 0-0",
+  "text": "Southmere United hold 61% possession and chain six completed passes, from Alfie Grant to Tariq Aziz, but momentum sits at 40 amid chaos of 66. Tariq Aziz's pressured 55.1 pass back to Dmitri Volkov shows a game state still unsettled.",
   "tags": [
    "possession",
-   "momentum",
-   "chaos"
+   "chaos",
+   "momentum"
   ],
   "cites": [
    "e0138",
+   "e0139",
+   "e0142",
    "e0144"
   ]
  }

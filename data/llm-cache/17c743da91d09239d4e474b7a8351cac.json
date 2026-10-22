@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate、xG 0.67で主導権維持",
+  "text": "Northgateは1-0でxG 0.67対0.16、PPDA 8.3。Kai NakamuraからOscar Blumへの35.3mの縦パス(難易度61、前進33.5)が起点だが、momentum 46、chaos 48で拮抗。",
+  "cites": [
+   "e0553",
+   "e0556"
+  ]
+ }
+}

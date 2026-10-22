@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Callum Reid keeps stealing the ball back",
+  "text": "Callum Reid is everywhere for Ironvale Athletic! He keeps snatching the ball back with tackles and interceptions, and each steal sets up a quick dash forward. It's still 0-0, but they're dangerous.",
+  "cites": [
+   "e0201",
+   "e0220",
+   "e0243"
+  ]
+ }
+}

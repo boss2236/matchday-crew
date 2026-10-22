@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kowalski macht in Minute 81 das 3-1",
+  "text": "Harbour City lässt den Ball nach dem Einwurf ruhig laufen, niemand stört. Dani Kowalski nimmt das Zuspiel von Mateo Ruiz und trifft aus 14.1 Metern. Ironvale Athletic bleibt machtlos!",
+  "cites": [
+   "e1545",
+   "e1550",
+   "e1551",
+   "e1552"
+  ]
+ }
+}

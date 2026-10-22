@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale holen sich den Ball ständig zurück",
+  "text": "Ironvale Athletic klaut Northgate Rovers immer wieder den Ball, zuletzt Zeke Mbeki. Das stört das geduldige Spiel der Gäste gewaltig. Bei 1-0 lauern schnelle Konter, das kann gefährlich werden!",
+  "cites": [
+   "e0900",
+   "e0928",
+   "e0935"
+  ]
+ }
+}

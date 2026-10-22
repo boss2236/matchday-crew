@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere recycle vers l'arrière sous pression",
+  "text": "Southmere United tient 54% de possession à 0-0 (xG 0.69), mais chaos 61, momentum 35. La passe de Rafa Ortega vers Kwame Mensah est interceptée (52.4, progression -40.7), puis e0362 reste à -24.7 face au pressing de Harbour City (PPDA 6.9).",
+  "cites": [
+   "e0355",
+   "e0362"
+  ]
+ }
+}

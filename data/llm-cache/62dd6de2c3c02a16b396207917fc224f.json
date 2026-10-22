@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Marchetti’s sprint rattles Ironvale block",
+  "text": "At minute 13, Marchetti’s 32.2 km/h, 10.3 m carry exposed Ironvale’s deep block, PPDA 10.8, while Harbour City’s chaos 41 rose, momentum –6.",
+  "cites": [
+   "e0266"
+  ]
+ }
+}

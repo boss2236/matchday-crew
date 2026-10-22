@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Southmere United 1-0 리드, xG 1.64 대 0.39",
+  "text": "하프타임 45+4', Southmere United가 점유율 50% 동률에도 xG 1.64 대 0.39, 유효슈팅 3 대 2로 앞섰습니다. Harbour City는 PPDA 6.8로 강하게 압박했지만 모멘텀 71은 Southmere United 쪽입니다.",
+  "cites": [
+   "e1016"
+  ]
+ }
+}

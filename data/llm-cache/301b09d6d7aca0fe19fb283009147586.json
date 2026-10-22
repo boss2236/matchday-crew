@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Cadena sin presión termina en gol de Aziz",
+  "text": "Bruno Costa conduce a 33.1 km/h y tres pases sin presión (dificultad 59, 42, 44) hallan a Tariq Aziz, que bate desde 1.2 con 0.931 xG. Momentum 52, 0-0 antes del descanso.",
+  "cites": [
+   "e1009",
+   "e1010",
+   "e1011",
+   "e1012",
+   "e1013"
+  ]
+ }
+}

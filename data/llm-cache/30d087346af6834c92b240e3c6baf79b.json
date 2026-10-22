@@ -1,0 +1,15 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Okafor की चोरी, Marchetti का धमाका!",
+  "text": "Sami Okafor ने गेंद छीनी, फिर तीन पासों में Harbour City दौड़ पड़ा। Leo Marchetti ने 83 km/h की ज़ोरदार शॉट से गोल कर स्कोर 1-1 कर दिया। किसी ने उन्हें रोका तक नहीं!",
+  "cites": [
+   "e0991",
+   "e0994",
+   "e0995",
+   "e0996",
+   "e0998",
+   "e0999"
+  ]
+ }
+}
