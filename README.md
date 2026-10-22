@@ -4,6 +4,8 @@ A multi-agent AI broadcast crew that turns a live stream of synthetic football e
 
 Built for the Microsoft x Premier League **Inside the Game** developer hackathon. Written in **TypeScript** end to end, with a **Fluent UI** second-screen app.
 
+**Try it live:** [nutmeg-desk.wittyriver-692c9025.switzerlandnorth.azurecontainerapps.io](https://nutmeg-desk.wittyriver-692c9025.switzerlandnorth.azurecontainerapps.io) (hosted on Azure Container Apps; pick a language, then *Players* or *3D*, and kick off).
+
 > All data is synthetic. The clubs, players and matches are made up. No real league data, footage or branding is used.
 
 ![Nutmeg Desk: analyst view with player focus and a followed metric](docs/images/analyst.png)
