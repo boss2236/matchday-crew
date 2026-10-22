@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-opus-5.5",
+ "output": {
+  "headline": "Ironvale يسجلون بهجمة مرتدة رائعة",
+  "text": "Marco Silvan خطف الكرة، ثم تناقلها لاعبو Ironvale Athletic سبع مرات دون أي ضغط، حتى مرر Luca Romero إلى Zeke Mbeki فسددها قوية في الشباك. Ironvale Athletic يتقدمون 0-1!",
+  "cites": [
+   "e0587",
+   "e0591",
+   "e0597",
+   "e0599",
+   "e0600"
+  ]
+ }
+}

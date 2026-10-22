@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-opus-5.5",
+ "output": {
+  "headline": "Northgate Rovers recycle at -26 momentum",
+  "text": "Oscar Blum's 0.09 xG effort saved. Kai Nakamura then finds Andres Vega over 37.1m (difficulty 54), and Ilan Cohen adds 23.5m of progress. Northgate Rovers: 0.68 xG, PPDA 7.2, trailing 1-0.",
+  "cites": [
+   "e0782",
+   "e0791",
+   "e0793"
+  ]
+ }
+}

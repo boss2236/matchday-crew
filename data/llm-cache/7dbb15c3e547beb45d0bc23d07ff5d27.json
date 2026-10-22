@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-opus-5.5",
+ "output": {
+  "headline": "Rovers keep the ball, still chasing",
+  "text": "Northgate Rovers are hogging the ball and trail 1-0. Ilan Cohen tried a long pass forward, but it got cut out, so Sven Dahl calmly passed it back to start again.",
+  "cites": [
+   "e0551",
+   "e0560"
+  ]
+ }
+}

@@ -1,15 +1,17 @@
 {
- "model": "copilot:claude-sonnet-5.5",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Ironvale lead 1-0 amid scrappy spell",
-  "text": "Ironvale lead 1-0 despite 46% possession, with chaos at 54 and momentum 25. Romero's pass to Zeke Mbeki was intercepted at 51:20, yet Hiro Tanaka's carries at 51:55 and 52:00 show them settling back into control.",
+  "headline": "Ironvale regain composure after direct ball breaks down",
+  "text": "Leading 1-0, Ironvale's direct ball from Callum Reid went 41.8 forward, but Luca Romero's pass was intercepted. Zeke Mbeki then played it back -13.4 to Hiro Tanaka, who carried calmly, steadying momentum at 25 with chaos at 54.",
   "tags": [
    "momentum",
-   "chaos",
-   "control"
+   "control",
+   "counter"
   ],
   "cites": [
+   "e0979",
    "e0980",
+   "e0989",
    "e0990",
    "e0991"
   ]

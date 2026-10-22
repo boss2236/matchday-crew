@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-opus-5.5",
+ "output": {
+  "headline": "Ironvale's deep block strangles Northgate's possession",
+  "text": "Ironvale Athletic made 3 interceptions in 120 seconds through Callum Reid, Marco Silvan and Zeke Mbeki. They lead 1-0 with 44 percent possession, xG 1.14 to 0.68, PPDA 9.5, momentum 33.",
+  "cites": [
+   "e0900",
+   "e0928",
+   "e0935"
+  ]
+ }
+}

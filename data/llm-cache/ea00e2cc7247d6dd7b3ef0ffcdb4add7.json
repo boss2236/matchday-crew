@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-opus-5.5",
+ "output": {
+  "headline": "اعتراض Dani Kowalski يحسم المباراة 4-1",
+  "text": "افتك Dani Kowalski الكرة فبدأت سلسلة من 5 تمريرات مع Mateo Ruiz، آخرها تمريرة بصعوبة 48. ثم سدد Kowalski دون ضغط من مسافة 2.5 م بقيمة 0.79 xG. PPDA ‏Harbour City يبلغ 8.5 والزخم 60.",
+  "cites": [
+   "e1715",
+   "e1722",
+   "e1724",
+   "e1725"
+  ]
+ }
+}

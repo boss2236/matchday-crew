@@ -1,0 +1,15 @@
+{
+ "model": "copilot:claude-opus-5.5",
+ "output": {
+  "headline": "Ironvale Athletic يمسكون بزمام المباراة الآن",
+  "text": "يا لها من لحظة! Owen Lusk يرسل كرة طويلة رائعة عبر الملعب إلى Marco Silvan، ثم يتناقل لاعبو Ironvale Athletic الكرة بهدوء وثقة في 6 تمريرات متتالية، والضغط الآن على Harbour City!",
+  "cites": [
+   "e0138",
+   "e0139",
+   "e0140",
+   "e0141",
+   "e0142",
+   "e0143"
+  ]
+ }
+}

@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-opus-5.5",
+ "output": {
+  "headline": "Ironvale's counters edge Northgate's possession",
+  "text": "Half-time, 1-0. Northgate Rovers have 54% possession and 6 shots for 0.68 xG. Ironvale Athletic have 1.14 xG from 4 shots, 3 on target. PPDA 9.6 vs 7.8, momentum 12.",
+  "cites": [
+   "e0857"
+  ]
+ }
+}

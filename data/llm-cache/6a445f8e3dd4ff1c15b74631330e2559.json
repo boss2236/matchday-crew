@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-opus-5.5",
+ "output": {
+  "headline": "Romero's carries swing momentum to Ironvale",
+  "text": "Ironvale lead 1-0 at 85. Reid's 27.8m pass (difficulty 28) reaches Tanaka, then Romero carries at 31 and 34.1 km/h. Momentum 25, xG 1.2 vs 0.86.",
+  "cites": [
+   "e1570",
+   "e1571",
+   "e1572",
+   "e1573"
+  ]
+ }
+}

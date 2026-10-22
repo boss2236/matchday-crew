@@ -1,17 +1,18 @@
 {
- "model": "copilot:claude-sonnet-5.5",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Northgate probe patiently while trailing 1-0",
-  "text": "Trailing 1-0, Northgate Rovers recycle through Ilan Cohen, Kai Nakamura and Andres Vega, all unpressured, after Oscar Blum's saved 0.09 xG shot. Chaos sits at 54 and momentum at -26, so the patient possession hasn't yet turned pressure into danger.",
+  "headline": "Northgate Rovers tighten their grip before half-time",
+  "text": "Momentum swings to -26 as Northgate Rovers recycle patiently. After Oscar Blum's saved shot, Ilan Cohen, Kai Nakamura and Andres Vega string unpressured passes together, probing Ironvale Athletic's deep block while trailing 1-0.",
   "tags": [
-   "possession",
    "momentum",
+   "possession",
    "control"
   ],
   "cites": [
    "e0782",
    "e0789",
    "e0791",
+   "e0792",
    "e0793"
   ]
  }

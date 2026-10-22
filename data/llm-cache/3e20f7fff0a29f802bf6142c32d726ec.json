@@ -1,12 +1,12 @@
 {
- "model": "copilot:claude-sonnet-5.5",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Ironvale break out of the block late",
-  "text": "Leading 1-0 at 85', Ironvale turned a lost pass into a quick Reid–Tanaka–Romero move, then Romero carried twice at 31 and 34.1 km/h. It's the direct-counter style, with momentum at 25 and chaos at 41.",
+  "headline": "Ironvale seize momentum protecting narrow lead",
+  "text": "Leading 1-0 in minute 85, Ironvale reset through Callum Reid and Hiro Tanaka, then Luca Romero carried twice at 31 and 34.1 km/h. Momentum swings to 25 as their direct counters threaten again.",
   "tags": [
-   "counter",
    "momentum",
-   "speed"
+   "counter",
+   "control"
   ],
   "cites": [
    "e1570",

@@ -1,14 +1,15 @@
 {
- "model": "copilot:claude-sonnet-5.5",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Northgate's patient play swings momentum away",
-  "text": "Northgate hold 70% possession and complete safe passes, but Kai Nakamura's pass to Oscar Blum was intercepted at 05:55. With momentum at -65 and chaos at 43, a controlled spell turned into a turnover for Ironvale's counters.",
+  "headline": "Northgate's patient circulation finally gets picked off",
+  "text": "Northgate Rovers hold 70 possession and 88 pass accuracy, but Kai Nakamura's forward pass to Oscar Blum was intercepted. It's still 0-0, and the momentum reading of -65 leans heavily Northgate's way.",
   "tags": [
-   "momentum",
    "possession",
-   "counter"
+   "momentum",
+   "control"
   ],
   "cites": [
+   "e0097",
    "e0098",
    "e0099"
   ]

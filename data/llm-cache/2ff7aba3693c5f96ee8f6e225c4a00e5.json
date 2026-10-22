@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-opus-5.5",
+ "output": {
+  "headline": "Romero races forward as Ironvale push on",
+  "text": "Ironvale lead 1-0 with time running out. Callum Reid and Hiro Tanaka calmly pass it around, then Luca Romero bursts forward twice, and suddenly they look dangerous again!",
+  "cites": [
+   "e1570",
+   "e1571",
+   "e1572",
+   "e1573"
+  ]
+ }
+}

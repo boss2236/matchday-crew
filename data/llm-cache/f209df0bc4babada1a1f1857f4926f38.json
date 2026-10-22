@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-opus-5.5",
+ "output": {
+  "headline": "Rovers control, Ironvale's deep block holds firm",
+  "text": "Momentum -78, 56% possession, yet Rovers trail 1-0 with 0.44 xG and 0 on target. Cohen's 36.6m ball (difficulty 51) was intercepted; Dahl recycled 30.1m backwards, -8.5 progress.",
+  "cites": [
+   "e0551",
+   "e0560"
+  ]
+ }
+}

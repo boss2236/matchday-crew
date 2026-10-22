@@ -1,12 +1,12 @@
 {
- "model": "copilot:claude-sonnet-5.5",
+ "model": "copilot:claude-opus-5.5",
  "output": {
-  "headline": "Ironvale win the ball back repeatedly",
-  "text": "Ironvale Athletic's three interceptions in 120 seconds, the last by Zeke Mbeki, are disrupting Northgate Rovers' patient possession. At 1-0, with Ironvale's xg at 1.14 against 0.68, their direct counters look dangerous.",
+  "headline": "Ironvale's interceptions choke Northgate's patient build-up",
+  "text": "Ironvale Athletic won the ball back 3 times in 120 seconds, with interceptions by Callum Reid, Marco Silvan and Zeke Mbeki. Protecting a 1-0 lead with 44 percent possession, their deep block keeps forcing turnovers from Northgate's patient passing.",
   "tags": [
    "pressing",
-   "counter",
-   "momentum"
+   "control",
+   "counter"
   ],
   "cites": [
    "e0900",
