@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Reid casse le rythme de Northgate Rovers",
+  "text": "Ironvale Athletic mène 1-0 : Callum Reid signe 3 récupérations en 120 secondes (2 tacles, 1 interception). Avec un chaos à 77 et un xG de 1.15 contre 0.86, ces regains préservent l'avantage.",
+  "cites": [
+   "e1414",
+   "e1420",
+   "e1437"
+  ]
+ }
+}

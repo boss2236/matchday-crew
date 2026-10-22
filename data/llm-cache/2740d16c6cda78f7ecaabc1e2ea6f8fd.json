@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic 1-0 Northgate Rovers 종료",
+  "text": "Ironvale Athletic은 점유율 47%로 xG 1.42를 쌓았고 Northgate Rovers는 53%, 슈팅 9개에도 xG 0.86에 그쳤습니다. PPDA는 8.8 대 7.9, 모멘텀 7입니다.",
+  "cites": [
+   "e1700"
+  ]
+ }
+}

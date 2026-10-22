@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers控球占优，仍无突破",
+  "text": "Northgate Rovers动量-78，控球56%、xG 0.44，但0次射正，1-0落后。Ilan Cohen的36.6m长传难度51，被拦截；Sven Dahl再度回传。",
+  "cites": [
+   "e0546",
+   "e0551",
+   "e0560"
+  ]
+ }
+}

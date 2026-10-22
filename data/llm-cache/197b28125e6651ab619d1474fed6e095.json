@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic 连抢三次球",
+  "text": "Ironvale Athletic 在两分钟内连续抢回 3 次球,Callum Reid 的这次拦截更是漂亮收尾。Northgate Rovers 想慢慢传球推进,却被一次次打断,1-0 领先的主队稳住了局面。",
+  "cites": [
+   "e0564",
+   "e0581",
+   "e0603"
+  ]
+ }
+}

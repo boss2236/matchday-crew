@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers haben den Ball, aber kein Tor",
+  "text": "Northgate Rovers spielen geduldig und halten den Ball, liegen aber mit 1-0 hinten. Ilan Cohens langer Pass auf Emre Kaya wurde abgefangen, danach ging Sven Dahl wieder mit einem Rückpass sicher.",
+  "cites": [
+   "e0551",
+   "e0560"
+  ]
+ }
+}

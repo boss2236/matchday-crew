@@ -1,0 +1,15 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Okafor klaut den Ball, Marchetti trifft!",
+  "text": "Sami Okafor schnappt sich den Ball, Harbour City schaltet blitzschnell um, und Leo Marchetti schiebt aus der Distanz zum 1-1 ein. Ein echter Überraschungstreffer, der das ganze Stadion aufweckt!",
+  "cites": [
+   "e0991",
+   "e0994",
+   "e0995",
+   "e0996",
+   "e0998",
+   "e0999"
+  ]
+ }
+}

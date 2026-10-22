@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ruiz und Kowalski machen den Deckel drauf!",
+  "text": "Was für ein Doppelpass! Mateo Ruiz und Dani Kowalski spielen sich locker durch die Abwehr, und Kowalski schiebt aus nur 2.5 Metern zum 3-1 für Harbour City ein. Das sitzt!",
+  "cites": [
+   "e1718",
+   "e1720",
+   "e1722",
+   "e1724"
+  ]
+ }
+}

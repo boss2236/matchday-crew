@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale garde le ballon avec calme",
+  "text": "Ironvale Athletic mène 1-0 et fait tourner le ballon sans être gêné. Zeke Mbeki renvoie vers Finn Carver, qui relance aussitôt vers l'avant : le match penche doucement du côté d'Ironvale !",
+  "cites": [
+   "e1113",
+   "e1114",
+   "e1115"
+  ]
+ }
+}

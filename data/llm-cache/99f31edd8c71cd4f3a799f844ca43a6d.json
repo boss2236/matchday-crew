@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic: 3 Ballgewinne in 120 Sekunden",
+  "text": "Ironvale Athletic gewinnt 3 Bälle in 120 Sekunden, zuletzt per Interception von Callum Reid. xG 0.84 zu 0.44, PPDA 8.5 gegen 7, Momentum -11, Chaos 62: Northgate Rovers' Ballbesitz (54%) wird zerstückelt.",
+  "cites": [
+   "e0564",
+   "e0581",
+   "e0603"
+  ]
+ }
+}

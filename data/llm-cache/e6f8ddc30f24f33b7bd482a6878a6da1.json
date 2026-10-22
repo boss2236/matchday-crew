@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic drehen langsam auf",
+  "text": "Ironvale Athletic fängt sich nach dem abgefangenen Pass von Ivo Petrov wieder: Owen Lusk spielt zu Ade Bamidele, der Hiro Tanaka mit einem mutigen Steilpass findet. Noch steht es 0-0, aber es wird spannend!",
+  "cites": [
+   "e0188",
+   "e0194",
+   "e0195"
+  ]
+ }
+}

@@ -1,0 +1,15 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City spielen, aber ohne Gefahr",
+  "text": "Harbour City lassen den Ball ruhig laufen, ohne dass jemand sie stört. Dann schießt Arjun Mehta aus 25.2m, doch der Ball wird gehalten. Viel Ballbesitz, aber wenig echte Torgefahr.",
+  "cites": [
+   "e0348",
+   "e0349",
+   "e0350",
+   "e0351",
+   "e0352",
+   "e0353"
+  ]
+ }
+}

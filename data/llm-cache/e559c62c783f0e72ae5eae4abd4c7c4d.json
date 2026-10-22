@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers drehen das Spiel auf links",
+  "text": "Gabe Moreno verliert den Ball, aber Northgate Rovers bleiben dran: Ilan Cohen läuft los und spielt Oscar Blum klasse an. Ironvale Athletic führen 1-0, stehen aber tief und müssen zittern.",
+  "cites": [
+   "e1229",
+   "e1242",
+   "e1243"
+  ]
+ }
+}

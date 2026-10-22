@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale kontern in der 85. Minute!",
+  "text": "Ironvale führt 1-0 und spielt den Ball von Callum Reid zu Hiro Tanaka. Dann sprintet Luca Romero gleich zweimal mit dem Ball los. Das könnte gefährlich werden!",
+  "cites": [
+   "e1570",
+   "e1571",
+   "e1572",
+   "e1573"
+  ]
+ }
+}

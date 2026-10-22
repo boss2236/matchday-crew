@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kowalski conclut après récupération haute",
+  "text": "Interception de Dani Kowalski, 5 passes avec Mateo Ruiz (difficulté 48 sur la dernière), puis frappe non pressée à 2.5 pour 0.79 xG : 4-1 pour Harbour City, PPDA 8.5 contre 10.3.",
+  "cites": [
+   "e1715",
+   "e1722",
+   "e1724",
+   "e1725"
+  ]
+ }
+}

@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic mène 0-1 à la pause",
+  "text": "Ironvale Athletic mène 0-1 avec 1.63 xG contre 0.27 pour Harbour City, 3 tirs cadrés sur 6. Harbour City totalise 28 entrées dans le dernier tiers mais 1 seul tir cadré. Momentum : 24.",
+  "cites": [
+   "e0897"
+  ]
+ }
+}

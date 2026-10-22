@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic prend le ballon tranquillement",
+  "text": "Ironvale Athletic enchaîne des passes sans être gêné ! Callum Reid envoie un long ballon à Luca Romero, belle montée, puis la passe finit en touche. Un petit moment de calme pour eux.",
+  "cites": [
+   "e0324",
+   "e0326",
+   "e0327"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale fonce vers l'avant !",
+  "text": "Quelle contre-attaque d'Ironvale Athletic ! Callum Reid envoie une passe de 46.2 mètres, Luca Romero enchaîne avec une longue ouverture, et Northgate Rovers, qui aime garder le ballon, court après le jeu.",
+  "cites": [
+   "e1464",
+   "e1465",
+   "e1469"
+  ]
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kowalski ने 4-1 कर दिया!",
+  "text": "Dani Kowalski ने गेंद छीनी, Mateo Ruiz के साथ पासों का खूबसूरत खेल चला, और फिर बिना किसी दबाव के गोल कर दिया। Harbour City अब 4-1 से आगे है। क्या बढ़िया फिनिश!",
+  "cites": [
+   "e1715",
+   "e1718",
+   "e1722",
+   "e1724",
+   "e1725"
+  ]
+ }
+}

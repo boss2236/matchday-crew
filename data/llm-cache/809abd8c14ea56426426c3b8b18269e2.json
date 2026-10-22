@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City pousse, mais manque de précision",
+  "text": "Harbour City mène le jeu et pousse fort, mais les longues passes se perdent : celle de Leo Marchetti a été interceptée, celle de Jonah Pike est sortie. Il faut plus de justesse !",
+  "cites": [
+   "e0725",
+   "e0734"
+  ]
+ }
+}

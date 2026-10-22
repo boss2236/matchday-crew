@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City : pressing toujours mordant",
+  "text": "Harbour City récupère 3 ballons en 120 secondes (Kowalski, Mehta, Demir) ; PPDA 8.5 contre 10.9. Mené au xG (0.47 contre 1.75) mais 3-1, momentum 71 : Ironvale Athletic reste acculé.",
+  "cites": [
+   "e1562",
+   "e1579",
+   "e1587"
+  ]
+ }
+}

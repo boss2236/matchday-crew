@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City empujan, pero fallan los pases largos",
+  "text": "Harbour City va perdiendo 0-1 y lo intenta con pases rápidos, pero los balones largos se les escapan: el de Leo Marchetti fue interceptado y el de Jonah Pike se fue fuera. ¡Les falta puntería!",
+  "cites": [
+   "e0725",
+   "e0734"
+  ]
+ }
+}

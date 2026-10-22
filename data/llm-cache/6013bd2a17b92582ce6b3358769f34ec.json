@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City saati eritiyor!",
+  "text": "Harbour City 2-1 önde ve Mateo Ruiz ile Leo Marchetti topu sakin sakin geriye çevirip zamanı akıtıyor. Ama Ironvale Athletic hâlâ tehlikeli, bu skor hiç de güvende değil!",
+  "cites": [
+   "e1528",
+   "e1531",
+   "e1532"
+  ]
+ }
+}

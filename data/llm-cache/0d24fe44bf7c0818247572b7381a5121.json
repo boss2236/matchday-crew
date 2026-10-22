@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kowalski culmina circulación de 14 pases",
+  "text": "Tras la intercepción de Jonah Pike, 14 pases desarman el bloque de Ironvale Athletic; Ruiz filtra 41.3 m (dificultad 60) y Demir 32.9 m (55). Kowalski remata a 97.9 km/h, 0.06 xG, para el 2-1.",
+  "cites": [
+   "e1201",
+   "e1220",
+   "e1221",
+   "e1222",
+   "e1223"
+  ]
+ }
+}

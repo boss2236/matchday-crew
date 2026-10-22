@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kowalski kapıp bitirdi, Harbour City 4-1!",
+  "text": "Dani Kowalski topu çalıp Mateo Ruiz'le birlikte rakibi dağıttı, sonra kalenin hemen önünde boş bulduğu pozisyonda affetmedi. Harbour City skoru 4-1 yaptı, tribünler çıldırdı!",
+  "cites": [
+   "e1715",
+   "e1722",
+   "e1724",
+   "e1725"
+  ]
+ }
+}

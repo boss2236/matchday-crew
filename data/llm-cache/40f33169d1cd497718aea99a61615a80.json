@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City font tourner le ballon",
+  "text": "Harbour City mène 2-1 et veut faire passer le temps. Kofi Asante, Leo Marchetti, Mateo Ruiz et Jonah Pike se renvoient le ballon, sans aucune pression d'Ironvale Athletic. Calme, mais pas encore gagné !",
+  "cites": [
+   "e1527",
+   "e1528",
+   "e1530",
+   "e1531",
+   "e1532"
+  ]
+ }
+}

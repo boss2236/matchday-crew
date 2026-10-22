@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City reciclan bajo presión y progresan",
+  "text": "Con 2-1, Marchetti sostiene la posesión con un pase de 42.9m bajo presión (dificultad 61). Pike conduce 11.5m y filtra a Kowalski con 25.4 de progresión; el momentum sube a 28.",
+  "cites": [
+   "e1326",
+   "e1330",
+   "e1331"
+  ]
+ }
+}

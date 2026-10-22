@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale ci prova con un lancio lungo",
+  "text": "Che lancio di Ade Bamidele per Zeke Mbeki! Pochi secondi dopo Ironvale Athletic arriva al tiro, ma il tiro di Zeke Mbeki viene bloccato. Il gol non arriva, però l'Ironvale Athletic fa paura.",
+  "cites": [
+   "e0575",
+   "e0576",
+   "e0577",
+   "e0578"
+  ]
+ }
+}

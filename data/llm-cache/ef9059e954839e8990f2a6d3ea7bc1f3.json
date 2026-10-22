@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic está a roubar bolas!",
+  "text": "Que reação do Ironvale Athletic! Marco Silvan, Zeke Mbeki e Ivo Petrov cortaram passes seguidos, e agora a equipa sai a correr para o ataque. Ainda perdem por 2-1, mas o jogo está a mudar!",
+  "cites": [
+   "e1263",
+   "e1276",
+   "e1297"
+  ]
+ }
+}

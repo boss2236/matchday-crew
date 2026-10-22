@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate 的传球被截断了",
+  "text": "Northgate Rovers 一直把球控得稳稳的，可 Kai Nakamura 想把球传给 Oscar Blum，结果被对手拦下了！比分还是 0-0，真是可惜。",
+  "cites": [
+   "e0099"
+  ]
+ }
+}

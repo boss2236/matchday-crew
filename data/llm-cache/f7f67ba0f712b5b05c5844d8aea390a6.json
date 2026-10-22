@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers के पास गेंद, गोल नहीं",
+  "text": "Northgate Rovers गेंद पर पकड़ बनाए हैं, पर 1-0 से पीछे हैं। Ilan Cohen की लंबी पास कट गई, तो Sven Dahl ने गेंद फिर पीछे घुमा दी। सब्र चल रहा है, पर गोल का इंतज़ार बाकी है!",
+  "cites": [
+   "e0546",
+   "e0551",
+   "e0560"
+  ]
+ }
+}

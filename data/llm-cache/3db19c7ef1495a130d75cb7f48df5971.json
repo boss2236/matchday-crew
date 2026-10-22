@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic klaut dreimal den Ball!",
+  "text": "Was für ein Lauf von Ironvale Athletic: Marco Silvan, Zeke Mbeki und Ivo Petrov fangen nacheinander Pässe ab. Trotz 1-2 Rückstand wittern die Gäste jetzt ihre Konterchance – das wird spannend!",
+  "cites": [
+   "e1263",
+   "e1276",
+   "e1297"
+  ]
+ }
+}

@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kowalski sela a vitória do Harbour City!",
+  "text": "Mateo Ruiz e Dani Kowalski trocam passes rápidos, e Kowalski empurra a bola para o gol bem perto da baliza. Harbour City fecha o jogo em 3-1!",
+  "cites": [
+   "e1718",
+   "e1720",
+   "e1722",
+   "e1724"
+  ]
+ }
+}

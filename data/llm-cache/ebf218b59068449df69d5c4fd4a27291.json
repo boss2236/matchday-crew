@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Reid在120秒内3次断球",
+  "text": "Ironvale Athletic 1-0领先,Callum Reid在120秒内完成3次回收:2次tackle、1次interception,瓦解Northgate Rovers的传控。chaos 77,xG 1.15对0.86。",
+  "cites": [
+   "e1414",
+   "e1420",
+   "e1437"
+  ]
+ }
+}

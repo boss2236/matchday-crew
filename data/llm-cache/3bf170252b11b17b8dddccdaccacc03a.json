@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers si rimettono in moto",
+  "text": "Che peccato, il lancio lungo di Gabe Moreno viene intercettato! Ma Ilan Cohen non si arrende: parte palla al piede e serve Oscar Blum con un passaggio che fa avanzare tutta la squadra. Ironvale Athletic però resta in vantaggio.",
+  "cites": [
+   "e1229",
+   "e1242",
+   "e1243"
+  ]
+ }
+}

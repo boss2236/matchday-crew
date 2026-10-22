@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "¡Ironvale le roba el balón a Northgate!",
+  "text": "¡Qué defensa de Ironvale Athletic! Callum Reid, Marco Silvan y Zeke Mbeki cortaron los pases de Northgate Rovers y recuperaron el balón 3 veces seguidas. ¡Así cuidan su 1-0!",
+  "cites": [
+   "e0900",
+   "e0928",
+   "e0935"
+  ]
+ }
+}

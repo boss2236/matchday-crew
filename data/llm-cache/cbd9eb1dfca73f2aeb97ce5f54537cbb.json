@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "¡Ironvale sale disparado al contraataque!",
+  "text": "Minuto 85 y Ironvale Athletic gana 1-0. Callum Reid y Hiro Tanaka se la pasan con calma, y Luca Romero arranca dos veces con el balón pegado al pie. ¡Qué peligro!",
+  "cites": [
+   "e1570",
+   "e1571",
+   "e1572",
+   "e1573"
+  ]
+ }
+}

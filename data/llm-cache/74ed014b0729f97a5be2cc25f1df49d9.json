@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale juega tranquilo y gana terreno",
+  "text": "Ironvale Athletic, que gana 1-0, se pasa el balón sin ninguna presión. Zeke Mbeki cambia de lado hacia Finn Carver, y Carver lanza un pase que hace avanzar mucho al equipo.",
+  "cites": [
+   "e1111",
+   "e1112",
+   "e1113",
+   "e1114",
+   "e1115"
+  ]
+ }
+}

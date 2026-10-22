@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic récupère 3 ballons en 120 secondes",
+  "text": "Ironvale Athletic mène 1-0 avec 44 % de possession et 1.14 xG : Callum Reid, Marco Silvan et Zeke Mbeki interceptent 3 fois en 120 secondes, face à Northgate Rovers (PPDA 7.5).",
+  "cites": [
+   "e0900",
+   "e0928",
+   "e0935"
+  ]
+ }
+}

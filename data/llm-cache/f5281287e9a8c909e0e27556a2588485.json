@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Callum Reid inclina el partido con recuperaciones",
+  "text": "Callum Reid suma 3 recuperaciones en 120 segundos. Ironvale Athletic, con bloque bajo y 40% de posesión, lidera el xG 0.89 contra 0.04; Harbour City tiene 60%, PPDA 9.2 y momentum -8.",
+  "cites": [
+   "e0201",
+   "e0220",
+   "e0243"
+  ]
+ }
+}

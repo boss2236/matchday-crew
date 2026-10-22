@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City pierde el balón sin presión",
+  "text": "Harbour City se complica solo: tres pases perdidos, interceptados por el bloque bajo de Ironvale Athletic, sin que nadie les presionara. Arjun Mehta y compañía siguen buscando el camino, con el 1-1 en el marcador.",
+  "cites": [
+   "e1111",
+   "e1118",
+   "e1128"
+  ]
+ }
+}

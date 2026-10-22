@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City baskı altında topu çevirip ilerledi",
+  "text": "2-1 önde Harbour City, Marchetti'nin baskı altındaki 42.9m geri pasıyla (zorluk 61) topu korudu; Pike'ın 11.5m taşımasının ardından Kowalski'ye 25.4 ilerleme pasıyla momentum 28'e çıktı.",
+  "cites": [
+   "e1326",
+   "e1330",
+   "e1331"
+  ]
+ }
+}

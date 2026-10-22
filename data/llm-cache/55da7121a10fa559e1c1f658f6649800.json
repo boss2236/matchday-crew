@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Marchetti firma il gol dopo tre passaggi",
+  "text": "Okafor, Demir e Kowalski la fanno correre in fretta, senza nessuno addosso, fino a Leo Marchetti. Lui avanza, tira da lontano e la mette dentro: gol! Harbour City non molla.",
+  "cites": [
+   "e0994",
+   "e0995",
+   "e0996",
+   "e0997",
+   "e0998"
+  ]
+ }
+}

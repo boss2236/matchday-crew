@@ -1,0 +1,16 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kowalski 0.057 xG ile 3-1'i getirdi",
+  "text": "Harbour City taç atışından 3 baskısız pasla çıktı; Mateo Ruiz 13.1 metre taşıdı, Dani Kowalski 14.1 metreden 0.057 xG'lik şutla skoru 3-1 yaptı. Harbour City xG'de 0.47, Ironvale Athletic 1.75.",
+  "cites": [
+   "e1545",
+   "e1547",
+   "e1548",
+   "e1549",
+   "e1550",
+   "e1551",
+   "e1552"
+  ]
+ }
+}

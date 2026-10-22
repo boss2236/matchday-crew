@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic strozza il possesso di Northgate Rovers",
+  "text": "Ironvale Athletic, avanti 1-0, recupera 3 palloni in 120 secondi: Callum Reid e Hiro Tanaka intercettano, poi Tanaka vince il tackle. xG 1.15 contro 0.86, PPDA 8.7, momentum 5.",
+  "cites": [
+   "e1341",
+   "e1356",
+   "e1363"
+  ]
+ }
+}

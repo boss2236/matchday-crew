@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale s'épuise, le tir file à côté",
+  "text": "Ironvale pousse pour revenir, mais la passe de Luca Romero, sous pression, sort en touche. Puis Zeke Mbeki tente sa chance de très loin et manque le cadre. Harbour City tient bon, 3-1.",
+  "cites": [
+   "e1635",
+   "e1650"
+  ]
+ }
+}

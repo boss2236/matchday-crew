@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "O Harbour City continua a perder a bola",
+  "text": "Que azar para o Harbour City! Mesmo sem ninguém a pressionar, três passes foram cortados pela defesa fechada do Ironvale Athletic. Está 1-1 e o jogo está bem aberto!",
+  "cites": [
+   "e1111",
+   "e1118",
+   "e1128"
+  ]
+ }
+}

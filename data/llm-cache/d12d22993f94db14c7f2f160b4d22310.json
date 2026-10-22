@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City não larga a bola!",
+  "text": "Que pressão do Harbour City! Dani Kowalski e Arjun Mehta desarmaram, e Yusuf Demir cortou o passe. A bola voltou 3 vezes em 2 minutos e o Ironvale Athletic nem consegue respirar.",
+  "cites": [
+   "e1562",
+   "e1579",
+   "e1587"
+  ]
+ }
+}

@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic kontert, Harbour City dominiert nur Ballbesitz",
+  "text": "Harbour City hat 67% Ballbesitz, aber 0 Schüsse. Ironvale Athletic führt 2 zu 0 bei den Schüssen: Zeke Mbeki, unbedrängt aus 2.5 m, verbucht 0.876 xG, geblockt. Momentum -84.",
+  "cites": [
+   "e0041"
+  ]
+ }
+}

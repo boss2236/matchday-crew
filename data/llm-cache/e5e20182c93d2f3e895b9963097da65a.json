@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "¡Harbour City no suelta el balón!",
+  "text": "¡Qué presión de Harbour City! Dani Kowalski y Arjun Mehta le quitaron el balón con dos tackles, y Yusuf Demir cortó otro pase. Ironvale Athletic no puede salir de su campo. ¡Van ganando 3-1!",
+  "cites": [
+   "e1562",
+   "e1579",
+   "e1587"
+  ]
+ }
+}

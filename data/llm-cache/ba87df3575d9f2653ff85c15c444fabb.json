@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "¡Gol de Marchetti tras una jugada rapidísima!",
+  "text": "¡Qué jugada de Harbour City! Okafor, Demir y Kowalski se pasan la pelota sin que nadie los moleste, y Leo Marchetti la manda a la red. ¡Pocas veces se ve un gol tan limpio!",
+  "cites": [
+   "e0994",
+   "e0995",
+   "e0996",
+   "e0998"
+  ]
+ }
+}

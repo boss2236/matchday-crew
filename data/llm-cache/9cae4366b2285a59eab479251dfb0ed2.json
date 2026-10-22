@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic의 무압박 빌드업, 모멘텀 26",
+  "text": "Ironvale Athletic은 압박 없이 4회 연속 패스를 성공시켰다. Callum Reid의 33.4m 패스(난이도 50)가 Luca Romero에게 연결됐으나 e0327에서 아웃. 점유율 40, xG 0.01, PPDA 11.2.",
+  "cites": [
+   "e0323",
+   "e0324",
+   "e0325",
+   "e0326",
+   "e0327"
+  ]
+ }
+}

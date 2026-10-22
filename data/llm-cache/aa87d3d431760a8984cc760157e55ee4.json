@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Aziz scores on the stroke of half-time",
+  "text": "What a finish before the break! Southmere United kept the ball calmly, passing it around Harbour City's press, and Tariq Aziz slotted home from right on the goal line. It's 1-0!",
+  "cites": [
+   "e1012",
+   "e1013",
+   "e1014"
+  ]
+ }
+}

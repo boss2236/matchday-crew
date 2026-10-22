@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City gewinnen 4-1 am Ende",
+  "text": "Abpfiff! Harbour City schlagen Ironvale Athletic mit 4-1. Dabei hatte Ironvale die besseren Chancen auf dem Papier, aber Harbour City hat vorne eiskalt zugeschlagen. Genau das entscheidet am Ende ein Spiel.",
+  "cites": [
+   "e1727"
+  ]
+ }
+}

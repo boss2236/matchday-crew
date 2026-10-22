@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale étouffe Northgate Rovers !",
+  "text": "Ironvale Athletic mène 1-0 et ne laisse plus respirer Northgate Rovers : Callum Reid, puis Hiro Tanaka, récupèrent le ballon encore et encore. Hiro Tanaka le chipe même d'un beau tacle !",
+  "cites": [
+   "e1341",
+   "e1356",
+   "e1363"
+  ]
+ }
+}

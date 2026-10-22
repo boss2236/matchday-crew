@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic spinge il momentum a 27",
+  "text": "Dopo l'intercetto sul passaggio di Ivo Petrov (e0188), Ironvale Athletic ricicla con Owen Lusk e Ade Bamidele lancia Hiro Tanaka: progressione 19.8, difficoltà 33. Momentum 27, chaos 57, 0-0.",
+  "cites": [
+   "e0188",
+   "e0194",
+   "e0195"
+  ]
+ }
+}

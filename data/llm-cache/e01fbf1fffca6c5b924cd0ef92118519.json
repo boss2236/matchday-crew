@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City çok denedi, isabet yok",
+  "text": "Harbour City geride ve topu hızlıca çevirip baskı kuruyor. Ama Leo Marchetti'nin uzun pası kesildi, Jonah Pike'ın pası da auta çıktı. Hamleler güzel, son dokunuş henüz yok!",
+  "cites": [
+   "e0725",
+   "e0734"
+  ]
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Dani Kowalski vira o jogo para 2-1!",
+  "text": "Que jogada! O Harbour City roubou a bola, trocou passes com paciência até abrir a defesa do Ironvale Athletic, e Dani Kowalski, com um chutão a 97.9 km/h, fez o gol!",
+  "cites": [
+   "e1201",
+   "e1220",
+   "e1221",
+   "e1222",
+   "e1223"
+  ]
+ }
+}

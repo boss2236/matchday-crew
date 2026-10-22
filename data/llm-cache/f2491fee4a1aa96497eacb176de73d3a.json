@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic bikin gol cuma lewat 1 umpan!",
+  "text": "Lemparan ke dalam, Ivo Petrov langsung mengirim bola jauh ke Zeke Mbeki yang bebas tanpa dijaga. Gol! Ironvale Athletic unggul 1-0 atas Northgate Rovers, padahal bola lebih sering dipegang lawan.",
+  "cites": [
+   "e0480",
+   "e0481",
+   "e0484",
+   "e0485"
+  ]
+ }
+}

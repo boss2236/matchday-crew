@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers mueven el balón con calma",
+  "text": "Tras el tiro parado de Oscar Blum, Ilan Cohen, Kai Nakamura y Andres Vega se pasan el balón sin que nadie los presione. Northgate Rovers busca hueco ante Ironvale Athletic, que va ganando 1-0.",
+  "cites": [
+   "e0782",
+   "e0789",
+   "e0791",
+   "e0792",
+   "e0793"
+  ]
+ }
+}

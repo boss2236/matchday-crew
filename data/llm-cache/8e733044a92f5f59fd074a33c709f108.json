@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers circulan sin presión antes del descanso",
+  "text": "Momentum -26 y Northgate Rovers (PPDA 7.2) tras el tiro de Oscar Blum (xG 0.09, parado) enlazan 4 pases sin presión: Kai Nakamura→Andres Vega, 37.1 m, dificultad 54, contra el bloque de Ironvale Athletic.",
+  "cites": [
+   "e0782",
+   "e0789",
+   "e0791",
+   "e0792",
+   "e0793"
+  ]
+ }
+}

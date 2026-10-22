@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City regala palla senza pressione",
+  "text": "Che peccato! Harbour City ha perso il pallone tre volte, intercettato dalla difesa schierata di Ironvale Athletic, anche se nessuno lo stava pressando. Siamo ancora 1-1 e la partita resta apertissima.",
+  "cites": [
+   "e1111",
+   "e1118",
+   "e1128"
+  ]
+ }
+}

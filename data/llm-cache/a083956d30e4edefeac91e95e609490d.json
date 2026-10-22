@@ -1,0 +1,16 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Saque de banda sin presión sentencia el partido",
+  "text": "Tras el saque de banda, Harbour City enlazó 3 pases sin presión (dificultad 45, 29, 31); Mateo Ruiz condujo 13.1 metros y Dani Kowalski marcó con 0.057 xG desde 14.1 metros. 3-1, aunque xG 0.47 contra 1.75.",
+  "cites": [
+   "e1545",
+   "e1547",
+   "e1548",
+   "e1549",
+   "e1550",
+   "e1551",
+   "e1552"
+  ]
+ }
+}

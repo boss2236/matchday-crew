@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City topu kaptırmaya başladı",
+  "text": "Harbour City 2-1 önde ve top rahat dolaşıyordu. Ama Mateo Ruiz topu çok geriye yolladı, sonra Rui Barros baskı altında verdiği pasta topu kaptırdı. Kontrol yavaş yavaş elden kayıyor.",
+  "cites": [
+   "e1451",
+   "e1453"
+  ]
+ }
+}

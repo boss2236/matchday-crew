@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic vole le ballon encore et encore",
+  "text": "Northgate Rovers veut garder le ballon, mais Ironvale Athletic coupe les passes ! Callum Reid, Marco Silvan et Zeke Mbeki ont récupéré le ballon, et Ironvale Athletic protège son avantage de 1-0.",
+  "cites": [
+   "e0900",
+   "e0928",
+   "e0935"
+  ]
+ }
+}

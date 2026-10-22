@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic: Momentum 27 nach Bamidele-Pass",
+  "text": "Nach Petrovs abgefangenem Pass (e0188) zirkuliert Ironvale Athletic über Owen Lusk; Ade Bamidele findet Hiro Tanaka mit 19.8 Progression, Schwierigkeit 33 (e0195). Momentum 27, Chaos 57, 0-0, xG 0.",
+  "cites": [
+   "e0188",
+   "e0194",
+   "e0195"
+  ]
+ }
+}

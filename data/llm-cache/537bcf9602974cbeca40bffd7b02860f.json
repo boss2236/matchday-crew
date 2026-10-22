@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic: চাপে ভুল, কম xG শট",
+  "text": "৮৭ মিনিটে Luca Romero-র চাপের মুখে 51 difficulty-র পাস out যায়। তারপর Zeke Mbeki 31.5 দূর থেকে 0.008 xG-র শট off target করেন; momentum -28, chaos 69।",
+  "cites": [
+   "e1635",
+   "e1650"
+  ]
+ }
+}

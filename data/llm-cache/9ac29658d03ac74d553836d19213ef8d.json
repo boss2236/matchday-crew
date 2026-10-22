@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "¡Ironvale se lanza al contraataque!",
+  "text": "Ade Bamidele lanza un pase larguísimo de 49.5 metros a Zeke Mbeki, y Ironvale Athletic se va directo hacia la portería. Marco Silvan se la devuelve y Mbeki remata, pero el bloqueo lo frena.",
+  "cites": [
+   "e0575",
+   "e0576",
+   "e0577",
+   "e0578"
+  ]
+ }
+}

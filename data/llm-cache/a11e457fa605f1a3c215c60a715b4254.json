@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Dani Kowalski's 0.06 xG strike makes it 2-1",
+  "text": "Jonah Pike's interception sparked a 14-pass build-up. Rui Barros's 28.9m pass (difficulty 64) and Mateo Ruiz's 41.3m ball (difficulty 60) opened Ironvale Athletic; Dani Kowalski finished at 97.9 km/h from 13.5m, 0.06 xG.",
+  "cites": [
+   "e1201",
+   "e1215",
+   "e1220",
+   "e1222",
+   "e1223"
+  ]
+ }
+}

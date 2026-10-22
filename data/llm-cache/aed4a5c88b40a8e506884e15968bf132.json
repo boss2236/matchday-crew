@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic kontert Northgate Rovers eiskalt aus",
+  "text": "Nach Einwurf nur 1 Aufbaupass: Ivo Petrovs 38.2 m langer Ball (Schwierigkeit 53, ohne Gegnerdruck) findet Zeke Mbeki, der mit 0.829 xG zum 1-0 vollendet – trotz nur 45 Ballbesitz.",
+  "cites": [
+   "e0480",
+   "e0481",
+   "e0484",
+   "e0485"
+  ]
+ }
+}

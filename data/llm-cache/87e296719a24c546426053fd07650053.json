@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic, 120초 3회 탈취",
+  "text": "Ironvale Athletic이 1-0 리드 속에 120초 동안 3회 탈취했습니다. Callum Reid, Hiro Tanaka의 인터셉션에 이어 Tanaka의 태클까지 나왔고, xG 1.15 대 0.86, PPDA 8.7, 모멘텀 5입니다.",
+  "cites": [
+   "e1341",
+   "e1356",
+   "e1363"
+  ]
+ }
+}

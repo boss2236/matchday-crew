@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "كالوم ريد يحمي تقدّم Ironvale Athletic",
+  "text": "Ironvale Athletic متقدم 1-0، وكالوم ريد ما قصّر! استعاد الكرة مرتين بالتدخل وقطع تمريرة في دقيقتين تقريباً، وأفسد على Northgate Rovers هجماتهم الهادئة. تماماً كما يفعل الحارس الأمين!",
+  "cites": [
+   "e1414",
+   "e1420",
+   "e1437"
+  ]
+ }
+}

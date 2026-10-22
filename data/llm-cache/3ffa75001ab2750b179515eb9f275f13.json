@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City verlieren den Ball im Druck",
+  "text": "Harbour City führen 2-1 und spielen ruhig. Dann geht Mateo Ruiz' Pass weit zurück zu Rui Barros, und dessen Zuspiel unter Druck wird abgefangen. Jetzt wackelt die Kontrolle.",
+  "cites": [
+   "e1451",
+   "e1453"
+  ]
+ }
+}

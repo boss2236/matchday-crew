@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kowalski trifft – Harbour City führt 3-1",
+  "text": "Nach einem Einwurf spielt Harbour City in aller Ruhe nach vorn, Mateo Ruiz rennt 13.1 Meter, und Dani Kowalski schiebt ganz frei zum 3-1 ein. Niemand kam an den Ball!",
+  "cites": [
+   "e1545",
+   "e1549",
+   "e1551",
+   "e1552"
+  ]
+ }
+}

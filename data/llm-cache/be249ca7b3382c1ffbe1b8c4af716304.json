@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale: salida sin presión inclina el momentum",
+  "text": "Ironvale Athletic enlazó 4 pases completos sin presión; el de Callum Reid a Luca Romero (33.4 m, dificultad 50, progreso 17.9) lideró. Momentum 26, posesión 40, PPDA 11.2, xG 0.01 antes del pase fuera.",
+  "cites": [
+   "e0323",
+   "e0324",
+   "e0325",
+   "e0326",
+   "e0327"
+  ]
+ }
+}

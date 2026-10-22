@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City'nin baskısız paslarına kesme geliyor",
+  "text": "Harbour City 57. dakikada baskı yokken e1111 (zorluk 56, 33.6 m), e1118 (55, 43.2 m) ve e1128 (42, 30.3 m) paslarında top kaybetti; skor 1-1, momentum 35, kaos 55, xG 0.35'e karşı 1.68.",
+  "cites": [
+   "e1111",
+   "e1118",
+   "e1128"
+  ]
+ }
+}

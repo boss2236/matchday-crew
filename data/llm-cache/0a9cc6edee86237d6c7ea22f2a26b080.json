@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "¡Ironvale se lanza con un gran pase largo!",
+  "text": "Ironvale Athletic encadena pases con calma y Owen Lusk lanza un balón larguísimo a Marco Silvan que rompe el campo entero. ¡El partido se les inclina a los visitantes, amigo!",
+  "cites": [
+   "e0139",
+   "e0140",
+   "e0141",
+   "e0142",
+   "e0143"
+  ]
+ }
+}

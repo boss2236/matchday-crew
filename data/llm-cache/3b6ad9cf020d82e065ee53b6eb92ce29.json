@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale prend le jeu en main !",
+  "text": "Six passes de suite pour Ironvale Athletic, et quelle ouverture d'Owen Lusk vers Marco Silvan, un long ballon qui fait avancer toute l'équipe d'un coup ! Harbour City ne sait plus où donner de la tête.",
+  "cites": [
+   "e0139",
+   "e0140",
+   "e0141",
+   "e0142",
+   "e0143"
+  ]
+ }
+}

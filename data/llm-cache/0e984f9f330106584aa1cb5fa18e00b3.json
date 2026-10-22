@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "¡Northgate Rovers empujan aunque van perdiendo!",
+  "text": "Ilan Cohen se echó el balón al pie, avanzó 10 metros y se la dio a Oscar Blum, que metió al equipo bien arriba. Northgate Rovers aprieta, e Ironvale Athletic sigue cerrado atrás.",
+  "cites": [
+   "e1242",
+   "e1243"
+  ]
+ }
+}

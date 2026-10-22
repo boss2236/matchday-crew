@@ -1,0 +1,15 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City'den sabırlı 14 pasla gol",
+  "text": "Jonah Pike'ın kazandığı topla 14 pasluk atak başladı; Rui Barros'un 64 zorluklu pasından sonra Mateo Ruiz ve Yusuf Demir direkt oynadı, Dani Kowalski 0.06 xG'lik şutu 97.9 km/h ile 2-1 yaptı.",
+  "cites": [
+   "e1201",
+   "e1215",
+   "e1220",
+   "e1221",
+   "e1222",
+   "e1223"
+  ]
+ }
+}

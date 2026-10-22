@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City गेंद छीनते जा रहे हैं!",
+  "text": "Harbour City ने सिर्फ दो मिनट में 3 बार गेंद वापस छीनी। Dani Kowalski और Arjun Mehta के टैकल के बाद Yusuf Demir ने पास रोक लिया। Ironvale Athletic को सांस लेने का मौका ही नहीं मिल रहा!",
+  "cites": [
+   "e1562",
+   "e1579",
+   "e1587"
+  ]
+ }
+}

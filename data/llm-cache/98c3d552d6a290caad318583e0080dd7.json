@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale relancent et font trembler Northgate !",
+  "text": "Ironvale mène 1-0 et ne panique pas : Callum Reid trouve Hiro Tanaka, qui sert Luca Romero. Puis Romero file en balle au pied, deux fois de suite. Le contre-attaque menace encore !",
+  "cites": [
+   "e1570",
+   "e1571",
+   "e1572",
+   "e1573"
+  ]
+ }
+}

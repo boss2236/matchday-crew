@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic-এর শান্ত বল-চালনা",
+  "text": "Ironvale Athletic চাপ ছাড়াই পরপর পাস সাজাল। Callum Reid-এর লম্বা পাস Luca Romero-র কাছে গিয়ে আক্রমণটা জমিয়ে তুলল, তবে শেষে বল বাইরে চলে গেল। কিছুক্ষণ খেলাটা ওদের হাতেই ছিল!",
+  "cites": [
+   "e0323",
+   "e0324",
+   "e0325",
+   "e0326",
+   "e0327"
+  ]
+ }
+}

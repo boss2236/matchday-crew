@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers menguasai bola, belum menembus",
+  "text": "Northgate Rovers sudah lama pegang bola, tapi masih tertinggal 1-0. Ilan Cohen mencoba umpan jauh ke Emre Kaya, namun dipotong lawan. Sven Dahl pun terpaksa mengalirkan bola ke belakang lagi.",
+  "cites": [
+   "e0551",
+   "e0560"
+  ]
+ }
+}

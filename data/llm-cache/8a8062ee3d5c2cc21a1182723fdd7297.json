@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic 수비 블록, 전반 1-0 리드",
+  "text": "Northgate Rovers가 점유율 54%, 슈팅 6회, PPDA 7.8로 압박했지만 xG는 0.68. Ironvale Athletic은 슈팅 4회로 xG 1.14를 쌓아 1-0 리드로 전반 종료. 모멘텀 12.",
+  "cites": [
+   "e0857"
+  ]
+ }
+}

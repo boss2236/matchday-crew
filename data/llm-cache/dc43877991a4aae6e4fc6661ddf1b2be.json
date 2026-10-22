@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic recupera y huele el empate",
+  "text": "Ironvale Athletic roba el balón una y otra vez: Marco Silvan, Zeke Mbeki e Ivo Petrov cortan pases rivales. Pierden 2-1, pero cada recuperación les da pie a salir rápido al contraataque.",
+  "cites": [
+   "e1263",
+   "e1276",
+   "e1297"
+  ]
+ }
+}

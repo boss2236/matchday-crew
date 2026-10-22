@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale 无压回传,动能升至30",
+  "text": "Ironvale Athletic 1-0 领先,e1113 中 Zeke Mbeki 53.3 距离转移球回给 Finn Carver,无压迫;e1115 Carver 23.8 推进传球令动能升至30,混乱度仅36。",
+  "cites": [
+   "e1113",
+   "e1115"
+  ]
+ }
+}

@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic lead at half-time",
+  "text": "হাফ টাইমে Ironvale Athletic 0-1 এগিয়ে। Harbour City বল নিয়ে অনেকবার সামনে গেছে, কিন্তু Ironvale Athletic-এর দ্রুত পাল্টা আক্রমণ আসল বিপদ তৈরি করেছে। দ্বিতীয়ার্ধে লড়াই জমবে!",
+  "cites": [
+   "e0897"
+  ]
+ }
+}

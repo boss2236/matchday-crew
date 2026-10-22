@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City perdent le fil !",
+  "text": "Harbour City mène 2-1, mais Mateo Ruiz renvoie la balle loin en arrière vers Rui Barros. Sous la pression, la passe de Rui Barros est interceptée. Le contrôle leur échappe peu à peu !",
+  "cites": [
+   "e1451",
+   "e1453"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic étouffe la relance de Northgate Rovers",
+  "text": "Ironvale Athletic, mené par 1-0, récupère 3 ballons en 120 secondes : interceptions de Callum Reid et Hiro Tanaka, puis tacle de Tanaka. PPDA 8.7, xG 1.15 contre 0.86, momentum 5.",
+  "cites": [
+   "e1341",
+   "e1356",
+   "e1363"
+  ]
+ }
+}

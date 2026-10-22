@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Reid holt sich den Ball dreimal zurück!",
+  "text": "Ironvale Athletic führt 1-0, und Callum Reid ist überall: Zweimal grätscht er dem Ball ab, einmal fängt er ihn ab. So nimmt er Northgate Rovers das ruhige Passspiel aus der Hand.",
+  "cites": [
+   "e1414",
+   "e1420",
+   "e1437"
+  ]
+ }
+}

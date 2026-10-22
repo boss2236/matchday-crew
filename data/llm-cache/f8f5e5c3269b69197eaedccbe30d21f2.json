@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale busca el balón directo, xG 0.02",
+  "text": "Con momentum -53 y caos 64, Ivo Petrov lanza 44.5m con dificultad 95 y es interceptado; Hiro Tanaka conecta 41.2m (dificultad 89) con Zeke Mbeki, cuyo remate de 0.02 xG sale desviado.",
+  "cites": [
+   "e1059",
+   "e1067",
+   "e1068"
+  ]
+ }
+}

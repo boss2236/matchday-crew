@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale golpea con un pase directo",
+  "text": "Ironvale gana 0-1 y está dando miedo al contraataque. Ivo Petrov lanzó un pase largo, sin nadie encima, y Luca Romero lo recibió con todo el campo por delante.",
+  "cites": [
+   "e0782",
+   "e0772",
+   "e0774"
+  ]
+ }
+}

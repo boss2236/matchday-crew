@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Reid corta el juego de Northgate",
+  "text": "Callum Reid suma 3 recuperaciones en 120 segundos (dos tackles y una intercepción) con 1-0 en el minuto 77. Ironvale Athletic lidera en xG 1.15 frente a 0.86, con chaos 77 y momentum 16.",
+  "cites": [
+   "e1414",
+   "e1420",
+   "e1437"
+  ]
+ }
+}

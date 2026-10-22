@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers palleggiano con pazienza",
+  "text": "Dopo il tiro parato di Oscar Blum, Northgate Rovers non ha fretta: Ilan Cohen, Kai Nakamura e Andres Vega si passano il pallone senza pressione, cercando uno spiraglio contro la difesa schierata di Ironvale Athletic.",
+  "cites": [
+   "e0782",
+   "e0789",
+   "e0791",
+   "e0792",
+   "e0793"
+  ]
+ }
+}

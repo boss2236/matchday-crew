@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City mantiene la presión alta",
+  "text": "Harbour City recuperó 3 balones en 120 segundos (tackles de Dani Kowalski y Arjun Mehta, interceptación de Yusuf Demir). Con 3-1, momentum 71 y PPDA 8.5 frente a 10.9, asfixia a Ironvale Athletic.",
+  "cites": [
+   "e1562",
+   "e1579",
+   "e1587"
+  ]
+ }
+}

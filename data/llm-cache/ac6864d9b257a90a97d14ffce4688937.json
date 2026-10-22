@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Mbeki trifft nach Silvans Ballgewinn für Ironvale",
+  "text": "Marco Silvan klaut den Ball, und Ironvale Athletic spielt ihn blitzschnell durch, ohne dass Harbour City rankommt. Luca Romero legt auf, Zeke Mbeki hämmert ihn rein: 0-1!",
+  "cites": [
+   "e0587",
+   "e0597",
+   "e0599",
+   "e0600"
+  ]
+ }
+}

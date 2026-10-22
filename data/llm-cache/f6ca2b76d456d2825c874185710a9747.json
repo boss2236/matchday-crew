@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Callum Reid topu üst üste kapıyor!",
+  "text": "Callum Reid sahada top avcısı gibi! Ironvale Athletic geride bekliyor, topu kapınca hızla çıkıyor. Harbour City topa daha çok sahip olsa da tehlike yaratan Ironvale Athletic. Reid 3 kez topu geri aldı.",
+  "cites": [
+   "e0201",
+   "e0220",
+   "e0243"
+  ]
+ }
+}

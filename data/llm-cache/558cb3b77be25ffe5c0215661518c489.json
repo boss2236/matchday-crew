@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale يستعيدون هدوءهم بعد تمريرة مباشرة فاشلة",
+  "text": "إيرونفيل متقدمة 1-0، وتمريرة طويلة من Callum Reid انقطعت عند Luca Romero. ثم أعاد Zeke Mbeki الكرة إلى Hiro Tanaka، فتقدّم بها بهدوء ليُهدّئ إيقاع اللعب.",
+  "cites": [
+   "e0979",
+   "e0980",
+   "e0989",
+   "e0990",
+   "e0991"
+  ]
+ }
+}

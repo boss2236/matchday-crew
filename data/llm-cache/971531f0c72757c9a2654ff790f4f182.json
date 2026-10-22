@@ -1,0 +1,15 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Marchetti égalise après une action express",
+  "text": "Okafor, Demir et Kowalski se passent le ballon vite et sans pression, puis Leo Marchetti file et frappe : but pour Harbour City, à la 49e minute !",
+  "cites": [
+   "e0993",
+   "e0994",
+   "e0995",
+   "e0996",
+   "e0997",
+   "e0998"
+  ]
+ }
+}

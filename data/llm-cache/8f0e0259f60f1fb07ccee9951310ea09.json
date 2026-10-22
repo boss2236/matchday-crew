@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic 一连串传球掌控节奏",
+  "text": "Ironvale Athletic 连续传了好几脚,没人逼抢!Callum Reid 一脚长传找到 Luca Romero,球队推进得很顺。可惜最后一传出界,好机会溜走了。",
+  "cites": [
+   "e0323",
+   "e0324",
+   "e0325",
+   "e0326",
+   "e0327"
+  ]
+ }
+}

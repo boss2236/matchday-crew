@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic reprend le ballon encore et encore",
+  "text": "Ironvale Athletic mène 1-0 et ne lâche rien : tacle, puis deux interceptions, dont celle de Callum Reid. Northgate Rovers a beau garder le ballon, il se fait couper la route à chaque fois !",
+  "cites": [
+   "e0564",
+   "e0581",
+   "e0603"
+  ]
+ }
+}

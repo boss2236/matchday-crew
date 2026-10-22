@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City gardent le ballon, puis foncent",
+  "text": "Harbour City mène 2-1 et garde son calme sous la pression. Jonah Pike file balle au pied, puis lance une belle passe vers Dani Kowalski : l'élan bascule de leur côté !",
+  "cites": [
+   "e1326",
+   "e1330",
+   "e1331"
+  ]
+ }
+}

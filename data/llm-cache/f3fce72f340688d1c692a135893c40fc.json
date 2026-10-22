@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale mène à la pause",
+  "text": "Pause ! Harbour City a beaucoup attaqué, mais Ironvale Athletic a été bien plus dangereux sur ses contres : 3 tirs cadrés contre 1 seul. Résultat, Ironvale mène 0-1 à la mi-temps.",
+  "cites": [
+   "e0897"
+  ]
+ }
+}

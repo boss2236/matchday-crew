@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City perdent le contrôle sous pression",
+  "text": "Harbour City mène 2-1 (xG 0.41 contre 1.68), mais la passe de Mateo Ruiz recule de 33.5 m, puis Rui Barros, pressé, est intercepté (difficulté 45). Momentum 32, chaos 52.",
+  "cites": [
+   "e1451",
+   "e1453"
+  ]
+ }
+}

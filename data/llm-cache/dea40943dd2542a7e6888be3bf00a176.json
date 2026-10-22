@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Rovers controllano, ma il gol non arriva",
+  "text": "Il Northgate Rovers ha il pallone e lo muove con calma, ma è sotto 1-0. Ilan Cohen prova il lancio lungo, ma Emre Kaya lo intercetta. Allora Sven Dahl torna indietro e riparte.",
+  "cites": [
+   "e0551",
+   "e0560"
+  ]
+ }
+}

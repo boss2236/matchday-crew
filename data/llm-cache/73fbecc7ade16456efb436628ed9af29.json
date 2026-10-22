@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale lanza balones largos al ataque",
+  "text": "Ironvale probó con pases larguísimos. Uno de Ivo Petrov fue cortado, pero el de Hiro Tanaka llegó hasta Zeke Mbeki, que remató algo flojito y la pelota se fue fuera.",
+  "cites": [
+   "e1059",
+   "e1067",
+   "e1068"
+  ]
+ }
+}

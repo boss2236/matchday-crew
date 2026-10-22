@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale yapiga bao la haraka!",
+  "text": "Ivo Petrov alirusha mpira mrefu kutoka kurusha nje, Zeke Mbeki akaupata bila kusumbuliwa na kufunga! Ironvale Athletic wanaongoza 1-0 dhidi ya Northgate Rovers, ingawa walikuwa na mpira kidogo.",
+  "cites": [
+   "e0480",
+   "e0481",
+   "e0484",
+   "e0485"
+  ]
+ }
+}

@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City-র দুর্দান্ত গোল, ৩-১!",
+  "text": "Mateo Ruiz আর Dani Kowalski পরপর পাস খেলে ডিফেন্স ভেঙে দিলেন, আর একেবারে কাছ থেকে Dani Kowalski গোল করলেন! Harbour City এখন 3-1 এগিয়ে, ম্যাচ প্রায় তাদের হাতের মুঠোয়।",
+  "cites": [
+   "e1718",
+   "e1720",
+   "e1722",
+   "e1724"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Le bloc bas d'Ironvale Athletic mord",
+  "text": "Ironvale Athletic, mené 2-1, enchaîne 3 récupérations en 120 secondes : Marco Silvan, Zeke Mbeki, Ivo Petrov interceptent. xG 1.68 contre 0.41, PPDA 9.9, momentum 16 : le contre direct s'installe.",
+  "cites": [
+   "e1263",
+   "e1276",
+   "e1297"
+  ]
+ }
+}

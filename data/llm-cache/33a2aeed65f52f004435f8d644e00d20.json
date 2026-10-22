@@ -1,0 +1,15 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "¡Marchetti empata tras el robo de Okafor!",
+  "text": "¡Qué contra de Harbour City! Sami Okafor roba el balón, Yusuf Demir y Dani Kowalski lo mueven sin que nadie los moleste, y Leo Marchetti la manda a la red. ¡1-1 en el marcador!",
+  "cites": [
+   "e0991",
+   "e0994",
+   "e0995",
+   "e0996",
+   "e0998",
+   "e0999"
+  ]
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Rovers dominan el balón, sin ruptura",
+  "text": "Northgate Rovers, con momentum de -78 y 0 tiros a puerta (xG 0.44 vs 0.84), pierden 1-0. El pase de Ilan Cohen de 36.6m, dificultad 51, fue interceptado; Sven Dahl reinicia con 30.1m.",
+  "cites": [
+   "e0551",
+   "e0560"
+  ]
+ }
+}

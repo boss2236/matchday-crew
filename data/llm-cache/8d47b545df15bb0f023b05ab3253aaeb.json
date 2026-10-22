@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic 직접 공격, Northgate Rovers 점유 무력화",
+  "text": "Ironvale Athletic은 스로인 후 빌드업 패스 1회로 득점했다. Ivo Petrov의 38.2m 패스(난이도 53, 무압박)가 Zeke Mbeki에게 닿았고 xG 0.829 슈팅이 골로 연결됐다. 점유율은 45.",
+  "cites": [
+   "e0480",
+   "e0481",
+   "e0484",
+   "e0485"
+  ]
+ }
+}

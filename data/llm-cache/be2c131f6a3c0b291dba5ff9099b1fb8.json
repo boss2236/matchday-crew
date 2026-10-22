@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate domine, mais perd le ballon !",
+  "text": "Northgate Rovers garde le ballon et joue bien, mais la passe de Kai Nakamura vers Oscar Blum est interceptée ! Toujours 0-0, et Ironvale Athletic respire un peu.",
+  "cites": [
+   "e0099"
+  ]
+ }
+}

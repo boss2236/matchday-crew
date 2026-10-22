@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kowalski clôt le score pour Harbour City !",
+  "text": "Sur une simple touche, Harbour City déroule, personne ne les gêne ! Mateo Ruiz file balle au pied, passe à Dani Kowalski, qui conclut sans trembler. Harbour City mène 3-1, et Ironvale Athletic regarde le coup passer !",
+  "cites": [
+   "e1545",
+   "e1549",
+   "e1550",
+   "e1551",
+   "e1552"
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic erzwingt Ballgewinne gegen Northgate Rovers",
+  "text": "Ironvale Athletic gewinnt 3 Bälle in 120 Sekunden durch Interceptions von Callum Reid, Marco Silvan und Zeke Mbeki. Bei 44% Ballbesitz und 1-0 führt der tiefe Block; xG 1.14 zu 0.68, Momentum 33.",
+  "cites": [
+   "e0900",
+   "e0928",
+   "e0935"
+  ]
+ }
+}

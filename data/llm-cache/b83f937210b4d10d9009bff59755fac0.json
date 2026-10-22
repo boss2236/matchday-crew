@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City दबाव बनाते हैं, पर सटीकता कम",
+  "text": "Harbour City 0-1 से पीछे हैं और तेज़ पासों से जोश दिखा रहे हैं। लेकिन Leo Marchetti का लंबा पास रोक लिया गया और Jonah Pike का पास बाहर चला गया। अब सही निशाना चाहिए!",
+  "cites": [
+   "e0724",
+   "e0725",
+   "e0734"
+  ]
+ }
+}

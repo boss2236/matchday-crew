@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale girano il pallone con calma",
+  "text": "Ironvale Athletic, avanti 1-0, passa il pallone senza fretta e senza nessuno addosso: Zeke Mbeki lo rimette a Finn Carver, che lancia di nuovo Mbeki in avanti. Che bella calma!",
+  "cites": [
+   "e1113",
+   "e1114",
+   "e1115"
+  ]
+ }
+}

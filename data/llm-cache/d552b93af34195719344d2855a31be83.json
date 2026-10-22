@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Callum Reid récupère tout !",
+  "text": "Callum Reid ne lâche rien : 3 ballons récupérés en quelques minutes pour Ironvale Athletic. Harbour City garde le ballon, mais c'est Ironvale qui fait le plus peur devant le but !",
+  "cites": [
+   "e0201",
+   "e0220",
+   "e0243"
+  ]
+ }
+}

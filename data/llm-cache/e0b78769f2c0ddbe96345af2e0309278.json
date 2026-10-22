@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Okafor vole le ballon, Marchetti égalise !",
+  "text": "Sami Okafor intercepte le ballon, Harbour City file vite vers l'avant, et Leo Marchetti conclut du pied après la passe de Dani Kowalski. Quel retour ! Le score est de 1-1.",
+  "cites": [
+   "e0991",
+   "e0996",
+   "e0998",
+   "e0999"
+  ]
+ }
+}

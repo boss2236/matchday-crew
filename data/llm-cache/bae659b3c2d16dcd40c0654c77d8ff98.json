@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale recuperan control tras balón directo fallido",
+  "text": "Con 1-0 y xG 1.14 vs 0.71, el pase de Callum Reid de 41.8 m (dificultad 56) murió en intercepción; Zeke Mbeki retrasó -13.4 a Hiro Tanaka y el momentum quedó en 25.",
+  "cites": [
+   "e0979",
+   "e0980",
+   "e0989",
+   "e0990"
+  ]
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic가 잠깐 공을 쥐었어요",
+  "text": "Ironvale Athletic이 압박 없이 패스를 네 번 이어 갔어요. Callum Reid가 Luca Romero에게 길게 찔러 준 패스가 돋보였지만, 마지막 패스는 밖으로 나가 버렸죠.",
+  "cites": [
+   "e0323",
+   "e0324",
+   "e0325",
+   "e0326",
+   "e0327"
+  ]
+ }
+}

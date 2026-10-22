@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City verlieren den Ball ganz ohne Druck",
+  "text": "Dreimal spielt Harbour City den Ball ohne jeden Gegnerdruck direkt zu Ironvale Athletic. Beim 1-1 kippt dadurch die Stimmung, und Ironvale Athletic wittert seine Chance. Ein Pass nach dem anderen landet beim Gegner!",
+  "cites": [
+   "e1111",
+   "e1118",
+   "e1128"
+  ]
+ }
+}

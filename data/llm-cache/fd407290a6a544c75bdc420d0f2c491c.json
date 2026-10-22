@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City seguram a bola e o resultado",
+  "text": "Aos 80 minutos, o Harbour City leva a melhor por 2-1 e vai passando a bola para trás, sem pressa, entre Mateo Ruiz e Leo Marchetti. É o relógio a correr a favor deles!",
+  "cites": [
+   "e1528",
+   "e1531",
+   "e1532"
+  ]
+ }
+}

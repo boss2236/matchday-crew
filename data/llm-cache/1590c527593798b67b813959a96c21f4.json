@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale viram o jogo com um passe enorme!",
+  "text": "Que jogada do Ironvale Athletic! Owen Lusk fez um passe longuíssimo para Marco Silvan e levou a bola lá para a frente num instante. A bola passou por seis colegas e o jogo mudou de mãos!",
+  "cites": [
+   "e0139",
+   "e0143"
+  ]
+ }
+}

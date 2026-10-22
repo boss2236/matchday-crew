@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Oscar Blum, so close to scoring!",
+  "text": "Northgate Rovers 선수들이 차분히 공을 돌리다 문이 열렸어요! Oscar Blum이 압박 없이 골대 4m 앞에서 슛했지만, 아쉽게 수비에 막혔습니다. 정말 아까운 기회였어요!",
+  "cites": [
+   "e0461"
+  ]
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Northgate Rovers: contrôle sans percée",
+  "text": "Northgate Rovers mènent la possession (56%) et l'xG ne suit pas : 0.44 contre 0.84, 0 tir cadré, PPDA 6.7. Cohen tente 36.6m (difficulté 51), intercepté ; Dahl rejoue en retrait (-8.5).",
+  "cites": [
+   "e0551",
+   "e0560"
+  ]
+ }
+}

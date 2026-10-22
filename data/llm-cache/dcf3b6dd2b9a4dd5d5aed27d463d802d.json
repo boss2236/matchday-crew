@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale beruhigen das Spiel nach Fehlpass",
+  "text": "Ironvale Athletic führt 1-0. Der lange Ball von Callum Reid auf Luca Romero wurde abgefangen. Dann spielte Zeke Mbeki zurück zu Hiro Tanaka, der ruhig weiterlief. Das gibt Ironvale wieder Sicherheit.",
+  "cites": [
+   "e0979",
+   "e0980",
+   "e0989",
+   "e0990",
+   "e0991"
+  ]
+ }
+}

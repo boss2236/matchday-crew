@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic 连抢三次球!",
+  "text": "Ironvale Athletic 在 120 秒里连续断下 Northgate Rovers 的传球,Callum Reid、Marco Silvan 和 Zeke Mbeki 各截一次。他们死守 1-0 的领先,Northgate Rovers 的耐心传球被打乱了。",
+  "cites": [
+   "e0900",
+   "e0928",
+   "e0935"
+  ]
+ }
+}

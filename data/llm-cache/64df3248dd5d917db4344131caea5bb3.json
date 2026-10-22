@@ -1,0 +1,15 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City tournent, mais sans danger",
+  "text": "Harbour City font circuler le ballon tranquillement, sans aucune pression, puis Arjun Mehta tente sa chance de loin. Le gardien repousse sans souci : beaucoup de jeu, très peu de vrai danger.",
+  "cites": [
+   "e0348",
+   "e0349",
+   "e0350",
+   "e0351",
+   "e0352",
+   "e0353"
+  ]
+ }
+}

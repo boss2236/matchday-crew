@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Tariq Aziz denied from point-blank range!",
+  "text": "Tariq Aziz的射门被门将扑出了!Southmere United在离球门只有2米的位置打出这脚,球却被拦下,比赛仍是0-0。不过他们一直压着对手打,机会还会再来!",
+  "cites": [
+   "e0077"
+  ]
+ }
+}

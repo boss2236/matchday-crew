@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale calm down after a risky long ball",
+  "text": "Ironvale's long ball from Callum Reid was cut out, which could have been scary. But Zeke Mbeki played it safely back to Hiro Tanaka, who carried it calmly. Ironvale still lead 1-0.",
+  "cites": [
+   "e0979",
+   "e0980",
+   "e0989",
+   "e0990",
+   "e0991"
+  ]
+ }
+}

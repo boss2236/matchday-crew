@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "¡Harbour City gana 4-1 con puntería letal!",
+  "text": "Fin del partido: Harbour City vence 4-1 a Ironvale Athletic. Ironvale tuvo ocasiones más claras, pero Harbour City aprovechó mucho mejor las suyas, con 7 tiros a puerta. ¡Pura puntería!",
+  "cites": [
+   "e1727"
+  ]
+ }
+}

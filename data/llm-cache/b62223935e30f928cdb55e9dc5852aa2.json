@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City bastırıyor ama Ironvale direniyor",
+  "text": "Harbour City 0-1 geride ama baskıyı artırdı. Mateo Ruiz'in uzun pasından sonra Dani Kowalski top taşıyıp şut çekti, fakat savunma son anda önüne geçip topu engelledi.",
+  "cites": [
+   "e0890",
+   "e0891",
+   "e0893"
+  ]
+ }
+}

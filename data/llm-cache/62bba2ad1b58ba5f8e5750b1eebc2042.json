@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic edge Northgate Rovers 1-0",
+  "text": "Northgate Rovers had more of the ball, but Ironvale Athletic stayed tight at the back and hit them on the break. That patience paid off, and Ironvale Athletic won 1-0 at full time!",
+  "cites": [
+   "e1700"
+  ]
+ }
+}

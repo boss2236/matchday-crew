@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City perd trois ballons sans pression",
+  "text": "Personne ne les presse, et pourtant Harbour City rend trois fois le ballon ! Le bloc bas d'Ironvale Athletic coupe les passes de Yusuf Demir et Dani Kowalski. C'est 1-1, et ça se tend.",
+  "cites": [
+   "e1111",
+   "e1118",
+   "e1128"
+  ]
+ }
+}

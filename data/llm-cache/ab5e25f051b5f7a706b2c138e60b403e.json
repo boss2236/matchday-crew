@@ -1,0 +1,13 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Kowalski macht in der 90. Minute das 4-1",
+  "text": "Dani Kowalski klaut den Ball, dann zaubert Harbour City mit Mateo Ruiz blitzschnell nach vorn. Kowalski schiebt frei vor dem Tor ein, und es steht 4-1. Ein toller Schlusspunkt!",
+  "cites": [
+   "e1715",
+   "e1722",
+   "e1724",
+   "e1725"
+  ]
+ }
+}

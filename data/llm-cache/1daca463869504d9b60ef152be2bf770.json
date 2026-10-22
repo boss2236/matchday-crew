@@ -1,0 +1,10 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Harbour City s'impose 4-1 !",
+  "text": "Coup de sifflet final : Harbour City gagne 4-1 contre Ironvale Athletic ! Ils ont mis 7 tirs cadrés et ont su faire mal quand il le fallait, même sans dominer les occasions. Quelle belle victoire !",
+  "cites": [
+   "e1727"
+  ]
+ }
+}

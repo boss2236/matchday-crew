@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale Athletic가 공을 계속 빼앗습니다!",
+  "text": "Ironvale Athletic이 1-0으로 앞선 가운데, Callum Reid와 Hiro Tanaka가 연달아 공을 끊어냈어요! Northgate Rovers가 차분히 공을 돌리려 해도 쉽지 않네요.",
+  "cites": [
+   "e1341",
+   "e1356",
+   "e1363"
+  ]
+ }
+}

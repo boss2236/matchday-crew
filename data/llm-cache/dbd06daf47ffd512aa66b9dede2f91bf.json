@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Reid recupera palla, Ironvale colpisce di rimessa",
+  "text": "Callum Reid: 3 recuperi in 120 secondi (tackle e0201, intercetti e0220, e0243). Ironvale Athletic, blocco basso e PPDA 13, guida l'xG 0.89 contro 0.04 nonostante il 40 percent di possesso. Momentum -8.",
+  "cites": [
+   "e0201",
+   "e0220",
+   "e0243"
+  ]
+ }
+}

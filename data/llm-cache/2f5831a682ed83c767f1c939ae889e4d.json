@@ -1,0 +1,12 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale le roba el balón a Northgate",
+  "text": "¡Qué intensidad! Ironvale Athletic recuperó el balón 3 veces en solo 2 minutos, y Callum Reid cerró la racha con una interceptación. Northgate Rovers quiere tener la pelota, pero no la deja tranquila.",
+  "cites": [
+   "e0564",
+   "e0581",
+   "e0603"
+  ]
+ }
+}

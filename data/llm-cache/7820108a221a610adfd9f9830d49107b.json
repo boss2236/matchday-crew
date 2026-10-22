@@ -1,0 +1,15 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Okafor rouba a bola e Marchetti empata!",
+  "text": "Sami Okafor roubou a bola, Harbour City saiu a correr com passes rápidos e sem pressão, e Leo Marchetti chutou lá de longe para o golo! Está 1-1, amigo!",
+  "cites": [
+   "e0991",
+   "e0994",
+   "e0995",
+   "e0996",
+   "e0998",
+   "e0999"
+  ]
+ }
+}

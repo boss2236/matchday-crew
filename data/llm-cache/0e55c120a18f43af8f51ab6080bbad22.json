@@ -1,0 +1,14 @@
+{
+ "model": "copilot:claude-sonnet-5.5",
+ "output": {
+  "headline": "Ironvale reprend son souffle",
+  "text": "Ironvale mène 1-0. Le long ballon de Callum Reid est intercepté, mais Zeke Mbeki remet vite en retrait vers Hiro Tanaka, qui avance tranquillement. Le calme revient, comme on respire après une frayeur !",
+  "cites": [
+   "e0979",
+   "e0980",
+   "e0989",
+   "e0990",
+   "e0991"
+  ]
+ }
+}
