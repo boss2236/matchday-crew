@@ -71,7 +71,7 @@ const secondTry = live.filter((t) => t.status === 'ok' && t.detail === 'attempt 
 const rejected = live.filter((t) => t.status === 'rejected');
 const errors = live.filter((t) => t.status === 'error');
 const reasonOf = (d: string) =>
-  /should be metres/.test(d) ? 'wrong unit (km for metres)' : /^number/.test(d) ? 'number not in the evidence' : /^cited event/.test(d) ? 'cited an event not in the evidence' : /^player/.test(d) ? 'player not in the evidence' : /missing|no cited/.test(d) ? 'missing text or citations' : 'other';
+  /km should be metres/.test(d) ? 'wrong unit (km for metres)' : /yards should be metres/.test(d) ? 'wrong unit (yards for metres)' : /^number/.test(d) ? 'number not in the evidence' : /^cited event/.test(d) ? 'cited an event not in the evidence' : /^player/.test(d) ? 'player not in the evidence' : /missing|no cited/.test(d) ? 'missing text or citations' : 'other';
 const reasons: Record<string, number> = {};
 for (const r of rejected) for (const p of r.detail.split('; ')) reasons[reasonOf(p)] = (reasons[reasonOf(p)] ?? 0) + 1;
 const errorKinds: Record<string, number> = {};

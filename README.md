@@ -20,6 +20,16 @@ Built for the Microsoft x Premier League **Inside the Game** developer hackathon
 |---|---|
 | ![Momentum swing chart](docs/images/chart-momentum.png) | ![Share donut in the light theme](docs/images/chart-share.png) |
 
+**Watch it your way.** The same live match, the same crew, three ways to see it: the tactics board above, animated players, or a 3D stadium.
+
+| 3D: a goal, and the cut to the celebration | 3D: follow camera |
+|---|---|
+| ![3D view: teammates mob the scorer by the goal, with the crew's GOAL graphic](docs/images/3d-goal.jpg) | ![3D view: low camera behind the attack](docs/images/3d-follow.jpg) |
+
+| Players: the same goal in 2D | 3D in the app, with the camera picker |
+|---|---|
+| ![Players view: the scorer's team celebrates](docs/images/players-2d.jpg) | ![The app on its 3D tab, with Broadcast, Tactical and Follow cameras](docs/images/app-3d-tab.jpg) |
+
 ## What it does
 
 The hackathon asks for one pipeline with five stages. Here is where each one lives:
@@ -86,6 +96,7 @@ flowchart LR
 | **Azure AI Content Safety** | Safety agent: every model-written line is screened before it airs |
 | **Azure Application Insights** | Requests, every model and Azure AI call, a summary per match session, and errors (`src/telemetry.ts`, no SDK) |
 | **Azure Container Apps** | Hosting: scale to zero, keys as secrets, health probes (`infra/deploy.sh`) |
+| **GitHub Copilot (Copilot SDK)** | Model provider for pre-generation: every line the app ships was written through it (Claude Sonnet 5.5 for all 16 languages, Claude Opus 5.5 for the demo matches), and a GPT model through it independently reviews the crew's lines ([docs/REVIEW.md](docs/REVIEW.md)) |
 | **Microsoft Foundry** | Compatible model provider: set three values and it is used first. Request format covered by contract tests |
 | **GitHub Actions** | Type-check, tests on Node 22 and 24, web build, container build and smoke test, headless UI check, image publish |
 | **GitHub Container Registry** | Free image hosting for the Azure deploy |
@@ -100,7 +111,7 @@ Needs Node 22.18 or newer.
 npm install          # TypeScript compiler (dev only; the server has no runtime dependencies)
 npm run build        # build the Fluent UI app into web/dist
 npm start            # http://localhost:3000
-npm run check        # strict type-check of server and web app, then 57 tests
+npm run check        # strict type-check of server and web app, then 65 tests
 ```
 
 Pick a match, language, favourite club, player and a metric to follow, press **Kick off**, and switch between **Analyst** and **Casual fan** at any time. Deep links work for demos, e.g. `/?match=0&speed=60&language=Arabic&club=harbour&player=harbour-9&metric=xg&persona=casual&autostart=1`.
@@ -116,14 +127,14 @@ Copy `.env.example` to `.env` and fill in one provider:
 | Provider | Settings | Notes |
 |---|---|---|
 | Microsoft Foundry | `FOUNDRY_ENDPOINT`, `FOUNDRY_DEPLOYMENT`, `FOUNDRY_API_KEY` | Azure OpenAI compatible deployment, e.g. gpt-4o-mini. Used first when set |
-| GitHub Copilot (Copilot SDK) | `LLM_PROVIDER=copilot`, optional `COPILOT_MODEL` | Your Copilot plan, for pre-generating lines; `npm install @github/copilot-sdk` once, `node scripts/copilot-check.ts` to test. Tool use is always refused. Tested with gpt-5-mini |
+| GitHub Copilot (Copilot SDK) | `LLM_PROVIDER=copilot`, optional `COPILOT_MODEL` | Your Copilot plan, for pre-generating lines; `npm install @github/copilot-sdk` once, `node scripts/copilot-check.ts` to test. Tool use is always refused. Wrote the shipped cache with claude-sonnet-5.5 and claude-opus-5.5 |
 | Groq (free tier) | `LLM_BASE_URL`, `LLM_MODEL`, `LLM_API_KEY` | Tested end to end with `openai/gpt-oss-120b` |
 | Google Gemini, Ollama, any OpenAI-compatible API | same `LLM_*` settings | Gemini's free tier allows only 20 requests a day |
 | Azure AI Translator | `AZURE_TRANSLATOR_KEY`, `AZURE_TRANSLATOR_REGION` | Free F0 tier; tested live |
 
 Reasoning models (gpt-oss, Gemini) need `LLM_REASONING_EFFORT=low` and `LLM_MAX_TOKENS=1500`. Free tiers rate-limit; the client waits as long as the server asks and retries, and backs off on dropped connections.
 
-**Response cache.** Matches are seeded, so the same match for the same audience sends the same prompts. Answers are cached on disk by prompt hash, which makes replays instant and free, keeps the hosted demo inside free quotas, and lets the app serve real model output with no key at all. The demo match ships with model-written lines in English and Arabic.
+**Response cache.** Matches are seeded, so the same match for the same audience sends the same prompts. Answers are cached on disk by prompt hash, which makes replays instant and free, keeps the hosted demo inside free quotas, and lets the app serve real model output with no key at all. Every published match ships with model-written lines in all 16 languages for both audiences (3,300+ lines, written through GitHub Copilot with `npm run prewarm -- all all`), so the hosted demo needs no key.
 
 ### Other entry points
 
@@ -134,6 +145,7 @@ npm run generate 4                # write synthetic matches to data/
 npm run mcp                       # MCP server (stdio)
 npm run prewarm                   # pre-generate model lines for the published matches (resumable)
 npm run quality                   # write docs/QUALITY.md
+node scripts/review.ts 150        # a second model reviews aired lines: docs/REVIEW.md (Copilot)
 npm run ui-check -- "http://localhost:3000/?autostart=1&speed=60" out/ui 20   # headless UI check
 ```
 
@@ -161,11 +173,12 @@ src/live/       live session: paced events, crew queue, fixtures
 src/server/     HTTP server and SSE stream
 src/mcp/        MCP tools and stdio server
 src/a2a/        Agent2Agent card and JSON-RPC endpoint
-web/            Fluent UI React app (Vite, TypeScript)
+web/            Fluent UI React app (Vite, TypeScript); web/src/players2d/ (the players
+                simulation and 2D camera) and web/src/players3d/ (three.js stadium)
 scripts/        start, crew runner, dataset generator, MCP, pre-generation, quality report, UI check
 infra/          Azure Container Apps deploy script
 data/           published synthetic matches and the response cache
 test/           unit, contract (mock Foundry, OpenAI and Translator) and server tests
 ```
 
-Hackathon requirements and test results: [docs/HACKATHON.md](docs/HACKATHON.md). Plan to submission: [docs/ROADMAP.md](docs/ROADMAP.md).
+How it is tested, layer by layer: [docs/TESTING.md](docs/TESTING.md). Hackathon requirements and test results: [docs/HACKATHON.md](docs/HACKATHON.md). Plan to submission: [docs/ROADMAP.md](docs/ROADMAP.md).
