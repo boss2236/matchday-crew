@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Ironvale xG Edge at 0.01",
+  "text": "Ironvale sit on 0.01 xG; Silvan’s 33.3 km/h, 4.8‑m carry (e0417) boosts momentum to 80, PPDA 9.5, keeping chaos low.",
+  "cites": [
+   "e0417"
+  ]
+ }
+}

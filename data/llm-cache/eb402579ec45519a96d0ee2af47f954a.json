@@ -1,0 +1,14 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour City quick combo yields goal",
+  "text": "Okafor 13.9m carry, 15.1m pass (diff30) to Demir, 23.2m pass (diff43) to Kowalski, 29.2m pass (diff41) to Marchetti; 0.024 xG shot scores. Momentum 26, chaos 63, PPDA 9.2.",
+  "cites": [
+   "e0993",
+   "e0994",
+   "e0995",
+   "e0996",
+   "e0998"
+  ]
+ }
+}

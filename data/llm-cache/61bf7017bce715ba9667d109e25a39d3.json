@@ -1,0 +1,11 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "イタレヴァレの混沌と低xG",
+  "text": "Luca Romeroのプレッシャー下パスはアウト、続くZeke Mbekiの31.5m射出はxG0.008、混沌度69。",
+  "cites": [
+   "e1635",
+   "e1650"
+  ]
+ }
+}

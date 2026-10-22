@@ -1122,8 +1122,13 @@ html[data-view='studio-pitch'] body {
   .stage-bar {
     order: 1;
   }
-  .pitch-wrap {
+  .view-tabs,
+  .pitch-wrap,
+  .players-view {
     order: 2;
+  }
+  .players-view {
+    width: 100%;
   }
   .ticker {
     order: 3;

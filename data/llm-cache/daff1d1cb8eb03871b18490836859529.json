@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Zero xG, Northgate press dominates",
+  "text": "Ironvale Athletic at 0 xG; Northgate’s 70% possession yields a risky 48‑difficulty pass intercepted (e0099) after a 43‑difficulty forward link (e0097‑e0098).",
+  "cites": [
+   "e0097",
+   "e0098",
+   "e0099"
+  ]
+ }
+}

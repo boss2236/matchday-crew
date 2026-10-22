@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "xG Highlights Rovers' Threat",
+  "text": "Rovers' 0.39 xG shot from 4 m (unpressured) underscores Ironvale's deep block; our 0.01 xG reflects limited chances, momentum -23 favors Rovers.",
+  "cites": [
+   "e0461"
+  ]
+ }
+}

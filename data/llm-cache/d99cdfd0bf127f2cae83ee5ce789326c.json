@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "アイアンベイルのカウンターが光る",
+  "text": "Zeke Mbekiの4.4メートルからのシュートはセーブされたけど、相手より多く攻めて0-1リードです。",
+  "cites": [
+   "e0651"
+  ]
+ }
+}

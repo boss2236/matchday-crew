@@ -15,13 +15,13 @@ Each published match replayed from the response cache, for analyst and casual fa
 | HBC v IVA (seed 7) | Portuguese | 54 | 54 (100%) | 0 | 0 |
 | HBC v IVA (seed 7) | German | 54 | 54 (100%) | 0 | 0 |
 | HBC v IVA (seed 7) | Italian | 54 | 54 (100%) | 0 | 0 |
-| HBC v IVA (seed 7) | Turkish | 54 | 53 (98.1%) | 1 | 0 |
+| HBC v IVA (seed 7) | Turkish | 54 | 54 (100%) | 0 | 0 |
 | HBC v IVA (seed 7) | Hindi | 54 | 54 (100%) | 0 | 0 |
 | HBC v IVA (seed 7) | Bengali | 54 | 54 (100%) | 0 | 0 |
 | HBC v IVA (seed 7) | Urdu | 54 | 54 (100%) | 0 | 0 |
 | HBC v IVA (seed 7) | Indonesian | 54 | 27 (50%) | 27 | 0 |
 | HBC v IVA (seed 7) | Swahili | 54 | 2 (3.7%) | 52 | 0 |
-| HBC v IVA (seed 7) | Japanese | 54 | 2 (3.7%) | 52 | 0 |
+| HBC v IVA (seed 7) | Japanese | 54 | 54 (100%) | 0 | 0 |
 | HBC v IVA (seed 7) | Korean | 54 | 2 (3.7%) | 52 | 0 |
 | HBC v IVA (seed 7) | Chinese (Simplified) | 54 | 2 (3.7%) | 52 | 0 |
 | IVA v NGR (seed 8) | English | 40 | 40 (100%) | 0 | 0 |
@@ -72,7 +72,7 @@ Each published match replayed from the response cache, for analyst and casual fa
 | SMU v HBC (seed 10) | Japanese | 50 | 50 (100%) | 0 | 0 |
 | SMU v HBC (seed 10) | Korean | 50 | 50 (100%) | 0 | 0 |
 | SMU v HBC (seed 10) | Chinese (Simplified) | 50 | 50 (100%) | 0 | 0 |
-| **All** | | **3008** | **2597 (86.3%)** | **411** | **0** |
+| **All** | | **3008** | **2650 (88.1%)** | **358** | **0** |
 
 Matches and languages not yet pre-generated are filled live when a model key is configured (`npm run prewarm`).
 
@@ -110,16 +110,16 @@ Latency of accepted model calls:
 
 ## 3. Fact checker tamper test
 
-Every accepted model line (4037) was corrupted in each way below and run back through the verifier. A caught line would never air.
+Every accepted model line (4090) was corrupted in each way below and run back through the verifier. A caught line would never air.
 
 | Corruption | Lines tried | Caught |
 |---|---|---|
-| shifted number | 3823 | 3565 (93.3%) |
-| shifted whole number | 2897 | 2370 (81.8%) |
-| invented number | 4037 | 4037 (100%) |
-| metres written as km | 579 | 506 (87.4%) |
-| player not in the evidence | 4037 | 4037 (100%) |
-| fake cited event | 4037 | 4037 (100%) |
-| no citations | 4037 | 4037 (100%) |
+| shifted number | 3871 | 3613 (93.3%) |
+| shifted whole number | 2931 | 2393 (81.6%) |
+| invented number | 4090 | 4090 (100%) |
+| metres written as km | 598 | 525 (87.8%) |
+| player not in the evidence | 4090 | 4090 (100%) |
+| fake cited event | 4090 | 4090 (100%) |
+| no citations | 4090 | 4090 (100%) |
 
 Known limit: the checker verifies numbers, units of distance, player names and cited events. It does not judge tone or whether a claim about cause is fair.

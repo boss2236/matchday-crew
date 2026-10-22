@@ -175,6 +175,26 @@ test('Translator agent localises template lines for non-English audiences and ke
   assert.ok(crew2.trace.some((r) => r.agent === 'Translator' && r.status === 'rejected'));
 });
 
+test('Translator agent translates an English headline left over a model line in another script', async () => {
+  const fake = (texts: string[], lang: string) => texts.map((s) => `[${lang}] ${s}`);
+  const japanese = model((req) => {
+    const line = groundedFromPack(evidenceOf(req)) as { text: string };
+    return { ...line, text: `試合の流れが変わった。とても大事な場面です。${line.text}` };
+  }, 'ja-text');
+  const crew = await runCrew(japanese, fake, [{ id: 'casual', persona: 'casual', language: 'Japanese' }]);
+  const lines = crew.feed.filter((f) => f.source === 'model');
+  assert.ok(lines.length > 0 && lines.every((f) => f.headline.startsWith('[Japanese]')), 'headlines follow the text into Japanese');
+  assert.ok(lines.every((f) => f.text.startsWith('試合')), 'the model-written text is kept');
+
+  // A line left wholly in English for a Japanese viewer is translated whole; Spanish (same script) is left alone.
+  const english = model((req) => groundedFromPack(evidenceOf(req)), 'en-only');
+  const ja = await runCrew(english, fake, [{ id: 'casual', persona: 'casual', language: 'Japanese' }]);
+  const jaLines = ja.feed.filter((f) => f.source === 'model');
+  assert.ok(jaLines.length > 0 && jaLines.every((f) => f.headline.startsWith('[Japanese]') && f.text.startsWith('[Japanese]')));
+  const es = await runCrew(english, fake, [{ id: 'casual', persona: 'casual', language: 'Spanish' }]);
+  assert.ok(es.feed.filter((f) => f.source === 'model').every((f) => !f.text.startsWith('[')));
+});
+
 // GitHub Copilot provider, with a fake SDK: no network, no Copilot allowance used.
 test('copilot: one session per call, every tool request rejected, JSON parsed', async () => {
   const { CopilotChat, copilotConfigFromEnv, parseJsonReply } = await import('../src/ai/copilot.ts');

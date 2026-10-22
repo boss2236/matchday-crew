@@ -1,0 +1,11 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour City lose shape under pressure",
+  "text": "After Mateo Ruiz’s 33.5 m backward pass (e1451), Rui Barros’ pressured 19.1 m pass was intercepted (e1453); momentum 32, chaos 52, Harbour City’s xG 0.41 vs Ironvale 1.68.",
+  "cites": [
+   "e1451",
+   "e1453"
+  ]
+ }
+}

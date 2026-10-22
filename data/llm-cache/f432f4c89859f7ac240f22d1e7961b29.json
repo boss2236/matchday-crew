@@ -1,0 +1,13 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour City’s last gasp",
+  "text": "Harbour City is pressing hard after going down 0-1, Ruiz’s long pass set up Kowalski’s run and a close‑range shot that was blocked.",
+  "cites": [
+   "e0887",
+   "e0890",
+   "e0891",
+   "e0893"
+  ]
+ }
+}

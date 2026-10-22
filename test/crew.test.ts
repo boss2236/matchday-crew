@@ -101,6 +101,18 @@ test('rate limits are retried after the delay the server asks for', async () => 
   assert.equal(retryDelayMs({ headers: new Headers({ 'retry-after': '3' }) }), 3250);
 });
 
+test('counts of the evidence are evidence: five passes may be written as 5, not 6', async () => {
+  const { verify, eventCounts } = await import('../src/agents/evidence.ts');
+  const { MatchState } = await import('../src/stats/matchState.ts');
+  const { simulateMatch } = await import('../src/engine/simulate.ts');
+  const state = new MatchState(simulateMatch({ seed: 7 }).meta);
+  const pass = (i: number) => ({ id: `e${i}`, clock: '10:00', minute: 10, type: 'pass', team: 'Harbour City' });
+  const pack = { moment: { id: 'm1', type: 'momentum_shift' }, events: [1, 2, 3, 4, 5].map(pass), match: {} } as never;
+  assert.ok(eventCounts(pack).has(5));
+  assert.ok(verify({ text: 'Harbour City string 5 passes together', cites: ['e1'] }, pack, state).ok);
+  assert.deepEqual(verify({ text: 'Harbour City string 6 passes together', cites: ['e1'] }, pack, state).problems, ['number 6 is not in the evidence']);
+});
+
 test('signed numbers are checked by size: away momentum -27 may be written as 27', async () => {
   const { verify } = await import('../src/agents/evidence.ts');
   const { MatchState } = await import('../src/stats/matchState.ts');

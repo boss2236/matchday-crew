@@ -140,6 +140,19 @@ function pickStats(t: TeamSnapshot): PackStats {
 }
 
 // Collect every number that appears anywhere in the evidence pack.
+// How many events the pack holds: in all, of each type, and of each type per team.
+export function eventCounts(pack: EvidencePack): Set<number> {
+  const counts = new Map<string, number>();
+  const bump = (k: string) => counts.set(k, (counts.get(k) ?? 0) + 1);
+  for (const e of pack.events ?? []) {
+    bump('all');
+    bump(e.type);
+    bump(`${e.team}:${e.type}`);
+    bump(`${e.team}`);
+  }
+  return new Set(counts.values());
+}
+
 export function allowedNumbers(pack: unknown): Set<string> {
   const nums = new Set<string>();
   const visit = (v: unknown): void => {
@@ -274,6 +287,9 @@ export function verify(
   const problems: string[] = [];
   const answer = (output && typeof output === 'object' ? output : {}) as Record<string, unknown>;
   const nums = allowedNumbers(pack);
+  // Counting the evidence is evidence too: "five unpressured passes" for a pack
+  // with five passes, which a translation writes as the digit 5.
+  for (const n of eventCounts(pack)) nums.add(String(n));
   const evidenceIds = new Set(pack.events.map((e) => e.id));
   const knownNames = new Set<string>(LEAGUE_NAMES);
   for (const p of state.players.values()) knownNames.add(p.name);

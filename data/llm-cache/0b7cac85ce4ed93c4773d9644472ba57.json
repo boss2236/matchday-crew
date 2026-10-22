@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "アイアンベイル、カウンターでリード",
+  "text": "アイアンベイルは1.63 xGで先制、Harbour Cityは0.27 xG、最終3区間侵入は28回、PPDAは9.8、モメンタム24で優位。",
+  "cites": [
+   "e0897"
+  ]
+ }
+}

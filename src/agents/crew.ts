@@ -46,6 +46,9 @@ const PERSONAS: Record<Persona, string> = {
     'a casual fan. Use plain, warm, exciting language, no jargon, at most one number, and explain things like you would to a friend on the sofa.',
 };
 
+// Languages written in another script than English (Translator codes).
+const OTHER_SCRIPT = new Set(['ar', 'hi', 'bn', 'ur', 'ja', 'ko', 'zh-Hans']);
+
 const CITE_RULE = 'Cite only event ids from the evidence "events" list (they look like e0123). Moment ids (m012) are not events.';
 
 const OVERLAY_BY_TYPE: Partial<Record<MomentType, Omit<OverlaySpec, 'showAt' | 'data'>>> = {
@@ -306,6 +309,7 @@ export class Crew {
   // for another language, and keep it only if the translation still verifies.
   async localize(line: SourcedLine, audience: Audience, pack: EvidencePack): Promise<SourcedLine> {
     const code = languageCode(audience.language);
+    if (line.source === 'model') return this.localizeHeadline(line, audience, pack);
     if ((line.source !== 'template' && line.source !== 'insight') || !this.translator || !code || code === 'en') return line;
     const started = Date.now();
     try {
@@ -318,6 +322,29 @@ export class Crew {
       }
       this.log('Translator', pack.moment.id, 'ok', `to ${audience.language}`, Date.now() - started);
       return translated;
+    } catch (err) {
+      this.log('Translator', pack.moment.id, 'error', errorMessage(err), Date.now() - started);
+      return line;
+    }
+  }
+
+  // For languages in another script (Arabic, Hindi, Japanese...), a model now and
+  // then leaves the headline in English, or the whole line. Translate what was left
+  // in English; the line stays model-written and is checked again.
+  async localizeHeadline(line: SourcedLine, audience: Audience, pack: EvidencePack): Promise<SourcedLine> {
+    const code = languageCode(audience.language);
+    if (!this.translator || !code || !OTHER_SCRIPT.has(code)) return line;
+    const native = (s: string) => (s.match(/[^\x00-\x7F\u00C0-\u024F\u2010-\u2015]/g) ?? []).length;
+    const fields = native(line.text) === 0 ? (['headline', 'text'] as const) : native(line.headline) === 0 ? (['headline'] as const) : [];
+    if (!fields.length) return line;
+    const started = Date.now();
+    try {
+      const out = await this.translator.translate(fields.map((f) => line[f]), audience.language);
+      const translated = { ...line };
+      fields.forEach((f, i) => (translated[f] = out[i] ?? line[f]));
+      const check = verify(translated, pack, this.state);
+      this.log('Translator', pack.moment.id, check.ok ? 'ok' : 'rejected', check.ok ? `${fields.join(' and ')} to ${audience.language}` : check.problems.join('; '), Date.now() - started);
+      return check.ok ? translated : line;
     } catch (err) {
       this.log('Translator', pack.moment.id, 'error', errorMessage(err), Date.now() - started);
       return line;

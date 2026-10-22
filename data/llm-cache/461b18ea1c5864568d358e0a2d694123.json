@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "0.01 xG, Silvan’s sprint thrills!",
+  "text": "Our xG sits at 0.01 and Marco Silvan’s 34.2 km/h run at minute 18 shows Ironvale’s quick counter, giving us hope against Northgate’s pressure.",
+  "cites": [
+   "e0315"
+  ]
+ }
+}

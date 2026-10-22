@@ -1,0 +1,14 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour Cityが勢いを掴む",
+  "text": "0-1で追い込まれたが、37分に連続パスでリズム上げた。Marchettiの60.3mパスは奪われ、Pikeの40mパスはアウト。",
+  "cites": [
+   "e0722",
+   "e0723",
+   "e0724",
+   "e0725",
+   "e0734"
+  ]
+ }
+}

@@ -1,0 +1,15 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Silvan’s sprint sparks Ironvale counter",
+  "text": "Marco Silvan’s 34.2 km/h run covering 11.7 m at minute 18 illustrates Ironvale’s deep‑block, direct‑counter style, injecting pace that challenges the 52 chaos level and begins to offset the -11 momentum shift.",
+  "tags": [
+   "counter",
+   "speed",
+   "momentum"
+  ],
+  "cites": [
+   "e0315"
+  ]
+ }
+}

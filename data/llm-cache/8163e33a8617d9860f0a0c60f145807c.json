@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Ironvale counters exploit Harbour press",
+  "text": "Ironvale’s 48% possession, 1.63 xG vs 0.16, PPDA 11.2 vs 8.5; Mbeki’s 4.4 m unpressured 0.459 xG shot saved, momentum -90.",
+  "cites": [
+   "e0651"
+  ]
+ }
+}

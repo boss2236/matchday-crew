@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Harbour City press fuels finishing",
+  "text": "PPDA 8.5, 7 shots on target and 12 total shots yielded 4 goals despite xG 1.26 vs 1.76, shifting momentum to 75.",
+  "cites": [
+   "e1727"
+  ]
+ }
+}

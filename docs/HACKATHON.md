@@ -2,7 +2,7 @@
 
 Microsoft x Premier League **Inside the Game** developer hackathon. Source: [official rules](https://github.com/microsoft/insidethegamehackathon/blob/main/OFFICIAL%20RULES.md).
 
-Last updated 2026-10-19 (second pass: web app, Azure Translator, Container Apps deploy, MCP server, CI).
+Last updated 2026-10-23 (third pass: Players and 3D views, GitHub Copilot SDK pre-generation in all 16 languages, independent review, testing guide). Earlier: web app, Azure Translator, Container Apps deploy, MCP server, CI.
 
 ## Key dates
 
@@ -54,7 +54,7 @@ Fixes from this pass: recap prompt cut by about 70% (no more 413), dropped conne
 
 Other settings (favourite club, player, metric, other languages, other matches) are generated live when a model key is set and cached from then on; without a key they fall back to the Tactician's AI line or a template.
 
-Known limitation: the fact checker verifies numbers, names and cited events, not units. One cached line says "8.7 km carry" where the evidence is 8.7 m.
+Since fixed: the fact checker now checks units too (km and yards written for metres are rejected), and the line was regenerated. Current numbers for every match and language: [QUALITY.md](QUALITY.md); a second model's review: [REVIEW.md](REVIEW.md).
 
 ## Challenge requirements (rules 4.1)
 
@@ -102,7 +102,7 @@ Best category fit: **Best Multi-Agent System** (distinct agents, shared state, h
 | GitHub Actions | Strict type-check, tests on Node 22 and 24, web build, container build and smoke test, headless UI check, image publish | Runs on every push |
 | GitHub Container Registry | Free image hosting for the deploy | Runs on push to main |
 | MCP | Match tools for GitHub Copilot agent mode and other MCP clients | Built and tested |
-| GitHub Copilot | Mention in the pitch if used while building | Up to you |
+| GitHub Copilot SDK | Model provider for pre-generation: every shipped line in all 16 languages (Claude Sonnet 5.5 and Opus 5.5), and the independent review (GPT-6.1) | Used; see QUALITY.md and REVIEW.md |
 
 ## Risks and open work, by priority
 

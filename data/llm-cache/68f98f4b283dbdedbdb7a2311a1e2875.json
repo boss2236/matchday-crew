@@ -1,0 +1,10 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "Ironvale xG edge at 0.01",
+  "text": "xG 0.01 vs 0; Silvan’s 34.2 km/h, 11.7 m carry at 18′ fuels deep‑block counter, PPDA 11.2, momentum -11.",
+  "cites": [
+   "e0315"
+  ]
+ }
+}

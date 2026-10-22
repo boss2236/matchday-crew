@@ -19,6 +19,10 @@ import { useBrowserVoices, useVoice, voiceSupport } from './useVoice.ts';
 
 type View = 'board' | 'players' | '3d';
 
+// The server's model label, short enough for the footer: 'model "x" at https://host/v1' -> 'x (host)'.
+const modelName = (label: string) =>
+  label.replace(/^model "([^"]+)" at https?:\/\/([^/]+).*$/, '$1 ($2)').replace(/^Microsoft Foundry deployment "([^"]+)"$/, '$1 on Microsoft Foundry');
+
 export default function App({ theme, onToggleTheme }: { theme: ThemeName; onToggleTheme: () => void }) {
   const [config, setConfig] = useState<AppConfig | null>(null);
   const [configError, setConfigError] = useState<string | null>(null);
@@ -210,7 +214,7 @@ export default function App({ theme, onToggleTheme }: { theme: ThemeName; onTogg
 
       <footer className="foot">
         <Text size={200}>
-          Model: {config?.model ?? 'none (templates)'} · Translator: {config?.translator ? 'Azure AI Translator' : 'off'} · Voice:{' '}
+          Model: {config?.model ? modelName(config.model) : 'none (templates)'} · Translator: {config?.translator ? 'Azure AI Translator' : 'off'} · Voice:{' '}
           {config?.speech ? 'Azure AI Speech' : 'browser'} · Safety: {config?.safety ? 'Azure AI Content Safety' : 'off'}
         </Text>
         <Text size={200}>All clubs, players and matches are synthetic. Not affiliated with any real league.</Text>

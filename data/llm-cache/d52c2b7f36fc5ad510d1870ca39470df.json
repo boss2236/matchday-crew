@@ -1,0 +1,12 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "xG stays at 0, Ironvale pressing",
+  "text": "xG is still zero but Ironvale’s passes are building chances – Lusk to Bamidele and then a big swing to Tanaka shows promise.",
+  "cites": [
+   "e0188",
+   "e0194",
+   "e0195"
+  ]
+ }
+}

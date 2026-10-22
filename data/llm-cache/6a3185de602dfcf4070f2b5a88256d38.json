@@ -1,0 +1,13 @@
+{
+ "model": "openai:openai/gpt-oss-120b",
+ "output": {
+  "headline": "ハーバーシティの高圧コンビ",
+  "text": "Ruizが26.9m、難易度46のパスでKowalskiへ供給、Kowalskiが15.1m・難易度33の逆パス後、0.79 xGの2.5mシュートで得点、モメンタム60。",
+  "cites": [
+   "e1718",
+   "e1720",
+   "e1722",
+   "e1724"
+  ]
+ }
+}
