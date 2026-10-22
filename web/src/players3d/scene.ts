@@ -116,7 +116,14 @@ function labelSprite(text: string) {
   return sprite;
 }
 
+// Broadcast: high on the near side at halfway. Tactical: high above, most of the
+// pitch in view. Follow: low behind the team with the ball, looking at the goal
+// it attacks.
+export type CameraMode = 'broadcast' | 'tactical' | 'follow';
+
 export class Scene3D {
+  cameraMode: CameraMode = 'broadcast';
+  camAt = new THREE.Vector3();
   renderer: THREE.WebGLRenderer;
   scene = new THREE.Scene();
   camera = new THREE.PerspectiveCamera(30, 16 / 9, 1, 600);
@@ -127,7 +134,6 @@ export class Scene3D {
   label: THREE.Sprite | null = null;
   labelFor = '';
   camX = 0;
-  zoom = 1;
   w = 0;
   h = 0;
 
@@ -201,6 +207,7 @@ export class Scene3D {
     this.ballShadow = new THREE.Mesh(new THREE.CircleGeometry(0.28, 16), new THREE.MeshBasicMaterial({ color: '#000', transparent: true, opacity: 0.3 }));
     this.ballShadow.rotation.x = -Math.PI / 2;
     this.scene.add(this.ballShadow);
+    this.camera.position.set(0, 24, sz(WIDTH) + 42);
     this.resize();
   }
 
@@ -381,19 +388,51 @@ export class Scene3D {
     const tagged = world.byId.get(this.labelFor);
     if (this.label && tagged) this.label.position.set(sx(tagged.x), 3.3 * SIZE, sz(tagged.y));
 
-    // Broadcast camera: high on the near side at halfway, panning to follow the
-    // ball and closing in on a goal.
-    const goalCam = world.celebrate && world.clock - (world.netHit?.t ?? -99) < 8;
-    this.zoom += ((goalCam ? 1.6 : 1) - this.zoom) * Math.min(1, dt * 1.5);
+    this.aim(world, dt);
+    this.renderer.render(this.scene, this.camera);
+  }
+
+  aim(world: World, dt: number) {
+    const b = world.ball;
     const narrow = this.w && this.w < 520;
     const wantX = clamp(sx(b.x), -LENGTH / 2 + 14, LENGTH / 2 - 14);
     this.camX += (wantX - this.camX) * Math.min(1, dt * 2.2);
-    // Field of view narrows to zoom, so the camera itself stays on its gantry.
-    this.camera.fov = (narrow ? 34 : 24) / this.zoom;
+    const ballZ = clamp(sz(b.y), -20, 20);
+
+    // After a goal the director cuts to a low, close shot of the scorer's
+    // celebration, then back to the chosen camera.
+    const scorer = world.celebrate?.scorer ? world.byId.get(world.celebrate.scorer) : undefined;
+    if (scorer && world.clock - (world.netHit?.t ?? -99) < 9) {
+      const towards = world.netHit && world.netHit.x > 0 ? 1 : -1;
+      const at = new THREE.Vector3(sx(scorer.x), 1.4, sz(scorer.y));
+      this.camera.fov = narrow ? 50 : 38;
+      this.camera.position.set(at.x - towards * 9, 4.6, at.z + 12);
+      this.camAt.copy(at);
+    } else {
+      let pos: THREE.Vector3, at: THREE.Vector3, fov: number;
+      if (this.cameraMode === 'tactical') {
+        fov = narrow ? 52 : 38;
+        pos = new THREE.Vector3(this.camX * 0.55, 78, 48);
+        at = new THREE.Vector3(this.camX * 0.55, 0, 2);
+      } else if (this.cameraMode === 'follow') {
+        const dir = !world.possession || world.attacksRight(world.possession) ? 1 : -1;
+        fov = narrow ? 60 : 46;
+        pos = new THREE.Vector3(sx(b.x) - dir * 22, 9, ballZ * 0.6);
+        at = new THREE.Vector3(sx(b.x) + dir * 18, 0, ballZ * 0.4);
+      } else {
+        // Broadcast: high on the near side at halfway, panning with the ball.
+        fov = narrow ? 34 : 24;
+        pos = new THREE.Vector3(this.camX * 0.9, 24, sz(WIDTH) + 42);
+        at = new THREE.Vector3(this.camX, 0, ballZ * 0.45 - 1);
+      }
+      // Glide between shots rather than jumping (the goal cut above is a hard cut).
+      const k = Math.min(1, dt * 3);
+      this.camera.fov += (fov - this.camera.fov) * k;
+      this.camera.position.lerp(pos, k);
+      this.camAt.lerp(at, k);
+    }
     this.camera.updateProjectionMatrix();
-    this.camera.position.set(this.camX * 0.9, 24, sz(WIDTH) + 42);
-    this.camera.lookAt(this.camX, 0, clamp(sz(b.y), -20, 20) * 0.45 - 1);
-    this.renderer.render(this.scene, this.camera);
+    this.camera.lookAt(this.camAt);
   }
 
   dispose() {

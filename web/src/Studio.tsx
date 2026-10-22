@@ -13,6 +13,7 @@ import { useLiveMatch } from './useLiveMatch.ts';
 import { OverlayLayer, useOverlays } from './components/Overlays.tsx';
 import { PitchSvg } from './components/Pitch.tsx';
 import PlayersView from './components/PlayersView.tsx';
+import type { CameraMode } from './components/PlayersView.tsx';
 import { useVoice } from './useVoice.ts';
 import { useTeamColors } from './teamColors.ts';
 
@@ -66,7 +67,15 @@ export default function Studio() {
       )}
       {players && (
         <div className="studio-stage">
-          <PlayersView mode={bg === '3d' ? '3d' : '2d'} meta={live.meta} subscribe={live.subscribe} eventLog={live.eventLog} idle={false} />
+          <PlayersView
+            mode={bg === '3d' ? '3d' : '2d'}
+            initialCamera={q.get('cam') === 'tactical' || q.get('cam') === 'follow' ? (q.get('cam') as CameraMode) : 'broadcast'}
+            cameraPicker={false}
+            meta={live.meta}
+            subscribe={live.subscribe}
+            eventLog={live.eventLog}
+            idle={false}
+          />
           <span className="studio-label">Synthetic match · simulated feed</span>
         </div>
       )}
