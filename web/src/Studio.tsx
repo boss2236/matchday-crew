@@ -12,6 +12,7 @@ import type { AppConfig, Persona } from '../../src/types.ts';
 import { useLiveMatch } from './useLiveMatch.ts';
 import { OverlayLayer, useOverlays } from './components/Overlays.tsx';
 import { PitchSvg } from './components/Pitch.tsx';
+import PlayersView from './components/PlayersView.tsx';
 import { useVoice } from './useVoice.ts';
 import { useTeamColors } from './teamColors.ts';
 
@@ -22,12 +23,12 @@ export default function Studio() {
   const live = useLiveMatch();
   const items = useMemo(() => live.items.filter((i) => i.audience === persona), [live.items, persona]);
   const { active, highlight } = useOverlays(items);
-  // The match picture is the default; transparent and green are opt-in.
-  const bg = q.get('bg') === 'transparent' || q.get('bg') === 'green' ? q.get('bg') : 'pitch';
+  // The match picture is the default; animated players, transparent and green are opt-in.
+  const bg = q.get('bg') === 'transparent' || q.get('bg') === 'green' || q.get('bg') === 'players' ? q.get('bg') : 'pitch';
   const [azureVoice, setAzureVoice] = useState(false);
 
   useEffect(() => {
-    document.documentElement.dataset.view = bg === 'green' ? 'studio-green' : bg === 'pitch' ? 'studio-pitch' : 'studio';
+    document.documentElement.dataset.view = bg === 'green' ? 'studio-green' : bg === 'pitch' || bg === 'players' ? 'studio-pitch' : 'studio';
     fetch('api/config')
       .then((r) => r.json())
       .then((config: AppConfig) => {
@@ -49,7 +50,7 @@ export default function Studio() {
   // OBS's browser source exposes window.obsstudio. Anywhere else, show how to
   // use the page and a checkerboard so the transparent background is obvious.
   const inObs = 'obsstudio' in window;
-  const preview = !inObs && bg !== 'green' && bg !== 'pitch';
+  const preview = !inObs && bg !== 'green' && bg !== 'pitch' && bg !== 'players';
 
   const m = live.snap?.momentum ?? 0;
   // The broadcast view always sits on the dark pitch: the dark-surface club colours.
@@ -59,6 +60,12 @@ export default function Studio() {
       {bg === 'pitch' && (
         <div className="studio-stage">
           <PitchSvg meta={live.meta} trail={live.trail} events={live.events} highlight={highlight} players={live.players} onBall={live.onBall} focus={q.get('player')} />
+          <span className="studio-label">Synthetic match · simulated feed</span>
+        </div>
+      )}
+      {bg === 'players' && (
+        <div className="studio-stage">
+          <PlayersView meta={live.meta} subscribe={live.subscribe} eventLog={live.eventLog} idle={false} />
           <span className="studio-label">Synthetic match · simulated feed</span>
         </div>
       )}

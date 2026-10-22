@@ -16,6 +16,8 @@ export interface Settings {
 }
 
 const SPEEDS: [value: string, label: string][] = [
+  ['1', 'Real time (90 min)'],
+  ['3', '3× (30 min)'],
   ['10', '10× (9 min)'],
   ['20', '20× (4.5 min)'],
   ['60', '60× (1.5 min)'],

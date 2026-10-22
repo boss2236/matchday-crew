@@ -201,6 +201,28 @@ html[data-theme='light'] body {
   box-shadow: var(--shadow16);
   background: #0d3b23;
 }
+.players-view {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  border-radius: var(--borderRadiusXLarge);
+  overflow: hidden;
+  box-shadow: var(--shadow16);
+  background: #0d1626;
+}
+.players-view canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.players-idle {
+  position: absolute;
+  inset: auto 16px 16px;
+  color: #fff;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+}
+.view-tabs {
+  margin-bottom: 8px;
+}
 .pitch {
   display: block;
   width: 100%;
@@ -840,6 +862,13 @@ html[data-view='studio-pitch'] body {
   height: auto;
   max-height: 100vh;
 }
+.studio-stage .players-view {
+  position: absolute;
+  inset: 0;
+  aspect-ratio: auto;
+  border-radius: 0;
+  box-shadow: none;
+}
 .studio-label {
   position: absolute;
   right: 3%;
@@ -1148,5 +1177,10 @@ html[data-view='studio-pitch'] body {
   }
   .score-row {
     gap: 8px;
+  }
+}
+@media (max-width: 640px) {
+  .players-view {
+    aspect-ratio: 4 / 3;
   }
 }
