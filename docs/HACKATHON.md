@@ -77,7 +77,7 @@ Since fixed: the fact checker now checks units too (km and yards written for met
 | Public GitHub repo, created after the hackathon started | Done |
 | Short pitch: what it is, which Microsoft and Azure tech, what problem it solves | Done: project page on the Hackathon Website (category, pitch, tech, testing instructions) |
 | Demo video under 2 minutes, public on YouTube or Vimeo, no third-party music or trademarks | Ready: `V7-players-and-3d.mp4`, 1:58.6. Narration is an Azure AI Speech neural voice, the music was generated for the video. **To do: upload to YouTube, add the link to the project page** |
-| Link for judges to test the project, free and unrestricted until Nov 10 | Done: <https://nutmeg-desk.wittyriver-692c9025.switzerlandnorth.azurecontainerapps.io>, no login, one replica kept warm until judging ends |
+| Link for judges to test the project, free and unrestricted until Nov 10 | Done: on the project page only (not in the repo), no login, one replica kept warm until judging ends |
 | All materials in English | Done |
 
 ## Judging
