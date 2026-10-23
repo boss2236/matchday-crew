@@ -4,6 +4,8 @@ A multi-agent AI broadcast crew that turns a live stream of synthetic football e
 
 Built for the Microsoft x Premier League **Inside the Game** developer hackathon. Written in **TypeScript** end to end, with a **Fluent UI** second-screen app.
 
+**Watch the demo:** [youtu.be/cQJJiazjgoA](https://youtu.be/cQJJiazjgoA) (1:59). **Try it live:** [nutmeg-desk.wittyriver-692c9025.switzerlandnorth.azurecontainerapps.io](https://nutmeg-desk.wittyriver-692c9025.switzerlandnorth.azurecontainerapps.io) (hosted on Azure Container Apps; pick a language, then *Players* or *3D*, and kick off).
+
 > All data is synthetic. The clubs, players and matches are made up. No real league data, footage or branding is used.
 
 ![Nutmeg Desk: analyst view with player focus and a followed metric](docs/images/analyst.png)
@@ -93,11 +95,11 @@ flowchart LR
 | **Fluent UI React v9** | Second-screen app: Microsoft's design system, light and dark themes |
 | **Azure AI Translator** | Translator agent for any line that falls back to English |
 | **Azure AI Speech** | Voice commentary with a neural voice per language |
-| **Azure AI Content Safety** | Safety agent: every model-written line is screened before it airs |
-| **Azure Application Insights** | Requests, every model and Azure AI call, a summary per match session, and errors (`src/telemetry.ts`, no SDK) |
-| **Azure Container Apps** | Hosting: scale to zero, keys as secrets, health probes (`infra/deploy.sh`) |
+| **Azure AI Content Safety** | Safety agent: every model-written line is screened before it airs (on the free F0 tier in the hosted app) |
+| **Azure Application Insights** | Requests, every model and Azure AI call, a summary per match session, and errors (`src/telemetry.ts`, no SDK); on in the hosted app |
+| **Azure Container Apps** | Hosting: scale to zero, keys as secrets, health probes. `infra/deploy.sh` creates and connects every Azure AI resource itself, so no key is copied by hand |
 | **GitHub Copilot (Copilot SDK)** | Model provider for pre-generation: every line the app ships was written through it (Claude Sonnet 5.5 for all 16 languages, Claude Opus 5.5 for the demo matches), and a GPT model through it independently reviews the crew's lines ([docs/REVIEW.md](docs/REVIEW.md)) |
-| **Microsoft Foundry** | Compatible model provider: set three values and it is used first. Request format covered by contract tests |
+| **Microsoft Foundry** | The hosted app's live model: a gpt-4.1-mini Global Standard deployment writes every line the cache does not have yet (a favourite player, a followed metric). Set three values, or `FOUNDRY_MODEL` in the deploy script, and it is used first |
 | **GitHub Actions** | Type-check, tests on Node 22 and 24, web build, container build and smoke test, headless UI check, image publish |
 | **GitHub Container Registry** | Free image hosting for the Azure deploy |
 | **Model Context Protocol** | MCP server so GitHub Copilot agent mode can query matches and ask the crew to explain moments |
@@ -126,7 +128,7 @@ Copy `.env.example` to `.env` and fill in one provider:
 
 | Provider | Settings | Notes |
 |---|---|---|
-| Microsoft Foundry | `FOUNDRY_ENDPOINT`, `FOUNDRY_DEPLOYMENT`, `FOUNDRY_API_KEY` | Azure OpenAI compatible deployment, e.g. gpt-4o-mini. Used first when set |
+| Microsoft Foundry | `FOUNDRY_ENDPOINT`, `FOUNDRY_DEPLOYMENT`, `FOUNDRY_API_KEY` | Azure OpenAI compatible deployment, e.g. gpt-4.1-mini (what the hosted app uses). Used first when set |
 | GitHub Copilot (Copilot SDK) | `LLM_PROVIDER=copilot`, optional `COPILOT_MODEL` | Your Copilot plan, for pre-generating lines; `npm install @github/copilot-sdk` once, `node scripts/copilot-check.ts` to test. Tool use is always refused. Wrote the shipped cache with claude-sonnet-5.5 and claude-opus-5.5 |
 | Groq (free tier) | `LLM_BASE_URL`, `LLM_MODEL`, `LLM_API_KEY` | Tested end to end with `openai/gpt-oss-120b` |
 | Google Gemini, Ollama, any OpenAI-compatible API | same `LLM_*` settings | Gemini's free tier allows only 20 requests a day |
