@@ -2,7 +2,7 @@
 
 Microsoft x Premier League **Inside the Game** developer hackathon. Source: [official rules](https://github.com/microsoft/insidethegamehackathon/blob/main/OFFICIAL%20RULES.md).
 
-Last updated 2026-10-23 (third pass: Players and 3D views, GitHub Copilot SDK pre-generation in all 16 languages, independent review, testing guide). Earlier: web app, Azure Translator, Container Apps deploy, MCP server, CI.
+Last updated 2026-10-23 (fourth pass: live on Azure Container Apps with a Microsoft Foundry model, Translator, Speech, Content Safety and Application Insights; full review against the rules). Earlier: Players and 3D views, GitHub Copilot SDK pre-generation in all 16 languages, independent review, testing guide, web app, MCP server, CI.
 
 ## Key dates
 
@@ -26,7 +26,7 @@ Full match replay (seed 7, Harbour City 4-1 Ironvale Athletic), analyst in Engli
 | Free tier limit | 8,000 tokens per minute (client waits and retries) | 20 requests per day; a match needs about 95 |
 | Verdict | Use for development and demos | Backup only |
 
-Microsoft Foundry: the account has no pay-per-token chat models. GPU managed-compute deployments of gpt-oss failed with internal errors and bill hourly whether used or not, so they were deleted. The client still supports Foundry through `FOUNDRY_*` in `.env`.
+Microsoft Foundry: the hosted app runs on a **gpt-4.1-mini** Global Standard deployment in Switzerland North, created by `infra/deploy.sh` (`FOUNDRY_MODEL=gpt-4.1-mini`). The first look, in Qatar Central, found no pay-per-token chat models; GPU managed-compute deployments of gpt-oss failed with internal errors and bill hourly whether used or not, so they were deleted. The subscription does have Global Standard quota in Switzerland North and Germany West Central.
 
 Other findings:
 
@@ -75,9 +75,9 @@ Since fixed: the fact checker now checks units too (km and yards written for met
 | Item | Status |
 |---|---|
 | Public GitHub repo, created after the hackathon started | Done |
-| Short pitch: what it is, which Microsoft and Azure tech, what problem it solves | **To do** |
-| Demo video under 2 minutes, public on YouTube or Vimeo, no third-party music or trademarks | **To do** |
-| Link for judges to test the project, free and unrestricted until Nov 10 | **Ready to deploy**: `infra/deploy.sh` to Azure Container Apps, see docs/AZURE.md |
+| Short pitch: what it is, which Microsoft and Azure tech, what problem it solves | Done: project page on the Hackathon Website (category, pitch, tech, testing instructions) |
+| Demo video under 2 minutes, public on YouTube or Vimeo, no third-party music or trademarks | Ready: `V7-players-and-3d.mp4`, 1:58.6. Narration is an Azure AI Speech neural voice, the music was generated for the video. **To do: upload to YouTube, add the link to the project page** |
+| Link for judges to test the project, free and unrestricted until Nov 10 | Done: <https://nutmeg-desk.wittyriver-692c9025.switzerlandnorth.azurecontainerapps.io>, no login, one replica kept warm until judging ends |
 | All materials in English | Done |
 
 ## Judging
@@ -92,23 +92,20 @@ Best category fit: **Best Multi-Agent System** (distinct agents, shared state, h
 |---|---|---|
 | TypeScript | Whole codebase in strict mode; Node runs it directly, tsc checks it in CI | Done |
 | Fluent UI React v9 | Second-screen app built on Microsoft's design system, light and dark | Done |
-| Azure AI Speech | Voice commentary, neural voice per language, browser voice as fallback | Live: free F0 resource in Qatar Central, tested in English and Arabic |
+| Azure AI Speech | Voice commentary, neural voice per language, browser voice as fallback | Live on the hosted app (free F0 resource in Qatar Central) |
 | Agent2Agent (A2A) | Agent card and JSON-RPC endpoint for other agents | Built and tested |
-| Azure AI Content Safety | Safety agent screens every model-written line before it airs | Built and contract-tested; needs a free F0 resource |
-| Azure Application Insights | Requests, model and Azure AI calls, match sessions, errors | Built and tested; needs a free resource |
-| Azure AI Translator | Translator agent localises fallback lines into the viewer's language | Live: free F0 resource in Qatar Central, tested end to end (38 of 40 lines translated in a Spanish match, about 2,000 characters) |
-| Azure Container Apps | Hosting with scale to zero, keys as secrets, health probes | Deploy script and workflow ready; needs a subscription |
-| Microsoft Foundry | Model provider, used first when configured | Built and contract-tested against a mock Azure OpenAI API; account has no pay-per-token model |
+| Azure AI Content Safety | Safety agent screens every model-written line before it airs | Live on the hosted app (free F0, created by the deploy script) |
+| Azure Application Insights | Requests, model and Azure AI calls, match sessions, errors | Live on the hosted app (created by the deploy script) |
+| Azure AI Translator | Translator agent localises fallback lines and English headlines into the viewer's language | Live on the hosted app (free F0 resource in Qatar Central) |
+| Azure Container Apps | Hosting with scale to zero, keys as secrets, health probes | Live in Switzerland North; the deploy script creates and wires every Azure AI resource |
+| Microsoft Foundry | Model provider, used first when configured | Live: the hosted app's model is gpt-4.1-mini (Global Standard) |
 | GitHub Actions | Strict type-check, tests on Node 22 and 24, web build, container build and smoke test, headless UI check, image publish | Runs on every push |
 | GitHub Container Registry | Free image hosting for the deploy | Runs on push to main |
 | MCP | Match tools for GitHub Copilot agent mode and other MCP clients | Built and tested |
 | GitHub Copilot SDK | Model provider for pre-generation: every shipped line in all 16 languages (Claude Sonnet 5.5 and Opus 5.5), and the independent review (GPT-6.1) | Used; see QUALITY.md and REVIEW.md |
 
-## Risks and open work, by priority
+## Open work
 
-1. **Deploy to Azure Container Apps** for the judges' link (docs/AZURE.md, step 2). The Translator is already live.
-2. **Optional: Azure Speech key** (docs/AZURE.md, step 1b) for neural voices in the video.
-3. **Finish pre-generation** with `npm run prewarm` over the next day or two: Groq's free tier allows about 200,000 tokens a day per model, and a full match and language uses about 110,000. Then `npm run quality` and commit `data/llm-cache` and `docs/QUALITY.md`.
-4. **Pitch and video** (under 2 minutes). Suggested flow: first-visit tour prompt, kick off, switch Analyst/Casual on the same goal, switch to Arabic with voice on, open Behind the broadcast to show a rejected line, show Studio mode over a pitch video, end on the recap.
-5. **Rotate the test API keys** after testing. Keys live only in `.env`, which git ignores.
-6. Optional: a Foundry chat model if any account allows one.
+1. **Upload V7 to YouTube** (public or unlisted, with the thumbnail and description in the Pitch folder) and add the link to the project page under Images/Video.
+2. **During judging (Oct 27 to Nov 10):** leave the app as it is. One replica stays warm; the Foundry deployment is capped at 50,000 tokens a minute.
+3. **After Nov 10:** `az containerapp update -n nutmeg-desk -g nutmeg-desk-ch --min-replicas 0`, rotate the Translator, Speech and Groq keys, or delete the resource group.
